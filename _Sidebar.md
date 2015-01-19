@@ -1,1 +1,2 @@
-* [Build Libbitcoin](Build)
+### Libbitcoin Menu
+* **[Build Libbitcoin](Build)**
