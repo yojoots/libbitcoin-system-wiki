@@ -4,9 +4,9 @@ We consider it important that libbitcoin support Bitcoin features to the extent 
 
 These considerations drive the outcome on this question. There are three [base58check](https://en.bitcoin.it/wiki/Base58Check_encoding) (serializable) primitives associated with [BIP-38](https://github.com/bitcoin/bips/blob/master/bip-0038.mediawiki), which libbitcoin refers to as follows:
 
-* `private_key` encrypted private key 
-* `public_key` encrypted public key
-* `intermediate` intermediate passphrase string
+* `private_key` : encrypted private key 
+* `public_key` : encrypted public key
+* `intermediate` : intermediate passphrase string
 
 In accordance with BIP-38 these have the following prefix values:
 ```cpp
