@@ -90,7 +90,7 @@ A possible problem would be inflexibility in the cosmetics of the first couple o
 It is also true that there is a finite domain of 256 values for the payment address version. However this issue cannot be resolved by expanding the domain of encrypted private keys that are coupled to that domain. It seems preferable to attach any change to the encrypted key domain to a corresponding expansion of the payment address domain.
 
 ### Effect on Serialized Artifacts
-The implementation as described has no impact on `intermediate` or `private_key` artifacts. These retain the cosmetic prefixes defined by BIP-38:
+The implementation as described has no impact on `intermediate` or `private_key` artifacts. These retain the cosmetic prefixes described by BIP-38:
 
 * `public_key` : "cfrm"
 * `intermediate` : "passphrase"
