@@ -1,6 +1,6 @@
 We consider it important that libbitcoin support Bitcoin features to the extent that they are envisioned by supported proposals. For example, the [payment address version](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-ec-to-address#example-4). There is no limit to the diversity of features that may deviate from this in altcoins, so its not possible for us to support all altcoins generally. We draw the line at support for *altchains*. To the extent that an *altcoin* appears like Bitcoin but with a different genesis block, we should support it.
 
-> Support beyond this criteria is not on the radar, with one exception. We will eventually support pluggable consensus checks, given that altchains are defined by distinct consensus. It is our goal to support altchains without a rebuild of any library. So one binary supports them all (with a requirement for additive consensus plugins).
+> Support beyond this criteria is not on the radar, with one exception. We will eventually support pluggable consensus checks, given that altchains are defined by distinct consensus rules. It is our goal to support altchains without a rebuild of any library. So one binary supports them all (with a requirement for additive consensus plugins).
 
 These considerations drive the outcome on this question. There are three base58check (serializable) primitives associated with [BIP-38](https://github.com/bitcoin/bips/blob/master/bip-0038.mediawiki), which libbitcoin refers to as follows:
 
