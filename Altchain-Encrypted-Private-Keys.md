@@ -53,7 +53,7 @@ BIP-38 carries the compression flag through the encoding. As a consequence there
 
 The first doesn’t even support testnet. The second is poor from a user scenario perspective. The third provides support for altchains that is consistent with BIP38 behavior for Bitcoin mainnet. There are two ways to implement this option:
 
- 1. Hard code a mapping between [well-known payment address versions](https://en.bitcoin.it/wiki/List_of_address_prefixes) and corresponding encrypted key versions.
+ 1. Hard code a mapping between [well-known payment address versions](https://en.bitcoin.it/wiki/List_of_address_prefixes) and corresponding encrypted key versions, and support expansion of this mapping as it evolves to fill the 256 bit domain.
  2. Define a deterministic bidirectional mapping between the payment address and the encrypted private key address.
 
 ### Proposal
