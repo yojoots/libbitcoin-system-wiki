@@ -2,7 +2,7 @@ We consider it important that libbitcoin support Bitcoin features to the extent 
 
 > Support beyond this criteria is not on the radar, with one exception. We will eventually support pluggable consensus checks, given that altchains are defined by distinct consensus rules. It is our goal to support altchains without a rebuild of any library. So one binary supports them all (with a requirement for additive consensus plugins).
 
-These considerations drive the outcome on this question. There are three base58check (serializable) primitives associated with [BIP-38](https://github.com/bitcoin/bips/blob/master/bip-0038.mediawiki), which libbitcoin refers to as follows:
+These considerations drive the outcome on this question. There are three [base58check](https://en.bitcoin.it/wiki/Base58Check_encoding) (serializable) primitives associated with [BIP-38](https://github.com/bitcoin/bips/blob/master/bip-0038.mediawiki), which libbitcoin refers to as follows:
 
 * `private_key` encrypted private key 
 * `public_key` encrypted public key
@@ -88,5 +88,4 @@ The only possible argument would be choice in the cosmetics of the first couple 
 ### Limited Payment Address Version Domain
 
 It is also true that there is a finite domain of 256 values for the payment address version. However this issue cannot be resolved by expanding the domain of encrypted private keys that are coupled to that domain. It seems preferable to attach any change to the encrypted key domain to a corresponding expansion of the payment address domain.
-
 
