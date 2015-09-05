@@ -1,0 +1,57 @@
+We consider it important that libbitcoin support Bitcoin features to the extent that they are envisioned by supported proposals. For example, the [payment address version](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-ec-to-address#example-4).
+
+There is no limit to the diversity of features that may deviate from this in altcoins, so its not possible for us to support all altcoins generally. We draw the line at support for *altchains*. To the extent that an *altcoin* appears like Bitcoin but with a different genesis block, we should support it. Beyond that is not on the radar, with one exception. We will eventually support pluggable consensus checks, given that altchains are defined by distinct consensus. It is our goal to support altchains without a rebuild of any library. So one binary supports them all (with a requirement for additive consensus plugins).
+
+These considerations drive the outcome on this question. There are three base58check (serializable) primitives associated with [BIP-38](https://github.com/bitcoin/bips/blob/master/bip-0038.mediawiki), which libbitcoin refers to as follows:
+
+* `private_key` encrypted private key 
+* `public_key` encrypted public key
+* `intermediate` intermediate passphrase string
+
+In accordance with BIP-38 these have the following prefix values:
+```cpp
+namespace prefix
+{
+    // This prefix results in the prefix "6P" in the base58 encoding.
+    static const data_chunk private_key
+    {
+        0x01, 0x42
+    };
+
+    // This prefix results in the prefix "6P" in the base58 encoding.
+    static const data_chunk private_key_multiplied
+    {
+        0x01, 0x43
+    };
+
+    // This prefix results in the prefix "cfrm" in the base58 encoding.
+    static const data_chunk public_key
+    {
+        0x64, 0x3b, 0xf6, 0xa8, 0x9a
+    };
+
+    // This prefix results in the prefix "passphrase" in the base58 encoding.
+    static const data_chunk lot_intermediate
+    {
+        0x2c, 0xe9, 0xb3, 0xe1, 0xff, 0x39, 0xe2, 0x51
+    };
+
+    // This prefix results in the prefix "passphrase" in the base58 encoding.
+    static const data_chunk intermediate
+    {
+        0x2c, 0xe9, 0xb3, 0xe1, 0xff, 0x39, 0xe2, 0x53
+    };
+}
+```
+The first byte of each of these is the [base58check version](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-base58check-encode#example-2). This of course should not be confused with a payment address base58check version. BIP-38 serializes payment addresses before hashing. So there is also a payment address version affecting each of the three primitives. Notably the “compression” option for ec public keys also affects these artifacts.
+
+BIP-38 carries the compression flag through the encoding. As a consequence there is no need to have knowledge of the compression value used in creation of the keys in order to decrypt the keys. This is not the case with the payment address version. One of three scenarios exist that are consistent with BIP-38:
+
+1. Payment addresses are always Bitcoin mainnet `0x01`, compression is specified at encryption time.
+2. Payment address version and compression are specified at encryption time,  and the correct payment address version must also be provided at decryption time.
+3. The payment address version and compression are specified only at encryption time.
+
+The first doesn’t even support testnet. The second is poor from a user scenario perspective. The third provides support for altchains that is consistent with the experience when using Bitcoin addresses. There are two ways to implement this option:
+
+ 1. Hard code a mapping between [well-known payment address versions](https://en.bitcoin.it/wiki/List_of_address_prefixes) and corresponding encrypted key versions.
+ 2. Define a deterministic mapping from the payment address to the encrypted private key address.
