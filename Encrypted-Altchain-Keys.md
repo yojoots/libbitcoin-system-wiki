@@ -51,7 +51,42 @@ BIP-38 carries the compression flag through the encoding. As a consequence there
 2. Payment address version and compression are specified at encryption time,  and the correct payment address version must also be provided at decryption time.
 3. The payment address version and compression are specified only at encryption time.
 
-The first doesn’t even support testnet. The second is poor from a user scenario perspective. The third provides support for altchains that is consistent with the experience when using Bitcoin addresses. There are two ways to implement this option:
+The first doesn’t even support testnet. The second is poor from a user scenario perspective. The third provides support for altchains that is consistent with BIP38 behavior for Bitcoin mainnet. There are two ways to implement this option:
 
  1. Hard code a mapping between [well-known payment address versions](https://en.bitcoin.it/wiki/List_of_address_prefixes) and corresponding encrypted key versions.
  2. Define a deterministic mapping from the payment address to the encrypted private key address.
+
+### Proposal
+
+Given that encrypted keys already have a dependency on payment address versions there appears to be no reason to support a non-deterministic version mapping. A deterministic mapping is straightforward and future-proofed against ongoing changes to declared address versions and encrypted key prefixes.
+
+### Backward Compatibility
+
+A deterministic mapping is straightforward. The payment address version can simply be coupled to the base58check version byte for a corresponding encrypted private key. There is however one idiosyncrasy required for backward compatibility.
+
+BIP-38 proposes `0x01` as the base58check version byte for `private_key`. Based on test vectors this corresponds to the Bitcoin mainnet payment address version of `0x00`. As such the following bidirectional mapping is proposed.
+
+```cpp
+static inline uint8_t convert_version(const uint8_t version)
+{
+    switch (version)
+    {
+        case 0:
+            return 1;
+        case 1:
+            return 0;
+        default:
+            return version;
+    }
+}
+```
+
+### Cosmetic Inflexibility
+
+The only possible argument would be choice in the cosmetics of the first couple of characters in encrypted private keys. This choice would remain with a deterministic mapping, but it would be coupled to the choice of payment address version. In other words each could not be independently chosen for the same altchain.
+
+### Limited Payment Address Version Domain
+
+It is also true that there is a finite domain of 256 values for the payment address version. However this issue cannot be resolved by expanding the domain of encrypted private keys that are coupled to that domain. It seems preferable to attach any change to the encrypted key domain to a corresponding expansion of the payment address domain.
+
+
