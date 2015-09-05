@@ -90,9 +90,9 @@ The only possible argument would be choice in the cosmetics of the first couple 
 It is also true that there is a finite domain of 256 values for the payment address version. However this issue cannot be resolved by expanding the domain of encrypted private keys that are coupled to that domain. It seems preferable to attach any change to the encrypted key domain to a corresponding expansion of the payment address domain.
 
 ### Effect on Serialized Artifacts
-The implementation as described has no impact on `intermediate` or private_key` artifacts. These retain the cosmetic prefixes defined by BIP-38:
+The implementation as described has no impact on `intermediate` or `private_key` artifacts. These retain the cosmetic prefixes defined by BIP-38:
 
-* `public_key` => "cfrm"
-* `intermediate` "passphrase"
+* `public_key` : "cfrm"
+* `intermediate` : "passphrase"
 
 As such these values will remain chain-ambiguous. However had the intent been to associate these values by chain it seems unlikely that these natural language prefixes would have been chosen, as they have no self-evident correlation to the cryptic `6P` value. Any deterministic deviation would require that these natural language cosmetics be abandoned. Additionally the scenario objectives are satisfied without mutating the cosmetics of these serializations.
