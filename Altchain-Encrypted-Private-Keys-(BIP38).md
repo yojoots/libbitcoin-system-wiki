@@ -47,8 +47,8 @@ The first byte of each of these is the [base58check version](https://github.com/
 
 BIP-38 carries the compression flag through the encoding. As a consequence there is no need to have knowledge of the compression value used in creation of the keys in order to decrypt the keys. This is not the case with the payment address version. One of three scenarios exist that are consistent with BIP-38:
 
-1. Payment addresses are always Bitcoin mainnet `0x01`, compression is specified at encryption time.
-2. Payment address version and compression are specified at encryption time,  and the correct payment address version must also be provided at decryption time.
+1. The payment address version is always Bitcoin mainnet `0x01` (with compression specified at encryption time).
+2. The payment address version and compression are specified at encryption time, and the correct payment address version *must also* be provided at decryption time.
 3. The payment address version and compression are specified only at encryption time.
 
 The first doesn’t even support testnet. The second is poor from a user scenario perspective. The third provides support for altchains that is consistent with BIP38 behavior for Bitcoin mainnet. There are two ways to implement this option:
@@ -88,3 +88,11 @@ The only possible argument would be choice in the cosmetics of the first couple 
 ### Limited Payment Address Version Domain
 
 It is also true that there is a finite domain of 256 values for the payment address version. However this issue cannot be resolved by expanding the domain of encrypted private keys that are coupled to that domain. It seems preferable to attach any change to the encrypted key domain to a corresponding expansion of the payment address domain.
+
+### Effect on Serialized Artifacts
+The implementation as described has no impact on `intermediate` or private_key` artifacts. These retain the cosmetic prefixes defined by BIP-38:
+
+* `public_key` => "cfrm"
+* `intermediate` "passphrase"
+
+As such these values will remain chain-ambiguous. However had the intent been to associate these values by chain it seems unlikely that these natural language prefixes would have been chosen, as they have no self-evident correlation to the cryptic `6P` value. Any deterministic deviation would require that these natural language cosmetics be abandoned. Additionally the scenario objectives are satisfied without mutating the cosmetics of these serializations.
