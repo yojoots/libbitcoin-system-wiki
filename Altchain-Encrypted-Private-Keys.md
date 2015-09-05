@@ -95,4 +95,4 @@ The implementation as described has no impact on `intermediate` or `private_key`
 * `public_key` : "cfrm"
 * `intermediate` : "passphrase"
 
-As such these values will become chain ambiguous. However had the intent been to associate these values by chain it seems unlikely that these natural language prefixes would have been chosen, as they have no self-evident correlation to the cryptic `6P` value. Any deterministic deviation would require abandoning these natural language cosmetics. Additionally the scenario objectives are satisfied without mutating the cosmetics of these serializations.
+As such these values will become chain ambiguous. However had the intent been to associate these values by chain it seems unlikely that these natural language prefixes would have been chosen, as they have no self-evident correlation to the cryptic `6P` value. Any deterministic deviation would require abandoning these natural language cosmetics. Additionally the scenario objectives are satisfied without mutating these serializations.
