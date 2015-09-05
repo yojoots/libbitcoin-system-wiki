@@ -83,7 +83,7 @@ static inline uint8_t convert_version(const uint8_t version)
 
 ### Cosmetic Inflexibility
 
-The only possible argument would be choice in the cosmetics of the first couple of characters in encrypted private keys. This choice would remain with a deterministic mapping, but it would be coupled to the choice of payment address version. In other words each could not be independently chosen for the same altchain.
+A possible problem would be inflexibility in the cosmetics of the first couple of characters in encrypted private keys. Some choice would remain with a deterministic mapping, but it would be coupled to the choice of payment address version and would be limited to one byte. In other words each could not be independently chosen for the same altchain.
 
 ### Limited Payment Address Version Domain
 
