@@ -43,7 +43,7 @@ namespace prefix
     };
 }
 ```
-The first byte of each of these is the [base58check version](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-base58check-encode#example-2). This of course should not be confused with a payment address base58check version. BIP-38 serializes payment addresses before hashing. So there is also a payment address version affecting each of the three primitives. Notably the “compression” option for ec public keys also affects these artifacts.
+The first byte of each of these is the [base58check version](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-base58check-encode#example-2). This of course should not be confused with a payment address base58check version. BIP-38 serializes payment addresses before hashing. So there is also a payment address version affecting each of the three primitives. Notably the [compression option for ec public keys](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-ec-to-address#example-1) also affects these artifacts.
 
 BIP-38 carries the compression flag through the encoding. As a consequence there is no need to have knowledge of the compression value used in creation of the keys in order to decrypt the keys. This is not the case with the payment address version. One of three scenarios exist that are consistent with BIP-38:
 
@@ -88,4 +88,3 @@ The only possible argument would be choice in the cosmetics of the first couple 
 ### Limited Payment Address Version Domain
 
 It is also true that there is a finite domain of 256 values for the payment address version. However this issue cannot be resolved by expanding the domain of encrypted private keys that are coupled to that domain. It seems preferable to attach any change to the encrypted key domain to a corresponding expansion of the payment address domain.
-
