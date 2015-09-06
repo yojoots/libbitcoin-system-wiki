@@ -31,13 +31,13 @@ namespace prefix
     };
 
     // This prefix results in the prefix "passphrase" in the base58 encoding.
-    static const data_chunk lot_intermediate
+    static const data_chunk lot_token
     {
         0x2c, 0xe9, 0xb3, 0xe1, 0xff, 0x39, 0xe2, 0x51
     };
 
     // This prefix results in the prefix "passphrase" in the base58 encoding.
-    static const data_chunk intermediate
+    static const data_chunk plain_token
     {
         0x2c, 0xe9, 0xb3, 0xe1, 0xff, 0x39, 0xe2, 0x53
     };
@@ -53,8 +53,8 @@ BIP-38 carries the compression flag through the encoding. As a consequence there
 
 The first doesn’t even support testnet. The second is poor from a user scenario perspective. The third provides support for altchains that is consistent with BIP38 behavior for Bitcoin mainnet. There are two ways to implement this option:
 
- 1. Hard code a mapping between [well-known payment address versions](https://en.bitcoin.it/wiki/List_of_address_prefixes) and corresponding encrypted key versions, and support expansion of this mapping as it evolves to fill the 256 bit domain.
- 2. Define a deterministic bidirectional mapping between the payment address and the encrypted private key address.
+ 1. Hard code a partial mapping between [well-known payment address versions](https://en.bitcoin.it/wiki/List_of_address_prefixes) and corresponding encrypted key versions, and deploy universal code changes as this mapping evolves to fill the 256 bit domain.
+ 2. Define a deterministic bidirectional mapping between the payment address and the encrypted key addresses.
 
 ### BIP-38 Suggestions Regarding Altchains
 > Alt-chain implementers should exploit the address hash for this purpose. Since each operation in this proposal involves hashing a text representation of a coin address which (for Bitcoin) includes the leading '1', an alt-chain can easily be denoted simply by using the alt-chain's preferred format for representing an address. Alt-chain implementers may also change the prefix such that encrypted addresses do not start with "6P". [[hyperlink](https://github.com/bitcoin/bips/blob/master/bip-0038.mediawiki#suggestions-for-implementers-of-proposal-with-alt-chains)]
@@ -67,22 +67,25 @@ Given that encrypted keys already have a dependency on payment address versions 
 
 ### Backward Compatibility
 
-A deterministic mapping is straightforward. The payment address version can simply be coupled to the base58check version byte for a corresponding encrypted private key. There is however one idiosyncrasy required for backward compatibility.
+The payment address version can simply be coupled to the base58check version byte for a corresponding encrypted private key. There is however one idiosyncrasy required for backward compatibility.
 
 BIP-38 proposes `0x01` as the base58check version byte for `private_key`. Based on test vectors this corresponds to the Bitcoin mainnet payment address version of `0x00`. As such the following bidirectional mapping is proposed.
 
 ```cpp
-static inline uint8_t convert_version(const uint8_t version)
+uint8_t address_to_prefix(const uint8_t address_version,
+    const std::vector<uint8_t>& default_prefix)
 {
-    switch (version)
-    {
-        case 0:
-            return 1;
-        case 1:
-            return 0;
-        default:
-            return version;
-    }
+    const auto default_prefix_version = default_prefix[0];
+    return address_version == payment_address::pubkey_version ?
+        default_prefix_version : address_version;
+}
+
+uint8_t prefix_to_address(const uint8_t prefix_version,
+    const std::vector<uint8_t>& default_prefix)
+{
+    const auto default_prefix_version = default_prefix[0];
+    return prefix_version == default_prefix_version ?
+        payment_address::pubkey_version : prefix_version;
 }
 ```
 
