@@ -100,4 +100,4 @@ It is also true that there is a finite domain of 256 values for the payment addr
 ### Effect on Serialized Artifacts
 The implementation as described has no impact on intermediate passphrase `token` serialization. This artifact retains its encoded prefix of "passphrase" and as such this value will be chain ambiguous.
 
-BIP-38 declares the natural language abbreviation (confirm) prefix `cfrm` for the `public_key` and `6P` for the `private_key`, where the `P` prepresents password protection and `6` is intended to deconflict with typical WIF keys. Deterministic derivation from the payment address version abandons a natural language prefix for both the `private_key` and `public_key` prefixes.
+BIP-38 declares the natural language abbreviation (confirm) prefix `cfrm` for the `public_key` and `6P` for the `private_key`, where the `P` represents password protection and `6` is intended to deconflict with typical WIF keys. Deterministic derivation from the payment address version abandons a natural language prefix for both the `private_key` and `public_key` prefixes.
