@@ -6,7 +6,7 @@ These considerations drive the outcome on this question. There are three [base58
 
 * `private_key` : encrypted private key 
 * `public_key` : encrypted public key
-* `intermediate` : intermediate passphrase string
+* `token` : intermediate passphrase string
 
 In accordance with BIP-38 these have the following prefix values:
 ```cpp
@@ -45,16 +45,21 @@ namespace prefix
 ```
 The first byte of each of these is the [base58check version](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-base58check-encode#example-2). This of course should not be confused with a payment address base58check version. BIP-38 serializes payment addresses before hashing. So there is also a payment address version affecting each of the three primitives. Notably the [compression option for ec public keys](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-ec-to-address#example-1) also affects these artifacts.
 
-BIP-38 carries the compression flag through the encoding. As a consequence there is no need to have knowledge of the compression value used in creation of the keys in order to decrypt the keys. This is not the case with the payment address version. One of three scenarios exist that are consistent with BIP-38:
+BIP-38 carries the compression flag through the encoding. As a consequence there is no need to have knowledge of the compression value used in creation of the keys in order to decrypt the keys. This is not the case with the payment address version. Three options exist that are consistent with BIP-38:
 
 1. The payment address version is always Bitcoin mainnet `0x01` (with compression specified at encryption time).
-2. The payment address version and compression are specified at encryption time, and the correct payment address version *must also* be provided at decryption time.
+2. The payment address version and compression are specified at encryption time, and the correct payment address version *must also* be provided at decryption time. This apples to decryption of both the private key and the public key if one desires to reconstitute a payment address - as envisioned by BIP-38.
 3. The payment address version and compression are specified only at encryption time.
 
 The first doesn’t even support testnet. The second is poor from a user scenario perspective. The third provides support for altchains that is consistent with BIP38 behavior for Bitcoin mainnet. There are two ways to implement this option:
 
  1. Hard code a mapping between [well-known payment address versions](https://en.bitcoin.it/wiki/List_of_address_prefixes) and corresponding encrypted key versions, and support expansion of this mapping as it evolves to fill the 256 bit domain.
  2. Define a deterministic bidirectional mapping between the payment address and the encrypted private key address.
+
+### BIP-38 Suggestions Regarding Altchains
+> Alt-chain implementers should exploit the address hash for this purpose. Since each operation in this proposal involves hashing a text representation of a coin address which (for Bitcoin) includes the leading '1', an alt-chain can easily be denoted simply by using the alt-chain's preferred format for representing an address. Alt-chain implementers may also change the prefix such that encrypted addresses do not start with "6P". [[hyperlink](https://github.com/bitcoin/bips/blob/master/bip-0038.mediawiki#suggestions-for-implementers-of-proposal-with-alt-chains)]
+
+The above doesn't consider that by not hard coding the payment address version into applications the scenario is substandard for altchain usage, as described previously.
 
 ### Proposal
 
