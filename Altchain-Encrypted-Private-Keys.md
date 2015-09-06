@@ -91,16 +91,13 @@ uint8_t prefix_to_address(const uint8_t prefix_version,
 
 ### Cosmetic Inflexibility
 
-A possible problem would be inflexibility in the cosmetics of the first couple of characters in encrypted private keys. Some choice would remain with a deterministic mapping, but it would be coupled to the choice of payment address version and would be limited to one byte. In other words each could not be independently chosen for the same altchain.
+A possible problem would be inflexibility in the cosmetics of the first couple of characters in encrypted keys. Some choice would remain with a deterministic mapping, but it would be coupled to the choice of payment address version and would be limited to one byte. In other words each could not be independently chosen for the same altchain.
 
 ### Limited Payment Address Version Domain
 
-It is also true that there is a finite domain of 256 values for the payment address version. However this issue cannot be resolved by expanding the domain of encrypted private keys that are coupled to that domain. It seems preferable to attach any change to the encrypted key domain to a corresponding expansion of the payment address domain.
+It is also true that there is a finite domain of 256 values for the payment address version. However this issue cannot be resolved by expanding the domain of encrypted private keys that are coupled to that domain. It seems preferable to attach any expansion to the encrypted key domain to a corresponding expansion of the payment address domain.
 
 ### Effect on Serialized Artifacts
-The implementation as described has no impact on `intermediate` or `private_key` artifacts. These retain the cosmetic prefixes described by BIP-38:
+The implementation as described has no impact on intermediate passphrase `token` serialization. This artifact retains it's encoded prefix of "passphrase". As such this value will become chain ambiguous. However had the intent been to associate this values by chain it seems unlikely that a natural language prefix would have been chosen, as it has no self-evident correlation to the cryptic `6P` value. Any deterministic deviation would require abandoning a natural language prefix. The scenario objectives are satisfied without mutating this value.
 
-* `public_key` : "cfrm"
-* `intermediate` : "passphrase"
-
-As such these values will become chain ambiguous. However had the intent been to associate these values by chain it seems unlikely that these natural language prefixes would have been chosen, as they have no self-evident correlation to the cryptic `6P` value. Any deterministic deviation would require abandoning these natural language cosmetics. Additionally the scenario objectives are satisfied without mutating these serializations.
+Both the `private_key` and `public_key` prefixes will be modified deterministically in association with the Bitcoin address prefix. BIP-38 chose a natural language prefix `cfrm` for the `public_key` but the arbitrary `6P` prefix for the `private_key`. This asymmetry cannot be maintained deterministically, so the `cfrm` prefix will be arbitrarily mutated by payment address version just as with the `6P` prefix.
