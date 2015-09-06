@@ -69,7 +69,7 @@ Given that encrypted keys already have a dependency on payment address versions 
 
 The payment address version can simply be coupled to the base58check version byte for a corresponding encrypted private key. There is however one idiosyncrasy required for backward compatibility.
 
-BIP-38 proposes `0x01` as the base58check version byte for `private_key`. Based on test vectors this corresponds to the Bitcoin mainnet payment address version of `0x00`. As such the following bidirectional mapping is proposed.
+BIP-38 proposes `0x01` as the base58check version byte for `private_key` and `0x64` for `public_key`. These correspond to the Bitcoin mainnet payment address version of `0x00`. As such the following bidirectional mapping is proposed.
 
 ```cpp
 uint8_t address_to_prefix(const uint8_t address_version,
