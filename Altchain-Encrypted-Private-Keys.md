@@ -98,11 +98,6 @@ A possible problem would be inflexibility in the cosmetics of the first couple o
 It is also true that there is a finite domain of 256 values for the payment address version. However this issue cannot be resolved by expanding the domain of encrypted private keys that are coupled to that domain. It seems preferable to attach any expansion to the encrypted key domain to a corresponding expansion of the payment address domain.
 
 ### Effect on Serialized Artifacts
-The implementation as described has no impact on intermediate passphrase `token` serialization. This artifact retains it's encoded prefix of "passphrase". As such this value will become chain ambiguous. However had the intent been to associate this values by chain it seems unlikely that a natural language prefix would have been chosen, as it has no self-evident correlation to the cryptic `6P` value. Any deterministic deviation would require abandoning a natural language prefix. The scenario objectives are satisfied without mutating this value.
+The implementation as described has no impact on intermediate passphrase `token` serialization. This artifact retains its encoded prefix of "passphrase" and as such this value will be chain ambiguous.
 
-Both the `private_key` and `public_key` prefixes will be modified deterministically in association with the Bitcoin address prefix. BIP-38 chose a natural language prefix `cfrm` for the `public_key` but the arbitrary `6P` prefix for the `private_key`. This asymmetry cannot be maintained deterministically, so the `cfrm` prefix will be arbitrarily mutated by payment address version just as with the `6P` prefix.
-
-### Implementations
-* [libbitcoin](https://github.com/libbitcoin/libbitcoin) key encryption API
-* [libbitcoin-explorer](https://github.com/libbitcoin/libbitcoin-explorer) key encryption API
-* Bitcoin Explorer [key encryption commands](https://github.com/libbitcoin/libbitcoin-explorer/wiki/Key-Encryption-Commands)
+BIP-38 declares the natural language abbreviation (confirm) prefix `cfrm` for the `public_key` and `6P` for the `private_key`, where the `P` prepresents password protection and `6` is intended to deconflict with typical WIF keys. Deterministic derivation from the payment address version abandons a natural language prefix for both the `private_key` and `public_key` prefixes.
