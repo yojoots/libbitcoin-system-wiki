@@ -65,5 +65,5 @@ The scenario should be:
  5. The owner extracts the `payment address` from the `encrypted private key` using the passphrase.
 
  * Steps 1 and 5 **must** be carried out on a trusted platform by the owner.
- * The printer will have knowledge of the `public key` (and `payment address`).
+ * The printer **will** have knowledge of the `public key` (and `payment address`).
  * Lot and sequence validation can be applied via the `encrypted private key` as well.
