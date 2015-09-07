@@ -72,16 +72,14 @@ The payment address version can simply be coupled to the base58check version byt
 For the base58check version byte BIP-38 uses `0x01` for `private_key` and `0x64` for `public_key`. These correspond to the Bitcoin mainnet payment address version of `0x00`. As such the following bidirectional mapping is proposed.
 
 ```cpp
-uint8_t address_to_prefix(const uint8_t address_version,
-    const std::vector<uint8_t>& default_prefix)
+uint8_t address_to_prefix(const uint8_t address_version, const data_chunk& default_prefix)
 {
     const auto default_prefix_version = default_prefix[0];
     return address_version == payment_address::pubkey_version ?
         default_prefix_version : address_version;
 }
 
-uint8_t prefix_to_address(const uint8_t prefix_version,
-    const std::vector<uint8_t>& default_prefix)
+uint8_t prefix_to_address(const uint8_t prefix_version, const data_chunk& default_prefix)
 {
     const auto default_prefix_version = default_prefix[0];
     return prefix_version == default_prefix_version ?
