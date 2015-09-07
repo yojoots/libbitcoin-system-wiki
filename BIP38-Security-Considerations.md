@@ -54,7 +54,7 @@ The name `confirmation code` is misleading from a security standpoint and compli
 In the name `intermediate code` the term "intermediate" is vague, as there are several steps and artifacts in the scenario. The term "code" does not refine "intermediate" as all of the artifacts are codes of some sort. In the interest of clarity and brevity libbitcoin refers to the `intermediate code` as a `token`.
 
 ### Recommendations
-Given that the *multiply mode* scenario rests on the presumption that the owner cannot trust the printer, we conclude that there is no valid use case for the `confirmation code`. We strongly recommend against use of the `confirmation code` and that BIP-38 be modified to remove the [Confirmation Code](https://github.com/bitcoin/bips/blob/master/bip-0038.mediawiki#confirmation-code) section altogether.
+Given that the **multiply mode** scenario rests on the presumption that the owner cannot trust the printer, we conclude that there is no valid use case for the `confirmation code`. We strongly recommend against use of the `confirmation code` and that BIP-38 be modified to remove the [Confirmation Code](https://github.com/bitcoin/bips/blob/master/bip-0038.mediawiki#confirmation-code) section altogether.
 
 The scenario should be:
 
