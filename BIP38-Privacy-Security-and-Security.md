@@ -59,8 +59,8 @@ Given that the *multiply mode* scenario rests on the presumption that the owner 
  1. The owner creates a `token` using a secret passphrase.
  2. The owner provides the `token` to the printer.
  3. The printer generates an `encrypted private key` from the `token`.
- 5. The owner obtains the `payment address` from the `encrypted private key` using the passphrase.
  4. The printer provides the `encrypted private key` to the owner.
+ 5. The owner obtains the `payment address` from the `encrypted private key` using the passphrase.
 
  * Steps 1 and 5 **must** be carried out on a trusted platform by the owner.
  * The printer will have knowledge of the `public key` (and `payment address`).
