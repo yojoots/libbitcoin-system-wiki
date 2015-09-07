@@ -37,7 +37,7 @@ The printer could generate a valid `confirmation code` using the owner's `interm
 ### Observations
 In all respects the `confirmation code` is actually a public analog to the `encrypted private key`. In other words it retains the encrypted `public key` of the `private key` that is encrypted within the `encrypted private key`. As such, using the original passphrase, only the owner can decrypt the `confirmation code`. However the printer has access to its `public key` as well, so this offers no protection against the printer.
 
-The `confirmation code` cannot be used to validate the `encrypted private key`. Protecting against denial of money by the printer requires the `owner` to validate the `encrypted private key` provided by the printer against the `payment address` using the original passphrase. This is the only way the owner protect against both theft and denial of money.
+The `confirmation code` cannot be used to validate the `encrypted private key`. Protecting against denial of money by the printer requires the `owner` to validate the `encrypted private key` provided by the printer against the `payment address` using the original passphrase. This is the only way the owner protects against both theft and denial of money.
 
 ### Relevant BIP-38 Statements
 > ...if the `payment address` can be recreated by decrypting its `encrypted private key` with a passphrase, and it's a strong passphrase one can be certain only he knows himself, then he can safely conclude that nobody could know the `private key` to that `payment address`.
