@@ -66,4 +66,4 @@ The scenario should be:
 
  * Steps 1 and 5 **must** be carried out on a trusted platform by the owner.
  * The printer **will** have knowledge of the `public key` (and `payment address`).
- * Lot and sequence validation can be applied via the `encrypted private key` as well.
+ * Lot and sequence validation (as applicable) **must** be applied via the `encrypted private key`.
