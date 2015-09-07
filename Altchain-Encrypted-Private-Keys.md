@@ -101,4 +101,4 @@ The implementation as described has no impact on intermediate passphrase `token`
 BIP-38 declares the natural language abbreviation (confirm) prefix `cfrm` for the `public_key` and `6P` for the `private_key`, where the `P` represents password protection and `6` is intended to deconflict with typical WIF keys. Deterministic derivation from the payment address version abandons a natural language prefix for both the `private_key` and `public_key` prefixes.
 
 ### See Also
-Bitcoin Explorer [Key Encryption Commands](https://github.com/libbitcoin/libbitcoin-explorer/wiki/Key-Encryption-Commands)
+Bitcoin Explorer [key encryption commands](https://github.com/libbitcoin/libbitcoin-explorer/wiki/Key-Encryption-Commands)
