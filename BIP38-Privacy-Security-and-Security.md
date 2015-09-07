@@ -10,7 +10,7 @@ It also makes use of existing standard artifacts:
 * `public key`
 * `payment address`
 
-The scenario for which these artifacts are defined envisions two actors, an `owner` and a `printer`.
+The multiply mode scenario envisions two actors, an `owner` and a `printer`.
 
  1. The owner creates an `intermediate code` using a secret passphrase (on a trusted platform).
  2. The owner provides the `intermediate code` to the printer.
