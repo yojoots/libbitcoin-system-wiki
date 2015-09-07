@@ -67,3 +67,6 @@ The scenario should be:
  * Steps 1 and 5 **must** be carried out on a trusted platform by the owner.
  * The printer **will** have knowledge of the `public key` (and `payment address`).
  * Lot and sequence validation (as applicable) **must** use the `encrypted private key`.
+
+### See Also
+Bitcoin Explorer [key encryption commands](https://github.com/libbitcoin/libbitcoin-explorer/wiki/Key-Encryption-Commands)
