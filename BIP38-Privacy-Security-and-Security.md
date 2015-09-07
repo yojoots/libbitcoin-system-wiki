@@ -4,7 +4,7 @@ In **multiply mode** BIP-38 defines three new artifacts:
 * `confirmation code`
 * `encrypted private key`
 
-It also makes use of existing Bitcoin artifacts:
+It also makes use of existing standard artifacts:
 
 * `private key`
 * `public key`
