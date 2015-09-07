@@ -1,6 +1,6 @@
 There is no limit to the potential deviation of an *altcoin* from Bitcoin standards, so its not possible for us to support all altcoins generally. We do strive to support *altchains*. In other words, to the extent that an alt uses Bitcoin standards, but with distinct consensus rules, we intend to support it.
 
-> It is our goal to support altchains without a rebuild of any library, so any compiled libbitcoin binary supports them all. This cannot be generally extended to consensus deviations so it is our intent to implement pluggable consensus modules. We currently support testnet but this will not be entirely free of conditional compilation until the version3 release.
+It is our goal to support altchains without a rebuild of any library, so any compiled libbitcoin binary supports them all. This cannot be generally extended to consensus deviations so it is our intent to implement pluggable consensus modules. We currently support testnet but this will not be entirely free of conditional compilation until the version3 release.
 
 These considerations drive the outcome on this question. There are three [base58check](https://en.bitcoin.it/wiki/Base58Check_encoding) (serializable) primitives associated with [BIP-38](https://github.com/bitcoin/bips/blob/master/bip-0038.mediawiki), which libbitcoin refers to as follows:
 
