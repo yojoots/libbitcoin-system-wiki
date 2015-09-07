@@ -20,7 +20,7 @@ The scenario for which these artifacts are defined envisions two actors, an `own
  7. The printer has no ability to obtain the corresponding `private key` without the original passphrase.
 
 ### Privacy
-From a privacy standpoint the only material issue is that the owner has given the printer knowledge of the public key of one of the owner's private keys. This means that any payment to an address derived from that public key can be associated with the owner's person (i.e. tainted). The printer is therefore trusted to not disclose this association.
+From a privacy standpoint the only material issue is that the owner has given the printer knowledge of the `public key` of an owner `private key`. This means that any payment to a `payment address` derived from that `public key` can be associated with the owner's person (i.e. tainted). The printer is therefore trusted to not disclose this association.
 
 ### Security
 The owner must validate information returned from the printer. Otherwise there are several ways the printer can steal (i.e. intentionally) or lose (i.e. through negligence) the owner's money. Validation must be done on a trusted platform, such as the one first used to generate the `intermediate code`. Otherwise the `private key` of the `encrypted private key` may have been compromised.
