@@ -1,4 +1,4 @@
-In **multiply mode** BIP-38 defines three new artifacts:
+In **multiply mode** [BIP-38](https://github.com/bitcoin/bips/blob/master/bip-0038.mediawiki) defines three new artifacts:
 
 * `intermediate code`
 * `confirmation code`
