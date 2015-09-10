@@ -101,7 +101,7 @@ In BIP38 terminology, an [intermediate code](https://github.com/bitcoin/bips/blo
 
 However the token cannot carry the owner's required address constraints, specifically version but also compression. This limits the utility of the token. A printer can generate keys for addresses that pass validation via the owner's passphrase but are nonetheless not usable by the owner due to use compression. The printer is in control of the public key compression state in generated encrypted keys.
 
-Similarly, in the proposed version mapping it is not possible for the owner to constrain the address version. As with key compression, it can only be validated by obtaining the value and explicitly comparing it to what is desired.
+Similarly, in the proposed version mapping it is not possible for the owner to constrain the address version. As with key compression, it can only be validated by obtaining the value and explicitly comparing it to what is desired. This could be resolved by modifying the proposal to hash compression and version information into the intermediate code.
 
 ### See Also
 Bitcoin Explorer [key encryption commands](https://github.com/libbitcoin/libbitcoin-explorer/wiki/Key-Encryption-Commands)
