@@ -80,7 +80,9 @@ It is also true that there is a finite domain of 256 values for the payment addr
 ### Effect on Serialized Artifacts
 The implementation as described has no impact on intermediate passphrase `token` serialization. This artifact retains its encoded prefix of "passphrase" but does not incorporate the address version, and as such this value will be chain ambiguous.
 
-BIP-38 declares the natural language abbreviation (confirm) prefix `cfrm` for the `public_key` and `6P` for the `private_key`, where the `P` represents password protection and `6` is intended to deconflict with typical WIF keys. The `cfrm` prefix is preserved, and the three characters following the confirmation are consistent within a narrow range. Similarly the `private_key` prefix is predicable for a given address version, within a narrow range.
+BIP-38 declares the prefix `6P` for the `private_key`, where the `P` represents password protection and `6` is intended to deconflict with typical WIF keys. This prefix will vary by payment address version and is predicable for a given address version, within a narrow range.
+
+BIP-38 declares the natural language abbreviation prefix `cfrm` for the `public_key`. This prefix is preserved, and the three characters following the confirmation also vary by payment address within a narrow range.
 
 The limited encoded prefix ambiguity is similar to that which exists for [payment addresses](https://en.bitcoin.it/wiki/List_of_address_prefixes). For example, a testnet payment address begins with either `m` or `n`. Similarly the testnet `private_key` can begins with either `8E` or `8F`.
 
