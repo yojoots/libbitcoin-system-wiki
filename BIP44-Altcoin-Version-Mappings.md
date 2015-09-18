@@ -1,7 +1,7 @@
 
 The foundational libbitcoin table below is a work-in-progress... 
 
-It is a "Rosetta Stone" used to effectively translate Bitcoin private keys and public addresses to those used by a number of altcoins with strong Bitcoin heritage. It provides important --version (-v) base10 integer values for the following **bitcoin-explorer** commands when applying them to altcons:
+It is a "Rosetta Stone" used to effectively translate Bitcoin private keys and public addresses to those used by a number of altcoins with strong Bitcoin heritage. It provides important --version (-v) base10 integer values for the following **bitcoin-explorer** commands when applying them to altcoins:
 
 * base58check-encode
 * ec-to-address
