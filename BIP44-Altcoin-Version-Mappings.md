@@ -1,8 +1,43 @@
-## Integrating BIP 32, 38, 39, 44, and 63 Technologies with Altcoins   
+### Easy Inheritance of BIP [32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki), [38](https://github.com/bitcoin/bips/blob/master/bip-0038.mediawiki), [39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki), [44](https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki), and 63 (Stealth Addresses) Technologies for Altcoin Use
 
-The libbitcoin table below is a work-in-progress... Accuracy of portions of this table is questionable (~90% accurate) until vetted by other subject matter experts, but the pattern for how it is applied to altcoins is well understood. This table most definitely complements [SLIP 44] (http://doc.satoshilabs.com/slips/slip-0044.html) referenced within [BIP44] (https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki#registered-coin-types)
+Libbitcoin has an established the bitcoin-explorer **(bx)** command line interface that provides substantial BIP 32, 38, 39, and 63 support.  BIP 44 support results from how BIP 32 is applied, and the application of the table below not only for BTC but numerous other altcoins.
 
-## BIP44 Altcoin Version Mapping Table
+*1) BIP 32 and 44 Example: Apply m/44’/5’/0’/0/0 example to create a compressed Dash private key.*
+```
+% echo 'very complex gibberish' | bx base16-encode | bx sha256 | bx hd-new | bx hd-private -d -i 44 | bx hd-private -d -i 5 | bx hd-private -d -i 0 | bx hd-private -i 0 | bx hd-private -i 0 | bx hd-to-ec | sed 's/$/01/' | bx base58check-encode -v 204                                                                     
+XH2Yndjv6Ks3XEHGaSMDhUMTAMZTTWv5nEN958Y7VMyQXBCJVQmM 
+
+% echo 'tprv8iBUTxFHtPMKmrQDN4yjCPWmNBT9ZPZZeSFgxNLnAhmNmsHVmFxENnREcdEQXLVUoE3invSjhTjDsHfCrVtijVvVYbj6XWfH6DmQnXQvQoZ' | bx hd-private -i 0 | bx hd-to-ec | sed 's/$/01/' | bx base58check-encode -v 204
+XH2Yndjv6Ks3XEHGaSMDhUMTAMZTTWv5nEN958Y7VMyQXBCJVQmM
+```
+
+*2) BIP 32 and 44 Example: Apply m/44’/5’/0’/0/0 to create a compressed Dash public addresses for up to 4 billions addresses much more safely on an online machine!!!*
+```
+% echo 'very complex gibberish' | bx base16-encode | bx sha256 | bx hd-new | bx hd-private -d -i 44 | bx hd-private -d -i 5 | bx hd-private -d -i 0 | bx hd-public  -i 0         | bx hd-public  -i 0 | bx hd-to-ec | bx ec-to-address -v 76   
+Xb9HJy46M9u3SLAWVitS4eV6gEMuVFfZX2 <- Don't use the command above on an online computer!
+
+% echo 'tpubDEsWcNHY2m2zfKS1FieKboAswCy5iikUDjrUEtP5ayZmcMYGPempZH36nn9MTMpRqcXowhdDTGwsPu5pcGJ95g6kVKTN7ynmc5pKjjURSqz' | bx hd-public  -i 0 | bx hd-to-ec | bx    ec-to-address -v 76
+Xb9HJy46M9u3SLAWVitS4eV6gEMuVFfZX2  <- Don't be afraid to apply the command above on an online computer (Could be a death knell to PCI-DSS Compliance for eCommerce if cryptocurrencies become more widely adopted)
+
+% echo 'tpubDEsWcNHY2m2zfKS1FieKboAswCy5iikUDjrUEtP5ayZmcMYGPempZH36nn9MTMpRqcXowhdDTGwsPu5pcGJ95g6kVKTN7ynmc5pKjjURSqz' | bx hd-public  -i 1 | bx hd-to-ec | bx    ec-to-address -v 76
+XpTtgbcURSBfcuo8FZsNFeGrsCSi3jarAi  <- Don't be afraid to apply the command above on an online computer
+```
+
+3) *Example: create BIP 39 master seed in Spanish from a weak English brainwallet seed. (Should be altcoin independent.)*
+```
+% echo 'very complex gibberish' | bx base16-encode | bx sha512 | bx mnemonic-new -l es
+cambio cosmos leche dar imponer enfermo envío equipo tanque liso utopía semilla altar bebé proa caoba maestro bodega equipo escribir droga paso apodo bulto vela molino nave talento militar perder odiar árido signo enfermo rojizo ganso himno clase átomo chupar rienda quitar ciclón banda situar rueda alto asesor
+```
+
+4) *Example: recreate BIP 39 master seed from BIP 39 words. (Should be altcoin independent.)*
+```
+% echo 'enable load garage hard diagram trim nothing exclude fantasy gold ramp fiber wise ball have hero toddler spy excite glue maze drill else sell' | bx mnemonic-to-seed -p TREZOR
+f0e63d191d75d39b5d1d8d1ae8ff1c48e51cacffb6d3881f31715572a59f352d35fa44a7e84f9a69712b206b9e04966a5794470993516e1b363a001fc3917f69
+```
+
+The libbitcoin table below is a work-in-progress, but it provided important values for the first two working examples above. Accuracy of portions of this table is questionable (~90% accurate) until vetted by other subject matter experts, but the pattern for how it is applied to altcoins is well understood. This table most definitely complements [SLIP 44] (http://doc.satoshilabs.com/slips/slip-0044.html) referenced within [BIP44] (https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki#registered-coin-types)
+
+#### BIP44 Altcoin Version Mapping Table
 ```
       |              |                    |                 |
 Coin  |   BIP 44     |    version/WIF     |  version/p2pkh  |   References
@@ -33,7 +68,7 @@ OA?   |      21      |         23         |        19       |   https://github.c
       |              |                    |                 |   https://github.com/OpenAssets/open-assets-protocol/blob/master/specification.mediawiki#protocol-overview ( % echo 'dup hash160 [ 010966776006953D5567439E5E39F86A0D273BEE ] equalverify checksig' | bx script-encode | bx sha256 | bx ripemd160  =>  Yields Open Assets ID: ALn3aK1fSuG27N96UGYB1kUYUpGKRhBuBC )
 ```
 
-## [Wallet Commands](https://github.com/libbitcoin/libbitcoin-explorer/wiki/Wallet-Commands)
+### [Wallet Commands](https://github.com/libbitcoin/libbitcoin-explorer/wiki/Wallet-Commands)
 
 The table above is a "Rosetta Stone" to effectively translate Bitcoin private keys and public addresses to those used by a number of altcoins having strong Bitcoin heritage. It provides important **--version (-v)** base-10 integer values for the following **bitcoin-explorer** commands to create keys and addresses for altcoins:
 
@@ -46,7 +81,7 @@ The following bitcoin explorer commands are natural candidates to be extended to
 * **hd-to-address**      ( recommend using p2pkh column )
 * **hd-to-wif**          ( recommend using version/WIF column )
 
-## [Key Encryption Commands] (https://github.com/libbitcoin/libbitcoin-explorer/wiki/Key-Encryption-Commands)
+### [Key Encryption Commands] (https://github.com/libbitcoin/libbitcoin-explorer/wiki/Key-Encryption-Commands)
 
 The table above also complements [Altchain Encrypted Private Keys](https://github.com/libbitcoin/libbitcoin/wiki/Altchain-Encrypted-Private-Keys) by supporting the following **bitcoin-explorer** "encrypted key" commands to extend **alpha BIP 38 functionality** to altcoins:
 
@@ -55,7 +90,7 @@ The table above also complements [Altchain Encrypted Private Keys](https://githu
 * **ek-new**      ( use version/p2pkh column )  <- Should this ultimately be ( using version/WIF column )?
 * **ek-public**   ( use version/p2pkh column )
 
-## [Stealth Commands](https://github.com/libbitcoin/libbitcoin-explorer/wiki/Stealth-Commands)
+### [Stealth Commands](https://github.com/libbitcoin/libbitcoin-explorer/wiki/Stealth-Commands)
 
 The application **--versions** values to **Stealth Commands** is a work in progress...
 
