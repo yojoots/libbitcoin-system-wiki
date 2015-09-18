@@ -353,5 +353,5 @@ Similarly, in the proposed version mapping it is not possible for the owner to c
 0xff -> 6N... cfrm38S...
 ```
 ### See Also
-Bitcoin Explorer [key encryption commands](https://github.com/libbitcoin/libbitcoin-explorer/wiki/Key-Encryption-Commands)
-Libbitcoin [BIP44 Altcoin Version Mappings](https://github.com/libbitcoin/libbitcoin/wiki/BIP44-Altcoin-Version-Mappings)
+* Bitcoin Explorer [key encryption commands](https://github.com/libbitcoin/libbitcoin-explorer/wiki/Key-Encryption-Commands)
+* Libbitcoin [BIP44 Altcoin Version Mappings](https://github.com/libbitcoin/libbitcoin/wiki/BIP44-Altcoin-Version-Mappings)
