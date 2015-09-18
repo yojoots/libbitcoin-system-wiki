@@ -1,25 +1,25 @@
 
-The foundational libbitcoin table below is a work-in-progress... The accuracy of portions of this table is questionable until vetted by other subject matter experts.
+The foundational libbitcoin table below is a work-in-progress... The accuracy of portions of this table is questionable until vetted by other subject matter experts, but the pattern is now identified.
 
-It is a "Rosetta Stone" used to effectively translate Bitcoin private keys and public addresses to those used by a number of altcoins with strong Bitcoin heritage. It provides important --version (-v) base10 integer values for the following **bitcoin-explorer** commands when applying them to altcoins:
+This table is a "Rosetta Stone" used to effectively translate Bitcoin private keys and public addresses to those used by a number of altcoins with strong Bitcoin heritage. It provides important --version (-v) base10 integer values for the following **bitcoin-explorer** commands when applying them to altcoins:
 
-* base58check-encode
-* ec-to-address
+* base58check-encode ( use version/WIF column )
+* ec-to-address      ( use version/p2pkh column )
 
 This table also complements [SLIP 44] (http://doc.satoshilabs.com/slips/slip-0044.html) referenced within [BIP44] (https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki#registered-coin-types)
 
 The table below also complements [Altchain Encrypted Private Keys](https://github.com/libbitcoin/libbitcoin/wiki/Altchain-Encrypted-Private-Keys) to support the following **bitcoin-explorer** "encrypted key" commands to extend alpha **bx** BIP 38 functionality to altcoins:
 
-* ec-to-ek
-* ek-address
-* ek-new
+* ec-to-ek    ( use version/WIF column )
+* ek-address  ( use version/WIF column )
+* ek-new      ( use version/WIF column )
 * ek-public
 
 
 ```
-      |              |                    |     Address     |
-Coin  |   BIP 44     | base58check-encode |  ec-to-address  |   References
-      | (coin_type’) |      version/WIF   |  version/p2pkh  |
+      |              |                    |                 |
+Coin  |   BIP 44     |    version/WIF     |  version/p2pkh  |   References
+      | (coin_type’) |                    |                 |
 ———————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 BTC   |       0      |        128         |         0       |   https://github.com/bitcoin/bitcoin/blob/master/src/chainparams.cpp
 TEST  |       1      |        239         |       111       |   https://github.com/bitcoin/bitcoin/blob/master/src/chainparams.cpp
