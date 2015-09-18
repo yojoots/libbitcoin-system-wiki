@@ -1,4 +1,4 @@
-### Easy Inheritance of BIP [32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki), [38](https://github.com/bitcoin/bips/blob/master/bip-0038.mediawiki), [39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki), [44](https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki), and 63 (Stealth Addresses) Technologies for Altcoin Use
+### Easy Inheritance of BIP [32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki), [38](https://github.com/bitcoin/bips/blob/master/bip-0038.mediawiki), [39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki), [44](https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki), and 63 (Stealth Addresses) Technologies for Altcoin Applications
 
 Libbitcoin has an established the bitcoin-explorer **(bx)** command line interface that provides substantial BIP 32, 38, 39, and 63 support.  BIP 44 support results from how BIP 32 is applied, and the application of the table below not only for BTC but numerous other altcoins.
 
