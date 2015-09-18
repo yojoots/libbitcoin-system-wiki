@@ -6,14 +6,21 @@ This table is a "Rosetta Stone" used to effectively translate Bitcoin private ke
 * **base58check-encode** ( use version/WIF column )
 * **ec-to-address**      ( use version/p2pkh column )
 
+The following bitcoin explorer commands are candidates to be extended to accommodate **--version** values:
+
+* **ec-to-wif**          ( recommend using version/WIF column )
+* **hd-to-address**      ( recommend using p2pkh column )
+* **hd-to-wif**          ( recommend using version/WIF column )
+
+
 This table also complements [SLIP 44] (http://doc.satoshilabs.com/slips/slip-0044.html) referenced within [BIP44] (https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki#registered-coin-types)
 
 The table below also complements [Altchain Encrypted Private Keys](https://github.com/libbitcoin/libbitcoin/wiki/Altchain-Encrypted-Private-Keys) to support the following **bitcoin-explorer** "encrypted key" commands to extend alpha **bx** BIP 38 functionality to altcoins:
 
-* **ec-to-ek**    ( use version/WIF column )
-* **ek-address**  ( use version/WIF column )
-* **ek-new**      ( use version/WIF column )
-* **ek-public**   ( use version/WIF column )
+* **ec-to-ek**    ( use version/p2pkh column )  <- should this be ( using version/WIF column )?
+* **ek-address**  ( use version/p2pkh column )
+* **ek-new**      ( use version/p2pkh column )  <- should this be ( using version/WIF column )?
+* **ek-public**   ( use version/p2pkh column )
 
 
 ```
