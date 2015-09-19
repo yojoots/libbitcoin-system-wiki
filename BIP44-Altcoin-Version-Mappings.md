@@ -85,12 +85,12 @@ The following bitcoin explorer commands are natural candidates to be extended to
 
 The table above also complements [Altchain Encrypted Private Keys](https://github.com/libbitcoin/libbitcoin/wiki/Altchain-Encrypted-Private-Keys) by supporting the following **bitcoin-explorer** "encrypted key" commands to extend **alpha BIP 38 functionality** to altcoins:
 
-* **ec-to-ek**    ( use version/p2pkh column )  *<- Should this ultimately be ( using version/WIF column )?*
+* **ec-to-ek**    ( [use version/p2pkh column](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-ec-to-ek#example-6) )  *<- Should current linked example be ( using version/WIF column )?*
 * **ek-address**  ( use version/p2pkh column )
-* **ek-new**      ( use version/p2pkh column )  *<- Should this ultimately be ( using version/WIF column )?*
+* **ek-new**      ( [use version/p2pkh column](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-ek-new#example-6) )  *<- Should current linked example be ( using version/WIF column )?*
 * **ek-public**   ( use version/p2pkh column )
 
-**5) Simple extended BIP 38 round robin example:** Applied to a Dash base16-encoded 256-bit secret elliptic curve key.
+**5) Extended round trip BIP 38 example:** Applied to a Dash base16-encoded 256-bit secret elliptic curve key.
 
 ```
 % bx ec-to-ek -v 76 'Hello it is me' f9a8f6d4a24b99d4944ee3db83c85383e9c13e85cb50ad60a9e1a96e02f6d269
@@ -99,6 +99,12 @@ The table above also complements [Altchain Encrypted Private Keys](https://githu
 % bx ek-to-ec 'Hello it is me' 7f7QjekuNesi3dJ9gE49bQSZAgJAuHB5u3ERLHebS7CEvAY43XTfAHvNfE
 f9a8f6d4a24b99d4944ee3db83c85383e9c13e85cb50ad60a9e1a96e02f6d269
 ```
+**6) Extended "multiply mode" BIP 38 example:** Applied to a Dash base16-encoded 256-bit secret elliptic curve key.
+
+```
+
+```
+
 
 ### [Stealth Commands](https://github.com/libbitcoin/libbitcoin-explorer/wiki/Stealth-Commands)
 
