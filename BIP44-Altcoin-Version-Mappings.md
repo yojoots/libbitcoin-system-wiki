@@ -1,8 +1,8 @@
 ### Application of BIP [32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki), [38](https://github.com/bitcoin/bips/blob/master/bip-0038.mediawiki), [39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki), [44](https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki), and 63 ([Stealth Addresses](http://sourceforge.net/p/bitcoin/mailman/message/31813471/)) to Altcoins
 
-Libbitcoin has an established the bitcoin-explorer **(bx)** command line interface that provides substantial BIP 32, 38, 39, and 63 support.  BIP 44 support results from how bx BIP 32 is applied and the application of the table below. This table is not only for BTC, but numerous other altcoins.
+Libbitcoin bitcoin-explorer **(bx)** command line interface provides substantial BIP 32, 38, 39, and 63 support.  BIP 44 support results from how bx BIP 32 is applied and the application of the table below. This table applies to BTC and numerous other altcoins.
 
-The libbitcoin table below is a work-in-progress, but it provided important values for the first two working examples above. Accuracy of portions of this table is questionable (~90% accurate) until vetted by other subject matter experts, but the pattern for how it is applied to altcoins is well understood. This table most definitely complements [SLIP 44] (http://doc.satoshilabs.com/slips/slip-0044.html) referenced within [BIP44] (https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki#registered-coin-types)
+The table below is a work-in-progress, but provides important values for the first two working examples below below the table. Accuracy of portions of this table is questionable (~90% accurate) until vetted by others, but the pattern for how it is applies to altcoins is well understood. This Altcoin Version Mapping Table most definitely complements [SLIP 44] (http://doc.satoshilabs.com/slips/slip-0044.html) referenced within [BIP44] (https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki#registered-coin-types)
 
 #### BIP44 Altcoin Version Mapping Table
 ```
@@ -55,13 +55,13 @@ Xb9HJy46M9u3SLAWVitS4eV6gEMuVFfZX2  <- Don't be afraid to apply the command abov
 XpTtgbcURSBfcuo8FZsNFeGrsCSi3jarAi  <- Don't be afraid to apply the command above on an online computer
 ```
 
-3) **BIP 39 example:** Create master seed in Spanish from a weak English brainwallet seed. (Is altcoin insensitive.)
+**3) BIP 39 example:** Create master seed in Spanish from a weak English brainwallet seed. (Is altcoin insensitive.)
 ```
 % echo 'very complex gibberish' | bx base16-encode | bx sha512 | bx mnemonic-new -l es
 cambio cosmos leche dar imponer enfermo envío equipo tanque liso utopía semilla altar bebé proa caoba maestro bodega equipo escribir droga paso apodo bulto vela molino nave talento militar perder odiar árido signo enfermo rojizo ganso himno clase átomo chupar rienda quitar ciclón banda situar rueda alto asesor
 ```
 
-4) **BIP 39 example:** Recreate master seed from BIP 39 words. (Is altcoin insensitive.)
+**4) BIP 39 example:** Recreate master seed from BIP 39 words. (Is altcoin insensitive.)
 ```
 % echo 'enable load garage hard diagram trim nothing exclude fantasy gold ramp fiber wise ball have hero toddler spy excite glue maze drill else sell' | bx mnemonic-to-seed -p TREZOR
 f0e63d191d75d39b5d1d8d1ae8ff1c48e51cacffb6d3881f31715572a59f352d35fa44a7e84f9a69712b206b9e04966a5794470993516e1b363a001fc3917f69
