@@ -83,7 +83,7 @@ The following bitcoin explorer commands are natural candidates to be extended to
 
 ### [Key Encryption Commands] (https://github.com/libbitcoin/libbitcoin-explorer/wiki/Key-Encryption-Commands)
 
-The table above also complements [Altchain Encrypted Private Keys](https://github.com/libbitcoin/libbitcoin/wiki/Altchain-Encrypted-Private-Keys) by supporting the following **bitcoin-explorer** "encrypted key" commands to extend **alpha BIP 38 functionality** to altcoins:
+The table above also complements [Altchain Encrypted Private Keys](https://github.com/libbitcoin/libbitcoin/wiki/Altchain-Encrypted-Private-Keys#sample-map) by supporting the following **bitcoin-explorer** "encrypted key" commands to extend **alpha BIP 38 functionality** to altcoins:
 
 * **ec-to-ek**    ( [use version/p2pkh column](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-ec-to-ek#example-6) )  *<- Should current linked example be ( using version/WIF column )?*
 * **ek-address**  ( use version/p2pkh column )
