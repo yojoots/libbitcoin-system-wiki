@@ -53,14 +53,14 @@ XH2Yndjv6Ks3XEHGaSMDhUMTAMZTTWv5nEN958Y7VMyQXBCJVQmM
 
 **2) Combined BIP 32 and 44 example:** Apply m/44’/5’/0’/0/0 to create a compressed Dash public addresses for up to 4 billions addresses much more safely on an online machine!!!
 ```
-% echo 'very complex gibberish' | bx base16-encode | bx sha256 | bx hd-new | bx hd-private -d -i 44 | bx hd-private -d -i 5 | bx hd-private -d -i 0 | bx hd-public  -i 0         | bx hd-public  -i 0 | bx hd-to-ec | bx ec-to-address -v 76   
-Xb9HJy46M9u3SLAWVitS4eV6gEMuVFfZX2 <- Don't use the command above on an online computer!
+% echo 'very complex gibberish' | bx base16-encode | bx sha256 | bx hd-new | bx hd-private -d -i 44 | bx hd-private -d -i 5 | bx hd-private -d -i 0 | bx hd-public  -i 0 | bx hd-public  -i 0 | bx hd-to-ec | bx ec-to-address -v 76   
+Xb9HJy46M9u3SLAWVitS4eV6gEMuVFfZX2 <- Be very afraid to use the seed-driven command sequence above on an online computer!
 
-% echo 'tpubDEsWcNHY2m2zfKS1FieKboAswCy5iikUDjrUEtP5ayZmcMYGPempZH36nn9MTMpRqcXowhdDTGwsPu5pcGJ95g6kVKTN7ynmc5pKjjURSqz' | bx hd-public  -i 0 | bx hd-to-ec | bx    ec-to-address -v 76
-Xb9HJy46M9u3SLAWVitS4eV6gEMuVFfZX2  <- Don't be afraid to apply the command above on an online computer (Could be a death knell to PCI-DSS Compliance for eCommerce if cryptocurrencies become more widely adopted)
+% echo 'tpubDEsWcNHY2m2zfKS1FieKboAswCy5iikUDjrUEtP5ayZmcMYGPempZH36nn9MTMpRqcXowhdDTGwsPu5pcGJ95g6kVKTN7ynmc5pKjjURSqz' | bx hd-public  -i 0 | bx hd-to-ec | bx ec-to-address -v 76
+Xb9HJy46M9u3SLAWVitS4eV6gEMuVFfZX2  <- Don't be afraid to apply the chain code driven command sequence above on an online computer (Could be a death knell to PCI-DSS Compliance for eCommerce if cryptocurrencies become more widely adopted)
 
-% echo 'tpubDEsWcNHY2m2zfKS1FieKboAswCy5iikUDjrUEtP5ayZmcMYGPempZH36nn9MTMpRqcXowhdDTGwsPu5pcGJ95g6kVKTN7ynmc5pKjjURSqz' | bx hd-public  -i 1 | bx hd-to-ec | bx    ec-to-address -v 76
-XpTtgbcURSBfcuo8FZsNFeGrsCSi3jarAi  <- Don't be afraid to apply the command above on an online computer
+% echo 'tpubDEsWcNHY2m2zfKS1FieKboAswCy5iikUDjrUEtP5ayZmcMYGPempZH36nn9MTMpRqcXowhdDTGwsPu5pcGJ95g6kVKTN7ynmc5pKjjURSqz' | bx hd-public  -i 1 | bx hd-to-ec | bx ec-to-address -v 76
+XpTtgbcURSBfcuo8FZsNFeGrsCSi3jarAi  <- Don't be afraid to apply the chain code driven command sequence above on an online computer
 ```
 
 **3) BIP 39 example:** Create master seed in Spanish from a weak English brainwallet seed. (Is altcoin insensitive.)
