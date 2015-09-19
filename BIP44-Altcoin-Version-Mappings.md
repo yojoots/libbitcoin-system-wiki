@@ -2,7 +2,7 @@
 
 Libbitcoin bitcoin-explorer **(bx)** command line interface provides substantial BIP 32, 38, 39, and 63 support.  BIP 44 support results from how bx BIP 32 is applied and the application of the table below. This table applies to BTC and numerous other altcoins.
 
-The table below is a work-in-progress, but provides important values for the first two working examples below below the table. Accuracy of portions of this table is questionable (~90% accurate) until vetted by others, but the pattern for how it is applies to altcoins is well understood. This Altcoin Version Mapping Table most definitely complements [SLIP 44] (http://doc.satoshilabs.com/slips/slip-0044.html) referenced within [BIP44] (https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki#registered-coin-types)
+The table below is a work-in-progress, but provides important values for the first two working examples below the table. Accuracy of portions of this table is questionable (~90% accurate) until vetted by others, but the pattern for how it is applies to altcoins is well understood. This Altcoin Version Mapping Table most definitely extends/complements [SLIP 44] (http://doc.satoshilabs.com/slips/slip-0044.html) referenced within [BIP44] (https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki#registered-coin-types)
 
 #### BIP44 Altcoin Version Mapping Table
 ```
