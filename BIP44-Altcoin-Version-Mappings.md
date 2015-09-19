@@ -1,6 +1,6 @@
 ### Application of BIP [32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki), [38](https://github.com/bitcoin/bips/blob/master/bip-0038.mediawiki), [39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki), [44](https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki), and 63 ([Stealth Addresses](http://sourceforge.net/p/bitcoin/mailman/message/31813471/)) to Altcoins
 
-Libbitcoin has an established the bitcoin-explorer **(bx)** command line interface that provides substantial BIP 32, 38, 39, and 63 support.  BIP 44 support results from how BIP 32 is applied, and the application of the table below is not only for BTC, but numerous other altcoins.
+Libbitcoin has an established the bitcoin-explorer **(bx)** command line interface that provides substantial BIP 32, 38, 39, and 63 support.  BIP 44 support results from how bx BIP 32 is applied and the application of the table below. This table is not only for BTC, but numerous other altcoins.
 
 **1) Combined BIP 32 and 44 example:** Apply m/44’/5’/0’/0/0 example to create a compressed Dash private key.
 ```
