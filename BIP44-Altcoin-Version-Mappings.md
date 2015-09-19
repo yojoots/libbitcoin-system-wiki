@@ -99,7 +99,7 @@ The table above also complements [Altchain Encrypted Private Keys](https://githu
 % bx ek-to-ec 'Hello it is me' 5XCsGSbMhW6zisvPx7LUKHPUGTi21kdSVwc6HNM1Zurg9ENPiUVtzBZDho
 f9a8f6d4a24b99d4944ee3db83c85383e9c13e85cb50ad60a9e1a96e02f6d269
 ```
-**6) Extended "EC Multiply Mode" BIP 38 example:** For Dash with an initial secret of 'knock knock', seed, salt, lot number of 0, and sequence number of 0.
+**6) Extended "EC Multiply Mode" BIP 38 example:** For Dash with an initial secret of 'knock knock', seed, salt, lot number of 0, and sequence number of 0. *Please note the information below must be correlated with security [recommendations](https://github.com/libbitcoin/libbitcoin/wiki/BIP38-Security-Considerations#recommendations) to arrive at a good processes for minting coins or engraving notes.*
 
 ```
 % echo 'Not so random seed' | bx base16-encode | bx sha256
