@@ -93,16 +93,49 @@ The table above also complements [Altchain Encrypted Private Keys](https://githu
 **5) Extended round trip BIP 38 example:** Applied to a Dash base16-encoded 256-bit secret elliptic curve key.
 
 ```
-% bx ec-to-ek -v 76 'Hello it is me' f9a8f6d4a24b99d4944ee3db83c85383e9c13e85cb50ad60a9e1a96e02f6d269
-7f7QjekuNesi3dJ9gE49bQSZAgJAuHB5u3ERLHebS7CEvAY43XTfAHvNfE
+% bx ec-to-ek -v 204 'Hello it is me' f9a8f6d4a24b99d4944ee3db83c85383e9c13e85cb50ad60a9e1a96e02f6d269
+5XCsGSbMhW6zisvPx7LUKHPUGTi21kdSVwc6HNM1Zurg9ENPiUVtzBZDho
 
-% bx ek-to-ec 'Hello it is me' 7f7QjekuNesi3dJ9gE49bQSZAgJAuHB5u3ERLHebS7CEvAY43XTfAHvNfE
+% bx ek-to-ec 'Hello it is me' 5XCsGSbMhW6zisvPx7LUKHPUGTi21kdSVwc6HNM1Zurg9ENPiUVtzBZDho
 f9a8f6d4a24b99d4944ee3db83c85383e9c13e85cb50ad60a9e1a96e02f6d269
 ```
-**6) Extended "multiply mode" BIP 38 example:** Applied to a Dash base16-encoded 256-bit secret elliptic curve key.
+**6) Extended "multiply mode" BIP 38 example:** For Dash with an initial seed, salt, lot number of 0, and sequence number of 0.
 
 ```
+Under development:
 
+% echo 'Not so random seed' | bx base16-encode | bx sha256
+565bdb03ade36264adc00600952a865fc4bdc61d81be7d9be6ee0c7c06809857
+
+% echo 'a little salt & pepper' | bx base16-encode | bx sha256
+e51549349dd7b98ff30281211fe281247c32922d259fc12b0abf7b2110114d03
+
+% bx token-new -l 0 -s 0 'knock knock' e5154934
+passphrasedsP52SrHdFSR4Fb55dvDiXnxnuyZUFCYheSYrPVGiMUCVnEhCb4UU3Nsbs2HCg
+
+% bx ek-new -v 204 passphrasedsP52SrHdFSR4Fb55dvDiXnxnuyZUFCYheSYrPVGiMUCVnEhCb4UU3Nsbs2HCg 565bdb03ade36264adc00600952a865fc4bdc61d81be7d9be6ee0c7c06809857
+5XTqTrYMNKoHHcfqafEX5nFZTLnNwXF5Zf6fjYP8cDqNDwzPxendxaCMGw
+
+% bx ek-to-ec 'knock knock' 5XTqTrYMNKoHHcfqafEX5nFZTLnNwXF5Zf6fjYP8cDqNDwzPxendxaCMGw
+cb77527dfc18a491e79fa34de3b8ce0b3e1f2ce8db2e1fcd69139010505adb23 <- EC synthesized private key, TP1
+
+% echo 'cb77527dfc18a491e79fa34de3b8ce0b3e1f2ce8db2e1fcd69139010505adb23' | bx ec-to-public
+035d37339d296b1a7ea8c7f04cf33eb0e8fd547df58d60259c9e4d9404795cd7f1 <- EC synthesized public key, TP2
+
+% echo 'cb77527dfc18a491e79fa34de3b8ce0b3e1f2ce8db2e1fcd69139010505adb23' | bx ec-to-public  | bx ec-to-address -v 76
+Xc3cYycMHt9vtBjMcUJshBH34QqfZnbEyu  <- Public Dash address, TP3
+
+% bx ek-public -v 76 passphrasedsP52SrHdFSR4Fb55dvDiXnxnuyZUFCYheSYrPVGiMUCVnEhCb4UU3Nsbs2HCg 565bdb03ade36264adc00600952a865fc4bdc61d81be7d9be6ee0c7c06809857
+cfrm3CdFNyDReVUXn2weQYL4Q3sGsRyFYSNBbrK5qfpFyCXCNKPPJicRxuxmLiN3ZtjVafCLZuc
+
+% bx ek-address -v 76 passphrasedsP52SrHdFSR4Fb55dvDiXnxnuyZUFCYheSYrPVGiMUCVnEhCb4UU3Nsbs2HCg 565bdb03ade36264adc00600952a865fc4bdc61d81be7d9be6ee0c7c06809857
+Xc3cYycMHt9vtBjMcUJshBH34QqfZnbEyu <- matches TP3
+
+% bx ek-public-to-ec 'knock knock' cfrm3CdFNyDReVUXn2weQYL4Q3sGsRyFYSNBbrK5qfpFyCXCNKPPJicRxuxmLiN3ZtjVafCLZuc 
+035d37339d296b1a7ea8c7f04cf33eb0e8fd547df58d60259c9e4d9404795cd7f1 <- matches TP2
+
+% bx ek-public-to-address 'knock knock' cfrm3CdFNyDReVUXn2weQYL4Q3sGsRyFYSNBbrK5qfpFyCXCNKPPJicRxuxmLiN3ZtjVafCLZuc
+Xc3cYycMHt9vtBjMcUJshBH34QqfZnbEyu <- matches TP3
 ```
 
 
