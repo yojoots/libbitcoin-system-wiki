@@ -90,7 +90,7 @@ The table above also complements [Altchain Encrypted Private Keys](https://githu
 * **ek-new**      ( [use version/p2pkh column](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-ek-new#example-6) )  *<- Should current linked example be ( using version/WIF column )?*
 * **ek-public**   ( use version/p2pkh column )
 
-**5) Extended round trip BIP 38 example:** Applied to a Dash base16-encoded 256-bit secret elliptic curve key.
+**5) Extended AES256Encrypt and AES256Decrypt BIP 38 example:** For a Dash base16-encoded 256-bit secret elliptic curve key.
 
 ```
 % bx ec-to-ek -v 204 'Hello it is me' f9a8f6d4a24b99d4944ee3db83c85383e9c13e85cb50ad60a9e1a96e02f6d269
@@ -99,43 +99,41 @@ The table above also complements [Altchain Encrypted Private Keys](https://githu
 % bx ek-to-ec 'Hello it is me' 5XCsGSbMhW6zisvPx7LUKHPUGTi21kdSVwc6HNM1Zurg9ENPiUVtzBZDho
 f9a8f6d4a24b99d4944ee3db83c85383e9c13e85cb50ad60a9e1a96e02f6d269
 ```
-**6) Extended "multiply mode" BIP 38 example:** For Dash with an initial seed, salt, lot number of 0, and sequence number of 0.
+**6) Extended "EC Multiply Mode" BIP 38 example:** For Dash with an initial secret of 'knock knock', seed, salt, lot number of 0, and sequence number of 0.
 
 ```
-Under development:
-
 % echo 'Not so random seed' | bx base16-encode | bx sha256
-565bdb03ade36264adc00600952a865fc4bdc61d81be7d9be6ee0c7c06809857
+565bdb03ade36264adc00600952a865fc4bdc61d81be7d9be6ee0c7c06809857 <- Seed
 
 % echo 'a little salt & pepper' | bx base16-encode | bx sha256
-e51549349dd7b98ff30281211fe281247c32922d259fc12b0abf7b2110114d03
+e51549349dd7b98ff30281211fe281247c32922d259fc12b0abf7b2110114d03 <- First 8 hex digits are used as salt.
 
 % bx token-new -l 0 -s 0 'knock knock' e5154934
-passphrasedsP52SrHdFSR4Fb55dvDiXnxnuyZUFCYheSYrPVGiMUCVnEhCb4UU3Nsbs2HCg
+passphrasedsP52SrHdFSR4Fb55dvDiXnxnuyZUFCYheSYrPVGiMUCVnEhCb4UU3Nsbs2HCg <- Intermediate code created by future coin/note owner to outsource work to a minter/engraver. Both this information and the seed are released only to the minter/engraver.
 
 % bx ek-new -v 204 passphrasedsP52SrHdFSR4Fb55dvDiXnxnuyZUFCYheSYrPVGiMUCVnEhCb4UU3Nsbs2HCg 565bdb03ade36264adc00600952a865fc4bdc61d81be7d9be6ee0c7c06809857
-5XTqTrYMNKoHHcfqafEX5nFZTLnNwXF5Zf6fjYP8cDqNDwzPxendxaCMGw
+5XTqTrYMNKoHHcfqafEX5nFZTLnNwXF5Zf6fjYP8cDqNDwzPxendxaCMGw <- Performed by the minter/engraver to know the BIP 38 encrypted private key to be publicly labelled on the coin/note. 
 
 % bx ek-to-ec 'knock knock' 5XTqTrYMNKoHHcfqafEX5nFZTLnNwXF5Zf6fjYP8cDqNDwzPxendxaCMGw
-cb77527dfc18a491e79fa34de3b8ce0b3e1f2ce8db2e1fcd69139010505adb23 <- EC synthesized private key, TP1
+cb77527dfc18a491e79fa34de3b8ce0b3e1f2ce8db2e1fcd69139010505adb23 <- EC synthesized private key; test point #1 (TP1)
 
 % echo 'cb77527dfc18a491e79fa34de3b8ce0b3e1f2ce8db2e1fcd69139010505adb23' | bx ec-to-public
-035d37339d296b1a7ea8c7f04cf33eb0e8fd547df58d60259c9e4d9404795cd7f1 <- EC synthesized public key, TP2
+035d37339d296b1a7ea8c7f04cf33eb0e8fd547df58d60259c9e4d9404795cd7f1 <- EC synthesized public key; (TP2)
 
 % echo 'cb77527dfc18a491e79fa34de3b8ce0b3e1f2ce8db2e1fcd69139010505adb23' | bx ec-to-public  | bx ec-to-address -v 76
-Xc3cYycMHt9vtBjMcUJshBH34QqfZnbEyu  <- Public Dash address, TP3
+Xc3cYycMHt9vtBjMcUJshBH34QqfZnbEyu  <- Dash address where funds are to be deposited; (TP3) 
 
 % bx ek-public -v 76 passphrasedsP52SrHdFSR4Fb55dvDiXnxnuyZUFCYheSYrPVGiMUCVnEhCb4UU3Nsbs2HCg 565bdb03ade36264adc00600952a865fc4bdc61d81be7d9be6ee0c7c06809857
-cfrm3CdFNyDReVUXn2weQYL4Q3sGsRyFYSNBbrK5qfpFyCXCNKPPJicRxuxmLiN3ZtjVafCLZuc
-
-% bx ek-address -v 76 passphrasedsP52SrHdFSR4Fb55dvDiXnxnuyZUFCYheSYrPVGiMUCVnEhCb4UU3Nsbs2HCg 565bdb03ade36264adc00600952a865fc4bdc61d81be7d9be6ee0c7c06809857
-Xc3cYycMHt9vtBjMcUJshBH34QqfZnbEyu <- matches TP3
+cfrm3CdFNyDReVUXn2weQYL4Q3sGsRyFYSNBbrK5qfpFyCXCNKPPJicRxuxmLiN3ZtjVafCLZuc <- Created by the minter/engraver. To avoid being classified as "money transmitter" minter/engraver must not send/share this information with the coin/note owner until after the coin/note is sent by registered mail, preferably delivered. However, there are no explicit counter measures preventing entrapment by a "devious" coin/note owner by the BIP 38 protocol!!!
 
 % bx ek-public-to-ec 'knock knock' cfrm3CdFNyDReVUXn2weQYL4Q3sGsRyFYSNBbrK5qfpFyCXCNKPPJicRxuxmLiN3ZtjVafCLZuc 
 035d37339d296b1a7ea8c7f04cf33eb0e8fd547df58d60259c9e4d9404795cd7f1 <- matches TP2
 
 % bx ek-public-to-address 'knock knock' cfrm3CdFNyDReVUXn2weQYL4Q3sGsRyFYSNBbrK5qfpFyCXCNKPPJicRxuxmLiN3ZtjVafCLZuc
-Xc3cYycMHt9vtBjMcUJshBH34QqfZnbEyu <- matches TP3
+Xc3cYycMHt9vtBjMcUJshBH34QqfZnbEyu <- Performed by coin/note owner after receiving the confirmation code from the minter/engraver.  If public address doesn't match the results of the next command, coin/note owner should not "load" the coin with the denomination printed on the coin. (matches TP3)
+
+% bx ek-address -v 76 passphrasedsP52SrHdFSR4Fb55dvDiXnxnuyZUFCYheSYrPVGiMUCVnEhCb4UU3Nsbs2HCg 565bdb03ade36264adc00600952a865fc4bdc61d81be7d9be6ee0c7c06809857
+Xc3cYycMHt9vtBjMcUJshBH34QqfZnbEyu <- Performed by coin/note owner to authenticate the Dash coin address where funds are to be deposited. If there is a match, a deposit won't either be lost or burned. (matches TP3)
 ```
 
 
