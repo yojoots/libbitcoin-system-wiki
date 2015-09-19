@@ -34,6 +34,14 @@ DGB   |      20      |        128         |        30       |   https://github.c
 OA?   |      21      |         23         |        19       |   https://github.com/OpenAssets/open-assets-protocol/blob/master/address-format.mediawiki#example ( % echo '00010966776006953d5567439e5e39f86a0d273bee' | bx base58check-encode -v 19  =>  Yields Open Assets Address: akB4NBW9UuCmHuepksob6yfZs6naHtRCPNy )
       |              |                    |                 |   https://github.com/OpenAssets/open-assets-protocol/blob/master/specification.mediawiki#protocol-overview ( % echo 'dup hash160 [ 010966776006953D5567439E5E39F86A0D273BEE ] equalverify checksig' | bx script-encode | bx sha256 | bx ripemd160  =>  Yields Open Assets ID: ALn3aK1fSuG27N96UGYB1kUYUpGKRhBuBC )
 ```
+
+### [Wallet Commands](https://github.com/libbitcoin/libbitcoin-explorer/wiki/Wallet-Commands)
+
+The table above is a "Rosetta Stone" to effectively translate Bitcoin private keys and public addresses to those used by a number of altcoins having strong Bitcoin heritage. It provides important **--version (-v)** base-10 integer values for the following **bitcoin-explorer** commands to create keys and addresses for altcoins:
+
+* **base58check-encode** ( use version/WIF column )
+* **ec-to-address**      ( use version/p2pkh column )
+
 **1) Combined BIP 32 and 44 example:** Apply m/44’/5’/0’/0/0 example to create a compressed Dash private key.
 ```
 % echo 'very complex gibberish' | bx base16-encode | bx sha256 | bx hd-new | bx hd-private -d -i 44 | bx hd-private -d -i 5 | bx hd-private -d -i 0 | bx hd-private -i 0 | bx hd-private -i 0 | bx hd-to-ec | sed 's/$/01/' | bx base58check-encode -v 204                                                                     
@@ -67,14 +75,6 @@ cambio cosmos leche dar imponer enfermo envío equipo tanque liso utopía semill
 f0e63d191d75d39b5d1d8d1ae8ff1c48e51cacffb6d3881f31715572a59f352d35fa44a7e84f9a69712b206b9e04966a5794470993516e1b363a001fc3917f69
 ```
 
-
-### [Wallet Commands](https://github.com/libbitcoin/libbitcoin-explorer/wiki/Wallet-Commands)
-
-The table above is a "Rosetta Stone" to effectively translate Bitcoin private keys and public addresses to those used by a number of altcoins having strong Bitcoin heritage. It provides important **--version (-v)** base-10 integer values for the following **bitcoin-explorer** commands to create keys and addresses for altcoins:
-
-* **base58check-encode** ( use version/WIF column )
-* **ec-to-address**      ( use version/p2pkh column )
-
 The following bitcoin explorer commands are natural candidates to be extended to accommodate **--version** values:
 
 * **ec-to-wif**          ( recommend using version/WIF column )
@@ -89,6 +89,16 @@ The table above also complements [Altchain Encrypted Private Keys](https://githu
 * **ek-address**  ( use version/p2pkh column )
 * **ek-new**      ( use version/p2pkh column )  *<- Should this ultimately be ( using version/WIF column )?*
 * **ek-public**   ( use version/p2pkh column )
+
+**5) Simple extended BIP 38 round robin example:** Applied to a Dash base16-encoded 256-bit secret elliptic curve key.
+
+```
+% bx ec-to-ek -v 76 'Hello it is me' f9a8f6d4a24b99d4944ee3db83c85383e9c13e85cb50ad60a9e1a96e02f6d269
+7f7QjekuNesi3dJ9gE49bQSZAgJAuHB5u3ERLHebS7CEvAY43XTfAHvNfE
+
+% bx ek-to-ec 'Hello it is me' 7f7QjekuNesi3dJ9gE49bQSZAgJAuHB5u3ERLHebS7CEvAY43XTfAHvNfE
+f9a8f6d4a24b99d4944ee3db83c85383e9c13e85cb50ad60a9e1a96e02f6d269
+```
 
 ### [Stealth Commands](https://github.com/libbitcoin/libbitcoin-explorer/wiki/Stealth-Commands)
 
