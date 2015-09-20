@@ -75,7 +75,7 @@ cambio cosmos leche dar imponer enfermo envío equipo tanque liso utopía semill
 f0e63d191d75d39b5d1d8d1ae8ff1c48e51cacffb6d3881f31715572a59f352d35fa44a7e84f9a69712b206b9e04966a5794470993516e1b363a001fc3917f69
 ```
 
-The following bitcoin explorer commands are natural candidates to be extended to accommodate **--version** values:
+The following bitcoin explorer wallet commands are natural candidates to be extended to accommodate **--version** values:
 
 * **ec-to-wif**          ( recommend using version/WIF column )
 * **hd-to-address**      ( recommend using p2pkh column )
@@ -140,4 +140,9 @@ Xc3cYycMHt9vtBjMcUJshBH34QqfZnbEyu <- Performed by coin/note owner to authentica
 ### [Stealth Commands](https://github.com/libbitcoin/libbitcoin-explorer/wiki/Stealth-Commands)
 
 The application **--versions** values to **Stealth Commands** for altcoins is a work in progress...
+
+The following bitcoin explorer wallet stealth commands are natural candidates to be extended to accommodate **--version** values:
+
+* **stealth-encode*      ( recommend using p2pkh column )
+* **more commands are under investigation**
 
