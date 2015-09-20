@@ -143,6 +143,6 @@ The application **--versions** values to **Stealth Commands** for altcoins is a 
 
 The following bitcoin explorer wallet stealth commands are natural candidates to be extended to accommodate **--version** values:
 
-* **stealth-encode*      ( recommend using p2pkh column )
-* **more commands are under investigation**
+* **stealth-encode**      ( recommend using p2pkh column )
+* *more commands are under investigation*
 
