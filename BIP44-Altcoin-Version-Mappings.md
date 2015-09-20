@@ -44,16 +44,8 @@ The table above is a "Rosetta Stone" to effectively translate Bitcoin private ke
 
 * **[ec-to-address](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-ec-to-address)**  ( use version/p2pkh column for addresses )
 
-**1) Combined BIP 32 and 44 example:** Apply m/44’/5’/0’/0/0 example to create a compressed Dash private key.
-```
-% echo 'very complex gibberish' | bx base16-encode | bx sha256 | bx hd-new | bx hd-private -d -i 44 | bx hd-private -d -i 5 | bx hd-private -d -i 0 | bx hd-private -i 0 | bx hd-private -i 0 | bx hd-to-ec | sed 's/$/01/' | bx base58check-encode -v 204                                                                     
-XH2Yndjv6Ks3XEHGaSMDhUMTAMZTTWv5nEN958Y7VMyQXBCJVQmM 
 
-% echo 'tprv8iBUTxFHtPMKmrQDN4yjCPWmNBT9ZPZZeSFgxNLnAhmNmsHVmFxENnREcdEQXLVUoE3invSjhTjDsHfCrVtijVvVYbj6XWfH6DmQnXQvQoZ' | bx hd-private -i 0 | bx hd-to-ec | sed 's/$/01/' | bx base58check-encode -v 204
-XH2Yndjv6Ks3XEHGaSMDhUMTAMZTTWv5nEN958Y7VMyQXBCJVQmM
-```
-
-**2) Combined BIP 32 and 44 example:** Apply m/44’/5’/0’/0/0 to create a compressed Dash public addresses for up to 4 billions addresses much more safely on an online machine!!!
+**1) Combined BIP 32 and 44 Example:** Apply m/44’/5’/0’/0/0 to create a compressed Dash public addresses for up to 4 billions addresses much more safely on an online machine!!!
 ```
 % echo 'very complex gibberish' | bx base16-encode | bx sha256 | bx hd-new | bx hd-private -d -i 44 | bx hd-private -d -i 5 | bx hd-private -d -i 0 | bx hd-public  -i 0 | bx hd-public  -i 0 | bx hd-to-ec | bx ec-to-address -v 76   
 Xb9HJy46M9u3SLAWVitS4eV6gEMuVFfZX2 <- Be very afraid to use the seed-driven command sequence above on an online computer!
@@ -65,13 +57,13 @@ Xb9HJy46M9u3SLAWVitS4eV6gEMuVFfZX2  <- Don't be afraid to apply the chain code d
 XpTtgbcURSBfcuo8FZsNFeGrsCSi3jarAi  <- Don't be afraid to apply the chain code driven command sequence above on an online computer
 ```
 
-**3) BIP 39 example:** Create master seed in Spanish from a weak English brainwallet seed. (Is altcoin insensitive.)
+**2) BIP 39 Example:** Create master seed in Spanish from a weak English brainwallet seed. (Is altcoin insensitive.)
 ```
 % echo 'very complex gibberish' | bx base16-encode | bx sha512 | bx mnemonic-new -l es
 cambio cosmos leche dar imponer enfermo envío equipo tanque liso utopía semilla altar bebé proa caoba maestro bodega equipo escribir droga paso apodo bulto vela molino nave talento militar perder odiar árido signo enfermo rojizo ganso himno clase átomo chupar rienda quitar ciclón banda situar rueda alto asesor
 ```
 
-**4) BIP 39 example:** Recreate master seed from BIP 39 words. (Is altcoin insensitive.)
+**3) BIP 39 Example:** Recreate master seed from BIP 39 words. (Is altcoin insensitive.)
 ```
 % echo 'enable load garage hard diagram trim nothing exclude fantasy gold ramp fiber wise ball have hero toddler spy excite glue maze drill else sell' | bx mnemonic-to-seed -p TREZOR
 f0e63d191d75d39b5d1d8d1ae8ff1c48e51cacffb6d3881f31715572a59f352d35fa44a7e84f9a69712b206b9e04966a5794470993516e1b363a001fc3917f69
@@ -92,6 +84,14 @@ Some encoding commands supporting **--version** are not restricted as to which o
 * **[base58check-encode](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-base58check-encode)** ( **use version/WIF column for private keys**, or version/p2pkh column for addresses )
 * **[wrap-encode](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-wrap-encode)**
 
+**4) Combined BIP 32 and 44 Example:** Apply m/44’/5’/0’/0/0 example to create a compressed Dash private key.
+```
+% echo 'very complex gibberish' | bx base16-encode | bx sha256 | bx hd-new | bx hd-private -d -i 44 | bx hd-private -d -i 5 | bx hd-private -d -i 0 | bx hd-private -i 0 | bx hd-private -i 0 | bx hd-to-ec | sed 's/$/01/' | bx base58check-encode -v 204                                                                     
+XH2Yndjv6Ks3XEHGaSMDhUMTAMZTTWv5nEN958Y7VMyQXBCJVQmM 
+
+% echo 'tprv8iBUTxFHtPMKmrQDN4yjCPWmNBT9ZPZZeSFgxNLnAhmNmsHVmFxENnREcdEQXLVUoE3invSjhTjDsHfCrVtijVvVYbj6XWfH6DmQnXQvQoZ' | bx hd-private -i 0 | bx hd-to-ec | sed 's/$/01/' | bx base58check-encode -v 204
+XH2Yndjv6Ks3XEHGaSMDhUMTAMZTTWv5nEN958Y7VMyQXBCJVQmM
+```
 
 ### [Key Encryption Commands] (https://github.com/libbitcoin/libbitcoin-explorer/wiki/Key-Encryption-Commands)
 
@@ -102,7 +102,7 @@ The table above also complements [Altchain Encrypted Private Keys](https://githu
 * **[ek-new](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-ek-new)** ( use version/WIF column for private keys )
 * **[ek-public](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-ek-public)**  ( use version/p2pkh column for addresses )
 
-**5) Extended AES256Encrypt and AES256Decrypt BIP 38 example:** For a Dash base16-encoded 256-bit secret elliptic curve key.
+**5) Extended AES256Encrypt and AES256Decrypt BIP 38 Example:** For a Dash base16-encoded 256-bit secret elliptic curve key.
 
 ```
 % bx ec-to-ek -v 204 'Hello it is me' f9a8f6d4a24b99d4944ee3db83c85383e9c13e85cb50ad60a9e1a96e02f6d269
@@ -111,7 +111,7 @@ The table above also complements [Altchain Encrypted Private Keys](https://githu
 % bx ek-to-ec 'Hello it is me' 5XCsGSbMhW6zisvPx7LUKHPUGTi21kdSVwc6HNM1Zurg9ENPiUVtzBZDho
 f9a8f6d4a24b99d4944ee3db83c85383e9c13e85cb50ad60a9e1a96e02f6d269
 ```
-**6) Extended "EC Multiply Mode" BIP 38 example:** For Dash with an initial secret of 'knock knock', seed, salt, lot number of 0, and sequence number of 0. *Please note the information below must be correlated with security [recommendations](https://github.com/libbitcoin/libbitcoin/wiki/BIP38-Security-Considerations#recommendations) to arrive at a good processes for minting coins or engraving notes.*
+**6) Extended "EC Multiply Mode" BIP 38 Example:** For Dash with an initial secret of 'knock knock', seed, salt, lot number of 0, and sequence number of 0. *Please note the information below must be correlated with security [recommendations](https://github.com/libbitcoin/libbitcoin/wiki/BIP38-Security-Considerations#recommendations) to arrive at a good processes for minting coins or engraving notes.*
 
 ```
 % echo 'Not so random seed' | bx base16-encode | bx sha256
