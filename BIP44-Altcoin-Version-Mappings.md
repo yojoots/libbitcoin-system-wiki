@@ -1,10 +1,10 @@
 ### Application of BIP [32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki), [38](https://github.com/bitcoin/bips/blob/master/bip-0038.mediawiki), [39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki), [44](https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki), and 63 ([Stealth Addresses](http://sourceforge.net/p/bitcoin/mailman/message/31813471/)) to Altcoins
 
-Libbitcoin bitcoin-explorer **(bx)** command line interface provides substantial BIP 32, 38, 39, and 63 support.  BIP 44 support results from how bx BIP 32 is applied and the application of the table below. This table applies to BTC and numerous other altcoins.
+Libbitcoin **bitcoin-explorer (bx)** command line interface provides substantial BIP 32, 38, 39, and 63 support.  BIP 44 support results from how bx BIP 32 is applied and the application of the table below. This table applies to BTC and numerous other altcoins.
 
-The table below is a work-in-progress, but provides important values for the first two working examples below the table. Accuracy of portions of this table is questionable (~90% accurate) until vetted by others, but the pattern for how it is applies to altcoins is well understood. This Altcoin Version Mapping Table most definitely extends/complements [SLIP 44] (http://doc.satoshilabs.com/slips/slip-0044.html) referenced within [BIP44] (https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki#registered-coin-types)
+The table below is a work-in-progress, but provides important values for examples #1 and #4 below the table. Accuracy of portions of this table is questionable (~90% accurate) until vetted by others, but the pattern for how it is applies to altcoins is well understood. This Altcoin Version Mapping Table most definitely extends/complements [SLIP 44] (http://doc.satoshilabs.com/slips/slip-0044.html) referenced within [BIP44] (https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki#registered-coin-types)
 
-As a rule of thumb, any bx commands that support the --version (-v) values (an 8 bit decimal number) associated with private keys will use values from the **version/WIF** column for a desired coin. Similarly, any bx commands that support version values associated with coin addresses for a desired coin will use the **version/p2pkh** column. An empirical trend within the table below is that version/WIF values range between 128 and 255 inclusive. Similarly, version/p2pkh values range between 0 and 127 inclusive.
+As a rule of thumb, any bx commands that support the **--version (-v)** values (an 8 bit decimal number) associated with private keys will use values from the **version/WIF** column for a desired coin. Similarly, any bx commands that support version values associated with coin addresses for a desired coin will use the **version/p2pkh** column. An empirical trend within the table below is that version/WIF values range between 128 and 255 inclusive. Similarly, version/p2pkh values range between 0 and 127 inclusive.
 
 #### BIP44 Altcoin Version Mapping Table
 ```
@@ -40,7 +40,7 @@ OA?   |      21      |         23         |        19       |   https://github.c
 
 ### [Wallet Commands](https://github.com/libbitcoin/libbitcoin-explorer/wiki/Wallet-Commands)
 
-The table above is a "Rosetta Stone" to effectively translate Bitcoin private keys and public addresses to those used by a number of altcoins having strong Bitcoin heritage. It provides important **--version (-v)** base10 integer values for the following **bitcoin-explorer** commands to create keys and addresses for altcoins:
+The table above is a "Rosetta Stone" to effectively translate Bitcoin private keys and public addresses to those used by a number of altcoins having strong Bitcoin heritage. It provides important --version (-v) base10 integer values for the following **bitcoin-explorer** commands to be used to addresses for altcoins:
 
 * **[ec-to-address](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-ec-to-address)**  ( use version/p2pkh column for addresses )
 
