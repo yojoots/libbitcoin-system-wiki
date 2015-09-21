@@ -151,7 +151,7 @@ Xc3cYycMHt9vtBjMcUJshBH34QqfZnbEyu <- Performed by coin/note owner to authentica
 
 ### [Stealth Commands](https://github.com/libbitcoin/libbitcoin-explorer/wiki/Stealth-Commands)
 
-The application **--versions** values to **Stealth Commands** for altcoins is a work in progress...
+The application **--version** values to **Stealth Commands** for altcoins is a work in progress...
 
 The following bitcoin explorer wallet stealth commands are natural candidates to be extended to accommodate **--version** values:
 
