@@ -33,6 +33,10 @@ CCN   |      19      |        156         |        28       |   https://github.c
 DGB   |      20      |        128         |        30       |   https://github.com/digibyte/digibyte/blob/master/src/chainparams.cpp
 OA?   |      21      |         23         |        19       |   https://github.com/OpenAssets/open-assets-protocol/blob/master/address-format.mediawiki#example ( % echo '00010966776006953d5567439e5e39f86a0d273bee' | bx base58check-encode -v 19  =>  Yields Open Assets Address: akB4NBW9UuCmHuepksob6yfZs6naHtRCPNy )
       |              |                    |                 |   https://github.com/OpenAssets/open-assets-protocol/blob/master/specification.mediawiki#protocol-overview ( % echo 'dup hash160 [ 010966776006953D5567439E5E39F86A0D273BEE ] equalverify checksig' | bx script-encode | bx sha256 | bx ripemd160  =>  Yields Open Assets ID: ALn3aK1fSuG27N96UGYB1kUYUpGKRhBuBC ; bx base58check-decode ALn3aK1fSuG27N96UGYB1kUYUpGKRhBuBC => Yields "version 23" )
+XPM   |      24      |        151?        |        23        |  https://github.com/primecoin/primecoin/blob/master/src/base58.h
+JBS   |      26      |        171?        |        43        |  https://github.com/jyap808/jumbucks/blob/master/src/base58.h
+VTC   |      28      |        199?        |        71        |  https://github.com/vertcoin/vertcoin/blob/master/src/base58.h
+NVC   |      50      |        136?        |         8        |  https://github.com/novacoin-project/novacoin/blob/master/src/base58.h
 ```
 
 As a rule of thumb, any bx commands that support the **--version (-v)** values (an 8 bit decimal number) associated with private keys will use values from the **version/WIF** column for a desired coin. Similarly, any bx commands that support version values associated with coin addresses for a desired coin will use the **version/p2pkh** column. An empirical trend within the table below is that version/WIF values range between 128 and 255 inclusive. Similarly, version/p2pkh values range between 0 and 127 inclusive. 
