@@ -59,15 +59,17 @@ A. *Be very afraid to use the weak brain wallet driven command sequence below on
 ```   
 Xb9HJy46M9u3SLAWVitS4eV6gEMuVFfZX2
 ```
-B. *An equivalent M/44’/5’/0’/0/0 chain code approach that protects the confidentiality of the master seed. Don't be afraid to apply the chain code driven command sequence below on an online computer. However, for privacy reasons, don't share keys beginning with xpub for Bitcoin or tpub for Testnet. (The prefix tpub below resulted below from compiling bx with the "--enable-testnet" flag. Not compiling bx with this flag will result in similar chain code starting with xpub.)
 
-If crypto-currencies become more widely adopted, this approach could severely diminish the need for eCommerce PCI-DSS compliance. This is a feature of permission-less blockchain technology! Permission-less block chains don't require identity information to be utilized. This means such cryptocurrency networks will naturally protect their customers from identity theft for their eCommerce transactions purchasing goods from merchant servers supporting cryptocurrency transactions. However, eCommerce servers accepting cryptographic currency payments utilizing such chain code must still protect the integrity of such chain code.  Otherwise, merchant's risk customer payments being either be stolen or burned.*
+B. *An equivalent M/44’/5’/0’/0/0 chain code approach that protects the confidentiality of the master seed. Don't be afraid to apply the chain code driven command sequence below on an online computer. However, for privacy reasons, don't share keys beginning with xpub for Bitcoin or tpub for Testnet. (The prefix tpub below resulted below from compiling bx with the "--enable-testnet" flag. Not compiling bx with this flag will result in similar chain code starting with xpub.)*
+
+*If crypto-currencies become more widely adopted, this approach could severely diminish the need for eCommerce PCI-DSS compliance. This is a feature of permission-less blockchain technology! Permission-less block chains don't require identity information to be utilized. This means such cryptocurrency networks will naturally protect their customers from identity theft for their eCommerce transactions purchasing goods from merchant servers supporting cryptocurrency transactions. However, eCommerce servers accepting cryptographic currency payments utilizing such chain code must still protect the integrity of such chain code.  Otherwise, merchant's risk customer payments being either be stolen or burned.*
 ```
 % echo 'tpubDEsWcNHY2m2zfKS1FieKboAswCy5iikUDjrUEtP5ayZmcMYGPempZH36nn9MTMpRqcXowhdDTGwsPu5pcGJ95g6kVKTN7ynmc5pKjjURSqz' | bx hd-public  -i 0 | bx hd-to-ec | bx ec-to-address -v 76
 ```
 ```
 Xb9HJy46M9u3SLAWVitS4eV6gEMuVFfZX2
 ```
+
 C. *Demonstrates the generation of the next public key, i.e., M/44’/5’/0’/0/1, from the same public key chain code above.*
 ```
 % echo 'tpubDEsWcNHY2m2zfKS1FieKboAswCy5iikUDjrUEtP5ayZmcMYGPempZH36nn9MTMpRqcXowhdDTGwsPu5pcGJ95g6kVKTN7ynmc5pKjjURSqz' | bx hd-public  -i 1 | bx hd-to-ec | bx ec-to-address -v 76
