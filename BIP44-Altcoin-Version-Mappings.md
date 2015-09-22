@@ -103,7 +103,7 @@ The following bitcoin explorer wallet commands are natural candidates to be exte
 
 ### [bx - Encoding Commands](https://github.com/libbitcoin/libbitcoin-explorer/wiki/Encoding-Commands)
 
-Some encoding commands supporting **--version** are not restricted as to which of the two columns to use since these commands can be used to develop either WIF private keys, or associated coin addresses. The following bitcoin explorer "encoding commands" provide version support:
+Most encoding commands supporting **--version** are not restricted as to which of the two columns to use since these commands can be used to develop either WIF private keys, or associated coin addresses. The following bitcoin explorer "encoding commands" provide version support:
 
 * **[address-encode](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-address-encode)** ( use version/p2pkh column for addresses )
 * **[base58check-encode](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-base58check-encode)** ( use version/WIF column for private keys, or version/p2pkh column for addresses )
