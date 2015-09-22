@@ -39,29 +39,29 @@ VTC   |      28      |        199?        |        71        |  https://github.c
 NVC   |      50      |        136?        |         8        |  https://github.com/novacoin-project/novacoin/blob/master/src/base58.h
 ```
 
-As a rule of thumb, any bx commands that support the **--version (-v)** values (an 8 bit decimal number) associated with private keys will use values from the **version/WIF** column for a desired coin. Similarly, any bx commands that support version values associated with coin addresses for a desired coin will use the **version/p2pkh** column. An empirical trend within the table below is that version/WIF values range between 128 and 255 inclusive. Similarly, version/p2pkh values range between 0 and 127 inclusive. 
+As a rule of thumb, any bx commands that support the **--version (-v)** values (an 8 bit decimal number) associated with private keys will use values from the **version/WIF** column for a desired coin type. Similarly, any bx commands that support version values associated with coin addresses for a desired coin type will use the **version/p2pkh** column. An empirical trend within the table above is that version/WIF values range between 128 and 255 inclusive. The one notable exception so far is for coin type 21, Open Assets that is coin network agnostic. Similarly, version/p2pkh values range between 0 and 127 inclusive. 
 
-*There will be altcoins that are not BIP/SLIP 44 registered that will have associated version/WIF and version/p2pkh values that will enable bx to synthesize private EC keys and associated addresses. Such a table will be created at a later date.  However, emphasis will be applied toward coins that are BIP/SLIP 44 registered to help boost the establishment of multi-coin wallets.*
+*There will be BIP/SLIP 44 registered coin types where it will not be readily apparent how to apply bx commands to arrive at associated WIF keys and addresses. Additionally, there will be altcoins that are not BIP/SLIP 44 registered that will have associated version/WIF and version/p2pkh values that will enable bx to easily create private EC keys and associated addresses. Such unregistered coin types can be included in the table above, but each having a blank "coin type".  To help boost the establishment of multi-coin wallets as a countermeasure to protect Bitcoin as goes through its pubescence growth phase (that once completed will strongly delineate payment and settlement network processing), emphasis will first be applied towards populating the table above for coins that are BIP/SLIP 44 registered.*
 
 ### [Wallet Commands](https://github.com/libbitcoin/libbitcoin-explorer/wiki/Wallet-Commands)
 
-The table above is a "Rosetta Stone" to effectively translate Bitcoin private keys and public addresses to those used by a number of altcoins having strong Bitcoin heritage. It provides important --version (-v) base10 integer values for the following **bitcoin-explorer** commands to be used to addresses for altcoins:
+The table above is a "Rosetta Stone" that literally translates Bitcoin Elliptic Curve (EC) private keys and associated public addresses to those used by a number of altcoins having strong Bitcoin key/address synthesis heritage. This cryptocurrency Rosetta Stone currently provides important --version (-v) base10 integer values for the following **bitcoin-explorer** wallet command used to create addresses for numerous altcoins:
 
 * **[ec-to-address](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-ec-to-address)**  ( use version/p2pkh column for addresses )
 
 
 **1) Combined BIP 32 and 44 Example:** Apply M/44’/5’/0’/0/0 to create a compressed Dash public addresses for up to 4 billions addresses much more safely on an online machine!!!
 
-A. *Be very afraid to use the weak brain wallet driven command sequence below on an online computer!*
+A. *Be very afraid to use the weak brain wallet driven command sequence below on an online computer! However, it is provided for continuity purposes for examples 1B and 1C below.*
 ```
 % echo 'very complex gibberish' | bx base16-encode | bx sha256 | bx hd-new | bx hd-private -d -i 44 | bx hd-private -d -i 5 | bx hd-private -d -i 0 | bx hd-public  -i 0 | bx hd-public  -i 0 | bx hd-to-ec | bx ec-to-address -v 76
 ```
 ```   
 Xb9HJy46M9u3SLAWVitS4eV6gEMuVFfZX2
 ```
-B. *Equivalent M/44’/5’/0’/0/0 chain code approach that protects the confidentiality of the master seed. Don't be afraid to apply the chain code driven command sequence below on an online computer. However, for privacy reasons, don't share keys beginning with xpub for Bitcoin or tpub for Testnet. (The prefix tpub below resulted below from compiling bx with the "--enable-testnet" flag. Not compiling bx with this code would result in similar chain code starting with xpub.)
+B. *An equivalent M/44’/5’/0’/0/0 chain code approach that protects the confidentiality of the master seed. Don't be afraid to apply the chain code driven command sequence below on an online computer. However, for privacy reasons, don't share keys beginning with xpub for Bitcoin or tpub for Testnet. (The prefix tpub below resulted below from compiling bx with the "--enable-testnet" flag. Not compiling bx with this flag will result in similar chain code starting with xpub.)
 
-If crypto-currencies become more widely adopted, this approach could become a death knell to eCommerce PCI-DSS compliance. This is a feature of permission-less blockchain technology! Permission-less block chains don't require identity information to be utilized. This means such cryptocurrency networks will naturally protect their customers from identity theft for their eCommerce transactions. However, eCommerce servers accepting cryptographic currency payments utilizing such chain code must still protect the integrity of such chain code.  Otherwise, merchant customer payments will either be stolen or burned.*
+If crypto-currencies become more widely adopted, this approach could severely diminish the need for eCommerce PCI-DSS compliance. This is a feature of permission-less blockchain technology! Permission-less block chains don't require identity information to be utilized. This means such cryptocurrency networks will naturally protect their customers from identity theft for their eCommerce transactions purchasing goods from merchant servers supporting cryptocurrency transactions. However, eCommerce servers accepting cryptographic currency payments utilizing such chain code must still protect the integrity of such chain code.  Otherwise, merchant's risk customer payments being either be stolen or burned.*
 ```
 % echo 'tpubDEsWcNHY2m2zfKS1FieKboAswCy5iikUDjrUEtP5ayZmcMYGPempZH36nn9MTMpRqcXowhdDTGwsPu5pcGJ95g6kVKTN7ynmc5pKjjURSqz' | bx hd-public  -i 0 | bx hd-to-ec | bx ec-to-address -v 76
 ```
@@ -117,7 +117,7 @@ A. *Synthesized compressed EC private key below is derived from a very weak cryp
 XH2Yndjv6Ks3XEHGaSMDhUMTAMZTTWv5nEN958Y7VMyQXBCJVQmM
 ```
 
-B. *Equivalent m/44’/5’/0’/0/0 chain code-driven compressed EC private key synthesis, derived from the same cryptographically weak brain wallet, but protects the confidentiality of the master seed.  Extreme care still must be exercised to protect the confidentiality of private key chain code starting with xprv or tprv. A compromise of the confidentiality of m/44’/5’/0’/0 for this Dash example will likely compromise the funds for ~4 billion associated addresses. (The prefix tprv below resulted below from compiling bx with the "--enable-testnet" flag. Not compiling bx with this code would result in similar chain code starting with xprv.)*
+B. *Equivalent m/44’/5’/0’/0/0 chain code-driven compressed EC private key synthesis, derived from the same cryptographically weak brain wallet, but protects the confidentiality of the master seed.  Extreme care still must be exercised to protect the confidentiality of private key chain code starting with xprv or tprv. A compromise of the confidentiality of m/44’/5’/0’/0 for this Dash example will likely compromise the funds for ~4 billion associated addresses. (The prefix tprv below resulted below from compiling bx with the "--enable-testnet" flag. Not compiling bx with with this flag will result in similar chain code starting with xprv.)*
 ```
 % echo  'tprv8iBUTxFHtPMKmrQDN4yjCPWmNBT9ZPZZeSFgxNLnAhmNmsHVmFxENnREcdEQXLVUoE3invSjhTjDsHfCrVtijVvVYbj6XWfH6DmQnXQvQoZ' | bx hd-private -i 0 | bx hd-to-ec | sed 's/$/01/' | bx base58check-encode -v 204
 ```
