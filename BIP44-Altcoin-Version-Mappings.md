@@ -50,23 +50,25 @@ The table above is a "Rosetta Stone" to effectively translate Bitcoin private ke
 * **[ec-to-address](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-ec-to-address)**  ( use version/p2pkh column for addresses )
 
 
-**1) Combined BIP 32 and 44 Example:** Apply m/44’/5’/0’/0/0 to create a compressed Dash public addresses for up to 4 billions addresses much more safely on an online machine!!!
+**1) Combined BIP 32 and 44 Example:** Apply M/44’/5’/0’/0/0 to create a compressed Dash public addresses for up to 4 billions addresses much more safely on an online machine!!!
 
-A. *Be very afraid to use this weak brain wallet driven command sequence below on an online computer!*
+A. *Be very afraid to use the weak brain wallet driven command sequence below on an online computer!*
 ```
 % echo 'very complex gibberish' | bx base16-encode | bx sha256 | bx hd-new | bx hd-private -d -i 44 | bx hd-private -d -i 5 | bx hd-private -d -i 0 | bx hd-public  -i 0 | bx hd-public  -i 0 | bx hd-to-ec | bx ec-to-address -v 76
 ```
 ```   
 Xb9HJy46M9u3SLAWVitS4eV6gEMuVFfZX2
 ```
-B. *Don't be afraid to apply the chain code driven command sequence below on an online computer. However, for privacy reasons, don't share keys beginning with xpub for Bitcoin or tpub for Testnet. (If crypto-currencies become more widely adopted, this approach could be a death knell to eCommerce PCI-DSS compliance.)*
+B. *Equivalent M/44’/5’/0’/0/0 chain code approach that protects the confidentiality of the master seed. Don't be afraid to apply the chain code driven command sequence below on an online computer. However, for privacy reasons, don't share keys beginning with xpub for Bitcoin or tpub for Testnet. (The prefix tpub below resulted below from compiling bx with the "--enable-testnet" flag. Not compiling bx with this code would result in similar chain code starting with xpub.)
+
+If crypto-currencies become more widely adopted, this approach could become a death knell to eCommerce PCI-DSS compliance. This is a feature of permission-less blockchain technology! Permission-less block chains don't require identity information to be utilized. This means such cryptocurrency networks will naturally protect their customers from identity theft for their eCommerce transactions. However, eCommerce servers accepting cryptographic currency payments utilizing such chain code must still protect the integrity of such chain code.  Otherwise, merchant customer payments will either be stolen or burned.*
 ```
 % echo 'tpubDEsWcNHY2m2zfKS1FieKboAswCy5iikUDjrUEtP5ayZmcMYGPempZH36nn9MTMpRqcXowhdDTGwsPu5pcGJ95g6kVKTN7ynmc5pKjjURSqz' | bx hd-public  -i 0 | bx hd-to-ec | bx ec-to-address -v 76
 ```
 ```
 Xb9HJy46M9u3SLAWVitS4eV6gEMuVFfZX2
 ```
-C. *Demonstrates the generation of the next public key, i.e., m/44’/5’/0’/0/1, from the same public key chain code above.*
+C. *Demonstrates the generation of the next public key, i.e., M/44’/5’/0’/0/1, from the same public key chain code above.*
 ```
 % echo 'tpubDEsWcNHY2m2zfKS1FieKboAswCy5iikUDjrUEtP5ayZmcMYGPempZH36nn9MTMpRqcXowhdDTGwsPu5pcGJ95g6kVKTN7ynmc5pKjjURSqz' | bx hd-public  -i 1 | bx hd-to-ec | bx ec-to-address -v 76
 ```
@@ -107,7 +109,7 @@ Some encoding commands supporting **--version** are not restricted as to which o
 
 **4) Combined BIP 32 and 44 Example:** Apply m/44’/5’/0’/0/0 example to create a compressed Dash private key.
 
-A. *Synthesized EC private key below is derived from a very weak cryptographical brain wallet* 
+A. *Synthesized compressed EC private key below is derived from a very weak cryptographical brain wallet. Note that this affords absolutely no protection of the master seed that feeds the hd-new.  The piped "sed 's/$/01/'" command below appends the public key with "01" which signals the key is compressed. Without this extra suffix, the EC public key is in the uncompressed form.* 
 ```
 % echo 'very complex gibberish' | bx base16-encode | bx sha256 | bx hd-new | bx hd-private -d -i 44 | bx hd-private -d -i 5 | bx hd-private -d -i 0 | bx hd-private -i 0 | bx hd-private -i 0 | bx hd-to-ec | sed 's/$/01/' | bx base58check-encode -v 204 
 ```
@@ -115,12 +117,20 @@ A. *Synthesized EC private key below is derived from a very weak cryptographical
 XH2Yndjv6Ks3XEHGaSMDhUMTAMZTTWv5nEN958Y7VMyQXBCJVQmM
 ```
 
-B. *Equivalent chain code-driven EC private key synthesis, derived from a cryptographically weak brain wallet.  Extreme care must be exercised to protect the confidentiality of chain code starting with xprv or tprv.*
+B. *Equivalent m/44’/5’/0’/0/0 chain code-driven compressed EC private key synthesis, derived from the same cryptographically weak brain wallet, but protects the confidentiality of the master seed.  Extreme care still must be exercised to protect the confidentiality of private key chain code starting with xprv or tprv. A compromise of the confidentiality of m/44’/5’/0’/0 for this Dash example will likely compromise the funds for ~4 billion associated addresses. (The prefix tprv below resulted below from compiling bx with the "--enable-testnet" flag. Not compiling bx with this code would result in similar chain code starting with xprv.)*
 ```
-% echo 'tprv8iBUTxFHtPMKmrQDN4yjCPWmNBT9ZPZZeSFgxNLnAhmNmsHVmFxENnREcdEQXLVUoE3invSjhTjDsHfCrVtijVvVYbj6XWfH6DmQnXQvQoZ' | bx hd-private -i 0 | bx hd-to-ec | sed 's/$/01/' | bx base58check-encode -v 204
+% echo  'tprv8iBUTxFHtPMKmrQDN4yjCPWmNBT9ZPZZeSFgxNLnAhmNmsHVmFxENnREcdEQXLVUoE3invSjhTjDsHfCrVtijVvVYbj6XWfH6DmQnXQvQoZ' | bx hd-private -i 0 | bx hd-to-ec | sed 's/$/01/' | bx base58check-encode -v 204
 ```
 ```
 XH2Yndjv6Ks3XEHGaSMDhUMTAMZTTWv5nEN958Y7VMyQXBCJVQmM
+```
+
+C. *Equivalent m/44’/5’/0’/0/1 chain code approach that protects the confidentiality of the master seed.*
+```
+% echo 'tprv8iBUTxFHtPMKmrQDN4yjCPWmNBT9ZPZZeSFgxNLnAhmNmsHVmFxENnREcdEQXLVUoE3invSjhTjDsHfCrVtijVvVYbj6XWfH6DmQnXQvQoZ' | bx hd-private -i 1 | bx hd-to-ec | sed 's/$/01/' | bx base58check-encode -v 204
+```
+```
+XGobHujzvnXWdnteE2aZU8TH2EEgbWkXr9iFQuU9QL1mpU21brja
 ```
 
 ### [Key Encryption Commands] (https://github.com/libbitcoin/libbitcoin-explorer/wiki/Key-Encryption-Commands)
@@ -167,7 +177,7 @@ B. *"Brain salt" utilizes the first 8 hex digits below.*
 e51549349dd7b98ff30281211fe281247c32922d259fc12b0abf7b2110114d03
 ```
 
-C. *Intermediate code (passphrase*) created by the future coin/note owner to outsource work to a minter/engraver. Both this information and the seed are released only to the minter/engraver.*
+C. *Intermediate code, prefixed with passphrase, is created by the future coin/note owner prior to outsourcing work to a minter/engraver. Both this information and the associated seed are released only to the minter/engraver.*
 ```
 % bx token-new -l 0 -s 0 'knock knock' e5154934
 ```
