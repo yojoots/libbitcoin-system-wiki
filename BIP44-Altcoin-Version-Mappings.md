@@ -78,7 +78,7 @@ C. *Demonstrates the generation of the next public key, i.e., M/44’/5’/0’/
 XpTtgbcURSBfcuo8FZsNFeGrsCSi3jarAi
 ```
 
-**2) BIP 39 Example:** Create master seed in Spanish from a weak English brainwallet seed. (Is altcoin insensitive.)
+**2) BIP 39 Example:** Create a master seed in Spanish from a weak English brainwallet seed. (Is altcoin insensitive.)
 ```
 % echo 'very complex gibberish' | bx base16-encode | bx sha512 | bx mnemonic-new -l es
 ```
@@ -86,7 +86,7 @@ XpTtgbcURSBfcuo8FZsNFeGrsCSi3jarAi
 cambio cosmos leche dar imponer enfermo envío equipo tanque liso utopía semilla altar bebé proa caoba maestro bodega equipo escribir droga paso apodo bulto vela molino nave talento militar perder odiar árido signo enfermo rojizo ganso himno clase átomo chupar rienda quitar ciclón banda situar rueda alto asesor
 ```
 
-**3) BIP 39 Example:** Recreate master seed from BIP 39 words. (Is altcoin insensitive.)
+**3) BIP 39 Example:** Recreate a master seed from BIP 39 words. (Is altcoin insensitive.)
 ```
 % echo 'enable load garage hard diagram trim nothing exclude fantasy gold ramp fiber wise ball have hero toddler spy excite glue maze drill else sell' | bx mnemonic-to-seed -p TREZOR
 ```
