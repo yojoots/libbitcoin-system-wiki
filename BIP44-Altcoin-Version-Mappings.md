@@ -146,14 +146,14 @@ The table above also complements [Altchain Encrypted Private Keys](https://githu
 
 **5) Extended AES256Encrypt and AES256Decrypt BIP 38 Example:** For a Dash base16-encoded 256-bit secret elliptic curve key.
 
-A. *Extended BIP 38 (256 bit AES) encryption of a Dash coin private key.*
+A. *Extended BIP 38 (256 bit AES) encryption for Dash of a base16 encoded EC private key.*
 ```
 % bx ec-to-ek -v 204 'Hello it is me' f9a8f6d4a24b99d4944ee3db83c85383e9c13e85cb50ad60a9e1a96e02f6d269
 ```
 ```
 5XCsGSbMhW6zisvPx7LUKHPUGTi21kdSVwc6HNM1Zurg9ENPiUVtzBZDho
 ```
-B. *Extended BIP 38 (256 bit AES) decryption of an extended BIP 38 encrypted Dash coin private key.*
+B. *Extended BIP 38 (256 bit AES) decryption of an extended Dash BIP 38 encrypted base16 encoded EC private key.*
 ```
 % bx ek-to-ec 'Hello it is me' 5XCsGSbMhW6zisvPx7LUKHPUGTi21kdSVwc6HNM1Zurg9ENPiUVtzBZDho
 ```
