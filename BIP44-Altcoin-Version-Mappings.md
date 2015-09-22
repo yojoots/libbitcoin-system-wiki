@@ -161,9 +161,9 @@ B. *Extended BIP 38 (256 bit AES) decryption of an extended BIP 38 encrypted Das
 f9a8f6d4a24b99d4944ee3db83c85383e9c13e85cb50ad60a9e1a96e02f6d269
 ```
 
-**6) Extended "EC Multiply Mode" BIP 38 Example:** For Dash with an initial secret of 'knock knock', seed, salt, lot number of 0, and sequence number of 0. *Please note the information below must be correlated with security [recommendations](https://github.com/libbitcoin/libbitcoin/wiki/BIP38-Security-Considerations#recommendations) to arrive at a good processes for minting coins or engraving notes.*
+**6) Extended "EC Multiply Mode" BIP 38 Example:** For Dash having an initial secret of 'knock knock', seed, salt, lot number of 0, and sequence number of 0. *Please note the information below needs to be correlated with security [recommendations](https://github.com/libbitcoin/libbitcoin/wiki/BIP38-Security-Considerations#recommendations) to arrive at a good processes for outsourcing the minting of coins or engraving of notes by the owners of Dash funds.*
 
-A. *A "brain seed".*
+A. *"Brain seed"*
 ```
 % echo 'Not so random seed' | bx base16-encode | bx sha256
 ```
@@ -179,7 +179,7 @@ B. *"Brain salt" utilizes the first 8 hex digits below.*
 e51549349dd7b98ff30281211fe281247c32922d259fc12b0abf7b2110114d03
 ```
 
-C. *Intermediate code, prefixed with passphrase, is created by the future coin/note owner prior to outsourcing work to a minter/engraver. Both this information and the associated seed are released only to the minter/engraver.*
+C. *Intermediate code, always prefixed with "passphrase", is created by a coin/note owner prior to outsourcing work to a minter/engraver. Both this information and the associated seed are released only to the minter/engraver.*
 ```
 % bx token-new -l 0 -s 0 'knock knock' e5154934
 ```
@@ -187,7 +187,7 @@ C. *Intermediate code, prefixed with passphrase, is created by the future coin/n
 passphrasedsP52SrHdFSR4Fb55dvDiXnxnuyZUFCYheSYrPVGiMUCVnEhCb4UU3Nsbs2HCg
 ``` 
 
-D. *Performed by the minter/engraver to know the BIP 38 encrypted private key to be publicly labelled on a Dash coin/note.*
+D. *Is performed by the minter/engraver to know the BIP 38 encrypted private key to be publicly labelled on a Dash coin/note.*
 ```
 % bx ek-new -v 204 passphrasedsP52SrHdFSR4Fb55dvDiXnxnuyZUFCYheSYrPVGiMUCVnEhCb4UU3Nsbs2HCg 565bdb03ade36264adc00600952a865fc4bdc61d81be7d9be6ee0c7c06809857
 ```
@@ -219,7 +219,7 @@ TP3. *Traditional computation of the associated Dash address - test point #3*
 Xc3cYycMHt9vtBjMcUJshBH34QqfZnbEyu
 ``` 
 
-E. *Created by the minter/engraver. To avoid being classified as "money transmitter", minter/engraver must not send/share this information with the coin/note owner until after the coin/note is sent by registered mail, preferably delivered. However, there are no explicit counter measures preventing entrapment by a "devious" coin/note owner by the BIP 38 protocol!!!*
+E. *To be created by a minter/engraver. To avoid being classified as "money transmitter", minter/engraver must not send/share this information with the coin/note owner until after the coin/note is sent by registered mail, preferably delivered. However, there are no explicit counter measure to prevent entrapment by a "devious" coin/note owner that is built into the BIP 38 "multiply mode" capability!!!*
 ```
 % bx ek-public -v 76 passphrasedsP52SrHdFSR4Fb55dvDiXnxnuyZUFCYheSYrPVGiMUCVnEhCb4UU3Nsbs2HCg 565bdb03ade36264adc00600952a865fc4bdc61d81be7d9be6ee0c7c06809857
 ```
@@ -235,7 +235,7 @@ V1. *Validation #1 - Matches TP2*
 035d37339d296b1a7ea8c7f04cf33eb0e8fd547df58d60259c9e4d9404795cd7f1
 ```
 
-F. *Performed by coin/note owner after receiving the confirmation code from the minter/engraver.  If public address doesn't match the results of the next command, coin/note owner should not "load" the coin with the denomination printed on the coin. Observe the result matches TP3*
+F. *Is performed by a coin/note owner after receiving the confirmation code from their minter/engraver.  If public address doesn't match the results of the next command, coin/note owner should not "load" the coin with the denomination printed on the coin. Observe the result matches TP3*
 ```
 % bx ek-public-to-address 'knock knock' cfrm3CdFNyDReVUXn2weQYL4Q3sGsRyFYSNBbrK5qfpFyCXCNKPPJicRxuxmLiN3ZtjVafCLZuc
 ```
@@ -243,7 +243,7 @@ F. *Performed by coin/note owner after receiving the confirmation code from the 
 Xc3cYycMHt9vtBjMcUJshBH34QqfZnbEyu
 ```
 
-G. *Performed by coin/note owner to authenticate the Dash coin address where funds are to be deposited. If there is a match, a deposit is not likely to be lost or burned. Observe the result matches TP3*
+G. *Is performed by a coin/note owner to double authenticate the Dash coin address where funds are to be deposited. There could be a typo mistake, cut-and-paste mistake, or a man-in-the-middle attack compromising the integrity of the confirmation code resulting in a bad address created by 6F. If results match, a deposit is not likely to be lost or burned. Observe the result matches TP3*
 ```
 % bx ek-address -v 76 passphrasedsP52SrHdFSR4Fb55dvDiXnxnuyZUFCYheSYrPVGiMUCVnEhCb4UU3Nsbs2HCg 565bdb03ade36264adc00600952a865fc4bdc61d81be7d9be6ee0c7c06809857
 ```
@@ -258,6 +258,6 @@ The application **--version** values to **Stealth Commands** for altcoins is a w
 
 The following bitcoin explorer wallet stealth commands are natural candidates to be extended to accommodate **--version** values:
 
-* **[stealth-encode](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-stealth-encode)**      ( recommend using p2pkh column )
-* *more commands are under investigation*
+* **[stealth-encode](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-stealth-encode)** ( recommend using p2pkh column )
+* *other stealth commands are under investigation*
 
