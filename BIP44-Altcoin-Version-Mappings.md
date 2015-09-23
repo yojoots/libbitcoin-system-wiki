@@ -1,8 +1,8 @@
 ### Application of BIP [32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki), [38](https://github.com/bitcoin/bips/blob/master/bip-0038.mediawiki), [39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki), [44](https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki), and 63 ([Stealth Addresses](http://sourceforge.net/p/bitcoin/mailman/message/31813471/)) to Altcoins
 
-**Bitcoin-explorer's (bx)** command line interface (part of the libbitcoin tool suite) provides substantial BIP 32, 38, 39, and 63 support. BIP 44 capabilities results from how bx BIP 32 is applied, and the application of the table below. The "BIP44 Altcoin Version Mapping Table" below applies to BTC and numerous other altcoins. This table also complements the [List of Address Prefixes](https://en.bitcoin.it/wiki/List_of_address_prefixes) top Table's Hex Column with row entries containing two hex digits.
+**Bitcoin-explorer's (bx)** command line interface (part of the libbitcoin tool suite) provides substantial BIP 32, 38, 39, and 63 support. BIP 44 capabilities for supporting altcoins results from how bx BIP 32 extended technology is applied, and the application of the table below. The "BIP44 Altcoin Version Mapping Table" below applies to BTC, and numerous other altcoins. This table also complements the [List of Address Prefixes](https://en.bitcoin.it/wiki/List_of_address_prefixes) top Table's "Hex" Column for row entries containing two hex digits.
 
-This "BIP44 Altcoin Version Mapping Table" is a work-in-progress, but provides important values for examples #1, #4, #5, and #6 below the table. Accuracy of portions of this table is questionable (~90% accurate) until vetted by others, but the pattern for how it is applies to altcoins is well understood. This Altcoin Version Mapping Table most definitely extends/complements [SLIP 44] (http://doc.satoshilabs.com/slips/slip-0044.html) referenced within [BIP44] (https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki#registered-coin-types).  
+The "BIP44 Altcoin Version Mapping Table" below is a work-in-progress, but an exemplar will provide important **"--version (-v)"** values for examples #1, #4, #5, and #6 below for an altcoin called Dash to demonstrate how BIPs 32, 38, 39 and 44 can be tightly integrated with minor extentions to coherently support altcoins. It is very important for wallet developers to understand these concepts to minimize complexity of wallets that are to support multiple currencies using a common hierarchical deterministic framework. The accuracy of portions of this table are not absolute (~90% > accuracy and strong trace-ability to implementation source code) until vetted by others, but the pattern for how it apply it  altcoins is firmly understood. This Table extends and complements [SLIP 44] (http://doc.satoshilabs.com/slips/slip-0044.html) referenced within [BIP44] (https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki#registered-coin-types).  
 
 #### BIP44 Altcoin Version Mapping Table
 ```
@@ -39,22 +39,24 @@ VTC   |      28      |        199?        |        71        |  https://github.c
 NVC   |      50      |        136?        |         8        |  https://github.com/novacoin-project/novacoin/blob/master/src/base58.h
 ```
 
-As a rule of thumb, any bx commands that support the **--version (-v)** values (an 8 bit decimal number) associated with private keys will use values from the **version/WIF** column for a desired coin type. Similarly, any bx commands that support version values associated with coin addresses for a desired coin type will use the **version/p2pkh** column. An empirical trend within the table above is that version/WIF values range between 128 and 255 inclusive. The one notable exception so far is for coin type 21, Open Assets that is coin network agnostic. Similarly, version/p2pkh values range between 0 and 127 inclusive. 
+As a rule of thumb, any bx commands that support the "--version (-v)" values (an 8-bit number number in base10/decimal format) associated with private key functionality will use values from the **version/WIF** column for desired coin types. Similarly, any bx commands that support version values associated with address functions for desired coin types will use the **version/p2pkh** column. An empirical trend within the table above is that version/WIF values range between 128 and 255 inclusive. One notable exception discovered so far is for coin type 21, Open Assets that is a cryptocurrency agnostic token. Similarly, version/p2pkh values range between 0 and 127 inclusive. 
 
-There will be BIP/SLIP 44 registered coin types where it will not be readily apparent how to apply bx commands to arrive at associated WIF keys and/or addresses, e.g., coins with raw key lengths greater than 256 bits, or use hashing algorithms other that ripemd160, sha256, and sha512. Additionally, there will be altcoins that are not BIP/SLIP 44 registered that will have associated version/WIF and version/p2pkh values that will enable bx to easily create private EC keys and associated addresses. Such unregistered coin types can be included in the table above, but each having a blank "coin type". To help boost the establishment of multi-coin wallets as a countermeasure to protect Bitcoin as goes through its pubescence growth phase (that once completed will strongly delineate payment and settlement network processing), emphasis will first be applied towards populating the table above for coins that are BIP/SLIP 44 registered.
+It is anticipated the libbitcoin approach presented here should be able to synthesize EC private keys and addresses for 100+ altcoins. Certainly there will be BIP/SLIP 44 registered coin types where it will not be readily apparent how to apply existing bx commands to arrive at associated WIF keys and/or addresses, e.g., coins with raw key lengths greater than 256 bits, or use hashing algorithms other that ripemd160, sha256, and sha512. Additionally, there will be altcoins that are not BIP/SLIP 44 registered that will have associated version/WIF and version/p2pkh values that will enable bx to easily create private EC keys and associated addresses. Such unregistered coin types will be included in the table above, but each having a blank "coin type".  If the libbitcoin framework is adopted by developers, it will naturally enable extended BIP 38 support for those altcoins. (Being investigated, but be patient... Multisig and single signature Stealth transaction creation services might also be able to be inherited if libbitcoin framework is applied.) 
 
-*It may be a bit much to digest, but there is another four columns to be added to this table such as version/p2sh column (used to support multisig capabilities) for altcoin mainnets, and then repeating the three version/( WIF | p2pkh | p2sh ) columns for associated testnets. Albeit having a testnet for a Testnet might seem redundant.*
+Finally, to provide a foundation to jump start the establishment of numerous multi-coin wallet implementation, as a countermeasure to protect Bitcoin as goes through its pubescence growth phase, emphasis will first be applied towards populating the table above for coins that are BIP/SLIP 44 registered. It is anticipated once Bitcoin protocols(s) maturation/growth phase is completed, there will be a strong delineation between payment and settlement network processing layers that will implicitly support different levels of trust, with the settlement layer providing a greater amount of uncensored trust.
+
+*It may be a bit much to digest in this Wiki article, but there is another four columns to be added to the table above such as a version/p2sh column (used to support multisig capabilities) for altcoin mainnets, and then repeating the three version/( WIF | p2pkh | p2sh ) columns for associated testnets. Albeit, having a testnet for a Testnet might seem redundant.*
 
 ### [bx - Wallet Commands](https://github.com/libbitcoin/libbitcoin-explorer/wiki/Wallet-Commands)
 
-The table above is a "Rosetta Stone" that literally translates Bitcoin Elliptic Curve (EC) private keys and associated public addresses to those used by a number of altcoins having strong Bitcoin key/address synthesis heritage. This cryptocurrency Rosetta Stone currently provides important --version (-v) base10 integer values for the following **bitcoin-explorer** wallet command used to create addresses for numerous altcoins:
+The table above is a "Rosetta Stone" that translates Bitcoin Elliptic Curve (EC) private keys and associated public addresses to those used by a number of altcoins having strong Bitcoin key/address synthesis heritage. This cryptocurrency Rosetta Stone currently provides important --version (-v) base10 integer values for the following **bitcoin-explorer** wallet command used to create addresses for numerous altcoins:
 
 * **[ec-to-address](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-ec-to-address)**  ( use version/p2pkh column for addresses )
 
 
 **1) Combined BIP 32 and 44 Example:** *Apply M/44’/5’/0’/0/0 to create a compressed Dash public addresses for up to 4 billions addresses for safe use by an online machine!!!*
 
-**A.** Be very afraid to use the weak brain wallet driven command sequence below for an online computer! Even with a very high entropy brain wallet, the approach below will fail unless you are a "cross domain solution" expert or apply multisignature technology. However, this example is provided for explanation continuity purposes of 1B and 1C below.
+**A.** Be very afraid to use the weak brain wallet driven command sequence below on a computer that is online! Even with a very high entropy brain wallet, the approach below will will certainly be hacked unless you are a "cross domain solution" expert or apply multisignature technology as risk mitigators. However, this example is provided for explanation continuity purposes of 1B and 1C below.
 ```
 % echo 'very complex gibberish' | bx base16-encode | bx sha256 | bx hd-new | bx hd-private -d -i 44 | bx hd-private -d -i 5 | bx hd-private -d -i 0 | bx hd-public  -i 0 | bx hd-public  -i 0 | bx hd-to-ec | bx ec-to-address -v 76
 ```
@@ -62,17 +64,16 @@ The table above is a "Rosetta Stone" that literally translates Bitcoin Elliptic 
 Xb9HJy46M9u3SLAWVitS4eV6gEMuVFfZX2
 ```
 
-**B.** Is an equivalent M/44’/5’/0’/0 extended public key approach that protects the confidentiality of the master seed. Don't be afraid to apply the extended public key command sequence below on an online computer. However, for privacy reasons, don't share extended keys beginning with xpub for Bitcoin or tpub for Testnet. (The prefix tpub below resulted from compiling bx with the "--enable-testnet" flag. Not compiling bx with this flag will results in a similar extended public key starting with xpub.)
+**B.** Is an equivalent M/44’/5’/0’/0 extended public key approach that protects the confidentiality of the master seed. Don't be afraid to apply the extended public key command sequence approach below to online computers. However, for privacy reasons, don't share extended keys beginning with xpub for Bitcoin or tpub for Testnet. (The prefix tpub below resulted from compiling bx with the "--enable-testnet" flag. Not compiling bx with this flag will results in a similar extended public key starting with xpub.)
 
-If crypto-currencies become more widely adopted, this approach could severely diminish the need for eCommerce PCI-DSS compliance. This is a feature of permission-less blockchain technology! Permission-less blockchains don't require identity information to be utilized. This means permission-less cryptocurrency networks will naturally protect consumers from payment-related transaction identity theft for eCommerce transactions using a cryptocurrency transaction as settlement. However, eCommerce servers accepting cryptographic currency payments utilizing such extended public keys must still protect the integrity of such extended public keys.  Otherwise, an eCommerce merchant risks customer payments being stolen or burned.
 ```
 % echo 'tpubDEsWcNHY2m2zfKS1FieKboAswCy5iikUDjrUEtP5ayZmcMYGPempZH36nn9MTMpRqcXowhdDTGwsPu5pcGJ95g6kVKTN7ynmc5pKjjURSqz' | bx hd-public  -i 0 | bx hd-to-ec | bx ec-to-address -v 76
 ```
 ```
 Xb9HJy46M9u3SLAWVitS4eV6gEMuVFfZX2
 ```
-
-**C.** Demonstrates the generation of the next public key for invoicing purposes, i.e., M/44’/5’/0’/0/1, from the same public extended key above.
+If crypto-currencies become more widely adopted, the approach above could severely diminish the need for eCommerce PCI-DSS compliance. This is a feature of permission-less blockchain technology! Permission-less blockchains don't require identity information to be utilized. This means permission-less cryptocurrency networks will naturally protect consumers from transaction payment identity theft for eCommerce transactions using a cryptocurrency transaction as payment/settlement. However, eCommerce servers accepting cryptographic currency payments utilizing such extended public keys must still protect the integrity of such extended public keys.  Otherwise, an eCommerce merchant risks customer payments being stolen or burned.
+**C.** Demonstrates the generation of the next eCommerce Dash payment address (i.e., M/44’/5’/0’/0/1) to be applied by shopping cart checkout or point of sale (PoS) mechanisms, from the very same public extended key above (i.e., M/44’/5’/0’/0).
 ```
 % echo 'tpubDEsWcNHY2m2zfKS1FieKboAswCy5iikUDjrUEtP5ayZmcMYGPempZH36nn9MTMpRqcXowhdDTGwsPu5pcGJ95g6kVKTN7ynmc5pKjjURSqz' | bx hd-public  -i 1 | bx hd-to-ec | bx ec-to-address -v 76
 ```
@@ -80,7 +81,8 @@ Xb9HJy46M9u3SLAWVitS4eV6gEMuVFfZX2
 XpTtgbcURSBfcuo8FZsNFeGrsCSi3jarAi
 ```
 
-**2) BIP 39 Example:** *Create a master seed in Spanish from a weak English brainwallet seed requiring the memorization of 15, 24 or 48 words. (Is altcoin insensitive.)*
+
+**2) BIP 39 Example:** *Create master seeds in Spanish from a common weak English brainwallet seed requiring the memorization of 15, 24 or 48 words.* Functionality demonstrated here is altcoin insensitive.
 
 **A.**  Create seed for a 15 word representation for a BIP 39 encoded master seed.
 ```
@@ -128,7 +130,7 @@ enredo ático litro ánimo grosor paella símbolo viejo aleta orgía ángulo enc
 ```
 
 
-**3) BIP 39 Example:** *Recreate a master seed from BIP 39 words. (Is altcoin insensitive.)*
+**3) BIP 39 Example:** *Recreate a master seed from BIP 39 words.* Functionality demonstrated here is altcoin insensitive.
 ```
 % echo 'enable load garage hard diagram trim nothing exclude fantasy gold ramp fiber wise ball have hero toddler spy excite glue maze drill else sell' | bx mnemonic-to-seed -p TREZOR
 ```
@@ -150,6 +152,7 @@ Most encoding commands supporting **--version** are not restricted as to which o
 * **[address-encode](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-address-encode)** ( use version/p2pkh column for addresses )
 * **[base58check-encode](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-base58check-encode)** ( use version/WIF column for private keys, or version/p2pkh column for addresses )
 * **[wrap-encode](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-wrap-encode)** ( use version/WIF column for private keys**, or version/p2pkh column for addresses )
+
 
 **4) Combined BIP 32 and 44 Example:** *Apply m/44’/5’/0’/0/0 example to create a compressed Dash private key.*
 
@@ -186,6 +189,7 @@ The table above also complements [Altchain Encrypted Private Keys](https://githu
 * **[ek-new](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-ek-new)** ( use version/WIF column for private keys )
 * **[ek-public](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-ek-public)**  ( use version/p2pkh column for addresses )
 
+
 **5) Extended AES256Encrypt and AES256Decrypt BIP 38 Example:** *For a Dash base16-encoded 256-bit secret elliptic curve key.*
 
 **A.** Extended BIP 38 (256 bit AES) encryption for Dash of a base16 encoded EC private key.
@@ -202,6 +206,7 @@ The table above also complements [Altchain Encrypted Private Keys](https://githu
 ```
 f9a8f6d4a24b99d4944ee3db83c85383e9c13e85cb50ad60a9e1a96e02f6d269
 ```
+
 
 **6) Extended "EC Multiply Mode" BIP 38 Example:** *For Dash having an initial secret of 'knock knock', seed, salt, lot number of 0, and sequence number of 0. (Please note the information below needs to be correlated with security [recommendations](https://github.com/libbitcoin/libbitcoin/wiki/BIP38-Security-Considerations#recommendations) to arrive at a good processes for outsourcing the minting of coins or engraving of notes by the owners of Dash funds.)*
 
@@ -221,7 +226,7 @@ f9a8f6d4a24b99d4944ee3db83c85383e9c13e85cb50ad60a9e1a96e02f6d269
 e51549349dd7b98ff30281211fe281247c32922d259fc12b0abf7b2110114d03
 ```
 
-**C.** Intermediate code, always prefixed with "passphrase", is created by a coin/note owner prior to outsourcing work to a minter/engraver. Both this information and the associated seed are released only to the minter/engraver.
+**C.**  Is typically performed only by a coin/note owner prior committing to outsourcing work to a minter/engraver. Both this information and the associated seed are released only to the minter/engraver. Intermediate codes are always prefixed with "passphrase".
 ```
 % bx token-new -l 0 -s 0 'knock knock' e5154934
 ```
@@ -261,7 +266,7 @@ cb77527dfc18a491e79fa34de3b8ce0b3e1f2ce8db2e1fcd69139010505adb23
 Xc3cYycMHt9vtBjMcUJshBH34QqfZnbEyu
 ``` 
 
-**E.** To be created by a minter/engraver. To avoid being classified as "money transmitter", minter/engraver must not send/share this information with the coin/note owner until after the coin/note is sent by registered mail, preferably delivered. However, there are no explicit counter measure to prevent entrapment by a "devious" coin/note owner that is built into the BIP 38 "multiply mode" capability!!!
+**E.** To be created by a minter/engraver. To avoid being classified as "money transmitter", minter/engraver must not send/share this information with the coin/note owner until after the coin/note is sent by registered mail, preferably delivered. However, there are no explicit counter measures to prevent entrapment by a "devious" coin/note owner that is built into the BIP 38 "multiply mode" capability!!!
 ```
 % bx ek-public -v 76 passphrasedsP52SrHdFSR4Fb55dvDiXnxnuyZUFCYheSYrPVGiMUCVnEhCb4UU3Nsbs2HCg 565bdb03ade36264adc00600952a865fc4bdc61d81be7d9be6ee0c7c06809857
 ```
@@ -285,7 +290,7 @@ cfrm3CdFNyDReVUXn2weQYL4Q3sGsRyFYSNBbrK5qfpFyCXCNKPPJicRxuxmLiN3ZtjVafCLZuc
 Xc3cYycMHt9vtBjMcUJshBH34QqfZnbEyu
 ```
 
-**G.** Is performed by a coin/note owner to double authenticate the Dash coin address where funds are to be deposited. There could be a typo mistake, cut-and-paste mistake, or a man-in-the-middle attack compromising the integrity of the confirmation code resulting in a bad address created by 6F. If results match, a deposit is not likely to be lost or burned. Observe the result matches CP3
+**G.** Is performed by a coin/note owner to double authenticate the Dash coin address where funds are to be deposited. There could be a typo mistake, cut-and-paste mistake, or a man-in-the-middle attack (e.g., from utilizing an untrusted communication channel between the minter/engraver and coin/note owner)  compromising the integrity of the confirmation code resulting in a bad address created by step 6F. If results match, a deposit is not likely to be lost or burned. Observe the result below matches CP3
 ```
 % bx ek-address -v 76 passphrasedsP52SrHdFSR4Fb55dvDiXnxnuyZUFCYheSYrPVGiMUCVnEhCb4UU3Nsbs2HCg 565bdb03ade36264adc00600952a865fc4bdc61d81be7d9be6ee0c7c06809857
 ```
