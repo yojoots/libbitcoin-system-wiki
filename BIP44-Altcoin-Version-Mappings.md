@@ -80,13 +80,53 @@ Xb9HJy46M9u3SLAWVitS4eV6gEMuVFfZX2
 XpTtgbcURSBfcuo8FZsNFeGrsCSi3jarAi
 ```
 
-**2) BIP 39 Example:** *Create a master seed in Spanish from a weak English brainwallet seed. (Is altcoin insensitive.)*
+**2) BIP 39 Example:** *Create a master seed in Spanish from a weak English brainwallet seed requiring the memorization of 15, 24 or 48 words. (Is altcoin insensitive.)*
+
+**A.**  Create seed for a 15 word representation for a BIP 39 encoded master seed.
 ```
-% echo 'very complex gibberish' | bx base16-encode | bx sha512 | bx mnemonic-new -l es
+% echo 'TREZOR' | bx base16-encode | bx ripemd160
 ```
 ```
-cambio cosmos leche dar imponer enfermo envío equipo tanque liso utopía semilla altar bebé proa caoba maestro bodega equipo escribir droga paso apodo bulto vela molino nave talento militar perder odiar árido signo enfermo rojizo ganso himno clase átomo chupar rienda quitar ciclón banda situar rueda alto asesor
+0d7a259d0280785f98659ee9cb1809663cbd4672
 ```
+**B.** 15 Spanish word BIP 39 representation of a master seed.
+```
+% echo 'very complex gibberish' | bx base16-encode | bx sha256 | bx mnemonic-new -l es -p 0d7a259d0280785f98659ee9cb1809663cbd4672
+```
+```
+anillo salón grosor afinar alacrán champú ganso pimienta todo fiel aceptar rojo rodar ombligo riñón
+```
+
+**C.** Create seed for a 24 word representation for a BIP 39 encoded master seed.
+```
+% echo 'TREZOR' | bx base16-encode | bx sha256
+```
+```
+91d5a6684b637ded1e0d9eb7fea85a864ac3a7c44d666c3254b76108ae201550
+```
+**D.** 24 Spanish word BIP 39 representation of a master seed.
+```
+echo 'very complex gibberish' | bx base16-encode | bx sha256 | bx mnemonic-new -l es -p 91d5a6684b637ded1e0d9eb7fea85a864ac3a7c44d666c3254b76108ae201550
+```
+```
+moler pausa nevar música conocer veinte júpiter pimienta pollo valor átomo ancho pasar seco arbusto pata hígado monto célebre raspa matriz aprender familia apoyo
+```
+
+**E.** Create seed for a 48 word representation for a BIP 39 encoded master seed.
+```
+echo 'TREZOR' | bx base16-encode | bx sha512
+```
+```
+4da2ce0586c67550f627d108d4b0352646add71253a1d647076f9ffa3b6d1379c6f6f4c8e49a185344ee272d1a66a185329686a42ef61bf08782d595fc313824
+```
+**F.** 48 Spanish word BIP 39 representation of a master seed.
+```
+echo 'very complex gibberish' | bx base16-encode | bx sha256 | bx mnemonic-new -l es -p 4da2ce0586c67550f627d108d4b0352646add71253a1d647076f9ffa3b6d1379c6f6f4c8e49a185344ee272d1a66a185329686a42ef61bf08782d595fc313824
+```
+```
+enredo ático litro ánimo grosor paella símbolo viejo aleta orgía ángulo encía hebra torpedo edificio invierno sermón copa sostén dedo opción pluma enseñar cordón velero orquesta coser clínica luz olfato pompa terror babor codo gancho gordo guía evitar proeza rechazo tubo cuchara pizca carta rebote nota mirar curioso
+```
+
 
 **3) BIP 39 Example:** *Recreate a master seed from BIP 39 words. (Is altcoin insensitive.)*
 ```
