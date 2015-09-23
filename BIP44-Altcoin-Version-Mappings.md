@@ -52,9 +52,9 @@ The table above is a "Rosetta Stone" that literally translates Bitcoin Elliptic 
 * **[ec-to-address](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-ec-to-address)**  ( use version/p2pkh column for addresses )
 
 
-**1) Combined BIP 32 and 44 Example:** Apply M/44’/5’/0’/0/0 to create a compressed Dash public addresses for up to 4 billions addresses for safe use by an online machine!!!
+**1) Combined BIP 32 and 44 Example:** *Apply M/44’/5’/0’/0/0 to create a compressed Dash public addresses for up to 4 billions addresses for safe use by an online machine!!!*
 
-A. Be very afraid to use the weak brain wallet driven command sequence below for an online computer! Even with a very high entropy brain wallet the approach below will fail unless you are a "cross domain solution" expert or start to apply multisignature technology. However, it is provided for continuity purposes for examples 1B and 1C below.*
+**A.** Be very afraid to use the weak brain wallet driven command sequence below for an online computer! Even with a very high entropy brain wallet, the approach below will fail unless you are a "cross domain solution" expert or apply multisignature technology. However, this example is provided for explanation continuity purposes of 1B and 1C below.
 ```
 % echo 'very complex gibberish' | bx base16-encode | bx sha256 | bx hd-new | bx hd-private -d -i 44 | bx hd-private -d -i 5 | bx hd-private -d -i 0 | bx hd-public  -i 0 | bx hd-public  -i 0 | bx hd-to-ec | bx ec-to-address -v 76
 ```
@@ -62,9 +62,9 @@ A. Be very afraid to use the weak brain wallet driven command sequence below for
 Xb9HJy46M9u3SLAWVitS4eV6gEMuVFfZX2
 ```
 
-B. *Is an equivalent M/44’/5’/0’/0 extended public key approach that protects the confidentiality of the master seed. Don't be afraid to apply the extended public key command sequence below on an online computer. However, for privacy reasons, don't share extended keys beginning with xpub for Bitcoin or tpub for Testnet. (The prefix tpub below resulted from compiling bx with the "--enable-testnet" flag. Not compiling bx with this flag will results in a similar extended public key starting with xpub.)*
+**B.** Is an equivalent M/44’/5’/0’/0 extended public key approach that protects the confidentiality of the master seed. Don't be afraid to apply the extended public key command sequence below on an online computer. However, for privacy reasons, don't share extended keys beginning with xpub for Bitcoin or tpub for Testnet. (The prefix tpub below resulted from compiling bx with the "--enable-testnet" flag. Not compiling bx with this flag will results in a similar extended public key starting with xpub.)
 
-*If crypto-currencies become more widely adopted, this approach could severely diminish the need for eCommerce PCI-DSS compliance. This is a feature of permission-less blockchain technology! Permission-less blockchains don't require identity information to be utilized. This means permission-less cryptocurrency networks will naturally protect consumers from payment-related transaction identity theft for eCommerce transactions using a cryptocurrency transaction as settlement. However, eCommerce servers accepting cryptographic currency payments utilizing such extended public keys must still protect the integrity of such extended public keys.  Otherwise, an eCommerce merchant risks customer payments being stolen or burned.*
+If crypto-currencies become more widely adopted, this approach could severely diminish the need for eCommerce PCI-DSS compliance. This is a feature of permission-less blockchain technology! Permission-less blockchains don't require identity information to be utilized. This means permission-less cryptocurrency networks will naturally protect consumers from payment-related transaction identity theft for eCommerce transactions using a cryptocurrency transaction as settlement. However, eCommerce servers accepting cryptographic currency payments utilizing such extended public keys must still protect the integrity of such extended public keys.  Otherwise, an eCommerce merchant risks customer payments being stolen or burned.
 ```
 % echo 'tpubDEsWcNHY2m2zfKS1FieKboAswCy5iikUDjrUEtP5ayZmcMYGPempZH36nn9MTMpRqcXowhdDTGwsPu5pcGJ95g6kVKTN7ynmc5pKjjURSqz' | bx hd-public  -i 0 | bx hd-to-ec | bx ec-to-address -v 76
 ```
@@ -72,7 +72,7 @@ B. *Is an equivalent M/44’/5’/0’/0 extended public key approach that prote
 Xb9HJy46M9u3SLAWVitS4eV6gEMuVFfZX2
 ```
 
-C. *Demonstrates the generation of the next public key for invoicing purposes, i.e., M/44’/5’/0’/0/1, from the same public extended key above.*
+**C.** Demonstrates the generation of the next public key for invoicing purposes, i.e., M/44’/5’/0’/0/1, from the same public extended key above.
 ```
 % echo 'tpubDEsWcNHY2m2zfKS1FieKboAswCy5iikUDjrUEtP5ayZmcMYGPempZH36nn9MTMpRqcXowhdDTGwsPu5pcGJ95g6kVKTN7ynmc5pKjjURSqz' | bx hd-public  -i 1 | bx hd-to-ec | bx ec-to-address -v 76
 ```
@@ -80,7 +80,7 @@ C. *Demonstrates the generation of the next public key for invoicing purposes, i
 XpTtgbcURSBfcuo8FZsNFeGrsCSi3jarAi
 ```
 
-**2) BIP 39 Example:** Create a master seed in Spanish from a weak English brainwallet seed. (Is altcoin insensitive.)
+**2) BIP 39 Example:** *Create a master seed in Spanish from a weak English brainwallet seed. (Is altcoin insensitive.)*
 ```
 % echo 'very complex gibberish' | bx base16-encode | bx sha512 | bx mnemonic-new -l es
 ```
@@ -88,7 +88,7 @@ XpTtgbcURSBfcuo8FZsNFeGrsCSi3jarAi
 cambio cosmos leche dar imponer enfermo envío equipo tanque liso utopía semilla altar bebé proa caoba maestro bodega equipo escribir droga paso apodo bulto vela molino nave talento militar perder odiar árido signo enfermo rojizo ganso himno clase átomo chupar rienda quitar ciclón banda situar rueda alto asesor
 ```
 
-**3) BIP 39 Example:** Recreate a master seed from BIP 39 words. (Is altcoin insensitive.)
+**3) BIP 39 Example:** *Recreate a master seed from BIP 39 words. (Is altcoin insensitive.)*
 ```
 % echo 'enable load garage hard diagram trim nothing exclude fantasy gold ramp fiber wise ball have hero toddler spy excite glue maze drill else sell' | bx mnemonic-to-seed -p TREZOR
 ```
@@ -111,9 +111,9 @@ Most encoding commands supporting **--version** are not restricted as to which o
 * **[base58check-encode](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-base58check-encode)** ( use version/WIF column for private keys, or version/p2pkh column for addresses )
 * **[wrap-encode](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-wrap-encode)** ( use version/WIF column for private keys**, or version/p2pkh column for addresses )
 
-**4) Combined BIP 32 and 44 Example:** Apply m/44’/5’/0’/0/0 example to create a compressed Dash private key.
+**4) Combined BIP 32 and 44 Example:** *Apply m/44’/5’/0’/0/0 example to create a compressed Dash private key.*
 
-A. *Synthesized compressed EC private key below is derived from a very weak cryptographical brain wallet. Note that this affords absolutely no protection of the master seed that feeds the hd-new.  The piped "sed 's/$/01/'" command below appends the private key with "01" which signals the key is compressed. Without this extra suffix, the EC public key is in the uncompressed form.* 
+**A.** Synthesized compressed EC private key below is derived from a very weak cryptographical brain wallet. Note that this affords absolutely no protection of the master seed that feeds the hd-new.  The piped "sed 's/$/01/'" command below appends the private key with "01" which signals the key is compressed. Without this extra suffix, the EC public key is in the uncompressed form. 
 ```
 % echo 'very complex gibberish' | bx base16-encode | bx sha256 | bx hd-new | bx hd-private -d -i 44 | bx hd-private -d -i 5 | bx hd-private -d -i 0 | bx hd-private -i 0 | bx hd-private -i 0 | bx hd-to-ec | sed 's/$/01/' | bx base58check-encode -v 204 
 ```
@@ -121,7 +121,7 @@ A. *Synthesized compressed EC private key below is derived from a very weak cryp
 XH2Yndjv6Ks3XEHGaSMDhUMTAMZTTWv5nEN958Y7VMyQXBCJVQmM
 ```
 
-B. *This m/44’/5’/0’/0 extended private key synthesis approach, derived from the same cryptographically weak brain wallet, also protects the confidentiality of the master seed.  However, extreme care must still be exercised to protect the confidentiality of extended private keys starting with xprv or tprv. A compromise of the confidentiality of m/44’/5’/0’/0 for this Dash example will likely compromise the funds for up ~4 billion synthesized addresses. (The prefix tprv below resulted below from compiling bx with the "--enable-testnet" flag. Not compiling bx with with this flag results in a similar extended private key starting with xprv.)*
+**B.** This m/44’/5’/0’/0 extended private key synthesis approach, derived from the same cryptographically weak brain wallet, also protects the confidentiality of the master seed.  However, extreme care must still be exercised to protect the confidentiality of extended private keys starting with xprv or tprv. A compromise of the confidentiality of m/44’/5’/0’/0 for this Dash example will likely compromise the funds for up ~4 billion synthesized addresses. (The prefix tprv below resulted below from compiling bx with the "--enable-testnet" flag. Not compiling bx with with this flag results in a similar extended private key starting with xprv.)
 ```
 % echo  'tprv8iBUTxFHtPMKmrQDN4yjCPWmNBT9ZPZZeSFgxNLnAhmNmsHVmFxENnREcdEQXLVUoE3invSjhTjDsHfCrVtijVvVYbj6XWfH6DmQnXQvQoZ' | bx hd-private -i 0 | bx hd-to-ec | sed 's/$/01/' | bx base58check-encode -v 204
 ```
@@ -129,7 +129,7 @@ B. *This m/44’/5’/0’/0 extended private key synthesis approach, derived fr
 XH2Yndjv6Ks3XEHGaSMDhUMTAMZTTWv5nEN958Y7VMyQXBCJVQmM
 ```
 
-C. *Uses the same m/44’/5’/0’/0 extended private key that protects the confidentiality of the master seed to create m/44’/5’/0’/0/1.*
+**C.** Uses the same m/44’/5’/0’/0 extended private key that protects the confidentiality of the master seed to create m/44’/5’/0’/0/1.
 ```
 % echo 'tprv8iBUTxFHtPMKmrQDN4yjCPWmNBT9ZPZZeSFgxNLnAhmNmsHVmFxENnREcdEQXLVUoE3invSjhTjDsHfCrVtijVvVYbj6XWfH6DmQnXQvQoZ' | bx hd-private -i 1 | bx hd-to-ec | sed 's/$/01/' | bx base58check-encode -v 204
 ```
@@ -146,16 +146,16 @@ The table above also complements [Altchain Encrypted Private Keys](https://githu
 * **[ek-new](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-ek-new)** ( use version/WIF column for private keys )
 * **[ek-public](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-ek-public)**  ( use version/p2pkh column for addresses )
 
-**5) Extended AES256Encrypt and AES256Decrypt BIP 38 Example:** For a Dash base16-encoded 256-bit secret elliptic curve key.
+**5) Extended AES256Encrypt and AES256Decrypt BIP 38 Example:** *For a Dash base16-encoded 256-bit secret elliptic curve key.*
 
-A. *Extended BIP 38 (256 bit AES) encryption for Dash of a base16 encoded EC private key.*
+**A.** Extended BIP 38 (256 bit AES) encryption for Dash of a base16 encoded EC private key.
 ```
 % bx ec-to-ek -v 204 'Hello it is me' f9a8f6d4a24b99d4944ee3db83c85383e9c13e85cb50ad60a9e1a96e02f6d269
 ```
 ```
 5XCsGSbMhW6zisvPx7LUKHPUGTi21kdSVwc6HNM1Zurg9ENPiUVtzBZDho
 ```
-B. *Extended BIP 38 (256 bit AES) decryption of an extended Dash BIP 38 encrypted base16 encoded EC private key.*
+**B.** Extended BIP 38 (256 bit AES) decryption of an extended Dash BIP 38 encrypted base16 encoded EC private key.
 ```
 % bx ek-to-ec 'Hello it is me' 5XCsGSbMhW6zisvPx7LUKHPUGTi21kdSVwc6HNM1Zurg9ENPiUVtzBZDho
 ```
@@ -163,9 +163,9 @@ B. *Extended BIP 38 (256 bit AES) decryption of an extended Dash BIP 38 encrypte
 f9a8f6d4a24b99d4944ee3db83c85383e9c13e85cb50ad60a9e1a96e02f6d269
 ```
 
-**6) Extended "EC Multiply Mode" BIP 38 Example:** For Dash having an initial secret of 'knock knock', seed, salt, lot number of 0, and sequence number of 0. *Please note the information below needs to be correlated with security [recommendations](https://github.com/libbitcoin/libbitcoin/wiki/BIP38-Security-Considerations#recommendations) to arrive at a good processes for outsourcing the minting of coins or engraving of notes by the owners of Dash funds.*
+**6) Extended "EC Multiply Mode" BIP 38 Example:** *For Dash having an initial secret of 'knock knock', seed, salt, lot number of 0, and sequence number of 0. (Please note the information below needs to be correlated with security [recommendations](https://github.com/libbitcoin/libbitcoin/wiki/BIP38-Security-Considerations#recommendations) to arrive at a good processes for outsourcing the minting of coins or engraving of notes by the owners of Dash funds.)*
 
-A. *"Brain seed"*
+**A.** "Brain seed"
 ```
 % echo 'Not so random seed' | bx base16-encode | bx sha256
 ```
@@ -173,7 +173,7 @@ A. *"Brain seed"*
 565bdb03ade36264adc00600952a865fc4bdc61d81be7d9be6ee0c7c06809857
 ```
 
-B. *"Brain salt" utilizes the first 8 hex digits below.*
+**B.** "Brain salt" utilizes the first 8 hex digits below.
 ```
 % echo 'a little salt & pepper' | bx base16-encode | bx sha256
 ```
@@ -181,7 +181,7 @@ B. *"Brain salt" utilizes the first 8 hex digits below.*
 e51549349dd7b98ff30281211fe281247c32922d259fc12b0abf7b2110114d03
 ```
 
-C. *Intermediate code, always prefixed with "passphrase", is created by a coin/note owner prior to outsourcing work to a minter/engraver. Both this information and the associated seed are released only to the minter/engraver.*
+**C.** Intermediate code, always prefixed with "passphrase", is created by a coin/note owner prior to outsourcing work to a minter/engraver. Both this information and the associated seed are released only to the minter/engraver.
 ```
 % bx token-new -l 0 -s 0 'knock knock' e5154934
 ```
@@ -189,7 +189,7 @@ C. *Intermediate code, always prefixed with "passphrase", is created by a coin/n
 passphrasedsP52SrHdFSR4Fb55dvDiXnxnuyZUFCYheSYrPVGiMUCVnEhCb4UU3Nsbs2HCg
 ``` 
 
-D. *Is performed by the minter/engraver to know the BIP 38 encrypted private key to be publicly labelled on a Dash coin/note.*
+**D.** Is performed by the minter/engraver to know the BIP 38 encrypted private key to be publicly labelled on a Dash coin/note.
 ```
 % bx ek-new -v 204 passphrasedsP52SrHdFSR4Fb55dvDiXnxnuyZUFCYheSYrPVGiMUCVnEhCb4UU3Nsbs2HCg 565bdb03ade36264adc00600952a865fc4bdc61d81be7d9be6ee0c7c06809857
 ```
@@ -197,7 +197,7 @@ D. *Is performed by the minter/engraver to know the BIP 38 encrypted private key
 5XTqTrYMNKoHHcfqafEX5nFZTLnNwXF5Zf6fjYP8cDqNDwzPxendxaCMGw
 ``` 
 
-TP1. *Computed EC Dash private key - test point #1*
+**CP1.** Computed EC Dash private key - comparison point #1
 ```
 % bx ek-to-ec 'knock knock' 5XTqTrYMNKoHHcfqafEX5nFZTLnNwXF5Zf6fjYP8cDqNDwzPxendxaCMGw
 ```
@@ -205,7 +205,7 @@ TP1. *Computed EC Dash private key - test point #1*
 cb77527dfc18a491e79fa34de3b8ce0b3e1f2ce8db2e1fcd69139010505adb23
 ```
 
-TP2. *Traditional computation of an EC Dash public key - test point #2*
+**CP2.** Traditional computation of an EC Dash public key - comparison point #2
 ```
 % echo 'cb77527dfc18a491e79fa34de3b8ce0b3e1f2ce8db2e1fcd69139010505adb23' | bx ec-to-public
 ```
@@ -213,7 +213,7 @@ TP2. *Traditional computation of an EC Dash public key - test point #2*
 035d37339d296b1a7ea8c7f04cf33eb0e8fd547df58d60259c9e4d9404795cd7f1
 ```
 
-TP3. *Traditional computation of the associated Dash address - test point #3*
+**CP3.** Traditional computation of the associated Dash address - comparison point #3
 ```
 % echo 'cb77527dfc18a491e79fa34de3b8ce0b3e1f2ce8db2e1fcd69139010505adb23' | bx ec-to-public  | bx ec-to-address -v 76
 ```
@@ -221,7 +221,7 @@ TP3. *Traditional computation of the associated Dash address - test point #3*
 Xc3cYycMHt9vtBjMcUJshBH34QqfZnbEyu
 ``` 
 
-E. *To be created by a minter/engraver. To avoid being classified as "money transmitter", minter/engraver must not send/share this information with the coin/note owner until after the coin/note is sent by registered mail, preferably delivered. However, there are no explicit counter measure to prevent entrapment by a "devious" coin/note owner that is built into the BIP 38 "multiply mode" capability!!!*
+**E.** To be created by a minter/engraver. To avoid being classified as "money transmitter", minter/engraver must not send/share this information with the coin/note owner until after the coin/note is sent by registered mail, preferably delivered. However, there are no explicit counter measure to prevent entrapment by a "devious" coin/note owner that is built into the BIP 38 "multiply mode" capability!!!
 ```
 % bx ek-public -v 76 passphrasedsP52SrHdFSR4Fb55dvDiXnxnuyZUFCYheSYrPVGiMUCVnEhCb4UU3Nsbs2HCg 565bdb03ade36264adc00600952a865fc4bdc61d81be7d9be6ee0c7c06809857
 ```
@@ -229,7 +229,7 @@ E. *To be created by a minter/engraver. To avoid being classified as "money tran
 cfrm3CdFNyDReVUXn2weQYL4Q3sGsRyFYSNBbrK5qfpFyCXCNKPPJicRxuxmLiN3ZtjVafCLZuc
 ```
 
-V1. *Validation #1 - Matches TP2*
+**V1.** Validation #1 - Matches CP2
 ```
 % bx ek-public-to-ec 'knock knock' cfrm3CdFNyDReVUXn2weQYL4Q3sGsRyFYSNBbrK5qfpFyCXCNKPPJicRxuxmLiN3ZtjVafCLZuc
 ```
@@ -237,7 +237,7 @@ V1. *Validation #1 - Matches TP2*
 035d37339d296b1a7ea8c7f04cf33eb0e8fd547df58d60259c9e4d9404795cd7f1
 ```
 
-F. *Is performed by a coin/note owner after receiving the confirmation code from their minter/engraver.  If public address doesn't match the results of the next command, coin/note owner should not "load" the coin with the denomination printed on the coin. Observe the result matches TP3*
+**F.** Is performed by a coin/note owner after receiving the confirmation code from their minter/engraver.  If public address doesn't match the results of the next command, coin/note owner should not "load" the coin with the denomination printed on the coin. Observe the result matches CP3.
 ```
 % bx ek-public-to-address 'knock knock' cfrm3CdFNyDReVUXn2weQYL4Q3sGsRyFYSNBbrK5qfpFyCXCNKPPJicRxuxmLiN3ZtjVafCLZuc
 ```
@@ -245,7 +245,7 @@ F. *Is performed by a coin/note owner after receiving the confirmation code from
 Xc3cYycMHt9vtBjMcUJshBH34QqfZnbEyu
 ```
 
-G. *Is performed by a coin/note owner to double authenticate the Dash coin address where funds are to be deposited. There could be a typo mistake, cut-and-paste mistake, or a man-in-the-middle attack compromising the integrity of the confirmation code resulting in a bad address created by 6F. If results match, a deposit is not likely to be lost or burned. Observe the result matches TP3*
+**G.** Is performed by a coin/note owner to double authenticate the Dash coin address where funds are to be deposited. There could be a typo mistake, cut-and-paste mistake, or a man-in-the-middle attack compromising the integrity of the confirmation code resulting in a bad address created by 6F. If results match, a deposit is not likely to be lost or burned. Observe the result matches CP3
 ```
 % bx ek-address -v 76 passphrasedsP52SrHdFSR4Fb55dvDiXnxnuyZUFCYheSYrPVGiMUCVnEhCb4UU3Nsbs2HCg 565bdb03ade36264adc00600952a865fc4bdc61d81be7d9be6ee0c7c06809857
 ```
