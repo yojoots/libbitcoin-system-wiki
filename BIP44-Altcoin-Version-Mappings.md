@@ -2,7 +2,7 @@
 
 **Bitcoin-explorer's (bx)** command line interface (part of the libbitcoin tool suite) provides substantial BIP 32, 38, 39, and 63 support. BIP 44 capabilities results from how bx BIP 32 is applied, and the application of the table below. The "BIP44 Altcoin Version Mapping Table" below applies to BTC and numerous other altcoins. This table also complements the [List of Address Prefixes](https://en.bitcoin.it/wiki/List_of_address_prefixes) top Table's Hex Column with row entries containing two hex digits.
 
-This "BIP44 Altcoin Version Mapping Table" is a work-in-progress, but provides important values for examples #1 and #4 below the table. Accuracy of portions of this table is questionable (~90% accurate) until vetted by others, but the pattern for how it is applies to altcoins is well understood. This Altcoin Version Mapping Table most definitely extends/complements [SLIP 44] (http://doc.satoshilabs.com/slips/slip-0044.html) referenced within [BIP44] (https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki#registered-coin-types)
+This "BIP44 Altcoin Version Mapping Table" is a work-in-progress, but provides important values for examples #1, #4, #5, and #6 below the table. Accuracy of portions of this table is questionable (~90% accurate) until vetted by others, but the pattern for how it is applies to altcoins is well understood. This Altcoin Version Mapping Table most definitely extends/complements [SLIP 44] (http://doc.satoshilabs.com/slips/slip-0044.html) referenced within [BIP44] (https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki#registered-coin-types).  
 
 #### BIP44 Altcoin Version Mapping Table
 ```
@@ -41,7 +41,9 @@ NVC   |      50      |        136?        |         8        |  https://github.c
 
 As a rule of thumb, any bx commands that support the **--version (-v)** values (an 8 bit decimal number) associated with private keys will use values from the **version/WIF** column for a desired coin type. Similarly, any bx commands that support version values associated with coin addresses for a desired coin type will use the **version/p2pkh** column. An empirical trend within the table above is that version/WIF values range between 128 and 255 inclusive. The one notable exception so far is for coin type 21, Open Assets that is coin network agnostic. Similarly, version/p2pkh values range between 0 and 127 inclusive. 
 
-*There will be BIP/SLIP 44 registered coin types where it will not be readily apparent how to apply bx commands to arrive at associated WIF keys and addresses. Additionally, there will be altcoins that are not BIP/SLIP 44 registered that will have associated version/WIF and version/p2pkh values that will enable bx to easily create private EC keys and associated addresses. Such unregistered coin types can be included in the table above, but each having a blank "coin type".  To help boost the establishment of multi-coin wallets as a countermeasure to protect Bitcoin as goes through its pubescence growth phase (that once completed will strongly delineate payment and settlement network processing), emphasis will first be applied towards populating the table above for coins that are BIP/SLIP 44 registered.*
+There will be BIP/SLIP 44 registered coin types where it will not be readily apparent how to apply bx commands to arrive at associated WIF keys and/or addresses, e.g., coins with raw key lengths greater than 256 bits, or use hashing algorithms other that ripemd160, sha256, and sha512. Additionally, there will be altcoins that are not BIP/SLIP 44 registered that will have associated version/WIF and version/p2pkh values that will enable bx to easily create private EC keys and associated addresses. Such unregistered coin types can be included in the table above, but each having a blank "coin type". To help boost the establishment of multi-coin wallets as a countermeasure to protect Bitcoin as goes through its pubescence growth phase (that once completed will strongly delineate payment and settlement network processing), emphasis will first be applied towards populating the table above for coins that are BIP/SLIP 44 registered.
+
+*It may be a bit much to digest, but there is another four columns to be added to this table such as version/p2sh column (used to support multisig capabilities) for altcoin mainnets, and then repeating the three version/( WIF | p2pkh | p2sh ) columns for associated testnets. Albeit having a testnet for a Testnet might seem redundant.*
 
 ### [bx - Wallet Commands](https://github.com/libbitcoin/libbitcoin-explorer/wiki/Wallet-Commands)
 
@@ -50,9 +52,9 @@ The table above is a "Rosetta Stone" that literally translates Bitcoin Elliptic 
 * **[ec-to-address](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-ec-to-address)**  ( use version/p2pkh column for addresses )
 
 
-**1) Combined BIP 32 and 44 Example:** Apply M/44’/5’/0’/0/0 to create a compressed Dash public addresses for up to 4 billions addresses much more safely on an online machine!!!
+**1) Combined BIP 32 and 44 Example:** Apply M/44’/5’/0’/0/0 to create a compressed Dash public addresses for up to 4 billions addresses for safe use by an online machine!!!
 
-A. *Be very afraid to use the weak brain wallet driven command sequence below on an online computer! However, it is provided for continuity purposes for examples 1B and 1C below.*
+A. Be very afraid to use the weak brain wallet driven command sequence below for an online computer! Even with a very high entropy brain wallet the approach below will fail unless you are a "cross domain solution" expert or start to apply multisignature technology. However, it is provided for continuity purposes for examples 1B and 1C below.*
 ```
 % echo 'very complex gibberish' | bx base16-encode | bx sha256 | bx hd-new | bx hd-private -d -i 44 | bx hd-private -d -i 5 | bx hd-private -d -i 0 | bx hd-public  -i 0 | bx hd-public  -i 0 | bx hd-to-ec | bx ec-to-address -v 76
 ```
