@@ -1,8 +1,8 @@
 ### Application of BIP [32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki), [38](https://github.com/bitcoin/bips/blob/master/bip-0038.mediawiki), [39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki), [44](https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki), and 63 ([Stealth Addresses](http://sourceforge.net/p/bitcoin/mailman/message/31813471/)) to Altcoins
 
-**Bitcoin-explorer's (bx)** command line interface, part of the libbitcoin tool suite, provides very substantial support for the following Bitcoin Improvement Proposals (BIP): 32, 38, 39, and 63.  BIP 44 capabilities for supporting alternative cryptocurrency coins (altcoins) results from how bx will openly extend these BIPs in an integrated manner, and the application of the table below. Behaviors associated with using column values from the first row of the "BIP44 Altcoin Version Mapping Table" below are natively integrated into bx commands defaults. The libbitcoin team understands the intricacies of these defaults table values when applied to Bitcoin (BTC), and is in the midst of updating a small subset of existing bx command line interfaces with only one additional argument that will enable support for 100+ other altcoins. 
+**Bitcoin-explorer's (bx)** command line interface (CLI), part of the libbitcoin tool suite, provides very substantial support for the following Bitcoin Improvement Proposals (BIP): 32, 38, 39, and 63.  BIP 44 capabilities for supporting alternative cryptocurrency coins (altcoins) results from how bx will openly extend these BIPs in an integrated manner, and the application of the table below. Behaviors associated with using column values from the first row of the "BIP44 Altcoin Version Mapping Table" below are natively integrated into bx commands defaults. The libbitcoin team understands the intricacies of these defaults table values when applied to Bitcoin (BTC), and is in the midst of updating a small subset of existing bx command line interfaces with only the addition of one argument (already supported by a few select commands) that will enable support for 100+ other altcoins. This could create a common code base, a merge, fostering convergence of existing Bitcoin altcoin forks, but those decisions are left to altcoin main branch developers.
 
-The table below is a work-in-progress, but as an exemplar it provides important **"--version (-v)"** values for examples #1, #4, #5, and #6 below for an arbitrarily table-chosen altcoin called Dash to demonstrate how BIPs 32, 38, 39 and 44 can be tightly integrated with minor extensions to coherently support altcoins. It is very important for wallet developers to understand the concepts being espoused here to minimize wallet complexity while supporting multiple currencies simultaneously using a common BIP 32 hierarchical deterministic (HD) framework. 
+The table below is a work-in-progress, but as an exemplar, it provides important **"--version (-v)"** values for examples #1, #4, #5, and #6 below for an arbitrarily table-chosen altcoin called Dash to demonstrate how BIPs 32, 38, 39 and 44 can be tightly integrated with minor extensions to coherently support altcoins. It is very important for wallet developers to understand the concepts being espoused here to minimize wallet complexity while supporting multiple currencies simultaneously using a common BIP 32 hierarchical deterministic (HD) framework. 
 
 The accuracy of portions of this table are not absolute (~90% > accuracy, and strong source code trace-ability is achieved) until vetted by others, but the pattern for how it applies to altcoins is well understood. This table extends and complements [SLIP 44] (http://doc.satoshilabs.com/slips/slip-0044.html) referenced within [BIP44] (https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki#registered-coin-types). This table also complements the [List of Address Prefixes](https://en.bitcoin.it/wiki/List_of_address_prefixes) top Table's "Hex" Column for row entries containing two hex digits. 
 
@@ -56,12 +56,12 @@ Finally, as a countermeasure to protect Bitcoin as goes through its pubescence g
 
 ### [bx - Wallet Commands](https://github.com/libbitcoin/libbitcoin-explorer/wiki/Wallet-Commands)
 
-The table above is a "Rosetta Stone" for translating Bitcoin Elliptic Curve (EC) private keys and associated public addresses to those used by a number of altcoins having strong Bitcoin key/address synthesis heritage. This cryptocurrency Rosetta Stone currently provides important **--version (-v)** values (base10 integer) for the following **bitcoin-explorer** wallet command used to create addresses for numerous altcoins:
+The table above is a "Rosetta Stone" for translating Bitcoin Elliptic Curve (EC) private keys and associated public addresses to those used by a number of altcoins having strong Bitcoin key/address synthesis heritage. This cryptocurrency Rosetta Stone currently provides important **--version (-v)** values for the following **bitcoin-explorer** wallet command used to be used to create addresses for altcoins:
 
 * **[ec-to-address](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-ec-to-address)**  ( use version/p2pkh column for addresses )
 
 
-**1) Combined BIP 32 and 44 Example:** *Apply M/44’/5’/0’/0/0 to create a compressed Dash public addresses for up to 4 billions addresses for safe use by an online machine!!!*
+**1) Combined BIP 32 and 44 CLI Implementation Example:** *Apply M/44’/5’/0’/0/0 to create a compressed Dash public addresses for up to 4 billions addresses for safe use by an online machine!!!*
 
 **A.** Be very afraid to use the weak brain wallet driven command sequence below on a computer that is online! Even with a very high entropy brain wallet, the approach below will will certainly be hacked unless you are a "cross domain solution" expert or apply multi-signature technology as risk mitigators. However, this example is provided for explanation continuity purposes for examples 1B and 1C below.
 ```
@@ -93,7 +93,7 @@ XpTtgbcURSBfcuo8FZsNFeGrsCSi3jarAi
 ```
 
 
-**2) BIP 39 Example:** *Create master seeds in Spanish from a common weak English brainwallet seed requiring the memorization of 15, 24 or 48 words.* Functionality demonstrated here is altcoin insensitive. The results below (i.e., 2B, 2D, 2F) makes a case that the more BIP 39 words, used from various spoken [languages](https://github.com/bitcoin/bips/blob/master/bip-0039/bip-0039-wordlists.md), used to create a deterministic BIP 32 master key don't necessarily mean greater security.
+**2) BIP 39 CLI Implementation Example:** *Create master seeds in Spanish from a common weak English brainwallet seed requiring the memorization of 15, 24 or 48 words.* Functionality demonstrated here is altcoin insensitive. The results below (i.e., 2B, 2D, 2F) makes a case that the more BIP 39 words, used from various spoken [languages](https://github.com/bitcoin/bips/blob/master/bip-0039/bip-0039-wordlists.md), used to create a deterministic BIP 32 master key don't necessarily mean greater security.
 
 **A.**  Create seed for a 15 word representation for a BIP 39 encoded master seed.
 ```
@@ -141,7 +141,7 @@ enredo ático litro ánimo grosor paella símbolo viejo aleta orgía ángulo enc
 ```
 
 
-**3) BIP 39 Example:** *Recreate a master seed from BIP 39 words.* Functionality demonstrated here is altcoin insensitive.
+**3) BIP 39 CLI Implementation Example:** *Recreate a master seed from BIP 39 words.* Functionality demonstrated here is altcoin insensitive.
 ```
 % echo 'enable load garage hard diagram trim nothing exclude fantasy gold ramp fiber wise ball have hero toddler spy excite glue maze drill else sell' | bx mnemonic-to-seed -p TREZOR
 ```
@@ -170,7 +170,7 @@ The following bitcoin-explorer encoding command **should not** be extended to ac
 * **[script-encode](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-script-encode)** ( Rationale is **"SCRIPT" | bx script-encode | bx bitcoin160 | bx address-encode -v version/p2sh** takes care of this matter downstream.) 
 
 
-**4) Combined BIP 32 and 44 Example:** *Apply m/44’/5’/0’/0/0 example to create a compressed Dash private key.*
+**4) Combined BIP 32 and 44 CLI Implementation Example:** *Apply m/44’/5’/0’/0/0 example to create a compressed Dash private key.*
 
 **A.** Synthesized compressed EC private key below is derived from a very weak cryptographical brain wallet. Note that this affords absolutely no protection of the master seed that feeds the hd-new.  The piped "sed 's/$/01/'" command below appends the private key with "01" which signals the key is compressed. Without this extra suffix, the EC public key is in the uncompressed form. 
 ```
@@ -206,7 +206,7 @@ The table above also complements [Altchain Encrypted Private Keys](https://githu
 * **[ek-public](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-ek-public)**  ( use version/p2pkh column for addresses )
 
 
-**5) Extended AES256Encrypt and AES256Decrypt BIP 38 Example:** *For a Dash base16-encoded 256-bit secret elliptic curve key.*
+**5) Extended AES256Encrypt and AES256Decrypt BIP 38 CLI Implementation Example:** *For a Dash base16-encoded 256-bit secret elliptic curve key.*
 
 **A.** Extended BIP 38 (256 bit AES) encryption for Dash of a base16 encoded EC private key.
 ```
@@ -224,7 +224,7 @@ f9a8f6d4a24b99d4944ee3db83c85383e9c13e85cb50ad60a9e1a96e02f6d269
 ```
 
 
-**6) Extended "EC Multiply Mode" BIP 38 Example:** *For Dash having an initial secret of 'knock knock', seed, salt, lot number of 0, and sequence number of 0. (Please note the information below needs to be correlated with security [recommendations](https://github.com/libbitcoin/libbitcoin/wiki/BIP38-Security-Considerations#recommendations) to arrive at a good processes for outsourcing the minting of coins or engraving of notes by the owners of Dash funds.)*
+**6) Extended "EC Multiply Mode" BIP 38 CLI Implementation Example:** *For Dash having an initial secret of 'knock knock', seed, salt, lot number of 0, and sequence number of 0. (Please note the information below needs to be correlated with security [recommendations](https://github.com/libbitcoin/libbitcoin/wiki/BIP38-Security-Considerations#recommendations) to arrive at a good processes for outsourcing the minting of coins or engraving of notes by the owners of Dash funds.)*
 
 **A.** "Brain seed"
 ```
