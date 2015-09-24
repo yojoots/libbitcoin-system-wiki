@@ -38,7 +38,13 @@ VTC   |      28      |       199?      |        71       |                |  htt
 NVC   |      50      |       136?      |         8       |                |  https://github.com/novacoin-project/novacoin/blob/master/src/base58.h
 ```
 
-As a rule of thumb, any bx commands that support the "--version (-v)" values (an 8-bit number number in base10/decimal format) associated with private key functionality will use values from the **version/WIF** column for desired coin types. Any bx commands that support version values associated with single signature address functions for desired coin types will use the **version/p2pkh** column. Any bx commands that support version values associated with multisignature signature address functions for desired coin types will use the **version/p2sh** column. An empirical trend within the table above is that version/WIF values range between 128 and 255 inclusive. One notable exception discovered so far is for coin type 21, Open Assets that is a cryptocurrency agnostic token. Similarly, version/p2pkh values range between 0 and 127 inclusive. Not enough information has been gathered yet to pass judgement on the version/p2sh column value trends.
+As a rule of thumb:
+
+* Any bx commands supporting the "--version (-v)" values (an 8-bit number number in base10/decimal format) associated with private key functionality will use values from the **version/WIF** column for desired coin types. 
+* Any bx commands supporting version values associated with single signature address functions for desired coin types will use the **version/p2pkh** column. 
+* Any bx commands supporting version values associated with multi-signature address functions for desired coin types will use the **version/p2sh** column. 
+
+An empirical trend within the table above is that version/WIF values range between 128 and 255 inclusive. One notable exception discovered so far is for coin type 21, Open Assets that is a cryptocurrency agnostic token. Similarly, version/p2pkh values range between 0 and 127 inclusive. Not enough information has been collected yet to pass judgement on version/p2sh column value trends.
 
 It is anticipated the libbitcoin approach presented here should be able to synthesize EC private keys and addresses for 100+ altcoins. Certainly there will be BIP/SLIP 44 registered coin types where it will not be readily apparent how to apply existing bx commands to arrive at associated WIF keys and/or addresses, e.g., coins with raw key lengths greater than 256 bits, or use hashing algorithms other that ripemd160, sha256, and sha512. Additionally, there will be altcoins that are not BIP/SLIP 44 registered that will have associated version/WIF and version/p2pkh values that will enable bx to easily create private EC keys and associated addresses. Such unregistered coin types will be included in the table above, but each having a blank "coin type".  If the libbitcoin framework is adopted by developers, it will naturally enable extended BIP 38 support for those altcoins. (Being investigated, but be patient... Single signature Stealth transaction creation services might also be able to be inherited if libbitcoin framework is applied.) 
 
@@ -152,10 +158,6 @@ Most encoding commands supporting **--version** are not restricted as to which c
 * **[address-encode](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-address-encode)** ( use version/p2pkh column for single signature addresses, version/p2sh column for creating multisig addresses, single signature stealth addresses???, multisig stealth addresses??? )
 * **[base58check-encode](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-base58check-encode)** ( use version/WIF column for private keys, version/p2pkh column for single signature addresses )
 * **[wrap-encode](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-wrap-encode)** ( use version/WIF column for private keys, version/p2pkh column for single signature addresses, version/p2sh column for multisig addresses )
-
-The following bitcoin-explorer encoding command is a natural candidate to be extended to accommodate a **--version (-v)** value:
-
-* **[script-to-address](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-script-to-address)**  (recommend using version/p2sh column for altcoin multisig addresses)
 
 The following bitcoin-explorer encoding command **should not** be extended to accommodate a **--version (-v)** value:
 
@@ -319,4 +321,6 @@ The following bitcoin explorer wallet stealth commands are natural candidates to
 
 ### [bx - Transaction Commands](https://github.com/libbitcoin/libbitcoin-explorer/wiki/Transaction-Commands)
 
-* **[script-to-address](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-script-to-address)** (recommend using version/p2sh column)
+The following bitcoin-explorer transaction command is a natural candidate to be extended to accommodate a **--version (-v)** value:
+
+* **[script-to-address](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-script-to-address)**  (recommend using version/p2sh column for multisig addresses)
