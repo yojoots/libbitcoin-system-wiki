@@ -6,46 +6,45 @@ The "BIP44 Altcoin Version Mapping Table" below is a work-in-progress, but an ex
 
 #### BIP44 Altcoin Version Mapping Table
 ```
-      |              |                    |                 |
-Coin  |   BIP 44     |    version/WIF     |  version/p2pkh  |   References
-      | (coin_type’) |                    |                 |
+      |   BIP 44     |     mainnet     |     mainnet     |     mainnet    |   
+Coin  | (coin_type’) |   version/WIF   |  version/p2pkh  |  version/p2sh  |   References
 ———————————————————————————————————————————————————————————————————————————————————————————————————————————————————
-BTC   |       0      |        128         |         0       |   https://github.com/bitcoin/bitcoin/blob/master/src/chainparams.cpp
-TEST  |       1      |        239         |       111       |   https://github.com/bitcoin/bitcoin/blob/master/src/chainparams.cpp
-LTC   |       2      |        176         |        48       |   https://github.com/litecoin-project/litecoin/blob/master-0.10/src/chainparams.cpp
-DOGE  |       3      |        158         |        30       |   https://github.com/dogecoin/dogecoin/blob/master/src/chainparams.cpp
-RDD   |       4      |        189         |        61       |   https://github.com/reddcoin-project/reddcoin/blob/master/src/base58.h
-DASH  |       5      |        204         |        76       |   https://github.com/dashpay/dash/blob/master/src/chainparams.cpp
-PPC   |       6      |        183         |        55       |   https://github.com/super3/Peercoin.net -   see NBT base58.h
-NMC   |       7      |        180         |        52       |   https://github.com/domob1812/namecore/blob/master/src/chainparams.cpp
-FTC   |       8      |        142         |        14       |   https://github.com/FeatherCoin/Feathercoin/blob/master-0.8/src/base58.h
-XCP   |       9      |        128         |       128?      |   Built on BTC, https://github.com/CounterpartyXCP/counterparty-lib  http://counterparty.io/docs/create_addresses/
-BLK   |      10      |        153         |        25       |   https://github.com/rat4/blackcoin/blob/master/src/chainparams.cpp
-NSR   |      11      |        149/191 c/u |        63       |   Built on PPC, https://nubits.com/nushares/introduction
-NBT   |      12      |        150/191 c/u |        25       |   https://bitbucket.org/JordanLeePeershares/nubit/NuBit / src /base58.h, https://walletgenerator.net/?currency=Nubits
-MZC   |      13      |        224         |        50       |   https://github.com/MazaCoin/MazaCoin/blob/master/src/base58.h, https://bitcointalk.org/index.php?topic=500312.0
-VIA   |      14      |        199         |        71       |   https://github.com/viacoin/viacoin/blob/master/src/chainparams.cpp
-XCH   |      15      |        199         |        71       |   Built on VIA, https://github.com/ClearingHouse/clearinghoused/blob/master/lib/config.py 
-RBY   |      16      |        189         |        61       |   https://github.com/rubycoinorg/rubycoin/blob/master/src/base58.h
-GRS   |      17      |        176         |        36?      | https://github.com/GroestlCoin/Groestlcoin-WPF/blob/master/coin-chains.xml (AddressVersion is 36)
-DGC   |      18      |        153?        |        25?      | https://github.com/digibyte/digibyte/blob/master/src/chainparams.cpp
-CCN   |      19      |        156         |        28       |   https://github.com/Cannacoin-Project/Cannacoin/blob/Proof-of-Stake/src/base58.h
-DGB   |      20      |        128         |        30       |   https://github.com/digibyte/digibyte/blob/master/src/chainparams.cpp
-OA?   |      21      |         23         |        19       |   https://github.com/OpenAssets/open-assets-protocol/blob/master/address-format.mediawiki#example ( % echo '00010966776006953d5567439e5e39f86a0d273bee' | bx base58check-encode -v 19  =>  Yields Open Assets Address: akB4NBW9UuCmHuepksob6yfZs6naHtRCPNy )
-      |              |                    |                 |   https://github.com/OpenAssets/open-assets-protocol/blob/master/specification.mediawiki#protocol-overview ( % echo 'dup hash160 [ 010966776006953D5567439E5E39F86A0D273BEE ] equalverify checksig' | bx script-encode | bx sha256 | bx ripemd160  =>  Yields Open Assets ID: ALn3aK1fSuG27N96UGYB1kUYUpGKRhBuBC ; bx base58check-decode ALn3aK1fSuG27N96UGYB1kUYUpGKRhBuBC => Yields "version 23" )
-XPM   |      24      |        151?        |        23        |  https://github.com/primecoin/primecoin/blob/master/src/base58.h
-JBS   |      26      |        171?        |        43        |  https://github.com/jyap808/jumbucks/blob/master/src/base58.h
-VTC   |      28      |        199?        |        71        |  https://github.com/vertcoin/vertcoin/blob/master/src/base58.h
-NVC   |      50      |        136?        |         8        |  https://github.com/novacoin-project/novacoin/blob/master/src/base58.h
+BTC   |       0      |       128       |         0       |        5       |   https://github.com/bitcoin/bitcoin/blob/master/src/chainparams.cpp
+TEST  |       1      |       239       |       111       |      196       |   https://github.com/bitcoin/bitcoin/blob/master/src/chainparams.cpp
+LTC   |       2      |       176       |        48       |        5       |   https://github.com/litecoin-project/litecoin/blob/master-0.10/src/chainparams.cpp
+DOGE  |       3      |       158       |        30       |       22       |   https://github.com/dogecoin/dogecoin/blob/master/src/chainparams.cpp
+RDD   |       4      |       189       |        61       |        5       |   https://github.com/reddcoin-project/reddcoin/blob/master/src/base58.h
+DASH  |       5      |       204       |        76       |       16       |   https://github.com/dashpay/dash/blob/master/src/chainparams.cpp
+PPC   |       6      |       183       |        55       |      117       |   https://github.com/super3/Peercoin.net -   see NBT base58.h
+NMC   |       7      |       180       |        52       |       13       |   https://github.com/domob1812/namecore/blob/master/src/chainparams.cpp
+FTC   |       8      |       142       |        14       |        5       |   https://github.com/FeatherCoin/Feathercoin/blob/master-0.8/src/base58.h
+XCP   |       9      |       128       |       128?      |                |   Built on BTC, https://github.com/CounterpartyXCP/counterparty-lib  http://counterparty.io/docs/create_addresses/
+BLK   |      10      |       153       |        25       |       25       |   https://github.com/rat4/blackcoin/blob/master/src/chainparams.cpp
+NSR   |      11      |     149/191 c/u |        63       |       64       |   Built on PPC, https://nubits.com/nushares/introduction
+NBT   |      12      |     150/191 c/u |        25       |       26       |   https://bitbucket.org/JordanLeePeershares/nubit/NuBit / src /base58.h, https://walletgenerator.net/?currency=Nubits
+MZC   |      13      |       224       |        50       |        5       |   https://github.com/MazaCoin/MazaCoin/blob/master/src/base58.h, https://bitcointalk.org/index.php?topic=500312.0
+VIA   |      14      |       199       |        71       |       33       |   https://github.com/viacoin/viacoin/blob/master/src/chainparams.cpp
+XCH   |      15      |       199       |        71       |                |   Built on VIA, https://github.com/ClearingHouse/clearinghoused/blob/master/lib/config.py 
+RBY   |      16      |       189       |        61       |       85       |   https://github.com/rubycoinorg/rubycoin/blob/master/src/base58.h
+GRS   |      17      |       176       |        36?      |        5       | https://github.com/GroestlCoin/Groestlcoin-WPF/blob/master/coin-chains.xml (AddressVersion is 36)
+DGC   |      18      |       153?      |        25?      |        5       | https://github.com/digibyte/digibyte/blob/master/src/chainparams.cpp
+CCN   |      19      |       156       |        28       |        5       |   https://github.com/Cannacoin-Project/Cannacoin/blob/Proof-of-Stake/src/base58.h
+DGB   |      20      |       128       |        30       |        5       |   https://github.com/digibyte/digibyte/blob/master/src/chainparams.cpp
+OA?   |      21      |        23       |        19       |                |   https://github.com/OpenAssets/open-assets-protocol/blob/master/address-format.mediawiki#example ( % echo '00010966776006953d5567439e5e39f86a0d273bee' | bx base58check-encode -v 19  =>  Yields Open Assets Address: akB4NBW9UuCmHuepksob6yfZs6naHtRCPNy )
+      |              |                 |                 |                |   https://github.com/OpenAssets/open-assets-protocol/blob/master/specification.mediawiki#protocol-overview ( % echo 'dup hash160 [ 010966776006953D5567439E5E39F86A0D273BEE ] equalverify checksig' | bx script-encode | bx sha256 | bx ripemd160  =>  Yields Open Assets ID: ALn3aK1fSuG27N96UGYB1kUYUpGKRhBuBC ; bx base58check-decode ALn3aK1fSuG27N96UGYB1kUYUpGKRhBuBC => Yields "version 23" )
+XPM   |      24      |       151?      |        23       |                |  https://github.com/primecoin/primecoin/blob/master/src/base58.h
+JBS   |      26      |       171?      |        43       |                |  https://github.com/jyap808/jumbucks/blob/master/src/base58.h
+VTC   |      28      |       199?      |        71       |                |  https://github.com/vertcoin/vertcoin/blob/master/src/base58.h
+NVC   |      50      |       136?      |         8       |                |  https://github.com/novacoin-project/novacoin/blob/master/src/base58.h
 ```
 
-As a rule of thumb, any bx commands that support the "--version (-v)" values (an 8-bit number number in base10/decimal format) associated with private key functionality will use values from the **version/WIF** column for desired coin types. Similarly, any bx commands that support version values associated with address functions for desired coin types will use the **version/p2pkh** column. An empirical trend within the table above is that version/WIF values range between 128 and 255 inclusive. One notable exception discovered so far is for coin type 21, Open Assets that is a cryptocurrency agnostic token. Similarly, version/p2pkh values range between 0 and 127 inclusive. 
+As a rule of thumb, any bx commands that support the "--version (-v)" values (an 8-bit number number in base10/decimal format) associated with private key functionality will use values from the **version/WIF** column for desired coin types. Any bx commands that support version values associated with single signature address functions for desired coin types will use the **version/p2pkh** column. Any bx commands that support version values associated with multisignature signature address functions for desired coin types will use the **version/p2sh** column. An empirical trend within the table above is that version/WIF values range between 128 and 255 inclusive. One notable exception discovered so far is for coin type 21, Open Assets that is a cryptocurrency agnostic token. Similarly, version/p2pkh values range between 0 and 127 inclusive. Not enough information has been gathered yet to pass judgement on the version/p2sh column value trends.
 
-It is anticipated the libbitcoin approach presented here should be able to synthesize EC private keys and addresses for 100+ altcoins. Certainly there will be BIP/SLIP 44 registered coin types where it will not be readily apparent how to apply existing bx commands to arrive at associated WIF keys and/or addresses, e.g., coins with raw key lengths greater than 256 bits, or use hashing algorithms other that ripemd160, sha256, and sha512. Additionally, there will be altcoins that are not BIP/SLIP 44 registered that will have associated version/WIF and version/p2pkh values that will enable bx to easily create private EC keys and associated addresses. Such unregistered coin types will be included in the table above, but each having a blank "coin type".  If the libbitcoin framework is adopted by developers, it will naturally enable extended BIP 38 support for those altcoins. (Being investigated, but be patient... Multisig and single signature Stealth transaction creation services might also be able to be inherited if libbitcoin framework is applied.) 
+It is anticipated the libbitcoin approach presented here should be able to synthesize EC private keys and addresses for 100+ altcoins. Certainly there will be BIP/SLIP 44 registered coin types where it will not be readily apparent how to apply existing bx commands to arrive at associated WIF keys and/or addresses, e.g., coins with raw key lengths greater than 256 bits, or use hashing algorithms other that ripemd160, sha256, and sha512. Additionally, there will be altcoins that are not BIP/SLIP 44 registered that will have associated version/WIF and version/p2pkh values that will enable bx to easily create private EC keys and associated addresses. Such unregistered coin types will be included in the table above, but each having a blank "coin type".  If the libbitcoin framework is adopted by developers, it will naturally enable extended BIP 38 support for those altcoins. (Being investigated, but be patient... Single signature Stealth transaction creation services might also be able to be inherited if libbitcoin framework is applied.) 
 
 Finally, to provide a foundation to jump start the establishment of numerous multi-coin wallet implementation, as a countermeasure to protect Bitcoin as goes through its pubescence growth phase, emphasis will first be applied towards populating the table above for coins that are BIP/SLIP 44 registered. It is anticipated once Bitcoin protocols(s) maturation/growth phase is completed, there will be a strong delineation between payment and settlement network processing layers that will implicitly support different levels of trust, with the settlement layer providing a greater amount of uncensored trust.
 
-*It may be a bit much to digest in this Wiki article, but there is another four columns to be added to the table above such as a version/p2sh column (used to support multisig capabilities) for altcoin mainnets, and then repeating the three version/( WIF | p2pkh | p2sh ) columns for associated testnets. Albeit, having a testnet for a Testnet might seem redundant.*
+*It might be a bit much to digest at this point, but there are three additional columns technically required which are: testnet version/WIF, testnet version/p2pkh, and testnet version/p2sh. Albeit, having a testnet for a Testnet might seem redundant...*
 
 ### [bx - Wallet Commands](https://github.com/libbitcoin/libbitcoin-explorer/wiki/Wallet-Commands)
 
@@ -305,6 +304,10 @@ The application **--version** values to **Stealth Commands** for altcoins is a w
 
 The following bitcoin explorer wallet stealth commands are natural candidates to be extended to accommodate **--version** values:
 
-* **[stealth-encode](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-stealth-encode)** ( recommend using p2pkh column )
+* **[stealth-encode](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-stealth-encode)** ( recommend using version/p2pkh column )
 * *other stealth commands are under investigation*
 
+
+### [bx - Transaction Commands](https://github.com/libbitcoin/libbitcoin-explorer/wiki/Transaction-Commands)
+
+* **[script-to-address](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-script-to-address)** (recommend using version/p2sh column)
