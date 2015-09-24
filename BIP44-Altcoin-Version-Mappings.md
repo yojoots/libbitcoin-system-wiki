@@ -93,7 +93,7 @@ XpTtgbcURSBfcuo8FZsNFeGrsCSi3jarAi
 ```
 
 
-**2) BIP 39 CLI Implementation Example:** *Create master seeds in Spanish from a common weak English brainwallet seed requiring the memorization of 15, 24 or 48 words.* Functionality demonstrated here is altcoin insensitive. The results below (i.e., 2B, 2D, 2F) makes a case that the more BIP 39 words, used from various spoken [languages](https://github.com/bitcoin/bips/blob/master/bip-0039/bip-0039-wordlists.md), used to create a deterministic BIP 32 master key don't necessarily mean greater security.
+**2) BIP 39 CLI Implementation Example:** *Create master seeds in Spanish from a common weak English brainwallet seed requiring the memorization of 15, 24 or 48 words.* The BIP 39 functionality demonstrated here should be altcoin insensitive. The results below (i.e., 2B, 2D, 2F) makes a case that the more BIP 39 words, used from various spoken [languages](https://github.com/bitcoin/bips/blob/master/bip-0039/bip-0039-wordlists.md), applied to create a deterministic BIP 32 master key don't necessarily mean greater security...
 
 **A.**  Create seed for a 15 word representation for a BIP 39 encoded master seed.
 ```
@@ -141,7 +141,7 @@ enredo ático litro ánimo grosor paella símbolo viejo aleta orgía ángulo enc
 ```
 
 
-**3) BIP 39 CLI Implementation Example:** *Recreate a master seed from BIP 39 words.* Functionality demonstrated here is altcoin insensitive.
+**3) BIP 39 CLI Implementation Example:** *Recreate a master seed from BIP 39 words.* The BIP 39 functionality demonstrated here should be altcoin insensitive.
 ```
 % echo 'enable load garage hard diagram trim nothing exclude fantasy gold ramp fiber wise ball have hero toddler spy excite glue maze drill else sell' | bx mnemonic-to-seed -p TREZOR
 ```
