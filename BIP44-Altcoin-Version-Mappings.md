@@ -137,7 +137,7 @@ enredo ático litro ánimo grosor paella símbolo viejo aleta orgía ángulo enc
 f0e63d191d75d39b5d1d8d1ae8ff1c48e51cacffb6d3881f31715572a59f352d35fa44a7e84f9a69712b206b9e04966a5794470993516e1b363a001fc3917f69
 ```
 
-The following bitcoin explorer wallet commands are natural candidates to be extended to accommodate **--version** values:
+The following bitcoin explorer wallet commands are natural candidates to be extended to accommodate **--version (-v)** values:
 
 * **[ec-to-wif](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-ec-to-wif)**          ( recommend using version/WIF column for private keys )
 * **[hd-to-address](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-hd-to-address)**      ( recommend using version/p2pkh column for addresses )
@@ -146,11 +146,20 @@ The following bitcoin explorer wallet commands are natural candidates to be exte
 
 ### [bx - Encoding Commands](https://github.com/libbitcoin/libbitcoin-explorer/wiki/Encoding-Commands)
 
-Most encoding commands supporting **--version** are not restricted as to which of the two columns to use since these commands can be used to develop either WIF private keys, or associated coin addresses. The following bitcoin explorer "encoding commands" provide version support:
+Most encoding commands supporting **--version** are not restricted as to which columns to use since these commands can be used to develop WIF private keys, associated coin single and multisig addresses, single signature stealth addresses, and possibly multisig stealth addresses. The following bitcoin explorer "encoding commands" provide version support:
 
-* **[address-encode](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-address-encode)** ( use version/p2pkh column for addresses )
-* **[base58check-encode](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-base58check-encode)** ( use version/WIF column for private keys, or version/p2pkh column for addresses )
-* **[wrap-encode](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-wrap-encode)** ( use version/WIF column for private keys**, or version/p2pkh column for addresses )
+* **[address-embed](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-address-embed)** ( no rules(s) yet for which version column(s) to apply )
+* **[address-encode](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-address-encode)** ( use version/p2pkh column for single signature addresses, version/p2sh column for creating multisig addresses, single signature stealth addresses???, multisig stealth addresses??? )
+* **[base58check-encode](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-base58check-encode)** ( use version/WIF column for private keys, version/p2pkh column for single signature addresses )
+* **[wrap-encode](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-wrap-encode)** ( use version/WIF column for private keys, version/p2pkh column for single signature addresses, version/p2sh column for multisig addresses )
+
+The following bitcoin-explorer encoding command is a natural candidate to be extended to accommodate a **--version (-v)** value:
+
+* **[script-to-address](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-script-to-address)**  (recommend using version/p2sh column for altcoin multisig addresses)
+
+The following bitcoin-explorer encoding command **should not** be extended to accommodate a **--version (-v)** value:
+
+* **[script-encode](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-script-encode)** Rationale is *"SCRIPT" | bx script-encode | bx bitcoin160 | bx address-encode -v version/p2sh* takes care of this matter. 
 
 
 **4) Combined BIP 32 and 44 Example:** *Apply m/44’/5’/0’/0/0 example to create a compressed Dash private key.*
