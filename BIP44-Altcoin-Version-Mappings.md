@@ -159,7 +159,7 @@ The following bitcoin-explorer encoding command is a natural candidate to be ext
 
 The following bitcoin-explorer encoding command **should not** be extended to accommodate a **--version (-v)** value:
 
-* **[script-encode](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-script-encode)** Rationale is *"SCRIPT" | bx script-encode | bx bitcoin160 | bx address-encode -v version/p2sh* takes care of this matter. 
+* **[script-encode](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-script-encode)** ( Rationale is **"SCRIPT" | bx script-encode | bx bitcoin160 | bx address-encode -v version/p2sh** takes care of this matter downstream.) 
 
 
 **4) Combined BIP 32 and 44 Example:** *Apply m/44’/5’/0’/0/0 example to create a compressed Dash private key.*
