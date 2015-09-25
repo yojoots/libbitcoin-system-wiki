@@ -65,7 +65,7 @@ The table above is a "Rosetta Stone" for translating Bitcoin Elliptic Curve (EC)
 * **[ec-to-address](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-ec-to-address)**  ( use version/p2pkh column for addresses )
 
 
-**1) Combined BIP 32 and 44 CLI Example:** *Apply M/44’/5’/0’/0/0 to create a compressed Dash public addresses for up to 4 billions addresses for safe use by an online machine!!!*
+**1) Combined BIP 32 and 44 CLI Example Set:** *Apply M/44’/5’/0’/0/0 to create a compressed Dash public addresses for up to 4 billions addresses for safe use by an online machine!!!*
 
 **A.** Be very afraid to use the weak brain wallet driven command sequence below on a computer that is online! Even with a very high entropy brain wallet, the approach below will will certainly be hacked unless you are a "cross domain solution" expert or apply multi-signature technology as risk mitigators. However, this example is provided for explanation continuity purposes for examples 1B and 1C below.
 ```
@@ -97,7 +97,7 @@ XpTtgbcURSBfcuo8FZsNFeGrsCSi3jarAi
 ```
 
 
-**2) BIP 39 CLI Example:** *Create master seeds in Spanish from a common weak English brainwallet seed requiring the memorization of 15, 24 or 48 words.* The BIP 39 functionality demonstrated here should be altcoin insensitive. The results below (i.e., 2B, 2D, 2F) makes a case that the more BIP 39 words, used from various spoken [languages](https://github.com/bitcoin/bips/blob/master/bip-0039/bip-0039-wordlists.md), applied to create a deterministic BIP 32 master key don't necessarily mean greater security...
+**2) BIP 39 Compliant CLI Example Set:** *Create master seeds in Spanish from a common weak English brainwallet seed requiring the memorization of 15, 24 or 48 words.* The BIP 39 functionality demonstrated here should be altcoin insensitive. The results below (i.e., 2B, 2D, 2F) makes a case that the more BIP 39 words, used from various spoken [languages](https://github.com/bitcoin/bips/blob/master/bip-0039/bip-0039-wordlists.md), applied to create a deterministic BIP 32 master key don't necessarily mean greater security...
 
 **A.**  Create seed for a 15 word representation for a BIP 39 encoded master seed.
 ```
@@ -145,7 +145,7 @@ enredo ático litro ánimo grosor paella símbolo viejo aleta orgía ángulo enc
 ```
 
 
-**3) BIP 39 CLI Example:** *Recreate a master seed from BIP 39 words.* The BIP 39 functionality demonstrated here should be altcoin insensitive.
+**3) BIP 39 Compliant CLI Example:** *Recreate a master seed from BIP 39 words.* The BIP 39 functionality demonstrated here should be altcoin insensitive.
 ```
 % echo 'enable load garage hard diagram trim nothing exclude fantasy gold ramp fiber wise ball have hero toddler spy excite glue maze drill else sell' | bx mnemonic-to-seed -p TREZOR
 ```
@@ -174,7 +174,7 @@ The following bitcoin-explorer encoding command **should not** be extended to ac
 * **[script-encode](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-script-encode)** ( For a basis to establish a rationale, see this [example](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-script-encode#example-3-creating-multi-signature-addresses).) 
 
 
-**4) Combined BIP 32 and 44 CLI Example:** *Apply m/44’/5’/0’/0/0 example to create a compressed Dash private key.*
+**4) Combined BIP 32 and 44 Compliant CLI Example Set:** *Apply m/44’/5’/0’/0/0 example to create a compressed Dash private key.*
 
 **A.** Synthesized compressed EC private key below is derived from a very weak cryptographical brain wallet. Note that this affords absolutely no protection of the master seed that feeds the hd-new.  The piped "sed 's/$/01/'" command below appends the private key with "01" which signals the key is compressed. Without this extra suffix, the EC public key is in the uncompressed form. 
 ```
@@ -210,7 +210,7 @@ The table above also complements [Altchain Encrypted Private Keys](https://githu
 * **[ek-public](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-ek-public)**  ( use version/p2pkh column for addresses )
 
 
-**5) Extended AES256Encrypt and AES256Decrypt BIP 38 CLI Example:** *For a Dash base16-encoded 256-bit secret elliptic curve key.*
+**5) Extended AES256Encrypt and AES256Decrypt BIP 38 CLI Example Set:** *For a Dash base16-encoded 256-bit secret elliptic curve key.*
 
 **A.** Extended BIP 38 (256 bit AES) encryption for Dash of a base16 encoded EC private key.
 ```
@@ -228,7 +228,7 @@ f9a8f6d4a24b99d4944ee3db83c85383e9c13e85cb50ad60a9e1a96e02f6d269
 ```
 
 
-**6) Extended "EC Multiply Mode" BIP 38 CLI Example:** *For Dash having an initial secret of 'knock knock', seed, salt, lot number of 0, and sequence number of 0. (Please note the information below needs to be correlated with security [recommendations](https://github.com/libbitcoin/libbitcoin/wiki/BIP38-Security-Considerations#recommendations) to arrive at a good processes for outsourcing the minting of coins or engraving of notes by the owners of Dash funds.)*
+**6) Extended "EC Multiply Mode" BIP 38 CLI Example Set:** *For Dash having an initial secret of 'knock knock', seed, salt, lot number of 0, and sequence number of 0. (Please note the information below needs to be cross correlated with security [recommendations](https://github.com/libbitcoin/libbitcoin/wiki/BIP38-Security-Considerations#recommendations) to arrive at a good processes for outsourcing the minting of coins or engraving of notes by owners of Dash funds.)*
 
 **A.** "Brain seed"
 ```
@@ -317,6 +317,16 @@ Xc3cYycMHt9vtBjMcUJshBH34QqfZnbEyu
 ```
 Xc3cYycMHt9vtBjMcUJshBH34QqfZnbEyu
 ```
+
+It is very important to understand that minted/(engraved) coins/(notes) using a mechanism like the one described immediately above will not generally be transferable to 3rd parties without considerable trust between the original owner/curator of the minted/(engraved) coins/(notes) and downstream parties gaining physical possession (9/10th of ownership) of such coins/(notes). Without a form cryptographic "bonding", the lack of trust by most secondhand coin/(note) holders will naturally invoke a "bearer bond" behavior of others to take all possible control of the value tied to this physical instrument's private key usually protected by a tamper resistant seal typically affixed by the coin's/note's curator. 
+
+For risk reasons, this will cause secondhand coin/(note) holders to immediately break a coin's/note's seal to access its private key, and immediately "sweep"/(NOT IMPORT) this private key using an online wallet application.  This will cause a new blockchain P2PKH transaction to transfer cryptograhic monetary rights to a trusted private key of theirs.  This process severs previous immutable blockchain accounting value that was previously tied to such a physical coin or note, and it extrinsically becomes cryptographically worthless. Be aware that absolutely no cold storage trust should be given to any BIP 38 instrument that has "any history" of funds being spent. Numerous deposits being swept are fine, withdrawals absolutely not!
+
+With the application of strong, high entropy, passwords/passphrases, BIP 38 functionality allows computer printing devices with untrusted firmware and network connections to safely print paper wallets for storage at multiple inconspicuous locations, not necessarily requiring the use of a safe of deposit boxes and possibly guard services.  Also, numismatic collectors can have very professional looking coins or notes minted or engraved by un-trusted minters or engravers if a BIP 38 "EC Multiply Mode" exchange protocol is utilized.  However, mints/engravers without "money transmitter" licenses need to take extra precautions to ensure their product is shipped before associated blockchain value can be attributed to it. One side effect of mints/engravers shipping product without being loaded is there are no initial branded assurances as to the accuracy of a coin's or note's cryptographic monetary value. 
+
+In summary, both BIP 38 AES 256 bit encryption/decryption and EC Multiply mode can be used to create cold storage wallets for safe long-term keeping. There is the expectation from secondhand parties that minted/(engraved) coins/(notes) have blockchain "bearer bond" characteristics, and after taking possession will almost immediately be redeemed. If such coins/(notes) have tamper resistant secrets affixed to them to attain such a "bearer bond" characteristic, they must be physically guarded, an thus have associated commodity backwardation storage cost characteristics. 
+
+Printing your own BIP 38 paper wallets with a trusted computer printer can engender greater privacy by helping to prevent others from ascertaining your cryptographic worth. It is also alright to keep BIP 38 paper wallets in multiple inconspicuous locations if they don't have monetary denominations printed on them, public addresses nor information printed on them indicating who the owner is or POCs are. This presents an interesting backwardation resistant characteristic for cryptocurrency savers that has never existed before in the physical world. If monetary denominations, public addresses or contact information is printed on BIP 38 wallets there will be an associated storage cost, but not as much as that for minted/(engraved) coins/(notes) with "bearer bond" characteristics.   
 
 
 ### [bx - Stealth Commands](https://github.com/libbitcoin/libbitcoin-explorer/wiki/Stealth-Commands)
