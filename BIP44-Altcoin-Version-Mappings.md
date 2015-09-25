@@ -65,7 +65,7 @@ The table above is a "Rosetta Stone" for translating Bitcoin Elliptic Curve (EC)
 * **[ec-to-address](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-ec-to-address)**  ( use version/p2pkh column for addresses )
 
 
-**1) Combined BIP 32 and 44 CLI Implementation Example:** *Apply M/44’/5’/0’/0/0 to create a compressed Dash public addresses for up to 4 billions addresses for safe use by an online machine!!!*
+**1) Combined BIP 32 and 44 CLI Example:** *Apply M/44’/5’/0’/0/0 to create a compressed Dash public addresses for up to 4 billions addresses for safe use by an online machine!!!*
 
 **A.** Be very afraid to use the weak brain wallet driven command sequence below on a computer that is online! Even with a very high entropy brain wallet, the approach below will will certainly be hacked unless you are a "cross domain solution" expert or apply multi-signature technology as risk mitigators. However, this example is provided for explanation continuity purposes for examples 1B and 1C below.
 ```
@@ -97,7 +97,7 @@ XpTtgbcURSBfcuo8FZsNFeGrsCSi3jarAi
 ```
 
 
-**2) BIP 39 CLI Implementation Example:** *Create master seeds in Spanish from a common weak English brainwallet seed requiring the memorization of 15, 24 or 48 words.* The BIP 39 functionality demonstrated here should be altcoin insensitive. The results below (i.e., 2B, 2D, 2F) makes a case that the more BIP 39 words, used from various spoken [languages](https://github.com/bitcoin/bips/blob/master/bip-0039/bip-0039-wordlists.md), applied to create a deterministic BIP 32 master key don't necessarily mean greater security...
+**2) BIP 39 CLI Example:** *Create master seeds in Spanish from a common weak English brainwallet seed requiring the memorization of 15, 24 or 48 words.* The BIP 39 functionality demonstrated here should be altcoin insensitive. The results below (i.e., 2B, 2D, 2F) makes a case that the more BIP 39 words, used from various spoken [languages](https://github.com/bitcoin/bips/blob/master/bip-0039/bip-0039-wordlists.md), applied to create a deterministic BIP 32 master key don't necessarily mean greater security...
 
 **A.**  Create seed for a 15 word representation for a BIP 39 encoded master seed.
 ```
@@ -145,7 +145,7 @@ enredo ático litro ánimo grosor paella símbolo viejo aleta orgía ángulo enc
 ```
 
 
-**3) BIP 39 CLI Implementation Example:** *Recreate a master seed from BIP 39 words.* The BIP 39 functionality demonstrated here should be altcoin insensitive.
+**3) BIP 39 CLI Example:** *Recreate a master seed from BIP 39 words.* The BIP 39 functionality demonstrated here should be altcoin insensitive.
 ```
 % echo 'enable load garage hard diagram trim nothing exclude fantasy gold ramp fiber wise ball have hero toddler spy excite glue maze drill else sell' | bx mnemonic-to-seed -p TREZOR
 ```
@@ -174,7 +174,7 @@ The following bitcoin-explorer encoding command **should not** be extended to ac
 * **[script-encode](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-script-encode)** ( For a basis to establish a rationale, see this [example](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-script-encode#example-3-creating-multi-signature-addresses).) 
 
 
-**4) Combined BIP 32 and 44 CLI Implementation Example:** *Apply m/44’/5’/0’/0/0 example to create a compressed Dash private key.*
+**4) Combined BIP 32 and 44 CLI Example:** *Apply m/44’/5’/0’/0/0 example to create a compressed Dash private key.*
 
 **A.** Synthesized compressed EC private key below is derived from a very weak cryptographical brain wallet. Note that this affords absolutely no protection of the master seed that feeds the hd-new.  The piped "sed 's/$/01/'" command below appends the private key with "01" which signals the key is compressed. Without this extra suffix, the EC public key is in the uncompressed form. 
 ```
@@ -210,7 +210,7 @@ The table above also complements [Altchain Encrypted Private Keys](https://githu
 * **[ek-public](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-ek-public)**  ( use version/p2pkh column for addresses )
 
 
-**5) Extended AES256Encrypt and AES256Decrypt BIP 38 CLI Implementation Example:** *For a Dash base16-encoded 256-bit secret elliptic curve key.*
+**5) Extended AES256Encrypt and AES256Decrypt BIP 38 CLI Example:** *For a Dash base16-encoded 256-bit secret elliptic curve key.*
 
 **A.** Extended BIP 38 (256 bit AES) encryption for Dash of a base16 encoded EC private key.
 ```
@@ -228,7 +228,7 @@ f9a8f6d4a24b99d4944ee3db83c85383e9c13e85cb50ad60a9e1a96e02f6d269
 ```
 
 
-**6) Extended "EC Multiply Mode" BIP 38 CLI Implementation Example:** *For Dash having an initial secret of 'knock knock', seed, salt, lot number of 0, and sequence number of 0. (Please note the information below needs to be correlated with security [recommendations](https://github.com/libbitcoin/libbitcoin/wiki/BIP38-Security-Considerations#recommendations) to arrive at a good processes for outsourcing the minting of coins or engraving of notes by the owners of Dash funds.)*
+**6) Extended "EC Multiply Mode" BIP 38 CLI Example:** *For Dash having an initial secret of 'knock knock', seed, salt, lot number of 0, and sequence number of 0. (Please note the information below needs to be correlated with security [recommendations](https://github.com/libbitcoin/libbitcoin/wiki/BIP38-Security-Considerations#recommendations) to arrive at a good processes for outsourcing the minting of coins or engraving of notes by the owners of Dash funds.)*
 
 **A.** "Brain seed"
 ```
