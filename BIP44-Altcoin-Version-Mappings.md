@@ -22,19 +22,20 @@ DASH  |       5      |       204       |      76/'X'     |      16/'7'    |   ht
 PPC   |       6      |       183       |      55/'P'     |     117/'p'    |   https://github.com/super3/Peercoin.net -   see NBT base58.h
 NMC   |       7      |       180       |      52/'M'     |      13/'6'    |   https://github.com/domob1812/namecore/blob/master/src/chainparams.cpp
 FTC   |       8      |       142       |      14/'6'     |       5/'3'    |   https://github.com/FeatherCoin/Feathercoin/blob/master-0.8/src/base58.h
-XCP   |       9      |       128?      |       128?      |       ??       |   Built on BTC, https://github.com/CounterpartyXCP/counterparty-lib  http://counterparty.io/docs/create_addresses/
+XCP   |       9      |    color_BTC    |       0/'1'     |        ?       |   Built on BTC, https://github.com/CounterpartyXCP/counterparty-lib  http://counterparty.io/docs/create_addresses/
 BLK   |      10      |       153       |      25/'B'     |      85/'b'    |   https://github.com/rat4/blackcoin/blob/master/src/chainparams.cpp
 NSR   |      11      |     149/191 c/u |      63/'S'     |      64/'S'    |   Built on PPC, https://nubits.com/nushares/introduction
 NBT   |      12      |     150/191 c/u |      25/'B'     |      26/'B'    |   https://bitbucket.org/JordanLeePeershares/nubit/NuBit / src /base58.h
 MZC   |      13      |       224       |      50/'M'     |       5/'3'    |   https://github.com/MazaCoin/MazaCoin/blob/master/src/base58.h
 VIA   |      14      |       199       |      71/'V'     |      33/'E'    |   https://github.com/viacoin/viacoin/blob/master/src/chainparams.cpp
-XCH   |      15      |       199       |      71/'V'     |                |   Built on VIA, https://github.com/ClearingHouse/clearinghoused/blob/master/lib/config.py 
+XCH   |      15      |    color_VIA    |      71/'V'     |        ?       |   Built on VIA, https://github.com/ClearingHouse/clearinghoused/blob/master/lib/config.py 
 RBY   |      16      |       189       |      61/'R'     |      85/'b'    |   https://github.com/rubycoinorg/rubycoin/blob/master/src/base58.h
 GRS   |      17      |       176       |        36?      |       5/'3'    |  https://github.com/GroestlCoin/Groestlcoin-WPF/blob/master/coin-chains.xml (AddressVersion is 36)
 DGC   |      18      |       158       |      30/'D'     |       5/'3'    |   https://github.com/DGCDev/digitalcoin/blob/master/src/chainparams.cpp
 CCN   |      19      |       156       |      28/'C'     |       5/'3'    |   https://github.com/Cannacoin-Project/Cannacoin/blob/Proof-of-Stake/src/base58.h
 DGB   |      20      |       128       |      30/'D'     |       5/'3'    |   https://github.com/digibyte/digibyte/blob/master/src/chainparams.cpp
-OA?   |      21      |        ??       |      19/'a'     |      23/'A'    |   https://github.com/OpenAssets/open-assets-protocol/blob/master/address-format.mediawiki#example ( % echo '00010966776006953d5567439e5e39f86a0d273bee' | bx base58check-encode -v 19  =>  Yields Open Assets Address: akB4NBW9UuCmHuepksob6yfZs6naHtRCPNy )
+OA?   |      21      |  color_any_coin |      19/'a'     |      23/'A'    |   echo '18E14A7B6A307F426A94F8114701E7C8E774E7F9A47E2C2035DB29A206321725' | bx ec-to-public -u | bx bitcoin160 => Yields  010966776006953d5567439e5e39f86a0d273bee or 16UwLL9Risc3QfPqBUvKofHmBQ7wMtjvM
+      |              |                 |                 |                |   https://github.com/OpenAssets/open-assets-protocol/blob/master/address-format.mediawiki#example ( % echo '00010966776006953d5567439e5e39f86a0d273bee' | bx base58check-encode -v 19  =>  Yields Open Assets Address: akB4NBW9UuCmHuepksob6yfZs6naHtRCPNy )
       |              |                 |                 |                |   https://github.com/OpenAssets/open-assets-protocol/blob/master/specification.mediawiki#protocol-overview ( % echo 'dup hash160 [ 010966776006953D5567439E5E39F86A0D273BEE ] equalverify checksig' | bx script-encode | bx sha256 | bx ripemd160 | bx base58check-encode -v 23  =>  Yields Open Assets ID: ALn3aK1fSuG27N96UGYB1kUYUpGKRhBuBC  )
 XPM   |      24      |       151?      |      23/'A'     |      83/'a'    |   https://github.com/primecoin/primecoin/blob/master/src/base58.h
 JBS   |      26      |       171?      |      43/'J'     |     105/'j'    |   https://github.com/jyap808/jumbucks/blob/master/src/base58.h
