@@ -10,8 +10,8 @@ The accuracy of portions of this table are not absolute (currently ~90% accuracy
 
 #### BIP44 Altcoin Version Mapping Table
 ```
-      |   BIP 44     |     mainnet     |     mainnet     |     mainnet    |   
-Coin  | (coin_type’) |   version/WIF   |  version/p2pkh  |  version/p2sh  |   References
+      |   BIP 44     |     mainnet     |     mainnet     |     mainnet     |   
+Coin  | (coin_type’) |   version/WIF   |  version/p2pkh  |  version/p2sh   |   References
 ———————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 BTC   |       0      |       128       |   0/('1')       |   5/('3')       |   https://github.com/bitcoin/bitcoin/blob/master/src/chainparams.cpp#L104
 TEST  |       1      |       239       | 111/('m' | 'n') | 196/('2')       |   https://github.com/bitcoin/bitcoin/blob/master/src/chainparams.cpp#L177
@@ -30,7 +30,7 @@ MZC   |      13      |       224       |  50/('M')       |   9/('4' | '5') |   h
 VIA   |      14      |       199       |  71/('V')       |  33/('E')       |   https://github.com/viacoin/viacoin/blob/master/src/chainparams.cpp#L154
 XCH   |      15      |    color_VIA    |  71/('V')       |       ?         |   Built on VIA, https://github.com/ClearingHouse/clearinghoused/blob/master/lib/config.py#L55 
 RBY   |      16      |       189       |  61/('R')       |  85/('b')       |   https://github.com/rubycoinorg/rubycoin/blob/master/src/base58.h
-GRS   |      17      |       176       |  36?/('F')      |   5/('3')       |  https://github.com/GroestlCoin/Groestlcoin-WPF/blob/master/coin-chains.xml (AddressVersion is 36)
+GRS   |      17      |       176       |  36?/('F')      |   5/('3')       |  https://github.com/GroestlCoin/groestlcoin/blob/master/src/chainparams.h#L38??? and  https://github.com/GroestlCoin/Groestlcoin-WPF/blob/master/coin-chains.xml (AddressVersion is 36)
 DGC   |      18      |       158       |  30/('D')       |   5/('3')       |   https://github.com/DGCDev/digitalcoin/blob/master/src/chainparams.cpp#L74
 CCN   |      19      |       156       |  28/('C')       |   5/('3')       |   https://github.com/Cannacoin-Project/Cannacoin/blob/Proof-of-Stake/src/base58.h#L275
 DGB   |      20      |       128       |  30/('D')       |   5/('3')       |   https://github.com/digibyte/digibyte/blob/master/src/chainparams.cpp#L73
@@ -44,7 +44,7 @@ JBS   |      26      |       171?      |  43/('J')       | 105/('j')       |   h
 VTC   |      28      |       199?      |  71/('V')       |   5/('3')       |   https://github.com/vertcoin/vertcoin/blob/master/src/base58.h#L275
 VPN   |      33      |       199?      |  71/('V')       |   5/('3')       |   https://github.com/Bit-Net/VpnCoin/blob/master/src/base58.h#L279
 NVC   |      50      |       136?      |   8/('4')       |  20/('9')       |   https://github.com/novacoin-project/novacoin/blob/master/src/base58.h#L280
-DOGED |      77      |       158?      |  30?            |                 |  
+DOGED |      77      |       158?      |  30/('D')       |  33/('E')       |   https://github.com/doged/dogedsource/blob/master/src/base58.h#L279
 ```
 
 An empirical trend within the table above is that version/WIF values range between 128 and 255 inclusive. One notable exception discovered so far is for coin type 21, Open Assets that is a cryptocurrency agnostic token. Similarly, version/p2pkh values range between 0 and 127 inclusive. Not enough information has been collected yet to pass judgement on version/p2sh column value trends.
