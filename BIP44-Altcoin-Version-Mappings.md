@@ -34,7 +34,7 @@ GRS   |      17      |       176       |  36?/('F')      |   5/('3')       | htt
 DGC   |      18      |       158       |  30/('D')       |   5/('3')       |   https://github.com/DGCDev/digitalcoin/blob/master/src/chainparams.cpp#L74
 CCN   |      19      |       156       |  28/('C')       |   5/('3')       |   https://github.com/Cannacoin-Project/Cannacoin/blob/Proof-of-Stake/src/base58.h#L275
 DGB   |      20      |       128       |  30/('D')       |   5/('3')       |   https://github.com/digibyte/digibyte/blob/master/src/chainparams.cpp#L73
-OA?   |      21      |  color_any_coin |  19/'a'(168bits)|  23/('A')       |   echo '18E14A7B6A307F426A94F8114701E7C8E774E7F9A47E2C2035DB29A206321725' | bx ec-to-public -u | bx bitcoin160 => Yields  010966776006953d5567439e5e39f86a0d273bee or 16UwLL9Risc3QfPqBUvKofHmBQ7wMtjvM
+???   |      21      |  color_any_coin |  19/'a'(168bits)|  23/('A')       |   echo '18E14A7B6A307F426A94F8114701E7C8E774E7F9A47E2C2035DB29A206321725' | bx ec-to-public -u | bx bitcoin160 => Yields  010966776006953d5567439e5e39f86a0d273bee or 16UwLL9Risc3QfPqBUvKofHmBQ7wMtjvM
       |              |                 |                 |                 |   https://github.com/OpenAssets/open-assets-protocol/blob/master/address-format.mediawiki#example ( % echo '00010966776006953d5567439e5e39f86a0d273bee' | bx base58check-encode -v 19  =>  168 bit input Yields Open Assets Address: akB4NBW9UuCmHuepksob6yfZs6naHtRCPNy )
       |              |                 |                 |                 |   https://github.com/OpenAssets/open-assets-protocol/blob/master/specification.mediawiki#protocol-overview ( % echo 'dup hash160 [ 010966776006953D5567439E5E39F86A0D273BEE ] equalverify checksig' | bx script-encode | bx sha256 | bx ripemd160 | bx base58check-encode -v 23  =>  Yields Open Assets ID: ALn3aK1fSuG27N96UGYB1kUYUpGKRhBuBC  )
 MONA  |      22      |       176       |  50/('M')       |   5/('3')       |   https://github.com/monacoinproject/monacoin/blob/master-0.10/src/chainparams.cpp#L159
@@ -53,6 +53,8 @@ SDC   |      35      |       191       |  63/('S')       | 125/('s')       |   h
 PKB   |      36      |                 |  55/('P')       |  28/('C')       |   https://github.com/parkbyte/ParkByte/blob/master/src/base58.h#L278
 PND   |      37      |                 |  55/('P')       |  22/('9' | 'A') |   https://github.com/coinkeeper/2015-04-19_21-22_pandacoin/blob/master/src/base58.h#L279
 NVC   |      50      |       136?      |   8/('4')       |  20/('9')       |   https://github.com/novacoin-project/novacoin/blob/master/src/base58.h#L280
+ETH   |      60      |                 |                 |                 | https://github.com/ethereum/  and https://github.com/ethereum/cpp-ethereum/wiki
+???   |      64      |                 |                 |                 | https://github.com/openchain/
 DOGED |      77      |       158?      |  30/('D')       |  33/('E')       |   https://github.com/doged/dogedsource/blob/master/src/base58.h#L279
 ```
 
