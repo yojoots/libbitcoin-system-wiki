@@ -30,7 +30,7 @@ MZC   |      13      |       224       |  50/('M')       |   9/('4' | '5') |   h
 VIA   |      14      |       199       |  71/('V')       |  33/('E')       |   https://github.com/viacoin/viacoin/blob/master/src/chainparams.cpp#L154
 XCH   |      15      |    color_VIA    |  71/('V')       |       ?         |   Built on VIA, https://github.com/ClearingHouse/clearinghoused/blob/master/lib/config.py#L55 
 RBY   |      16      |       189       |  61/('R')       |  85/('b')       |   https://github.com/rubycoinorg/rubycoin/blob/master/src/base58.h
-GRS   |      17      |       176       |  36?/('F')      |   5/('3')       |  https://github.com/GroestlCoin/groestlcoin/blob/master/src/chainparams.h#L38??? and  https://github.com/GroestlCoin/Groestlcoin-WPF/blob/master/coin-chains.xml (AddressVersion is 36)
+GRS   |      17      |       176       |  36?/('F')      |   5/('3')       | https://github.com/GroestlCoin/groestlcoin/blob/master/src/chainparams.h#L38??? and  https://github.com/GroestlCoin/Groestlcoin-WPF/blob/master/coin-chains.xml (AddressVersion is 36)
 DGC   |      18      |       158       |  30/('D')       |   5/('3')       |   https://github.com/DGCDev/digitalcoin/blob/master/src/chainparams.cpp#L74
 CCN   |      19      |       156       |  28/('C')       |   5/('3')       |   https://github.com/Cannacoin-Project/Cannacoin/blob/Proof-of-Stake/src/base58.h#L275
 DGB   |      20      |       128       |  30/('D')       |   5/('3')       |   https://github.com/digibyte/digibyte/blob/master/src/chainparams.cpp#L73
@@ -38,11 +38,18 @@ OA?   |      21      |  color_any_coin |  19/'a'(168bits)|  23/('A')       |   e
       |              |                 |                 |                 |   https://github.com/OpenAssets/open-assets-protocol/blob/master/address-format.mediawiki#example ( % echo '00010966776006953d5567439e5e39f86a0d273bee' | bx base58check-encode -v 19  =>  168 bit input Yields Open Assets Address: akB4NBW9UuCmHuepksob6yfZs6naHtRCPNy )
       |              |                 |                 |                 |   https://github.com/OpenAssets/open-assets-protocol/blob/master/specification.mediawiki#protocol-overview ( % echo 'dup hash160 [ 010966776006953D5567439E5E39F86A0D273BEE ] equalverify checksig' | bx script-encode | bx sha256 | bx ripemd160 | bx base58check-encode -v 23  =>  Yields Open Assets ID: ALn3aK1fSuG27N96UGYB1kUYUpGKRhBuBC  )
 MONA  |      22      |       176       |  50/('M')       |   5/('3')       |   https://github.com/monacoinproject/monacoin/blob/master-0.10/src/chainparams.cpp#L159
+CLAM  |      23      |                 | 137/('x')       |   5/('3')       |   https://github.com/nochowderforyou/clams/blob/master/src/base58.h#L277
 XPM   |      24      |       151?      |  23/('A')       |  83/('a')       |   https://github.com/primecoin/primecoin/blob/master/src/base58.h#L275
 NEOS  |      25      |       239       |  63/('S')       | 188/('2')       |   https://github.com/bellacoin/neoscoin/blob/master/src/chainparams.cpp#L123
 JBS   |      26      |       171?      |  43/('J')       | 105/('j')       |   https://github.com/jyap808/jumbucks/blob/master/src/base58.h#L276
+ZRC   |      27      |       208       |  80/('Z')       |   5/('3')       |   https://github.com/ZiftrCOIN/ziftrcoin/blob/master/src/chainparams.cpp#L159
 VTC   |      28      |       199?      |  71/('V')       |   5/('3')       |   https://github.com/vertcoin/vertcoin/blob/master/src/base58.h#L275
+NXT   |      29      |                 |                 |                 | https://bitbucket.org/JeanLucPicard/nxt/src and unofficial at https://github.com/Blackcomb/nxt
+MUE   |      31      |                 |                 |                 | https://github.com/MonetaryUnit
+ZOOM  |      32      |                 |                 |                 | https://github.com/zoom-c/
 VPN   |      33      |       199?      |  71/('V')       |   5/('3')       |   https://github.com/Bit-Net/VpnCoin/blob/master/src/base58.h#L279
+CDN   |      34      |                 |  28/('C')       |   5/('3')       |   https://github.com/ThisIsOurCoin/canadaecoin/blob/master/src/base58.h#L275
+SDC   |      35      |       191       |  63/('S')       | 125/('s')       |   https://github.com/ShadowProject/shadow/blob/master/src/chainparams.cpp#L155
 NVC   |      50      |       136?      |   8/('4')       |  20/('9')       |   https://github.com/novacoin-project/novacoin/blob/master/src/base58.h#L280
 DOGED |      77      |       158?      |  30/('D')       |  33/('E')       |   https://github.com/doged/dogedsource/blob/master/src/base58.h#L279
 ```
