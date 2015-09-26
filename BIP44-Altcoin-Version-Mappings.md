@@ -13,35 +13,35 @@ The accuracy of portions of this table are not absolute (currently ~90% accuracy
       |   BIP 44     |     mainnet     |     mainnet     |     mainnet    |   
 Coin  | (coin_type’) |   version/WIF   |  version/p2pkh  |  version/p2sh  |   References
 ———————————————————————————————————————————————————————————————————————————————————————————————————————————————————
-BTC   |       0      |       128       |       0/'1'     |       5/'3'    |   https://github.com/bitcoin/bitcoin/blob/master/src/chainparams.cpp
-TEST  |       1      |       239       |     111/'m'     |     196/'2'    |   https://github.com/bitcoin/bitcoin/blob/master/src/chainparams.cpp
-LTC   |       2      |       176       |      48/'L'     |       5/'3'    |   https://github.com/litecoin-project/litecoin/blob/master-0.10/src/chainparams.cpp
-DOGE  |       3      |       158       |      30/'D'     |      22/'9'    |   https://github.com/dogecoin/dogecoin/blob/master/src/chainparams.cpp
-RDD   |       4      |       189       |      61/'R'     |       5/'3'    |   https://github.com/reddcoin-project/reddcoin/blob/master/src/base58.h
-DASH  |       5      |       204       |      76/'X'     |      16/'7'    |   https://github.com/dashpay/dash/blob/master/src/chainparams.cpp
-PPC   |       6      |       183       |      55/'P'     |     117/'p'    |   https://github.com/super3/Peercoin.net -   see NBT base58.h
-NMC   |       7      |       180       |      52/'M'     |      13/'6'    |   https://github.com/domob1812/namecore/blob/master/src/chainparams.cpp
-FTC   |       8      |       142       |      14/'6'     |       5/'3'    |   https://github.com/FeatherCoin/Feathercoin/blob/master-0.8/src/base58.h
-XCP   |       9      |    color_BTC    |       0/'1'     |        ?       |   Built on BTC, https://github.com/CounterpartyXCP/counterparty-lib  http://counterparty.io/docs/create_addresses/
-BLK   |      10      |       153       |      25/'B'     |      85/'b'    |   https://github.com/rat4/blackcoin/blob/master/src/chainparams.cpp
-NSR   |      11      |     149/191 c/u |      63/'S'     |      64/'S'    |   Built on PPC, https://nubits.com/nushares/introduction
-NBT   |      12      |     150/191 c/u |      25/'B'     |      26/'B'    |   https://bitbucket.org/JordanLeePeershares/nubit/NuBit / src /base58.h
-MZC   |      13      |       224       |      50/'M'     |       5/'3'    |   https://github.com/MazaCoin/MazaCoin/blob/master/src/base58.h
-VIA   |      14      |       199       |      71/'V'     |      33/'E'    |   https://github.com/viacoin/viacoin/blob/master/src/chainparams.cpp
-XCH   |      15      |    color_VIA    |      71/'V'     |        ?       |   Built on VIA, https://github.com/ClearingHouse/clearinghoused/blob/master/lib/config.py 
-RBY   |      16      |       189       |      61/'R'     |      85/'b'    |   https://github.com/rubycoinorg/rubycoin/blob/master/src/base58.h
-GRS   |      17      |       176       |        36?      |       5/'3'    |  https://github.com/GroestlCoin/Groestlcoin-WPF/blob/master/coin-chains.xml (AddressVersion is 36)
-DGC   |      18      |       158       |      30/'D'     |       5/'3'    |   https://github.com/DGCDev/digitalcoin/blob/master/src/chainparams.cpp
-CCN   |      19      |       156       |      28/'C'     |       5/'3'    |   https://github.com/Cannacoin-Project/Cannacoin/blob/Proof-of-Stake/src/base58.h
-DGB   |      20      |       128       |      30/'D'     |       5/'3'    |   https://github.com/digibyte/digibyte/blob/master/src/chainparams.cpp
-OA?   |      21      |  color_any_coin |      19/'a'     |      23/'A'    |   echo '18E14A7B6A307F426A94F8114701E7C8E774E7F9A47E2C2035DB29A206321725' | bx ec-to-public -u | bx bitcoin160 => Yields  010966776006953d5567439e5e39f86a0d273bee or 16UwLL9Risc3QfPqBUvKofHmBQ7wMtjvM
-      |              |                 |                 |                |   https://github.com/OpenAssets/open-assets-protocol/blob/master/address-format.mediawiki#example ( % echo '00010966776006953d5567439e5e39f86a0d273bee' | bx base58check-encode -v 19  =>  Yields Open Assets Address: akB4NBW9UuCmHuepksob6yfZs6naHtRCPNy )
-      |              |                 |                 |                |   https://github.com/OpenAssets/open-assets-protocol/blob/master/specification.mediawiki#protocol-overview ( % echo 'dup hash160 [ 010966776006953D5567439E5E39F86A0D273BEE ] equalverify checksig' | bx script-encode | bx sha256 | bx ripemd160 | bx base58check-encode -v 23  =>  Yields Open Assets ID: ALn3aK1fSuG27N96UGYB1kUYUpGKRhBuBC  )
-XPM   |      24      |       151?      |      23/'A'     |      83/'a'    |   https://github.com/primecoin/primecoin/blob/master/src/base58.h
-JBS   |      26      |       171?      |      43/'J'     |     105/'j'    |   https://github.com/jyap808/jumbucks/blob/master/src/base58.h
-VTC   |      28      |       199?      |      71/'V'     |       5/'3'    |   https://github.com/vertcoin/vertcoin/blob/master/src/base58.h
-NVC   |      50      |       136?      |       8/'4'     |      20/'9'    |   https://github.com/novacoin-project/novacoin/blob/master/src/base58.h
-DOGED |      77      |       158?      |        30?      |                |  
+BTC   |       0      |       128       |   0/('1')       |   5/('3')       |   https://github.com/bitcoin/bitcoin/blob/master/src/chainparams.cpp
+TEST  |       1      |       239       | 111/('m' | 'n') | 196/('2')       |   https://github.com/bitcoin/bitcoin/blob/master/src/chainparams.cpp
+LTC   |       2      |       176       |  48/('L')       |   5/('3')       |   https://github.com/litecoin-project/litecoin/blob/master-0.10/src/chainparams.cpp
+DOGE  |       3      |       158       |  30/('D')       |  22/('9' | 'A') |   https://github.com/dogecoin/dogecoin/blob/master/src/chainparams.cpp
+RDD   |       4      |       189       |  61/('R')       |   5/('3')       |   https://github.com/reddcoin-project/reddcoin/blob/master/src/base58.h
+DASH  |       5      |       204       |  76/('X')       |  16/('7')       |   https://github.com/dashpay/dash/blob/master/src/chainparams.cpp
+PPC   |       6      |       183       |  55/('P')       | 117/('p')       |   https://github.com/super3/Peercoin.net -   see NBT base58.h
+NMC   |       7      |       180       |  52/('M' | 'N') |  13/('6')       |   https://github.com/domob1812/namecore/blob/master/src/chainparams.cpp
+FTC   |       8      |       142       |  14/('6' | '7') |   5/('3')       |   https://github.com/FeatherCoin/Feathercoin/blob/master-0.8/src/base58.h
+XCP   |       9      |    color_BTC    |   0/('1')       |       ?         |   Built on BTC, https://github.com/CounterpartyXCP/counterparty-lib  http://counterparty.io/docs/create_addresses/
+BLK   |      10      |       153       |  25/('B')       |  85/('b')       |   https://github.com/rat4/blackcoin/blob/master/src/chainparams.cpp
+NSR   |      11      |     149/191 c/u |  63/('S')       |  64/('S' | 'T') |   Built on PPC, https://nubits.com/nushares/introduction
+NBT   |      12      |     150/191 c/u |  25/('B')       |  26/('B')       |   https://bitbucket.org/JordanLeePeershares/nubit/NuBit / src /base58.h
+MZC   |      13      |       224       |  50/('M')       |   5/('3')       |   https://github.com/MazaCoin/MazaCoin/blob/master/src/base58.h
+VIA   |      14      |       199       |  71/('V')       |  33/('E')       |   https://github.com/viacoin/viacoin/blob/master/src/chainparams.cpp
+XCH   |      15      |    color_VIA    |  71/('V')       |       ?         |   Built on VIA, https://github.com/ClearingHouse/clearinghoused/blob/master/lib/config.py 
+RBY   |      16      |       189       |  61/('R')       |  85/('b')       |   https://github.com/rubycoinorg/rubycoin/blob/master/src/base58.h
+GRS   |      17      |       176       |  36?/('F')      |   5/('3')       |  https://github.com/GroestlCoin/Groestlcoin-WPF/blob/master/coin-chains.xml (AddressVersion is 36)
+DGC   |      18      |       158       |  30/('D')       |   5/('3')       |   https://github.com/DGCDev/digitalcoin/blob/master/src/chainparams.cpp
+CCN   |      19      |       156       |  28/('C')       |   5/('3')       |   https://github.com/Cannacoin-Project/Cannacoin/blob/Proof-of-Stake/src/base58.h
+DGB   |      20      |       128       |  30/('D')       |   5/('3')       |   https://github.com/digibyte/digibyte/blob/master/src/chainparams.cpp
+OA?   |      21      |  color_any_coin | 19/('a' 168bits)|  23/('A')       |   echo '18E14A7B6A307F426A94F8114701E7C8E774E7F9A47E2C2035DB29A206321725' | bx ec-to-public -u | bx bitcoin160 => Yields  010966776006953d5567439e5e39f86a0d273bee or 16UwLL9Risc3QfPqBUvKofHmBQ7wMtjvM
+      |              |                 |                 |                 |   https://github.com/OpenAssets/open-assets-protocol/blob/master/address-format.mediawiki#example ( % echo '00010966776006953d5567439e5e39f86a0d273bee' | bx base58check-encode -v 19  =>  168 bit input Yields Open Assets Address: akB4NBW9UuCmHuepksob6yfZs6naHtRCPNy )
+      |              |                 |                 |                 |   https://github.com/OpenAssets/open-assets-protocol/blob/master/specification.mediawiki#protocol-overview ( % echo 'dup hash160 [ 010966776006953D5567439E5E39F86A0D273BEE ] equalverify checksig' | bx script-encode | bx sha256 | bx ripemd160 | bx base58check-encode -v 23  =>  Yields Open Assets ID: ALn3aK1fSuG27N96UGYB1kUYUpGKRhBuBC  )
+XPM   |      24      |       151?      |  23/('A')       |  83/('a')       |   https://github.com/primecoin/primecoin/blob/master/src/base58.h
+JBS   |      26      |       171?      |  43/('J')       | 105/('j')       |   https://github.com/jyap808/jumbucks/blob/master/src/base58.h
+VTC   |      28      |       199?      |  71/('V')       |   5/('3')       |   https://github.com/vertcoin/vertcoin/blob/master/src/base58.h
+NVC   |      50      |       136?      |   8/('4')       |  20/('9')       |   https://github.com/novacoin-project/novacoin/blob/master/src/base58.h
+DOGED |      77      |       158?      |  30?            |                 |  
 ```
 
 An empirical trend within the table above is that version/WIF values range between 128 and 255 inclusive. One notable exception discovered so far is for coin type 21, Open Assets that is a cryptocurrency agnostic token. Similarly, version/p2pkh values range between 0 and 127 inclusive. Not enough information has been collected yet to pass judgement on version/p2sh column value trends.
