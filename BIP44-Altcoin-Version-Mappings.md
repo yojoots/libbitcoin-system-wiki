@@ -47,7 +47,7 @@ NVC   |      50      |       136?      |   8/('4')       |  20/('9')       |   h
 DOGED |      77      |       158?      |  30/('D')       |  33/('E')       |   https://github.com/doged/dogedsource/blob/master/src/base58.h#L279
 ```
 
-An empirical trend within the table above is that version/WIF values range between 128 and 255 inclusive. One notable exception discovered so far is for coin type 21, Open Assets that is a cryptocurrency agnostic token. Similarly, version/p2pkh values range between 0 and 127 inclusive. Not enough information has been collected yet to pass judgement on version/p2sh column value trends.
+An empirical trend within the table above is that version/WIF values range between 128 and 255 inclusive. Similarly, version/p2pkh values range between 0 and 127 inclusive. Both the version/p2pkh and version/p2sh columns are typically for addresses 160 bits in length.  A notable exception is for the Open Assets row where the version/p2pkh address is 168 bits in length.  Both the version/p2pkh and version/p2sh columns contain information about base58check-encode starting address character for a cell version value.
 
 General bx rules for commands supporting **--version (-v)** values that are 8-bit numbers in base10/decimal format:
 
