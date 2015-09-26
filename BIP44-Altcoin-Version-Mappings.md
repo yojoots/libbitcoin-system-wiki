@@ -19,7 +19,7 @@ LTC   |       2      |       176       |  48/('L')       |   5/('3')       |   h
 DOGE  |       3      |       158       |  30/('D')       |  22/('9' | 'A') |   https://github.com/dogecoin/dogecoin/blob/master/src/chainparams.cpp#L132
 RDD   |       4      |       189       |  61/('R')       |   5/('3')       |   https://github.com/reddcoin-project/reddcoin/blob/master/src/base58.h#L275
 DASH  |       5      |       204       |  76/('X')       |  16/('7')       |   https://github.com/dashpay/dash/blob/master/src/chainparams.cpp#L168
-PPC   |       6      |       183       |  55/('P')       | 117/('p')       |   https://github.com/super3/Peercoin.net -   see NBT base58.h
+PPC   |       6      |       183       |  55/('P')       | 117/('p')       |   https://github.com/belovachap/peercoin/blob/master/src/base58.h#L267 and https://github.com/super3/Peercoin.net -   see NBT base58.h
 NMC   |       7      |       180       |  52/('M' | 'N') |  13/('6')       |   https://github.com/domob1812/namecore/blob/master/src/chainparams.cpp#L133
 FTC   |       8      |       142       |  14/('6' | '7') |   5/('3')       |   https://github.com/FeatherCoin/Feathercoin/blob/master-0.8/src/base58.h#L275
 XCP   |       9      |    color_BTC    |   0/('1')       |       ?         |   Built on BTC, https://github.com/CounterpartyXCP/counterparty-lib  http://counterparty.io/docs/create_addresses/
