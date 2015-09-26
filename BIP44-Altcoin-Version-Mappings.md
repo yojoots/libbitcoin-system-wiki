@@ -48,7 +48,7 @@ NXT   |      29      |                 |                 |                 | htt
 MUE   |      31      |                 |                 |                 | https://github.com/MonetaryUnit
 ZOOM  |      32      |                 |                 |                 | https://github.com/zoom-c/
 VPN   |      33      |       199?      |  71/('V')       |   5/('3')       |   https://github.com/Bit-Net/VpnCoin/blob/master/src/base58.h#L279
-CDN   |      34      |                 |  28/('C')       |   5/('3')       |   https://github.com/ThisIsOurCoin/canadaecoin/blob/master/src/base58.h#L275
+CDN   |      34      |       156?      |  28/('C')       |   5/('3')       |   https://github.com/ThisIsOurCoin/canadaecoin/blob/master/src/base58.h#L275
 SDC   |      35      |       191       |  63/('S')       | 125/('s')       |   https://github.com/ShadowProject/shadow/blob/master/src/chainparams.cpp#L155
 NVC   |      50      |       136?      |   8/('4')       |  20/('9')       |   https://github.com/novacoin-project/novacoin/blob/master/src/base58.h#L280
 DOGED |      77      |       158?      |  30/('D')       |  33/('E')       |   https://github.com/doged/dogedsource/blob/master/src/base58.h#L279
