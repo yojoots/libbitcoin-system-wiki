@@ -34,9 +34,7 @@ GRS   |      17      |       176       |  36?/('F')      |   5/('3')       | htt
 DGC   |      18      |       158       |  30/('D')       |   5/('3')       |   https://github.com/DGCDev/digitalcoin/blob/master/src/chainparams.cpp#L74
 CCN   |      19      |       156       |  28/('C')       |   5/('3')       |   https://github.com/Cannacoin-Project/Cannacoin/blob/Proof-of-Stake/src/base58.h#L275
 DGB   |      20      |       128       |  30/('D')       |   5/('3')       |   https://github.com/digibyte/digibyte/blob/master/src/chainparams.cpp#L73
-???   |      21      |  color_any_coin |  19/'a'(168bits)|  23/('A')       |   echo '18E14A7B6A307F426A94F8114701E7C8E774E7F9A47E2C2035DB29A206321725' | bx ec-to-public -u | bx bitcoin160 => Yields  010966776006953d5567439e5e39f86a0d273bee or 16UwLL9Risc3QfPqBUvKofHmBQ7wMtjvM
-      |              |                 |                 |                 |   https://github.com/OpenAssets/open-assets-protocol/blob/master/address-format.mediawiki#example ( % echo '00010966776006953d5567439e5e39f86a0d273bee' | bx base58check-encode -v 19  =>  168 bit input Yields Open Assets Address: akB4NBW9UuCmHuepksob6yfZs6naHtRCPNy )
-      |              |                 |                 |                 |   https://github.com/OpenAssets/open-assets-protocol/blob/master/specification.mediawiki#protocol-overview ( % echo 'dup hash160 [ 010966776006953D5567439E5E39F86A0D273BEE ] equalverify checksig' | bx script-encode | bx sha256 | bx ripemd160 | bx base58check-encode -v 23  =>  Yields Open Assets ID: ALn3aK1fSuG27N96UGYB1kUYUpGKRhBuBC  )
+???   |      21      |  color_any_coin |  19/'a'(168bits)|  23/('A')       |   See "Open Assets Test Vector Examples" below
 MONA  |      22      |       176       |  50/('M')       |   5/('3')       |   https://github.com/monacoinproject/monacoin/blob/master-0.10/src/chainparams.cpp#L159
 CLAM  |      23      |                 | 137/('x')       |   5/('3')       |   https://github.com/nochowderforyou/clams/blob/master/src/base58.h#L277
 XPM   |      24      |       151?      |  23/('A')       |  83/('a')       |   https://github.com/primecoin/primecoin/blob/master/src/base58.h#L275
@@ -355,6 +353,37 @@ The following bitcoin explorer wallet stealth commands are natural candidates to
 
 ### [bx - Transaction Commands](https://github.com/libbitcoin/libbitcoin-explorer/wiki/Transaction-Commands)
 
-The following bitcoin-explorer transaction command is a natural candidate to be extended to accommodate a **--version (-v)** value:
+The following bitcoin-explorer transaction command accommodates a **--version (-v)** value:
 
-* **[script-to-address](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-script-to-address)**  (recommend using version/p2sh column for multisig addresses)
+* **[script-to-address](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-script-to-address)**  (use version/p2sh column for multisig addresses)
+
+
+### Open Assets
+
+**7) Test Vector Examples:**
+
+**A.** [Coloring of Bitcoin](https://github.com/OpenAssets/open-assets-protocol/blob/master/specification.mediawiki#protocol-overview): **Layering**
+```
+% bx ec-to-public -u "18E14A7B6A307F426A94F8114701E7C8E774E7F9A47E2C2035DB29A206321725" | bx bitcoin160 | bx base58check-encode -v 0 
+```
+```
+0450863ad64a87ae8a2fe83c1af1a8403cb53f53e486d8511dad8a04887e5b23522cd470243453a299fa9e77237716103abc11a1df38855ed6f2ee187e9c582ba6
+010966776006953d5567439e5e39f86a0d273bee
+16UwLL9Risc3QfPqBUvKofHmBQ7wMtjvM
+``` 
+
+**B.** [Open Assets Address](https://github.com/OpenAssets/open-assets-protocol/blob/master/address-format.mediawiki#example): **version/p2pkh**
+```
+% bx base58check-encode -v 19 00010966776006953d5567439e5e39f86a0d273bee
+```
+```
+akB4NBW9UuCmHuepksob6yfZs6naHtRCPNy
+```
+
+**C.** [Open Assets ID](https://github.com/OpenAssets/open-assets-protocol/blob/master/specification.mediawiki#protocol-overview): **version/p2sh**
+```
+% bx script-to-address -v 23 "dup hash160 [ 010966776006953D5567439E5E39F86A0D273BEE ] equalverify checksig"
+```
+```
+ALn3aK1fSuG27N96UGYB1kUYUpGKRhBuBC
+```
