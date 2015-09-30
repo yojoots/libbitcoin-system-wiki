@@ -379,10 +379,24 @@ The following bitcoin-explorer transaction command accommodates a **--version (-
 ```
 akB4NBW9UuCmHuepksob6yfZs6naHtRCPNy
 ```
+Is equivalent to
+```
+% bx wrap-encode -v 19 00010966776006953d5567439e5e39f86a0d273bee | bx base58-encode
+```
+```
+akB4NBW9UuCmHuepksob6yfZs6naHtRCPNy
+```
 
 **C.** [Open Assets ID](https://github.com/OpenAssets/open-assets-protocol/blob/master/specification.mediawiki#protocol-overview): **version/p2sh**
 ```
 % bx script-to-address -v 23 "dup hash160 [ 010966776006953D5567439E5E39F86A0D273BEE ] equalverify checksig"
+```
+```
+ALn3aK1fSuG27N96UGYB1kUYUpGKRhBuBC
+```
+Is equivalent to:
+```
+% bx script-encode "dup hash160 [ 010966776006953D5567439E5E39F86A0D273BEE ] equalverify checksig" | bx bitcoin160 | bx address-encode -v 23
 ```
 ```
 ALn3aK1fSuG27N96UGYB1kUYUpGKRhBuBC
