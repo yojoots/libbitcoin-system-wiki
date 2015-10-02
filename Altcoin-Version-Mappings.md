@@ -183,7 +183,7 @@ Most encoding commands supporting **--version** are not restricted as to which c
 
 The following bitcoin-explorer encoding command **should not** be extended to accommodate a **--version (-v)** value:
 
-* **[script-encode](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-script-encode)** ( For a basis to establish a rationale, see this [example](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-script-encode#example-3-creating-multi-signature-addresses).) 
+* **[script-encode](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-script-encode)** ( For a basis to establish a rationale, see **Example 7C** below.) 
 
 
 **4) Combined BIP 32 and 44 Compliant CLI Example Set:** *Apply m/44’/5’/0’/0/0 example to create a compressed Dash private key.*
@@ -394,7 +394,7 @@ akB4NBW9UuCmHuepksob6yfZs6naHtRCPNy
 ```
 ALn3aK1fSuG27N96UGYB1kUYUpGKRhBuBC
 ```
-Is equivalent to:
+#####Is equivalent to:
 ```
 % bx script-encode "dup hash160 [ 010966776006953D5567439E5E39F86A0D273BEE ] equalverify checksig" | bx bitcoin160 | bx address-encode -v 23
 ```
