@@ -354,4 +354,4 @@ Similarly, in the proposed version mapping it is not possible for the owner to c
 ```
 ### See Also
 * Bitcoin Explorer [key encryption commands](https://github.com/libbitcoin/libbitcoin-explorer/wiki/Key-Encryption-Commands)
-* Libbitcoin [BIP44 Altcoin Version Mappings](https://github.com/libbitcoin/libbitcoin/wiki/BIP44-Altcoin-Version-Mappings)
+* Libbitcoin [Altcoin Version Mappings](https://github.com/libbitcoin/libbitcoin/wiki/Altcoin-Version-Mappings)
