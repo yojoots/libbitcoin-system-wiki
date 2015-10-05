@@ -76,6 +76,7 @@ Finally, as a countermeasure to protect the Bitcoin cryptocurrency child prodigy
 The table above is a "Rosetta Stone" for translating Bitcoin Elliptic Curve (EC) private keys and associated public addresses to those used by a number of altcoins having strong Bitcoin key/address synthesis heritage. This cryptocurrency Rosetta Stone currently provides important **--version (-v)** values for the following **bitcoin-explorer** wallet command used to be used to create addresses for altcoins:
 
 * **[ec-to-address](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-ec-to-address)**  ( use version_p2pkh column for addresses )
+* **[ec-to-wif](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-ec-to-wif)**          ( use version_WIF column for private keys )
 
 
 **1) Combined BIP 32 and 44 CLI Example Set:** *Apply M/44’/5’/0’/0/0 to create a compressed Dash public addresses for up to 4 billions addresses for safe use by an online machine!!!*
@@ -166,16 +167,10 @@ enredo ático litro ánimo grosor paella símbolo viejo aleta orgía ángulo enc
 f0e63d191d75d39b5d1d8d1ae8ff1c48e51cacffb6d3881f31715572a59f352d35fa44a7e84f9a69712b206b9e04966a5794470993516e1b363a001fc3917f69
 ```
 
-The following bitcoin explorer wallet commands are natural candidates to be extended to accommodate **--version (-v)** values:
-
-* **[ec-to-wif](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-ec-to-wif)**          ( recommend using version_WIF column for private keys )
-* **[hd-to-address](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-hd-to-address)**      ( recommend using version_p2pkh column for addresses )
-* **[hd-to-wif](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-hd-to-wif)**          ( recommend using version_WIF column for private keys )
-
 
 ### [bx - Encoding Commands](https://github.com/libbitcoin/libbitcoin-explorer/wiki/Encoding-Commands)
 
-Most encoding commands supporting **--version** are not restricted as to which columns to use since these commands can be used to develop WIF private keys, associated coin single and multisig addresses, single signature stealth addresses, and possibly multisig stealth addresses. The following bitcoin explorer "encoding commands" provide version support:
+Most encoding commands supporting **--version (-v)** are not restricted as to which columns to use since these commands can be used to develop WIF private keys, associated coin single and multisig addresses, single signature stealth addresses, and possibly multisig stealth addresses. The following bitcoin explorer "encoding commands" provide version support:
 
 * **[address-embed](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-address-embed)** ( no rules(s) yet for which version column(s) to apply )
 * **[address-encode](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-address-encode)** ( use version_p2pkh column for single signature addresses, version_p2sh column for creating multisig addresses, single signature stealth addresses???, multisig stealth addresses??? )
@@ -215,7 +210,7 @@ XGobHujzvnXWdnteE2aZU8TH2EEgbWkXr9iFQuU9QL1mpU21brja
 
 ### [bx - Key Encryption Commands] (https://github.com/libbitcoin/libbitcoin-explorer/wiki/Key-Encryption-Commands)
 
-The table above also complements [Altchain Encrypted Private Keys](https://github.com/libbitcoin/libbitcoin/wiki/Altchain-Encrypted-Private-Keys#sample-map) by supporting the following **bitcoin-explorer** "encrypted key" commands to extend **alpha BIP 38 functionality** to altcoins:
+The table above also complements [Altchain Encrypted Private Keys](https://github.com/libbitcoin/libbitcoin/wiki/Altchain-Encrypted-Private-Keys#sample-map) by supporting the following **bitcoin-explorer** "encrypted key" commands to **extend BIP 38 functionality** to altcoins:
 
 * **[ec-to-ek](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-ec-to-ek)** ( use version_WIF column for private keys )
 * **[ek-address](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-ek-address)**  ( use version_p2pkh column for addresses )
@@ -344,11 +339,10 @@ Printing your own BIP 38 paper wallets with a trusted computer printer can engen
 
 ### [bx - Stealth Commands](https://github.com/libbitcoin/libbitcoin-explorer/wiki/Stealth-Commands)
 
-The application **--version (-v)** values to **Stealth Commands** for altcoins is a work in progress...
+The following bitcoin-explorer "stealth command" provides a **--version (-v)** value interface for altcoin support:
 
-The following bitcoin explorer wallet stealth commands are natural candidates to be extended to accommodate **--version (-v)** values:
+* **[stealth-encode](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-stealth-encode)** ( use version_p2pkh column )
 
-* **[stealth-encode](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-stealth-encode)** ( recommend using version_p2pkh column )
 * *other stealth commands are under investigation*
 
 
