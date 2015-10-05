@@ -91,7 +91,7 @@ Xb9HJy46M9u3SLAWVitS4eV6gEMuVFfZX2
 
 **B.** Is an equivalent M/44’/5’/0’/0 extended public key approach that protects the confidentiality of the master seed. The extended public key that is part of the echo command below must be created on an offline computer. However, don't be afraid to apply the extended public key command sequence approach below to online computers. However, for privacy reasons, don't share extended keys beginning with xpub for Bitcoin or tpub for Testnet. 
 ```
-% echo 'tpubDEsWcNHY2m2zfKS1FieKboAswCy5iikUDjrUEtP5ayZmcMYGPempZH36nn9MTMpRqcXowhdDTGwsPu5pcGJ95g6kVKTN7ynmc5pKjjURSqz' | bx hd-public  -i 0 | bx hd-to-ec | bx ec-to-address -v 76
+% echo 'xpub6EVt68TrKV5YPXF9oXfEPsqWc5sRjLFQg7GAtLKwF4oss4sZKRvjQqNGYk4ZvrsC3hzuL87LvB7phibDDQSuCEeTRii4ST8Y28DuyfoFxJB' | bx hd-public  -i 0 | bx hd-to-ec | bx ec-to-address -v 76
 ```
 ```
 Xb9HJy46M9u3SLAWVitS4eV6gEMuVFfZX2
@@ -99,12 +99,12 @@ Xb9HJy46M9u3SLAWVitS4eV6gEMuVFfZX2
 
 If crypto-currencies become more widely adopted, the approach above could severely diminish the need for eCommerce PCI-DSS compliance. This is a feature of permission-less blockchain technology! Permission-less blockchains don't require identity information to be utilized. This means permission-less cryptocurrency networks will naturally protect consumers from transaction payment identity theft for eCommerce transactions using a cryptocurrency transaction as payment/settlement. However, eCommerce servers accepting cryptographic currency payments utilizing such extended public keys must still protect the integrity of such extended public keys.  Otherwise, an eCommerce merchant risks customer payments being stolen or burned.
 
-It is also worth noting that a number of altcoins have already defined their own unique extended key prefixes, e.g., Dash (xprv/xpub), forked LTC (Ltpv/Ltub) and DOGE (dgpv/dgub) implementations. However, the application of wrong prefixes won't interfere with the synthesis of proper types of EC private/public keys or addresses as long as "--version (-v)" values are applied correctly. The prefix tpub above resulted from compiling bx with the "--enable-testnet" flag. Not compiling bx with this flag will results in a similar extended public key starting with xpub. 
+It is also worth noting that a number of altcoins have already defined their own unique extended key prefixes, e.g., Dash (xprv/xpub), forked LTC (Ltpv/Ltub) and DOGE (dgpv/dgub) implementations. However, the application of wrong prefixes won't interfere with the synthesis of proper types of EC private/public keys or addresses as long as "--version (-v)" values are applied correctly.
 
 
 **C.** Demonstrates the generation of the next eCommerce Dash payment address (i.e., M/44’/5’/0’/0/1) to be applied by shopping cart checkout or point of sale (PoS) mechanisms, from the very same public extended key above (i.e., M/44’/5’/0’/0).
 ```
-% echo 'tpubDEsWcNHY2m2zfKS1FieKboAswCy5iikUDjrUEtP5ayZmcMYGPempZH36nn9MTMpRqcXowhdDTGwsPu5pcGJ95g6kVKTN7ynmc5pKjjURSqz' | bx hd-public  -i 1 | bx hd-to-ec | bx ec-to-address -v 76
+% echo 'xpub6EVt68TrKV5YPXF9oXfEPsqWc5sRjLFQg7GAtLKwF4oss4sZKRvjQqNGYk4ZvrsC3hzuL87LvB7phibDDQSuCEeTRii4ST8Y28DuyfoFxJB' | bx hd-public  -i 1 | bx hd-to-ec | bx ec-to-address -v 76
 ```
 ```
 XpTtgbcURSBfcuo8FZsNFeGrsCSi3jarAi
@@ -192,9 +192,9 @@ The following bitcoin-explorer encoding command **should not** be extended to ac
 XH2Yndjv6Ks3XEHGaSMDhUMTAMZTTWv5nEN958Y7VMyQXBCJVQmM
 ```
 
-**B.** This m/44’/5’/0’/0 extended private key synthesis approach, derived from the same cryptographically weak brain wallet, also protects the confidentiality of the master seed.  However, extreme care must still be exercised to protect the confidentiality of extended private keys starting with xprv or tprv. A compromise of the confidentiality of m/44’/5’/0’/0 for this Dash example will likely compromise the funds for up ~4 billion synthesized addresses. (The prefix tprv below resulted below from compiling bx with the "--enable-testnet" flag. Not compiling bx with with this flag results in a similar extended private key starting with xprv.)
+**B.** This m/44’/5’/0’/0 extended private key synthesis approach, derived from the same cryptographically weak brain wallet, also protects the confidentiality of the master seed.  However, extreme care must still be exercised to protect the confidentiality of extended private keys starting with xprv or tprv. A compromise of the confidentiality of m/44’/5’/0’/0 for this Dash example will likely compromise the funds for up ~4 billion synthesized addresses.
 ```
-% echo  'tprv8iBUTxFHtPMKmrQDN4yjCPWmNBT9ZPZZeSFgxNLnAhmNmsHVmFxENnREcdEQXLVUoE3invSjhTjDsHfCrVtijVvVYbj6XWfH6DmQnXQvQoZ' | bx hd-private -i 0 | bx hd-to-ec | sed 's/$/01/' | bx base58check-encode -v 204
+% echo  'xprvA1WXgcvxV7XFB3AghW8E2jtn442wKsXZJtLa5wvKgjGtzGYQmtcUs33nhT4kWy7ARnWwnppyY79RQS7TjHYmvSeu1xWns9wEB81zLq34MjQ' | bx hd-private -i 0 | bx hd-to-ec | sed 's/$/01/' | bx base58check-encode -v 204
 ```
 ```
 XH2Yndjv6Ks3XEHGaSMDhUMTAMZTTWv5nEN958Y7VMyQXBCJVQmM
@@ -202,7 +202,7 @@ XH2Yndjv6Ks3XEHGaSMDhUMTAMZTTWv5nEN958Y7VMyQXBCJVQmM
 
 **C.** Uses the same m/44’/5’/0’/0 extended private key that protects the confidentiality of the master seed to create m/44’/5’/0’/0/1.
 ```
-% echo 'tprv8iBUTxFHtPMKmrQDN4yjCPWmNBT9ZPZZeSFgxNLnAhmNmsHVmFxENnREcdEQXLVUoE3invSjhTjDsHfCrVtijVvVYbj6XWfH6DmQnXQvQoZ' | bx hd-private -i 1 | bx hd-to-ec | sed 's/$/01/' | bx base58check-encode -v 204
+% echo 'xprvA1WXgcvxV7XFB3AghW8E2jtn442wKsXZJtLa5wvKgjGtzGYQmtcUs33nhT4kWy7ARnWwnppyY79RQS7TjHYmvSeu1xWns9wEB81zLq34MjQ' | bx hd-private -i 1 | bx hd-to-ec | sed 's/$/01/' | bx base58check-encode -v 204
 ```
 ```
 XGobHujzvnXWdnteE2aZU8TH2EEgbWkXr9iFQuU9QL1mpU21brja
