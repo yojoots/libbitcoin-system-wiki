@@ -4,7 +4,7 @@
 
 The libbitcoin team has a comprehensive understanding of this table's version values for the first row, Bitcoin (**BTC**), and has recently updated the bx CLI to support 100+ other altcoins. This awareness might create a common client-side code base, a merge, fostering convergence of existing Bitcoin altcoin code forks. However, such decisions will be at the discretion of altcoin main branch developers. Substantial server-side **bitcoin-server (bs)** node convergence opportunities will also emerge when libbitcoin supports *pluggable consensus modules*, but this Wiki article only mentions this concept for a later article.
 
-The table below is a work-in-progress, but when completed will become an exemplar, providing important **"--version (-v)"** values.  The utility of these values is demonstrated by example sets #1, #4, #5, and #6 below for the **Dash** altcoin (row entry 6, or coin type 5) to demonstrate how BIPs 32, 38, 39 and 44 can be tightly integrated with minor extensions to coherently support altcoins using a unified codebase. It is very important for wallet developers to understand the concepts being espoused here to minimize wallet complexity while supporting multiple currencies simultaneously using a common BIP 32 hierarchical deterministic (HD) framework. 
+The table below is a work-in-progress, but when completed will become an exemplar, providing important **"--version (-v)"** values.  The utility of these values is demonstrated by example sets #1, #4, #5, and #6 below for the **DASH** altcoin (row entry 6, or coin type 5) to demonstrate how BIPs 32, 38, 39 and 44 can be tightly integrated with minor extensions to coherently support altcoins using a unified codebase. It is very important for wallet developers to understand the concepts being espoused here to minimize wallet complexity while supporting multiple currencies simultaneously using a common BIP 32 hierarchical deterministic (HD) framework. 
 
 The accuracy of portions of this table are not absolute (currently ~90% accuracy, with strong source code URL trace-ability to the right) until vetted by others, but the pattern for its application to altcoins is well understood. The table below extends and complements [SLIP 44] (http://doc.satoshilabs.com/slips/slip-0044.html) referenced within [BIP44] (https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki#registered-coin-types). The table below also complements the [List of Address Prefixes](https://en.bitcoin.it/wiki/List_of_address_prefixes) top Table's "Hex" column for row entries containing two hex digits.  
 
@@ -71,6 +71,22 @@ Finally, as a countermeasure to protect the Bitcoin cryptocurrency child prodigy
 
 *It might be a bit much to digest at this point, but there are technically three additional columns required which are: testnet version_WIF, testnet version_p2pkh, and testnet version_p2sh. (Albeit, having a testnet for a Testnet might seem redundant...)  Further investigations are to determine if additional table columns are required to adequately support stealth addresses or if existing columns should be reused.*
 
+### bx - Settings
+
+The repeatable examples (1 through 6) provided below for DASH in this Wiki article were chosen to function with the etc/libbitcoin/bx.cfg file settings bundled with the bx package, which is configured for Bitcoin (BTC). The environmental variable BX_CONFIG is frequently used to set the path of where a customized configuration file such as bx.cfg is saved that will override compiled bx defaults. Explicitly setting bx CLI **--version (-v)** values will override settings provided by a bx configuration file, e.g., bx.cfg. 
+
+The intent here is to briefly touch upon six important [wallet] configuration settings that influence altcoin client-side behaviors. For DASH, there is strong URL source code traceability for five of the six bullet settings below. Currently, believe most alcoins with Bitcoin heritage are using transaction messaging format version 1.
+
+* wif_version = [204](https://github.com/dashpay/dash/blob/master/src/chainparams.cpp#L170)
+* pay_to_public_key_hash_version = [76](https://github.com/dashpay/dash/blob/master/src/chainparams.cpp#L168)
+* pay_to_script_hash_version = [16](https://github.com/dashpay/dash/blob/master/src/chainparams.cpp#L169)
+* hd_private_version = [50221772](https://github.com/dashpay/dash/blob/master/src/chainparams.cpp#L172)
+* hd_public_version = [50221816](https://github.com/dashpay/dash/blob/master/src/chainparams.cpp#L171)
+* transaction_version = 1
+
+The DASH source code EXT_SECRET_KEY variable is a base16 encoded prefix of 50221772 in base10, which causes DASH extended private keys to always start with "drkp". The DASH source code EXT_PUBLIC_KEY variable is a base16 encoded prefix of 50221816 in base10, which causes DASH extended private keys to always start with "drkv". Most altcoins haven't yet customized such BIP 32 extended key prefix settings, and using prefixes for BTC and TEST don't really influence the net key synthesis results for altcoins. Hence, the examples for synthesizing DASH private keys and public addresses below will not utilize setting values 50221772 and 50221816.  
+ 
+
 ### [bx - Wallet Commands](https://github.com/libbitcoin/libbitcoin-explorer/wiki/Wallet-Commands)
 
 The table above is a "Rosetta Stone" for translating Bitcoin EC private keys and associated public keys and addresses to those used by a number of altcoins having strong Bitcoin key/address synthesis heritage. This cryptocurrency Rosetta Stone currently provides important **--version (-v)** values for the following **bitcoin-explorer** wallet commands:
@@ -79,7 +95,7 @@ The table above is a "Rosetta Stone" for translating Bitcoin EC private keys and
 * **[ec-to-wif](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-ec-to-wif)**          ( use version_WIF column for private keys )
 
 
-**1) Combined BIP 32 and 44 CLI Example Set:** *Apply M/44’/5’/0’/0/0 to create a compressed Dash public addresses for up to 4 billions addresses for safe use by an online machine!!!*
+**1) Combined BIP 32 and 44 CLI Example Set:** *Apply M/44’/5’/0’/0/0 to create a compressed DASH public addresses for up to 4 billions addresses for safe use by an online machine!!!*
 
 **A.** Be very afraid to use the weak brain wallet driven command sequence below on a computer that is online! Even with a very high entropy brain wallet, the approach below will will certainly be hacked unless you are a "cross domain solution" expert or apply multi-signature technology as risk mitigation. However, this brain wallet example is provided to enhance the understanding and repeatability of examples 1B and 1C below.
 ```
@@ -99,9 +115,9 @@ Xb9HJy46M9u3SLAWVitS4eV6gEMuVFfZX2
 
 If crypto-currencies become more widely adopted, the approach above will severely reduce the need for onerous eCommerce PCI-DSS compliance that is contractually required by credit card payment networks. This is a feature of permission-less blockchain technology! Permission-less blockchains don't require identity information to be utilized. This means permission-less cryptocurrency networks will naturally protect consumers from transaction payment identity theft for eCommerce transactions using a cryptocurrency transaction as payment/settlement. However, eCommerce servers accepting cryptographic currency payments utilizing such extended public keys must still protect the integrity of such extended public keys.  Otherwise, eCommerce merchants risks customer payments being stolen or burned. *Burned addresses* are ones for which the associated EC private keys are not known. 
 
-It is also worth noting that a number of altcoins have already defined their own unique extended key prefixes, e.g., Dash (drkp/drkv), forked LTC (Ltpv/Ltub) and DOGE (dgpv/dgub) implementations. However, the application of wrong altcoin extended key prefixes won't interfere with the synthesis of proper types of EC private/public keys or addresses as long as "--version (-v)" values are applied correctly.
+It is also worth noting that a number of altcoins have already defined their own unique extended key prefixes, e.g., DASH (drkp/drkv), forked LTC (Ltpv/Ltub) and DOGE (dgpv/dgub) implementations. However, the application of wrong altcoin extended key prefixes won't interfere with the synthesis of proper types of EC private/public keys or addresses as long as "--version (-v)" values are applied correctly.
 
-**C.** Demonstrates the generation of the next eCommerce Dash payment address (i.e., M/44’/5’/0’/0/1) to be applied by shopping cart checkout or point of sale (PoS) mechanisms, from the very same public extended key above (i.e., M/44’/5’/0’/0).
+**C.** Demonstrates the generation of the next eCommerce DASH payment address (i.e., M/44’/5’/0’/0/1) to be applied by shopping cart checkout or point of sale (PoS) mechanisms, from the very same public extended key above (i.e., M/44’/5’/0’/0).
 ```
 % echo 'xpub6EVt68TrKV5YPXF9oXfEPsqWc5sRjLFQg7GAtLKwF4oss4sZKRvjQqNGYk4ZvrsC3hzuL87LvB7phibDDQSuCEeTRii4ST8Y28DuyfoFxJB' | bx hd-public  -i 1 | bx hd-to-ec | bx ec-to-address -v 76
 ```
@@ -181,7 +197,7 @@ The following bitcoin-explorer encoding command **should not** be extended to ac
 * **[script-encode](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-script-encode)** ( For a basis to establish a rationale, see Example 7C [Is equivalent to](https://github.com/libbitcoin/libbitcoin/wiki/Altcoin-Version-Mappings#is-equivalent-to) below.) 
 
 
-**4) Combined BIP 32 and 44 Compliant CLI Example Set:** *Apply m/44’/5’/0’/0/0 example to create a compressed Dash private key.*
+**4) Combined BIP 32 and 44 Compliant CLI Example Set:** *Apply m/44’/5’/0’/0/0 example to create a compressed DASH private key.*
 
 **A.** Synthesized compressed EC private key below is derived from a very weak cryptographical brain wallet. Note that this affords absolutely no protection of the master seed that feeds the hd-new.  The piped "sed 's/$/01/'" command below appends the private key with "01" to signal downstream public key software to create companion compressed EC public keys in a compressed format. Without this extra suffix, the EC public key will be in the uncompressed format that requires twice the memory of compressed keys. 
 ```
@@ -191,7 +207,7 @@ The following bitcoin-explorer encoding command **should not** be extended to ac
 XH2Yndjv6Ks3XEHGaSMDhUMTAMZTTWv5nEN958Y7VMyQXBCJVQmM
 ```
 
-**B.** This m/44’/5’/0’/0 extended private key synthesis approach, derived from the same cryptographically weak brain wallet, also protects the confidentiality of the master seed.  However, extreme care must be exercised to protect the confidentiality of extended private keys starting with xprv for BTC or tprv for TEST. A compromise of the confidentiality of m/44’/5’/0’/0 for this Dash example will likely compromise the funds for up ~4 billion synthesized addresses.
+**B.** This m/44’/5’/0’/0 extended private key synthesis approach, derived from the same cryptographically weak brain wallet, also protects the confidentiality of the master seed.  However, extreme care must be exercised to protect the confidentiality of extended private keys starting with xprv for BTC or tprv for TEST. A compromise of the confidentiality of m/44’/5’/0’/0 for this DASH example will likely compromise the funds for up ~4 billion synthesized addresses.
 ```
 % echo  'xprvA1WXgcvxV7XFB3AghW8E2jtn442wKsXZJtLa5wvKgjGtzGYQmtcUs33nhT4kWy7ARnWwnppyY79RQS7TjHYmvSeu1xWns9wEB81zLq34MjQ' | bx hd-private -i 0 | bx hd-to-ec | sed 's/$/01/' | bx base58check-encode -v 204
 ```
@@ -217,16 +233,16 @@ The table above also complements [Altchain Encrypted Private Keys](https://githu
 * **[ek-public](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-ek-public)**  ( use version_p2pkh column for addresses )
 
 
-**5) Extended AES256Encrypt and AES256Decrypt BIP 38 CLI Example Set:** *For a Dash base16-encoded 256-bit secret elliptic curve key.*
+**5) Extended AES256Encrypt and AES256Decrypt BIP 38 CLI Example Set:** *For a DASH base16-encoded 256-bit secret elliptic curve key.*
 
-**A.** Extended BIP 38 (256 bit AES) encryption for Dash of a base16 encoded EC private key.
+**A.** Extended BIP 38 (256 bit AES) encryption for DASH of a base16 encoded EC private key.
 ```
 % bx ec-to-ek -v 204 'Hello it is me' f9a8f6d4a24b99d4944ee3db83c85383e9c13e85cb50ad60a9e1a96e02f6d269
 ```
 ```
 5XCsGSbMhW6zisvPx7LUKHPUGTi21kdSVwc6HNM1Zurg9ENPiUVtzBZDho
 ```
-**B.** Extended BIP 38 (256 bit AES) decryption of an extended Dash BIP 38 encrypted base16 encoded EC private key.
+**B.** Extended BIP 38 (256 bit AES) decryption of an extended DASH BIP 38 encrypted base16 encoded EC private key.
 ```
 % bx ek-to-ec 'Hello it is me' 5XCsGSbMhW6zisvPx7LUKHPUGTi21kdSVwc6HNM1Zurg9ENPiUVtzBZDho
 ```
@@ -235,7 +251,7 @@ f9a8f6d4a24b99d4944ee3db83c85383e9c13e85cb50ad60a9e1a96e02f6d269
 ```
 
 
-**6) Extended "EC Multiply Mode" BIP 38 CLI Example Set:** *For Dash having an initial secret of 'knock knock', seed, salt, lot number of 0, and sequence number of 0. (Please note the information below needs to be cross correlated with security [recommendations](https://github.com/libbitcoin/libbitcoin/wiki/BIP38-Security-Considerations#recommendations) to arrive at a good processes for outsourcing the minting of coins or engraving of notes by owners of Dash funds.)*
+**6) Extended "EC Multiply Mode" BIP 38 CLI Example Set:** *For DASH having an initial secret of 'knock knock', seed, salt, lot number of 0, and sequence number of 0. (Please note the information below needs to be cross correlated with security [recommendations](https://github.com/libbitcoin/libbitcoin/wiki/BIP38-Security-Considerations#recommendations) to arrive at a good processes for outsourcing the minting of coins or engraving of notes by owners of DASH funds.)*
 
 **A.** "Brain seed"
 ```
@@ -261,7 +277,7 @@ e51549349dd7b98ff30281211fe281247c32922d259fc12b0abf7b2110114d03
 passphrasedsP52SrHdFSR4Fb55dvDiXnxnuyZUFCYheSYrPVGiMUCVnEhCb4UU3Nsbs2HCg
 ``` 
 
-**D.** Is performed by the minter/engraver to know the BIP 38 encrypted private key to be publicly labelled on a Dash coin/note.
+**D.** Is performed by the minter/engraver to know the BIP 38 encrypted private key to be publicly labelled on a DASH coin/note.
 ```
 % bx ek-new -v 204 passphrasedsP52SrHdFSR4Fb55dvDiXnxnuyZUFCYheSYrPVGiMUCVnEhCb4UU3Nsbs2HCg 565bdb03ade36264adc00600952a865fc4bdc61d81be7d9be6ee0c7c06809857
 ```
@@ -269,7 +285,7 @@ passphrasedsP52SrHdFSR4Fb55dvDiXnxnuyZUFCYheSYrPVGiMUCVnEhCb4UU3Nsbs2HCg
 5XTqTrYMNKoHHcfqafEX5nFZTLnNwXF5Zf6fjYP8cDqNDwzPxendxaCMGw
 ``` 
 
-**CP1.** Computed EC Dash private key - comparison point #1
+**CP1.** Computed EC DASH private key - comparison point #1
 ```
 % bx ek-to-ec 'knock knock' 5XTqTrYMNKoHHcfqafEX5nFZTLnNwXF5Zf6fjYP8cDqNDwzPxendxaCMGw
 ```
@@ -277,7 +293,7 @@ passphrasedsP52SrHdFSR4Fb55dvDiXnxnuyZUFCYheSYrPVGiMUCVnEhCb4UU3Nsbs2HCg
 cb77527dfc18a491e79fa34de3b8ce0b3e1f2ce8db2e1fcd69139010505adb23
 ```
 
-**CP2.** Traditional computation of an EC Dash public key - comparison point #2
+**CP2.** Traditional computation of an EC DASH public key - comparison point #2
 ```
 % echo 'cb77527dfc18a491e79fa34de3b8ce0b3e1f2ce8db2e1fcd69139010505adb23' | bx ec-to-public
 ```
@@ -285,7 +301,7 @@ cb77527dfc18a491e79fa34de3b8ce0b3e1f2ce8db2e1fcd69139010505adb23
 035d37339d296b1a7ea8c7f04cf33eb0e8fd547df58d60259c9e4d9404795cd7f1
 ```
 
-**CP3.** Traditional computation of the associated Dash address - comparison point #3
+**CP3.** Traditional computation of the associated DASH address - comparison point #3
 ```
 % echo 'cb77527dfc18a491e79fa34de3b8ce0b3e1f2ce8db2e1fcd69139010505adb23' | bx ec-to-public  | bx ec-to-address -v 76
 ```
@@ -317,7 +333,7 @@ cfrm3CdFNyDReVUXn2weQYL4Q3sGsRyFYSNBbrK5qfpFyCXCNKPPJicRxuxmLiN3ZtjVafCLZuc
 Xc3cYycMHt9vtBjMcUJshBH34QqfZnbEyu
 ```
 
-**G.** Is performed by a coin/note owner to double authenticate the Dash coin address where funds are to be deposited. There could be a typo mistake, cut-and-paste mistake, or a man-in-the-middle attack (e.g., from utilizing an untrusted communication channel between the minter/engraver and coin/note owner)  compromising the integrity of the confirmation code resulting in a bad address created by step 6F. If results match, a deposit is not likely to be lost or burned. Observe the result below matches CP3
+**G.** Is performed by a coin/note owner to double authenticate the DASH coin address where funds are to be deposited. There could be a typo mistake, cut-and-paste mistake, or a man-in-the-middle attack (e.g., from utilizing an untrusted communication channel between the minter/engraver and coin/note owner)  compromising the integrity of the confirmation code resulting in a bad address created by step 6F. If results match, a deposit is not likely to be lost or burned. Observe the result below matches CP3
 ```
 % bx ek-address -v 76 passphrasedsP52SrHdFSR4Fb55dvDiXnxnuyZUFCYheSYrPVGiMUCVnEhCb4UU3Nsbs2HCg 565bdb03ade36264adc00600952a865fc4bdc61d81be7d9be6ee0c7c06809857
 ```
