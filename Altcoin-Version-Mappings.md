@@ -73,9 +73,9 @@ Finally, as a countermeasure to protect the Bitcoin cryptocurrency child prodigy
 
 ### bx - Settings
 
-The repeatable examples (1 through 6) provided below for DASH in this Wiki article were chosen to function with the etc/libbitcoin/bx.cfg file settings bundled with the bx package, which is configured for Bitcoin (BTC). The environmental variable BX_CONFIG is frequently used to set the path of where a customized configuration file such as bx.cfg is saved that will override compiled bx defaults. Explicitly setting bx CLI **--version (-v)** values will override settings provided by a bx configuration file, e.g., bx.cfg. 
+The examples (i.e., 1 through 6) provided below for DASH in this Wiki article were chosen to function with the bitcoin-explorer etc/libbitcoin/bx.cfg file settings bundled with the bx package. This package bundled configuration file is tailored for Bitcoin (BTC). The environmental variable BX_CONFIG is frequently used to set the path of where a customized configuration file, such as bx.cfg, is saved that will override compiled bx defaults. Explicitly setting bx CLI **--version (-v)** values will override settings provided by a bx configuration file, e.g., bx.cfg. 
 
-The intent here is to briefly touch upon six important [wallet] configuration settings that influence altcoin client-side behaviors. For DASH, there is strong URL source code traceability for five of the six bullet settings below. Currently, believe most alcoins with Bitcoin heritage are using transaction messaging format version 1.
+The intent here is to briefly touch upon six important [wallet](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-settings) configuration settings that influence altcoin client-side behaviors. To tailor the bx configuration file for DASH, the six bullet settings below are provided. Strong source code traceability back to DASH code base is provided below as hyperlinks.
 
 * wif_version = [204](https://github.com/dashpay/dash/blob/master/src/chainparams.cpp#L170)
 * pay_to_public_key_hash_version = [76](https://github.com/dashpay/dash/blob/master/src/chainparams.cpp#L168)
@@ -84,8 +84,7 @@ The intent here is to briefly touch upon six important [wallet] configuration se
 * hd_public_version = [50221816](https://github.com/dashpay/dash/blob/master/src/chainparams.cpp#L171)
 * transaction_version = 1
 
-The DASH source code EXT_SECRET_KEY variable is a base16 encoded prefix of 50221772 in base10, which causes DASH extended private keys to always start with "drkp". The DASH source code EXT_PUBLIC_KEY variable is a base16 encoded prefix of 50221816 in base10, which causes DASH extended private keys to always start with "drkv". Most altcoins haven't yet customized such BIP 32 extended key prefix settings, and using prefixes for BTC and TEST don't really influence the net key synthesis results for altcoins. Hence, the examples for synthesizing DASH private keys and public addresses below will not utilize setting values 50221772 and 50221816.  
- 
+The EXT_SECRET_KEY DASH source code variable is base16 encoded 0x02FE52CC (or 50221772 in base10), and this numerical prefix causes DASH extended private keys to always start with "drkp". The EXT_PUBLIC_KEY DASH source code variable is base16 encoded 0x02FE52F8 (or 50221816 in base10), and this numerical prefix causes DASH extended private keys to always start with "drkv". Most altcoins haven't yet customized such BIP 32 extended key prefix settings, and using prefixes for BTC and TEST don't really influence the net key synthesis results for altcoins. Hence, the examples for synthesizing DASH private keys and public addresses below will not utilize setting values 50221772 and 50221816. Finally, most alcoins with strong Bitcoin heritage are using transaction messaging format version 1.  
 
 ### [bx - Wallet Commands](https://github.com/libbitcoin/libbitcoin-explorer/wiki/Wallet-Commands)
 
