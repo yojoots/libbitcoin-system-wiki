@@ -37,22 +37,24 @@ DGB   |     20     |        128       |  30/('D')       |   5/('3')       |   ht
 ???   |     21     |  color_any_coin  |  19/'a'(168bits)|  23/('A')       |   See "Open Assets Test Vector Examples" below
 MONA  |     22     |        176       |  50/('M')       |   5/('3')       |   https://github.com/monacoinproject/monacoin/blob/master-0.10/src/chainparams.cpp#L159
 CLAM  |     23     |        133?      | 137/('x')       |   5/('3')       |   https://github.com/nochowderforyou/clams/blob/master/src/base58.h#L277
-XPM   |     24     |        151?      |  23/('A')       |  83/('a')       |   https://github.com/primecoin/primecoin/blob/master/src/base58.h#L275
+XPM   |     24     |        151       |  23/('A')       |  83/('a')       |   https://github.com/primecoin/primecoin/blob/master/src/base58.h#L275
 NEOS  |     25     |        239       |  63/('S')       | 188/('2')       |   https://github.com/bellacoin/neoscoin/blob/master/src/chainparams.cpp#L123
-JBS   |     26     |        171?      |  43/('J')       | 105/('j')       |   https://github.com/jyap808/jumbucks/blob/master/src/base58.h#L276
+JBS   |     26     |        171       |  43/('J')       | 105/('j')       |   https://github.com/jyap808/jumbucks/blob/master/src/base58.h#L276
 ZRC   |     27     |        208       |  80/('Z')       |   5/('3')       |   https://github.com/ZiftrCOIN/ziftrcoin/blob/master/src/chainparams.cpp#L159
-VTC   |     28     |        199?      |  71/('V')       |   5/('3')       |   https://github.com/vertcoin/vertcoin/blob/master/src/base58.h#L275
+VTC   |     28     |        199       |  71/('V')       |   5/('3')       |   https://github.com/vertcoin/vertcoin/blob/master/src/base58.h#L275
 NXT   |     29     |                  |                 |                 | https://bitbucket.org/JeanLucPicard/nxt/src and unofficial at https://github.com/Blackcomb/nxt
 MUE   |     31     |                  |                 |                 | https://github.com/MonetaryUnit
 ZOOM  |     32     |                  |                 |                 | https://github.com/zoom-c/
-VPN   |     33     |        199?      |  71/('V')       |   5/('3')       |   https://github.com/Bit-Net/VpnCoin/blob/master/src/base58.h#L279
-CDN   |     34     |        156?      |  28/('C')       |   5/('3')       |   https://github.com/ThisIsOurCoin/canadaecoin/blob/master/src/base58.h#L275
+VPN   |     33     |        199       |  71/('V')       |   5/('3')       |   https://github.com/Bit-Net/VpnCoin/blob/master/src/base58.h#L279
+CDN   |     34     |        156       |  28/('C')       |   5/('3')       |   https://github.com/ThisIsOurCoin/canadaecoin/blob/master/src/base58.h#L275
 SDC   |     35     |        191       |  63/('S')       | 125/('s')       |   https://github.com/ShadowProject/shadow/blob/master/src/chainparams.cpp#L155
-PKB   |     36     |                  |  55/('P')       |  28/('C')       |   https://github.com/parkbyte/ParkByte/blob/master/src/base58.h#L278
-PND   |     37     |                  |  55/('P')       |  22/('9' | 'A') |   https://github.com/coinkeeper/2015-04-19_21-22_pandacoin/blob/master/src/base58.h#L279
-NVC   |     50     |        136?      |   8/('4')       |  20/('9')       |   https://github.com/novacoin-project/novacoin/blob/master/src/base58.h#L280
+PKB   |     36     |        183       |  55/('P')       |  28/('C')       |   https://github.com/parkbyte/ParkByte/blob/master/src/base58.h#L278
+PND   |     37     |        183       |  55/('P')       |  22/('9' | 'A') |   https://github.com/coinkeeper/2015-04-19_21-22_pandacoin/blob/master/src/base58.h#L279
+START |     38     |        253       | 125/('s')       |   5/('3')       |   https://github.com/startcoin-project/startcoin/blob/master/src/base58.h#L275
+NVC   |     50     |        136       |   8/('4')       |  20/('9')       |   https://github.com/novacoin-project/novacoin/blob/master/src/base58.h#L280
 ETH   |     60     |                  |                 |                 | https://github.com/ethereum/  and https://github.com/ethereum/cpp-ethereum/wiki
 ???   |     64     |                  |                 |                 | https://github.com/openchain/
+OK    |     69     |        183       |  55/('P')       |  28/('C')       |   https://github.com/okcashpro/okcash/blob/master/src/chainparams.cpp#L168
 DOGED |     77     |        158?      |  30/('D')       |  33/('E')       |   https://github.com/doged/dogedsource/blob/master/src/base58.h#L279
 XRP   |     NR     | 96?/'s'(116 bits)|96?/'r'(136 bits)|                 | https://github.com/stevenzeiler/ripple-wallet (OMG - Is Ripple only using 96 bit secret keys?)
 ```
