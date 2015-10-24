@@ -34,7 +34,7 @@ GRS   |     17     |        176       |  36?/('F')      |   5/('3')       | http
 DGC   |     18     |        158       |  30/('D')       |   5/('3')       |   https://github.com/DGCDev/digitalcoin/blob/master/src/chainparams.cpp#L74
 CCN   |     19     |        156       |  28/('C')       |   5/('3')       |   https://github.com/Cannacoin-Project/Cannacoin/blob/Proof-of-Stake/src/base58.h#L275
 DGB   |     20     |        128       |  30/('D')       |   5/('3')       |   https://github.com/digibyte/digibyte/blob/master/src/chainparams.cpp#L73
-???   |     21     |  color_any_coin  |  19/'a'(168bits)|  23/('A')       |   See "Open Assets Test Vector Examples" below
+???   |     21     |  color_agnostic  |  19/'a'(168bits)|  23/('A')       |   See "Open Assets Test Vector Examples" below
 MONA  |     22     |        176       |  50/('M')       |   5/('3')       |   https://github.com/monacoinproject/monacoin/blob/master-0.10/src/chainparams.cpp#L159
 CLAM  |     23     |        133       | 137/('x')       |  13/('6')       |   https://github.com/nochowderforyou/clams/blob/master/src/chainparams.cpp#L97
 XPM   |     24     |        151       |  23/('A')       |  83/('a')       |   https://github.com/primecoin/primecoin/blob/master/src/base58.h#L275
@@ -359,8 +359,6 @@ The following bitcoin-explorer "stealth command" provides a **--version (-v)** v
 
 * **[stealth-encode](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-stealth-encode)** ( use version_p2pkh column )
 
-* *other stealth commands are under investigation*
-
 
 ### [bx - Transaction Commands](https://github.com/libbitcoin/libbitcoin-explorer/wiki/Transaction-Commands)
 
@@ -395,6 +393,7 @@ Is equivalent to
 % bx wrap-encode -v 19 00010966776006953d5567439e5e39f86a0d273bee | bx base58-encode
 ```
 ```
+1300010966776006953d5567439e5e39f86a0d273bee852783aa
 akB4NBW9UuCmHuepksob6yfZs6naHtRCPNy
 ```
 
@@ -410,5 +409,7 @@ ALn3aK1fSuG27N96UGYB1kUYUpGKRhBuBC
 % bx script-encode "dup hash160 [ 010966776006953D5567439E5E39F86A0D273BEE ] equalverify checksig" | bx bitcoin160 | bx address-encode -v 23
 ```
 ```
+76a914010966776006953d5567439e5e39f86a0d273bee88ac
+36e0ea8e93eaa0285d641305f4c81e563aa570a2
 ALn3aK1fSuG27N96UGYB1kUYUpGKRhBuBC
 ```
