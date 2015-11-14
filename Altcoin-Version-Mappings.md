@@ -404,7 +404,7 @@ akB4NBW9UuCmHuepksob6yfZs6naHtRCPNy
 ```
 ALn3aK1fSuG27N96UGYB1kUYUpGKRhBuBC
 ```
-#####Is equivalent to:
+Is equivalent to:
 ```
 % bx script-encode "dup hash160 [ 010966776006953D5567439E5E39F86A0D273BEE ] equalverify checksig" | bx bitcoin160 | bx address-encode -v 23
 ```
