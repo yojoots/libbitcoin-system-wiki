@@ -1,4 +1,4 @@
-### Application of BIP [32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki), [38](https://github.com/bitcoin/bips/blob/master/bip-0038.mediawiki), [39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki), [44](https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki), and [63](http://sourceforge.net/p/bitcoin/mailman/message/31813471) to Altcoins
+### Application of BIPs [32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki), [38](https://github.com/bitcoin/bips/blob/master/bip-0038.mediawiki), [39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki), [44](https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki), and [63 *(a work-in-progress)*](https://wiki.unsystem.net/en/index.php/DarkWallet/Stealth) to Altcoins
 
 **Bitcoin-explorer's (bx)** command line interface (CLI), part of the libbitcoin tool suite, provides very substantial support for the following Bitcoin Improvement Proposals (BIP): 32, 38, 39, 44 and 63.  BIP 44 capabilities supporting alternative cryptocurrency coins (altcoins) results from how bx BIP 32 commands are piped to one another. The application of the BIP 44 related table below facilitates the extension of BIPS 32 and 38 to altcoins. Behaviors associated with using column version values from the first row of the "BIP44 Altcoin Version Mapping Table" below are integrated into bitcoin-explorer's commands as defaults. 
 
@@ -63,7 +63,7 @@ An empirical trend within the table above is that version_WIF values range betwe
 
 General bx rules for commands supporting **--version (-v)** values that are 8-bit numbers in base10/decimal format:
 
-* Commands supporting version values associated with private key functionality for desired coin types will use values from the **version_WIF** column. 
+* Commands supporting version values associated with private key functionality for desired coin types will use values from the **version_WIF** column. Notable exceptions to this rule are are for **ec-to-ek** and **ek-new**. All "ek" related bx commands use the **version_p2pkh** column.
 * Commands supporting version values associated with single signature address functionality for desired coin types will use the **version_p2pkh** column. 
 * Commands supporting version values associated with multi-signature address functionality for desired coin types will use the **version_p2sh** column. 
 
@@ -228,9 +228,9 @@ XGobHujzvnXWdnteE2aZU8TH2EEgbWkXr9iFQuU9QL1mpU21brja
 
 The table above also complements [Altchain Encrypted Private Keys](https://github.com/libbitcoin/libbitcoin/wiki/Altchain-Encrypted-Private-Keys#sample-map) by supporting the following **bitcoin-explorer** "encrypted key" commands to **extend BIP 38 functionality** to altcoins:
 
-* **[ec-to-ek](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-ec-to-ek)** ( use version_WIF column for private keys )
+* **[ec-to-ek](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-ec-to-ek)** ( use version_p2pkh column for addresses )
 * **[ek-address](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-ek-address)**  ( use version_p2pkh column for addresses )
-* **[ek-new](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-ek-new)** ( use version_WIF column for private keys )
+* **[ek-new](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-ek-new)** ( use version_p2pkh column for addresses )
 * **[ek-public](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-ek-public)**  ( use version_p2pkh column for addresses )
 
 
@@ -238,14 +238,14 @@ The table above also complements [Altchain Encrypted Private Keys](https://githu
 
 **A.** Extended BIP 38 (256 bit AES) encryption for DASH of a base16 encoded EC private key.
 ```
-% bx ec-to-ek -v 204 'Hello it is me' f9a8f6d4a24b99d4944ee3db83c85383e9c13e85cb50ad60a9e1a96e02f6d269
+% bx ec-to-ek -v 76 'Hello it is me' f9a8f6d4a24b99d4944ee3db83c85383e9c13e85cb50ad60a9e1a96e02f6d269
 ```
 ```
-5XCsGSbMhW6zisvPx7LUKHPUGTi21kdSVwc6HNM1Zurg9ENPiUVtzBZDho
+7f7QjekuNesi3dJ9gE49bQSZAgJAuHB5u3ERLHebS7CEvAY43XTfAHvNfE
 ```
 **B.** Extended BIP 38 (256 bit AES) decryption of an extended DASH BIP 38 encrypted base16 encoded EC private key.
 ```
-% bx ek-to-ec 'Hello it is me' 5XCsGSbMhW6zisvPx7LUKHPUGTi21kdSVwc6HNM1Zurg9ENPiUVtzBZDho
+% bx ek-to-ec 'Hello it is me' 7f7QjekuNesi3dJ9gE49bQSZAgJAuHB5u3ERLHebS7CEvAY43XTfAHvNfE
 ```
 ```
 f9a8f6d4a24b99d4944ee3db83c85383e9c13e85cb50ad60a9e1a96e02f6d269
@@ -280,15 +280,15 @@ passphrasedsP52SrHdFSR4Fb55dvDiXnxnuyZUFCYheSYrPVGiMUCVnEhCb4UU3Nsbs2HCg
 
 **D.** Is performed by the minter/engraver to know the BIP 38 encrypted private key to be publicly labelled on a DASH coin/note.
 ```
-% bx ek-new -v 204 passphrasedsP52SrHdFSR4Fb55dvDiXnxnuyZUFCYheSYrPVGiMUCVnEhCb4UU3Nsbs2HCg 565bdb03ade36264adc00600952a865fc4bdc61d81be7d9be6ee0c7c06809857
+% bx ek-new -v 76 passphrasedsP52SrHdFSR4Fb55dvDiXnxnuyZUFCYheSYrPVGiMUCVnEhCb4UU3Nsbs2HCg 565bdb03ade36264adc00600952a865fc4bdc61d81be7d9be6ee0c7c06809857
 ```
 ```
-5XTqTrYMNKoHHcfqafEX5nFZTLnNwXF5Zf6fjYP8cDqNDwzPxendxaCMGw
+7fNJEMECkTMvUtMZnYEmAyTiBdxvRTmNictRBvLK5vbNwbWDpJZMNSMCjH
 ``` 
 
 **CP1.** Computed EC DASH private key - comparison point #1
 ```
-% bx ek-to-ec 'knock knock' 5XTqTrYMNKoHHcfqafEX5nFZTLnNwXF5Zf6fjYP8cDqNDwzPxendxaCMGw
+% bx ek-to-ec 'knock knock' 7fNJEMECkTMvUtMZnYEmAyTiBdxvRTmNictRBvLK5vbNwbWDpJZMNSMCjH
 ```
 ```
 cb77527dfc18a491e79fa34de3b8ce0b3e1f2ce8db2e1fcd69139010505adb23
