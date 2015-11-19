@@ -52,6 +52,9 @@ PKB   |     36     |        183       |  55/('P')       |  28/('C')       |   ht
 PND   |     37     |        183       |  55/('P')       |  22/('9' | 'A') |   https://github.com/coinkeeper/2015-04-19_21-22_pandacoin/blob/master/src/base58.h#L279
 START |     38     |        253       | 125/('s')       |   5/('3')       |   https://github.com/startcoin-project/startcoin/blob/master/src/base58.h#L275
 NVC   |     50     |        136       |   8/('4')       |  20/('9')       |   https://github.com/novacoin-project/novacoin/blob/master/src/base58.h#L280
+AC    |     51     |        151       |  23/('A')       |   8/('4')       |   https://github.com/AsiaCoin/AsiaCoinFix/blob/master/src/base58.h#L279
+TPC   |     54     |        193       |  65/('T')       |   5/('3')       |   https://github.com/9cat/templecoin/blob/templecoin/src/base58.h#L275
+???   |     55     |        151       |  23/('A')       |   5/('3')       |   https://github.com/iobond/aib/blob/master/src/base58.h#L276 and from ./aib/src/wtmint.h for #define WTMINT_PUBKEY_ADDRESS 23 // Dec.
 ETH   |     60     |                  |                 |                 | https://github.com/ethereum/  and https://github.com/ethereum/cpp-ethereum/wiki
 ???   |     64     |                  |                 |                 | https://github.com/openchain/
 OK    |     69     |        183       |  55/('P')       |  28/('C')       |   https://github.com/okcashpro/okcash/blob/master/src/chainparams.cpp#L168
