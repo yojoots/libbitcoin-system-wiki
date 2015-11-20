@@ -43,8 +43,8 @@ JBS   |     26     |        171       |  43/('J')       | 105/('j')       |   ht
 ZRC   |     27     |        208       |  80/('Z')       |   5/('3')       |   https://github.com/ZiftrCOIN/ziftrcoin/blob/master/src/chainparams.cpp#L159
 VTC   |     28     |        199       |  71/('V')       |   5/('3')       |   https://github.com/vertcoin/vertcoin/blob/master/src/base58.h#L275
 NXT   |     29     |                  |                 |                 | https://bitbucket.org/JeanLucPicard/nxt/src and unofficial at https://github.com/Blackcomb/nxt
-MUE   |     31     |                  |                 |                 | https://github.com/MonetaryUnit
-ZOOM  |     32     |                  |                 |                 | https://github.com/zoom-c/
+MUE   |     31     |        143       |  15/('7')       |   9/('4' | '5 ) |   https://github.com/MonetaryUnit/MUE-Src/blob/master/src/chainparams.cpp#L221
+ZOOM  |     32     |        231       | 103/('i')       |  92/('e')       |   https://github.com/zoom-c/zoom/blob/master/src/base58.h#L275
 VPN   |     33     |        199       |  71/('V')       |   5/('3')       |   https://github.com/Bit-Net/VpnCoin/blob/master/src/base58.h#L279
 CDN   |     34     |        156       |  28/('C')       |   5/('3')       |   https://github.com/ThisIsOurCoin/canadaecoin/blob/master/src/base58.h#L275
 SDC   |     35     |        191       |  63/('S')       | 125/('s')       |   https://github.com/ShadowProject/shadow/blob/master/src/chainparams.cpp#L155
