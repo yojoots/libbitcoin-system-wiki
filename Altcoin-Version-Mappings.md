@@ -59,6 +59,7 @@ ETH   |     60     |                  |                 |                 | http
 ???   |     64     |                  |                 |                 | https://github.com/openchain/
 OK    |     69     |        183       |  55/('P')       |  28/('C')       |   https://github.com/okcashpro/okcash/blob/master/src/chainparams.cpp#L168
 DOGED |     77     |        158       |  30/('D')       |  33/('E')       |   https://github.com/doged/dogedsource/blob/master/src/base58.h#L279
+EFL   |     78     |                  |  48/('L')       |                 | https://egulden.org/
 XRP   |     NR     | 96?/'s'(116 bits)|96?/'r'(136 bits)|                 | https://github.com/stevenzeiler/ripple-wallet (OMG - Is Ripple only using 96 bit secret keys?)
 ```
 
