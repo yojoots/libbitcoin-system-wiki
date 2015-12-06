@@ -17,7 +17,7 @@ BTC   |      0     |        128       |   0/('1')       |   5/('3')       | 7606
 TEST  |      1     |        239       | 111/('m' | 'n') | 196/('2')       | 70615956/('tprv') | https://github.com/bitcoin/bitcoin/blob/master/src/chainparams.cpp#L177
 LTC   |      2     |        176       |  48/('L')       |   5/('3')       | 76066276/('xprv') | https://github.com/litecoin-project/litecoin/blob/master-0.10/src/chainparams.cpp#L164
 DOGE  |      3     |        158       |  30/('D')       |  22/('9' | 'A') | 49988504/('dgpv') |  https://github.com/dogecoin/dogecoin/blob/master/src/chainparams.cpp#L132
-RDD   |      4     |        189       |  61/('R')       |   5/('3')       |   https://github.com/reddcoin-project/reddcoin/blob/master/src/base58.h#L275
+RDD   |      4     | 189/'V'/c        |  61/('R')       |   5/('3')       | 76066276/('xprv') |   https://github.com/reddcoin-project/reddcoin/blob/master/src/base58.h#L275 & https://github.com/reddcoin-project/rddnet/blob/master/params.go#L148
 DASH  |      5     |        204       |  76/('X')       |  16/('7')       | 50221772/('drkp') | https://github.com/dashpay/dash/blob/master/src/chainparams.cpp#L168
 PPC   |      6     |        183       |  55/('P')       | 117/('p')       |   https://github.com/belovachap/peercoin/blob/master/src/base58.h#L267 and https://github.com/super3/Peercoin.net -   see NBT base58.h
 NMC   |      7     |        180       |  52/('M' | 'N') |  13/('6')       | 76066276/('xprv') |  https://github.com/domob1812/namecore/blob/master/src/chainparams.cpp#L133
