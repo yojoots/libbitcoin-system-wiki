@@ -144,7 +144,7 @@ XpTtgbcURSBfcuo8FZsNFeGrsCSi3jarAi
 ```
 **B.** 15 Spanish word BIP 39 representation of a master seed.
 ```
-% echo 'very complex gibberish' | bx base16-encode | bx sha256 | bx mnemonic-new -l es -p 0d7a259d0280785f98659ee9cb1809663cbd4672
+% echo 'very complex gibberish' | bx base16-encode | bx sha256 | bx mnemonic-new -l es 0d7a259d0280785f98659ee9cb1809663cbd4672
 ```
 ```
 anillo salón grosor afinar alacrán champú ganso pimienta todo fiel aceptar rojo rodar ombligo riñón
@@ -159,7 +159,7 @@ anillo salón grosor afinar alacrán champú ganso pimienta todo fiel aceptar ro
 ```
 **D.** 24 Spanish word BIP 39 representation of a master seed.
 ```
-echo 'very complex gibberish' | bx base16-encode | bx sha256 | bx mnemonic-new -l es -p 91d5a6684b637ded1e0d9eb7fea85a864ac3a7c44d666c3254b76108ae201550
+echo 'very complex gibberish' | bx base16-encode | bx sha256 | bx mnemonic-new -l es 91d5a6684b637ded1e0d9eb7fea85a864ac3a7c44d666c3254b76108ae201550
 ```
 ```
 moler pausa nevar música conocer veinte júpiter pimienta pollo valor átomo ancho pasar seco arbusto pata hígado monto célebre raspa matriz aprender familia apoyo
@@ -174,7 +174,7 @@ echo 'TREZOR' | bx base16-encode | bx sha512
 ```
 **F.** 48 Spanish word BIP 39 representation of a master seed.
 ```
-echo 'very complex gibberish' | bx base16-encode | bx sha256 | bx mnemonic-new -l es -p 4da2ce0586c67550f627d108d4b0352646add71253a1d647076f9ffa3b6d1379c6f6f4c8e49a185344ee272d1a66a185329686a42ef61bf08782d595fc313824
+echo 'very complex gibberish' | bx base16-encode | bx sha256 | bx mnemonic-new -l es 4da2ce0586c67550f627d108d4b0352646add71253a1d647076f9ffa3b6d1379c6f6f4c8e49a185344ee272d1a66a185329686a42ef61bf08782d595fc313824
 ```
 ```
 enredo ático litro ánimo grosor paella símbolo viejo aleta orgía ángulo encía hebra torpedo edificio invierno sermón copa sostén dedo opción pluma enseñar cordón velero orquesta coser clínica luz olfato pompa terror babor codo gancho gordo guía evitar proeza rechazo tubo cuchara pizca carta rebote nota mirar curioso
