@@ -425,7 +425,7 @@ ALn3aK1fSuG27N96UGYB1kUYUpGKRhBuBC
 
 ### Monero (XMR)
 
-**Monero Account m/44/128/0:**
+**Monero m/44'/128'/0' Account :**
 
 ```
 % echo "local chronic define mimic garlic supreme math tattoo axis race never blue wall rice boring end october limit cage unlock into image rebel unveil" | bx mnemonic-to-seed | bx hd-new | bx hd-private -d -i 44 | bx hd-private -d -i 128 |  bx hd-private -d -i 0 | bx hd-to-ec | ./xmr
