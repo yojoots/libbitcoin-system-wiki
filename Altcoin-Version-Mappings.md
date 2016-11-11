@@ -65,6 +65,8 @@ DOGED |     77     |        158       |  30/('D')       |  33/('E')       |     
 EFL   |     78     |        176       |  48/('L')       |   5/('3')       |                   | https://github.com/Electronic-Gulden-Foundation/egulden/blob/master/src/base58.h#L275
 POT   |     81     |        183       |  55/('P')       |   5/('3')       |                   | https://github.com/potcoin/Potcoin/blob/master/src/base58.h#L275
 XRP   |     NR     | 96?/'s'(116 bits)|96?/'r'(136 bits)|                 |                   | https://github.com/stevenzeiler/ripple-wallet (OMG - Is Ripple using 96 bit secret keys?)
+XMR   |    128     |        N/A       |    /('4')       |    N/A          |  ???              |
+ZEC   |    133     |        128       |  28/('t')       |                 |                   |
 ```
 
 An empirical trend within the table above is that version_WIF values range between 128 and 255 inclusive. Similarly, version_p2pkh values range between 0 and 127 inclusive. A noticeable  exception is for CLAM. Both the version_p2pkh and version_p2sh columns are typically for addresses 160 bits in length.  Notable exceptions are annotated for the Open Assets row where the version_p2pkh address is 168 bits in length, and Ripple (XRP) having 136 bits.  Both the version_p2pkh and version_p2sh columns also contain information about base58check-encode starting address characters for a cell's version value.  As long as the addresses are precisely 160 bits in length, such values also align with the lower table from the [List of Address Prefixes](https://en.bitcoin.it/wiki/List_of_address_prefixes).
@@ -420,3 +422,38 @@ Is equivalent to:
 36e0ea8e93eaa0285d641305f4c81e563aa570a2
 ALn3aK1fSuG27N96UGYB1kUYUpGKRhBuBC
 ```
+
+### Monero (XMR)
+
+**Monero Account m/44/128/0:**
+
+```
+% echo "local chronic define mimic garlic supreme math tattoo axis race never blue wall rice boring end october limit cage unlock into image rebel unveil" | bx mnemonic-to-seed | bx hd-new | bx hd-private -d -i 44 | bx hd-private -d -i 128 |  bx hd-private -d -i 0 | bx hd-to-ec | ./xmr
+```
+    Seed                 : 53726c399e4fcd965975a39d970602b95702011280a7374a48a2259758bbb307
+    Private Spend Key    : 53726c399e4fcd965975a39d970602b95702011280a7374a48a2259758bbb307
+    Private View Key     : 178f8780a124cf3af36e5d7b7f93384ef90e13861c53c7a6f32115cac9919e0e
+    Public Spend Key     : 4287647d0b9a7d1cd0112a3c2a2c9569fe691da7971a99ad32b1ca4427751738
+    Public View Key      : 51eed220ccd6b4d4f7a4cfb538ab8ad909dc75cefd39f5cedccba7810dd98a06
+    Monero Address       : 449LPRRQBm65pX9tQ3VHtgJjGorp8e2RnVyEny9xmA5UARNkdQ5E4cscd3uiEm2YkhdJYe8Q8a2aYbbprzmbBQ2d1nD1hAH
+    Electrum Seed Words  : buying maze sarcasm ringing pledge enhanced liar stunning itches lettuce licks double fudge napkin oven twice terminal bygones northern repent foes rudely ongoing pastry licks
+
+
+### Zcash (ZEC)
+
+**Zcash WIF m/44'/133'/0'/0/0 Private Key:** 
+```
+% echo "local chronic define mimic garlic supreme math tattoo axis race never blue wall rice boring end october limit cage unlock into image rebel unveil" | bx mnemonic-to-seed | bx hd-new | bx hd-private -d -i 44 | bx hd-private -d -i 133 | bx hd-private -d -i 0 | bx hd-private -i 0 | bx hd-private -i 0 | bx hd-to-ec | sed 's/$/01/' | bx base58check-encode -v 128
+```
+```
+Kz3bM3N8SVMZ6o4vSziTk6yMS8v7u7t27huWZ9VgA3NxZ27rz9VJ
+```
+
+**Zcash M/44'/133'/0'/0/0 Public Address:**
+```
+% echo "local chronic define mimic garlic supreme math tattoo axis race never blue wall rice boring end october limit cage unlock into image rebel unveil" | bx mnemonic-to-seed | bx hd-new | bx hd-private -d -i 44 | bx hd-private -d -i 133 | bx hd-private -d -i 0 | bx hd-public -i 0 | bx hd-public -i 0 | bx hd-to-ec | bx sha256 | bx  ripemd160 | sed 's/^/b8/' | bx base58check-encode -v 28
+```
+```
+t1PEiVWP4CSXEnwcBLk9ixzFc4GiB4actTG
+```
+
