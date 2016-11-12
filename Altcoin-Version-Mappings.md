@@ -376,9 +376,9 @@ The following bitcoin-explorer transaction command accommodates a **--version (-
 * **[script-to-address](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-script-to-address)**  (use version_p2sh column for multisig addresses)
 
 
-### Open Assets
+### 7) Open Assets
 
-**7) Test Vector Examples:**
+**Test Vector Examples:**
 
 **A.** [Coloring of Bitcoin](https://github.com/OpenAssets/open-assets-protocol/blob/master/specification.mediawiki#protocol-overview): **Layering**
 ```
