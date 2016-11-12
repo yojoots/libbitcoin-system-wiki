@@ -456,6 +456,13 @@ t1Zv78LE5HMXGCH1MfBcBzywHdAfosDv6tE
 % echo "radar blur cabbage chef fix engine embark joy scheme fiction master release" | bx mnemonic-to-seed | bx hd-new -v 76066276 | bx hd-private -d -i 44 | bx hd-private -d -i 60 | bx hd-private -d -i 0 | bx hd-private -i 0 | bx hd-private -i 0 | bx hd-to-ec
 ```
 ```
+ed37b3442b3d550d0fbb6f01f20aac041c245d4911e13452cac7b1676a070eda66771b71c0083b34cc57ca9c327c459a0ec3600dbaf7f238ff27626c8430a806
+xprv9s21ZrQH143K2weTjKTSMXUM1qmfYo2iDQGPrzsbirKyf9Qn325C8DtapD8dwUL2PU8ciZ9hYVSL4Q9VkygWBosS8FMuX65QqxZQmBDYSEq
+xprv9vTgjZ7XMB6PSvXz5HeF2xw7GgqpjmTgy76jrNkUkZFfWzKAD1GMyxoMhJCKgCH3WKw3yhXSBuP4Gxmwp5V4ZQVv1wSV7ARQPacbLkwNdBp
+xprv9w29xFAdfTWFMXugTrP7x1X8c75gYKZFUEhGFqhbGxAwpJnWSo1QZUWPgr2XRKsdsdFPiKKaixbj1gZ2r63NS4EKUkjfii41gWKC5VU8gsh
+xprv9zWvV2FbEX7VzS96sZG1dZ7MY2j4iFDB62kfuwU95q22omhL7EpQGutw9GyRa9tic3uRnCVZXMLApeDrKb9qJrrUKZzG5dDX29BZwLaTmGZ
+xprvA1Qqm9XD31nDSB9iYUf4YN6Ycg2Yxey9ecZeDt4rsqUfTqjSoxsW65Ds49xftNDuxDaGUwk9ZtL3sUYeRCEHLjuU95shHpmLwbwM1nVxbXf
+xprvA2xEQ2iTe9QB22rvf5cbfpUxEBmMdvc7stEFxLhiMXmdLrwLbqugPCHRZiRfEq2puC5vTgwyFneV38hppF8oTf9aoaUv7M8u2XvnACTe6r4
 b96e9ccb774cc33213cbcb2c69d3cdae17b0fe4888a1ccd343cbd1a17fd98b18
 ```
 
@@ -464,6 +471,17 @@ b96e9ccb774cc33213cbcb2c69d3cdae17b0fe4888a1ccd343cbd1a17fd98b18
 % echo "radar blur cabbage chef fix engine embark joy scheme fiction master release" | bx mnemonic-to-seed | bx hd-new -v 76066276 | bx hd-private -d -i 44 | bx hd-private -d -i 60 | bx hd-private -d -i 0 | bx hd-private -i 0 | bx hd-private -i 0 | bx hd-to-ec | bx ec-to-public -u | sed 's/^..//' | ./kec | sed 's/^........................//'
 ```
 ```
+ed37b3442b3d550d0fbb6f01f20aac041c245d4911e13452cac7b1676a070eda66771b71c0083b34cc57ca9c327c459a0ec3600dbaf7f238ff27626c8430a806
+xprv9s21ZrQH143K2weTjKTSMXUM1qmfYo2iDQGPrzsbirKyf9Qn325C8DtapD8dwUL2PU8ciZ9hYVSL4Q9VkygWBosS8FMuX65QqxZQmBDYSEq
+xprv9vTgjZ7XMB6PSvXz5HeF2xw7GgqpjmTgy76jrNkUkZFfWzKAD1GMyxoMhJCKgCH3WKw3yhXSBuP4Gxmwp5V4ZQVv1wSV7ARQPacbLkwNdBp
+xprv9w29xFAdfTWFMXugTrP7x1X8c75gYKZFUEhGFqhbGxAwpJnWSo1QZUWPgr2XRKsdsdFPiKKaixbj1gZ2r63NS4EKUkjfii41gWKC5VU8gsh
+xprv9zWvV2FbEX7VzS96sZG1dZ7MY2j4iFDB62kfuwU95q22omhL7EpQGutw9GyRa9tic3uRnCVZXMLApeDrKb9qJrrUKZzG5dDX29BZwLaTmGZ
+xprvA1Qqm9XD31nDSB9iYUf4YN6Ycg2Yxey9ecZeDt4rsqUfTqjSoxsW65Ds49xftNDuxDaGUwk9ZtL3sUYeRCEHLjuU95shHpmLwbwM1nVxbXf
+xprvA2xEQ2iTe9QB22rvf5cbfpUxEBmMdvc7stEFxLhiMXmdLrwLbqugPCHRZiRfEq2puC5vTgwyFneV38hppF8oTf9aoaUv7M8u2XvnACTe6r4
+b96e9ccb774cc33213cbcb2c69d3cdae17b0fe4888a1ccd343cbd1a17fd98b18
+0405b7d0996e99c4a49e6c3b83288f4740d53662839eab1d97d14660696944b8bbe24fabdd03888410ace3fa4c5a809e398f036f7b99d04f82a012dca95701d103
+05b7d0996e99c4a49e6c3b83288f4740d53662839eab1d97d14660696944b8bbe24fabdd03888410ace3fa4c5a809e398f036f7b99d04f82a012dca95701d103
+0AB3387A148B3C4B18C333FCAC39B311DCEB2A4B2F5D8461C1CDAF756F4F7AE9
 AC39B311DCEB2A4B2F5D8461C1CDAF756F4F7AE9
 ```
 
