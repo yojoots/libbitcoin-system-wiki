@@ -395,7 +395,7 @@ KxdnUF9EAinLC6KWSrEZdQvdkT3XSbvDHzxANB1qKrpPjxSK2TFC
 ```
 
 
-### 8) Dash (DASH) BIP 39/44 Examples:
+### 8) Dash (DASH) BIP 39/44 Technology Examples:
 
 **Dash WIF m/44'/5'/0'/0/0 Private Key:**
 ```
@@ -414,7 +414,7 @@ XhcMA4re1dVBUizBHRNE1VMXkBX8FkFbdV
 ```
 
 
-### 9) Zcash (ZEC) BIP 39/44 Examples:
+### 9) Zcash (ZEC) BIP 39/44 Technology Examples:
 
 **Zcash WIF m/44'/133'/0'/0/0 Private Key:** 
 ```
@@ -433,7 +433,7 @@ t1Zv78LE5HMXGCH1MfBcBzywHdAfosDv6tE
 ```
 
 
-### 10) Monero (XMR) BIP 39/44 Examples:
+### 10) Monero (XMR) BIP 39/44 Technology Examples:
 
 **Monero m/44'/128'/0' Account :**
 
