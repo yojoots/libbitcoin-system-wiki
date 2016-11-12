@@ -456,6 +456,7 @@ t1Zv78LE5HMXGCH1MfBcBzywHdAfosDv6tE
 % echo "radar blur cabbage chef fix engine embark joy scheme fiction master release" | bx mnemonic-to-seed | bx hd-new -v 76066276 | bx hd-private -d -i 44 | bx hd-private -d -i 60 | bx hd-private -d -i 0 | bx hd-private -i 0 | bx hd-private -i 0 | bx hd-to-ec
 ```
 ```
+radar blur cabbage chef fix engine embark joy scheme fiction master release
 ed37b3442b3d550d0fbb6f01f20aac041c245d4911e13452cac7b1676a070eda66771b71c0083b34cc57ca9c327c459a0ec3600dbaf7f238ff27626c8430a806
 xprv9s21ZrQH143K2weTjKTSMXUM1qmfYo2iDQGPrzsbirKyf9Qn325C8DtapD8dwUL2PU8ciZ9hYVSL4Q9VkygWBosS8FMuX65QqxZQmBDYSEq
 xprv9vTgjZ7XMB6PSvXz5HeF2xw7GgqpjmTgy76jrNkUkZFfWzKAD1GMyxoMhJCKgCH3WKw3yhXSBuP4Gxmwp5V4ZQVv1wSV7ARQPacbLkwNdBp
@@ -471,6 +472,7 @@ b96e9ccb774cc33213cbcb2c69d3cdae17b0fe4888a1ccd343cbd1a17fd98b18
 % echo "radar blur cabbage chef fix engine embark joy scheme fiction master release" | bx mnemonic-to-seed | bx hd-new -v 76066276 | bx hd-private -d -i 44 | bx hd-private -d -i 60 | bx hd-private -d -i 0 | bx hd-private -i 0 | bx hd-private -i 0 | bx hd-to-ec | bx ec-to-public -u | sed 's/^..//' | ./kec | sed 's/^........................//'
 ```
 ```
+radar blur cabbage chef fix engine embark joy scheme fiction master release
 ed37b3442b3d550d0fbb6f01f20aac041c245d4911e13452cac7b1676a070eda66771b71c0083b34cc57ca9c327c459a0ec3600dbaf7f238ff27626c8430a806
 xprv9s21ZrQH143K2weTjKTSMXUM1qmfYo2iDQGPrzsbirKyf9Qn325C8DtapD8dwUL2PU8ciZ9hYVSL4Q9VkygWBosS8FMuX65QqxZQmBDYSEq
 xprv9vTgjZ7XMB6PSvXz5HeF2xw7GgqpjmTgy76jrNkUkZFfWzKAD1GMyxoMhJCKgCH3WKw3yhXSBuP4Gxmwp5V4ZQVv1wSV7ARQPacbLkwNdBp
