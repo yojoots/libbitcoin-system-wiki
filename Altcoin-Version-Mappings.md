@@ -449,9 +449,9 @@ t1Zv78LE5HMXGCH1MfBcBzywHdAfosDv6tE
     Electrum Seed Words  : bacon enigma gasp furnished memoir aunt input makeup dodge amended hookup tyrant syringe tinted absorb science cement vacation inexact kiwi inflamed sensible mews motherly memoir
 
 
-### 11) Ethereum (ETH) BIP 39/44 [Examples](https://medium.com/@alexberegszaszi/why-do-my-bip32-wallets-disagree-6f3254cc5846#.mwhwon7af):
+### 11) Ethereum (ETH) BIP 39/44 Technology [Examples](https://medium.com/@alexberegszaszi/why-do-my-bip32-wallets-disagree-6f3254cc5846#.mwhwon7af):
 
-**Ethereum WIF m/44'/60'/0'/0/0 Private Key** 
+**Ethereum Hexadecimal m/44'/60'/0'/0/0 Private Key** 
 ```
 % echo "radar blur cabbage chef fix engine embark joy scheme fiction master release" | bx mnemonic-to-seed | bx hd-new -v 76066276 | bx hd-private -d -i 44 | bx hd-private -d -i 60 | bx hd-private -d -i 0 | bx hd-private -i 0 | bx hd-private -i 0 | bx hd-to-ec
 ```
@@ -467,7 +467,7 @@ xprvA2xEQ2iTe9QB22rvf5cbfpUxEBmMdvc7stEFxLhiMXmdLrwLbqugPCHRZiRfEq2puC5vTgwyFneV
 b96e9ccb774cc33213cbcb2c69d3cdae17b0fe4888a1ccd343cbd1a17fd98b18
 ```
 
-**Ethereum M/44'/60'/0'/0/0 Public Address:**
+**Ethereum Hexadecimal M/44'/60'/0'/0/0 Public Address:**
 ```
 % echo "radar blur cabbage chef fix engine embark joy scheme fiction master release" | bx mnemonic-to-seed | bx hd-new -v 76066276 | bx hd-private -d -i 44 | bx hd-private -d -i 60 | bx hd-private -d -i 0 | bx hd-private -i 0 | bx hd-private -i 0 | bx hd-to-ec | bx ec-to-public -u | sed 's/^..//' | ./kec | sed 's/^........................//'
 ```
