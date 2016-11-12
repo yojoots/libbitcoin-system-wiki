@@ -376,7 +376,98 @@ The following bitcoin-explorer transaction command accommodates a **--version (-
 * **[script-to-address](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-script-to-address)**  (use version_p2sh column for multisig addresses)
 
 
-### 7) Open Assets
+### 7) Bitcoin (BTC) BIP 39/44 Technology Examples:
+
+**Bitcoin WIF m/44'/0'/0'/0/0 Private Key:**
+```
+% echo "radar blur cabbage chef fix engine embark joy scheme fiction master release" | bx mnemonic-to-seed | bx hd-new | bx hd-private -d -i 44 | bx hd-private -d -i 0 | bx hd-private -d -i 0 | bx hd-private -i 0 | bx hd-private -i 0 | bx hd-to-ec | sed 's/$/01/' | bx base58check-encode -v 128
+```
+```
+KxdnUF9EAinLC6KWSrEZdQvdkT3XSbvDHzxANB1qKrpPjxSK2TFC
+```
+
+**Bitcoin M/44'/0'/0'/0/0 Public Address:**
+```
+% echo "radar blur cabbage chef fix engine embark joy scheme fiction master release" | bx mnemonic-to-seed | bx hd-new | bx hd-private -d -i 44 | bx hd-private -d -i 0 | bx hd-private -d -i 0 | bx hd-public -i 0 | bx hd-public -i 0 | bx hd-to-ec | bx sha256 | bx  ripemd160 | bx base58check-encode -v 0
+```
+```
+1NAW6zzKT5zjtd73nVP86mtv1etp7GfThv
+```
+
+
+### 8) Dash (DASH) BIP 39/44 Examples:
+
+**Dash WIF m/44'/5'/0'/0/0 Private Key:**
+```
+% echo "radar blur cabbage chef fix engine embark joy scheme fiction master release" | bx mnemonic-to-seed | bx hd-new | bx hd-private -d -i 44 | bx hd-private -d -i 5 | bx hd-private -d -i 0 | bx hd-private -i 0 | bx hd-private -i 0 | bx hd-to-ec | sed 's/$/01/' | bx base58check-encode -v 204
+```
+```
+XGnxUtxjfseCYWQvj8cbyvr3ec2QBApo6NGaSrX3nNJwc6qYD2ts
+```
+
+**Dash M/44'/0'/5'/0/0 Public Address:**
+```
+% echo "radar blur cabbage chef fix engine embark joy scheme fiction master release" | bx mnemonic-to-seed | bx hd-new | bx hd-private -d -i 44 | bx hd-private -d -i 5 | bx hd-private -d -i 0 | bx hd-public -i 0 | bx hd-public -i 0 | bx hd-to-ec | bx sha256 | bx  ripemd160 | bx base58check-encode -v 76
+```
+```
+XhcMA4re1dVBUizBHRNE1VMXkBX8FkFbdV
+```
+
+
+### 9) Zcash (ZEC) BIP 39/44 Examples:
+
+**Zcash WIF m/44'/133'/0'/0/0 Private Key:** 
+```
+% echo "radar blur cabbage chef fix engine embark joy scheme fiction master release" | bx mnemonic-to-seed | bx hd-new | bx hd-private -d -i 44 | bx hd-private -d -i 133 | bx hd-private -d -i 0 | bx hd-private -i 0 | bx hd-private -i 0 | bx hd-to-ec | sed 's/$/01/' | bx base58check-encode -v 128
+```
+```
+KxPhnyg5qNmE4zRQxySHhPoHrhBhZYjPuqZB9pLDSvdbEtMvHjN3
+```
+
+**Zcash M/44'/133'/0'/0/0 Public Address:**
+```
+% echo "radar blur cabbage chef fix engine embark joy scheme fiction master release" | bx mnemonic-to-seed | bx hd-new | bx hd-private -d -i 44 | bx hd-private -d -i 133 | bx hd-private -d -i 0 | bx hd-public -i 0 | bx hd-public -i 0 | bx hd-to-ec | bx sha256 | bx  ripemd160 | sed 's/^/b8/' | bx base58check-encode -v 28
+```
+```
+t1Zv78LE5HMXGCH1MfBcBzywHdAfosDv6tE
+```
+
+
+### 10) Monero (XMR) BIP 39/44 Examples:
+
+**Monero m/44'/128'/0' Account :**
+
+```
+% echo "radar blur cabbage chef fix engine embark joy scheme fiction master release" | bx mnemonic-to-seed | bx hd-new | bx hd-private -d -i 44 | bx hd-private -d -i 128 |  bx hd-private -d -i 0 | bx hd-to-ec | ./xmr
+```
+    Seed                 : e62551cad9fe0f05d7c84cf6a0ef7e8fc0534c2694279fc6e46d38f21a3f6ed3
+    Private Spend Key    : dd62d51183f6208cf4d1b9af523f2c80bf534c2694279fc6e46d38f21a3f6e03
+    Private View Key     : 7838567e050aa2dc3964bca85c3a42d9cec5b77b3d8f055e2763641fdce53c07
+    Public Spend Key     : deb53426c8ea9bc20581d0a9489e5b71df16219008c45e7747db98c42d7cf522
+    Public View Key      : 9736ad5236981e2044f0b8ebb3bd790d32f896837d501b83712e3fd920191718
+    Monero Address       : 4A4cAKxSbirZTFbkK5LwoYL3hLkVxkT8yLxAz8KCxAT66naEG4pYY9B6Q43zdao1oE3D3mzodbggzNz9t9tGvE8N3jVnu3A
+    Electrum Seed Words  : bacon enigma gasp furnished memoir aunt input makeup dodge amended hookup tyrant syringe tinted absorb science cement vacation inexact kiwi inflamed sensible mews motherly memoir
+
+
+### 12) Ethereum (ETH) BIP 39/44 [Examples](https://medium.com/@alexberegszaszi/why-do-my-bip32-wallets-disagree-6f3254cc5846#.mwhwon7af):
+
+**Ethereum WIF m/44'/60'/0'/0/0 Private Key** 
+```
+% echo "radar blur cabbage chef fix engine embark joy scheme fiction master release" | bx mnemonic-to-seed | bx hd-new -v 76066276 | bx hd-private -d -i 44 | bx hd-private -d -i 60 | bx hd-private -d -i 0 | bx hd-private -i 0 | bx hd-private -i 0 | bx hd-to-ec
+```
+```
+b96e9ccb774cc33213cbcb2c69d3cdae17b0fe4888a1ccd343cbd1a17fd98b18
+```
+
+**Ethereum M/44'/60'/0'/0/0 Public Address:**
+```
+% echo "radar blur cabbage chef fix engine embark joy scheme fiction master release" | bx mnemonic-to-seed | bx hd-new -v 76066276 | bx hd-private -d -i 44 | bx hd-private -d -i 60 | bx hd-private -d -i 0 | bx hd-private -i 0 | bx hd-private -i 0 | bx hd-to-ec | bx ec-to-public -u | sed 's/^..//' | ./kec | sed 's/^........................//'
+```
+```
+AC39B311DCEB2A4B2F5D8461C1CDAF756F4F7AE9
+```
+
+### 11) Open Assets Examples:
 
 **Test Vector Examples:**
 
@@ -421,96 +512,4 @@ Is equivalent to:
 76a914010966776006953d5567439e5e39f86a0d273bee88ac
 36e0ea8e93eaa0285d641305f4c81e563aa570a2
 ALn3aK1fSuG27N96UGYB1kUYUpGKRhBuBC
-```
-
-
-### 8) Bitcoin (BTC) BIP 39/44 Technology Examples:
-
-**Bitcoin WIF m/44'/0'/0'/0/0 Private Key:**
-```
-% echo "radar blur cabbage chef fix engine embark joy scheme fiction master release" | bx mnemonic-to-seed | bx hd-new | bx hd-private -d -i 44 | bx hd-private -d -i 0 | bx hd-private -d -i 0 | bx hd-private -i 0 | bx hd-private -i 0 | bx hd-to-ec | sed 's/$/01/' | bx base58check-encode -v 128
-```
-```
-KxdnUF9EAinLC6KWSrEZdQvdkT3XSbvDHzxANB1qKrpPjxSK2TFC
-```
-
-**Bitcoin M/44'/0'/0'/0/0 Public Address:**
-```
-% echo "radar blur cabbage chef fix engine embark joy scheme fiction master release" | bx mnemonic-to-seed | bx hd-new | bx hd-private -d -i 44 | bx hd-private -d -i 0 | bx hd-private -d -i 0 | bx hd-public -i 0 | bx hd-public -i 0 | bx hd-to-ec | bx sha256 | bx  ripemd160 | bx base58check-encode -v 0
-```
-```
-1NAW6zzKT5zjtd73nVP86mtv1etp7GfThv
-```
-
-
-### 9) Dash (DASH) BIP 39/44 Examples:
-
-**Dash WIF m/44'/5'/0'/0/0 Private Key:**
-```
-% echo "radar blur cabbage chef fix engine embark joy scheme fiction master release" | bx mnemonic-to-seed | bx hd-new | bx hd-private -d -i 44 | bx hd-private -d -i 5 | bx hd-private -d -i 0 | bx hd-private -i 0 | bx hd-private -i 0 | bx hd-to-ec | sed 's/$/01/' | bx base58check-encode -v 204
-```
-```
-XGnxUtxjfseCYWQvj8cbyvr3ec2QBApo6NGaSrX3nNJwc6qYD2ts
-```
-
-**Dash M/44'/0'/5'/0/0 Public Address:**
-```
-% echo "radar blur cabbage chef fix engine embark joy scheme fiction master release" | bx mnemonic-to-seed | bx hd-new | bx hd-private -d -i 44 | bx hd-private -d -i 5 | bx hd-private -d -i 0 | bx hd-public -i 0 | bx hd-public -i 0 | bx hd-to-ec | bx sha256 | bx  ripemd160 | bx base58check-encode -v 76
-```
-```
-XhcMA4re1dVBUizBHRNE1VMXkBX8FkFbdV
-```
-
-
-### 10) Zcash (ZEC) BIP 39/44 Examples:
-
-**Zcash WIF m/44'/133'/0'/0/0 Private Key:** 
-```
-% echo "radar blur cabbage chef fix engine embark joy scheme fiction master release" | bx mnemonic-to-seed | bx hd-new | bx hd-private -d -i 44 | bx hd-private -d -i 133 | bx hd-private -d -i 0 | bx hd-private -i 0 | bx hd-private -i 0 | bx hd-to-ec | sed 's/$/01/' | bx base58check-encode -v 128
-```
-```
-KxPhnyg5qNmE4zRQxySHhPoHrhBhZYjPuqZB9pLDSvdbEtMvHjN3
-```
-
-**Zcash M/44'/133'/0'/0/0 Public Address:**
-```
-% echo "radar blur cabbage chef fix engine embark joy scheme fiction master release" | bx mnemonic-to-seed | bx hd-new | bx hd-private -d -i 44 | bx hd-private -d -i 133 | bx hd-private -d -i 0 | bx hd-public -i 0 | bx hd-public -i 0 | bx hd-to-ec | bx sha256 | bx  ripemd160 | sed 's/^/b8/' | bx base58check-encode -v 28
-```
-```
-t1Zv78LE5HMXGCH1MfBcBzywHdAfosDv6tE
-```
-
-
-### 11) Monero (XMR) BIP 39/44 Examples:
-
-**Monero m/44'/128'/0' Account :**
-
-```
-% echo "radar blur cabbage chef fix engine embark joy scheme fiction master release" | bx mnemonic-to-seed | bx hd-new | bx hd-private -d -i 44 | bx hd-private -d -i 128 |  bx hd-private -d -i 0 | bx hd-to-ec | ./xmr
-```
-    Seed                 : e62551cad9fe0f05d7c84cf6a0ef7e8fc0534c2694279fc6e46d38f21a3f6ed3
-    Private Spend Key    : dd62d51183f6208cf4d1b9af523f2c80bf534c2694279fc6e46d38f21a3f6e03
-    Private View Key     : 7838567e050aa2dc3964bca85c3a42d9cec5b77b3d8f055e2763641fdce53c07
-    Public Spend Key     : deb53426c8ea9bc20581d0a9489e5b71df16219008c45e7747db98c42d7cf522
-    Public View Key      : 9736ad5236981e2044f0b8ebb3bd790d32f896837d501b83712e3fd920191718
-    Monero Address       : 4A4cAKxSbirZTFbkK5LwoYL3hLkVxkT8yLxAz8KCxAT66naEG4pYY9B6Q43zdao1oE3D3mzodbggzNz9t9tGvE8N3jVnu3A
-    Electrum Seed Words  : bacon enigma gasp furnished memoir aunt input makeup dodge amended hookup tyrant syringe tinted absorb science cement vacation inexact kiwi inflamed sensible mews motherly memoir
-
-
-### 12) Ethereum (ETH) BIP 39/44 [Examples](https://medium.com/@alexberegszaszi/why-do-my-bip32-wallets-disagree-6f3254cc5846#.mwhwon7af):
-
-**Ethereum WIF m/44'/60'/0'/0/0 Private Key** 
-```
-% echo "radar blur cabbage chef fix engine embark joy scheme fiction master release" | bx mnemonic-to-seed | bx hd-new -v 76066276 | bx hd-private -d -i 44 | bx hd-private -d -i 60 | bx hd-private -d -i 0 | bx hd-private -i 0 | bx hd-private -i 0 | bx hd-to-ec
-```
-```
-b96e9ccb774cc33213cbcb2c69d3cdae17b0fe4888a1ccd343cbd1a17fd98b18
-```
-
-**Ethereum M/44'/60'/0'/0/0 Public Address:**
-```
-% echo "radar blur cabbage chef fix engine embark joy scheme fiction master release" | bx mnemonic-to-seed | bx hd-new -v 76066276 | bx hd-private -d -i 44 | bx hd-private -d -i 60 | bx hd-private -d -i 0 | bx hd-private -i 0 | bx hd-private -i 0 | bx hd-to-ec | bx ec-to-public -u | sed 's/^..//' | ./kec | sed 's/^........................//'
-```
-```
-AC39B311DCEB2A4B2F5D8461C1CDAF756F4F7AE9
 ```
