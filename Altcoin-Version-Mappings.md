@@ -405,7 +405,7 @@ KxdnUF9EAinLC6KWSrEZdQvdkT3XSbvDHzxANB1qKrpPjxSK2TFC
 XGnxUtxjfseCYWQvj8cbyvr3ec2QBApo6NGaSrX3nNJwc6qYD2ts
 ```
 
-**Dash M/44'/0'/5'/0/0 Public Address:**
+**Dash M/44'/5'/0'/0/0 Public Address:**
 ```
 % echo "radar blur cabbage chef fix engine embark joy scheme fiction master release" | bx mnemonic-to-seed | bx hd-new | bx hd-private -d -i 44 | bx hd-private -d -i 5 | bx hd-private -d -i 0 | bx hd-public -i 0 | bx hd-public -i 0 | bx hd-to-ec | bx sha256 | bx  ripemd160 | bx base58check-encode -v 76
 ```
