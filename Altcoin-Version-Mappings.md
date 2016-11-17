@@ -448,6 +448,7 @@ t1Zv78LE5HMXGCH1MfBcBzywHdAfosDv6tE
     Monero Address       : 4A4cAKxSbirZTFbkK5LwoYL3hLkVxkT8yLxAz8KCxAT66naEG4pYY9B6Q43zdao1oE3D3mzodbggzNz9t9tGvE8N3jVnu3A
     Electrum Seed Words  : bacon enigma gasp furnished memoir aunt input makeup dodge amended hookup tyrant syringe tinted absorb science cement vacation inexact kiwi inflamed sensible mews motherly memoir
 
+Contrast ./xmr results above from what https://xmr.llcoins.net/addresstests.html can yield.  There are two sets of Electrum seed words that result in the same Monero address. Subtle differences can be explained if the seed is already normalized (i.e., sc_reduce32 is applied) or not.
 
 ### 11) Ethereum (ETH) BIP 39/44 Technology [Examples](https://medium.com/@alexberegszaszi/why-do-my-bip32-wallets-disagree-6f3254cc5846#.mwhwon7af):
 
