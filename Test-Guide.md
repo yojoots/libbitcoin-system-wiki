@@ -5,7 +5,7 @@ It is important that tests can be evaluated visually. Otherwise it becomes impos
 
 #### Declarativeness.
 
-This means that test execution is unconditional, there is no branching. Loops, if statements and the ternatory operator are prohibited. Test helpers may include conditional logic, but then these should be tested for correctness.
+This means that test execution is unconditional, there is no branching. Loops, if statements and the ternary operator are prohibited. Test helpers may include conditional logic, but then these should be tested for correctness.
 
 #### Transparent Names
 When a test or set of tests fail this helps a developer to quickly isolate the cause. The naming convention is:
@@ -34,15 +34,13 @@ file__function.cpp
 Group tests semantically using `BOOST_AUTO_TEST_SUITE(...)`. This allows tests to be executed independently. These can be grouped hierarchically if necessary. Generally there is one suite per file or class under test.
 
 #### Test One Thing
-
 Test just one thing. The test name indicates the conditions and expectation of the test. When a test or set of tests fail this allows a developer to quickly isolate the cause. Sometimes it is convenient to test a set of results under one condition, such as a true result code and an expected out value. But these combinations should be semantically associated in that they are necessary to test together.
 
 #### Line Length
 A line of test code should not be wrapped. For this reason line length is not limited as in source files. However intermediate variables can and should be used to limit line length.
 
 #### Test Helpers
-The BOOST test helpers expose information about the test when there is a failure. It is preferred to use the least general test helper available. For example, use:
-
+The BOOST test helpers expose information about the test when there is a failure. It is preferred to use the least general test helper available:
 ```c
 BOOST_REQUIRE(!foo.is_valid())
 ```
@@ -58,4 +56,4 @@ as opposed to
 ```c
 BOOST_REQUIRE(foo.size() == 5u)
 ```
-and in all cases placing the condition under test one the left side and the test expectation on the right.
+and in all cases place the condition under test on the left side and the test expectation on the right.
