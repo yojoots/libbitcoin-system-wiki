@@ -263,7 +263,7 @@ f9a8f6d4a24b99d4944ee3db83c85383e9c13e85cb50ad60a9e1a96e02f6d269
 
 **6) Extended "EC Multiply Mode" BIP 38 CLI Example Set:** *For DASH having an initial secret of 'knock knock', seed, salt, lot number of 0, and sequence number of 0. (Please note the information below needs to be cross correlated with security [recommendations](https://github.com/libbitcoin/libbitcoin/wiki/BIP38-Security-Considerations#recommendations) to arrive at a good processes for outsourcing the minting of coins or engraving of notes by owners of DASH funds.)*
 
-**A.** "Brain seed"
+**A.** "Brain seed" - Something like this step should be performed by the minter/engraver on a per customer request basis to be unique to ensure minter/engraver has a countermeasure in place so not to be treated as a **money transmitter**.  The number generated here is not shared until after minting or engraving product is shipped to the customer.
 ```
 % echo 'Not so random seed' | bx base16-encode | bx sha256
 ```
@@ -271,7 +271,7 @@ f9a8f6d4a24b99d4944ee3db83c85383e9c13e85cb50ad60a9e1a96e02f6d269
 565bdb03ade36264adc00600952a865fc4bdc61d81be7d9be6ee0c7c06809857
 ```
 
-**B.** "Brain salt" utilizes the first 8 hex digits below.
+**B.** "Brain salt" utilizes the first 8 hex digits below. Something like this is performed only by a coin/note owner prior committing to outsourcing work to a minter/engraver. Eight unique hexadecimal pseudo-random numbers synthesized here are used by step C.
 ```
 % echo 'a little salt & pepper' | bx base16-encode | bx sha256
 ```
@@ -279,7 +279,7 @@ f9a8f6d4a24b99d4944ee3db83c85383e9c13e85cb50ad60a9e1a96e02f6d269
 e51549349dd7b98ff30281211fe281247c32922d259fc12b0abf7b2110114d03
 ```
 
-**C.**  Is typically performed only by a coin/note owner prior committing to outsourcing work to a minter/engraver. Both this information and the associated seed are released only to the minter/engraver. Intermediate codes are always prefixed with "passphrase".
+**C.**  Is performed only by a coin/note owner prior committing to outsourcing work to a minter/engraver. Both this information is released only to the minter/engraver. Intermediate codes are always prefixed with "passphrase".
 ```
 % bx token-new -l 0 -s 0 'knock knock' e5154934
 ```
@@ -343,7 +343,7 @@ cfrm3CdFNyDReVUXn2weQYL4Q3sGsRyFYSNBbrK5qfpFyCXCNKPPJicRxuxmLiN3ZtjVafCLZuc
 Xc3cYycMHt9vtBjMcUJshBH34QqfZnbEyu
 ```
 
-**G.** Is performed by a coin/note owner to double authenticate the DASH coin address where funds are to be deposited. There could be a typo mistake, cut-and-paste mistake, or a man-in-the-middle attack (e.g., from utilizing an untrusted communication channel between the minter/engraver and coin/note owner)  compromising the integrity of the confirmation code resulting in a bad address created by step 6F. If results match, a deposit is not likely to be lost or burned. Observe the result below matches CP3
+**G.** Is performed by a coin/note owner to double authenticate the DASH coin address where funds are to be deposited. There could be a typo mistake, cut-and-paste mistake, or a man-in-the-middle attack (e.g., from utilizing an untrusted communication channel between the minter/engraver and coin/note owner)  compromising the integrity of the confirmation code resulting in a bad address created by step 6F. If results match, a deposit is not likely to be lost or burned. The last number of the ek-address command below should be shared out-of-band of the channel that shared the cfrm3CdFNyDReVUXn2weQYL4Q3sGsRyFYSNBbrK5qfpFyCXCNKPPJicRxuxmLiN3ZtjVafCLZuc. Observe the result below matches CP3
 ```
 % bx ek-address -v 76 passphrasedsP52SrHdFSR4Fb55dvDiXnxnuyZUFCYheSYrPVGiMUCVnEhCb4UU3Nsbs2HCg 565bdb03ade36264adc00600952a865fc4bdc61d81be7d9be6ee0c7c06809857
 ```
@@ -357,9 +357,9 @@ For risk reasons, this will cause secondhand coin/(note) holders to immediately 
 
 With the application of strong, high entropy, passwords/passphrases, BIP 38 functionality allows computer printing devices with untrusted firmware and network connections to safely print paper wallets for storage at multiple inconspicuous locations, not necessarily requiring the use of a safe of deposit boxes and possibly guard services.  Also, numismatic collectors can obtain very professional looking coins or notes minted or engraved by un-trusted minters or engravers if a BIP 38 "EC Multiply Mode" exchange protocol is utilized.  However, mints/(engravers) without "money transmitter" licenses need to take extra precautions to ensure their product is shipped before associated blockchain value can be attributed to it. One side effect of mints/(engravers) shipping product without being loaded is there are no initial branded assurances as to the accuracy of a coin's or note's cryptographic monetary value. 
 
-In summary, both BIP 38 AES 256 bit encryption and decryption along with BIP 38 EC Multiply Mode can be used to create cold storage wallets for safe long-term keeping. There is the expectation from secondhand parties that minted/(engraved) coins/(notes) have blockchain "bearer bond" characteristics, and after taking possession will almost immediately be redeemed. If such coins/(notes) have tamper resistant secrets affixed to them to attain such a "bearer bond" characteristic, they must be physically guarded, an thus have associated commodity backwardation storage cost characteristics. 
+In summary, both BIP 38 AES 256 bit encryption and decryption along with BIP 38 EC Multiply Mode can be used to create cold storage wallets for safe long-term keeping. There is the expectation from secondhand parties that minted/(engraved) coins/(notes) have blockchain "bearer bond" characteristics, and after taking possession will almost immediately be redeemed. If such coins/(notes) have tamper resistant secrets affixed to them to attain such a "bearer bond" characteristic, they must be physically guarded, an thus have associated commodity cantango storage cost characteristics. 
 
-Printing your own BIP 38 paper wallets with a trusted computer printer can engender greater privacy by helping to prevent others from ascertaining your cryptographic worth. It is also alright to keep BIP 38 paper wallets in multiple inconspicuous locations if they don't have monetary denominations printed on them, public addresses nor information printed on them indicating who the owner is or POCs are. This presents an interesting backwardation resistant characteristic for cryptocurrency savers that has never existed before in the physical world. If monetary denominations, public addresses or contact information is printed on BIP 38 wallets there will be an associated storage cost, but not as much as that for minted/(engraved) coins/(notes) with "bearer bond" characteristics.   
+Printing your own BIP 38 paper wallets with a trusted computer printer can engender greater privacy by helping to prevent others from ascertaining your cryptographic worth. It is also alright to keep BIP 38 paper wallets in multiple inconspicuous locations if they don't have monetary denominations printed on them, public addresses nor information printed on them indicating who the owner is or POCs are. This presents an interesting cantango resistant characteristic for cryptocurrency savers that has never existed before in the physical world. If monetary denominations, public addresses or contact information is printed on BIP 38 wallets there will be an associated storage cost, but not as much as that for minted/(engraved) coins/(notes) with "bearer bond" characteristics.   
 
 
 ### [bx - Stealth Commands](https://github.com/libbitcoin/libbitcoin-explorer/wiki/Stealth-Commands)
