@@ -366,7 +366,17 @@ Printing your own BIP 38 paper wallets with a trusted computer printer can engen
 
 The following bitcoin-explorer "stealth command" provides a **--version (-v)** value interface for altcoin support:
 
-* **[stealth-encode](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-stealth-encode)** ( use version_p2pkh column )
+* **[stealth-encode](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-stealth-encode)** ( no standardization exist, by convention Bitcoin uses 42 )
+
+**scan/view public key**  03c6087fb47ad0dde588848631c90bd4ded5a7722fd5741e720a9eb438fd76fb4d
+
+**spend public key**      03eda543f16e2fca0ddb2525c7ae52bef1c1b04364f706ec0e9766e28d03e438e6
+```
+% bx stealth-encode -v 42 03c6087fb47ad0dde588848631c90bd4ded5a7722fd5741e720a9eb438fd76fb4d 03eda543f16e2fca0ddb2525c7ae52bef1c1b04364f706ec0e9766e28d03e438e6
+```
+```
+vJmz3tAU8GsjioFdFN7wH9wkXDsPbzHw1uoUU95x1C6pnDz2c42WtKCQi3FFfQ72CTETFz4AQwAj1GcxjqePVYbSdhQLatXyuo8ALG
+```
 
 
 ### [bx - Transaction Commands](https://github.com/libbitcoin/libbitcoin-explorer/wiki/Transaction-Commands)
