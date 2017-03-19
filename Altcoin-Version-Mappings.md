@@ -2,7 +2,7 @@
 
 **Bitcoin-explorer's (bx)** command line interface (CLI), part of the libbitcoin tool suite, provides very substantial support for the following Bitcoin Improvement Proposals (BIP): 32, 38, 39, 44 and 63.  BIP 44 capabilities supporting alternative cryptocurrency coins (altcoins) results from how bx BIP 32 commands are piped to one another. The application of the BIP 44 related table below facilitates the extension of BIPS 32 and 38 to altcoins. Behaviors associated with using column version values from the first row of the "BIP44 Altcoin Version Mapping Table" below are integrated into bitcoin-explorer's commands as defaults. 
 
-The libbitcoin team has a comprehensive understanding of this table's version values for the first row, Bitcoin (**BTC**), and has recently updated the bx CLI to support 100+ other altcoins. This awareness might create a common client-side code base, a merge, fostering convergence of existing Bitcoin altcoin code forks. However, such decisions will be at the discretion of altcoin main branch developers. Substantial server-side **bitcoin-server (bs)** node convergence opportunities will also emerge when libbitcoin supports *pluggable consensus modules*, but this Wiki article only mentions this concept for a later article.
+The libbitcoin team has a comprehensive understanding of this table's version values for the first row, Bitcoin (**BTC**), and has recently updated the bx CLI to support 100+ other altcoins. This awareness might create a common client-side code base, a merge, fostering convergence of existing Bitcoin altcoin code forks. However, such decisions will be at the discretion of altcoin main branch developers. Substantial server-side [bitcoin-server](https://github.com/master/libbitcoin-server) node convergence opportunities will also emerge when libbitcoin supports *pluggable consensus modules*, but this Wiki article only mentions this concept for a later article.
 
 The table below is a work-in-progress, but when completed will become an exemplar, providing important `--version` values.  The utility of these values is demonstrated by example sets #1, #4, #5, and #6 below for the **DASH** altcoin (row entry 6, or coin type 5) to demonstrate how BIPs 32, 38, 39 and 44 can be tightly integrated with minor extensions to coherently support altcoins using a unified codebase. It is very important for wallet developers to understand the concepts being espoused here to minimize wallet complexity while supporting multiple currencies simultaneously using a common BIP 32 hierarchical deterministic (HD) framework. 
 
@@ -84,7 +84,7 @@ Finally, as a countermeasure to protect the Bitcoin cryptocurrency child prodigy
 
 ### bx - Settings
 
-The examples (i.e., 1 through 6) provided below for DASH in this Wiki article were chosen to function with the bitcoin-explorer etc/libbitcoin/bx.cfg file settings bundled with the bx package. This package bundled configuration file is tailored for Bitcoin (BTC). The environmental variable BX_CONFIG is frequently used to set the path of where a customized configuration file, such as bx.cfg, is saved that will override compiled bx defaults. Explicitly setting bx CLI `--version` values will override settings provided by a bx configuration file, e.g., bx.cfg. 
+The examples (i.e., 1 through 6) provided below for DASH in this Wiki article were chosen to function with the [bitcoin-explorer](https://github.com/master/libbitcoin-explorer) etc/libbitcoin/bx.cfg file settings bundled with the bx package. This package bundled configuration file is tailored for Bitcoin (BTC). The environmental variable BX_CONFIG is frequently used to set the path of where a customized configuration file, such as bx.cfg, is saved that will override compiled bx defaults. Explicitly setting bx CLI `--version` values will override settings provided by a bx configuration file, e.g., bx.cfg. 
 
 The intent here is to briefly touch upon six important [wallet](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-settings) configuration settings that influence altcoin client-side behaviors. To tailor the bx configuration file for DASH, the six bullet settings below are provided. Strong source code traceability back to DASH code base is provided below as hyperlinks.
 
@@ -99,7 +99,7 @@ The EXT_SECRET_KEY DASH source code variable set to 0x02FE52CC is base16 encoded
 
 ### [bx - Wallet Commands](https://github.com/libbitcoin/libbitcoin-explorer/wiki/Wallet-Commands)
 
-The table above is a "Rosetta Stone" for translating Bitcoin EC private keys and associated public keys and addresses to those used by a number of altcoins having strong Bitcoin key/address synthesis heritage. This cryptocurrency Rosetta Stone currently provides important `--version` values for the following **bitcoin-explorer** wallet commands:
+The table above is a "Rosetta Stone" for translating Bitcoin EC private keys and associated public keys and addresses to those used by a number of altcoins having strong Bitcoin key/address synthesis heritage. This cryptocurrency Rosetta Stone currently provides important `--version` values for the following [bitcoin-explorer](https://github.com/master/libbitcoin-server) wallet commands:
 
 * **[ec-to-address](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-ec-to-address)**  ( use version_p2pkh column for addresses )
 * **[ec-to-wif](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-ec-to-wif)**          ( use version_WIF column for private keys )
@@ -202,7 +202,7 @@ Most encoding commands supporting `--version` are not restricted as to which col
 * **[base58check-encode](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-base58check-encode)** ( use version_WIF column for private keys, version_p2pkh column for single signature addresses )
 * **[wrap-encode](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-wrap-encode)** ( use version_WIF column for private keys, version_p2pkh column for single signature addresses, version_p2sh column for multisig addresses )
 
-The following bitcoin-explorer encoding command **should not** be extended to accommodate a `--version` value:
+The following [bitcoin-explorer](https://github.com/master/libbitcoin-server) encoding command **should not** be extended to accommodate a `--version` value:
 
 * **[script-encode](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-script-encode)** ( For a basis to establish a rationale, see Example 7C [Is equivalent to](https://github.com/libbitcoin/libbitcoin/wiki/Altcoin-Version-Mappings#is-equivalent-to) below.) 
 
@@ -235,7 +235,7 @@ XGobHujzvnXWdnteE2aZU8TH2EEgbWkXr9iFQuU9QL1mpU21brja
 
 ### [bx - Key Encryption Commands](https://github.com/libbitcoin/libbitcoin-explorer/wiki/Key-Encryption-Commands)
 
-The table above also complements [Altchain Encrypted Private Keys](https://github.com/libbitcoin/libbitcoin/wiki/Altchain-Encrypted-Private-Keys#sample-map) by supporting the following **bitcoin-explorer** "encrypted key" commands to **extend BIP 38 functionality** to altcoins:
+The table above also complements [Altchain Encrypted Private Keys](https://github.com/libbitcoin/libbitcoin/wiki/Altchain-Encrypted-Private-Keys#sample-map) by supporting the following [bitcoin-explorer](https://github.com/master/libbitcoin-server) "encrypted key" commands to **extend BIP 38 functionality** to altcoins:
 
 * **[ec-to-ek](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-ec-to-ek)** ( use version_p2pkh column for addresses )
 * **[ek-address](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-ek-address)**  ( use version_p2pkh column for addresses )
@@ -364,7 +364,7 @@ Printing your own BIP 38 paper wallets with a trusted computer printer can engen
 
 ### [bx - Stealth Commands](https://github.com/libbitcoin/libbitcoin-explorer/wiki/Stealth-Commands)
 
-The following bitcoin-explorer "stealth command" provides a `--version` value interface for altcoin support:
+The following [bitcoin-explorer](https://github.com/master/libbitcoin-server) "stealth command" provides a `--version` value interface for altcoin support:
 
 * **[stealth-encode](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-stealth-encode)** ( no standardization exist, by convention Bitcoin uses 42 )
 
@@ -381,7 +381,7 @@ vJmz3tAU8GsjioFdFN7wH9wkXDsPbzHw1uoUU95x1C6pnDz2c42WtKCQi3FFfQ72CTETFz4AQwAj1Gcx
 
 ### [bx - Transaction Commands](https://github.com/libbitcoin/libbitcoin-explorer/wiki/Transaction-Commands)
 
-The following bitcoin-explorer transaction command accommodates a `--version` value:
+The following [bitcoin-explorer](https://github.com/master/libbitcoin-server) transaction command accommodates a `--version` value:
 
 * **[script-to-address](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-script-to-address)**  (use version_p2sh column for multisig addresses)
 
