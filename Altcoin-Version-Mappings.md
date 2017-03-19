@@ -1,4 +1,4 @@
-### Application of BIPs [32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki), [38](https://github.com/bitcoin/bips/blob/master/bip-0038.mediawiki), [39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki), [44](https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki), and [63 *(a work-in-progress)*](https://wiki.unsystem.net/en/index.php/DarkWallet/Stealth) to Altcoins
+### Application of BIPs [32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki), [38](https://github.com/bitcoin/bips/blob/master/bip-0038.mediawiki), [39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki), [44](https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki), and 63 (a work-in-progress) to Altcoins
 
 **Bitcoin-explorer's (bx)** command line interface (CLI), part of the libbitcoin tool suite, provides very substantial support for the following Bitcoin Improvement Proposals (BIP): 32, 38, 39, 44 and 63.  BIP 44 capabilities supporting alternative cryptocurrency coins (altcoins) results from how bx BIP 32 commands are piped to one another. The application of the BIP 44 related table below facilitates the extension of BIPS 32 and 38 to altcoins. Behaviors associated with using column version values from the first row of the "BIP44 Altcoin Version Mapping Table" below are integrated into bitcoin-explorer's commands as defaults. 
 
@@ -233,7 +233,7 @@ XH2Yndjv6Ks3XEHGaSMDhUMTAMZTTWv5nEN958Y7VMyQXBCJVQmM
 XGobHujzvnXWdnteE2aZU8TH2EEgbWkXr9iFQuU9QL1mpU21brja
 ```
 
-### [bx - Key Encryption Commands] (https://github.com/libbitcoin/libbitcoin-explorer/wiki/Key-Encryption-Commands)
+### [bx - Key Encryption Commands](https://github.com/libbitcoin/libbitcoin-explorer/wiki/Key-Encryption-Commands)
 
 The table above also complements [Altchain Encrypted Private Keys](https://github.com/libbitcoin/libbitcoin/wiki/Altchain-Encrypted-Private-Keys#sample-map) by supporting the following **bitcoin-explorer** "encrypted key" commands to **extend BIP 38 functionality** to altcoins:
 
