@@ -1,4 +1,5 @@
 ### Libbitcoin Menu
+* **[Home](Home)**
 * **[Build Libbitcoin](Build)**
 * [Style Guide](Style-Guide)
 * [Test Guide](Test-Guide)
