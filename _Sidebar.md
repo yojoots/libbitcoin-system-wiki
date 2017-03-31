@@ -1,7 +1,8 @@
 ### Libbitcoin Menu
 * **[Home](Home)**
+* **[Web Site](https://libbitcoin.org)**
 * **[Build Libbitcoin](Build)**
-* **[Web Site](https://libbitcoin.org/)**
+* **[Comprehensive Overview](https://en.bitcoin.it/wiki/Libbitcoin)**
 * **Console Applications**
   * [Bitcoin Explorer](https://github.com/libbitcoin/libbitcoin-explorer/wiki)
   * [Bitcoin Server](https://github.com/libbitcoin/libbitcoin-server/wiki)
