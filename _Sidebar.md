@@ -1,7 +1,7 @@
 ### Libbitcoin Menu
 * **[Home](Home)**
 * **[libbitcoin.org](https://libbitcoin.org)**
-* **[Freenode (IRC)](https://webchat.freenode.net/?channels=#libbitcoin)**
+* **[Freenode (IRC)](https://webchat.freenode.net?channels=#libbitcoin)**
 * **[Mailing List](https://mailinglists.dyne.org/cgi-bin/mailman/listinfo/libbitcoin)**
 * **[Build Libbitcoin](Build)**
 * **[Comprehensive Overview](https://en.bitcoin.it/wiki/Libbitcoin)**
@@ -21,6 +21,7 @@
   * [libbitcoin-protocol](https://github.com/libbitcoin/libbitcoin-protocol/blob/master/README.md)
   * [libbitcoin-server](https://github.com/libbitcoin/libbitcoin-server/blob/master/README.md)
 * **Maintainer Information**
+  * [Build Status](https://github.com/libbitcoin/libbitcoin-build/blob/master/README.md)
   * [Style Guide](Style-Guide)
   * [Test Guide](Test-Guide)
 * **Miscellaneous Articles**
