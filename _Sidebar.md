@@ -1,6 +1,8 @@
 ### Libbitcoin Menu
 * **[Home](Home)**
 * **[Web Site](https://libbitcoin.org)**
+* **[Freenode](https://webchat.freenode.net/?channels=#libbitcoin)**
+* **[Mailing List](https://mailinglists.dyne.org/cgi-bin/mailman/listinfo/libbitcoin)**
 * **[Build Libbitcoin](Build)**
 * **[Comprehensive Overview](https://en.bitcoin.it/wiki/Libbitcoin)**
 * **Console Applications**
