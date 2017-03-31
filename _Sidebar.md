@@ -10,7 +10,7 @@
   * [Bitcoin Server](https://github.com/libbitcoin/libbitcoin-server/wiki)
   * [Bitcoin Node](https://github.com/libbitcoin/libbitcoin-node/wiki)
 * **Development Libraries**
-  * [libbitcoin](https://github.com/libbitcoin/libbitcoin/blob/master/README.md)
+  * [libbitcoin (system)](https://github.com/libbitcoin/libbitcoin/blob/master/README.md)
   * [libbitcoin-blockchain](https://github.com/libbitcoin/libbitcoin-blockchain/blob/master/README.md)
   * [libbitcoin-client](https://github.com/libbitcoin/libbitcoin-client/blob/master/README.md)
   * [libbitcoin-consensus](https://github.com/libbitcoin/libbitcoin-consensus/blob/master/README.md)
