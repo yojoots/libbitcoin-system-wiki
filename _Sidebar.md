@@ -5,7 +5,7 @@
 * **[Mailing List](https://mailinglists.dyne.org/cgi-bin/mailman/listinfo/libbitcoin)**
 * **[Build Libbitcoin](Build)**
 * **[Comprehensive Overview](https://en.bitcoin.it/wiki/Libbitcoin)**
-* **[Tutorials (aaronjaramillo)](https://aaronjaramillo.org/category/libbitcoindocs)**
+* **[Tutorials (aaronjaramillo)](http://aaronjaramillo.org/category/libbitcoindocs)**
 * **Console Applications**
   * [Bitcoin Explorer](https://github.com/libbitcoin/libbitcoin-explorer/wiki)
   * [Bitcoin Server](https://github.com/libbitcoin/libbitcoin-server/wiki)
