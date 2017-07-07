@@ -448,7 +448,7 @@ t1Zv78LE5HMXGCH1MfBcBzywHdAfosDv6tE
 **Monero m/44'/128'/0' Account :**
 
 ```
-% echo "radar blur cabbage chef fix engine embark joy scheme fiction master release" | bx mnemonic-to-seed | bx hd-new | bx hd-private -d -i 44 | bx hd-private -d -i 128 |  bx hd-private -d -i 0 | bx hd-to-ec | [**./xmr**](https://github.com/skaht/XMR)
+% echo "radar blur cabbage chef fix engine embark joy scheme fiction master release" | bx mnemonic-to-seed | bx hd-new | bx hd-private -d -i 44 | bx hd-private -d -i 128 |  bx hd-private -d -i 0 | bx hd-to-ec | ./xmr
 ```
     Seed                 : e62551cad9fe0f05d7c84cf6a0ef7e8fc0534c2694279fc6e46d38f21a3f6ed3
     Private Spend Key    : dd62d51183f6208cf4d1b9af523f2c80bf534c2694279fc6e46d38f21a3f6e03
@@ -458,7 +458,7 @@ t1Zv78LE5HMXGCH1MfBcBzywHdAfosDv6tE
     Monero Address       : 4A4cAKxSbirZTFbkK5LwoYL3hLkVxkT8yLxAz8KCxAT66naEG4pYY9B6Q43zdao1oE3D3mzodbggzNz9t9tGvE8N3jVnu3A
     Electrum Seed Words  : bacon enigma gasp furnished memoir aunt input makeup dodge amended hookup tyrant syringe tinted absorb science cement vacation inexact kiwi inflamed sensible mews motherly memoir
 
-Contrast ./xmr results above from what https://xmr.llcoins.net/addresstests.html yields using e62551cad9fe0f05d7c84cf6a0ef7e8fc0534c2694279fc6e46d38f21a3f6ed3 as the "Hexadecimal Seed".  There are two sets of Electrum seed words that result in the same Monero address. Subtle differences can be easily explained by knowing if the seed is already normalized (i.e., sc_reduce32 is applied) or not.
+Contrast ./xmr results above from what https://xmr.llcoins.net/addresstests.html yields using e62551cad9fe0f05d7c84cf6a0ef7e8fc0534c2694279fc6e46d38f21a3f6ed3 as the "Hexadecimal Seed".  There are two sets of Electrum seed words that result in the same Monero address. Subtle differences can be easily explained by knowing if the seed is already normalized (i.e., sc_reduce32 is applied) or not. Also, **./xmr** source code is located [**here**](https://github.com/skaht/XMR). 
 
 ### 11) Ethereum (ETH) BIP 39/44 Technology [Examples](https://medium.com/@alexberegszaszi/why-do-my-bip32-wallets-disagree-6f3254cc5846#.mwhwon7af):
 
