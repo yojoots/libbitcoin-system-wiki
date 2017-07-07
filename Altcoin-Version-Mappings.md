@@ -448,7 +448,7 @@ t1Zv78LE5HMXGCH1MfBcBzywHdAfosDv6tE
 **Monero m/44'/128'/0' Account :**
 
 ```
-% echo "radar blur cabbage chef fix engine embark joy scheme fiction master release" | bx mnemonic-to-seed | bx hd-new | bx hd-private -d -i 44 | bx hd-private -d -i 128 |  bx hd-private -d -i 0 | bx hd-to-ec | ./xmr
+% echo "radar blur cabbage chef fix engine embark joy scheme fiction master release" | bx mnemonic-to-seed | bx hd-new | bx hd-private -d -i 44 | bx hd-private -d -i 128 |  bx hd-private -d -i 0 | bx hd-to-ec | [**./xmr**](https://github.com/skaht/XMR)
 ```
     Seed                 : e62551cad9fe0f05d7c84cf6a0ef7e8fc0534c2694279fc6e46d38f21a3f6ed3
     Private Spend Key    : dd62d51183f6208cf4d1b9af523f2c80bf534c2694279fc6e46d38f21a3f6e03
