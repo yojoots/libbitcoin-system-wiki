@@ -10,6 +10,7 @@ A swap of property between two [Persons](#person).
 An agreement among [People](#person).
 #### Coin
 A [Consensus](#consensus) regarding a mutually-acceptable medium for [Trade](#trade).
+> Bitcoin is a Coin
 #### Consensus Rules
 The set of constraints that define a [Coin](#coin).
 #### Rule
@@ -21,6 +22,7 @@ The process of determining [Validity](#validity).
 ***
 #### Unit
 The atomic transferable value of a [Coin](#coin).
+> The Satoshi is the Bitcoin Unit
 #### Transfer
 The change of control over certain [Units](#unit).
 #### Transaction
