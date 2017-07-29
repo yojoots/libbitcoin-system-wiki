@@ -4,7 +4,7 @@ A decision maker.
 #### Machine
 An instruction follower.
 #### Trade
-A swap of property between two [Persons](#Person).
+A swap of property between two [Persons](#person).
 ***
 #### Consensus
 An agreement among people.
