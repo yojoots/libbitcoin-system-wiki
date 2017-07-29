@@ -7,7 +7,7 @@ An instruction follower.
 A swap of property between two [Persons](#person).
 ***
 #### Consensus
-An agreement among people.
+An agreement among [People](#person).
 #### Coin
 A [Consensus](#consensus) regarding an acceptable medium for [Trade](#trade).
 #### Consensus Rules
