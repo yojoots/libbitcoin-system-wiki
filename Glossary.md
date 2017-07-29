@@ -108,7 +108,7 @@ Existence of a [Transaction](#transaction) in a [Block](#block).
 #### Depth
 One more than the count of [Blocks](#block) after a [Confirmation](#confirmation).
 #### Genesis
-A first [Block](#block) established by [Consensus](#consensus).
+The first [Block](#block) of all [Branches](#branch).
 #### Height
 The count of preceding [Blocks](#block) in a [Branch](#branch).
 #### Unconfirmed
