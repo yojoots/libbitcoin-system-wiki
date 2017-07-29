@@ -9,134 +9,134 @@ A swap of property between two [Persons](#person).
 #### Consensus
 An agreement among people.
 #### Coin
-A [Consensus](Consensus) regarding an acceptable medium for [Trade](Trade).
+A [Consensus](#consensus) regarding an acceptable medium for [Trade](#trade).
 #### Consensus Rules
-The set of constraints that define a [Coin](Coin).
+The set of constraints that define a [Coin](#coin).
 #### Rule
-A subset of [Consensus Rules](Consensus-Rules).
+A subset of [Consensus Rules](#consensus-rules).
 #### Validity
-Conformance to [Consensus-Rules]().
+Conformance to [Consensus-Rules](#consensus-rules).
 #### Validation
-The process of determining [Validity](Validity).
+The process of determining [Validity](#validity).
 ***
 #### Unit
-The atomic transferable value of a [Coin](Coin).
+The atomic transferable value of a [Coin](#coin).
 #### Transfer
-The change of control over certain [Units](Unit).
+The change of control over certain [Units](#unit).
 #### Transaction
-A [Valid](Validity) record of [Transfer](Transfer).
+A [Valid](#validity) record of [Transfer](#transfer).
 #### Block
-A [Valid](Validity) set of [Transactions](Transaction) with [Timestamp](Timestamp) and [Proof](Proof).
+A [Valid](#validity) set of [Transactions](#transaction) with [Timestamp](#timestamp) and [Proof](#proof).
 #### Chain
-The [Branch](Branch) with the most cumulative [Work](Work).
+The [Branch](#branch) with the most cumulative [Work](#work).
 ***
 #### Timestamp
-A declaration of the time of [Block](Block) production.
+A declaration of the time of [Block](#block) production.
 #### Median Time Past
-An average of preceding [Block](Block) [Timestamps](Timestamp).
+An average of preceding [Block](#block) [Timestamps](#timestamp).
 #### Proof
-Statistical evidence of the cost of [Work](Work) performed.
+Statistical evidence of the cost of [Work](#work) performed.
 #### Work
-The process of [Block](Block) production.
+The process of [Block](#block) production.
 #### Branch
-A [Valid](Validity) sequence of [Blocks](Block).
+A [Valid](#validity) sequence of [Blocks](#block).
 #### Weak
-A [Branch]() with less cumulative [Work](Work) than another.
+A [Branch](#branch) with less cumulative [Work](#work) than another.
 #### Strong
-A [Branch]() with more cumulative [Work](Work) than another.
+A [Branch](#branch) with more cumulative [Work](#work) than another.
 #### Orphan
-A misnomer for a [Weak Branch]().
+A misnomer for a [Weak Branch](#weak).
 ***
 #### Mine
-A [Tool](Tool) that performs [Work](Work).
+A [Tool](#tool) that performs [Work](#work).
 #### Node
-A [Tool](Tool) that performs [Validation](Validation).
+A [Tool](#tool) that performs [Validation](#validation).
 #### Wallet
-A [Tool](Tool) that creates [Transactions](Transaction).
+A [Tool](#tool) that creates [Transactions](#transaction).
 #### Tool
-A set of [Machine](Machine) instructions.
+A set of [Machine](#machine) instructions.
 ***
 #### Miner
-A [Person](Person) performing [Work](Work).
+A [Person](#person) performing [Work](#work).
 #### User
-A [Person](Person) accepting [Units](Unit) in [Trade](Trade).
+A [Person](#person) accepting [Units](#unit) in [Trade](#trade).
 #### Holder
-A [Person](Person) controlling certain [Units]().
+A [Person](#person) controlling certain [Units](#unit).
 #### Developer
-A [Person](Person) that implements [Tools](Tool).
+A [Person](#person) that implements [Tools](#tool).
 ***
 #### Hash Power
-The set of all [Miners](Miner).
+The set of all [Miners](#miner).
 #### Economy
-The set of all [Users](User).
+The set of all [Users](#user).
 #### Supply
-The set of all issued [Units](Unit).
+The set of all issued [Units](#unit).
 #### Exchange
-The [Trade](Trade) of [Units](Unit) for other property.
+The [Trade](#trade) of [Units](#unit) for other property.
 #### Implementation
-A specific [Tool](Tool).
+A specific [Tool](#tool).
 ***
 #### Subsidy
-The issuance of new [Units](Unit) to a [Miner](Miner).
+The issuance of new [Units](#unit) to a [Miner](#miner).
 #### Inflation
-The increase in [Supply](Supply) resulting from [Subsidy](Subsidy).
+The increase in [Supply](#supply) resulting from [Subsidy](#subsidy).
 #### Fee
-An implicit [Transfer](Transfer) to a [Miner](Miner).
+An implicit [Transfer](#transfer) to a [Miner](#miner).
 #### Reward
-The sum of [Subsidy](Subsidy) and [Fees]() for a [Block](Block).
+The sum of [Subsidy](#subsidy) and [Fees](#fees) for a [Block](#block).
 #### Coinbase
-A [Transaction](Transaction) that transfers a [Reward](Reward).
+A [Transaction](#transaction) that transfers a [Reward](#reward).
 #### Halving
-A reduction in the [Subsidy](Subsidy) rate (by half).
+A reduction in the [Subsidy](#subsidy) rate (by half).
 #### Difficulty
-The level of [Work](Work) required for [Validity](Validity).
+The level of [Work](#work) required for [Validity](#validity).
 #### Adjustment
-A change to [Difficulty](Difficulty).
+A change to [Difficulty](#difficulty).
 #### Cap
-The limit to [Supply](Supply) over all time.
+The limit to [Supply](#supply) over all time.
 #### Price
-A moving average of [Exchange](Exchange) rates.
+A moving average of [Exchange](#exchange) rates.
 #### Capitalization
-The product of [Price](Price) and [Supply](Supply).
+The product of [Price](#price) and [Supply](#supply).
 #### Hash
-[Work](Work) performed to obtain a potentially [Valid](Valid) [Block](Block).
+[Work](#work) performed to obtain a potentially [Valid](#validity) [Block](#block).
 #### Hashrate
-The rate of [Hashing](Hash) by a set of [Miners](Miner).
+The rate of [Hashing](#hash) by a set of [Miners](#miner).
 ***
 #### Confirmation
-Existence of a [Transaction](Transaction) in a [Block](Block).
+Existence of a [Transaction](#transaction) in a [Block](#block).
 #### Depth
-One more than the count of [Blocks](Block) after a [Confirmation](Confirmation).
+One more than the count of [Blocks](#block) after a [Confirmation](#confirmation).
 #### Genesis
-A first [Block](Block) established by [Consensus](Consensus).
+A first [Block](#block) established by [Consensus](#consensus).
 #### Height
-The count of [Blocks](Block) since [Genesis](Genesis).
+The count of [Blocks](#block) since [Genesis](#genesis).
 #### Unconfirmed
-A [Transaction](Transaction) that does not exist in a [Block](Block).
+A [Transaction](#transaction) that does not exist in a [Block](#block).
 #### Transaction Pool
-The set of [Unconfirmed Transactions](Unconfirmed).
+The set of [Unconfirmed Transactions](#unconfirmed).
 #### Memory Pool
-A misnomer for [Transaction Pool](Transaction-Pool) subset.
+A misnomer for [Transaction Pool](#transaction-pool) subset.
 #### Block Pool
-The set of [Weak Blocks](Weak).
+The set of [Weak Blocks](#weak).
 #### Orphan Pool
-A misnomer for [Block Pool](Block-Pool) subset.
+A misnomer for [Block Pool](#block-pool) subset.
 ***
 #### Script
-A set of [Operations](Operation) that authorizes [Transfer](Transfer).
+A set of [Operations](#operation) that authorizes [Transfer](#transfer).
 #### Operation
 An atomic declaration of intent.
 #### Contract
-A [Script](Script) expressing [Transfer](Transfer) conditions.
+A [Script](#script) expressing [Transfer](#transfer) conditions.
 #### Endorsement
-A [Script](Script) that satisfies a [Contract](Contract).
+A [Script](#script) that satisfies a [Contract](#contract).
 #### Point
-A reference to an [Output](Output) or [Input](Input).
+A reference to an [Output](#output) or [Input](#input).
 #### Output
-An explicit [Transfer](Transfer) and a [Contract](Contract).
+An explicit [Transfer](#transfer) and a [Contract](#contract).
 #### Input
-An [Output](Output) [Point](Point) and an [Endorsement](Endorsement).
+An [Output](#output) [Point](#point) and an [Endorsement](#endorsement).
 #### Previous Output
-The [Output](Output) to which an [Input](Input) refers.
+The [Output](#output) to which an [Input](#input) refers.
 #### Locktime
-An expression of earliest [Transaction](Transaction) [Validity](Validity).
+An expression of earliest [Transaction](#transaction) [Validity](#validity).
