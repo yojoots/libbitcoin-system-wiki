@@ -1,1 +1,1 @@
-This section aims to provide clear and useful high level explanations using terminology based on concise formal definitions. Common use terms are retained to the extent to the extent that a term is not misleading or cryptic.
+This section aims to provide clear and useful high level explanations using terminology based on concise formal [definitions](Glossary). Common use terms are retained to the extent to the extent that a term is not misleading or cryptic.
