@@ -87,7 +87,7 @@ An implicit [Transfer](#transfer) to a [Miner](#miner).
 #### Reward
 The sum of [Subsidy](#subsidy) and [Fees](#fees) for a [Block](#block).
 #### Coinbase
-A [Transaction](#transaction) that transfers a [Reward](#reward).
+A [Transaction](#transaction) that [Transfers](#transfer) a [Reward](#reward).
 #### Halving
 A reduction in the [Subsidy](#subsidy) rate (by half).
 #### Difficulty
