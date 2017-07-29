@@ -7,6 +7,7 @@
 * **[Comprehensive Overview](https://en.bitcoin.it/wiki/Libbitcoin)**
 * **[Tutorials (aaronjaramillo)](http://aaronjaramillo.org/category/libbitcoindocs)**
 * **[Understanding Bitcoin](Understanding-Bitcoin)**
+  * [Glossary](Glossary)
 * **Console Applications**
   * [Bitcoin Explorer](https://github.com/libbitcoin/libbitcoin-explorer/wiki)
   * [Bitcoin Server](https://github.com/libbitcoin/libbitcoin-server/wiki)
