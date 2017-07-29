@@ -9,7 +9,7 @@ A swap of property between two [Persons](#person).
 #### Consensus
 An agreement among [People](#person).
 #### Coin
-A [Consensus](#consensus) regarding an acceptable medium for [Trade](#trade).
+A [Consensus](#consensus) regarding a mutually-acceptable medium for [Trade](#trade).
 #### Consensus Rules
 The set of constraints that define a [Coin](#coin).
 #### Rule
