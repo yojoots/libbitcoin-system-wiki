@@ -30,7 +30,7 @@ A [Valid](#validity) record of [Transfer](#transfer).
 #### Block
 A [Valid](#validity) set of [Transactions](#transaction) with [Timestamp](#timestamp) and [Proof](#proof).
 #### Chain
-The [Branch](#branch) with the most cumulative [Work](#work).
+The [Branch](#branch) with the most cumulative [Proof](#proof).
 ***
 #### Timestamp
 A declaration of the time of [Block](#block) production.
@@ -43,9 +43,9 @@ The process of [Block](#block) production.
 #### Branch
 A [Valid](#validity) sequence of [Blocks](#block).
 #### Weak
-A [Branch](#branch) with less cumulative [Work](#work) than another.
+A [Branch](#branch) with less cumulative [Proof](#proof) than another.
 #### Strong
-A [Branch](#branch) with more cumulative [Work](#work) than another.
+A [Branch](#branch) with more cumulative [Proof](#proof) than another.
 #### Orphan
 A misnomer for a [Weak Branch](#weak).
 ***
@@ -91,7 +91,7 @@ A [Transaction](#transaction) that transfers a [Reward](#reward).
 #### Halving
 A reduction in the [Subsidy](#subsidy) rate (by half).
 #### Difficulty
-The level of [Work](#work) required for [Validity](#validity).
+The level of [Proof](#proof) required for [Validity](#validity).
 #### Adjustment
 A change to [Difficulty](#difficulty).
 #### Cap
