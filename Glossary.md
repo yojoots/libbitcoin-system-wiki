@@ -144,3 +144,14 @@ An [Output](#output) [Point](#point) and an [Endorsement](#endorsement).
 The [Output](#output) to which an [Input](#input) refers.
 #### Locktime
 An expression of earliest [Transaction](#transaction) [Validity](#validity).
+***
+#### Fork
+A divergence in [Consensus Rules](#consensus-rules).
+#### Split
+The [Chain](#chain) bifurcation resulting from a [Fork](#fork).
+#### Stall
+The lack of [Chain](#chain) height increase over time.
+#### Signal
+A [Miner](#miner) indication of [Fork](#fork) preference.
+#### Activation
+The act of changing a [Rule](#rule).
