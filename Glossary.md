@@ -110,7 +110,7 @@ One more than the count of [Blocks](#block) after a [Confirmation](#confirmation
 #### Genesis
 A first [Block](#block) established by [Consensus](#consensus).
 #### Height
-The count of [Blocks](#block) since [Genesis](#genesis).
+The count of preceding [Blocks](#block) in a [Branch](#branch).
 #### Unconfirmed
 A [Transaction](#transaction) that does not exist in a [Block](#block).
 #### Transaction Pool
