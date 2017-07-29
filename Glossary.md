@@ -150,7 +150,7 @@ A divergence in [Consensus Rules](#consensus-rules).
 #### Split
 The [Chain](#chain) bifurcation resulting from a [Fork](#fork).
 #### Stall
-The lack of [Chain](#chain) height increase over time.
+The lack of [Height](#height) increase over time.
 #### Signal
 A [Miner](#miner) indication of [Fork](#fork) preference.
 #### Activation
