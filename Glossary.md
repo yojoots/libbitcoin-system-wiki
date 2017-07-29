@@ -131,7 +131,7 @@ A set of [Operations](#operation) that authorizes [Transfer](#transfer).
 #### Operation
 An atomic declaration of intent.
 #### Contract
-A [Script](#script) expressing [Transfer](#transfer) conditions.
+A [Script](#script) that expresses [Transfer](#transfer) conditions.
 #### Endorsement
 A [Script](#script) that satisfies a [Contract](#contract).
 #### Point
