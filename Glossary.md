@@ -61,8 +61,6 @@ A declaration of the time of [Block](#block) production.
 An average of preceding [Block](#block) [Timestamps](#timestamp).
 #### Proof
 Statistical evidence of the cost of [Work](#work) performed.
-#### Work
-The process of [Block](#block) production.
 #### Branch
 A [Valid](#validity) sequence of [Blocks](#block).
 #### Weak
@@ -114,14 +112,14 @@ The limit to [Supply](#supply) over all time.
 A moving average of [Exchange](#exchange) rates.
 #### Capitalization
 The product of [Price](#price) and [Supply](#supply).
-#### Hash
-[Work](#work) performed to obtain a potentially [Valid](#validity) [Block](#block).
-#### Hashrate
-The rate of [Hashing](#hash) by a set of [Miners](#miner).
 
 ## Components
 #### Mine
 A [Tool](#tool) that performs [Work](#work).
+#### Drill
+A [Tool](#tool) that performs [Hashing](#hash).
+#### Relay
+A [Tool](#tool) that disseminates new [Blocks](#block).
 #### Node
 A [Tool](#tool) that performs [Validation](#validation).
 #### Wallet
@@ -132,6 +130,10 @@ A set of [Machine](#machine) instructions.
 ## Actors
 #### Miner
 A [Person](#person) operating a [Mine](#mine).
+#### Driller
+A [Person](#person) operating a [Drill](#drill).
+#### Relayer
+A [Person](#person) operating a [Relay](#relay).
 #### User
 A [Person](#person) accepting [Units](#unit) in [Trade](#trade).
 #### Holder
@@ -150,6 +152,18 @@ The set of all issued [Units](#unit).
 The [Trade](#trade) of [Units](#unit) for other property.
 #### Implementation
 A specific [Tool](#tool).
+
+## Mining
+#### Work
+The process of [Block](#block) production.
+#### Candidate
+A potential [Block](#block) with undetermined [Proof](#proof).
+#### Hash
+An atomic computation to [Prove](#proof) [Candidate](#candidate) [Valid](#validity).
+#### Hash Rate
+The rate of [Hashing](#hash).
+#### Hash Power
+A fraction of the [Hash Rate](#hash-rate) of all [Mines](#mine).
 
 ## Deviations
 #### Fork
