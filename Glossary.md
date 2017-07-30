@@ -16,7 +16,7 @@ The set of constraints that define a [Coin](#coin).
 #### Rule
 A subset of [Consensus Rules](#consensus-rules).
 #### Validity
-Conformance to [Consensus-Rules](#consensus-rules).
+Conformance to [Consensus Rules](#consensus-rules).
 #### Validation
 The process of determining [Validity](#validity).
 ***
