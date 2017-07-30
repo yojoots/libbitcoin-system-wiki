@@ -164,7 +164,7 @@ A [Person](#person) controlling certain [Units](#unit).
 A [Person](#person) implementing [Tools](#tool).
 
 ## Communities
-#### Hash Power
+#### [TODO]
 The set of all [Miners](#miner).
 #### Economy
 The set of all [Merchants](#merchant).
