@@ -145,7 +145,7 @@ A [Person](#person) accepting [Units](#unit) in [Trade](#trade).
 A [Person](#person) controlling certain [Units](#unit).
 > Holder is a common alias for this.
 #### Developer
-A [Person](#person) that implements [Tools](#tool).
+A [Person](#person) implementing [Tools](#tool).
 
 ## Communities
 #### Hash Power
