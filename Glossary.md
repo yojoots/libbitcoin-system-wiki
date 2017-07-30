@@ -154,4 +154,4 @@ The lack of [Height](#height) increase over time.
 #### Signal
 A [Miner](#miner) indication of [Fork](#fork) preference.
 #### Activation
-The act of changing a [Rule](#rule).
+The act of adding a [Rule](#rule).
