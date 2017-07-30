@@ -173,11 +173,27 @@ The rate of [Hashing](#hash).
 #### Hash Power
 A fraction of the [Hash Rate](#hash-rate) of all [Mines](#mine).
 
+## Network
+#### Communication
+Conveyance of data between [Machines](#machine).
+#### Protocol
+A set of [Communication](#communication) conventions.
+#### Peer-to-Peer
+A symmetrical [Protocol](#protocol).
+#### Client-Server
+An asymmetrical [Protocol](#protocol).
+#### Latency
+The delay inherent in [Communication](#communication).
+#### Partition
+An inability of certain [Peers](#peer-to-peer) to [Communicate](#communication).
+
 ## Deviations
 #### Fork
 A divergence in [Consensus Rules](#consensus-rules).
 #### Split
 The [Chain](#chain) bifurcation resulting from a [Fork](#fork).
+#### Reorganization
+The resolution of a [Chain](#chain) bifurcation caused by [Latency](#latency) or [Partitioning](#partition).
 #### Stall
 The lack of [Height](#height) increase over time.
 #### Signal
