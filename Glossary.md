@@ -59,7 +59,7 @@ A [Tool](#tool) that creates [Transactions](#transaction).
 A set of [Machine](#machine) instructions.
 ***
 #### Miner
-A [Person](#person) performing [Work](#work).
+A [Person](#person) operating a [Mine](#mine).
 #### User
 A [Person](#person) accepting [Units](#unit) in [Trade](#trade).
 #### Holder
