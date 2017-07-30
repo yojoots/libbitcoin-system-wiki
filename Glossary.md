@@ -88,6 +88,10 @@ One more than the count of [Blocks](#block) after a [Confirmation](#confirmation
 The count of preceding [Blocks](#block) in a [Branch](#branch).
 
 ## Money
+#### Spend
+The initial publication of a [Transaction](#transaction).
+#### Double Spend
+The [Endorsement](#endorsement) of the same [Output](#output) [Contract](#contract) by distinct [Spends](#spend).
 #### Subsidy
 The issuance of new [Units](#unit) to a [Miner](#miner).
 #### Inflation
@@ -134,10 +138,12 @@ A [Person](#person) operating a [Mine](#mine).
 A [Person](#person) operating a [Drill](#drill).
 #### Relayer
 A [Person](#person) operating a [Relay](#relay).
-#### User
+#### Merchant
 A [Person](#person) accepting [Units](#unit) in [Trade](#trade).
-#### Holder
+> User is a common alias for this.
+#### Owner
 A [Person](#person) controlling certain [Units](#unit).
+> Holder is a common alias for this.
 #### Developer
 A [Person](#person) that implements [Tools](#tool).
 
@@ -159,7 +165,7 @@ The process of [Block](#block) production.
 #### Candidate
 A potential [Block](#block) with undetermined [Proof](#proof).
 #### Hash
-An atomic computation to [Prove](#proof) [Candidate](#candidate) [Valid](#validity).
+An atomic computation to [Prove](#proof) [Candidate](#candidate) [Validity](#validity).
 #### Hash Rate
 The rate of [Hashing](#hash).
 #### Hash Power
@@ -176,3 +182,5 @@ The lack of [Height](#height) increase over time.
 A [Miner](#miner) indication of [Fork](#fork) preference.
 #### Activation
 The act of adding a [Rule](#rule).
+
+
