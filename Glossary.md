@@ -20,6 +20,8 @@ A subset of [Consensus Rules](#consensus-rules).
 Conformance to [Consensus Rules](#consensus-rules).
 #### Validation
 The process of determining [Validity](#validity).
+#### Enforcement
+The act of discarding [Invalid](#validity) data.
 
 ## Objects
 #### Unit
@@ -181,6 +183,4 @@ The lack of [Height](#height) increase over time.
 #### Signal
 A [Miner](#miner) indication of [Fork](#fork) preference.
 #### Activation
-The act of adding a [Rule](#rule).
-
-
+Starting to [Enforce](#enforcement) a new [Rule](#rule).
