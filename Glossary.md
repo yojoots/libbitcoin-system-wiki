@@ -197,7 +197,7 @@ The resolution of a [Chain](#chain) bifurcation not resulting from a [Fork](#for
 > Reorg is an abbreviation for this.
 #### Stall
 The lack of [Height](#height) increase over time.
-#### Signal
-A [Miner](#miner) indication of [Fork](#fork) preference.
 #### Activation
 Starting to [Enforce](#enforcement) a new [Rule](#rule).
+#### Signal
+A [Miner](#miner) indication via [Block](#block) data of intent to [Enforce](#enforcement) a new [Rule](#rule).
