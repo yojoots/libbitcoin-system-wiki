@@ -1,11 +1,12 @@
-***
+## Fundamentals
 #### Person
 A decision maker.
 #### Machine
 An instruction follower.
 #### Trade
 A swap of property between two [Persons](#person).
-***
+
+## Consensus
 #### Consensus
 An agreement among [People](#person).
 #### Coin
@@ -19,7 +20,8 @@ A subset of [Consensus Rules](#consensus-rules).
 Conformance to [Consensus Rules](#consensus-rules).
 #### Validation
 The process of determining [Validity](#validity).
-***
+
+## Objects
 #### Unit
 The atomic transferable value of a [Coin](#coin).
 > The Satoshi is the Bitcoin Unit
@@ -31,7 +33,8 @@ A [Valid](#validity) record of [Transfer](#transfer).
 A [Valid](#validity) set of [Transactions](#transaction) with [Timestamp](#timestamp) and [Proof](#proof).
 #### Chain
 The [Branch](#branch) with the most cumulative [Proof](#proof).
-***
+
+## Blocks
 #### Timestamp
 A declaration of the time of [Block](#block) production.
 #### Median Time Past
@@ -44,11 +47,11 @@ The process of [Block](#block) production.
 A [Valid](#validity) sequence of [Blocks](#block).
 #### Weak
 A [Branch](#branch) with less cumulative [Proof](#proof) than another.
+> Orphan is a misnomer for this.
 #### Strong
 A [Branch](#branch) with more cumulative [Proof](#proof) than another.
-#### Orphan
-A misnomer for a [Weak Branch](#weak).
-***
+
+## Components
 #### Mine
 A [Tool](#tool) that performs [Work](#work).
 #### Node
@@ -57,7 +60,8 @@ A [Tool](#tool) that performs [Validation](#validation).
 A [Tool](#tool) that creates [Transactions](#transaction).
 #### Tool
 A set of [Machine](#machine) instructions.
-***
+
+## Actors
 #### Miner
 A [Person](#person) operating a [Mine](#mine).
 #### User
@@ -66,7 +70,8 @@ A [Person](#person) accepting [Units](#unit) in [Trade](#trade).
 A [Person](#person) controlling certain [Units](#unit).
 #### Developer
 A [Person](#person) that implements [Tools](#tool).
-***
+
+## Communities
 #### Hash Power
 The set of all [Miners](#miner).
 #### Economy
@@ -77,7 +82,8 @@ The set of all issued [Units](#unit).
 The [Trade](#trade) of [Units](#unit) for other property.
 #### Implementation
 A specific [Tool](#tool).
-***
+
+## Money
 #### Subsidy
 The issuance of new [Units](#unit) to a [Miner](#miner).
 #### Inflation
@@ -106,7 +112,8 @@ The product of [Price](#price) and [Supply](#supply).
 [Work](#work) performed to obtain a potentially [Valid](#validity) [Block](#block).
 #### Hashrate
 The rate of [Hashing](#hash) by a set of [Miners](#miner).
-***
+
+## Blockchain
 #### Confirmation
 Existence of a [Transaction](#transaction) in a [Block](#block).
 #### Depth
@@ -119,13 +126,12 @@ The count of preceding [Blocks](#block) in a [Branch](#branch).
 A [Transaction](#transaction) that does not exist in a [Block](#block).
 #### Transaction Pool
 The set of [Unconfirmed Transactions](#unconfirmed).
-#### Memory Pool
-A misnomer for [Transaction Pool](#transaction-pool) subset.
+> Memory Pool is a misnomer for this.
 #### Block Pool
 The set of [Weak Blocks](#weak).
-#### Orphan Pool
-A misnomer for [Block Pool](#block-pool) subset.
-***
+> Orphan Pool is a misnomer for this.
+
+## Transactions
 #### Script
 A set of [Operations](#operation) that authorizes [Transfer](#transfer).
 #### Operation
@@ -144,7 +150,8 @@ An [Output](#output) [Point](#point) and an [Endorsement](#endorsement).
 The [Output](#output) to which an [Input](#input) refers.
 #### Locktime
 An expression of earliest [Transaction](#transaction) [Validity](#validity).
-***
+
+## Deviations
 #### Fork
 A divergence in [Consensus Rules](#consensus-rules).
 #### Split
