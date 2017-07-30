@@ -133,6 +133,20 @@ A [Tool](#tool) that creates [Transactions](#transaction).
 #### Tool
 A set of [Machine](#machine) instructions.
 
+## Network
+#### Communication
+Conveyance of data between [Machines](#machine).
+#### Protocol
+A set of [Communication](#communication) conventions.
+#### Peer-to-Peer
+A symmetrical [Protocol](#protocol).
+#### Client-Server
+An asymmetrical [Protocol](#protocol).
+#### Latency
+The delay inherent in [Communication](#communication).
+#### Partition
+An inability of certain [Peers](#peer-to-peer) to [Communicate](#communication).
+
 ## Actors
 #### Miner
 A [Person](#person) operating a [Mine](#mine).
@@ -153,7 +167,7 @@ A [Person](#person) implementing [Tools](#tool).
 #### Hash Power
 The set of all [Miners](#miner).
 #### Economy
-The set of all [Users](#user).
+The set of all [Merchants](#merchant).
 #### Supply
 The set of all issued [Units](#unit).
 #### Exchange
@@ -172,20 +186,6 @@ An atomic computation to [Prove](#proof) [Candidate](#candidate) [Validity](#val
 The rate of [Hashing](#hash).
 #### Hash Power
 A fraction of the [Hash Rate](#hash-rate) of all [Mines](#mine).
-
-## Network
-#### Communication
-Conveyance of data between [Machines](#machine).
-#### Protocol
-A set of [Communication](#communication) conventions.
-#### Peer-to-Peer
-A symmetrical [Protocol](#protocol).
-#### Client-Server
-An asymmetrical [Protocol](#protocol).
-#### Latency
-The delay inherent in [Communication](#communication).
-#### Partition
-An inability of certain [Peers](#peer-to-peer) to [Communicate](#communication).
 
 ## Deviations
 #### Fork
