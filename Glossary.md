@@ -71,15 +71,9 @@ A [Branch](#branch) with less cumulative [Proof](#proof) than another.
 #### Strong
 A [Branch](#branch) with more cumulative [Proof](#proof) than another.
 
-## Blockchain
+## Sequence
 #### Confirmation
 Existence of a [Transaction](#transaction) in a [Block](#block).
-#### Depth
-One more than the count of [Blocks](#block) after a [Confirmation](#confirmation).
-#### Genesis
-The first [Block](#block) of all [Branches](#branch).
-#### Height
-The count of preceding [Blocks](#block) in a [Branch](#branch).
 #### Unconfirmed
 A [Transaction](#transaction) that does not exist in a [Block](#block).
 #### Transaction Pool
@@ -88,6 +82,12 @@ The set of [Unconfirmed Transactions](#unconfirmed).
 #### Block Pool
 The set of [Weak Blocks](#weak).
 > Orphan Pool is a misnomer for this.
+#### Genesis
+The first [Block](#block) of all [Branches](#branch).
+#### Depth
+One more than the count of [Blocks](#block) after a [Confirmation](#confirmation).
+#### Height
+The count of preceding [Blocks](#block) in a [Branch](#branch).
 
 ## Money
 #### Subsidy
