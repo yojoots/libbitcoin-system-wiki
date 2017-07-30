@@ -193,7 +193,7 @@ A divergence in [Consensus Rules](#consensus-rules).
 #### Split
 The [Chain](#chain) bifurcation resulting from a [Fork](#fork).
 #### Reorganization
-The resolution of a [Chain](#chain) bifurcation caused by [Latency](#latency) or [Partitioning](#partition).
+The resolution of a [Chain](#chain) bifurcation not resulting from a [Fork](#fork).
 > Reorg is an abbreviation for this.
 #### Stall
 The lack of [Height](#height) increase over time.
