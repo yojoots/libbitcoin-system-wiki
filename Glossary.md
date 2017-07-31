@@ -166,6 +166,7 @@ A [Person](#person) implementing [Tools](#tool).
 ## Aggregates
 #### Majority
 A subset of [Miners](#miner) with sufficient [Hash Power](#hash-power) to execute a sustained [Attack](#attack).
+> 51% is a common approximation of sufficient power.
 #### Economy
 The set of all [Merchants](#merchant).
 #### Supply
