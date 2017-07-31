@@ -135,8 +135,6 @@ To [Trade](#trade) time without [Units](#units) for property of greater [Utility
 To [Trade](#trade) time with [Units](#units) for property of greater [Utility](#utility) to the [Lender](#lend).
 #### Interest
 The average rate of increase in [Utility](#utility) from [Lending](#lend).
-#### State
-A set of [People](#person) that uses aggression in place of [Trade](#trade).
 
 ## Network
 #### Communication
@@ -239,6 +237,8 @@ Market intervention that skews the cost of [Mining](#mine).
 Determination of [Ownership](#owner).
 #### Censorship
 Subjective [Confirmation](#confirmation).
+#### State
+A set of [People](#person) that uses aggression in place of [Trade](#trade).
 
 ## Weakness
 #### Pooling
