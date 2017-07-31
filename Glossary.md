@@ -173,7 +173,7 @@ The set of all issued [Units](#unit).
 #### Exchange
 The [Trade](#trade) of [Units](#unit) for other property.
 #### Implementation
-A specific [Tool](#tool).
+A specific [Tool](#tool) set.
 
 ## Mining
 #### Work
