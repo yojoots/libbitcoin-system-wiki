@@ -119,20 +119,6 @@ A moving average of [Exchange](#exchange) rates.
 #### Capitalization
 The product of [Price](#price) and [Supply](#supply).
 
-## Components
-#### Mine
-A [Tool](#tool) that performs [Work](#work).
-#### Drill
-A [Tool](#tool) that performs [Hashing](#hash).
-#### Relay
-A [Tool](#tool) that disseminates new [Blocks](#block).
-#### Node
-A [Tool](#tool) that performs [Validation](#validation).
-#### Wallet
-A [Tool](#tool) that creates [Transactions](#transaction).
-#### Tool
-A set of [Machine](#machine) instructions.
-
 ## Network
 #### Communication
 Conveyance of data between [Machines](#machine).
@@ -146,6 +132,20 @@ An asymmetrical [Protocol](#protocol).
 The delay inherent in [Communication](#communication).
 #### Partition
 An inability of certain [Peers](#peer-to-peer) to [Communicate](#communication).
+
+## Components
+#### Mine
+A [Tool](#tool) that performs [Work](#work).
+#### Drill
+A [Tool](#tool) that performs [Hashing](#hash).
+#### Relay
+A [Tool](#tool) that disseminates new [Blocks](#block).
+#### Node
+A [Tool](#tool) that performs [Validation](#validation).
+#### Wallet
+A [Tool](#tool) that creates [Transactions](#transaction).
+#### Tool
+A set of [Machine](#machine) instructions.
 
 ## Actors
 #### Miner
