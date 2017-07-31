@@ -135,6 +135,8 @@ To [Trade](#trade) time without [Units](#units) for property of greater [Utility
 To [Trade](#trade) time with [Units](#units) for property of greater [Utility](#utility) to the [Lender](#lend).
 #### Interest
 The average rate of increase in [Utility](#utility) from [Lending](#lend).
+#### Market
+The [Trade](#trade) in certain property.
 
 ## Network
 #### Communication
@@ -232,7 +234,7 @@ Use of [Hash Power](#hash-power) to prevent [Confirmation](#confirmation) or ena
 #### Coercion
 Use of aggression to compel [Activation](#activation).
 #### Distortion
-Market intervention that skews the cost of [Mining](#mine).
+[Market](#market) aggression that skews the cost of [Mining](#mine).
 #### Taint
 Determination of [Ownership](#owner).
 #### Censorship
