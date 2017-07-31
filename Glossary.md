@@ -119,6 +119,18 @@ A moving average of [Exchange](#exchange) rates.
 #### Capitalization
 The product of [Price](#price) and [Supply](#supply).
 
+## Economics
+#### Utility
+The usefulness of somthing to a [Person](#person).
+> Value is an alias for this.
+#### Speculation
+[Owning](#owner) in expectation of a [Price](#price) increase.
+> Also borrowing in expectation of a price decrease.
+#### Investment
+The [Trade](#trade) of time without property for property of greater [Utility](#utility).
+#### Interest
+The average rate of increase in [Utility](#utility) from [Investment](#investment).
+
 ## Network
 #### Communication
 Conveyance of data between [Machines](#machine).
