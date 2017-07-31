@@ -3,8 +3,6 @@
 A decision maker.
 #### Machine
 An instruction follower.
-#### Trade
-A swap of property between two [Persons](#person).
 
 ## Consensus
 #### Consensus
@@ -122,6 +120,8 @@ A moving average of [Exchange](#exchange) rates.
 The product of [Price](#price) and [Supply](#supply).
 
 ## Economics
+#### Trade
+A voluntary swap of property between two [People](#person).
 #### Utility
 The usefulness of specific property to a [Person](#person).
 > Value is an alias for this.
@@ -135,6 +135,8 @@ To [Trade](#trade) time without [Units](#units) for property of greater [Utility
 To [Trade](#trade) time with [Units](#units) for property of greater [Utility](#utility) to the [Lender](#lend).
 #### Interest
 The average rate of increase in [Utility](#utility) from [Lending](#lend).
+#### State
+A set of [People](#person) that uses aggression in place of [Trade](#trade).
 
 ## Network
 #### Communication
