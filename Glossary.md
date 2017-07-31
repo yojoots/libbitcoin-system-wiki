@@ -213,4 +213,4 @@ A [Miner](#miner) indication via [Block](#block) data of intent to [Enforce](#en
 #### Attack
 Use of [Hash Power](#hash-power) to prevent [Confirmation](#confirmation) or enable [Double Spending](#double-spend).
 #### Coercion
-Use of agression to compel [Activation](#activation).
+Use of aggression to compel [Activation](#activation).
