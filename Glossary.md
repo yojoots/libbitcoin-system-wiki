@@ -43,8 +43,10 @@ A set of [Operations](#operation) that authorizes [Transfer](#transfer).
 An atomic declaration of intent.
 #### Contract
 A [Script](#script) that expresses [Transfer](#transfer) conditions.
+> Public Key Script (ScriptPubKey) is an anachronism for this.
 #### Endorsement
 A [Script](#script) that satisfies a [Contract](#contract).
+> Signature Script (ScriptSig) is an anachronism for this.
 #### Point
 A reference to an [Output](#output) or [Input](#input).
 #### Output
@@ -83,7 +85,7 @@ The set of [Unconfirmed Transactions](#unconfirmed).
 The set of [Weak Blocks](#weak).
 > Orphan Pool is a misnomer for this.
 #### Genesis
-The first [Block](#block) of all [Branches](#branch).
+The first [Block](#block) of all [Branches](#branch) of a [Coin](#coin).
 #### Depth
 One more than the count of [Blocks](#block) after a [Confirmation](#confirmation).
 #### Height
