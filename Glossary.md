@@ -251,7 +251,7 @@ The tendency toward few [Merchants](#merchants).
 > Merchants directly control validation.
 #### Delegation
 The tendency toward few [Owners](#owner).
-> Owners directly control transfer.
+> Owners directly control spending.
 #### Privatization
 The tendency toward private [Peer](#peer-to-peer) [Communication](#communication).
 > Identity implies exclusion.
