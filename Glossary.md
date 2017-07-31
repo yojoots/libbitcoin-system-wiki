@@ -208,5 +208,9 @@ The lack of [Height](#height) increase over time.
 Starting to [Enforce](#enforcement) a new [Rule](#rule).
 #### Signal
 A [Miner](#miner) indication via [Block](#block) data of intent to [Enforce](#enforcement) a new [Rule](#rule).
+
+## Security
 #### Attack
 Use of [Hash Power](#hash-power) to prevent [Confirmation](#confirmation) or enable [Double Spending](#double-spend).
+#### Coercion
+Use of agression to compel [Activation](#activation).
