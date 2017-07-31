@@ -163,9 +163,9 @@ A [Person](#person) controlling certain [Units](#unit).
 #### Developer
 A [Person](#person) implementing [Tools](#tool).
 
-## Communities
-#### -TODO-
-The set of all [Miners](#miner).
+## Aggregates
+#### Majority
+A subset of [Miners](#miner) with sufficient [Hash Power](#hash-power) to execute a sustained [Attack](#attack).
 #### Economy
 The set of all [Merchants](#merchant).
 #### Supply
@@ -201,5 +201,5 @@ The lack of [Height](#height) increase over time.
 Starting to [Enforce](#enforcement) a new [Rule](#rule).
 #### Signal
 A [Miner](#miner) indication via [Block](#block) data of intent to [Enforce](#enforcement) a new [Rule](#rule).
-#### Attack#### Attack
+#### Attack
 Use of [Hash Power](#hash-power) to prevent [Confirmation](#confirmation) or enable [Double Spending](#double-spend).
