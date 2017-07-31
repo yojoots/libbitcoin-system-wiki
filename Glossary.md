@@ -234,3 +234,5 @@ The tendency toward few [Owners](#owner).
 #### Privatization
 The tendency toward private [Networks](#network).
 > Network identity implies exclusion.
+#### Correlation
+The ability to [Taint](#taint) by [Chain](#chain) analysis.
