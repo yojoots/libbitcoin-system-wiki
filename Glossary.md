@@ -232,7 +232,7 @@ The tendency toward few [Merchants](#merchants).
 The tendency toward few [Owners](#owner).
 > Owners directly control transfer.
 #### Privatization
-The tendency toward private [Communication](#communication).
-> Network identity implies exclusion.
+The tendency toward private [Peer](#peer-to-peer) [Communication](#communication).
+> Identity implies exclusion.
 #### Correlation
 The ability to [Taint](#taint) by [Chain](#chain) analysis.
