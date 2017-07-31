@@ -198,9 +198,9 @@ A [Fork](#fork) that implies a [Split](#split).
 A [Fork](#fork) that implies a [Split](#split) unless [Enforced](#enforcement) by [Majority Hash Power](#majority-hash-power).
 > Contraction of the set of potentially-valid blocks.
 #### Split
-The [Chain](#chain) bifurcation resulting from a [Fork](#fork).
+A [Coin](#coin) bifurcation.
 #### Reorganization
-The resolution of a [Chain](#chain) bifurcation not resulting from a [Fork](#fork).
+The resolution of a [Chain](#chain) bifurcation.
 > Reorg is an abbreviation for this.
 #### Stall
 The lack of [Height](#height) increase over time.
