@@ -123,13 +123,15 @@ The product of [Price](#price) and [Supply](#supply).
 #### Utility
 The usefulness of something to a [Person](#person).
 > Value is an alias for this.
-#### Speculation
-[Owning](#owner) in expectation of a [Price](#price) increase.
-> Also borrowing in expectation of a price decrease.
-#### Investment
-The [Trade](#trade) of time without property for property of greater [Utility](#utility).
+#### Speculate
+To [Own](#owner) property in expectation of [Price](#price) increase.
+> Also to borrow in expectation of price decrease.
+#### Invest
+To [Trade](#trade) time without property for property of greater [Utility](#utility).
+#### Borrow
+To [Trade](#trade) time with property for property of greater [Utility](#utility) to another [Person](#person).
 #### Interest
-The average rate of increase in [Utility](#utility) from [Investment](#investment).
+The average rate of increase in [Utility](#utility) from [Investment](#invest).
 
 ## Network
 #### Communication
