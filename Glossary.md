@@ -212,11 +212,11 @@ A [Miner](#miner) indication via [Block](#block) data of intent to [Enforce](#en
 ## Security
 #### Attack
 Use of [Hash Power](#hash-power) to prevent [Confirmation](#confirmation) or enable [Double Spending](#double-spend).
-#### Censorship
-Subjective [Confirmation](#confirmation).
 #### Coercion
 Use of aggression to compel [Activation](#activation).
 #### Distortion
 Market intervention that skews the cost of [Mining](#mine).
 #### Taint
 Determination of [Ownership](#owner).
+#### Censorship
+Subjective [Confirmation](#confirmation).
