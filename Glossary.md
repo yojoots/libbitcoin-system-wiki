@@ -220,3 +220,17 @@ Market intervention that skews the cost of [Mining](#mine).
 Determination of [Ownership](#owner).
 #### Censorship
 Subjective [Confirmation](#confirmation).
+
+## Weakness
+#### Pooling
+The tendency toward few [Miners](#miner) and [Relays](#relay).
+> Larger mines and relays are more profitable.
+#### Centralization
+The tendency toward few [Merchants](#merchants).
+> Merchants directly control validation.
+#### Delegation
+The tendency toward few [Owners](#owner).
+> Owners directly control transfer.
+#### Privatization
+The tendency toward private [Networks](#network).
+> Network identity implies exclusion.
