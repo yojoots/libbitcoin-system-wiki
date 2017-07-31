@@ -164,7 +164,7 @@ A [Person](#person) controlling certain [Units](#unit).
 A [Person](#person) implementing [Tools](#tool).
 
 ## Aggregates
-#### Majority
+#### Majority Hash Power
 A subset of [Miners](#miner) with sufficient [Hash Power](#hash-power) to execute a sustained [Attack](#attack).
 > 51% is a common approximation of sufficient power.
 #### Economy
@@ -191,6 +191,10 @@ A fraction of the [Hash Rate](#hash-rate) of all [Mines](#mine).
 ## Deviations
 #### Fork
 A divergence in [Consensus Rules](#consensus-rules).
+#### Hard Fork
+A [Fork](#fork) that implies a [Split](#split).
+#### Soft Fork
+A [Fork](#fork) that implies a [Split](#split) unless [Enforced](#enforcement) by [Majority Hash Power](#majority-hash-power).
 #### Split
 The [Chain](#chain) bifurcation resulting from a [Fork](#fork).
 #### Reorganization
