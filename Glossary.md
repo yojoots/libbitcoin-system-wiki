@@ -256,4 +256,4 @@ The tendency toward few [Owners](#owner).
 The tendency toward private [Peer](#peer-to-peer) [Communication](#communication).
 > Identity implies exclusion.
 #### Correlation
-The ability to [Taint](#taint) by [Chain](#chain) analysis.
+The ability to [Taint](#taint) using statistical [Chain](#chain) analysis.
