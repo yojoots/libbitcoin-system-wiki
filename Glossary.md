@@ -43,10 +43,10 @@ A set of [Operations](#operation) that authorizes [Transfer](#transfer).
 An atomic declaration of intent.
 #### Contract
 A [Script](#script) that expresses [Transfer](#transfer) conditions.
-> Public Key Script (ScriptPubKey) is an anachronism for this.
+> Public Key Script is an anachronism for this.
 #### Endorsement
 A [Script](#script) that satisfies a [Contract](#contract).
-> Signature Script (ScriptSig) is an anachronism for this.
+> Signature Script is an anachronism for this.
 #### Point
 A reference to an [Output](#output) or [Input](#input).
 #### Output
