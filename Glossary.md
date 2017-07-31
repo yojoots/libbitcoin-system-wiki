@@ -193,8 +193,10 @@ A fraction of the [Hash Rate](#hash-rate) of all [Mines](#mine).
 A divergence in [Consensus Rules](#consensus-rules).
 #### Hard Fork
 A [Fork](#fork) that implies a [Split](#split).
+> Expansion of the set of potentially-valid blocks.
 #### Soft Fork
 A [Fork](#fork) that implies a [Split](#split) unless [Enforced](#enforcement) by [Majority Hash Power](#majority-hash-power).
+> Contraction of the set of potentially-valid blocks.
 #### Split
 The [Chain](#chain) bifurcation resulting from a [Fork](#fork).
 #### Reorganization
