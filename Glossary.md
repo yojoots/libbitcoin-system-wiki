@@ -121,7 +121,7 @@ The product of [Price](#price) and [Supply](#supply).
 
 ## Economics
 #### Utility
-The usefulness of somthing to a [Person](#person).
+The usefulness of something to a [Person](#person).
 > Value is an alias for this.
 #### Speculation
 [Owning](#owner) in expectation of a [Price](#price) increase.
