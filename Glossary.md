@@ -245,7 +245,7 @@ A set of [People](#person) that uses aggression in place of [Trade](#trade).
 ## Weakness
 #### Pooling
 The tendency toward few [Miners](#miner) and [Relays](#relay).
-> Larger mines and relays are more profitable.
+> Larger mines and relays have greater utility.
 #### Centralization
 The tendency toward few [Merchants](#merchants).
 > Merchants directly control validation.
