@@ -15,6 +15,7 @@
   * [Risk Sharing Principle](Risk-Sharing-Principle)
   * [Public Network Principle](Public-Network-Principle)
   * [Inertia Property](Inertia-Property)
+  * [Zero Sum Property](Zero-Sum-Property)
   * [Decentralization Measures](Decentralization-Measures)
   * [Relative Security Levels](Relative-Security-Levels)
   * [Glossary](Glossary)
