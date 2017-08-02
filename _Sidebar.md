@@ -11,6 +11,7 @@
   * [Proof Fork Fallacy](Proof-Fork-Fallacy)
   * [Hearn Error](Hearn-Error)
   * [Proximity Premium Flaw](Proximity-Premium-Flaw)
+  * [Risk-Sharing Principle](Risk-Sharing-Principle)
   * [Glossary](Glossary)
 * **Console Applications**
   * [Bitcoin Explorer](https://github.com/libbitcoin/libbitcoin-explorer/wiki)
