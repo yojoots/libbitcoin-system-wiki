@@ -9,9 +9,11 @@
 * **[Understanding Bitcoin](Understanding-Bitcoin)**
   * [Balance of Power Fallacy](Balance-of-Power-Fallacy)
   * [Proof Fork Fallacy](Proof-Fork-Fallacy)
+  * [Relay Fallacy](Relay-Fallacy)
   * [Hearn Error](Hearn-Error)
   * [Proximity Premium Flaw](Proximity-Premium-Flaw)
   * [Risk Sharing Principle](Risk-Sharing-Principle)
+  * [Public Network Principle](Public-Network-Principle)
   * [Inertia Property](Inertia-Property)
   * [Decentralization Measures](Decentralization-Measures)
   * [Relative Security Levels](Relative-Security-Levels)
