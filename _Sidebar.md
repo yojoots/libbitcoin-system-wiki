@@ -12,7 +12,7 @@
   * [Hearn Error](Hearn-Error)
   * [Proximity Premium Flaw](Proximity-Premium-Flaw)
   * [Risk Sharing Principle](Risk-Sharing-Principle)
-  * [Change Resistance Property](Change-Resistance-Property)
+  * [Inertia Property](Inertia-Property)
   * [Decentralization Measures](Decentralization-Measures)
   * [Relative Security Levels](Relative-Security-Levels)
   * [Glossary](Glossary)
