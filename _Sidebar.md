@@ -13,6 +13,8 @@
   * [Proximity Premium Flaw](Proximity-Premium-Flaw)
   * [Risk Sharing Principle](Risk-Sharing-Principle)
   * [Change Resistance Property](Change-Resistance-Property)
+  * [Decentralization Measures](Decentralization-Measures)
+  * [Relative Security Levels](Relative-Security-Levels)
   * [Glossary](Glossary)
 * **Console Applications**
   * [Bitcoin Explorer](https://github.com/libbitcoin/libbitcoin-explorer/wiki)
