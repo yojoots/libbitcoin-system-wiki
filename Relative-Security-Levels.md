@@ -1,1 +1,1 @@
-Coming Soon
+Coming Soon: Security is a function of human resistance to authority and is impossible to quantify, though specific scenarios can be compared.
