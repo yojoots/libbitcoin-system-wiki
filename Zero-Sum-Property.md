@@ -1,1 +1,1 @@
-Coming Soon
+Coming Soon: Bitcoin mining is a zero sum game; a tax/subsidy on some miners is a subsidy/tax on all others.
