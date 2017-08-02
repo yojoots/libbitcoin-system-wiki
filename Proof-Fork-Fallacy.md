@@ -1,1 +1,1 @@
-Coming Soon
+Coming Soon: Proof-of-Work forks cannot compensate for centralized mining. 
