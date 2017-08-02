@@ -1,1 +1,1 @@
-Coming Soon
+Coming Soon: Bitcoin security is based on the sharing of risk in order to increase the cost of attack and coercion.
