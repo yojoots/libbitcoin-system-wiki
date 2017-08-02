@@ -1,1 +1,1 @@
-Coming Soon
+Coming Soon: The advantage of proximity in mining is a consensus flaw.
