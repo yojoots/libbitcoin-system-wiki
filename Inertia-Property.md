@@ -1,1 +1,1 @@
-Coming Soon
+Coming Soon: Bitcoin resistance to splitting increases with the square of the size of the evenly-distributed economy.
