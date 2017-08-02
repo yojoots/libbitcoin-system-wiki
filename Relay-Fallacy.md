@@ -1,1 +1,1 @@
-Coming Soon
+Coming Soon: Relays aggregate mines just as mines aggregate hash power.
