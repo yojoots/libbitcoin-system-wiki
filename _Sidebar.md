@@ -8,6 +8,8 @@
 * **[Tutorials (aaronjaramillo)](http://aaronjaramillo.org/category/libbitcoindocs)**
 * **[Understanding Bitcoin](Understanding-Bitcoin)**
   * [Balance of Power Fallacy](Balance-of-Power-Fallacy)
+  * [Proof Fork Fallacy](Proof-Fork-Fallacy)
+  * [Hearn Error](Hearn-Error)
   * [Glossary](Glossary)
 * **Console Applications**
   * [Bitcoin Explorer](https://github.com/libbitcoin/libbitcoin-explorer/wiki)
