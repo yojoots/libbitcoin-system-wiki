@@ -7,6 +7,7 @@
 * **[Comprehensive Overview](https://en.bitcoin.it/wiki/Libbitcoin)**
 * **[Tutorials (aaronjaramillo)](http://aaronjaramillo.org/category/libbitcoindocs)**
 * **[Understanding Bitcoin](Understanding-Bitcoin)**
+  * [Balance of Power Fallacy](Balance-of-Power-Fallacy)
   * [Glossary](Glossary)
 * **Console Applications**
   * [Bitcoin Explorer](https://github.com/libbitcoin/libbitcoin-explorer/wiki)
