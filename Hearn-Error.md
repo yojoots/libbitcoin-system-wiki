@@ -1,1 +1,1 @@
-Coming Soon: Governments cannot ban popular things.
+Coming Soon: The idea that states cannot ban popular things is an error.
