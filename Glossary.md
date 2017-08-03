@@ -155,7 +155,7 @@ An inability of certain [Peers](#peer-to-peer) to [Communicate](#communication).
 ## Components
 #### Mine
 A [Tool](#tool) that performs [Work](#work).
-#### Drill
+#### Grind
 A [Tool](#tool) that performs [Hashing](#hash).
 #### Relay
 A [Tool](#tool) that disseminates new [Blocks](#block).
@@ -169,8 +169,8 @@ A set of [Machine](#machine) instructions.
 ## Actors
 #### Miner
 A [Person](#person) operating a [Mine](#mine).
-#### Driller
-A [Person](#person) operating a [Drill](#drill).
+#### Grinder
+A [Person](#person) operating a [Grind](#grind).
 #### Relayer
 A [Person](#person) operating a [Relay](#relay).
 #### Merchant
