@@ -10,7 +10,6 @@
   * [Balance of Power Fallacy](Balance-of-Power-Fallacy)
   * [Proof Fork Fallacy](Proof-Fork-Fallacy)
   * [Relay Fallacy](Relay-Fallacy)
-  * [Velocity Fallacy](Velocity-Fallacy)
   * [Hearn Error](Hearn-Error)
   * [Proximity Premium Flaw](Proximity-Premium-Flaw)
   * [Risk Sharing Principle](Risk-Sharing-Principle)
