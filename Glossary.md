@@ -229,6 +229,8 @@ Starting to [Enforce](#enforcement) a new [Rule](#rule).
 A [Miner](#miner) indication via [Block](#block) data of intent to [Enforce](#enforcement) a new [Rule](#rule).
 
 ## Security
+#### Power
+The relative level of control of a [Person](#person) over the [Chain](#chain) or [Coin](#coin).
 #### Attack
 Use of [Hash Power](#hash-power) to prevent [Confirmation](#confirmation) or enable [Double Spending](#double-spend).
 #### Coercion
