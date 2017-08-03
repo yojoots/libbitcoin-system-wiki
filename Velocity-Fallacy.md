@@ -1,1 +1,0 @@
-Coming Soon: The fallacy of the equation of exchange applied to Bitcoin.
