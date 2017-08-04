@@ -204,8 +204,6 @@ A potential [Block](#block) with undetermined [Proof](#proof).
 An atomic computation to [Prove](#proof) [Candidate](#candidate) [Validity](#validity).
 #### Hash Rate
 The rate of [Hashing](#hash).
-#### Hash Power
-A fraction of the [Hash Rate](#hash-rate) of all [Mines](#mine).
 
 ## Deviations
 #### Fork
@@ -231,6 +229,10 @@ A [Miner](#miner) indication via [Block](#block) data of intent to [Enforce](#en
 ## Security
 #### Power
 The relative level of control of a [Person](#person) over the [Chain](#chain) or [Coin](#coin).
+#### Economic Power
+A fraction of all property offered in [Exchange](#exchange).
+#### Hash Power
+A fraction of the [Hash Rate](#hash-rate) of all [Mines](#mine).
 #### Attack
 Use of [Hash Power](#hash-power) to prevent [Confirmation](#confirmation) or enable [Double Spending](#double-spend).
 #### Coercion
