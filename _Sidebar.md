@@ -8,7 +8,7 @@
 * **[Tutorials (aaronjaramillo)](http://aaronjaramillo.org/category/libbitcoindocs)**
 * **[Understanding Bitcoin](Understanding-Bitcoin)**
   * [Balance of Power Fallacy](Balance-of-Power-Fallacy)
-  * [Proof Fork Fallacy](Proof-Fork-Fallacy)
+  * [Proof-of-Work Fallacy](Proof-Fork-Fallacy)
   * [Relay Fallacy](Relay-Fallacy)
   * [Hearn Error](Hearn-Error)
   * [Proximity Premium Flaw](Proximity-Premium-Flaw)
