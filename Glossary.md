@@ -245,6 +245,8 @@ Determination of [Ownership](#owner).
 Subjective [Confirmation](#confirmation).
 #### State
 A set of [People](#person) that uses aggression in place of [Trade](#trade).
+#### Political
+Pertaining to the actions of [States](#state).
 
 ## Weakness
 #### Pooling
