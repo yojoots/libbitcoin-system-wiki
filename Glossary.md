@@ -211,7 +211,7 @@ The first communication of a [Block](#block) to another [Person](#person).
 #### Withholding
 The purposeful delay of [Announcement](#announcement).
 #### Variance
-The varying frequency of successful [Work](#work).
+The varying frequency of achieving a [Reward](#reward).
 
 ## Deviations
 #### Fork
