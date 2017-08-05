@@ -127,6 +127,10 @@ A voluntary swap of property between two [People](#person).
 #### Utility
 The usefulness of specific property to a [Person](#person).
 > Value is an alias for this.
+#### Supply
+The set of all issued [Units](#unit).
+#### Exchange
+The [Trade](#trade) of [Units](#unit) for other property.
 #### Speculate
 To [Own](#owner) in expectation of [Price](#price) increase.
 > Also to borrow in expectation of price decrease.
@@ -167,6 +171,8 @@ A [Tool](#tool) that performs [Validation](#validation).
 A [Tool](#tool) that creates [Transactions](#transaction).
 #### Tool
 A set of [Machine](#machine) instructions.
+#### Implementation
+A specific [Tool](#tool) set.
 
 ## Actors
 #### Miner
@@ -183,19 +189,6 @@ A [Person](#person) controlling certain [Units](#unit).
 > Holder is a common alias for this.
 #### Developer
 A [Person](#person) implementing [Tools](#tool).
-
-## Aggregates
-#### Majority Hash Power
-A subset of [Miners](#miner) with sufficient [Hash Power](#hash-power) to execute a sustained [Attack](#attack).
-> 51% is a common approximation of sufficient power.
-#### Economy
-The set of all [Merchants](#merchant).
-#### Supply
-The set of all issued [Units](#unit).
-#### Exchange
-The [Trade](#trade) of [Units](#unit) for other property.
-#### Implementation
-A specific [Tool](#tool) set.
 
 ## Mining
 #### Work
@@ -238,6 +231,8 @@ A [Miner](#miner) indication via [Block](#block) data of intent to [Enforce](#en
 ## Security
 #### Power
 The relative level of control of a [Person](#person) over the [Chain](#chain) or [Coin](#coin).
+#### Economy
+The set of all [Merchants](#merchant).
 #### Economic Power
 A fraction of all property offered in [Exchange](#exchange).
 #### Hash Power
