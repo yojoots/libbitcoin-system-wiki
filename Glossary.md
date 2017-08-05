@@ -206,6 +206,8 @@ A subset of [Miners](#miner) with sufficient [Hash Power](#hash-power) to execut
 > 51% is a common approximation of sufficient power.
 #### Optimization
 A [Tool](#tool) change that reduces the cost of [Mining](#mine).
+#### Announcement
+The first communication of a [block](#block) to another [person](#person).
 
 ## Deviations
 #### Fork
