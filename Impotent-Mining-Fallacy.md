@@ -1,0 +1,1 @@
+Coming Soon: Mining is not a powerless activity, it has the power to destroy the coin.
