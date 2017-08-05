@@ -8,7 +8,7 @@ This statement assumes a "prescribed Bitcoin mining protocol" that precludes [wi
 
 This statement assumes a concept of "fair share" that is foreign to Bitcoin, another straw man. A [miner](Glossary#miner) is [rewarded](Glossary#reward) based on his/her [blocks](Glossary#block) that reach [maturity](Glossary#maturity), not as a proportion of actual [hash rate](Glossary#hash-rate).
 
-These straw men are explicitly attributed to "conventional wisdom". In other words the paper uses them to show that the conventional wisdom is incorrect. However, the paper errs in unconditionally declaring that this *unfair* violation of the *protocol* constitutes an [attack](Glossary#attack):
+These straw men are explicitly attributed to "conventional wisdom". In other words the paper uses them to show that the conventional wisdom is incorrect. However, the paper errs in unconditionally declaring that this *unfair violation of the protocol* constitutes an [attack](Glossary#attack):
 
 > This attack can have significant consequences for Bitcoin: Rational miners will prefer to join the selfish miners, and the colluding group will increase in size until it becomes a majority. At this point, the Bitcoin system ceases to be a decentralized currency.
 
