@@ -208,6 +208,9 @@ An atomic computation to [Prove](#proof) [Candidate](#candidate) [Validity](#val
 The rate of [Hashing](#hash).
 #### Apparent Hash Power
 The fraction of [Blocks](#block) in a [Chain](#chain) [Segment](#segment).
+#### Majority Hash Power
+A subset of [Miners](#miner) with sufficient [Hash Power](#hash-power) to execute a sustained [Attack](#attack).
+> 51% is a common approximation of sufficient power.
 #### Optimization
 A [Tool](#tool) change that reduces the cost of [Mining](#mine).
 
