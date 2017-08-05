@@ -208,6 +208,8 @@ A subset of [Miners](#miner) with sufficient [Hash Power](#hash-power) to execut
 A [Tool](#tool) change that reduces the cost of [Mining](#mine).
 #### Announcement
 The first communication of a [block](#block) to another [person](#person).
+#### Withholding
+The purposeful delay of [Announcement](#announcement).
 
 ## Deviations
 #### Fork
