@@ -1,1 +1,1 @@
-Coming Soon: Selfish mining describes a centralization pressure, not a reduced security threshold. 
+Coming Soon: Selfish mining describes a pooling pressure, not a reduced security threshold. 
