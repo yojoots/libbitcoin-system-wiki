@@ -9,6 +9,7 @@
 * **[Understanding Bitcoin](Understanding-Bitcoin)**
   * [Balance of Power Fallacy](Balance-of-Power-Fallacy)
   * [Proof-of-Work Fallacy](Proof-of-Work-Fallacy)
+  * [Selfish Mining Fallacy](Selfish-Mining -Fallacy)
   * [Relay Fallacy](Relay-Fallacy)
   * [Hearn Error](Hearn-Error)
   * [Proximity Premium Flaw](Proximity-Premium-Flaw)
