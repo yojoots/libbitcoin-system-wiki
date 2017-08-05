@@ -259,7 +259,7 @@ Pertaining to the actions of [States](#state).
 ## Weakness
 #### Pooling
 The tendency toward few [Miners](#miner) and [Relays](#relay).
-> Larger mines and relays have greater utility.
+> Collusion is a common alias for this.
 #### Centralization
 The tendency toward few [Merchants](#merchants).
 > Merchants directly control validation.
