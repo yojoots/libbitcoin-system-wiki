@@ -207,7 +207,7 @@ A subset of [Miners](#miner) with sufficient [Hash Power](#hash-power) to execut
 #### Optimization
 A [Tool](#tool) change that reduces the cost of [Mining](#mine).
 #### Announcement
-The first communication of a [block](#block) to another [person](#person).
+The first communication of a [Block](#block) to another [Person](#person).
 #### Withholding
 The purposeful delay of [Announcement](#announcement).
 
