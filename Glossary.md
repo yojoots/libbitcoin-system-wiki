@@ -88,6 +88,8 @@ The first [Block](#block) of all [Branches](#branch) of a [Coin](#coin).
 One more than the count of [Blocks](#block) after a [Confirmation](#confirmation).
 #### Height
 The count of preceding [Blocks](#block) in a [Branch](#branch).
+#### Segment
+A contiguous subset of a [Branch](#branch).
 
 ## Money
 #### Spend
@@ -204,6 +206,10 @@ A potential [Block](#block) with undetermined [Proof](#proof).
 An atomic computation to [Prove](#proof) [Candidate](#candidate) [Validity](#validity).
 #### Hash Rate
 The rate of [Hashing](#hash).
+#### Apparent Hash Power
+The fraction of [Blocks](#block) in a [Chain](#chain) [Segment](#segment).
+#### Optimization
+A [Tool](#tool) change that reduces the cost of [Mining](#mine).
 
 ## Deviations
 #### Fork
