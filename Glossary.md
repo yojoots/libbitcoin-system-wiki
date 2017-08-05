@@ -249,6 +249,8 @@ Use of [Hash Power](#hash-power) to prevent [Confirmation](#confirmation) or ena
 Use of aggression to compel [Activation](#activation).
 #### Distortion
 [Market](#market) aggression that skews the cost of [Mining](#mine).
+#### Variation
+Differences in the resource cost of [Mining](#mine).
 #### Taint
 Determination of [Ownership](#owner).
 #### Censorship
