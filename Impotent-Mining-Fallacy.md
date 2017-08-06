@@ -4,7 +4,7 @@ The theory holds that if [majority hash power](Glossary#majority-hash-power) [do
 
 The theory also holds that a miner cannot avoid selecting the highest fee [transactions](Glossary#transaction) as this reduces relative [reward](Glossary#reward), enriching other miners. This is presumed to lead to a loss of majority status and therefore an inability to carry on the attack. This aspect of the theory implies that miners cannot effectively [censor](Glossary#censorship).
 
-Miners and merchants are trading partners engaged voluntarily in mutually-beneficial activity. As explored in the [Balance of Power Fallacy](Balance-of-Power-Fallacy), neither can control the other and price is the resolution of all preferences. This would seem to support the theory. However the theory simply ignores the *actual* threat.
+Miners and merchants are trading partners, engaged voluntarily in mutually-beneficial activity. As explored in the [Balance of Power Fallacy](Balance-of-Power-Fallacy), neither can control the other and price is the resolution of all preferences. This would seem to support the theory. However the theory simply ignores the *actual* threat.
 
 Bitcoin is designed to defend against non-market forces, specifically the [state](Glossary#state). The pooling of [hash power](Glossary#hash-power) eviscerates security, as states can simply step in and take the power. But states can also build their own [mines](Glossary#mine) to the same effect. Bitcoin therefore requires both significant hash power *and* distribution of that power among people who are willing and able to risk state controls.
 
