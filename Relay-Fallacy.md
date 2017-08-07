@@ -1,1 +1,3 @@
-Coming Soon: Relays aggregate mines just as mines aggregate hash power.
+The [peer-to-peer](Glossary#peer-to-peer) network disseminates [blocks](Glossary#block) and [unconfirmed](Glossary#unconfirmed) [transactions](Glossary#transaction). The [protocol](Glossary#protocol) itself allows [nodes](Glossary#node) to protect against [denial of service](Glossary#denial-of-service). Consequently this [communication](Glossary#communication) requires no [identity](Glossary#identity). This protection is how the network avoids identity, and therefore the need for permission, remaining trustless.
+
+...
