@@ -8,3 +8,4 @@ The first topics explore errors that may lead people to underestimate systemic [
 * [Selfish Mining Fallacy](Selfish-Mining-Fallacy)
 * [Relay Fallacy](Relay-Fallacy)
 * [Hearn Error](Hearn-Error)
+* [Proximity Premium Flaw](Proximity-Premium-Flaw)
