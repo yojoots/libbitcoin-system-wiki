@@ -1,1 +1,1 @@
-Coming Soon: Bitcoin cannot be a reserve currency, it must be a currency used in widespread trade.
+Coming Soon: Bitcoin cannot be scaled as a reserve currency, it must be a currency used in widespread trade.
