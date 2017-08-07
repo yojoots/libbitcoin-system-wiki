@@ -255,6 +255,8 @@ A fraction of all property offered in [Exchange](#exchange).
 A fraction of the [Hash Rate](#hash-rate) of all [Mines](#mine).
 #### Attack
 Use of [Hash Power](#hash-power) to prevent [Confirmation](#confirmation) or enable [Double Spending](#double-spend).
+#### Co-option
+Use of aggression to control [Pooled](#pooling) [Hash Power](#hash-power).
 #### Coercion
 Use of aggression to compel [Activation](#activation).
 #### Distortion
