@@ -12,4 +12,4 @@ Relays are aggregations of miners and miners are aggregations of grinders. The g
 
 A theory behind relays is that they reduce pooling pressure. This is a fallacy as it is clear that any pooling reduction caused by a relay does not disappear but is *transferred* to the relay itself. Relay statistics are never presented alongside pooling statistics, masking the power transfer. However peer-to-peer optimizations can produce *actual* reductions in pooling pressure, since the originating miner remains in control of his announcement and cannot exclude others.
 
-This fallacy leads people to believe that mining is less strongly-pooled than is the case. The consequence is complacency regarding the insecurity caused by a higher level of pooling.
+This fallacy leads people to believe that mining is less strongly-pooled than is the case. The consequence is complacency regarding the insecurity caused by the actual level of pooling.
