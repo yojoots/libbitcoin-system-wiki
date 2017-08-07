@@ -1,0 +1,1 @@
+Coming Soon: Bitcoin cannot be a reserve currency, it must be a currency in widespread use.
