@@ -11,6 +11,7 @@
   * [Proof of Work Fallacy](Proof-of-Work-Fallacy)
   * [Impotent Mining Fallacy](Impotent-Mining-Fallacy)
   * [Selfish Mining Fallacy](Selfish-Mining-Fallacy)
+  * [Reserve Currency Fallacy](Reserve-Currency-Fallacy)
   * [Relay Fallacy](Relay-Fallacy)
   * [Hearn Error](Hearn-Error)
   * [Proximity Premium Flaw](Proximity-Premium-Flaw)
