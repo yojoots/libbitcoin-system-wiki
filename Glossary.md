@@ -237,6 +237,12 @@ Starting to [Enforce](#enforcement) a new [Rule](#rule).
 #### Signal
 A [Miner](#miner) indication via [Block](#block) data of intent to [Enforce](#enforcement) a new [Rule](#rule).
 
+## Privacy
+#### Identity
+The means to relate [Communication](#communication) to a [Person](#person).
+#### Taint
+Determination of [Ownership](#owner).
+
 ## Security
 #### Power
 The relative level of control of a [Person](#person) over the [Chain](#chain) or [Coin](#coin).
@@ -254,8 +260,6 @@ Use of aggression to compel [Activation](#activation).
 [Market](#market) aggression that skews the cost of [Mining](#mine).
 #### Variation
 Differences in the resource cost of [Mining](#mine).
-#### Taint
-Determination of [Ownership](#owner).
 #### Censorship
 Subjective [Confirmation](#confirmation).
 #### State
