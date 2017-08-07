@@ -278,8 +278,8 @@ The tendency toward few [Merchants](#merchants).
 #### Delegation
 The tendency toward few [Owners](#owner).
 > Owners directly control spending.
-#### Privatization
-The tendency toward private [Peer](#peer-to-peer) [Communication](#communication).
+#### Partitioning
+The tendency toward persistent [Partitions](#partition).
 > Identity implies exclusion.
 #### Correlation
 The ability to [Taint](#taint) using statistical [Chain](#chain) analysis.
