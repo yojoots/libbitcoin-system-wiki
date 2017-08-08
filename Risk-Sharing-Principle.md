@@ -4,4 +4,4 @@ Technology is never the root of system security. Technology is a tool to help pe
 
 Bitcoin is no different, it is secured by people who place themselves at personal risk. Sharing this risk with other people is the purpose of decentralization. A centralized system requires one person to bear all of the risk for the system. A decentralized system divides the risk among the individuals who make up the system. Those who do not understand the value of decentralization most likely do not understand the necessary role of people in security.
 
-**Bitcoin allows people to share the personal risk of accepting and mining coin.** It is only the willingness and ability of these people to resist that prevents [coercion](Glossary#coercion) of their [nodes](Glossary#node) and [co-option](Glossary#co-option) of their [mines](Glossary#mine).
+**Bitcoin allows people to share the personal risk of accepting and mining coin.** It is only the willingness and ability of these people to resist that can prevent [coercion](Glossary#coercion) of their [nodes](Glossary#node) and [co-option](Glossary#co-option) of their [mines](Glossary#mine).
