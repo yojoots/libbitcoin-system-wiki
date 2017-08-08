@@ -7,6 +7,7 @@
 * **[Comprehensive Overview](https://en.bitcoin.it/wiki/Libbitcoin)**
 * **[Tutorials (aaronjaramillo)](http://aaronjaramillo.org/category/libbitcoindocs)**
 * **[Understanding Bitcoin](Understanding-Bitcoin)**
+  * [Axiom of Bitcoin](Axiom-of-Bitcoin)
   * [Risk Sharing Principle](Risk-Sharing-Principle)
   * [Proximity Premium Flaw](Proximity-Premium-Flaw)
   * [Balance of Power Fallacy](Balance-of-Power-Fallacy)
