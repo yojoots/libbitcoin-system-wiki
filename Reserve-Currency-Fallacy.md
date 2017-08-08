@@ -6,6 +6,8 @@ This scenario should sound familiar, as it is how nations ended up with gold and
 
 The ratio of issued BC to BTC in reserve cannot ever be effectively audited. Even if the integrity of BTC somehow remains intact there is no way to know how much BC has been issued, and there is no recourse if debasement is suspected. The member banks have to be trusted to account for their issues, and ultimately this means everyone trusts the central bank to not engage in [easing](https://en.wikipedia.org/wiki/Quantitative_easing). History demonstrates that this is unlikely.
 
+So why is it that a person cannot ever effectively audit (validate) BC, as had been possible with the BTC that it replaced? Because that would make BC indistinguishable from the  BTC held in reserve. In other words the *reason* there is a difference between [legal tender](https://en.wikipedia.org/wiki/Legal_tender) and reserve currency is to enable inflation of the currency in use while holding another currency in reserve.
+
 For Bitcoin to be a hard money, there must be an actual [decentralized](Glossary#centralization) Bitcoin economy. Without individuals [validating](Glossary#validation) BTC received in [exchange](Glossary#exchange), there is nobody to refuse [invalid](Glossary#validity) BTC as it comes to be redefined by the state. It is an error to conflate a settlement [layer](Glossary#layering) with substitution. Layering preserves the key security aspect of decentralization, which works against debasement, while "backing" is full abandonment of this protection.
 
 It is very possible for Bitcoin to be held by national treasuries, but not for it to be predominantly a reserve currency. People must trade with it for it to be secure.
