@@ -1,1 +1,7 @@
-Coming Soon: Bitcoin security is based on the sharing of risk in order to increase the costs of attack and coercion.
+Bitcoin is not secured by [hash power](Glossary#hash-power), [validation](Glossary#validation), [decentralization](Glossary#centralization), [cryptography](https://en.wikipedia.org/wiki/Cryptography), [open source](https://en.wikipedia.org/wiki/Free_and_open-source_software) or [game theory](https://en.wikipedia.org/wiki/Game_theory); it is secured by [people](Glossary#person).
+
+Technology is never the root of system security. Technology is a tool to help people secure what they value. Security requires people to act. A server cannot be secured by a firewall if there is no lock on the door to the server room, and a lock cannot secure the server room without a guard to monitor the door, and a guard cannot secure the door without risk of harm to himself.
+
+Bitcoin is no different, it is secured by people who place themselves at personal risk. Sharing this risk with other people is the purpose of [decentralization](Glossary#centralization). A centralized system requires one person to bear all of the risk for the system. A decentralized system divides the risk among the individuals who make up the system. Those who do not understand the value of decentralization most likely do not understand the role of people in security.
+
+**Bitcoin allows people to share the personal risk of accepting and mining coin.** It is only the willingness and ability of these people to resist [coercion](Glossary#coercion) that prevents changes to the [consensus rules](Glossary#consensus-rules) in their [nodes](Glossary#node) and that prevents [co-option](Glossary#co-option) of their mines.
