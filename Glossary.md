@@ -254,7 +254,8 @@ A fraction of all property offered in [Exchange](#exchange).
 #### Hash Power
 A fraction of the [Hash Rate](#hash-rate) of all [Mines](#mine).
 #### Attack
-Use of [Hash Power](#hash-power) to prevent [Confirmation](#confirmation) or enable [Double Spending](#double-spend).
+Use of [Hash Power](#hash-power) to enable [Double Spending](#double-spend).
+> Confirmation prevention is a case of double-spend enabling.
 #### Co-option
 Use of aggression to control [Hash Power](#hash-power).
 #### Coercion
