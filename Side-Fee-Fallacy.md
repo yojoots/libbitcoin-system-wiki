@@ -4,7 +4,7 @@ One impact of such arrangements is that an average *historical* fee rate cannot 
 
 Another impact is that disparate relative fee levels can highlight certain transactions as being associated with such arrangements. This can contribute to [taint](Glossary#taint) of the merchant's transaction and/or the miner's [coinbase](Glossary#coinbase). But given the arrangement is a choice made by the creators of these transactions, there is no privacy loss.
 
-There is no impact on market fee rates or the ability others to obtain confirmations. If the arrangement deviates from market rates then either the merchant or the miner is accepting an unnecessary loss. This is no different the miner confirming transactions with below-market on-chain fees or the merchant overestimating on-chain fees, respectively.
+There is no impact on market fee rates or the ability others to obtain confirmations. If the arrangement deviates from market rates then either the miner or the merchant is accepting an unnecessary loss. This is no different the miner confirming transactions with below-market on-chain fees or the merchant overestimating on-chain fees, respectively.
 
 Furthermore, unless the miner's [hash power](Glossary#hash-power) is 100%, the merchant is increasing his/her average confirmation times by paying a side-fee at what is otherwise a market rate. This implies the merchant should pay a lower rate, in proportion to the miner's hash power. Without understanding this effect one may misinterpret the actual effective rate in such arrangements.
 
