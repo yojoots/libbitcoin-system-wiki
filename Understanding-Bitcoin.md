@@ -2,8 +2,8 @@ This section aims to provide clear and useful high level explanations using term
 
 These topics explore concepts that may lead people to underestimate systemic [pooling](Glossary#pooling) risks:
 
-* [Proximity Premium Flaw](Proximity-Premium-Flaw)
 * [Risk Sharing Principle](Risk-Sharing-Principle)
+* [Proximity Premium Flaw](Proximity-Premium-Flaw)
 * [Balance of Power Fallacy](Balance-of-Power-Fallacy)
 * [Proof of Work Fallacy](Proof-of-Work-Fallacy)
 * [Impotent Mining Fallacy](Impotent-Mining-Fallacy)
