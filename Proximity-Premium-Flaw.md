@@ -2,7 +2,7 @@
 
 While a [miner](Glossary#miner) remains unaware of an announcement he wastes capital [grinding](Glossary#grind) on an [weak](Glossary#weak) [candidate](Glossary#candidate). As more time passes it becomes exponentially less likely that the miner will be [rewarded](Glossary#reward) for the candidate. Miners therefore compete to see announcements before other miners, as this reduces [opportunity cost](https://en.wikipedia.org/wiki/Opportunity_cost).
 
-If we were to disperse miners with equal [hash rate](Glossary#hash-rate) at equidistant points around the Earth they would experience the same latency. Yet due to the financial benefit of reduced latency, they would tend to move closer to each other. This force is [pooling](Glossary#pooling) pressure, and manifests in several ways.
+If we were to disperse miners with equal [hash rate](Glossary#hash-rate) at equidistant points around the Earth they would experience the same average latency. Yet due to the financial benefit of reduced latency, they would tend to move closer to each other. This force is [pooling](Glossary#pooling) pressure, and manifests in several ways.
 
 One manifestation is geographic, where independent miners become physically closer together. Another is cooperative, where formerly-independent miners join forces and co-locate grinding. Another is virtual, where miners become [grinders](Glossary#grinder) and aggregate hash rate to a single remote miner. Another is capital flow, since the higher hash rate associated with greater capital utilization is a form of co-location. Another is the existence of [relays](Glossary#relay), which have the [same effect](Relay-Fallacy) as hash rate aggregation.
 
