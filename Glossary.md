@@ -4,7 +4,7 @@ A decision maker.
 #### Machine
 An instruction follower.
 
-## Consensus
+## Agreement
 #### Consensus
 An agreement among [People](#person).
 #### Coin
