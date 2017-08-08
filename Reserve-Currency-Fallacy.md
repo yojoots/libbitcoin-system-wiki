@@ -4,7 +4,7 @@ Let us consider the scenario as it unfolds. Bitcoin becomes a fairly widely util
 
 This scenario should sound familiar, as it is how nations ended up with gold and people ended up with paper. The theory is invalid on multiple levels.
 
-The ratio of issued BC to BTC in reserve cannot ever be audited. Even if the integrity of BTC somehow remains intact there is no way to know how much BC has been issued, and there is no recourse if debasement is suspected. The member banks have to be trusted to account for their issues, and ultimately this means everyone trusts the central bank to not engage in [easing](https://en.wikipedia.org/wiki/Quantitative_easing). History demonstrates that this is unlikely.
+The ratio of issued BC to BTC in reserve cannot ever be effectively audited. Even if the integrity of BTC somehow remains intact there is no way to know how much BC has been issued, and there is no recourse if debasement is suspected. The member banks have to be trusted to account for their issues, and ultimately this means everyone trusts the central bank to not engage in [easing](https://en.wikipedia.org/wiki/Quantitative_easing). History demonstrates that this is unlikely.
 
 For Bitcoin to be a hard money, there must be an actual [decentralized](Glossary#centralization) Bitcoin economy. Without individuals [validating](Glossary#validation) BTC received in [exchange](Glossary#exchange), there is nobody to refuse [invalid](Glossary#validity) BTC as it comes to be redefined by the state. It is an error to conflate a settlement [layer](Glossary#layering) with substitution. Layering preserves the key security aspect of decentralization, which works against debasement, while "backing" is full abandonment of this protection.
 
