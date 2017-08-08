@@ -8,4 +8,4 @@ The ratio of issued BC to BTC in reserve cannot ever be audited. Even if the int
 
 For Bitcoin to be a hard money, there must be an actual [decentralized](Glossary#centralization) Bitcoin economy. Without individuals [validating](Glossary#validation) BTC received in [exchange](Glossary#exchange), there is nobody to refuse [invalid](Glossary#validity) BTC as it comes to be redefined by the state. It is an error to conflate a settlement [layer](Glossary#layering) with substitution. Layering preserves the key security aspect of decentralization, which works against debasement, while "backing" is full abandonment of this protection.
 
-It is very possible for Bitcoin to be held by national treasuries, but not for it to be exclusively a reserve currency. People must trade with it for it to be secure.
+It is very possible for Bitcoin to be held by national treasuries, but not for it to be predominantly a reserve currency. People must trade with it for it to be secure.
