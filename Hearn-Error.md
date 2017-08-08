@@ -15,3 +15,5 @@ The theory is invalid, as it rests on a factual error. It is evident that states
 * Labor
 * Books
 * Money
+
+This error may arise from failure to accept the [Axiom of Resistance](Axiom-of-Resistance) while continuing to work in Bitcoin. This is likely to produce [cognitive dissonance](https://en.wikipedia.org/wiki/Cognitive_dissonance) and a search for resolution may lead one to this error.
