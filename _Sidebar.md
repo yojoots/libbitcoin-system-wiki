@@ -7,8 +7,8 @@
 * **[Comprehensive Overview](https://en.bitcoin.it/wiki/Libbitcoin)**
 * **[Tutorials (aaronjaramillo)](http://aaronjaramillo.org/category/libbitcoindocs)**
 * **[Understanding Bitcoin](Understanding-Bitcoin)**
-  * [Proximity Premium Flaw](Proximity-Premium-Flaw)
   * [Risk Sharing Principle](Risk-Sharing-Principle)
+  * [Proximity Premium Flaw](Proximity-Premium-Flaw)
   * [Balance of Power Fallacy](Balance-of-Power-Fallacy)
   * [Proof of Work Fallacy](Proof-of-Work-Fallacy)
   * [Impotent Mining Fallacy](Impotent-Mining-Fallacy)
