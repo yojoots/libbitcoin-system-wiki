@@ -7,6 +7,7 @@
 * **[Comprehensive Overview](https://en.bitcoin.it/wiki/Libbitcoin)**
 * **[Tutorials (aaronjaramillo)](http://aaronjaramillo.org/category/libbitcoindocs)**
 * **[Understanding Bitcoin](Understanding-Bitcoin)**
+  * [Proximity Premium Flaw](Proximity-Premium-Flaw)
   * [Balance of Power Fallacy](Balance-of-Power-Fallacy)
   * [Proof of Work Fallacy](Proof-of-Work-Fallacy)
   * [Impotent Mining Fallacy](Impotent-Mining-Fallacy)
@@ -15,7 +16,6 @@
   * [Side Fee Fallacy](Side-Fee-Fallacy)
   * [Relay Fallacy](Relay-Fallacy)
   * [Hearn Error](Hearn-Error)
-  * [Proximity Premium Flaw](Proximity-Premium-Flaw)
   * [Risk Sharing Principle](Risk-Sharing-Principle)
   * [Public Network Principle](Public-Network-Principle)
   * [Inertia Property](Inertia-Property)
