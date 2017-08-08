@@ -1,0 +1,7 @@
+There is a theory that off-[chain](Glossary#chain) [fees](Glossary#fee) are illegitimate. The theory holds that a [merchant](Glossary#merchant) paying a [miner](Glossary#miner) "on the side" to [confirm](Glossary#confirmation) the merchant's [transactions](Glossary#transaction) prevents other merchant's transactions from being confirmed, or that it raises the cost of that confirmation.
+
+One impact of such arrangements is that an average *historical* fee rate cannot be determined through chain analysis. The apparent rate would be lower than the [market](Glossary#market) rate. This could of course lead spenders to underestimate a sufficient fee. However there is no aspect of Bitcoin that requires future fees to equal some average of past fees. Estimation would necessarily compensate.
+
+Another impact is that disparate relative fee levels can highlight certain transactions as being associated with such arrangements. This can contribute to [taint](Glossary#miner) of the merchant's transactions and/or [coinbase](Glossary#miner). But as a choice made by the creators of the transactions there is no privacy loss.
+
+There is no impact on market fee rates or the ability others to obtain confirmations. If the arrangement deviates from market rates then either the merchant or the miner is accepting an unnecessary loss. This is no different the miner confirming transactions with below-market on-chain fees or the merchant overestimating on-chain fees, respectively.
