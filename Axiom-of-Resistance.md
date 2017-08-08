@@ -14,5 +14,5 @@ In other words there is an assumption that it is *possible* for a system to resi
 
 **One who does not accept the axiom of resistance is contemplating an entirely different system than Bitcoin.** If one assumes it is *not possible* for a system to resist state controls, conclusions do not make sense in the context of Bitcoin; just as conclusions in [spherical geometry](https://en.wikipedia.org/wiki/Spherical_geometry) contradict Euclidean.
 
-It is common for people to refer cynically to a Bitcoin-like system that omits the resistance axiom as "PayPal", a designation is not without merit. [Confinity](https://en.wikipedia.org/wiki/Confinity) originally attempted to create a system with the same essential purpose as Bitcoin. Having failed to do so it discarded the axiom, building the [PayPal](https://en.wikipedia.org/wiki/PayPal) we know today.
+It is common for people to refer cynically to a Bitcoin-like system that omits the resistance axiom as "PayPal", a designation not without merit. [Confinity](https://en.wikipedia.org/wiki/Confinity) originally attempted to create a system with the same essential purpose as Bitcoin. Having failed to do so it discarded the axiom, building the [PayPal](https://en.wikipedia.org/wiki/PayPal) we know today.
 
