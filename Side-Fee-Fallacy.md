@@ -8,4 +8,4 @@ There is no impact on market fee rates or the ability others to obtain confirmat
 
 Furthermore, unless the miner's [hash rate](Glossary#hash-rate) is 100%, the merchant is increasing his/her average confirmation times by paying a side-fee at what is otherwise a market rate. This implies the merchant should pay a lower rate, in proportion to the miner's hash rate. Without understanding this effect one may misinterpret the actual effective rate in such arrangements.
 
-Bitcoin provides a mechanism for on-chain fees so that a transactions can compensate *any* miner without having to know the miner's [identity](Glossary#identity). It is a privacy-preserving convenience. However if miner's and merchants want to weaken their privacy by performing additional tasks, nobody else has any basis to consider that illegitimate.
+Bitcoin provides a mechanism for on-chain fees so that a transactions can compensate *any* miner without having to know the miner's [identity](Glossary#identity). It is a privacy-preserving convenience. However if miners and merchants want to weaken their privacy by performing additional tasks, nobody else has any basis to consider that illegitimate.
