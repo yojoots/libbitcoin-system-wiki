@@ -19,11 +19,6 @@
   * [Side Fee Fallacy](Side-Fee-Fallacy)
   * [Relay Fallacy](Relay-Fallacy)
   * [Hearn Error](Hearn-Error)
-  * [Public Network Principle](Public-Network-Principle)
-  * [Inertia Property](Inertia-Property)
-  * [Zero Sum Property](Zero-Sum-Property)
-  * [Decentralization Measures](Decentralization-Measures)
-  * [Relative Security Levels](Relative-Security-Levels)
   * [Glossary](Glossary)
 * **Console Applications**
   * [Bitcoin Explorer](https://github.com/libbitcoin/libbitcoin-explorer/wiki)
