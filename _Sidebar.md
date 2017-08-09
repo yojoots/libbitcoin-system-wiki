@@ -10,6 +10,7 @@
   * [Axiom of Resistance](Axiom-of-Resistance)
   * [Risk Sharing Principle](Risk-Sharing-Principle)
   * [Proximity Premium Flaw](Proximity-Premium-Flaw)
+  * [Variance Discount Flaw](Variance-Discount-Flaw)
   * [Balance of Power Fallacy](Balance-of-Power-Fallacy)
   * [Proof of Work Fallacy](Proof-of-Work-Fallacy)
   * [Impotent Mining Fallacy](Impotent-Mining-Fallacy)
