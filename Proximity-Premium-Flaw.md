@@ -8,5 +8,5 @@ One manifestation is geographic, where independent miners become physically clos
 
 The proximity-based pooling pressure is a consequence of the [chain](Glossary#sequence) sequence required by [consensus rules](Glossary#consensus-rules). **Bitcoin prescribes winner-take-all [transaction](Glossary#transaction) ordering, which produces disproportionate opportunity cost.** The [variance discount](Variance-Discount-Flaw) is another pooling pressure caused by [consensus](Glossary#consensus).
 
-The defense that Bitcoin *intends* to raise is market defense against anti-market forces. To do this it must distribute [hash power](Glossary#hash-power) broadly among [people](Glossary#person) so that it becomes difficult to [co-opt](Glossary#co-option). However pooling pressures inherent in the [consensus](Glossary#consensus) work against this objective. This is why the characteristic is termed a flaw.
+The [defense](Axiom-of-Resistance) that Bitcoin *intends* to raise is market defense against anti-market forces. To do this it must distribute [hash power](Glossary#hash-power) broadly among [people](Glossary#person) so that it becomes difficult to [co-opt](Glossary#co-option). However pooling pressures inherent in the [consensus](Glossary#consensus) work against this objective. This is why the characteristic is termed a flaw.
 
