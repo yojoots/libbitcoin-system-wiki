@@ -9,6 +9,7 @@
 * **[Understanding Bitcoin](Understanding-Bitcoin)**
   * [Axiom of Resistance](Axiom-of-Resistance)
   * [Risk Sharing Principle](Risk-Sharing-Principle)
+  * [Pooling Pressure Risk](Pooling-Pressure-Risk)
   * [Proximity Premium Flaw](Proximity-Premium-Flaw)
   * [Variance Discount Flaw](Variance-Discount-Flaw)
   * [Balance of Power Fallacy](Balance-of-Power-Fallacy)
