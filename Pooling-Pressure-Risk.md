@@ -2,8 +2,8 @@
 
 * [Proximity Premium](Proximity-Premium-Flaw)
 * [Variance Discount](Variance-Discount-Flaw)
-* [Market Distortion](Glossary#distortion)
 * [Market Variation](Glossary#variation)
+* [Market Distortion](Glossary#distortion)
 
 While [latency](Glossary#latency) and [variance](Glossary#variance) are unavoidable, [consensus rules](Glossary#consensus-rules) actually *create* the first two financial incentives. Variation is a consequence of varying [market](Glossary#market) price for [mining](Glossary#mine) resources. Distortion is a consequence of varying non-market costs including tax, regulation, subsidy, and patent; the force that Bitcoin is [intended to resist](Axiom-of-Resistance).
 
