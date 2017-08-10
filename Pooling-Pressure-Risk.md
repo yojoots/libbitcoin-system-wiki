@@ -1,4 +1,4 @@
-[Pooling](Glossary#pooling) pressure is the set of [economic](Glossary#economic) incentives for [hash rate](Glossary#hash-rate) aggregation, specifically:
+[Pooling](Glossary#pooling) pressure is the set of financial incentives for [hash rate](Glossary#hash-rate) aggregation, specifically:
 
 * [Proximity Premium](Proximity-Premium-Flaw)
 * [Variance Discount](Variance-Discount-Flaw)
