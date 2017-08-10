@@ -5,7 +5,7 @@
 * [Market Distortion](Glossary#distortion)
 * [Market Variation](Glossary#variation)
 
-While [latency](Glossary#latency) and [variance](Glossary#variance) are unavoidable, [consensus rules](Glossary#consensus-rules) actually *create* the first two financial incentives. Variation is a consequence of varying [market](Glossary#market) price for [mining](Glossary#mine) resources. Distortion is a consequence of varying non-market costs including tax, regulation, subsidy, and patent; the force that Bitcoin is [intended to resist](Axiom-of-Resistance).
+While [latency](Glossary#latency) and [variance](Glossary#variance) are unavoidable, [consensus rules](Glossary#consensus-rules) actually *create* the first two financial incentives. Variation is a consequence of varying [market](Glossary#market) price for [mining](Glossary#mine) resources. Distortion is a consequence of varying non-market costs including tax, regulation, subsidy, and patent; the force that Bitcoin is [designed to resist](Axiom-of-Resistance).
 
 There are several manifestations of of pooling. One is geographic, where independent [miners](Glossary#miner) become physically closer together. Another is cooperative, where formerly-independent miners join forces and co-locate [grinding](Glossary#grind). Another is virtual, where miners become [grinders](Glossary#grinder) and aggregate hash rate to a single remote miner. Another is the existence of [relays](Glossary#relay), which [aggregate miner hash power](Relay-Fallacy). Another is capital flow, since the higher hash rate associated with greater capital utilization is a form of co-location. 
 
