@@ -4,7 +4,7 @@ Different distances between [miners](Glossary#miner) implies [announcements](Glo
 
 If we were to disperse miners with equal [hash rate](Glossary#hash-rate) at equidistant points around the Earth they would experience the same average latency. Yet due to the financial benefit of reduced latency, they would tend to move closer to each other. This force is [pooling](Glossary#pooling) pressure, and [manifests in several ways](Pooling-Pressure-Risk).
 
-The proximity-based pooling pressure is a consequence of the [chain](Glossary#sequence) sequence required by [consensus rules](Glossary#consensus-rules). **Bitcoin prescribes winner-take-all ordering, which produces disproportionate opportunity cost.** The [variance discount](Variance-Discount-Flaw) is another pooling pressure caused by [consensus](Glossary#consensus).
+The proximity-based [pooling pressure](Pooling-Pressure-Risk) is a consequence of the [chain](Glossary#sequence) sequence required by [consensus rules](Glossary#consensus-rules). **Bitcoin prescribes winner-take-all ordering, which produces disproportionate opportunity cost.** The [variance discount](Variance-Discount-Flaw) is another pooling pressure caused by [consensus](Glossary#consensus).
 
 The [defense](Axiom-of-Resistance) that Bitcoin *intends* to raise is market defense against anti-market forces. To do this it must distribute [hash power](Glossary#hash-power) broadly among [people](Glossary#person) so that it becomes difficult to [co-opt](Glossary#co-option). However pooling pressures inherent in the [consensus](Glossary#consensus) work against this objective. This is why the characteristic is termed a flaw.
 
