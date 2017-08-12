@@ -240,7 +240,7 @@ A [Miner](#miner) indication via [Block](#block) data of intent to [Enforce](#en
 
 ## Privacy
 #### Identity
-The means to correlate [Communication](#communication) to a [Person](#person).
+The means to associate [Communication](#communication) with a [Person](#person).
 #### Taint
 Determination of [Ownership](#owner).
 
