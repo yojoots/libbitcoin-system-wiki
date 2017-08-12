@@ -203,7 +203,7 @@ An atomic computation to [Prove](#proof) [Candidate](#candidate) [Validity](#val
 #### Hash Rate
 The rate of [Hashing](#hash).
 #### Apparent Hash Power
-The fraction of [Blocks](#block) in a [Chain](#chain) [Segment](#segment).
+A fraction of [Blocks](#block) in a [Chain](#chain) [Segment](#segment).
 > Public estimates of miner hash power are based on this.
 #### Majority Hash Power
 A subset of [Miners](#miner) with sufficient [Hash Power](#hash-power) to execute a sustained [Attack](#attack).
