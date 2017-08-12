@@ -191,7 +191,7 @@ A [Person](#person) accepting [Units](#unit) in [Trade](#trade).
 A [Person](#person) controlling certain [Units](#unit).
 > Holder is a common alias for this.
 #### Developer
-A [Person](#person) implementing [Tools](#tool).
+A [Person](#person) creating an [Implementation](#implementation).
 
 ## Mining
 #### Work
