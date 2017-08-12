@@ -229,7 +229,7 @@ A [Fork](#fork) that implies a [Split](#split) unless [Enforced](#enforcement) b
 #### Split
 A [Coin](#coin) bifurcation.
 #### Reorganization
-The resolution of a [Chain](#chain) bifurcation.
+An [Announcement](#announcement) promoting a [Weak Branch](#weak) to the [Chain](#chain).
 > Reorg is an abbreviation for this.
 #### Stall
 The lack of [Height](#height) increase over time.
