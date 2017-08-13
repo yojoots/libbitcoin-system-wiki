@@ -17,6 +17,8 @@
   * [Impotent Mining Fallacy](Impotent-Mining-Fallacy)
   * [Selfish Mining Fallacy](Selfish-Mining-Fallacy)
   * [Reserve Currency Fallacy](Reserve-Currency-Fallacy)
+  * [Inflation Fallacy](Inflation-Fallacy)
+  * [Halving Fallacy](Halving-Fallacy)
   * [Side Fee Fallacy](Side-Fee-Fallacy)
   * [Relay Fallacy](Relay-Fallacy)
   * [Hearn Error](Hearn-Error)
