@@ -100,7 +100,7 @@ The [Endorsement](#endorsement) of the same [Output](#output) [Contract](#contra
 The issuance of new [Units](#unit) to a [Miner](#miner).
 #### Inflation
 The increase in [Supply](#supply) resulting from [Subsidy](#subsidy).
-> This is monetary inflation, not to be confused with price inflation.
+> Also monetary inflation, not to be confused with price inflation.
 #### Fee
 An implicit [Transfer](#transfer) to a [Miner](#miner).
 #### Reward
@@ -132,6 +132,8 @@ The usefulness of specific property to a [Person](#person).
 The set of all issued [Units](#unit).
 #### Exchange
 The [Trade](#trade) of [Units](#unit) for other property.
+#### Price Inflation
+The increase in average [Exchange](#exchange) prices over time.
 #### Speculate
 To [Own](#owner) in expectation of [Price](#price) increase.
 > Also to borrow in expectation of price decrease.
