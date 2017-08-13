@@ -100,6 +100,7 @@ The [Endorsement](#endorsement) of the same [Output](#output) [Contract](#contra
 The issuance of new [Units](#unit) to a [Miner](#miner).
 #### Inflation
 The increase in [Supply](#supply) resulting from [Subsidy](#subsidy).
+> This is monetary inflation, not to be confused with price inflation.
 #### Fee
 An implicit [Transfer](#transfer) to a [Miner](#miner).
 #### Reward
