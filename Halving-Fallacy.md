@@ -6,5 +6,5 @@ However there is no reason to believe that the adjustment reduces *any* miner's 
 
 Consider the case of no [price](Glossary#price) change. In this case there is no reason to expect a change in total [hash rate](Glossary#hash-rate). There are no adjustments to difficulty, and we can conclude that the average mine generates the market return on capital. Below market return on capital reduces hash rate and above market increases it, as capital chases returns. Addition of hash power decreases profits, discouraging hash power, and reduction of hash power increases profits, encouraging hash power.
 
-In other words, in the absence of price changes we conclude that any number of independent miners can compete indefinitely (absent *actual* pooling pressures). However, the case where price is increasing or decreasing is no different than hash power increasing or decreasing, so this conclusion applies generally. Miner profits are expected to always average the market rate of return on capital.
+In other words, in the absence of price changes, any number of independent miners can compete indefinitely (absent *actual* pooling pressures). However, the case where price is increasing or decreasing is no different than hash power increasing or decreasing, so this conclusion applies generally. Miner profits are expected to always average the market rate of return on capital.
 
