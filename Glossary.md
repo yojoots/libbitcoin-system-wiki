@@ -104,7 +104,7 @@ The increase in [Supply](#supply) resulting from [Subsidy](#subsidy).
 #### Fee
 An implicit [Transfer](#transfer) to a [Miner](#miner).
 #### Reward
-The sum of [Subsidy](#subsidy) and [Fees](#fees) for a [Block](#block).
+The sum of [Subsidy](#subsidy) and [Fees](#fee) for a [Block](#block).
 #### Coinbase
 A [Transaction](#transaction) that [Transfers](#transfer) a [Reward](#reward).
 #### Maturity
