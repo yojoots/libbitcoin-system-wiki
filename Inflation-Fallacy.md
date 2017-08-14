@@ -1,4 +1,4 @@
-Bitcoin [consensus rules](Glossary#consensus-rules) create a perfectly predictable rate of [monetary inflation](Glossary#inflation). There is a theory that this causes loss of [purchasing power](https://en.wikipedia.org/wiki/Purchasing_power). However it is essential to consider the effect of predictability on loss.
+Bitcoin [consensus rules](Glossary#consensus-rules) create a perfectly predictable rate of [monetary inflation](Glossary#inflation). There is a theory that this causes loss of [purchasing power](https://en.wikipedia.org/wiki/Purchasing_power). However it is essential to consider the effect of predictability on loss, and consequently whether the loss is actual.
 
 Consider the following scenario:
 
@@ -14,6 +14,6 @@ When *price inflation* becomes fairly predictable, [indexation](https://en.wikip
 
 > The linkage system was very successful. In major economies around the world, consumers often feel the pinch of just 2-7% annual inflation. But Israelis, who had to deal with a much higher inflation rate, went about their business practically unaffected. For three and a half decades, their real income was protected by this index-linked mechanism.
 
-However *monetary inflation* can be perfectly predictable. When it is so, and the schedule is public, the effect is entirely offset. Each [exchange](Glossary#exchange) includes a discount for net present value (NPV). With positive monetary inflation the NPV of 1 [unit](Glossary#unit) is a fraction of 1 unit. As monetary inflation decreases, the NPV of 1 unit increases. With 0% monetary inflation the NPV of 1 unit is 1 unit.
+However *monetary inflation* can be perfectly predictable. When it is so, and the schedule is public, the effect is entirely offset. Each [exchange](Glossary#exchange) includes a discount for net present value (NPV). With positive monetary inflation the NPV of 1 [unit](Glossary#unit) is a fraction of 1 future unit. As monetary inflation decreases, the NPV of 1 unit relative to a future unit increases. With 0% monetary inflation the NPV of 1 unit is the same as 1 future unit. This computation is orthogonal to demand, which has an independent effect on price.
 
 Commodity currencies such as gold exhibit monetary inflation in relation to exchange price. As price increases competition creates an offsetting increase in supply, keeping return on capital generally consistent with broader [investment](Glossary#lend) returns. Bitcoin however exhibits an increase in [difficulty](Glossary#difficulty) in relation to exchange price. Bitcoin price has no effect on supply whatsoever.
