@@ -21,3 +21,5 @@ However *monetary inflation* can be perfectly predictable. When it is so, and th
 The benefit of 0% monetary inflation over a perfectly predictable non-zero level is that it simplifies computation. Despite the existence of [subsidy](Glossary#subsidy), saving does not compensate [mining](Glossary#mine). The subsidy is derived from the discounted purchase price, just as a [transaction](Glossary#transaction) fee. Bitcoin inflation exists to rationally allocate units and is otherwise counterproductive, which is why it is phased out over time.
 
 So unlike victims of seigniorage, Charlie did not suffer an actual loss of purchasing power even if over time it took more units to purchase the same acre of land. The increase in units is a predictable function of the positive (despite decreasing) discount rate. It is neither a tax nor an outsized return on mining, it is simply a mathematical conversion.
+
+Finally, due to perfect predictability, it is not possible for Bitcoin monetary inflation to cause [malinvestment](https://en.wikipedia.org/wiki/Malinvestment) or [business cycles](https://en.wikipedia.org/wiki/Austrian_business_cycle_theory).
