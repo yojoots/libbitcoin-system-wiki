@@ -10,7 +10,7 @@ Charlie had to first *obtain* the 10 bitcoin. He knew before obtaining his 10 bi
 
 Charlie suffered no loss of purchasing power in his trade of 10 bitcoin for the acre, because he obtained the 10 bitcoin with full knowledge of its depreciation schedule. It is not possible to misjudge dilution caused by predictable increase in supply. Predictable [dilution](https://en.wikipedia.org/wiki/Stock_dilution) is *always* used in computing the net present value of stock holdings. For example, a shareholder must assume that option holders will [exercise](https://en.wikipedia.org/wiki/Exercise_(options)) at a net positive value upon liquidation. Failing to reach this conclusion is simply a computational error, not a loss caused by the exercise.
 
-When *price inflation* becomes fairly predictable, "indexing" can largely nullify its loss effect. This phenomenon was observed in the [hyperinflation of the first Israeli Shekel](http://www.jewishvirtuallibrary.org/the-rise-and-fall-of-israeli-inflation).
+When *price inflation* becomes fairly predictable, [indexation](https://en.wikipedia.org/wiki/Indexation) can largely nullify its loss effect. This phenomenon was observed in the [hyperinflation of the first Israeli Shekel](http://www.jewishvirtuallibrary.org/the-rise-and-fall-of-israeli-inflation).
 
 > The linkage system was very successful. In major economies around the world, consumers often feel the pinch of just 2-7% annual inflation. But Israelis, who had to deal with a much higher inflation rate, went about their business practically unaffected. For three and a half decades, their real income was protected by this index-linked mechanism.
 
