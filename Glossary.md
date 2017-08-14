@@ -90,6 +90,8 @@ One more than the count of [Blocks](#block) after a [Confirmation](#confirmation
 The count of preceding [Blocks](#block) in a [Branch](#branch).
 #### Segment
 A contiguous subset of a [Branch](#branch).
+#### Organization
+An [Announcement](#announcement) adding a [Block](#block) to the [Chain](#chain).
 
 ## Money
 #### Spend
