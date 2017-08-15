@@ -6,7 +6,7 @@ There are two aspects of the zero sum property:
 
 * The magnitude of rewards, in either [coin](Glossary#coin) [units](Glossary#unit) or [exchange](Glossary#exchange) [price](Glossary#price), has no effect on the rate of return on capital.
 
-*Idealized* Bitcoin mining is a [closed system](https://en.wikipedia.org/wiki/Closed_system). Return on capital does vary *relative to other mines*, due to the [proximity premium](Proximity-Premium-Flaw) and [variance discount](Variance-Discount-Flaw) protocol flaws, as well as [economies of scale](https://en.wikipedia.org/wiki/Economies_of_scale) and operator efficiency. Yet because these only impact the relative cost of hash power, it is the *proportionality* of return rates is affected.
+*Idealized* Bitcoin mining is a [closed system](https://en.wikipedia.org/wiki/Closed_system). Return on capital does vary *relative to other mines*, due to the [proximity premium](Proximity-Premium-Flaw) and [variance discount](Variance-Discount-Flaw) protocol flaws, as well as [economies of scale](https://en.wikipedia.org/wiki/Economies_of_scale) and operator efficiency. Yet because these only impact the relative cost of hash power, it is the *proportionality* of return rates is affected, not overall returns.
 
 *Actual* Bitcoin is not a closed system. The [market](Glossary#market) and anti-market pooling pressures of [variation](Glossary#variation) and [distortion](Glossary#distortion) (respectively) are external. Fundamentally Bitcoin exists to defend markets, necessarily pitting distortion against variation (or lack thereof).
 
