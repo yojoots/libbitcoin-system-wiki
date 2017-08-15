@@ -2,7 +2,7 @@ The [peer-to-peer](Glossary#peer-to-peer) network disseminates [blocks](Glossary
 
 However this protection comes at a cost in terms of [announcement](Glossary#announcement) [latency](Glossary#latency), and because of the [advantage to proximity](Proximity-Premium-Flaw), lower latency translates into higher [apparent hash power](Glossary#apparent-hash-power). Therefore [miners](Glossary#miner) compete for reduced latency. One way to reduce latency is [pooling](Glossary#pooling), another is to use a more efficient dissemination network. Given that pooling surrenders [power](Glossary#power) to the operator, presumably the latter option is preferable.
 
-One way to improve dissemination is to [optimize](Glossary#optimization) the peer-to-peer network. The other is to join a distinct network, called a [relay](Glossary#relay), that has lower latency due to [elimination of denial-of-service protections](http://bitcoinfibre.org):
+One way to improve dissemination is to [optimize](Glossary#optimization) the peer-to-peer network. The other is to join a distinct network, called a [relay](Glossary#relay), that has lower latency due to elimination of denial-of-service protections, for [example](http://bitcoinfibre.org):
 
 > [T]he cmpctblock message format was designed to ensure it fits neatly into a UDP-FEC-based relay mechanism. The only difference is that we send it over UDP with FEC... This way, extra hops do not introduce more latency. Sadly, due to the nature of our FEC encoding, we cannot know if individual packets are a part of a legitimate, or any, block, and thus only enable this optimization between nodes run by the same group.
 
