@@ -9,6 +9,7 @@
 * **[Understanding Bitcoin](Understanding-Bitcoin)**
   * [Axiom of Resistance](Axiom-of-Resistance)
   * [Risk Sharing Principle](Risk-Sharing-Principle)
+  * [Zero Sum Property](Zero-Sum-Property)
   * [Pooling Pressure Risk](Pooling-Pressure-Risk)
   * [Proximity Premium Flaw](Proximity-Premium-Flaw)
   * [Variance Discount Flaw](Variance-Discount-Flaw)
