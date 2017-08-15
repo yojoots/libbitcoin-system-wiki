@@ -6,4 +6,4 @@ There are two aspects of the zero sum property:
 
 * The magnitude of rewards, in either [coin](Glossary#coin) [units](Glossary#unit) or [exchange](Glossary#exchange) [price](Glossary#price), has no effect on the rate of return on capital.
 
-However, return on capital does vary *relative to other mines* due to [pooling](Glossary#pooling).
+Return on capital does vary *relative to other mines* due to [pooling](Glossary#pooling). This affects proportionality of returns but does not affect the zero sum nature of mining in general.
