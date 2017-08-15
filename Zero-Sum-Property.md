@@ -4,4 +4,4 @@ There are two aspects of the zero sum property:
 
 * During the time period between [organizations](Glossary#organization) one miner earns a reward and all other miners earn no reward. Neither price, hash rate, difficulty, inflation, fees, nor anything else has any effect on this property.
 
-* The magnitude of the reward, in either [units](Glossary#units) or [exchange](Glossary#exchange) [price](Glossary#price), has no effect on the rate of return on capital.
+* The magnitude of the reward, in either [coin](Glossary#coin) [units](Glossary#unit) or [exchange](Glossary#exchange) [price](Glossary#price), has no effect on the rate of return on capital.
