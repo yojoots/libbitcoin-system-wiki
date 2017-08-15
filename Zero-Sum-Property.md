@@ -7,3 +7,5 @@ There are two aspects of the zero sum property:
 * The magnitude of rewards, in either [coin](Glossary#coin) [units](Glossary#unit) or [exchange](Glossary#exchange) [price](Glossary#price), has no effect on the rate of return on capital.
 
 Return on capital does vary *relative to other mines* due to [pooling](Glossary#pooling). This affects proportionality of returns but does not affect the zero sum nature of mining in general.
+
+Idealized Bitcoin mining is a [closed system](https://en.wikipedia.org/wiki/Closed_system), but the reality is not ideal. The pooling pressures of [distortion](Glossary#distortion) and [variation](Glossary#variation) are outside forces.
