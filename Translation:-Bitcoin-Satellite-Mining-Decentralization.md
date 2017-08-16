@@ -1,6 +1,4 @@
-[Bitcoin Satellite Mining Decentralization](http://doublehash.me/bitcoin-satellite-mining-decentralization)
-
-Translated from original Japanese using [Google Translate](https://translate.google.com).
+Translated from [the original Japanese article](http://doublehash.me/bitcoin-satellite-mining-decentralization) using [Google Translate](https://translate.google.com).
 
 Today, the Blockstream Bitcoin satellites have taken up the topic of the community. I was surprised at the huge scale project suddenly announced.
 
