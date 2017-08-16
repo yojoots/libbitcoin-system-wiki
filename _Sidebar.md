@@ -11,6 +11,7 @@
   * [Risk Sharing Principle](Risk-Sharing-Principle)
   * [Zero Sum Property](Zero-Sum-Property)
   * [Threat Level Paradox](Threat-Level-Paradox)
+  * [Miner Business Model](Miner-Business-Model)
   * [Pooling Pressure Risk](Pooling-Pressure-Risk)
   * [Proximity Premium Flaw](Proximity-Premium-Flaw)
   * [Variance Discount Flaw](Variance-Discount-Flaw)
