@@ -16,7 +16,7 @@ I interviewed Mr. Samson Mow, Blockstream's CSO, on this kind of view.
 
 **Samson Mow:** Actually, that's right. However, it is still 100% complete. Currently only downloads, but there is a possibility that the mining really changes when uploading parts become available with low latency. Since it is not necessary to connect to the transmission line, mining is possible in places where electric power can be obtained anywhere in the world.
 
-Oishi: That is amazing. For example, what can be done?
+**Oishi:** That is amazing. For example, what can be done?
 
 **Samson Mow:** For example, you can make solar mining by standing the panel in the middle of the desert. Place the panel on the ground and place the mining equipment in the ground. And you can connect to a Bitcoin network.
 
