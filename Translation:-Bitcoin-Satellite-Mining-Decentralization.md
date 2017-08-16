@@ -12,15 +12,15 @@ It is a blow to mining centralization.
 
 I interviewed Mr. Samson Mow, Blockstream's CSO, on this kind of view.
 
-Oishi: There used to be a secret strategy to promote non-centralization of mining when I had a meal before, but I told you it is still a secret. Maybe, is this satellite the "secretive"?
+**Oishi:** There used to be a secret strategy to promote non-centralization of mining when I had a meal before, but I told you it is still a secret. Maybe, is this satellite the "secretive"?
 
-Samson Mow: Actually, that's right. However, it is still 100% complete. Currently only downloads, but there is a possibility that the mining really changes when uploading parts become available with low latency. Since it is not necessary to connect to the transmission line, mining is possible in places where electric power can be obtained anywhere in the world.
+**Samson Mow:** Actually, that's right. However, it is still 100% complete. Currently only downloads, but there is a possibility that the mining really changes when uploading parts become available with low latency. Since it is not necessary to connect to the transmission line, mining is possible in places where electric power can be obtained anywhere in the world.
 
 Oishi: That is amazing. For example, what can be done?
 
-Samson Mow: For example, you can make solar mining by standing the panel in the middle of the desert. Place the panel on the ground and place the mining equipment in the ground. And you can connect to a Bitcoin network.
+**Samson Mow:** For example, you can make solar mining by standing the panel in the middle of the desert. Place the panel on the ground and place the mining equipment in the ground. And you can connect to a Bitcoin network.
 
-Oishi: It's super cool.
+**Oishi:** It's super cool.
 
 Currently mining has been conducted only in some areas, mainly China, from conditions such as electricity costs and climate. I think that there are other places suitable for mining on the Earth, but there is a possibility that it could not be installed due to connection equipment etc.
 
