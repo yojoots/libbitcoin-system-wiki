@@ -1,1 +1,5 @@
-Miners play a [zero sum game](Zero-Sum-Property) within a [positive sum]() [economy](Glossary#economy).
+Miners play a [zero sum game](Zero-Sum-Property) within a [positive sum](https://en.wikipedia.org/wiki/Win-win_game) [economy](Glossary#economy).
+
+As the [utility](Glossary#utility) of Bitcoin to [people](Glossary#person) increases, both the [fee](Glossary#fee) level and [exchange](Glossary#exchange) [price](Glossary#price) necessarily increase. These increases both contribute to [reward](Glossary#reward) utility. However utility is not unbounded, it is decreased by rising fees and always limited by [substitutes](https://en.wikipedia.org/wiki/Substitute_good). [Exchange](Glossary#exchange) rates are a measure of utility, including the [capitalization](https://en.wikipedia.org/wiki/Present_value) of expectations.
+
+Initially rising utility creates a higher [rate of return](Glossary#interest) on capital [investment](Glossary#invest) in [hash rate](Glossary#hash-rate). This creates an [opportunity cost](https://en.wikipedia.org/wiki/Opportunity_cost) for not capturing the outsized return. This results in an increase in hash rate from existing and/or new [miners](Glossary#miner).
