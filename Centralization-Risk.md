@@ -5,7 +5,7 @@ Consensus risk is shared among active [merchants](Glossary#merchant) only, as th
 Centralization pressures include:
 
 * Difficulty of use discount.
-* Off-chain settlement discount.
+* Off-chain settlement premium.
 
 If [exchange](Glossary#exchange) is difficult for a customer, the merchant must discount merchandise in order to accept the [coin](Glossary#coin). If exchange is difficult for the merchant, an additional cost is incurred. If referring payments to a trusted third party reduces the size of this discount and/or cost, return on capital is increased.
 
