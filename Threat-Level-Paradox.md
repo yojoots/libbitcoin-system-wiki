@@ -4,4 +4,4 @@ If one accepts the [axiom of resistance](Axiom-of-Resistance) one must assume th
 
 **Paradoxically, this tool works well when money is under attack and poorly otherwise.** If there was no [internal](Glossary#consensus-rules) [pooling-pressure](Pooling-Pressure-Risk) these cases would be balanced. But [risk distribution](Risk-Sharing-Principle) is essential to subversive mining, and pooling pressure works *against* distribution. So there is ever-expanding attack surface (e.g. China) with no pressure to contract unless effective monetary alternatives are suppressed (e.g. Venezuela). The suppression of alternatives raises [reward](Glossary#reward) [utility](Glossary#utility) to the miner lacking alternatives.
 
-The expected consequence of this design is that Bitcoin will not be well *prepared* for [attacks](Glossary#attack) because it is financially disadvantageous for [people](Glossary#person) in a low threat environment.
+The expected consequence is that Bitcoin will not be well *prepared* for [attacks](Glossary#attack) because it is financially disadvantageous for [people](Glossary#person) in a low threat environment.
