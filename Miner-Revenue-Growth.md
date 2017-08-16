@@ -1,0 +1,1 @@
+Miners play a [zero sum game](Zero-Sum-Property) within a [positive sum]() [economy](Glossary#economy).
