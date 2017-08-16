@@ -25,3 +25,7 @@ Oishi: That is amazing. For example, what can be done?
 Currently mining has been conducted only in some areas, mainly China, from conditions such as electricity costs and climate. I think that there are other places suitable for mining on the Earth, but there is a possibility that it could not be installed due to connection equipment etc.
 
 I think that there is great significance in terms of decentralization if it is possible to mining in the land such as desert and extreme North by using solar power, natural energy such as geothermal and hydraulic power. Bitcoin Satellite aims to diversify mining, the magnificent vision is already moving as a feasible technology. Interesting.
+
+---
+
+*Bitcoin laboratory blog is a commentary on Bitcoin by Takayuki Oishi. From the trend of Bitcoin to technology, politics, I am keeping an easy to understand explanation. Please make use as a reliable information source by all means.*
