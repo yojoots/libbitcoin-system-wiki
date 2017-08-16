@@ -13,7 +13,7 @@
   * [Threat Level Paradox](Threat-Level-Paradox)
   * [Miner Business Model](Miner-Business-Model)
   * [Pooling Pressure Risk](Pooling-Pressure-Risk)
-  * [Centralization Pressure Risk](Centralization-Pressure-Risk)
+  * [Centralization Risk](Centralization-Risk)
   * [Proximity Premium Flaw](Proximity-Premium-Flaw)
   * [Variance Discount Flaw](Variance-Discount-Flaw)
   * [Balance of Power Fallacy](Balance-of-Power-Fallacy)
