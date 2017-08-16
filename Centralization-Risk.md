@@ -11,4 +11,4 @@ If [exchange](Glossary#exchange) is difficult for a customer, the merchant must 
 
 [Transfer](Glossary#transfer) incurs [fees](Glossary#fee) which also requires a merchant to discount merchandise. If using a trusted intermediary to settle transfers off-[chain](Glossary#chain) reduces fees and thereby the discount, return on capital is increased.
 
-In a [low threat environment](Threat-Level-Paradox) the merchant has diminished financial incentive to subsidize Bitcoin security.
+In a [low threat environment](Threat-Level-Paradox) the merchant has diminished financial incentive to subsidize Bitcoin security. As the [cost of alternatives](https://en.wikipedia.org/wiki/Foreign_exchange_controls) increases the discount becomes an unavoidable expense. At this point the customer decides the pay a higher price or the business closes.
