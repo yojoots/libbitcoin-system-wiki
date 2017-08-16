@@ -20,6 +20,7 @@
   * [Impotent Mining Fallacy](Impotent-Mining-Fallacy)
   * [Selfish Mining Fallacy](Selfish-Mining-Fallacy)
   * [Reserve Currency Fallacy](Reserve-Currency-Fallacy)
+  * [Private Key Fallacy](Private-Key-Fallacy)
   * [Inflation Fallacy](Inflation-Fallacy)
   * [Halving Fallacy](Halving-Fallacy)
   * [Side Fee Fallacy](Side-Fee-Fallacy)
