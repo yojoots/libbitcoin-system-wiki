@@ -16,4 +16,4 @@ A subsidizer expects no return on capital, otherwise he/she would be an investor
 
 A tax on mining has the effect of moving all hash power to untaxed mines, presumably beyond the reach of the taxing authority, as capital seeks market returns. If applied broadly, this can give the authority control through its own mining operation. In other words, the authority can suppress competition. This can also be accomplished through a 100% tax, whereby the authority simply seizes existing mines and then starts operating them. The effect is the same, the taxed miner is put out of business, and the proceeds of the tax are applied to control.
 
-The consequences of zero sum mining are explored in [Threat Level Paradox](Threat-Level-Paradox).
+The consequences of zero sum mining with inherent pooling pressure are explored in [Threat Level Paradox](Threat-Level-Paradox).
