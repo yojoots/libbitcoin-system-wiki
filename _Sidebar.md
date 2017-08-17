@@ -26,6 +26,7 @@
   * [Halving Fallacy](Halving-Fallacy)
   * [Side Fee Fallacy](Side-Fee-Fallacy)
   * [Relay Fallacy](Relay-Fallacy)
+  * [Skynet Friend or Foe](Skynet-Friend-or-Foe)
   * [Hearn Error](Hearn-Error)
   * [Glossary](Glossary)
 * **Console Applications**
