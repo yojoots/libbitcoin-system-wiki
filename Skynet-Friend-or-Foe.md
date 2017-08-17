@@ -7,7 +7,7 @@ Blockstream has announced a network that, "[broadcasts the Bitcoin blockchain fr
 > [I]nternet traffic patterns from running a node can identify you as a bitcoin user. [T]here’s no internet involved to receive the blockchain data, so your patterns are private to you.
 
 #### Partition Resistance
-> Without [a redundant connection] your ability to use the bitcoin network is limited, including your security against sybils... [P]rovides a redundant connection to the blockchain that doesn’t require internet. 
+> Without [redundancy] your ability to use the bitcoin network is limited, including your security against sybils... [P]rovides a redundant connection to the blockchain that doesn’t require internet. 
 
 #### Web (sky) API [paid]
 > We have plans to extend the network over time to be an open platform for application developers to build on.
