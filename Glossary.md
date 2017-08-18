@@ -278,8 +278,11 @@ A set of [People](#person) that uses aggression in place of [Trade](#trade).
 Pertaining to the actions of [States](#state).
 
 ## Weakness
+#### Aggregation
+The tendency toward reduced participation in [Mining](#Mine) or [Validation](#validation).
+> Implies pooling or centralization.
 #### Pooling
-The tendency toward few [Miners](#miner) and [Relays](#relay).
+The tendency toward few [Miners](#miner) or [Relays](#relay).
 > Collusion is a common alias for this.
 #### Centralization
 The tendency toward few [Merchants](#merchants).
