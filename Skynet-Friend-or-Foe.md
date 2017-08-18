@@ -1,15 +1,24 @@
 Blockstream has announced a network that, "[broadcasts the Bitcoin blockchain from space](https://blockstream.com/satellite)." There are several use cases outlined in a [FAQ](https://blockstream.com/satellite/faq/) and [CSO interview](https://github.com/libbitcoin/libbitcoin/wiki/Translation:-Bitcoin-Satellite-Mining-Decentralization):
 
 ## Free Services
+The company provides the equivalent of a single [node](Glossary#node) on the [peer-to-peer](Glossary#peer-to-peer)  network. Nearly any person in the world can connect to this node using an inexpensive receiver. In the initial deployment the node broadcasts but does not receive.
 
 #### Using Bitcoin
 > More people participating in bitcoin means a more decentralized network... [M]akes bitcoin more robust and bullet-proof...
 
+To the extent that this enables new users it implies those users are entirely dependent on this one node. If the user already has access through the Internet (for example) it is not a new participation.
+
 #### Covertly Using Bitcoin
 > [I]nternet traffic patterns from running a node can identify you as a bitcoin user. [T]here’s no internet involved to receive the blockchain data, so your patterns are private to you.
 
+To the extent that this enables convert use it implies covert users are entirely dependent on this one node. Covert use implies that access through the Internet (for example) was not covert for the user.
+
 #### Partition Resistance
 > Without [redundancy] your ability to use the bitcoin network is limited, including your security against sybils... [P]rovides a redundant connection to the blockchain that doesn’t require internet. 
+
+To the extent that this is necessary it implies that users are entirely dependent on this one node. Otherwise one must conclude that access through the Internet does not suffer from persistent "limiting" of network usability.
+
+It is possible that other similar networks may be deployed by independent operators. This would resolve the dependency on the single node. Nevertheless, this would imply that a substantial number of people are entirely dependent upon just a few nodes, all of which would be operating with [state](Glossary#state) licenses. This is not the same as having a similarly small number of Internet providers, since thousands of independently operated nodes are reachable.
 
 ## Paid Services
 
