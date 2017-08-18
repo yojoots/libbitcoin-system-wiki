@@ -1,4 +1,4 @@
-Blockstream has announced a network that, "[broadcasts the Bitcoin blockchain from space](https://blockstream.com/satellite)." There are several use cases outlined in a [FAQ](https://blockstream.com/satellite/faq/):
+Blockstream has announced a network that, "[broadcasts the Bitcoin blockchain from space](https://blockstream.com/satellite)." There are several use cases outlined in a [FAQ](https://blockstream.com/satellite/faq):
 
 ## Free Services
 The company provides the equivalent of a single [node](Glossary#node) on the [peer-to-peer](Glossary#peer-to-peer)  network. Nearly any [person](Glossary#person) on Earth can connect to this node using an inexpensive receiver. In the initial deployment the node broadcasts but does not receive.
@@ -39,6 +39,12 @@ The intent of this service is [clear](https://github.com/libbitcoin/libbitcoin/w
 ## Summary
 
 It is possible that other similar networks may be deployed by independent operators. This would resolve the dependency on the single node. Nevertheless, success implies that a substantial number of people will become entirely dependent upon just a few nodes, all operating with [state](Glossary#state) licenses. Ironically, people without useful Internet service would be accepting a persistent [Sybil attack](https://en.wikipedia.org/wiki/Sybil_attack) and [partitioning](Glossary#partitioning) themselves from all but these few nodes.
+
+It is suggested that public monitoring mitigates the potential for foul play:
+
+> Anyone is free to compare the blockchain... from any other source to verify that the broadcast is accurate and has not been tampered with.
+
+However the usefulness of the service is as a primary source. If one must check a web site or service for indications of "tampering" it means the web service is also a necessary, and it requires an independent network connection.
 
 This is not comparable to having a similarly small number of Internet providers, since thousands of independently operated nodes are potentially reachable through any number of protocols. As such the most compelling *free services* scenario may be North Korea, where Internet is [generally unavailable](http://www.bbc.com/news/world-asia-37426725) and the risk of a dependency on a few licensed satellite providers may be a reasonable trade-off against oppressive [currency controls](https://en.wikipedia.org/wiki/Foreign_exchange_controls).
 
