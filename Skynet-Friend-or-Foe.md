@@ -21,7 +21,7 @@ To the extent that this is necessary it implies that users are almost entirely d
 It is possible that other similar networks may be deployed by independent operators. This would resolve the dependency on the single node. Nevertheless, success implies that a substantial number of people will become entirely dependent upon just a few nodes, all operating with [state](Glossary#state) licenses. This is not the same as having a similarly small number of Internet providers, since thousands of independently operated nodes are potentially reachable through any number of protocols. As such the most compelling scenario may be North Korea, where Internet is impossible and the risk of a dependency on a few state-licensed providers is a reasonable trade-off against oppressive currency controls.
 
 ## Paid Services
-The company plans to charge for the following services. It is not reasonable to expect *any* services be offered for free, however it is important to the strength of the [consensus](Glossary#consensus) for people to understand [centralization](Centralization-Risk) and [pooling pressure](Pooling-Pressure-Risk) risks.
+The company plans to charge for the following services. It is not reasonable to expect *any* services be offered for free, however it is important to the strength of [consensus](Glossary#consensus) for people to understand [centralization](Centralization-Risk) and [pooling pressure](Pooling-Pressure-Risk) risks.
 
 #### Web (sky) API
 > We have plans to extend the network over time to be an open platform for application developers to build on.
