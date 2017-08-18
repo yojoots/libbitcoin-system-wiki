@@ -8,7 +8,7 @@ The company provides the equivalent of a single [node](Glossary#node) on the [pe
 
 To the extent that this enables new users it implies those users are entirely dependent on this one node. If the user already has access through the Internet (for example) it is not new participation.
 
-#### Covertly Using Bitcoin
+#### Covert Bitcoin Usage
 > [I]nternet traffic patterns from running a node can identify you as a bitcoin user. [T]here’s no internet involved to receive the blockchain data, so your patterns are private to you.
 
 To the extent that this enables convert use it implies such users are entirely dependent on this one node. The scenario precludes redundant access through the Internet (for example) unless it is also private.
