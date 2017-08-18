@@ -6,4 +6,4 @@ The split converts 1 unit on one chain into 2 units, 1 on each of the chains. Th
 
 In the case where a set of [merchants](Glossary#merchant) stop accepting the original coin and start accepting the split coin, the new network has been increased in size at the expense of the original. Since the size of the [economy](Glossary#economy) affects the utility of a money, it stands to reason that the effect is [dilutive](http://financial-dictionary.thefreedictionary.com/Dilutive+effect).
 
-It may instead be the case that only new merchants accept the split coin, that the split scares off existing merchants altogether, and/or that it motivates new or existing merchants to accept both coins. In other words the split may in fact be initially additive.
+Unlike in the case of a stock split, the two coins are not interchangeable (fungible), which constitutes an [exchange](Glossary#exchange) cost. This is not dilutive but destructive of utility. This also implies that the split coin may have higher or lower utility than the original coin, making the split respectively constructive or destructive of utility.
