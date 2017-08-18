@@ -46,6 +46,6 @@ It is suggested that public monitoring mitigates the potential for foul play:
 
 > Anyone is free to compare the blockchain... from any other source to verify that the broadcast is accurate and has not been tampered with.
 
-However the only way for this monitor to provide verifiable information is for it to effectively be another node, which requires Internet (or other) network connectivity.
+However the only way for this monitor to provide verifiable information is for it to effectively be another node, which requires the service user to have a redundant Internet (for example) connection.
 
 It is certain that one of the three *paid services* is pooled, and likely that the other two are centralized. This is not surprising, as typically where there is a service fee for Bitcoin participation there is a point of [aggregation](Glossary#aggregation), which works against Bitcoin security by limiting [risk sharing](Risk-Sharing-Principle).
