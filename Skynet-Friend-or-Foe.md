@@ -26,9 +26,14 @@ The company plans to charge for the following services. It is not reasonable to 
 #### Web (sky) API
 > We have plans to extend the network over time to be an open platform for application developers to build on.
 
+Details are thin...
+
 #### Payment Processor
 > When we make available advanced features, capabilities, and services intended for business use, we plan on monetizing those.
+
+Details are thin...
 
 #### Mining Relay
 > Bitcoin mining is more delay sensitive and access to lower delay signals optimized for mining is one of the future services we plan to charge for.
 
+The intent of this service is clear...
