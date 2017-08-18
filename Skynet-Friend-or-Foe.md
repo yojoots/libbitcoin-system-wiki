@@ -24,7 +24,7 @@ The company plans to charge for the following services. It is not reasonable to 
 #### Web (sky) API
 > We have plans to extend the network over time to be an open platform for application developers to build on.
 
-There are no details presently. However, in the case where each person [validates](Glossary#validation), a *Bitcoin* API must exist over the node, not over a [centralized](Glossary#validate) service. Otherwise the service is a manifestation of centralization. Exceptions would be acceptance of [transactions](Glossary#transaction) and publication of [exchange](Glossary#exchange) rates.
+There are no details presently. However, in the case where each person [validates](Glossary#validation), a *Bitcoin* API must exist over the node, not over a [centralized](Glossary#centralization) service. Otherwise the service is a manifestation of centralization. Exceptions would be acceptance of [transactions](Glossary#transaction) and publication of [exchange](Glossary#exchange) rates.
 
 #### Payment Processor
 > When we make available advanced features, capabilities, and services intended for business use, we plan on monetizing those.
