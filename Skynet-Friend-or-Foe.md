@@ -6,12 +6,12 @@ The company provides the equivalent of a single [node](Glossary#node) on the [pe
 #### Using Bitcoin
 > More people participating in bitcoin means a more decentralized network... [M]akes bitcoin more robust and bullet-proof...
 
-To the extent that this enables new users it implies those users are entirely dependent on this one node. If the user already has access through the Internet (for example) it is not a new participation.
+To the extent that this enables new users it implies those users are entirely dependent on this one node. If the user already has access through the Internet (for example) it is not new participation.
 
 #### Covertly Using Bitcoin
 > [I]nternet traffic patterns from running a node can identify you as a bitcoin user. [T]here’s no internet involved to receive the blockchain data, so your patterns are private to you.
 
-To the extent that this enables convert use it implies such users are entirely dependent on this one node. Covert use implies that access through the Internet (for example) was not covert for the user.
+To the extent that this enables convert use it implies such users are entirely dependent on this one node. The scenario precludes redundant access through the Internet (for example) unless it is also private.
 
 #### Partition Resistance
 > Without [redundancy] your ability to use the bitcoin network is limited, including your security against sybils... [P]rovides a redundant connection to the blockchain that doesn’t require internet. 
