@@ -25,6 +25,7 @@
   * [Inflation Fallacy](Inflation-Fallacy)
   * [Halving Fallacy](Halving-Fallacy)
   * [Side Fee Fallacy](Side-Fee-Fallacy)
+  * [Replay Fallacy](Replay-Fallacy)
   * [Relay Fallacy](Relay-Fallacy)
   * [Hearn Error](Hearn-Error)
   * [Glossary](Glossary)
