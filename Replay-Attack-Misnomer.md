@@ -3,3 +3,7 @@ Following a [split](Glossary#split) it may be possible for the [spend](Glossary#
 There is a theory that this dual confirmation constitutes an "attack" on the spender of the spent output. The theory assumes that the spender intends for the [transaction](Glossary#transaction) to spend outputs in one coin but not the other, though there is no way to actually identify the spender's intent. This fact alone is sufficient to consider the term a misnomer.
 
 The split converts 1 unit on one chain into 2 units, 1 on each of the chains. The theory assumes that the 2 units, at least initially, represent the [utility](Glossary#utility) of the 1 unit prior to the split. In other words the combined chains have a certain [capitalization](Glossary#capitalization) which is divided between the coins, analogous to a [stock split](https://en.wikipedia.org/wiki/Stock_split).
+
+In the case where a set of [merchants](Glossary#merchant) stop accepting the original coin and start accepting the split coin, the new network has been increased in size at the expense of the original. Since the size of the [economy](Glossary#economy) affects the utility of a money, it stands to reason that the effect is [dilutive](http://financial-dictionary.thefreedictionary.com/Dilutive+effect).
+
+It may instead be the case that only new merchants accept the split coin, that the split scares off existing merchants altogether, and/or that it motivates new or existing merchants to accept both coins. In other words the split may in fact be initially additive.
