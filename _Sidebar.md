@@ -26,7 +26,6 @@
   * [Halving Fallacy](Halving-Fallacy)
   * [Side Fee Fallacy](Side-Fee-Fallacy)
   * [Relay Fallacy](Relay-Fallacy)
-  * [Replay Attack Misnomer](Replay-Attack-Misnomer)
   * [Hearn Error](Hearn-Error)
   * [Glossary](Glossary)
 * **Console Applications**
