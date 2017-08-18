@@ -40,12 +40,12 @@ The intent of this service is [clear](https://github.com/libbitcoin/libbitcoin/w
 
 It is possible that other similar networks may be deployed by independent operators. This would resolve the dependency on the single node. Nevertheless, success implies that a substantial number of people will become entirely dependent upon just a few nodes, all operating with [state](Glossary#state) licenses. Ironically, people without useful Internet service would be accepting a persistent [Sybil attack](https://en.wikipedia.org/wiki/Sybil_attack) and [partitioning](Glossary#partitioning) themselves from all but these few nodes.
 
+This is not comparable to having a similarly small number of Internet providers, since thousands of independently operated nodes are potentially reachable through any number of protocols. As such the most compelling *free services* scenario may be North Korea, where Internet is [generally unavailable](http://www.bbc.com/news/world-asia-37426725) and the risk of a dependency on a few licensed satellite providers may be a reasonable trade-off against oppressive [currency controls](https://en.wikipedia.org/wiki/Foreign_exchange_controls).
+
 It is suggested that public monitoring mitigates the potential for foul play:
 
 > Anyone is free to compare the blockchain... from any other source to verify that the broadcast is accurate and has not been tampered with.
 
 However the only way for another service to provide verifiable information is for it to effectively be another node, which requires Internet (or other) network connectivity.
-
-This is not comparable to having a similarly small number of Internet providers, since thousands of independently operated nodes are potentially reachable through any number of protocols. As such the most compelling *free services* scenario may be North Korea, where Internet is [generally unavailable](http://www.bbc.com/news/world-asia-37426725) and the risk of a dependency on a few licensed satellite providers may be a reasonable trade-off against oppressive [currency controls](https://en.wikipedia.org/wiki/Foreign_exchange_controls).
 
 It is certain that one of the three *paid services* is pooled, and likely that the other two are centralized. This is not surprising, as typically where there is a service fee for Bitcoin participation there is a point of [aggregation](Glossary#aggregation), which works against Bitcoin security by limiting [risk sharing](Risk-Sharing-Principle).
