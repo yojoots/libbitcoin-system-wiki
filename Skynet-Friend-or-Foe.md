@@ -38,4 +38,6 @@ There are no details presently. It is possible that these services do not fall i
 
 The intent of this service is [clear](https://github.com/libbitcoin/libbitcoin/wiki/translation:-bitcoin-satellite-mining-decentralization). It is proposed that a [relay](Glossary#relay) service will provide sufficiently low latency for competitive [mining](Glossary#mine). A relay service is a [pooling](Glossary#pooling) manifestation.
 
+## Summary
+
 So it is certain that one of the three paid services is centralizing, and likely that the other two are as well. This is not surprising as typically where there is a service fee to be paid for participating in Bitcoin there is a point of centralization.
