@@ -44,7 +44,7 @@ It is suggested that public monitoring mitigates the potential for foul play:
 
 > Anyone is free to compare the blockchain... from any other source to verify that the broadcast is accurate and has not been tampered with.
 
-However the usefulness of the service is as a primary source. If one must check a web site or service for indications of "tampering" it means the web service is also a necessary, and it requires an independent network connection. Yet the only way for another service to provide verifiable information is for it to be another blockchain broadcast (node).
+However the only way for another service to provide verifiable information is for it to effectively be another node, which requires Internet (or other) network connectivity.
 
 This is not comparable to having a similarly small number of Internet providers, since thousands of independently operated nodes are potentially reachable through any number of protocols. As such the most compelling *free services* scenario may be North Korea, where Internet is [generally unavailable](http://www.bbc.com/news/world-asia-37426725) and the risk of a dependency on a few licensed satellite providers may be a reasonable trade-off against oppressive [currency controls](https://en.wikipedia.org/wiki/Foreign_exchange_controls).
 
