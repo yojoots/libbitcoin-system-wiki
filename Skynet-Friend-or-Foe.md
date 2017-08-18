@@ -18,7 +18,7 @@ To the extent that this enables convert use it implies such users are entirely d
 
 To the extent that this is necessary it implies that users are entirely dependent on this one node. Otherwise one must conclude that access through the Internet does not suffer from persistent "limiting" of network usability.
 
-It is possible that other similar networks may be deployed by independent operators. This would resolve the dependency on the single node. Nevertheless, this would imply that a substantial number of people are entirely dependent upon just a few nodes, all of which would be operating with [state](Glossary#state) licenses. This is not the same as having a similarly small number of Internet providers, since thousands of independently operated nodes are reachable.
+It is possible that other similar networks may be deployed by independent operators. This would resolve the dependency on the single node. Nevertheless, success implies that a substantial number of people will become entirely dependent upon just a few nodes, all operating with [state](Glossary#state) licenses. This is not the same as having a similarly small number of Internet providers, since thousands of independently operated nodes are potentially reachable through any number of protocols. As such the most compelling scenario may be North Korea, where Internet is impossible and the risk of a dependency on a few state-licensed providers is a reasonable trade-off against oppressive currency controls.
 
 ## Paid Services
 
