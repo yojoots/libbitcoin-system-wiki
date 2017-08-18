@@ -26,14 +26,16 @@ The company plans to charge for the following services. It is not reasonable to 
 #### Web (sky) API
 > We have plans to extend the network over time to be an open platform for application developers to build on.
 
-Details are thin...
+There are no details presently. However, in the case where each person [validates](Glossary#validation), a *Bitcoin* API must exist over the node, not over a [centralized](Glossary#validate) service. Otherwise the service is a manifestation of centralization. Exceptions would be acceptance of [transactions](Glossary#transaction) and publication of [exchange](Glossary#exchange) rates.
 
 #### Payment Processor
 > When we make available advanced features, capabilities, and services intended for business use, we plan on monetizing those.
 
-Details are thin...
+There are no details presently. It is possible that these services do not fall into the category of payment processor, but this is the common model of Bitcoin business services. Payment processors take over validation and potentially wallet services for the business, a manifestation of centralization.
 
 #### Mining Relay
 > Bitcoin mining is more delay sensitive and access to lower delay signals optimized for mining is one of the future services we plan to charge for.
 
-The intent of this service is clear...
+The intent of this service is [clear](https://github.com/libbitcoin/libbitcoin/wiki/translation:-bitcoin-satellite-mining-decentralization). It is proposed that a [relay](Glossary#relay) service will provide sufficiently low latency for competitive [mining](Glossary#mine). A relay service is a [pooling](Glossary#pooling) manifestation.
+
+So it is certain that one of the three paid services is centralizing, and likely that the other two are as well. This is not surprising as typically where there is a service fee to be paid for participating in Bitcoin there is a point of centralization.
