@@ -282,7 +282,7 @@ Pertaining to the actions of [States](#state).
 The tendency toward reduced participation in [Mining](#mine) or [Validation](#validation).
 > Implies pooling or centralization.
 #### Pooling
-The tendency toward few [Miners](#miner) or [Relays](#relay).
+The tendency toward few [Miners](#miner), including consolidation by [Relays](#relay).
 > Collusion is a common alias for this.
 #### Centralization
 The tendency toward few [Merchants](#merchants).
