@@ -279,7 +279,7 @@ Pertaining to the actions of [States](#state).
 
 ## Weakness
 #### Aggregation
-The tendency toward reduced participation in [Mining](#Mine) or [Validation](#validation).
+The tendency toward reduced participation in [Mining](#mine) or [Validation](#validation).
 > Implies pooling or centralization.
 #### Pooling
 The tendency toward few [Miners](#miner) or [Relays](#relay).
