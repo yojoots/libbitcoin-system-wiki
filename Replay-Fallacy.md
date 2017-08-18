@@ -1,0 +1,1 @@
+Following a [split](Glossary#split) it may be possible for the [spend](Glossary#spend) of certain [outputs](Glossary#output) to be [confirmed](Glossary#confirmation) on both the original [coin](Glossary#coin) [chain](Glossary#chain) and the split coin chain.
