@@ -11,7 +11,7 @@ To the extent that this enables new users it implies those users are entirely de
 #### Covertly Using Bitcoin
 > [I]nternet traffic patterns from running a node can identify you as a bitcoin user. [T]here’s no internet involved to receive the blockchain data, so your patterns are private to you.
 
-To the extent that this enables convert use it implies covert users are entirely dependent on this one node. Covert use implies that access through the Internet (for example) was not covert for the user.
+To the extent that this enables convert use it implies such users are entirely dependent on this one node. Covert use implies that access through the Internet (for example) was not covert for the user.
 
 #### Partition Resistance
 > Without [redundancy] your ability to use the bitcoin network is limited, including your security against sybils... [P]rovides a redundant connection to the blockchain that doesn’t require internet. 
