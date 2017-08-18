@@ -1,7 +1,7 @@
 Blockstream has announced a network that, "[broadcasts the Bitcoin blockchain from space](https://blockstream.com/satellite)." There are several use cases outlined in a [FAQ](https://blockstream.com/satellite/faq/) and [CSO interview](https://github.com/libbitcoin/libbitcoin/wiki/Translation:-Bitcoin-Satellite-Mining-Decentralization):
 
 ## Free Services
-The company provides the equivalent of a single [node](Glossary#node) on the [peer-to-peer](Glossary#peer-to-peer)  network. Nearly any person in the world can connect to this node using an inexpensive receiver. In the initial deployment the node broadcasts but does not receive.
+The company provides the equivalent of a single [node](Glossary#node) on the [peer-to-peer](Glossary#peer-to-peer)  network. Nearly any [person](Glossary#person) in the world can connect to this node using an inexpensive receiver. In the initial deployment the node broadcasts but does not receive.
 
 #### New Bitcoin Users
 > More people participating in bitcoin means a more decentralized network... [M]akes bitcoin more robust and bullet-proof...
