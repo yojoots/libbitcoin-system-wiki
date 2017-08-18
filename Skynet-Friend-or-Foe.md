@@ -3,7 +3,7 @@ Blockstream has announced a network that, "[broadcasts the Bitcoin blockchain fr
 ## Free Services
 The company provides the equivalent of a single [node](Glossary#node) on the [peer-to-peer](Glossary#peer-to-peer)  network. Nearly any person in the world can connect to this node using an inexpensive receiver. In the initial deployment the node broadcasts but does not receive.
 
-#### Using Bitcoin
+#### More Bitcoin Users
 > More people participating in bitcoin means a more decentralized network... [M]akes bitcoin more robust and bullet-proof...
 
 To the extent that this enables new users it implies those users are entirely dependent on this one node. If the user already has access through the Internet (for example) it is not new participation.
