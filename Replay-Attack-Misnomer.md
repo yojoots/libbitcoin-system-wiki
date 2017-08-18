@@ -1,4 +1,4 @@
-Following a [split](Glossary#split) it may be possible for the [spend](Glossary#spend) of certain [outputs](Glossary#output) to be [confirmed](Glossary#confirmation) on both the original [coin](Glossary#coin) [chain](Glossary#chain) and the split coin chain. In other words the recipient obtains [units](Glossary#unit) in both chains, known as "replay".
+Following a [split](Glossary#split) it may be possible for the [spend](Glossary#spend) of certain [outputs](Glossary#output) to be [confirmed](Glossary#confirmation) on both the original [coin](Glossary#coin) [chain](Glossary#chain) and the split coin chain. In other words the recipient obtains [units](Glossary#unit) in both chains, a situation known as "replay".
 
 There is a theory that this dual confirmation constitutes an "attack" on the spender of the spent output. The theory assumes that the spender intends for the [transaction](Glossary#transaction) to spend outputs in one coin but not the other, though there is no way to actually identify the spender's intent. This fact alone is sufficient to consider the term a misnomer.
 
