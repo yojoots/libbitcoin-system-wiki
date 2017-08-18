@@ -18,8 +18,6 @@ To the extent that this enables convert use it implies such users are entirely d
 
 To the extent that this is necessary it implies that users are almost entirely dependent on this one node. Otherwise access through the Internet (for example) does not suffer from persistent "limiting" of usability.
 
-It is possible that other similar networks may be deployed by independent operators. This would resolve the dependency on the single node. Nevertheless, success implies that a substantial number of people will become entirely dependent upon just a few nodes, all operating with [state](Glossary#state) licenses. This is not the same as having a similarly small number of Internet providers, since thousands of independently operated nodes are potentially reachable through any number of protocols. As such the most compelling scenario may be North Korea, where Internet is impossible and the risk of a dependency on a few state-licensed providers is a reasonable trade-off against oppressive currency controls.
-
 ## Paid Services
 The company plans to charge for the following services. It is not reasonable to expect *any* services be offered for free, however it is important to the strength of [consensus](Glossary#consensus) for people to understand [centralization](Centralization-Risk) and [pooling pressure](Pooling-Pressure-Risk) risks.
 
@@ -40,4 +38,6 @@ The intent of this service is [clear](https://github.com/libbitcoin/libbitcoin/w
 
 ## Summary
 
-So it is certain that one of the three paid services is centralizing, and likely that the other two are as well. This is not surprising as typically where there is a service fee to be paid for participating in Bitcoin there is a point of centralization.
+It is possible that other similar networks may be deployed by independent operators. This would resolve the dependency on the single node. Nevertheless, success implies that a substantial number of people will become entirely dependent upon just a few nodes, all operating with [state](Glossary#state) licenses. This is not the same as having a similarly small number of Internet providers, since thousands of independently operated nodes are potentially reachable through any number of protocols. As such the most compelling *free services* scenario may be North Korea, where Internet is generally unavailable and the risk of a dependency on a few state-licensed satellite providers is a reasonable trade-off against oppressive currency controls.
+
+It is certain that one of the three *paid services* is pooled, and likely that the other two are centralized. This is not surprising, as typically where there is a service fee for Bitcoin participation there is a point of [aggregated](Glossary#state).
