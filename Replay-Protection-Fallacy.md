@@ -1,6 +1,4 @@
-There is a theory that replay protection applied in a split [chain](Glossary#chain) increases the relative [utility](Glossary#utility) of the original chain.
-
-Replay protection is a [rule](Glossary#rule) designed relative to another chain and with a directional behavior. The protection makes [transactions](Glossary#transaction) of the protected chain [invalid](Glossary#validity) on the other.
+There is a theory that replay protection applied in a split [chain](Glossary#chain) increases the relative [utility](Glossary#utility) of the original chain. Replay protection is a [rule](Glossary#rule) designed relative to another chain and with a directional behavior. The protection makes [transactions](Glossary#transaction) of the protected chain [invalid](Glossary#validity) on the other.
 
 Even without protection it is possible for an [owner](Glossary#owner) to [spend](Glossary#spend) in a manner that prevents replay in one direction or the other, though there is a [fee](Glossary#fee) and/or complexity cost in doing so. A split may reduce, but not eliminate, this cost in one or both directions by [activating](Glossary#activation) rules that spends can *selectively* utilize. This is called opt-in, in contrast to mandatory, replay protection. Opt-in replay protection reduces but does not eliminate the cost whereas mandatory protection can eliminate the cost.
 
