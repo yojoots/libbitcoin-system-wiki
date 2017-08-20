@@ -1,0 +1,7 @@
+There is a theory that selling [units](Glossary#unit) from one side of a [split](Glossary#split) [coin](Glossary#coin) for units of the other reduces the relative [utility](Glossary#utility) of the sold coin. However each sale requires a buyer. As a [trade](Glossary#trade) the action is symmetrical and therefore the theory is invalid. 
+
+There is a related theory that [exchanging](Glossary#exchange) units from one side of a split coin constitutes [dumping](https://en.m.wikipedia.org/wiki/Dumping_(pricing_policy)) of the that coin, which reduces its utility. The theory simply misrepresents the concept of dumping.
+
+Dumping is [state](Glossary#state) subsidy (not to be confused with Bitcoin [subsidy](Glossary#subsidy)) of a product, generally sold in another state. It is a levy on the taxpayers of the subsidizing state, typically applied to establish market share for the product. The subsidy increases sales volume for the product by reducing [price](Glossary#price) relative to the otherwise [market](Glossary#market) price. In other words the lower price increases demand until the market clears, in the case where demand is [elastic](https://en.m.wikipedia.org/wiki/Price_elasticity_of_demand).
+
+In contrast to dumping, trading at market price doesn't reduce price because it is not subsidized. Increased trading frequency does not affect utility. This error derives from the [equation of exchange](https://mises.org/library/man-economy-and-state-power-and-market/html/p/1107), an invalid theory itself.
