@@ -25,6 +25,7 @@
   * [Private Key Fallacy](Private-Key-Fallacy)
   * [Inflation Fallacy](Inflation-Fallacy)
   * [Dumping Fallacy](Dumping-Fallacy)
+  * [Network Effect Fallacy](Network-Effect-Fallacy)
   * [Replay Protection Fallacy](Replay-Protection-Fallacy)
   * [Halving Fallacy](Halving-Fallacy)
   * [Side Fee Fallacy](Side-Fee-Fallacy)
