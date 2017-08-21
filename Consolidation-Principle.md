@@ -2,4 +2,4 @@ The need to [exchange](Glossary#exchange) from one [coin](Glossary#coin) in orde
 
 We can reasonably assume that two distinct moneys cannot perpetually have identical utility. [Thier's Law](https://en.wikipedia.org/wiki/Gresham%27s_law#Reverse_of_Gresham.27s_Law_.28Thiers.27_Law.29) discusses the consequences of better money in the absence of [state](Glossary#state) controls. From this we necessarily conclude that the better of the two monies will eventually replace the other, and that this will be the case for all coins in the absence of state controls.
 
-This does not imply that new coins cannot be created or exist over a significant amount of time. It implies that there is a [market](Glossary#market) pressure toward a single coin. Coins suitable in mutually-exclusive scenarios can persist, but redundant coins cannot.
+This does not imply that new coins cannot be created or exist over a significant amount of time. It implies that there is a [market](Glossary#market) pressure toward a single coin.
