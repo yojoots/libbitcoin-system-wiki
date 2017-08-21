@@ -9,6 +9,7 @@
 * **[Understanding Bitcoin](Understanding-Bitcoin)**
   * [Axiom of Resistance](Axiom-of-Resistance)
   * [Risk Sharing Principle](Risk-Sharing-Principle)
+  * [Consolidation Principle](Consolidation-Principle)
   * [Zero Sum Property](Zero-Sum-Property)
   * [Threat Level Paradox](Threat-Level-Paradox)
   * [Miner Business Model](Miner-Business-Model)
