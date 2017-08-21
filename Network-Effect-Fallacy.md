@@ -1,0 +1,5 @@
+There is a theory that the [utility](Glossary#utility) of an [economy](Glossary#economy) varies with the square of the number of its [merchants](Glossary#merchant), assuming each merchant offers the same value of goods or services for sale in the [coin](Glossary#coin). The theory is an application of [Metcalf's Law](https://en.wikipedia.org/wiki/Metcalfe%27s_law).
+
+This implies that a [clean](Consolidation-Principle) and equal [split](Glossary#split) of the economy reduces combined utility by half. For example, if 20 merchants has utility 400 then 2 networks of 10 of these merchants has utility 200.
+
+The theory fails to account for the [fungibility](https://en.wikipedia.org/wiki/Fungibility) and convertibility of money. The ability to [exchange](Glossary#exchange) any [units](Glossary#unit) of one coin for the other collapses the utility of the two economies into a hybrid economy. The hybrid has lower utility than would a single economy, but cannot be comparable to loss of one of the two economies entirely unless the conversion cost is unbounded. The theory is therefore invalid.
