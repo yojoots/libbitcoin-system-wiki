@@ -1,5 +1,3 @@
-Split Speculator Dilemma
-
 In the wake of a [split](Glossary#split) an original [coin](Glossary#coin) [owner](Glossary#owner) is faced with the choice of retaining or selling [units](Glossary#unit) of the original and split [chains](Glossary#chain).
 
 As discussed in [Dumping Fallacy](Dumping-Fallacy) there is no way to discourage the existence of one chain or the other by [exchanging](Glossary#exchange) or [hoarding](https://en.m.wikipedia.org/wiki/Hoarding_(economics)) units of either. Therefore we consider this choice to be strictly a question of how to maximize the value of existing holdings following a split.
