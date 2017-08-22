@@ -2,7 +2,7 @@ In the wake of a [split](Glossary#split) an original [coin](Glossary#coin) [owne
 
 As discussed in [Dumping Fallacy](Dumping-Fallacy) there is no way to discourage the existence of one chain or the other by [exchanging](Glossary#exchange) or [hoarding](https://en.m.wikipedia.org/wiki/Hoarding_(economics)) units of either. Therefore we consider this choice to be strictly a question of how to maximize the value of existing holdings following a split.
 
-Given a position before the split, an owner is impacted by the increased cost of unit conversion, and [relay protection](Relay-Protection-Fallacy) as applicable. These are unavoidable future [trading](Glossary#trade) costs that reduce the [net present value](https://en.m.wikipedia.org/wiki/Net_present_value) of the units. Therefore these factors are not relevant to the question.
+Given a position before the split, an owner is impacted by the increased cost of unit conversion, and [replay protection](Replay-Protection-Fallacy) as applicable. These are unavoidable future [trading](Glossary#trade) costs that reduce the [net present value](https://en.m.wikipedia.org/wiki/Net_present_value) of the units. Therefore these factors are not relevant to the question.
 
 The remaining considerations are based on the **assumption** that the original coin will increase in [price](Glossary#price) over the contemplated period of time.
 
