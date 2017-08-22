@@ -6,7 +6,7 @@ If we assume that the coins are identical apart from the fact of the split, the 
 
 An increase or decrease in the number of merchants accepting either of the coins is a net gain or loss of combined utility respectively, as it implies a third-currency exchange cost. In other words the effect is proportional to each of the coins in the split. This factor relates to the particulars of a given split, not to splitting in general.
 
-Therefore a split produces both a shift and a reduction of utility, in proportion to the relative sizes of the resulting economies. The [Network Effect Fallacy](Network-Effect-Fallacy) explains why the combined reduction is not quadratic in nature, as sometimes assumed.
+Therefore a split produces both a shift and reduction of utility, in proportion to the relative sizes of the resulting economies. The [Network Effect Fallacy](Network-Effect-Fallacy) explains why the combined reduction is not quadratic in nature, as sometimes assumed.
 
 While it may appear that in the shift someone has "taken" value from the original coin, that value has actually "left" to form the split coin. In other words merchants are masters of the value that they provide to a money, not the owners of the money. Owners have independent control over value based on the level of [hoarding](Dumping-Fallacy).
 
