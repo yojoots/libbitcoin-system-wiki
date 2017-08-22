@@ -8,7 +8,7 @@ An increase or decrease in the number of merchants accepting either of the coins
 
 Therefore a split produces both a shift and reduction of utility, in proportion to the relative sizes of the resulting economies. The [Network Effect Fallacy](Network-Effect-Fallacy) explains why the reduction is not quadratic in nature, as sometimes assumed.
 
-While it may appear that in the shift someone has "taken" value from the original coin, that value has actually "left" to form the split coin. In other words merchants are masters of the value that they provide to a money. Owners have *independent* control over the purchasing power of one unit, based on their level of [hoarding](Dumping-Fallacy). However this does not affect the utility of the money but instead its [price](Glossary#price).
+While it may appear that in the shift someone has "taken" value from the original coin, that value has actually "left" to form the split coin. In other words merchants are masters of the value that they provide to a money. Owners have *independent* control over the purchasing power of one unit, based on their level of [hoarding](Dumping-Fallacy). However this affects unit [price](Glossary#price), not utility.
 
 Upon the split an original unit becomes two units, each with decreased and proportional utility in relation to the original. With mandatory [replay protection](Replay-Protection-Fallacy) each can be [spent](Glossary#spend) at no additional cost. Otherwise the need for self-protection [discounts](https://en.m.wikipedia.org/wiki/Net_present_value) units of the unprotected chain.
 
