@@ -6,8 +6,6 @@ Given a position before the split, an owner is impacted by the increased cost of
 
 The remaining considerations are based on the **assumption** that the original coin will increase in [price](Glossary#price) over the contemplated period of time.
 
-The [Consolidation Principle](Consolidation-Principle) implies that the two coins must eventually consolidate, reducing to zero the value of one of them over time. If one happens to know which this will be, it seems rational to sell it and buy the other. Yet assuming that value is moving proportionally between two coins the sum is constant and this trade is inconsequential.
-
-However, given that one may *not* know which coin will survive, there is a chance that the trade would sell the coin that succeeds for the one that fails, sacrificing *all* value in the original units. As such the rational choice is to hoard both.
+The [Consolidation Principle](Consolidation-Principle) implies that the two coins must eventually consolidate, reducing to zero the value of one of them over time. If one happens to know which this will be, it is rational to sell it and buy the other. However, given that one may *not* know which coin will survive, there is a chance that the trade would sell the coin that succeeds for the one that fails, sacrificing *all* value in the original units. As such it is equally rational to hoard both. With now knowledge of the future, selling one increases the reward in proportion to the risk.
 
 Finally it should be emphasized that both chains could fail, with value consolidating to an independent chain, commodity or [state](Glossary#state) money. This topic intends only to provide a rational decision framework based on assumptions that may not come to pass.
