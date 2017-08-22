@@ -14,7 +14,7 @@
   * [Zero Sum Property](Zero-Sum-Property)
   * [Threat Level Paradox](Threat-Level-Paradox)
   * [Miner Business Model](Miner-Business-Model)
-  * [Split Speculation Dilemma](Split-Speculation-Dilemma)
+  * [Split Speculator Dilemma](Split-Speculator-Dilemma)
   * [Pooling Pressure Risk](Pooling-Pressure-Risk)
   * [Centralization Risk](Centralization-Risk)
   * [Proximity Premium Flaw](Proximity-Premium-Flaw)
