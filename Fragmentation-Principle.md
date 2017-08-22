@@ -4,7 +4,7 @@ A [split](Glossary#split) implies that zero or more merchants have stopped accep
 
 If we assume that the coins are identical apart from the fact of the split, the [Consolidation Principle](Consolidation-Principle) implies that the utility of the combined coins is the same as the utility of the original less the [exchange](Glossary#exchange) cost. The scenario can be expanded to include merchant overlap. This has no effect on coin utility, as it only shifts the incidence of the exchange cost from buyer to seller.
 
-An increase or decrease in the number of merchants accepting either of the coins is a net gain or loss of combined utility respectively, as it implies a third-currency exchange cost. In other words the effect is proportional to each of the coins in the split. This factor relates to the particulars of a given split, not to splitting in general.
+An increase or decrease in the number of merchants accepting either of the coins is a net gain or loss of combined utility respectively, as it implies the removal or addition of a third-currency exchange cost. In other words the effect is proportional to each of the coins in the split. This factor relates to the particulars of a given split, not to splitting in general.
 
 Therefore a split produces both a shift and reduction of utility, in proportion to the relative sizes of the resulting economies. The [Network Effect Fallacy](Network-Effect-Fallacy) explains why the reduction is not quadratic in nature, as sometimes assumed.
 
