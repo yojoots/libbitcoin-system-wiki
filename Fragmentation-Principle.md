@@ -1,0 +1,15 @@
+The [utility](Glossary#utility) of a money derives directly from its ability to facilitate [trade](Glossary#trade), in contrast to barter. If it is not accepted by *any* [merchant](Glossary#merchant) then objectively it has no monetary usefulness. The more goods and services (including consideration of location) that can be purchased with a money at any given time, the more likely it is that the money has greater utility to any given [person](Glossary#person).
+
+A [split](Glossary#split) implies that zero or more merchants have stopped accepting the original [coin](Glossary#coin) and that zero or more have started accepting the split coin. A "clean" split is a hypothetical scenario in which there is no overlap in acceptance of the two coins, and no change in the set of merchants. A clean split produces two [economies](Glossary#economy) from the original set of merchants.
+
+If we assume that the coins are identical apart from the fact of the split, the [Consolidation Principle](Consolidation-Principle) implies that the utility of the combined coins is the same as the utility of the original less the [exchange](Glossary#exchange) cost. The scenario can be expanded to include merchant overlap. This has no effect on coin utility, as it only shifts the incidence of the exchange cost from buyer to seller.
+
+An increase or decrease in the number of merchants accepting either of the coins is a net gain or loss of combined utility respectively, as it implies a third-currency exchange cost. In other words the effect is proportional to each of the coins in the split. This factor relates to the particulars of a given split, not to splitting in general.
+
+Therefore a split produces both a shift and a reduction of utility, in proportion to the relative sizes of the resulting economies. The [Network Effect Fallacy](Network-Effect-Fallacy) explains why the combined reduction is not quadratic in nature, as sometimes assumed.
+
+While it may appear that in the shift someone has "taken" value from the original coin, that value has actually "left" to form the split coin. In other words merchants are masters of the value that they provide to a money, not the owners of the money. Owners have independent control over value based on the level of [hoarding](Hoarding-Fallacy).
+
+Upon the split an original unit becomes two units, each with decreased and proportional utility in relation to the original. With mandatory [replay protection](Replay-Protection-Fallacy each can be [spent](Glossary#spend) at no additional cost. Otherwise the need for self-protection [discounts](https://en.m.wikipedia.org/wiki/Discounting) units of the unprotected chain.
+
+This analysis is applicable to new coins as well. The difference in the case of a new coin is that original (other) coin units are not spendable on the new chain. As such the new coin is faced with the difficulty of allocating units, which requires work and therefore time. Splits [bootstrap](https://en.wikipedia.org/wiki/Bootstrapping) this process by subdividing the utility of an existing chain, to the extent its merchants are willing to do so.
