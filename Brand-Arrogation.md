@@ -1,0 +1,3 @@
+Bitcoin is a brand, not a [chain](Glossary#chain). No [person](Glossary#person) can control the brand. People will use it to describe one or more chains and [splits](Glossary#split) as they evolve. This happens with all monies, including gold and oil which trade at different purities and qualities.
+
+This is consistent with the declaration of Bitcoin by Satoshi, as it binds a set of concepts, not a set of [rules](Glossary#consensus-rules), [protocols](Glossary#protocol) or [implementations](Glossary#implementation). People with capital invested in particulars have an inherent desire for brand association, but there is no such thing as a "legitimate" claim to it.
