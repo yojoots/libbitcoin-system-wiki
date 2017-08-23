@@ -33,6 +33,7 @@
   * [Side Fee Fallacy](Side-Fee-Fallacy)
   * [Relay Fallacy](Relay-Fallacy)
   * [Hearn Error](Hearn-Error)
+  * [Brand Arrogation](Brand-Arrogation)
   * [Glossary](Glossary)
 * **Console Applications**
   * [Bitcoin Explorer](https://github.com/libbitcoin/libbitcoin-explorer/wiki)
