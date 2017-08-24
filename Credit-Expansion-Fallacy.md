@@ -24,6 +24,6 @@ Ultimately this scheme, created by the state, exists to allow the state to direc
 
 It should be clear that this so-called credit expansion is not simply the result of fractional banking as a free market force. It is the consequence of the state favoring debtors over savers. In a free market of banking, banks are simply investment funds. Investors on average obtain a market return on capital and suffer the risk of doing so. In state banking risk and therefore capital are rearranged according to political objectives.
 
-It is a common error to assume that the increase in monetary units constitutes credit expansion. This is not the case. Credit expansion is a consequence of an increase in lending of capital, as opposed to its hoarding. Increased lending in a free market is a consequence of reduced time preference, and reduces the cost of capital.
+It is a common error to assume that an increase in monetary units constitutes credit expansion. This is not the case. Credit expansion is a consequence of an increase in lending of capital, as opposed to its hoarding. Increased lending in a free market is a consequence of reduced time preference, and reduces the cost of capital.
 
 There is no way to prove that creation of a split or new coin changes time preference and as such it is an error of assumption that it reduces the cost of capital. The error is presumably a consequence of improperly relating reduced cost of capital to monetary inflation.
