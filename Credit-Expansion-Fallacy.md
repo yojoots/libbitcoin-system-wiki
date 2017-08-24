@@ -16,7 +16,7 @@ When bank loans/investments are failing the cost is borne by the taxpayer. The s
 
 To the extent that banks compete for account holders, the benefit of the tax accrues to the account holder. As a holder of the money, an account holder is ironically also a taxpayer, though this transfer is not necessarily proportional. This taxpayer insured investment process shifts money from some people to others in a complex manner.
 
-The fractional nature of state banking is expansive of credit only in that more lending appears to occur than would otherwise be the case due to insured lending, also referred to as "risk free". However the insurance cost cannot be ignored. People have less money to lend because it is being absorbed in the process of financing bad investments/loans held in risk-free accounts.
+The fractional nature of state banking is expansive of credit only in that more lending occurs than would otherwise be the case due to insured lending, also referred to as "risk free". However the insurance cost cannot be ignored. People have less money to lend because it is being absorbed by tax in the process of financing bad investments/loans held in risk-free accounts.
 
 It follows that a beneficiary of the scheme is the defaulting recipient of bank capital. This benefit accrues to all borrowers as a reduced cost of capital. Given the reduced custodial risk created by free investment insurance, known as "moral hazard", the bank and its account holders are willing participants in the scheme to transfer from taxpayers, including savers, to borrowers.
 
