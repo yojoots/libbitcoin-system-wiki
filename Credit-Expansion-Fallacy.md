@@ -1,4 +1,4 @@
-The increase of monetary units, as in the case of a [split](Glossary#split) or new [coin](Glossary#coin), does not create credit.
+There is a theory that the increase of monetary units, as in the case of a [split](Glossary#split) or new [coin](Glossary#coin), creates credit.
 
 [Seigniorage](https://en.wikipedia.org/wiki/Seigniorage) is a tax. The created monetary [units](Glossary#unit) do not represent new capital but instead the dilution of existing units by the [state](Glossary#state), transferring ownership of the capital that they represent. As this capital is put to use in the subsidy of lending by the state banking cartel, as discounted capital and insurance, the cost of capital is reduced to the bank's customers.
 
