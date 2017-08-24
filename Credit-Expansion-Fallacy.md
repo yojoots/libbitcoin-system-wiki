@@ -6,4 +6,4 @@ This so-called credit expansion is not simply the result of fractional banking a
 
 Market credit expansion is an increase in the lending of capital, as opposed to its hoarding. Increased rates of lending are a consequence of reduced time preference, and reduce the cost of capital. It is impossible to prove that creation of a split or new coin changes time preference and as such it is an error of assumption that it reduces the cost of capital.
 
-The error is presumably a consequence of assuming that credit expansion driven by state monetary expansion is a market force.
+The error is presumably a consequence of assuming that credit expansion driven by state monetary expansion is a market force. However a hard money cannot produce seigniorage.
