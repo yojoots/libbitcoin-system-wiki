@@ -1,4 +1,4 @@
-The increase of monetary units, as in the case of a split or new coin, does not create credit. This is a common fallacy attributable to the relationship between state and fractional banking.
+The increase of monetary units, as in the case of a split or new coin, does not create credit.
 
 Seigniorage is a tax. The created monetary units do not represent new capital but instead the dilution of existing units by the state, transferring ownership of the capital that they represent. As this capital is put to use in the subsidy of lending by a state banking cartel, as discounted capital and insurance, the cost of capital is reduced to the bank's customers.
 
