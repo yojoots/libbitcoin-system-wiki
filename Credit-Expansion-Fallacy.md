@@ -6,7 +6,7 @@ The lenders are never repaid for the so-called loan unless the sovereign permane
 
 This expansion of monetary units tends to never contract and given the existence of legal tender laws and other currency controls is involuntary. This "credit expansion" thereby acts as a perpetual tax on holders of the state money.
 
-The effect is the same as with market credit with the exceptions that the lending is involuntary, the spending of the credit is controlled politically, and the loans are perpetually in default. These differences constitute malinvestment, which creates the associated [business cycle]().
+The effect is the same as with market credit with the exceptions that the lending is involuntary, the spending of the credit is controlled politically, and the loans are perpetually in default. These differences constitute malinvestment, which creates the associated business cycle.
 
 The mechanism of seigniorage implies that people actually use the state money. This requires the force of law as implied by Thier's Law. The benefit of a hard money is that it cannot be counterfeited. This is why states hoard hard money as "reserve currency" and compel the use of their own soft money as a "circulating currency".
 
