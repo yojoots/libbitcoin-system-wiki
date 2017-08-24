@@ -12,7 +12,7 @@ The mechanism of seigniorage implies that people actually use the state money. T
 
 Bank lending is not materially different than any other form of investment, where the bank is an aggregate investor for its account/fund holders. However investments carry risk. The insurance of bank investments by the state, as demanded by voters, requires a constant source of capital.
 
-When bank loans/investments are failing the cost is borne by the taxpayer. The state-licensed bank obtains money from the state at below market rates of return. The difference between the market rate and the "discount rate" is a transfer of tax money to account holders. The state finances this cost in part through seigniorage. Given little incentive to guard manage investment risk, the bank becomes a daily visitor to the "discount window".
+When bank loans/investments are failing the cost is borne by the taxpayer. The state-licensed bank obtains money from the state at below market rates of return. The difference between the market rate and the "discount rate" is a transfer of tax money to account holders. The state finances this cost in part through seigniorage. Given little incentive to manage investment risk, the bank becomes a daily visitor to the "discount window".
 
 To the extent that banks compete for account holders, the benefit of the tax accrues to the account holder. As a holder of the money, an account holder is ironically also a taxpayer, though this transfer is not necessarily proportional. This taxpayer insured investment process shifts money from some people to others in a complex manner.
 
