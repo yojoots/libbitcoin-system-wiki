@@ -128,8 +128,9 @@ The product of [Price](#price) and [Supply](#supply).
 #### Trade
 A voluntary swap of property between two [People](#person).
 #### Utility
-The usefulness of specific property to a [Person](#person).
-> Value is an alias for this.
+The usefulness of certain property to a [Person](#person).
+#### Value
+The [Utility](#utility) of a number of [Units](#unit) to a [Person](#person).
 #### Supply
 The set of all issued [Units](#unit).
 #### Exchange
