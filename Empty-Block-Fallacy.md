@@ -6,7 +6,7 @@ Consider the following:
 
 * The term "attack" implies theft. The [Bitcoin whitepaper](https://bitcoin.org/bitcoin.pdf), for example, uses the term only to describe double-spend attempts.
 
-* A [reward](Glossary#reward) consists of [fees](Glossary#fee) for [transactions](Glossary#transaction) and a [subsidy](Glossary#subsidy) for the block. The miner forgoes transaction fees by not including transactions and is not rewarded for them.
+* A [reward](Glossary#reward) consists of [fees](Glossary#fee) for [transactions](Glossary#transaction) and a [subsidy](Glossary#subsidy) for the block. The [miner](Glossary#miner) who forgoes transaction fees by not including transactions is not rewarded for them.
 
 * The miner's [hash power](Glossary#hash-power) contributes proportionally to the security of the network. The subsidy is compensation for that security during the [inflationary](Glossary#inflation) phase. The purpose of inflation is to rationally distribute the [coin](Glossary#coin). The rational distribution is specifically in [exchange](Glossary#exchange) for hash power, not for transaction inclusion.
 
