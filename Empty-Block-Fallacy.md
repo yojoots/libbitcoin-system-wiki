@@ -10,7 +10,7 @@ Consider the following:
 
 * The miner's [hash power](Glossary#hash-power) contributes proportionally to the security of the network. The subsidy is compensation for that security during the [inflationary](Glossary#inflation) phase. The purpose of inflation is to rationally distribute the [coin](Glossary#coin). The rational distribution is specifically in [exchange](Glossary#exchange) for hash power, not for transaction inclusion.
 
-For each of these reasons independently the theory is invalid. However it is worth exploring the source of the fallacy. Because of the [Zero Sum Property](Zero-Sum-Property), there may be an assumption that mining an empty block "unfairly" takes away the opportunity for transactions to be [confirmed](Glossary#confirmation).
+For these reasons the theory is invalid. However it is worth exploring the source of the fallacy. Because of the [Zero Sum Property](Zero-Sum-Property), there may be an assumption that mining an empty block "unfairly" takes away the opportunity for transactions to be [confirmed](Glossary#confirmation).
 
 Other miners retain the ability to confirm transactions in proportion to their hash power. If 10% of the hash power mines empty blocks, then confirmations will take 10% longer on average. However if a miner removes his/her 10% of the total hash power, confirmations will also take 10% longer on average, until the next difficulty [adjustment](Glossary#adjustment). Yet removing one's hash power is generally not considered an attack.
 
