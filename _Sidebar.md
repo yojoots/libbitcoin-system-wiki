@@ -28,6 +28,7 @@
   * [Credit Expansion Fallacy](Credit-Expansion-Fallacy)
   * [Private Key Fallacy](Private-Key-Fallacy)
   * [Inflation Fallacy](Inflation-Fallacy)
+  * [Empty Block Fallacy](Empty-Block-Fallacy)
   * [Dumping Fallacy](Dumping-Fallacy)
   * [Network Effect Fallacy](Network-Effect-Fallacy)
   * [Replay Protection Fallacy](Replay-Protection-Fallacy)
