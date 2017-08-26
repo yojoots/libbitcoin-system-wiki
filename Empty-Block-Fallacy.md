@@ -10,7 +10,7 @@ Consider the following:
 
 * The miner's [hash power](Glossary#hash-power) contributes proportionally to the security of the network. The subsidy is compensation for that security during the [inflationary](Glossary#inflation) phase. The purpose of inflation is to rationally distribute the [coin](Glossary#coin). The rational distribution is specifically in exchange for hash power, not for transaction inclusion.
 
-For each of these reasons independently the theory is invalid. However it is worth exploring the source of the fallacy. Because mining is a [zero sum game](Zero-Sum-Property), there may be an assumption that mining an empty block somehow takes away the opportunity for transactions to be included.
+For each of these reasons independently the theory is invalid. However it is worth exploring the source of the fallacy. Because mining is a [zero sum game](Zero-Sum-Property), there may be an assumption that mining an empty block somehow takes away the opportunity for transactions to be confirmed.
 
 A miner commits capital to mining, producing hash power. Setting aside the effects of [pooling](Glossary#pooling), the miner is subsidized in proportion to hash power produced. Without this hash power other miners would produce the same average number of blocks at proportionally lower [difficulty](Glossary#difficulty). In other words, *actually* attacking [owners](Glossary#owners) would be proportionally cheaper. So despite not being rewarded for including transactions, the miner is securing previously-[confirmed](Glossary#confirmed) transactions.
 
