@@ -2,7 +2,7 @@ The [utility](Glossary#utility) of a money derives directly from its ability to 
 
 A [split](Glossary#split) implies that zero or more merchants have stopped accepting the original [coin](Glossary#coin) and that zero or more have started accepting the split coin. A "clean" split is a hypothetical scenario in which there is no overlap in merchant acceptance of the two coins, and no change in the set of merchants. A clean split produces two [economies](Glossary#economy) from the original set of merchants.
 
-If we assume that the coins are identical apart from the fact of the split, the [Consolidation Principle](Consolidation-Principle) implies that the utility of the combined coins is the same as the utility of the original less the [exchange](Glossary#exchange) cost. The scenario can be expanded to include merchant overlap. This has no effect on coin utility, as it only shifts the incidence of the exchange cost from buyer to seller.
+**If we assume that the coins are identical apart from the fact of the split**, the [Consolidation Principle](Consolidation-Principle) implies that the utility of the combined coins is the same as the utility of the original less the [exchange](Glossary#exchange) cost. The scenario can be expanded to include merchant overlap. This has no effect on coin utility, as it only shifts the incidence of the exchange cost from buyer to seller.
 
 An increase or decrease in the number of merchants accepting either of the coins is a net gain or loss of combined utility respectively, as it implies the removal or addition of a third-currency exchange cost. In other words the effect is proportional to each of the coins in the split. This factor relates to the particulars of a given split, not to splitting in general.
 
