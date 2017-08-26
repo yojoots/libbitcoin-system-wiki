@@ -1,4 +1,4 @@
-There is a theory that the [mining](Glossary#mine) of empty [blocks](Glossary#block) is an [attack](Glossary#block). The theory does not require that the blocks are mined on a [weak branch](Glossary#weak) in an attempt to enable [double-spending](Glossary#double-spend). It also does not specify what [person](Glossary#person) is attacked.
+There is a theory that the [mining](Glossary#mine) of empty [blocks](Glossary#block) is an [attack](Glossary#attack). The theory does not require that the blocks are mined on a [weak branch](Glossary#weak) in an attempt to enable [double-spending](Glossary#double-spend). It also does not specify what [person](Glossary#person) is attacked.
 
 Consider the following:
 
