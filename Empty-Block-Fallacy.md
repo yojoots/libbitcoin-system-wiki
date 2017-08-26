@@ -8,7 +8,7 @@ Consider the following:
 
 * The miner's [hash power](Glossary#hash-power) contributes proportionally to the security of the network. The subsidy is compensation for that security during the [inflationary](Glossary#inflation) phase. The purpose of inflation is to rationally distribute the [coin](Glossary#coin). The rational distribution is specifically in [exchange](Glossary#exchange) for hash power, not for transaction inclusion.
 
-* Transaction confirmation is not assured by Bitcoin. Fees are the *incentive* for confirmation. Lack of confirmation objectively implies insufficient fee.
+* Transaction confirmation is not assured. Fees are the *incentive* for confirmation. Lack of confirmation objectively implies insufficient fee.
 
 * Empty block mining is entirely consistent with [consensus rules](Glossary#consensus-rules) and cannot be reasonably prevented by a new [rule](Glossary#rule).
 
