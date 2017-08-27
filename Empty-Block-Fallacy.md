@@ -6,7 +6,7 @@ Consider the following:
 
 * A [reward](Glossary#reward) consists of [fees](Glossary#fee) for [transactions](Glossary#transaction) and a [subsidy](Glossary#subsidy) for the block. The [miner](Glossary#miner) who forgoes transaction fees by not including transactions is not rewarded for them.
 
-* The miner's [hash power](Glossary#hash-power) contributes proportionally to the security of the network. The subsidy is compensation for that security during the [inflationary](Glossary#inflation) phase. The purpose of inflation is to rationally distribute the [coin](Glossary#coin). The rational distribution is specifically in [exchange](Glossary#exchange) for hash power, not for transaction inclusion.
+* The miner's [hash power](Glossary#hash-power) contributes proportionally to the security of the network. The subsidy is compensation for that security during the [inflationary](Glossary#inflation) phase. The purpose of inflation is to rationally distribute [units](Glossary#unit). The rational distribution is specifically in [exchange](Glossary#exchange) for hash power, not for transaction inclusion.
 
 * Transaction [confirmation](Glossary#confirmation) is not assured. Fees are the *incentive* for confirmation. Lack of confirmation objectively implies insufficient fee.
 
