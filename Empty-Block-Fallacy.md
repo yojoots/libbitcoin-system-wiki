@@ -14,7 +14,7 @@ Consider the following:
 
 For these reasons the theory is invalid. However it is worth exploring the source of the fallacy. Because of the [Zero Sum Property](Zero-Sum-Property), there may be an assumption that mining an empty block "unfairly" takes away the opportunity for transactions to be confirmed.
 
-Other miners retain the ability to confirm transactions in proportion to their hash power. If 10% of the hash power mines empty blocks, then confirmations will take 10% longer on average. However if a miner removes his/her 10% of the total hash power, confirmations will also take 10% longer on average, until the next difficulty [adjustment](Glossary#adjustment). Yet removing one's hash power is generally not considered an attack.
+Other miners retain the ability to confirm transactions in proportion to their hash power. If 10% of the hash power mines empty blocks, then confirmations will take 10% longer on average. However if a miner removes 10% of the total hash power, confirmations will also take 10% longer on average, until the next difficulty [adjustment](Glossary#adjustment). Yet removing one's hash power is generally not considered an attack.
 
 A miner commits capital to mining, producing hash power. Setting aside the [effects of pooling](Pooling-Pressure-Risk), the miner is subsidized in proportion to hash power produced. Without this hash power other miners would produce the same average number of blocks at proportionally lower [difficulty](Glossary#difficulty). In other words, *actual* attacks would be proportionally cheaper. So despite not being rewarded for including transactions, the miner is securing previously-confirmed transactions.
 
