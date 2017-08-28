@@ -4,4 +4,4 @@ Increasing utility therefore implies increasing average transfer value, as risin
 
 Higher fees imply higher [hash rate](Glossary#hash-rate), mitigating the need to increase confirmation depth for higher value transfers. But given there is no way to reduce security for lower value transfers, the useful minimum value transfer rises with utility. Failure to support transfers in a certain value range implies substitutes are cheaper in that range. This implies the possibility of coexisting moneys to service distinct value ranges. However, similar coins all exhibit this property.
 
-[Rule](Glossary#rule) differences in terms of [block](Glossary#block) period or size do not change this relationship. The effect of these coin variations is strictly proportional. Even unlimited size blocks must produce fee levels that price out low value transfers given rising utility.
+[Rule](Glossary#rule) differences in terms of [block](Glossary#block) period or size do not change this relationship. The effect of these coin variations is strictly proportional. Even unlimited size blocks must produce fee levels that price out low value transfers.
