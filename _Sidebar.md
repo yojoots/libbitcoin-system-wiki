@@ -20,6 +20,7 @@
   * [Pooling Pressure Risk](Pooling-Pressure-Risk)
   * [Balance of Power Fallacy](Balance-of-Power-Fallacy)
   * [Causation Fallacy](Causation-Fallacy)
+  * [Cockroach Fallacy](Cockroach-Fallacy)
   * [Credit Expansion Fallacy](Credit-Expansion-Fallacy)
   * [Dumping Fallacy](Dumping-Fallacy)
   * [Empty Block Fallacy](Empty-Block-Fallacy)
