@@ -4,6 +4,8 @@ There is a theory that [pooling](Glossary#pooling) and [centralization](Glossary
 
 The theory is based on [grinders](Glossary#grinder) switching [miner](Glossary#miner) allegiance at low cost. This is based on the [Balance of Power Fallacy](Balance-of-Power-Fallacy), which incorrectly models miners as the threat. A shift of [hash power](Glossary#hash-power) from one mine to another does not reduce pooling or the risk associated with it. The risk is that [states](Glossary#state) take control of large amounts of hash power, substantially reducing the cost of [attack](Glossary#attack). It is an error to assume that states do not [collaborate](http://www.imf.org/external/index.htm) in defense of [seigniorage](https://en.wikipedia.org/wiki/Seigniorage).
 
+> The International Monetary Fund (IMF) is an organization of 189 countries, working to foster global monetary cooperation...
+
 A reduction in pooling requires an increase in the number of miners. This requires that grinders, converted to miners, suffer the increased cost associated with reduced pooling. Given that such a conversion takes time and may not be in the financial interest of grinders it is an error to discount the risk to the economy posed by pooling.
 
 The theory also ignores [economic](Glossary#economy) [centralization](Glossary#centralization) and [delegation](Glossary#delegation). It is an error to assume the economy can rapidly decentralize, and de-delegation would most likely be infeasible in the case of state attacks. [Currency controls](https://en.wikipedia.org/wiki/Foreign_exchange_controls) commonly restrict [transfer](Glossary#transfer).
