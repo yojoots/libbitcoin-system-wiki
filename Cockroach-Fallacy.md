@@ -1,3 +1,3 @@
-There is a theory that [pooling](Glossary#pooling) and [centralization](Glossary#centralization) do not materially reduce the security afforded by [risk sharing](Risk-Sharing-Principle) because [miners](Glossary#miner) and the [economy](Glossary#economy) will disperse as necessary, similar to the scattering reaction of cockroaches disturbed by a light.
+There is a theory that [pooling](Glossary#pooling) and [centralization](Glossary#centralization) do not materially reduce the security afforded by [risk sharing](Risk-Sharing-Principle) because [miners](Glossary#miner) and the [economy](Glossary#economy) will disperse as necessary, similar to the scattering cockroaches disturbed by a light.
 
 This is essentially a dismissal of the [Threat Level Paradox](Threat-Level-Paradox).
