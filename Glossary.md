@@ -7,6 +7,7 @@ An instruction follower.
 ## Agreement
 #### Consensus
 An agreement among [People](#person).
+> Also the set of people who participate in the agreement.
 #### Coin
 A [Consensus](#consensus) regarding a mutually-acceptable medium for [Trade](#trade).
 > Bitcoin is a Coin
