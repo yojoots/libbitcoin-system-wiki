@@ -34,7 +34,7 @@ There are no details presently. It is possible that these services do not fall i
 #### Mining Relay
 > Bitcoin mining is more delay sensitive and access to lower delay signals optimized for mining is one of the future services we plan to charge for.
 
-The intent of this service is [clear](https://github.com/libbitcoin/libbitcoin/wiki/translation:-bitcoin-satellite-mining-decentralization). It is proposed that a [relay](Glossary#relay) service will provide sufficiently low latency for competitive [mining](Glossary#mine). As detailed in [Relay Fallacy](Relay-Fallacy), a relay service is a [pooling](Glossary#pooling) manifestation.
+The intent of this service is [clear](https://github.com/libbitcoin/libbitcoin/wiki/translation-of-bitcoin-satellite-mining-decentralization). It is proposed that a [relay](Glossary#relay) service will provide sufficiently low latency for competitive [mining](Glossary#mine). As detailed in [Relay Fallacy](Relay-Fallacy), a relay service is a [pooling](Glossary#pooling) manifestation.
 
 ## Summary
 
