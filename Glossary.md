@@ -221,6 +221,10 @@ A [Tool](#tool) change that reduces the cost of [Mining](#mine).
 The first communication of a [Block](#block) to another [Person](#person).
 #### Withholding
 The purposeful delay of [Announcement](#announcement).
+#### Honest
+A [Miner](#miner) who builds on the [Blocks](#block) of others.
+#### Selfish
+A [Miner](#miner) who is not always [Honest](#honest).
 #### Variance
 The varying frequency of achieving a [Reward](#reward).
 
