@@ -1,4 +1,4 @@
-The term "Selfish Mining" refers to a [mining](Glossary#mine) [optimization](Glossary#optimization). However, [one academic paper](https://www.cs.cornell.edu/~ie53/publications/btcProcFC.pdf) frames the optimization as follows:
+The term "[selfish mining](Glossary#selfish)" refers to a [mining](Glossary#mine) [optimization](Glossary#optimization). However, [one academic paper](https://www.cs.cornell.edu/~ie53/publications/btcProcFC.pdf) frames the optimization as follows:
 
 > Conventional wisdom asserts that the mining protocol is incentive-compatible and secure against colluding minority groups, that is, it incentivizes miners to follow the protocol as prescribed. We show that the Bitcoin mining protocol is not incentive-compatible.
 
