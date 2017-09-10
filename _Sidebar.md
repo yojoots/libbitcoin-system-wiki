@@ -60,6 +60,7 @@
   * [Style Guide](Style-Guide)
   * [Test Guide](Test-Guide)
 * **Miscellaneous Articles**
+  * [Breaking Bitcoin 2017](consensual-not-political-breaking-bitcoin-2017.pdf)
   * [Skynet Friend or Foe](Skynet-Friend-or-Foe)
   * [Altcoin Version Mappings](Altcoin-Version-Mappings)
   * [Altchain Encrypted Keys](Altchain-Encrypted-Private-Keys)
