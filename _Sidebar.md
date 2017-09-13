@@ -18,6 +18,7 @@
   * [Variance Discount Flaw](Variance-Discount-Flaw)
   * [Centralization Risk](Centralization-Risk)
   * [Pooling Pressure Risk](Pooling-Pressure-Risk)
+  * [ASIC Monopoly Fallacy](ASIC-Monopoly-Fallacy)
   * [Balance of Power Fallacy](Balance-of-Power-Fallacy)
   * [Causation Fallacy](Causation-Fallacy)
   * [Cockroach Fallacy](Cockroach-Fallacy)
