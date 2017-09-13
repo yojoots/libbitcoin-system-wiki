@@ -4,4 +4,4 @@ Production is generally set at a level intended to produce a maximum [rate of re
 
 Unless production is disproportionately subject to anti-market forces, such as tax or subsidy, everyone enjoys the same opportunity to raise capital and compete in production. If this does not happen it implies that returns on this line of business are consistent with average market returns. **In other words, monopoly price is only produced by state grant of monopoly power.**
 
-A related theory asserts that purchasing ASICs from this cartel increases its hash power. This is invalid on the basis of the above explanation of monopolistic pricing.
+A related theory asserts that purchasing ASICs from this cartel increases its [hash power](Glossary#hash-power). This is invalid on the basis of the above explanation of monopolistic pricing.
