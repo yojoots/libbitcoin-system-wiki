@@ -10,4 +10,4 @@ Unless production is disproportionately subject to anti-market forces, such as t
 
 A related theory asserts that purchasing ASICs from this cartel increases its [hash power](Glossary#hash-power). This is invalid on the basis of the above explanation of monopolistic pricing. The producer's capital will seek the same return in any line of business or investment. There is no reason to believe that the return will be disproportionate in ASICs.
 
-If people truly believe that ASICs are overpriced the rational response is to raise capital and produce ASICs. But in any case market forces control chip production and as such there is no reason to consider chip costs a protocol-based [pooling pressure](Pooling-Pressure-Risk).
+If people truly believe that ASICs are overpriced the rational response is to raise capital and produce ASICs. But in any case market and anti-market forces control chip production and as such there is no reason to consider chip costs a protocol-based [pooling pressure](Pooling-Pressure-Risk).
