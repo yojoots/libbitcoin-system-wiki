@@ -9,3 +9,5 @@ Limiting production leaves an opportunity for other producers to capture custome
 Unless production is disproportionately subject to anti-market forces, such as tax or subsidy, everyone enjoys the same opportunity to raise capital and compete in production. If this does not happen it implies that returns on this line of business are consistent with average market returns. Yet even tax/subsidy cause regional [distortions](Glossary#distortion) but do not eliminate competition. **In other words, monopoly price is only produced by state grant of monopoly power.**
 
 A related theory asserts that purchasing ASICs from this cartel increases its [hash power](Glossary#hash-power). This is invalid on the basis of the above explanation of monopolistic pricing. The producer's capital will seek the same return in any line of business or investment. There is no reason to believe that the return will be disproportionate in ASICs.
+
+If people truly believe that ASICs are overpriced the rational response is to raise capital and produce ASICs.
