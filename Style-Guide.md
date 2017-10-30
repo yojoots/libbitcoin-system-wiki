@@ -1,4 +1,4 @@
-Maximum of 80 characters per line [exceptions allowed for test vectors], 4 space indents, no tabs.
+Maximum of 80 characters per line [exceptions allowed for [test vectors](Test-Guide)], 4 space indents, no tabs.
 
 Each continued line should be nested by 1 indent. Parameter stacking is discouraged.
 
