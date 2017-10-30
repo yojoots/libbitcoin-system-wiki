@@ -98,6 +98,8 @@ Do not accept implicit narrowing casts. These are bugs that haven't been discove
 
 Test subtraction for underflow and addition for overflow, before performing the operation.
 
+Explicitly include external headers as opposed to relying on inclusion via included project source files. Implicit inclusion causes a propagation of build breaks when distant headers are modified.
+
 Don't use global variables or `goto`, we are grown-ups now.
 
 Don't tolerate warnings and don't suppress them due to laziness.
