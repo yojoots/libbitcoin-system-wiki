@@ -3,6 +3,7 @@
 * **[libbitcoin.org](https://libbitcoin.org)**
 * **[Freenode (IRC)](https://webchat.freenode.net?channels=#libbitcoin)**
 * **[Mailing List](https://mailinglists.dyne.org/cgi-bin/mailman/listinfo/libbitcoin)**
+* **[Slack Channel](https://libbitcoin.slack.com/messages)**
 * **[Build Libbitcoin](Build)**
 * **[Comprehensive Overview](https://en.bitcoin.it/wiki/Libbitcoin)**
 * **[Tutorials (aaronjaramillo)](http://aaronjaramillo.org/category/libbitcoindocs)**
