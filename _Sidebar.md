@@ -62,6 +62,7 @@
   * [Style Guide](Style-Guide)
   * [Test Guide](Test-Guide)
 * **Miscellaneous Articles**
+  * [Baltic Honeybadger 2017](https://m.youtube.com/watch?feature=youtu.be&v=BLqm2FNOmbU)
   * [Breaking Bitcoin 2017](consensual-not-political-breaking-bitcoin-2017.pdf)
   * [Skynet Friend or Foe](Skynet-Friend-or-Foe)
   * [Altcoin Version Mappings](Altcoin-Version-Mappings)
