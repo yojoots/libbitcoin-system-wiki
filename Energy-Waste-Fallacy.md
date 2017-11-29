@@ -4,7 +4,7 @@ Total [hash power](Glossary#hash-power) is a function of [reward](Glossary#rewar
 
 These upper and lower security bounds depend on confirmation cost and are therefore independent of the proof technique. There is no *necessary* level of security, just a subjective confirmation depth and minimum utility.
 
-Confirmation security is the cost of generating each [block](Glossary#block). The double spend of a transaction requires that its [branch](Glossary#branch) be superseded by another with a probabilistically greater cost. So the only way energy cost can be reduced is by expending the same average per-block cost with a lower energy component.
+Confirmation security increases with the cost of generating each [block](Glossary#block). The double spend of a transaction requires that its [branch](Glossary#branch) be superseded by another with a probabilistically greater cost. So the only way energy cost can be reduced is by expending the same average per-block cost with a lower energy component.
 
 PoW incurs cost in several forms, including labor, hardware, services, land, etc. Any other externalized proof consumes these same resources, though potentially in different proportion. The question of energy cost reduction is therefore reduced to whether an energy component of the cost of a proof can be replaced by another resource with the same cost.
 
