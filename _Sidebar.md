@@ -26,6 +26,7 @@
   * [Credit Expansion Fallacy](Credit-Expansion-Fallacy)
   * [Dumping Fallacy](Dumping-Fallacy)
   * [Empty Block Fallacy](Empty-Block-Fallacy)
+  * [Energy Waste Fallacy](Energy-Waste-Fallacy)
   * [Halving Fallacy](Halving-Fallacy)
   * [Impotent Mining Fallacy](Impotent-Mining-Fallacy)
   * [Inflation Fallacy](Inflation-Fallacy)
