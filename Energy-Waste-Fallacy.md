@@ -6,7 +6,7 @@ These upper and lower security bounds depend on confirmation cost and are theref
 
 Confirmation security increases with the cost of generating each [block](Glossary#block). The double spend of a transaction requires that its [branch](Glossary#branch) be superseded by another with a probabilistically greater cost. So the only way energy cost can be reduced is by expending the same average per-block cost with a lower energy component.
 
-PoW incurs cost in several forms, including labor, hardware, services, land, etc. Any other externalized proof consumes these same resources, though potentially in different proportion. The question of energy cost reduction is therefore reduced to whether an energy component of the cost of a proof can be replaced by another resource with the same cost.
+PoW incurs cost in several forms, including labor, hardware, services, land, etc. Any other externalized proof consumes these same resources, though potentially in different proportion. The question of energy cost reduction is therefore reduced to whether an energy component of the cost of a proof can be replaced by a resource component with the same cost.
 
 It has been proposed that a [proof-of-memory](https://eprint.iacr.org/2017/893.pdf) (PoM) can replace some fraction of the PoW energy cost with hardware, even relying on existing memory devices. Since a constant level of security requires a constant ongoing expenditure, such a system would require a comparable level of hardware (and/or labor, etc.) consumption to offset any reduction in energy cost.
 
