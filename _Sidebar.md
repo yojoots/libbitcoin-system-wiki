@@ -40,7 +40,7 @@
   * [Side Fee Fallacy](Side-Fee-Fallacy)
   * [Utility Threshold Property](Utility-Threshold-Property)
   * [Split Speculator Dilemma](Split-Speculator-Dilemma)
-  * [Proof of Memory Equivalence](Proof-of-Memory-Equivalence)
+  * [Proof of Memory Facade](Proof-of-Memory-Facade)
   * [Brand Arrogation](Brand-Arrogation)
   * [Hearn Error](Hearn-Error)
   * [Glossary](Glossary)
