@@ -2,7 +2,7 @@ There is a theory that [proof-of-work](Glossary#proof) (PoW) wastes energy. This
 
 Total [hash power](Glossary#hash-power) is a function of [reward](Glossary#reward), which is a function of [fees](Glossary#fee), which are determined by the [confirmation](Glossary#confirmation) [market](Glossary#market). If a [person](Glossary#person) considers current hash power insufficient to secure [trade](Glossary#trade) at a given [value](Glossary#value) against [double spend](Glossary#double-spend) then the [depth](Glossary#depth) requirement increases. Additionally, as shown in [Utility Threshold Property](Utility-Threshold-Property), [transactions](Glossary#transaction) with insufficient value for even single confirmation security are [priced](Glossary#price) out of the [chain](Glossary#chain).
 
-These upper and lower security bounds depend on confirmation cost and are therefore independent of the proof technique. There is no *necessary* level of security, just a subjective confirmation depth and minimum utility.
+These upper and lower security bounds depend on confirmation cost and are therefore independent of the proof technique. **There is no *necessary* level of security, just a subjective confirmation depth and minimum utility.**
 
 Confirmation security increases with the cost of generating each [block](Glossary#block). The double spend of a transaction requires that its [branch](Glossary#branch) be superseded by another with a probabilistically greater cost. So the only way energy cost can be reduced is by expending the same average per-block cost with a lower energy component.
 
