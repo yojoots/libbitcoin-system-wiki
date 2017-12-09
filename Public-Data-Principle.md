@@ -10,7 +10,7 @@ The necessarily covert activities are listed by role:
 
 **Merchant**
 1. obtain blocks [to validate customer payment]
-2. obtain transactions (optional) [to anticipate customer payment]
+2. obtain transactions (optional) [to anticipate payments and estimate fees]
 3. create and distribute transactions [to obtain customer payment]
 4. make payment for confirmations [to compensate confirmation]
 
