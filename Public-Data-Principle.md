@@ -1,4 +1,4 @@
-It follows from the [risk sharing principle](Risk-Sharing-Principle) that system security depends upon covert [mining](Glossary#mine) and [trade](Glossary#trade). A [coin](Glossary#coin) exists as a [mutually-beneficial](Balance-of-Power-Fallacy) [market](Glossary#market) between [miners](Glossary#miner) and [merchants](Glossary#merchant) for the [confirmation](Glossary#confirmation) of [transactions](Glossary#transaction) within [blocks](Glossary#block).
+It follows from the [risk sharing principle](Risk-Sharing-Principle) that system security depends upon [covert](https://en.wiktionary.org/wiki/covert) [mining](Glossary#mine) and [trade](Glossary#trade). A [coin](Glossary#coin) exists as a [mutually-beneficial](Balance-of-Power-Fallacy) [market](Glossary#market) between [miners](Glossary#miner) and [merchants](Glossary#merchant) for the [confirmation](Glossary#confirmation) of [transactions](Glossary#transaction) within [blocks](Glossary#block).
 
 The necessarily covert activities are listed by role:
 
