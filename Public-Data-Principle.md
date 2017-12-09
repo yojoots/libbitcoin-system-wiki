@@ -14,4 +14,4 @@ The necessarily covert activities are listed by role:
 3. create and distribute transactions [to obtain customer payment]
 4. make payment for confirmations [to compensate confirmation]
 
-If blocks cannot be obtained anonymously it is not possible to participate in the system. The inability to obtain the [strongest](Glossary#strong) blocks available to other [people](Glossary#person) is a network [partition](Glossary#partition). However neither anonymity nor [identity](Glossary#identity) can ever ensure one sees the strongest [branch](Glossary#branch) at any given time.
+If blocks cannot be obtained anonymously the system is insecure. The inability to obtain the [strongest](Glossary#strong) blocks available to other [people](Glossary#person) is a network [partition](Glossary#partition) that can lead to localized insecurity. However neither anonymity, nor its opposite [identity](Glossary#identity), can ever ensure one sees the strongest [branch](Glossary#branch) at any given time. In other words any attempt to mitigate partitioning with the introduction of identity is a [false choice](https://en.wikipedia.org/wiki/False_dilemma).
