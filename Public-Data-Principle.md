@@ -14,3 +14,4 @@ The necessarily covert activities are listed by role:
 3. create and distribute transactions [to obtain customer payment]
 4. make payment for confirmations [to compensate confirmation]
 
+If blocks cannot be obtained anonymously it is not possible to participate in the system. The inability to obtain the [strongest](Glossary#strong) blocks available to other [people](Glossary#person) is a network [partition](Glossary#partition).
