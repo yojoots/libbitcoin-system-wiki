@@ -12,6 +12,7 @@
   * [Risk Sharing Principle](Risk-Sharing-Principle)
   * [Consolidation Principle](Consolidation-Principle)
   * [Fragmentation Principle](Fragmentation-Principle)
+  * [Public Data Principle](Public-Data-Principle)
   * [Zero Sum Property](Zero-Sum-Property)
   * [Threat Level Paradox](Threat-Level-Paradox)
   * [Miner Business Model](Miner-Business-Model)
