@@ -3,14 +3,14 @@ It follows from the [risk sharing principle](Risk-Sharing-Principle) that system
 The necessarily covert activities are listed by role:
 
 Miner
-* obtain blocks [to build upon]
-* obtain transactions [to earn fees from]
-* create and distribute blocks [to cause others to build upon]
-* receive payment for confirmations [to finance operations]
+1. obtain blocks [to build upon]
+2. obtain transactions [to earn fees from]
+3. create and distribute blocks [to cause others to build upon]
+4. receive payment for confirmations [to finance operations]
 
 Merchant
-* obtain blocks [to validate customer payment]
-* obtain transactions (optional) [to anticipate customer payment]
-* create and distribute transactions [to obtain customer payment]
-* make payment for confirmations [to compensate confirmation]
+1. obtain blocks [to validate customer payment]
+2. obtain transactions (optional) [to anticipate customer payment]
+3. create and distribute transactions [to obtain customer payment]
+4. make payment for confirmations [to compensate confirmation]
 
