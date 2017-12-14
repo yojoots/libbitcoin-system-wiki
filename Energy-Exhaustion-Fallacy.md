@@ -6,7 +6,7 @@ For a given [block](Glossary#block) the [reward](Glossary#reward) (R) is the pro
 ```
 R = C * H * T
 ```
-The [difficulty](Glossary#difficulty) [adjustment](Glossary#adjustment) varies required [hash rate](Glossary#hash-rate) to maintain a constant period for a given cost and reward.
+The [adjustment](Glossary#adjustment) varies [hash rate](Glossary#hash-rate) to maintain a constant period for a given cost and reward.
 ```
 T = R / (C * H)
 ```
