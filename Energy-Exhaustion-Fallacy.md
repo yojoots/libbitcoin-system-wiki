@@ -2,11 +2,11 @@ There is a theory that [proof of work](Glossary#proof) (PoW) may consume all ene
 
 The purpose of any security measure is to create a cost necessary to overcome the measure; i.e. a financial barrier. Bitcoin creates its double-spend barrier by compelling the [attacker](Glossary#attack) to replace the [branch](Glossary#branch) of the targeted transaction with one of probabilistically greater [work](Glossary#work). Interestingly, such a replacement raises the barrier to subsequent attackers. The amount of energy expended is not independently important. The erected barrier is simply the attacker's necessary financial burden.
 
-Reward (R) is the product of unit hash cost (C), hash rate (H), and time period (T).
+The [reward](Glossary#reward)(R) is the product of unit hash cost (C), [hash rate](Glossary#hash-rate) (H), and time period (T).
 ```
 R = C * H * T
 ```
-The difficulty adjustment varies required hash rate to maintain a constant period for a given cost and reward.
+The [difficulty](Glossary#difficulty) [adjustment](Glossary#adjustment) varies required [hash rate](Glossary#hash-rate) to maintain a constant period for a given cost and reward.
 ```
 T = R / (C * H)
 ```
@@ -20,4 +20,4 @@ H ~ R / C
 ```
 So as energy cost increases, its consumption decreases for a given level of security.
 
-For a given level of demand (security), as supply of energy is reduced the price for any given amount of it increases. Therefore, given the inverse relationship between hash rate and energy cost, energy cannot be fully consumed by Bitcoin. The theory is therefore invalid.
+For a given level of demand (security), as supply of energy is reduced the [price](Glossary#price) for any given amount of it increases. Therefore, given the inverse relationship between hash rate and energy cost, energy cannot be fully consumed by Bitcoin. The theory is therefore invalid.
