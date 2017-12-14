@@ -14,6 +14,4 @@ A constant period implies that hash rate is inversely proportional to cost.
 ```
 H ~ R / C
 ```
-In other words, for a given level of security (reward), as energy [price](Glossary#price) increases its consumption decreases.
-
-For a given level of demand (security), as supply of energy is reduced the price for any given amount of it increases. Therefore, given the inverse relationship between hash rate and energy cost, energy cannot be fully consumed by Bitcoin. The theory is therefore invalid.
+In other words, for a given level of security (reward), as energy [price](Glossary#price) increases its consumption decreases. For a given level of demand (security), as supply of energy is reduced the price for any given amount of it increases. Therefore, given the inverse relationship between hash rate and energy cost, energy cannot be fully consumed by Bitcoin. The theory is therefore invalid.
