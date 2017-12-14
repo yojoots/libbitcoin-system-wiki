@@ -2,7 +2,7 @@ There is a theory that [proof of work](Glossary#proof) (PoW) may exhaust all ene
 
 The purpose of any security measure is to create a cost necessary to overcome the measure; i.e. a financial barrier. Bitcoin creates its double-spend barrier by compelling the [attacker](Glossary#attack) to replace the [branch](Glossary#branch) of the targeted transaction with one of probabilistically greater [work](Glossary#work). Interestingly, such a replacement raises the barrier to subsequent attackers. The amount of energy expended is not independently important. The erected barrier is simply the attacker's necessary financial burden.
 
-For a [block](Glossary#block) the [reward](Glossary#reward) [value](Glossary#attack) (V) is the product of unit [hash](Glossary#hash) cost (C), [hash rate](Glossary#hash-rate) (H), and period (T).
+The [reward](Glossary#reward) [value](Glossary#attack) (V) of a [block](Glossary#block) is the product of unit [hash](Glossary#hash) cost (C), [hash rate](Glossary#hash-rate) (H), and period (T).
 ```
 V = C * H * T
 ```
