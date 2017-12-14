@@ -7,17 +7,17 @@ Reward (R) is the product of unit hash cost (C), hash rate (H), and time period 
 R = C * H * T
 
 The difficulty adjustment varies required hash rate to maintain a constant period for a given cost and reward.
-
+```
 T = R / (C * H)
-
+```
 A constant period implies that the product of cost and hash rate varies directly with reward.
-
+```
 C * H ~ R
-
+```
 Or that hash rate is inversely proportional to cost.
-
+```
 H ~ R / C
-
+```
 So as energy cost increases, its consumption decreases for a given level of security.
 
 For a given level of demand (security), as supply of energy is reduced the price for any given amount of it increases. Therefore, given the inverse relationship between hash rate and energy cost, energy cannot be fully consumed by Bitcoin. The theory is therefore invalid.
