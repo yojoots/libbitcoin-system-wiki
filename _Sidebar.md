@@ -12,6 +12,7 @@
   * [Risk Sharing Principle](Risk-Sharing-Principle)
   * [Consolidation Principle](Consolidation-Principle)
   * [Fragmentation Principle](Fragmentation-Principle)
+  * [Proof is Energy Principle](Proof-is-Energy-Principle)
   * [Public Data Principle](Public-Data-Principle)
   * [Zero Sum Property](Zero-Sum-Property)
   * [Threat Level Paradox](Threat-Level-Paradox)
