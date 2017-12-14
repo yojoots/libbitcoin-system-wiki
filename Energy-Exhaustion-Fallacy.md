@@ -3,9 +3,9 @@ There is a theory that Bitcoin may consume all energy available to people. [Proo
 The purpose of any security measure is to create a cost necessary to overcome the measure; i.e. a financial barrier. Bitcoin creates its double-spend barrier by compelling the attacker to replace the branch of the targeted transaction with one of provably greater work. Interestingly, such a replacement raises the barrier to subsequent attackers. The amount of energy expended is not independently important. The erected barrier is simply the attacker's necessary financial burden.
 
 Reward (R) is the product of unit hash cost (C), hash rate (H), and time period (T).
-
+```
 R = C * H * T
-
+```
 The difficulty adjustment varies required hash rate to maintain a constant period for a given cost and reward.
 ```
 T = R / (C * H)
