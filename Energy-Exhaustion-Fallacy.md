@@ -6,7 +6,7 @@ The security barrier (S) of a [block](Glossary#block) is the product of unit [ha
 ```
 S = C * H * T
 ```
-The [adjustment](Glossary#adjustment) varies [hash rate](Glossary#hash-rate) to maintain a constant period for a given cost and security.
+The [adjustment](Glossary#adjustment) varies [hash rate](Glossary#hash-rate) to maintain a constant period for a given hash cost and security.
 ```
 T = S / (C * H)
 ```
