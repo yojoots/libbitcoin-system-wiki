@@ -14,4 +14,4 @@ A constant period implies that hash rate is inversely proportional to cost for a
 ```
 H ~ S / C
 ```
-As energy supply is reduced its [price](Glossary#price) must increase, which reduces the amount expended for a given level of security. As such energy cannot be exhausted by Bitcoin and the theory is therefore invalid.
+As energy supply is reduced its [price](Glossary#price) must increase, which reduces the amount expended for a given level of security. Therefore energy cannot be exhausted by [mining](Glossary#mine) and the theory is invalid.
