@@ -10,11 +10,7 @@ The [difficulty](Glossary#difficulty) [adjustment](Glossary#adjustment) varies r
 ```
 T = R / (C * H)
 ```
-A constant period implies that the product of cost and hash rate varies directly with reward.
-```
-C * H ~ R
-```
-Or that hash rate is inversely proportional to cost.
+A constant period implies that hash rate is inversely proportional to cost.
 ```
 H ~ R / C
 ```
