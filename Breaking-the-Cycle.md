@@ -1,4 +1,4 @@
-[Fiat] money exists to collect [seigniorage], which is a [sovereign] tax on the holding of the money. The tax is levied by manufacture of the money denominated above its production cost in the money (i.e. counterfeit). The objective of the tax is to accumulate political power, including reserve money. Reserve money is that which is accepted by others and cannot be counterfeited by the sovereign.
+[Fiat] money exists to collect [seigniorage], which is a [sovereign] tax on the holding of the money. The tax is levied by manufacture of the money denominated above its production cost in the money (i.e. counterfeit). The objective of the tax is to accumulate political power, including reserve money. Reserve money is that which is accepted by others and cannot be counterfeited by the sovereign as cost-effectively as its own money.
 
 The United States Federal Reserve was instituted [in 1914]. The existence of a reserve presupposes fiat. Otherwise there would be no reason for two monies. The reserve retains its value despite the purposeful [debasement] of fiat, and is eventually held primarily by the sovereign.
 
