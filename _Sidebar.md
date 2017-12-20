@@ -10,6 +10,7 @@
 * **[Understanding Bitcoin](Understanding-Bitcoin)**
   * [Axiom of Resistance](Axiom-of-Resistance)
   * [Risk Sharing Principle](Risk-Sharing-Principle)
+  * [Reservation Principle](Reservation-Principle)
   * [Consolidation Principle](Consolidation-Principle)
   * [Fragmentation Principle](Fragmentation-Principle)
   * [Public Data Principle](Public-Data-Principle)
