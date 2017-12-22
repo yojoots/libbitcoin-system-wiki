@@ -152,7 +152,7 @@ The average rate of increase in [Utility](#utility) from [Lending](#lend).
 The return on [Speculation](#speculate).
 > This excludes interest.
 #### Loss
-Failure of [Investment](#lend) to earn [Market](#market) [Interest](#interest).
+Failure of [Investment](#lend) to earn [Interest](#interest).
 > This is negative profit.
 #### Market
 The [Trade](#trade) in certain property.
