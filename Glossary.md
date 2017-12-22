@@ -7,10 +7,10 @@ An instruction follower.
 ## Agreement
 #### Consensus
 An agreement among [People](#person).
-> Also the set of People who participate in an agreement.
+> Also the set of people who participate in an agreement.
 #### Coin
 A [Consensus](#consensus) regarding a mutually-acceptable medium for [Trade](#trade).
-> Bitcoin is a Coin
+> Bitcoin is a Coin.
 #### Consensus Rules
 The set of constraints that define a [Coin](#coin).
 #### Rule
@@ -25,7 +25,7 @@ The act of discarding [Invalid](#validity) data.
 ## Objects
 #### Unit
 The atomic transferable value of a [Coin](#coin).
-> The Satoshi is the Bitcoin Unit
+> The Satoshi is the Bitcoin unit.
 #### Transfer
 The change of control over certain [Units](#unit).
 #### Transaction
