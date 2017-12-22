@@ -149,7 +149,7 @@ To [Trade](#trade) time with [Units](#units) for property of greater [Utility](#
 #### Interest
 The average rate of increase in [Utility](#utility) from [Lending](#lend).
 #### Profit
-The return on [Speculation](#speculation).
+The return on [Speculation](#speculate).
 > This excludes interest.
 #### Loss
 Failure of [Investment](#lend) to earn [Market](#market) [Interest](#interest).
