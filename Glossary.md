@@ -148,6 +148,12 @@ To [Trade](#trade) time without [Units](#units) for property of greater [Utility
 To [Trade](#trade) time with [Units](#units) for property of greater [Utility](#utility) to the [Lender](#lend).
 #### Interest
 The average rate of increase in [Utility](#utility) from [Lending](#lend).
+#### Profit
+The return on [Speculation](#speculation).
+> This excludes interest.
+#### Loss
+Failure of [Investment](#lend) to earn [Market](#market) [Interest](#interest).
+> This is negative profit.
 #### Market
 The [Trade](#trade) in certain property.
 
