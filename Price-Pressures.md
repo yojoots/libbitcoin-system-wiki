@@ -6,7 +6,7 @@ We can organize monies into three supply categories:
 * Arbitrary supply (fiat)
 * Fixed supply (bitcoin)
 
-Commodity money supply increases due to the financial incentive to [produce more](https://en.m.wikipedia.org/wiki/Gold_mining) when price is expected to be at or above production cost (inclusive of capital cost). This relationship between price and supply is predictable despite price (and therefore supply) not being so. Because price is not predictable this [monetary inflation](https://en.wikipedia.org/wiki/Monetary_inflation) cannot be [capitalized](https://en.wikipedia.org/wiki/Present_value). Therefore all holders of the money suffer a reduction in [value](Glossary#value) from the increased supply. Competition ensures that this production financed by existing holders is limited to the [capital cost](Glossary#interest).
+Commodity money supply increases due to the financial incentive to [produce more](https://en.m.wikipedia.org/wiki/Gold_mining) when price is expected to be at or above production cost (inclusive of capital cost). This relationship between price and supply is predictable despite price (and therefore supply) not being so. Because price is not predictable this [monetary inflation](https://en.wikipedia.org/wiki/Monetary_inflation) cannot be [capitalized](https://en.wikipedia.org/wiki/Present_value). Therefore all holders of the money suffer a reduction in [value](Glossary#value) from the increased supply. Competition ensures that this production financed by existing holders is limited to the [capital cost](Glossary#interest). Destruction of the commodity decreases supply and therefore increases value.
 
 does not decrease [value](Glossary#value) because the money costs the same to produce as to purchase.
 
