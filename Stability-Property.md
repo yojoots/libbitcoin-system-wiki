@@ -1,4 +1,4 @@
-[Value](Gloassary#value) is [subjective](https://en.wikipedia.org/wiki/Subjective_theory_of_value) and therefore [price](Gloassary#price) stability is an economic fiction. The [exchange](Glossary#exchange) [price](Glossary#price) of a money is is determined by its [supply and demand](https://en.m.wikipedia.org/wiki/Supply_and_demand) which is in turn affected by the supply and demand schedules of all people for all products.
+[Value](Glossary#value) is [subjective](https://en.wikipedia.org/wiki/Subjective_theory_of_value) and therefore [price](Gloassary#price) stability is an economic fiction. The [exchange](Glossary#exchange) [price](Glossary#price) of a money is is determined by its [supply and demand](https://en.m.wikipedia.org/wiki/Supply_and_demand) which is in turn affected by the supply and demand schedules of all people for all products.
 
 We can organize monies into three supply categories:
 
