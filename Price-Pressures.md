@@ -12,5 +12,5 @@ Fiat money supply is increased arbitrarily by the [sovereign](https://en.wikiped
 
 Bitcoin supply is independent of price. Destruction of monetary units decreases supply and therefore increases value. Given that [subsidy](Glossary#subsidy) is predictable it is capitalized and has [no affect on price](Inflation-Fallacy) over time. Its purpose is to rationally distribute [units](Glossary#units) and so is eventually phased out. Bitcoin suffers no unpredictable supply increase and as such is inherently deflationary.
 
-Commodity and fiat monies have rational and arbitrary supply pressures respectively that mitigate demand, while Bitcoin does not. However it has [fees](Glossary#fee) that necessarily rise with demand, which in turn mitigate demand.
+Commodity and fiat monies exhibit rational and arbitrary supply increases respectively that mitigate the effect of rising demand on price, while Bitcoin does not. However it has [fees](Glossary#fee) that necessarily rise with demand, which in turn mitigate it directly.
 
