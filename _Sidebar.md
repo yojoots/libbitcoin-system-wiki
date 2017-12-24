@@ -11,6 +11,7 @@
   * [Axiom of Resistance](Axiom-of-Resistance)
   * [Risk Sharing Principle](Risk-Sharing-Principle)
   * [Reservation Principle](Reservation-Principle)
+  * [Scalability Principle](Scalability-Principle)
   * [Consolidation Principle](Consolidation-Principle)
   * [Fragmentation Principle](Fragmentation-Principle)
   * [Public Data Principle](Public-Data-Principle)
