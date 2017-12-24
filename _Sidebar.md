@@ -15,6 +15,7 @@
   * [Fragmentation Principle](Fragmentation-Principle)
   * [Public Data Principle](Public-Data-Principle)
   * [Consensus Property](Consensus-Property)
+  * [Stability Property](Stability-Property)
   * [Utility Threshold Property](Utility-Threshold-Property)
   * [Zero Sum Property](Zero-Sum-Property)
   * [Threat Level Paradox](Threat-Level-Paradox)
