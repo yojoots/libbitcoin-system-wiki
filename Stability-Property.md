@@ -6,7 +6,7 @@ We can organize monies into three supply categories:
 * Arbitrary supply ([fiat](https://en.wikipedia.org/wiki/Fiat_money))
 * Fixed supply ([bitcoin](https://en.wikipedia.org/wiki/Bitcoin))
 
-In any money, destruction of [units](Glossary#units) decreases supply and therefore increases value to those that remain. Given that there is no financial incentive for loss this effect is negligible in all modern money.
+In any money, destruction of [units](Glossary#unit) decreases supply and therefore increases value to those that remain. Given that there is no financial incentive for loss this effect is negligible in all modern money.
 
 Commodity money supply increases due to the financial incentive to [produce more](https://en.m.wikipedia.org/wiki/Gold_mining) when price is expected to be at or above production cost (inclusive of capital cost). This relationship between price and supply is predictable despite price (and therefore supply) not being so. Because price is not predictable this [monetary inflation](https://en.wikipedia.org/wiki/Monetary_inflation) cannot be [capitalized](https://en.wikipedia.org/wiki/Present_value). Therefore all holders of the money suffer a reduction in value from the increased supply. Competition ensures that this production financed by existing holders is limited to the [capital cost](Glossary#interest). The feedback of value decrease resulting from supply increase reduces production incentive, creating stability.
 
