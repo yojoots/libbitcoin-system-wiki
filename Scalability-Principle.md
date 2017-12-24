@@ -2,6 +2,6 @@
 
 The [block](Glossary#block) size limit [consensus rule](Glossary#rule) establishes the arbitrary trade-off between [utility threshold](Utility-Threshold-Property) and system security. At any block size the system remains non-scalable due to the necessity of [confirmation](Glossary#confirmation) finality. In other words, a finite set of [transactions](Glossary#transaction) must be selected, which implies that others may be excluded, necessitating a competitive [market](Glossary#market) for inclusion. This market also finances confirmation security in proportion to demand for the money.
 
-Effective transaction carrying capacity, and therefore aggregate demand, can be increased through the use of off-[chain](Glossary#chain) [confirmation](Glossary#confirmation) [settled on chain](https://en.wikipedia.org/wiki/Lightning_Network) (layering). This represents a *local* and *time-limited* security compromise, in contrast to the *system-wide* and *persistent* security compromise that results from expanded block size. Either compromise lowers but does not eliminate the utility threshold.
+Effective transaction carrying capacity, and therefore aggregate demand, can be increased through the use of [layering](Glossary#layering). This represents a *local* and *time-limited* security compromise, in contrast to the *system-wide* and *persistent* security compromise that results from expanded block size. Either compromise lowers but does not eliminate the utility threshold.
 
 **As such stability and non-scalability exist at any block size and level of layering.**
