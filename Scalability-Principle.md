@@ -4,4 +4,4 @@ The [block](Glossary#block) size limit [consensus rule](Glossary#rule) establish
 
 Effective transaction carrying capacity, and therefore aggregate demand, can be increased through the use of off-[chain](Glossary#chain) [confirmation](Glossary#confirmation) [settled on chain](https://en.wikipedia.org/wiki/Lightning_Network) (layering). This represents a *local* and *time-limited* security compromise, in contrast to the *system-wide* and *persistent* security compromise that results from expanded block size. Either compromise lowers but does not eliminate the utility threshold.
 
-**As such stability and non-scalability exist at any block size and level of off-chain transaction.**
+**As such stability and non-scalability exist at any block size and level of layering.**
