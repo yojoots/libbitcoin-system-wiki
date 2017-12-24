@@ -93,6 +93,8 @@ The count of preceding [Blocks](#block) in a [Branch](#branch).
 A contiguous subset of a [Branch](#branch).
 #### Organization
 An [Announcement](#announcement) adding a [Block](#block) to the [Chain](#chain).
+#### Period
+The average time between [Organizations](#organization).
 
 ## Money
 #### Spend
