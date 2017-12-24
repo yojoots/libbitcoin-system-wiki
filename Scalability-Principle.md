@@ -1,4 +1,4 @@
-[Scalability](https://en.wikipedia.org/wiki/Scalability) is the proportional increase in some aspect of performance as more hardware is employed. Bitcoin is perfectly non-scalable as no amount of hardware increases [transaction](Glossary#transaction) throughput.
+[Scalability](https://en.wikipedia.org/wiki/Scalability) is the proportional increase in some aspect of performance as more hardware is employed. Bitcoin [transaction](Glossary#transaction) throughput is perfectly non-scalable as no amount of hardware increases rate.
 
 The [block](Glossary#block) size limit [consensus rule](Glossary#rule) establishes the arbitrary trade-off between [utility threshold](Utility-Threshold-Property) and system security. Yet at any block size the system remains non-scalable due to the necessity of [confirmation](Glossary#confirmation) finality. In other words, a finite set of [transactions](Glossary#transaction) must be selected, which implies that others may be excluded, necessitating a competitive [market](Glossary#market) for inclusion. This market also finances confirmation security in proportion to demand for the money.
 
