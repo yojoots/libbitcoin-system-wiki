@@ -2,4 +2,4 @@ The nature of [Bitcoin stability](Stability-Property) implies an inherent econom
 
 Effective transaction carrying capacity, and therefore aggregate demand, can be increased through the use of off-[chain](Glossary#chain) [confirmation](Glossary#confirmation) [settled on chain](https://en.wikipedia.org/wiki/Lightning_Network). This represents an *individual* and *time-limited* security compromise (for lower-value transactions), avoiding a *system-wide* and *persistent* security compromise (for all transactions). This compromise lowers but does not eliminate the utility threshold.
 
-As such the coin remains both non-scalable and stable at any block size and/or with off-chain transaction.
+**As such stability and non-scalability exist at any block size and level of off-chain transaction.**
