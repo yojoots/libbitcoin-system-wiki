@@ -96,8 +96,7 @@ An [Announcement](#announcement) adding a [Block](#block) to the [Chain](#chain)
 #### Period
 The average time between [Organizations](#organization).
 #### Layering
-Consolidation of multiple [Unconfirmed](#unconfirmed) [Transactions](#transactions) into a single [Confirmation](#confirmation).
-> Settlement is an alias for this.
+[Trade](#trade) using a sequence of [Unconfirmed](#unconfirmed) [Transactions](#transaction) that can be [Confirmed](#confirmed) by either party.
 
 ## Money
 #### Spend
