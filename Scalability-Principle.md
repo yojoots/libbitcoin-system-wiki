@@ -4,6 +4,6 @@ The [block](Glossary#block) size limit [consensus rule](Glossary#rule) establish
 
 As the trade-off is arbitrary, there is no ideal size. Additionally, at any block size the system remains non-scalable due to the necessity of [confirmation](Glossary#confirmation) finality. In other words, a finite set of transactions must be selected, which implies that others may be excluded, necessitating a competitive [market](Glossary#market) for inclusion. This market also finances confirmation security in proportion to demand for the money.
 
-Effective transaction carrying capacity, and therefore aggregate demand, can be increased through the use of [layering](Glossary#layering). This represents a *local* and *time-limited* security compromise, in contrast to the *system-wide* and *persistent* security compromise of increasing block size. Either compromise lowers but does not eliminate the [utility threshold](Utility-Threshold-Property), which implies [stability](Stability-Property) is preserved.
+Effective transaction carrying capacity, and therefore aggregate demand, can be increased by [layering](Glossary#layering). This represents a *local* and *time-limited* security compromise, in contrast to the *system-wide* and *persistent* security compromise of increasing block size. Either compromise lowers but does not eliminate the [utility threshold](Utility-Threshold-Property), which implies [stability](Stability-Property) is preserved.
 
 **Therefore stability and non-scalability exist at any block size and level of layering.**
