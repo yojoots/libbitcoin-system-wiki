@@ -96,7 +96,9 @@ An [Announcement](#announcement) adding a [Block](#block) to the [Chain](#chain)
 #### Period
 The average time between [Organizations](#organization).
 #### Layering
-[Trade](#trade) using a sequence of [Unconfirmed](#unconfirmed) [Transactions](#transaction) that can be [Confirmed](#confirmation) by either party.
+[Trade](#trade) using a sequence of [Unconfirmed](#unconfirmed) [Transactions](#transaction) that can be [Settled](#settle) by either party.
+#### Settlement
+[Confirmation](#confirmation) of [layered](#layering) [transactions](#transaction).
 
 ## Money
 #### Spend
