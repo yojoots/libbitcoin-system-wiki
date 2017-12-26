@@ -37,6 +37,7 @@
   * [Fee Recovery Fallacy](Fee-Recovery-Fallacy)
   * [Genetic Purity Fallacy](Genetic-Purity-Fallacy)
   * [Halving Fallacy](Halving-Fallacy)
+  * [Ideal Money Fallacy](Ideal-Money-Fallacy)
   * [Impotent Mining Fallacy](Impotent-Mining-Fallacy)
   * [Inflation Fallacy](Inflation-Fallacy)
   * [Network Effect Fallacy](Network-Effect-Fallacy)
