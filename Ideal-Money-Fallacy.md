@@ -20,4 +20,4 @@ The proposal offers no rational explanation for how people will become able to m
 
 There is an argument that Bitcoin is an objective index whereas gold is not. This is based on the inflationary supply of gold in contrast to the fixed supply of Bitcoin. This assumes that monetary inflation implies an unstable money whereas fixed supply implies a stable money. As shown in [Stability Property](Stability-Property), both monies are stable. The argument fails to acknowledge that value, as indicated by the index, is a consequence of both supply and demand. Gold demand is stabilized by inflation and Bitcoin's demand is stabilized by fees.
 
-The theory is therefore invalid.
+The theory is therefore invalid. Either fiat will cease to exist or it will collect tax. States only surrender this tax under extreme duress and in such cases only briefly. If anything the "ideal money" will be Bitcoin, and it will not trade freely with state monies (to the extent they remain).
