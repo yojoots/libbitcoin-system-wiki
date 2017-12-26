@@ -313,5 +313,3 @@ The tendency toward persistent [Partitions](#partition).
 > Identity implies exclusion.
 #### Correlation
 The ability to [Taint](#taint) using statistical [Chain](#chain) analysis.
-#### Layering
-A local trade-off of security for [Confirmation](#confirmation) time and/or [Fees](#fee).
