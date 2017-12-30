@@ -8,6 +8,7 @@ More specifically, the system is most economically decentralized which has the g
 ```
 economic-decentralization = distribution(receipts) * merchants
 ```
+
 Similar to economic security, confirmation security can be modeled as an [edgeless graph](https://en.wikipedia.org/wiki/Null_graph). Each [miner](Glossary#miner) is represented by one vertex on the graph. A [grinder](Glossary#grinder) is not a miner as the grinder has no decision-making ability, only the miner is represented. The total [hash power](Glossary#hash-power) employed by a miner is the weight of the vertex. The strongest censorship resistance is every person in the world mining with equal hash power.
 
 The systemic mining [threat](Glossary#state) is motivated by [censorship](Glossary#censorship), not [double-spending](Glossary#double-spend). Total [hash rate](Glossary#hash-rate) provides security against such attacks, but [pooling](Glossary#pooling) of hash rate works against it. As mining collects into [pools](Glossary#pooling) it becomes cheaper to [co-opt](Glossary#co-option) than to compete against it.
@@ -18,6 +19,7 @@ More specifically, the system is most decentralized in confirmation which has th
 ```
 confirmation-decentralization = distribution(hash-power) * miners
 ```
+
 While people could decide to trade and/or mine independently in the future, the [Risk Sharing Principle](Risk-Sharing-Principle) shows that they are not contribute to security until they actually do so. The distinction is analogous to being armed vs. having the ability to become armed. As shown in [Cockroach Fallacy](Cockroach-Fallacy), the latter matters not when you are getting robbed. The model represents security as it actually exits in the period.
 
 As show in in [Public Data Principle](Public-Data-Principle), anonymity is a tool that aids in defending one's ability to trade and/or mine. As such the level of decentralization can never be measured. The model is a conceptual aid. Additionally, as shown in [Balance of Power Fallacy](Balance-of-Power-Fallacy), the the security afforded by each of the two sub-models is complimentary and independent of the other.
@@ -26,9 +28,8 @@ Decentralization alone is not security. **Security is the product of activity, d
 ```
 security = activity * distribution * participation
 ```
-Given that there is no limit to humanity, trade or computation, the level of security in each axis is unbounded. Security is also unbounded with perfect distribution (i.e. infinite decentralization). A minimum level of zero in each is achieved with either no participation or no activity.
 
-Economic and confirmation security can thus be defined as:
+Given that there is no limit to humanity, trade or computation, the level of security in each axis is unbounded. Security is also unbounded with perfect distribution (i.e. infinite decentralization). A minimum level of zero in each is achieved with either no participation or no activity. Economic and confirmation security can thus be defined as:
 ```
 economic-security     = receipts   * distribution(receipts)   * [merchants / humanity]
 confirmation-security = hash-power * distribution(hash-power) * [miners    / humanity]
