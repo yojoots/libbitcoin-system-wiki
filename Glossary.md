@@ -175,7 +175,7 @@ An asymmetrical [Protocol](#protocol).
 #### Latency
 The delay inherent in [Communication](#communication).
 #### Partition
-An inability of certain [Peers](#peer-to-peer) to [Communicate](#communication).
+An inability of certain [Nodes](#node) to [Communicate](#communication).
 #### Denial of Service
 Using [Communication](#communication) to exploit [Protocol](#protocol) or [Implementation](#implementation) flaws that  degrade performance.
 > DoS is a acronym for this.
