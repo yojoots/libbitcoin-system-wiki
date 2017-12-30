@@ -1,3 +1,5 @@
+**Decentralization Model**
+
 In [Social Network Principle](Social-Network-Principle) it is shown that Bitcoin is a network of [human](Glossary#person) relationships. This can be modeled as a [directed graph](https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)#Directed_graph) where each vertex represents a [merchant](Glossary#merchant) and each edge represents a [trade](Glossary#trade) for bitcoin. Edges indicate the direction of movement of [coin](Glossary#coin) and are quantified in the number of [units](Glossary#unit) traded. All [owners](Glossary#owner) are presumed to have been merchants at the time of coin receipt, including as [miners](Glossary#miner) (selling [confirmations](Glossary#confirmation)) and as recipients of charity (selling [goodwill](https://en.wikipedia.org/wiki/Goodwill_(accounting))).
 
 If a person is not personally accepting coin, or does not personally [validate](Glossary#validation) coin accepted, the person cannot reject invalid coin. The person is entrusting this task to a [central](Glossary#centralization) authority. Similarly, when a person [delegates](Glossary#delegation) coin to another party, the person no longer owns the coin. In both cases the person controls only a promise to trade back the coin and therefore does not [contribute to security](Risk-Sharing-Principle). All people utilizing the same delegate are reduced to just one vertex that represents the delegate.
@@ -20,6 +22,8 @@ More specifically, the system is most decentralized in confirmation which has th
 confirmation-decentralization = distribution(hash-power) * miners
 ```
 
+**Security Model**
+
 Decentralization alone is not security. **Security is the product of activity, distribution of that activity, and the fraction of participating humanity.**
 ```
 security = activity * distribution * participation
@@ -30,6 +34,8 @@ Given that there is no limit to humanity, trade or computation, the level of sec
 economic-security     = receipts   * distribution(receipts)   * [merchants / humanity]
 confirmation-security = hash-power * distribution(hash-power) * [miners    / humanity]
 ```
+
+**Limits of the Models**
 
 These relations do not say anything about the absolute effectiveness represented by any value, or the relative effectiveness of any two values except that a greater value represents a greater effectiveness. This is not due to a deficiency in the model. The factors include people, specifically the effectiveness of their individual abilities to [resist](https://github.com/libbitcoin/libbitcoin/wiki/Axiom-of-Resistance) and their perception of [value](Glossary#value) in the money. All who validate or mine offer some level of resistance, but there is no implied continuity. We refer to a "level" of security, not an "amount" of security.
 
