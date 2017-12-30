@@ -15,6 +15,7 @@
   * [Consolidation Principle](Consolidation-Principle)
   * [Fragmentation Principle](Fragmentation-Principle)
   * [Public Data Principle](Public-Data-Principle)
+  * [Social Network Principle](Social-Network-Principle)
   * [Consensus Property](Consensus-Property)
   * [Stability Property](Stability-Property)
   * [Utility Threshold Property](Utility-Threshold-Property)
