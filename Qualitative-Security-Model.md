@@ -4,7 +4,7 @@ If a person is not personally accepting coin, or does not personally [validate](
 
 For any period of time, [economic](Glossary#economy) security is a function of the number of merchants and the similarity of amounts traded. The strongest economy would be all people in the world trading for the same number of units in the period, an ideal which can be called a "distributed" (or fully-decentralized) economy. The weakest would be one delegate accepting all units traded in the period, which would be a "centralized" economy.
 
-More specifically, the system is most decentralized which has the greatest number of vertices (merchants) with the lowest [coefficient of variation](https://en.wikipedia.org/wiki/Coefficient_of_variation) ("variation") in the sum of incoming edges (receipts). Defining the *distribution* function as the inverse of variation we obtain:
+More specifically, the system is most economically decentralized which has the greatest number of vertices (merchants) with the lowest [coefficient of variation](https://en.wikipedia.org/wiki/Coefficient_of_variation) in the sum of incoming edges (receipts). Defining the *distribution* function as the inverse of variation we obtain:
 ```
 economic-decentralization = merchants * distribution(receipts)
 ```
@@ -14,9 +14,9 @@ The systemic mining [threat](Glossary#state) is motivated by [censorship](Glossa
 
 For any period of time, confirmation security is a function of the number of miners and the similarity of hash power they directed. The strongest censorship resistance would be all people in the world mining at the same hash power in the period, an ideal which can be called "distributed" (or fully-decentralized) confirmation. The weakest would be one miner with 100% of hash power, which would be "centralized" confirmation.
 
-More specifically, the system is most decentralized which has the greatest number of vertices (miners) with the highest distribution in weights (hash power):
+More specifically, the system is most decentralized in confirmation which has the greatest number of vertices (miners) with the highest distribution in weights (hash power):
 ```
-confirmation-decentralization = miners / distribution(hash-power)
+confirmation-decentralization = miners * distribution(hash-power)
 ```
 While people could decide to trade and/or mine independently in the future, they do not [contribute to security](Risk=Sharing-Principle) until after they actually do so. The distinction is analogous to being armed vs. having the ability to become armed. As shown in [Cockroach Fallacy](Cockroach-Fallacy), the latter matters not when you are getting robbed. The model represents security as it actually exits in the period.
 
