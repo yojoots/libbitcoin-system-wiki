@@ -6,7 +6,7 @@ The graph represents activity occurring in any window of time. While customers c
 
 For any period of time, [economic](Glossary#economy) is a function of the number of people and the similarity of amounts traded. The strongest economy would be all people in the world trading for the same number of units in the period, an ideal which can be called a "distributed" economy. The weakest would be one delegate accepting all units traded in the period, which would be a "centralized" economy.
 
-While economic advantage typically works against a 51% attack, [state](Glossary#state) attackers may be more interested in [censorship](Glossary#censorship). Total [hash rate](Glossary#hash-rate) is the defense against such attacks, but [pooling](Glossary#pooling) of hash rate works against the defense. This is because it becomes cheaper to [co-opt](Glossary#co-option) than to deploy.
+As show in [Balance of Power Fallacy](Balance-of-Power-Fallacy), the systemic mining [threat](Glossary#state) is motivated by [censorship](Glossary#censorship), not [double-spending](Glossary#double-spend). Total [hash rate](Glossary#hash-rate) is the defense against such attacks, but [pooling](Glossary#pooling) of hash rate works against the defense. As mining collects into pools it becomes cheaper to [co-opt](Glossary#co-option) than to compete against it.
 
 Mining decentralization can be defined similarly to economic decentralization. Again we are referring to a social graph. The ideal scenario is every person in the world mining with equal hash power. It is important to security that there is sufficient total hash power to defend against sustained, coordinated, state-level attacks, however decentralization is not security. For a definition of security see the subsequent post.
 
