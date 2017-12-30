@@ -6,7 +6,7 @@ For any period of time, [economic](Glossary#economy) security is a function of t
 
 More specifically, the system is most economically decentralized which has the greatest number of vertices (merchants) with the lowest [coefficient of variation](https://en.wikipedia.org/wiki/Coefficient_of_variation) in the sum of incoming edges (receipts). Defining the *distribution* function as the inverse of variation we obtain:
 ```
-economic-decentralization = merchants * distribution(receipts)
+economic-decentralization = distribution(receipts) * merchants
 ```
 Similar to economic security, confirmation security can be modeled as an [edgeless graph](https://en.wikipedia.org/wiki/Null_graph). Each [miner](Glossary#miner) is represented by one vertex on the graph. A [grinder](Glossary#grinder) is not a miner as the grinder has no decision-making ability, only the miner is represented. The total [hash power](Glossary#hash-power) employed by a miner is the weight of the vertex. The strongest censorship resistance is every person in the world mining with equal hash power.
 
@@ -16,7 +16,7 @@ For any period of time, confirmation security is a function of the number of min
 
 More specifically, the system is most decentralized in confirmation which has the greatest number of vertices (miners) with the highest distribution in weights (hash power):
 ```
-confirmation-decentralization = miners * distribution(hash-power)
+confirmation-decentralization = distribution(hash-power) * miners
 ```
 While people could decide to trade and/or mine independently in the future, they do not [contribute to security](Risk-Sharing-Principle) until after they actually do so. The distinction is analogous to being armed vs. having the ability to become armed. As shown in [Cockroach Fallacy](Cockroach-Fallacy), the latter matters not when you are getting robbed. The model represents security as it actually exits in the period.
 
@@ -26,22 +26,12 @@ Decentralization alone is not security. **Security is the product of activity, d
 ```
 security = activity * distribution * participation
 ```
-Given that there is no limit to humanity, trade or computation, the level of security in each axis is unbounded. A minimum level of zero in each is achieved with either no participation or no activity.
+Given that there is no limit to humanity, trade or computation, the level of security in each axis is unbounded. Security is also unbounded with perfect distribution (i.e. infinite decentralization). A minimum level of zero in each is achieved with either no participation or no activity.
 
-Economic security can be defined as:
+Economic and confirmation security can thus be defined as:
 ```
-economic-security = receipts * economic-decentralization / humanity
-economic-security = receipts * [merchants * distribution(receipts)] / humanity
-economic-security = receipts * distribution(receipts) * [merchants / humanity]
-economic-security = receipts / variation(receipts) * [merchants / humanity]
-```
-
-Confirmation security can be defined as:
-```
-confirmation-security = hash-power * confirmation-decentralization / humanity
-confirmation-security = hash-power * [miners * distribution(hash-power)] / humanity
-confirmation-security = hash-power * distribution(hash-power) * [miners / humanity]
-confirmation-security = hash-power / variation(hash-power) * [miners / humanity]
+economic-security     = receipts   * distribution(receipts)   * [merchants / humanity]
+confirmation-security = hash-power * distribution(hash-power) * [miners    / humanity]
 ```
 
 These relations do not say anything about the absolute effectiveness represented by any value, or the relative effectiveness of any two values except that a greater value represents a greater effectiveness. This is not due to a deficiency in the method. The factors include people, specifically the effectiveness of their individual abilities to resist (and their perception of value in the money). All who validate or mine offer some level of resistance, but there is no implied continuity. We refer to a "level" of security, not an "amount" of security.
