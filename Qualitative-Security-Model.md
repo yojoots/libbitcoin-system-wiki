@@ -12,7 +12,7 @@ economic-decentralization = recipients * receipts-mean / receipts-standard-devia
 
 Similar to economic security, confirmation security can be modeled as an [edgeless graph](https://en.wikipedia.org/wiki/Null_graph). Each [miner](Glossary#miner) is represented by one vertex on the graph. A [grinder](Glossary#grinder) is not a miner as the grinder has no decision-making ability, only the miner is represented. The total [hash power](Glossary#hash-power) employed by a miner is the weight of the vertex. The strongest censorship resistance is every person in the world mining with equal hash power.
 
-As shown in [Balance of Power Fallacy](Balance-of-Power-Fallacy), the systemic mining [threat](Glossary#state) is motivated by [censorship](Glossary#censorship), not [double-spending](Glossary#double-spend). Total [hash rate](Glossary#hash-rate) provides security against such attacks, but [pooling](Glossary#pooling) of hash rate works against it. As mining collects into [pools](Glossary#pooling) it becomes cheaper to [co-opt](Glossary#co-option) than to compete against it.
+The systemic mining [threat](Glossary#state) is motivated by [censorship](Glossary#censorship), not [double-spending](Glossary#double-spend). Total [hash rate](Glossary#hash-rate) provides security against such attacks, but [pooling](Glossary#pooling) of hash rate works against it. As mining collects into [pools](Glossary#pooling) it becomes cheaper to [co-opt](Glossary#co-option) than to compete against it.
 
 For any period of time, confirmation security is a function of the number of miners and the similarity of hash power they directed. The strongest censorship resistance would be all people in the world mining at the same hash power in the period, an ideal which can be called "distributed" (or fully-decentralized) confirmation. The weakest would be one miner with 100% of hash power, which would be "centralized" confirmation.
 
@@ -23,3 +23,5 @@ confirmation-decentralization = miners * hash-power-mean / hash-power-standard-d
 ```
 
 While people could decide to trade and/or mine independently in the future, they do not [contribute to security](Risk=Sharing-Principle) until after they actually do so. The distinction is analogous to being armed vs. having the ability to become armed. As shown in [Cockroach Fallacy](Cockroach-Fallacy), the latter matters not when you are getting robbed. The model represents security as it actually exits in the period.
+
+As show in in [Public-Data-Principle](Public-Data-Principle), anonymity is a tool that aids in defending one's ability to trade and/or mine. As such it cannot be expected that the level of decentralization can ever be measured. The model is a conceptual aid. Additionally, as shown in [Balance of Power Fallacy](Balance-of-Power-Fallacy), the the security afforded by each of the two sub-models is complimentary and independent of the other.
