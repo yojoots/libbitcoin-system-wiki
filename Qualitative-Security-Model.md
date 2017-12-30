@@ -4,7 +4,7 @@ If a person is not personally accepting coin, or does not personally [validate](
 
 For any period of time, [economic](Glossary#economy) security is a function of the number of merchants and the similarity of amounts traded. The strongest economy would be all people in the world trading for the same number of units in the period, an ideal which can be called a "distributed" (or fully-decentralized) economy. The weakest would be one delegate accepting all units traded in the period, which would be a "centralized" economy.
 
-More specifically, the system is most decentralized which has the greatest number of vertices (merchants) with the lowest [coefficient of variation ("variation")](https://en.wikipedia.org/wiki/Coefficient_of_variation) in the sum of incoming edges (receipts). Defining the *distribution* function as the inverse of variation we obtain:
+More specifically, the system is most decentralized which has the greatest number of vertices (merchants) with the lowest [coefficient of variation](https://en.wikipedia.org/wiki/Coefficient_of_variation) ("variation") in the sum of incoming edges (receipts). Defining the *distribution* function as the inverse of variation we obtain:
 ```
 economic-decentralization = merchants * distribution(receipts)
 ```
