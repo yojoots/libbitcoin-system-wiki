@@ -28,8 +28,6 @@ security = activity * distribution * participation
 ```
 Given that there is no limit to humanity, trade or computation, the level of security in each axis is unbounded. A minimum level of zero in each is achieved with either no participation or no activity.
 
-CV is the ratio of [standard deviation (sd)](https://en.wikipedia.org/wiki/Standard_deviation) to the [arithmetic mean](https://en.wikipedia.org/wiki/Arithmetic_mean)
-
 Economic security can be defined as:
 ```
 economic-security = receipts * economic-decentralization / humanity
