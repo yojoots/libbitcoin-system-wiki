@@ -49,7 +49,7 @@
   * [Reserve Currency Fallacy](Reserve-Currency-Fallacy)
   * [Selfish Mining Fallacy](Selfish-Mining-Fallacy)
   * [Side Fee Fallacy](Side-Fee-Fallacy)
-  * [Qualitative Security Measure](Qualitative-Security-Measure)
+  * [Qualitative Security Model](Qualitative-Security-Model)
   * [Split Speculator Dilemma](Split-Speculator-Dilemma)
   * [Proof of Memory Facade](Proof-of-Memory-Facade)
   * [Brand Arrogation](Brand-Arrogation)
