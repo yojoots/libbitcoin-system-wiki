@@ -18,7 +18,7 @@ More specifically, the system is most decentralized in confirmation which has th
 ```
 confirmation-decentralization = distribution(hash-power) * miners
 ```
-While people could decide to trade and/or mine independently in the future, they do not [contribute to security](Risk-Sharing-Principle) until after they actually do so. The distinction is analogous to being armed vs. having the ability to become armed. As shown in [Cockroach Fallacy](Cockroach-Fallacy), the latter matters not when you are getting robbed. The model represents security as it actually exits in the period.
+While people could decide to trade and/or mine independently in the future, the [Risk Sharing Principle](Risk-Sharing-Principle) shows that they are not contribute to security until they actually do so. The distinction is analogous to being armed vs. having the ability to become armed. As shown in [Cockroach Fallacy](Cockroach-Fallacy), the latter matters not when you are getting robbed. The model represents security as it actually exits in the period.
 
 As show in in [Public Data Principle](Public-Data-Principle), anonymity is a tool that aids in defending one's ability to trade and/or mine. As such the level of decentralization can never be measured. The model is a conceptual aid. Additionally, as shown in [Balance of Power Fallacy](Balance-of-Power-Fallacy), the the security afforded by each of the two sub-models is complimentary and independent of the other.
 
