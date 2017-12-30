@@ -1,0 +1,7 @@
+There is a theory that [decentralization](Glossary#centralization), as it pertains to Bitcoin security, pertains to [nodes](Glossary#node) communicating over the network [protocol](Glossary#protocol).
+
+In the terminology of [Paul Baran's 1964 paper on distributed networks](http://web.cs.ucla.edu/classes/cs217/Baran64.pdf) the importance of topology in network design is in the ability of communications to withstand the loss of a certain number of nodes. A centralized (star) network will fail with the loss of one node. A distributed (mesh) network is more resilient. A hybrid of these systems is considered decentralized.
+
+As a money Bitcoin forms a social graph. Only a [person](Glossary#person) can decide to accept one money or another in [trade](Glossary#trade). A society of people may share the same definition for a money, which is referred to as a [consensus](Glossary#consensus). Authority in a monetary system is the [power](Glossary#power) to define the money. Bitcoin is a tool that people can use defend against the tendency toward authority, in order to preserve their agreement and therefore [utility](Glossary#utility) in the money.
+
+In Baran's terminology a Bitcoin "node" is a person. It does not matter how many [machines](Glossary#machine) the person controls, the loss of that person is a loss of a node in the consensus. As shown in [Risk Sharing Principle](Risk-Sharing-Principle), Bitcoin relies on decentralization to allow people to resist authority.
