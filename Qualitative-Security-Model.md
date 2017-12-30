@@ -4,7 +4,7 @@ If a person is not personally accepting coin, or does not personally [validate](
 
 For any period of time, [economic](Glossary#economy) security is a function of the number of merchants and the similarity of amounts traded. The strongest economy would be all people in the world trading for the same number of units in the period, an ideal which can be called a "distributed" (or fully-decentralized) economy. The weakest would be one delegate accepting all units traded in the period, which would be a "centralized" economy.
 
-More specifically, the system is most decentralized which has the greatest number of vertices (merchants) with the lowest [coefficient of variation](https://en.wikipedia.org/wiki/Coefficient_of_variation) in the sum of incoming edges (receipts), or:
+More specifically, the system is most decentralized which has the greatest number of vertices (merchants) with the lowest [coefficient of variation](https://en.wikipedia.org/wiki/Coefficient_of_variation) in the sum of incoming edges (receipts):
 
 ```
 economic-decentralization = recipients * receipts-mean / receipts-standard-deviation
@@ -15,6 +15,8 @@ Similar to economic security, confirmation security can be modeled as an [edgele
 As shown in [Balance of Power Fallacy](Balance-of-Power-Fallacy), the systemic mining [threat](Glossary#state) is motivated by [censorship](Glossary#censorship), not [double-spending](Glossary#double-spend). Total [hash rate](Glossary#hash-rate) provides security against such attacks, but [pooling](Glossary#pooling) of hash rate works against it. As mining collects into [pools](Glossary#pooling) it becomes cheaper to [co-opt](Glossary#co-option) than to compete against it.
 
 For any period of time, confirmation security is a function of the number of miners and the similarity of hash power they directed. The strongest censorship resistance would be all people in the world mining at the same hash power in the period, an ideal which can be called "distributed" (or fully-decentralized) confirmation. The weakest would be one miner with 100% of hash power, which would be "centralized" confirmation.
+
+More specifically, the system is most decentralized which has the greatest number of vertices (miners) with the lowest coefficient of variation in weights (hash power):
 
 ```
 confirmation-decentralization = miners * hash-power-mean / hash-power-standard-deviation
