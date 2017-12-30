@@ -22,7 +22,7 @@ While people could decide to trade and/or mine independently in the future, they
 
 As show in in [Public Data Principle](Public-Data-Principle), anonymity is a tool that aids in defending one's ability to trade and/or mine. As such the level of decentralization can never be measured. The model is a conceptual aid. Additionally, as shown in [Balance of Power Fallacy](Balance-of-Power-Fallacy), the the security afforded by each of the two sub-models is complimentary and independent of the other.
 
-Decentralization alone is not security. **Security is the product of activity, distribution of that activity and the fraction of participating humanity.**
+Decentralization alone is not security. **Security is the product of activity, distribution of that activity, and the fraction of participating humanity.**
 ```
 security = activity * distribution * participation
 ```
