@@ -8,11 +8,11 @@ For any period of time, [economic](Glossary#economy) security is a function of t
 
 **Confirmation Security**
 
-Similar to economic security, [confirmation](Glossary#confirmation) security can be modeled as an [edgeless graph](https://en.wikipedia.org/wiki/Null_graph). Each [miner](Glossary#miner) is represented by one vertex on the graph. A [grinder](Glossary#grinder) is not a miner as the grinder has no decision-making ability, only the operator is represented. The total [hash power](Glossary#hash-power) employed by a miner is the weight (value) of the vertex. The strongest censorship resistance is every person in the world mining with equal hash power.
+Similar to economic security, confirmation security can be modeled as an [edgeless graph](https://en.wikipedia.org/wiki/Null_graph). Each [miner](Glossary#miner) is represented by one vertex on the graph. A [grinder](Glossary#grinder) is not a miner as the grinder has no decision-making ability, only the miner is represented. The total [hash power](Glossary#hash-power) employed by a miner is the weight (value) of the vertex. The strongest censorship resistance is every person in the world mining with equal hash power.
 
 As shown in [Balance of Power Fallacy](Balance-of-Power-Fallacy), the systemic mining [threat](Glossary#state) is motivated by [censorship](Glossary#censorship), not [double-spending](Glossary#double-spend). Total [hash rate](Glossary#hash-rate) provides security against such attacks, but [pooling](Glossary#pooling) of hash rate works against it. As mining collects into pools it becomes cheaper to [co-opt](Glossary#co-option) than to compete against it.
 
-For any period of time, the decentralization of Bitcoin mining is a function of the number of miners and the similarity of hash power they directed, an ideal which can be called "distributed" confirmation. The weakest would be one miner with 100% of hash power, which would be "centralized" confirmation.
+For any period of time, confirmation security is a function of the number of miners and the similarity of hash power they directed, an ideal which can be called "distributed" confirmation. The weakest would be one miner with 100% of hash power, which would be "centralized" confirmation.
 
 **todo**
 
