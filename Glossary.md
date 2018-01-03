@@ -178,7 +178,7 @@ The delay inherent in [Communication](#communication).
 An inability of certain [Nodes](#node) to [Communicate](#communication).
 #### Denial of Service
 Using [Communication](#communication) to exploit [Protocol](#protocol) or [Implementation](#implementation) flaws that  degrade performance.
-> DoS is a acronym for this.
+> DoS is an acronym for this.
 
 ## Components
 #### Mine
