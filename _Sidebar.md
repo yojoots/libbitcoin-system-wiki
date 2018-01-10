@@ -7,7 +7,7 @@
 * **[Build Libbitcoin](Build)**
 * **[Comprehensive Overview](https://en.bitcoin.it/wiki/Libbitcoin)**
 * **[Tutorials (aaronjaramillo)](http://aaronjaramillo.org/category/libbitcoindocs)**
-* **[Understanding Bitcoin](Cryptoeconomics)**
+* **[Cryptoeconomics](Cryptoeconomics)**
   * [Axiom of Resistance](Axiom-of-Resistance)
   * [Risk Sharing Principle](Risk-Sharing-Principle)
   * [Reservation Principle](Reservation-Principle)
