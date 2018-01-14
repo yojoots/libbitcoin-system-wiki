@@ -1,4 +1,4 @@
-There is a theory that property ownership can be secured by immutable claim-keeping. This implies a property claim is the basis of property security.
+There is a theory that property ownership can be secured by immutable claim-keeping.
 
 Given that a claim is not itself the property, control of the property falls to the person against whom the claim is made, its custodian. A custodian has the ability to surrender or retain the property and is therefore a trusted agent. Abrogation of the claim by the custodian is mitigated by custodian signature alone, with enforcement of the claim left to its owner.
 
