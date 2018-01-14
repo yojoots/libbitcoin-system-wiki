@@ -211,6 +211,8 @@ A [Person](#person) controlling certain [Units](#unit).
 > Holder is a common alias for this.
 #### Developer
 A [Person](#person) creating an [Implementation](#implementation).
+#### Claimant
+A [Person](#person) who owns a claim on property in the possession of another person.
 
 ## Mining
 #### Work
