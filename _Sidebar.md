@@ -29,6 +29,7 @@
   * [Pooling Pressure Risk](Pooling-Pressure-Risk)
   * [ASIC Monopoly Fallacy](ASIC-Monopoly-Fallacy)
   * [Balance of Power Fallacy](Balance-of-Power-Fallacy)
+  * [Blockchain Fallacy](Blockchain -Fallacy)
   * [Causation Fallacy](Causation-Fallacy)
   * [Cockroach Fallacy](Cockroach-Fallacy)
   * [Credit Expansion Fallacy](Credit-Expansion-Fallacy)
