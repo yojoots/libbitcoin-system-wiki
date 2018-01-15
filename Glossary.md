@@ -212,8 +212,10 @@ A [Person](#person) controlling certain [Units](#unit).
 #### Developer
 A [Person](#person) creating an [Implementation](#implementation).
 #### Claimant
-A [Person](#person) who holds a claim on property under the control of another person.
+A [Person](#person) who holds a claim on property under the control of a [Custodian](#custodian).
 > Also a lien-holder, shareholder, lender, or depositor.
+#### Custodian
+A [Person](#person) who controls the property of another
 
 ## Mining
 #### Work
