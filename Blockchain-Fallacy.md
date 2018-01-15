@@ -1,6 +1,6 @@
 There is a theory that property [ownership](Glossary#owner) can be secured by immutable [claim](Glossary#claimant)-keeping.
 
-Given that a claim is not itself the property, control of the property rests with the [custodian](Glossary#custodian) against whom the claim is made. A custodian has the ability to surrender or retain the property and is therefore a trusted agent. Abrogation of the claim by the custodian is mitigated by custodian signature alone, with enforcement of the claim left to its holder.
+Given that a claim is not itself the property, control of the property rests with the [custodian](Glossary#custodian) against whom the claim is made. A custodian has the ability to surrender or retain the property and is therefore a trusted agent. Abrogation of a claim by its custodian is always mitigated by custodian signature, cryptographic or otherwise, with enforcement of the claim left to its holder.
 
 The theory asserts that immutable claim-keeping provides security of the claim against loss by its owner, as nobody else would have an interest in the loss. However, in order to prove ownership of the claim, a clam’s owner must produce proof of ownership to the custodian. This requires that the owner not lose the secret that proves this ownership.  As such the security of the claim against loss is not mitigated at all, it merely changes form. The theory is therefore invalid.
 
