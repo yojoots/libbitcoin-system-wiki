@@ -2,7 +2,7 @@ There is a theory that [hoarding](Glossary#hoard) bitcoin guarantees to perpetua
 
 * One money is better than two ([Metcalfe’s Law](https://en.wikipedia.org/wiki/Metcalfe%27s_law)).
 * Better money displaces other monies ([Thiers’ Law](https://en.wikipedia.org/wiki/Gresham%27s_law#Reverse_of_Gresham's_Law_(Thiers'_Law))).
-* At fixed [supply](Glossary#supply), [price](Glossary#price), rises with demand ([Law of Supply and Demand](https://en.wikipedia.org/wiki/Supply_and_demand)).
+* At fixed [supply](Glossary#supply), [price](Glossary#price) rises with demand ([Law of Supply and Demand](https://en.wikipedia.org/wiki/Supply_and_demand)).
 * Potential increase in demand is unbounded ([trade](Glossary#trade) is positive sum).
 
 Hoarding is purely speculative, with all returns constituting profit or [loss](Glossary#loss). The money is not [lent](Glossary#lend) to another for [interest](Glossary#interest) and so is always available for [exchange](Glossary#exchange), a benefit that offsets interest forgone.
