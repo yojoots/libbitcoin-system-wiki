@@ -163,6 +163,8 @@ The return on [Speculation](#speculate).
 #### Loss
 Failure of [Investment](#lend) to earn [Interest](#interest).
 > This is negative profit.
+#### Volatility
+Deviation in [Price](#price) over time.
 #### Market
 The [Trade](#trade) in certain property.
 
