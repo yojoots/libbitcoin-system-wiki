@@ -43,6 +43,7 @@
   * [Ideal Money Fallacy](Ideal-Money-Fallacy)
   * [Impotent Mining Fallacy](Impotent-Mining-Fallacy)
   * [Inflation Fallacy](Inflation-Fallacy)
+  * [Lunar Fallacy](Lunar-Fallacy)
   * [Network Effect Fallacy](Network-Effect-Fallacy)
   * [Private Key Fallacy](Private-Key-Fallacy)
   * [Proof of Work Fallacy](Proof-of-Work-Fallacy)
