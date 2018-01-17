@@ -144,6 +144,9 @@ The set of all issued [Units](#unit).
 The [Trade](#trade) of [Units](#unit) for other property.
 #### Price Inflation
 The increase in average [Exchange](#exchange) prices over time.
+#### Hoard
+To [Own](#owner) for future use.
+> This is neither speculation nor investment.
 #### Speculate
 To [Own](#owner) in expectation of [Price](#price) increase.
 > Also to borrow in expectation of price decrease.
