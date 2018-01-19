@@ -1,0 +1,1 @@
+Unlike copyright, patent is an anti-market force. A true copyright is a contractual agreement between buyer and seller, where patent can only exist as a [state](Glossary#state) grant of [monopoly](http://cdn.whipups.net/uploads/236/7patents_copyrights.pdf).
