@@ -1,1 +1,3 @@
 Unlike copyright, patent is an anti-market force. A true copyright is a contractual agreement between buyer and seller, where patent can only exist as a [state](Glossary#state) grant of [monopoly](https://mises.org/library/man-economy-and-state-power-and-market/html/p/1075).
+
+The process of [mining](Glossary#mine) is highly competitive. Monopoly protection in the use of efficient mining algorithms is a strong anti-market [pooling pressure](Pooling-Pressure-Risk). Bitcoin is secured by [people](Glossary#person) [resisting](Axiom-of-Resistance) anti-market forces. If people do not resist such forces there is no security in the money. Resistance incurs greater [risk](Risk-Sharing-Principle) when the [miner](Glossary#miner) is highly [pooled](Glossary#pooling).
