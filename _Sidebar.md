@@ -10,6 +10,7 @@
 * **[Cryptoeconomics](Cryptoeconomics)**
   * [Axiom of Resistance](Axiom-of-Resistance)
   * [Other Means Principle](Other-Means-Principle)
+  * [Patent Resistance Principle](Patent-Resistance-Principle)
   * [Risk Sharing Principle](Risk-Sharing-Principle)
   * [Reservation Principle](Reservation-Principle)
   * [Scalability Principle](Scalability-Principle)
