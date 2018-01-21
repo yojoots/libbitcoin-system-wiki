@@ -4,7 +4,7 @@ This conflict between state and [individuals](Glossary#person) for control of mo
 
 1. Honeymoon
 2. Black Market
-3. Competitive
+3. Competition
 4. Surrender
 
 The honeymoon phase is characterized by a desire of state agencies to retain regulatory control over the movement of money and securities. To this end pressure is applied at points of [aggregation](Glossary#aggregation). As pressure on [pooled](Glossary#pooling) [miners](Glossary#miner) and [centralized](Glossary#centralization) [merchants](Glossary#merchant) increases, cost rises and utility drops. The money then necessarily [becomes more distributed](Threat-Level-Paradox) to avoid these expenses.
