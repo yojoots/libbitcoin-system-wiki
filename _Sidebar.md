@@ -50,6 +50,7 @@
   * [Lunar Fallacy](Lunar-Fallacy)
   * [Network Effect Fallacy](Network-Effect-Fallacy)
   * [Private Key Fallacy](Private-Key-Fallacy)
+  * [Proof of Stake Fallacy](Proof-of-Stake-Fallacy)
   * [Proof of Work Fallacy](Proof-of-Work-Fallacy)
   * [Relay Fallacy](Relay-Fallacy)
   * [Replay Protection Fallacy](Replay-Protection-Fallacy)
