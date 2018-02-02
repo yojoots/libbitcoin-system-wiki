@@ -1,4 +1,4 @@
-There is a theory that [proof-of-stake](https://en.m.wikipedia.org/wiki/Proof-of-stake) (PoS) constitutes a comparable alternative to [proof-of-work](Glossary#proof) (PoW) in terms of [confirmation](Glossary#confirmation) security. It it true that both PoS and PoW delegate control over [transaction](Glossary#transaction) ordering to [people](Glossary#person) in control of the largest pool of certain capital.
+There is a theory that [proof-of-stake](https://en.m.wikipedia.org/wiki/Proof-of-stake) (PoS) constitutes a comparable alternative to [proof-of-work](Glossary#proof) (PoW) in terms of [confirmation](Glossary#confirmation) security. It is true that both PoS and PoW delegate control over [transaction](Glossary#transaction) ordering to [people](Glossary#person) in control of the largest pool of certain capital.
 
 The distinction is in the deployability of the capital. PoW excludes no source of capital, while PoS excludes all capital that cannot acquire [units](Glossary#unit) of the [coin](Glossary#coin). This difference has a material consequence for security.
 
