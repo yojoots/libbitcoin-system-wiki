@@ -30,6 +30,7 @@
   * [Variance Discount Flaw](Variance-Discount-Flaw)
   * [Centralization Risk](Centralization-Risk)
   * [Pooling Pressure Risk](Pooling-Pressure-Risk)
+  * [Auditability Fallacy](Auditability-Fallacy)
   * [ASIC Monopoly Fallacy](ASIC-Monopoly-Fallacy)
   * [Balance of Power Fallacy](Balance-of-Power-Fallacy)
   * [Blockchain Fallacy](Blockchain-Fallacy)
