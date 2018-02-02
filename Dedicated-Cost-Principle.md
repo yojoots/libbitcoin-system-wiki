@@ -4,7 +4,7 @@ Unnecessary costs incurred by miners contribute nothing to defense against the c
 
 There is a theory that [proof-of-work](Glossary#proof) can be made more energy efficient by introducing non-dedicated costs to the mining function. One such example is the [discovery of prime numbers](http://primecoin.io). The reason to incorporate such costs is that the resulting discoveries have presumed marketable value. If not there would objectively be no value in the incorporation, invalidating the theory.
 
-However, any cost dedicated to the production of independently-marketable value can be offset by selling that byproduct. By analogy, brewers can sell their grain byproducts to farmers. This improves their efficiency by eliminating an unnecessary cost. So to the extent that the resulting byproduct is valuable, it is not a cost.
+**Any cost dedicated to the production of independently-marketable value can be offset by selling that byproduct.** By analogy, brewers can sell their grain byproducts to farmers. This improves their efficiency by eliminating an unnecessary cost. So to the extent that the resulting byproduct is valuable, it is not a cost.
 
 Yet actual (net) costs must rise to the level of rewards, as a consequence of competition. Therefore the same result would be achieved by basic PoW and independent energy-consuming operations to generate the marketable products. As such the theory is invalid.
 
