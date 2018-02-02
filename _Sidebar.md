@@ -55,7 +55,7 @@
   * [Reserve Currency Fallacy](Reserve-Currency-Fallacy)
   * [Selfish Mining Fallacy](Selfish-Mining-Fallacy)
   * [Side Fee Fallacy](Side-Fee-Fallacy)
-  * [Spam Misnomer)(Spam-Misnomer)
+  * [Spam Misnomer](Spam-Misnomer)
   * [Split Speculator Dilemma](Split-Speculator-Dilemma)
   * [Proof of Memory Facade](Proof-of-Memory-Facade)
   * [Brand Arrogation](Brand-Arrogation)
