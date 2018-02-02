@@ -1,0 +1,5 @@
+There is a theory that [proof-of-stake](https://en.m.wikipedia.org/wiki/Proof-of-stake) (PoS) constitutes a comparable alternative to [proof-of-work](Glossary#proof) (PoW). It it true that both PoS and PoW delegate control over [transaction](Glossary#transaction) ordering to people in control of the largest pool of certain capital.
+
+The distinction is in the type of capital. PoW excludes no source of capital, while PoS excludes all capital that cannot acquire [units](Glossary#unit) of the [coin](Glossary#coin). This difference has a material consequence for security.
+
+In [Other Means Principle](Other-Means-Principle) it is shown that the ability of a coin to resist [censorship](Glossary#censorship) depends on [people](Glossary#person) paying [miners](Glossary#miner) to [overpower](Glossary#power) the censor. **Overcoming censorship is not possible in a PoS system, as the censor has acquired majority stake and cannot be unseated.** As such PoS systems are not censorship resistant and the theory is therefore invalid.
