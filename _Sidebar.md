@@ -9,6 +9,7 @@
 * **[Tutorials (aaronjaramillo)](http://aaronjaramillo.org/category/libbitcoindocs)**
 * **[Cryptoeconomics](Cryptoeconomics)**
   * [Axiom of Resistance](Axiom-of-Resistance)
+  * [Dedicated Cost Principle](Dedicated-Cost-Principle)
   * [Other Means Principle](Other-Means-Principle)
   * [Patent Resistance Principle](Patent-Resistance-Principle)
   * [Risk Sharing Principle](Risk-Sharing-Principle)
