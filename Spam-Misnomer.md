@@ -1,1 +1,1 @@
-There is no test for [transaction](Glossary#transaction) legitimacy. The attempt to delegitimize arbitrary classes of transactions is akin to [censorship](Glossary#censorship).
+There is no test for [transaction](Glossary#transaction) legitimacy. In other words all [valid](Glossary#valid) transactions are equally legitimate. Fungibility is an essential aspect of money.
