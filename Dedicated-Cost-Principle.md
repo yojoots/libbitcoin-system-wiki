@@ -6,6 +6,6 @@ There is a theory that [proof-of-work](Glossary#proof) can be made more energy e
 
 **Any cost dedicated to the production of independently-marketable value can be offset by selling that byproduct.** By analogy, brewers can sell their grain byproducts to farmers. This improves their efficiency by eliminating an unnecessary cost. So to the extent that the resulting byproduct is valuable, it’s production does not incur a net cost.
 
-Yet actual (net) costs must rise to the level of rewards, as a consequence of competition. Therefore the same result would be achieved by basic PoW and independent energy-consuming operations to generate the marketable products. As such the theory is invalid.
+Yet actual (net) costs must rise to the level of rewards, as a consequence of competition. Therefore the same result would be achieved by basic PoW consuming to full reward value and independent energy-consuming operations generating the marketable products. As such the theory is invalid.
 
 [Merged mining](https://eprint.iacr.org/2017/791.pdf) is typically implemented to resolve the problem of bootstrapping a new coin past the vulnerable stage of low [hash rate](Glossary#hash-rate). This design fails to recognize that hash rate not dedicated to the new coin does not contribute to its security. As the full cost of the hash rate can be recouped by selling it on one chain, there is no cost to censor the other merge-mined chain(s).
