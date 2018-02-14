@@ -8,6 +8,7 @@
 * **[Comprehensive Overview](https://en.bitcoin.it/wiki/Libbitcoin)**
 * **[Tutorials (aaronjaramillo)](http://aaronjaramillo.org/category/libbitcoindocs)**
 * **[Cryptoeconomics](Cryptoeconomics)**
+  * [Value Proposition](Value-Proposition)
   * [Axiom of Resistance](Axiom-of-Resistance)
   * [Dedicated Cost Principle](Dedicated-Cost-Principle)
   * [Other Means Principle](Other-Means-Principle)
