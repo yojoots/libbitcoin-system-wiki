@@ -1,4 +1,4 @@
-As implied by [Value Proposition](Value-Proposition) there are two aspects of Bitcoin that make it a target of [state](Glossary#state) controls.
+As implied by [Value Proposition](Value-Proposition) there are two aspects of Bitcoin that make it a target of [state](Glossary#state) controls, both threats to tax revenue.
 
 In [combating Bitcoin](Other-Means-Principle) the state may attempt to introduce a cosmetically similar money, which can be referred to as Fedcoin. This could be introduced as a [split](Glossary#split) or alternative [coin](Glossary#coin). The objective would be to preserve the superficial aspects of Bitcoin while eliminating its value proposition. This would protect tax revenues while propagandizing Fedcoin as a “safer” alternative to Bitcoin.
 
