@@ -24,8 +24,6 @@ Spaces between all operators: `x = 5 * 8 + 4 * 2`.
 
 If the order is ambiguous or confusing then use parenthesis: `x = (5 * 8) + (4 * 2)`.
 
-Avoid pre/postfix operators in compound expressions: `auto total = count++`.
-
 Avoid raw pointers in C++, using smart pointers if pointers are necessary.
 
 Use standard integer types where possible:
