@@ -28,12 +28,12 @@ Avoid raw pointers in C++, using smart pointers if pointers are necessary.
 
 Use standard integer types where possible:
 
-* Fixed-Length Unsigned Integers (`<cstdint>` / `<stdint.h>`)
+* Fixed-Length Signed Integers (`<cstdint>` / `<stdint.h>`)
     * `int8_t`
     * `int16_t`
     * `int32_t`
     * `int64_t`
-* Fixed-Length Signed Integers (`<cstdint>` / `<stdint.h>`)
+* Fixed-Length Unsigned Integers (`<cstdint>` / `<stdint.h>`)
     * `uint8_t`
     * `uint16_t`
     * `uint32_t`
