@@ -151,6 +151,6 @@ array_slice(const byte_array<Size>& container);
 array_slice(const data_chunk& container);
 ```
 
-[**Next** -- Elliptic Curve Operations & Signing](https://github.com/libbitcoin/libbitcoin/wiki)  
+[**Next** -- Elliptic Curve Operations & Signing](https://github.com/libbitcoin/libbitcoin/wiki/Elliptic-Curve-Operations-&-Signing)  
 [**Previous** -- Getting Started with Libbitcoin (System) ](https://github.com/libbitcoin/libbitcoin/wiki)  
 [**Return to Index**](https://github.com/libbitcoin/libbitcoin/wiki)
