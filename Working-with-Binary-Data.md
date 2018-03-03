@@ -1,5 +1,3 @@
-# Working with Binary Data
-
 The Libbitcoin Library API is designed to abstract away Bitcoin's binary formats into intuitive classes and methods which are intended to behave similarly to frequently documented constructs (e.g. transactions, signatures and wallets) used to explain and describe how Bitcoin works.
 
 However, the Bitcoin protocol is ultimately formalised at the binary level, where public keys, transactions and network messages follow specific serialisation formats in order to be valid.
