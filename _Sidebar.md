@@ -6,6 +6,9 @@
 * **[Slack Channel](https://libbitcoin.slack.com/messages)**
 * **[Build Libbitcoin](Build)**
 * **[Comprehensive Overview](https://en.bitcoin.it/wiki/Libbitcoin)**
+* **[Developer Documentation](Developer-Documentation)**
+  * [Working with Binary Data](Working-with-Binary-Data)
+  * [Elliptic Curve Operations & Signing](Elliptic-Curve-Operations-&-Signing)
 * **[Tutorials (aaronjaramillo)](http://aaronjaramillo.org/category/libbitcoindocs)**
 * **[Cryptoeconomics](Cryptoeconomics)**
   * [Value Proposition](Value-Proposition)
