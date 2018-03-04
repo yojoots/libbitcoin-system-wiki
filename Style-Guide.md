@@ -18,7 +18,9 @@ It's nice if function names read like a sentence when used: `write_to_stream(dat
 
 The `using` keyword should never be used in headers. Never declare `using namespace std`.
 
-Every `{` begins a newline except for namespaces [there is some inconsistency here with respect to initializers].
+Every `{` begins a newline except for namespaces and closings on the same line: `{ ... }`.
+
+Don't internally terminate line-oriented macros, so termination will not be redundant: FOO_BAR();
 
 Spaces between all operators: `x = 5 * 8 + 4 * 2`.
 
@@ -64,21 +66,35 @@ Keywords such as `if` and `for`are not functions, one space before left parenthe
 Flow control should transition on new lines.
 
 ```cpp
-    // Bad
+    // Bad.
     if (foo) do_bar();
 
-    // Good
+    // Good.
     if (foo)
         do_bar();
+```
+
+Brace conditional macro execution:
+
+```cpp
+    // Good.
+    if (foo)
+    {
+        FOO_BAR(42);
+    }
+
+    // Bad.
+    if (foo)
+        FOO_BAR(42);
 ```
 
 Don't put more than one logical line on a line.
 
 ```cpp
-    // Bad
+    // Bad.
     something(); another_thing(); yada_yada();
 
-    // Good
+    // Good.
     something(); 
     another_thing(); 
     yada_yada();
@@ -111,6 +127,15 @@ Use // for source code commentary.
 Follow the closing of a scope with a blank line before a subsequent statement.
 
 Precede comments with a blank line.
+
+Capitalize and punctuate comments, leaving a space after the comment symbol:
+
+```cpp
+// Good comment structure.
+//bad comment structure
+```
+
+Avoid unqualified scopes
 
 Define only one class or struct per file and match the file name to the object.
 
