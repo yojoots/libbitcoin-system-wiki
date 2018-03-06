@@ -172,6 +172,6 @@ std::cout << (recovered_sig == my_pubkey);
 
 Recoverable Signatures are used in message signing by Bitcoin wallets to prove control over a given Bitcoin address.
 
-[**Next** -- Bitcoin Addresses &  Wallets](https://github.com/libbitcoin/libbitcoin/wiki)  
+[**Next** -- Addresses &  HD Wallets](https://github.com/libbitcoin/libbitcoin/wiki/Addresses-&-HD-Wallets)  
 [**Previous** -- Working with Binary Data ](https://github.com/libbitcoin/libbitcoin/wiki/Working-with-Binary-Data)  
 [**Return to Index**](https://github.com/libbitcoin/libbitcoin/wiki)
