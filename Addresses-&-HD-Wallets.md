@@ -7,8 +7,8 @@ A publicly shareable Bitcoin address is derived from a compressed or uncompresse
 
 The serialised Bitcoin address consists of:
 * 1-Byte **Version Prefix**  
- * Mainnet: 0x00
- * Testnet: 0x6F
+  * Mainnet: 0x00
+  * Testnet: 0x6F
 * 20-Byte **Hash Digest** (Double Hashed Public Key)
 * 4-Byte **Checksum**
 
@@ -63,11 +63,11 @@ From the previous example we conclude that following pieces of information are r
 The Wallet Import Format (WIF) provides these three pieces of information in a byte sequence.
 
 * 1-Byte **Version Prefix**  
- * Mainnet: 0x80
- * Testnet: 0xEF
+  * Mainnet: 0x80
+  * Testnet: 0xEF
 * 32-byte **Private Key**
 * 1-Byte **Compression Marker**
- * 0x01 or omitted
+  * 0x01 or omitted
 * 4-Byte **Checksum**
 
 
@@ -295,16 +295,16 @@ auto M101 = M10.derive_public(1); //Depth 3, Index 1
 All key information required to generate child private and public keys can be serialised in the *extended key format*.
 
 * 4-byte **Version**
- * Private Key: Mainnet(0x0488ADE4)/Testnet(0x04358394 )
- * Public Key: Mainnet(0x0488B21E)/Testnet(0x043587CF )
+  * Private Key: Mainnet(0x0488ADE4)/Testnet(0x04358394 )
+  * Public Key: Mainnet(0x0488B21E)/Testnet(0x043587CF )
 * 1-byte **Depth**
 * 4-byte **Fingerprint of parent**  
- * First 4-bytes of Hash160 (parent pubic key)
+  * First 4-bytes of Hash160 (parent pubic key)
 * 4-byte **Index Number**
 * 32-byte **Parent Chain Code**
 * 34-byte **Key**
- * Private Key: 0x00 + 32 bytes private key
- * Public Key: 34 byte compressed public key
+  * Private Key: 0x00 + 32 bytes private key
+  * Public Key: 34 byte compressed public key
 * 4-byte **Checksum**
 
 More extended serialisation details can be found in  [BIP32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki).
