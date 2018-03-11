@@ -10,6 +10,7 @@
   * [Working with Binary Data](Working-with-Binary-Data)
   * [EC Operations & Signing](Elliptic-Curve-Operations-&-Signing)
   * [Addresses & HD Wallets](Addresses-&-HD-Wallets)
+  * [Building Transactions](Building-Transactions)
 * **[Tutorials (aaronjaramillo)](http://aaronjaramillo.org/category/libbitcoindocs)**
 * **[Cryptoeconomics](Cryptoeconomics)**
   * [Value Proposition](Value-Proposition)
