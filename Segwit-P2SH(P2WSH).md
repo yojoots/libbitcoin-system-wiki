@@ -5,7 +5,7 @@ Sending a transaction to a Pay-to-Witness-Script-Hash (P2WSH) address wrapped in
 | -------------|---------------------------------------------------------------|
 | ScriptPubKey | `HASH160` `[20-byte hash160(<zero> <sha256(WitnessScript)>)]` `EQUAL` |
 
-The `redeemscript` of the P2SH `ScriptPubKey` shown above is `<zero> <sha256(WitnessScript)>)`. Therefore, the construction of a `P2SH(P2WSH)` output mirrors that of a regular `P2SH` example.
+The `redeemscript` of the P2SH `ScriptPubKey` shown above is `<zero> <sha256(WitnessScript)>`. Therefore, the construction of a `P2SH(P2WSH)` output mirrors that of a regular `P2SH` example.
 
 ```c++
 // P2SH(P2WSH(MultSig)) Output
