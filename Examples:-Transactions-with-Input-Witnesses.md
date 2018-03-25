@@ -1,8 +1,4 @@
-# Examples of Transactions with Input Witnesses
-
 All examples from the witness documentation chapters are shown here in full.
-WIP: Note that these examples will soon be moved to the unit tests to ensure maintainability.
-References will be updated accordingly.
 
 **P2WPKH**
 * example_to_p2wpkh();
@@ -31,26 +27,34 @@ using namespace chain;
 using namespace machine;
 
 // "Normal" wallets.
-auto my_secret0 = base16_literal("b7423c94ab99d3295c1af7e7bbea47c75d298f7190ca2077b53bae61299b70a5");
+auto my_secret0 = base16_literal(
+    "b7423c94ab99d3295c1af7e7bbea47c75d298f7190ca2077b53bae61299b70a5");
 ec_private my_private0(my_secret0, ec_private::testnet, true);
 ec_compressed pubkey0= my_private0.to_public().point();
 payment_address my_address0 = my_private0.to_payment_address();
 
-auto my_secret1 = base16_literal("d977e2ce0f744dc3432cde9813a99360a3f79f7c8035ef82310d54c57332b2cc");
+auto my_secret1 = base16_literal(
+      "d977e2ce0f744dc3432cde9813a99360a3f79f7c8035ef82310d54c57332b2cc");
 ec_private my_private1(my_secret1, ec_private::testnet, true);
 ec_compressed pubkey1= my_private1.to_public().point();
 
 // "Witness Aware" wallets.
-auto my_secret_witness_aware = base16_literal("0a44957babaa5fd46c0d921b236c50b1369519c7032df7906a18a31bb905cfdf");
-ec_private my_private_witness_aware(my_secret_witness_aware, ec_private::testnet, true);
+auto my_secret_witness_aware = base16_literal(
+      "0a44957babaa5fd46c0d921b236c50b1369519c7032df7906a18a31bb905cfdf");
+ec_private my_private_witness_aware(
+      my_secret_witness_aware, ec_private::testnet, true);
 ec_compressed pubkey_witness_aware= my_private_witness_aware.to_public().point();
 
-auto my_secret_witness_aware1 = base16_literal("2361b894dab5c45c3c448eb4ab65f847cb3000e05969f18c94b8850233a95b74");
-ec_private my_private_witness_aware1(my_secret_witness_aware1, ec_private::testnet, true);
+auto my_secret_witness_aware1 = base16_literal(
+      "2361b894dab5c45c3c448eb4ab65f847cb3000e05969f18c94b8850233a95b74");
+ec_private my_private_witness_aware1(
+      my_secret_witness_aware1, ec_private::testnet, true);
 ec_compressed pubkey_witness_aware1= my_private_witness_aware1.to_public().point();
 
-auto my_secret_witness_aware2 = base16_literal("87493c67155f44a9a9a6abf621926a407121d6f4e1e94c75ced61208d7abe9db");
-ec_private my_private_witness_aware2(my_secret_witness_aware2, ec_private::testnet, true);
+auto my_secret_witness_aware2 = base16_literal(
+    "87493c67155f44a9a9a6abf621926a407121d6f4e1e94c75ced61208d7abe9db");
+ec_private my_private_witness_aware2(
+      my_secret_witness_aware2, ec_private::testnet, true);
 ec_compressed pubkey_witness_aware2= my_private_witness_aware2.to_public().point();
 
 
