@@ -11,11 +11,11 @@
   * [EC Operations & Signing](Elliptic-Curve-Operations-&-Signing)
   * [Addresses & HD Wallets](Addresses-&-HD-Wallets)
   * [Building Transactions](Building-Transactions)
-  * [Sighash & Transaction Signing](Sighash-&-TX-Signing)
-  * [P2WPKH Transactions](P2WPKH-Transactions)
-  * [P2SH(P2WPKH) Transactions](P2SH(P2WPKH)-Transactions)
-  * [P2WSH Transactions](P2WSH-Transactions)
-  * [P2SH(P2WSH) Transactions](P2SH(P2WSH)-Transactions)
+  * [Sighash & TX Signing](Sighash-&-TX-Signing)
+  * [P2WPKH](P2WPKH-Transactions)
+  * [P2SH(P2WPKH)](P2SH(P2WPKH)-Transactions)
+  * [P2WSH](P2WSH-Transactions)
+  * [P2SH(P2WSH)](P2SH(P2WSH)-Transactions)
 * **[Tutorials (aaronjaramillo)](http://aaronjaramillo.org/category/libbitcoindocs)**
 * **[Cryptoeconomics](Cryptoeconomics)**
   * [Value Proposition](Value-Proposition)
