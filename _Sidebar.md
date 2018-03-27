@@ -7,7 +7,7 @@
 * **[Build Libbitcoin](Build)**
 * **[Comprehensive Overview](https://en.bitcoin.it/wiki/Libbitcoin)**
 * **[Developer Documentation](Developer-Documentation)**
-  * [Working with Binary Data](Working-with-Binary-Data)
+  * [Serialised Data](Working-with-Serialised-Data)
   * [EC Operations & Signing](Elliptic-Curve-Operations-&-Signing)
   * [Addresses & HD Wallets](Addresses-&-HD-Wallets)
   * [Building Transactions](Building-Transactions)
