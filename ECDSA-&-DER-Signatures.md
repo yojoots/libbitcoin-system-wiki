@@ -1,6 +1,6 @@
-Signing a transaction in Bitcoin means endorsing a serialised representation of the transaction called [sighash](https://github.com/libbitcoin/libbitcoin/wiki/Sighash-&-TX-Signing) with an [ECSDA](https://en.wikipedia.org/wiki/Elliptic_Curve_Digital_Signature_Algorithm) signature.
+Signing a transaction in Bitcoin means endorsing a serialised representation of the transaction called [sighash](https://github.com/libbitcoin/libbitcoin/wiki/Sighash-&-TX-Signing) with an [ECDSA](https://en.wikipedia.org/wiki/Elliptic_Curve_Digital_Signature_Algorithm) signature.
 
-The ECSDA signature itself is composed of two scalar values `r,s`.
+The ECDSA signature itself is composed of two scalar values `r,s`.
 
 The Libbitcoin type signature  is a 64-byte, byte array container which holds the two 32-byte values. We will sign an arbitrary message hash in the following example.
 
@@ -25,9 +25,9 @@ sign(my_signature, my_secret, my_hash);
 // Verify Signature.
 std::cout << verify_signature(my_pubkey, my_hash, my_signature) << std::endl;
 ```
-**Deterministic ECSDA Signatures**  
+**Deterministic ECDSA Signatures**  
 
-Signing in Libbitcoin results in deterministic ECSDA signatures, which means that the "random" `k` value used to derive the signature is not actually random, but derived deterministically from both the message and private key.
+Signing in Libbitcoin results in deterministic ECDSA signatures, which means that the "random" `k` value used to derive the signature is not actually random, but derived deterministically from both the message and private key.
 
 This means that a signature generated in Libbitcoin will always be the same for a given message and private key.
 
