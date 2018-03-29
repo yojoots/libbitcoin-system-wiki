@@ -1,5 +1,3 @@
-# Elliptic Curve Operations
-
 Libbitcoin provides all the necessary elliptic curve primitives and operations required for the generation and management of Bitcoin private keys, public keys and signatures of transactions and messages.
 
 Bitcoin uses the secp256k1 elliptic curve `y^2 = x^3 + 7` over the finite field `Fp` where:
