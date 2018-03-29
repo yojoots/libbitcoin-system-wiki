@@ -8,7 +8,7 @@
 * **[Comprehensive Overview](https://en.bitcoin.it/wiki/Libbitcoin)**
 * **[Developer Documentation](Developer-Documentation)**
   * [Serialised Data](Working-with-Serialised-Data)
-  * [EC Operations & Signing](Elliptic-Curve-Operations-&-Signing)
+  * [EC Operations](Elliptic-Curve-Operations)
   * [Addresses & HD Wallets](Addresses-&-HD-Wallets)
   * [Building Transactions](Building-Transactions)
   * [Sighash & TX Signing](Sighash-&-TX-Signing)
