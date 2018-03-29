@@ -9,6 +9,7 @@
 * **[Developer Documentation](Developer-Documentation)**
   * [Serialised Data](Working-with-Serialised-Data)
   * [EC Operations](Elliptic-Curve-Operations)
+  * [ECDSA & DER Signatures](ECDSA-&-DER-Signatures)
   * [Addresses & HD Wallets](Addresses-&-HD-Wallets)
   * [Building Transactions](Building-Transactions)
   * [Sighash & TX Signing](Sighash-&-TX-Signing)
