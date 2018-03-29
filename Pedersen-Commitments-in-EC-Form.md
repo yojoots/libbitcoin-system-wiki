@@ -56,7 +56,7 @@ point_list commitment_point_list = {left_point, right_point};
 ec_compressed commitment_point;
 ec_sum(commitment_point, commitment_point_list);
 
-// Commitment point C:
+// Commitment point C.
 std::cout << encode_base16(commitment_point) << std::endl;
 ```
 
