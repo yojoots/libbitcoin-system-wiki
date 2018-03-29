@@ -109,6 +109,6 @@ ec_compressed commitment_sum_;
 ec_sum(commitment_sum_, commitment_list_);
 
 // Homomorphism holds.
-// C + C2 = C(r + r1, a + a1)
+// C + C2 = C(r + r2, a + a2)
 std::cout << (commitment_sum == commitment_sum_) << std::endl;
 ```
