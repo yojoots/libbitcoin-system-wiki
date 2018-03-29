@@ -66,7 +66,7 @@ Homomorphism means that algebraic operations on commitments will also hold true 
 
 > C( r1 , a1 ) + C( r2 , a2 ) = C( r1 + r2 , a1 + a2 )
 
-This is equality is demonstrated in the example below:
+This equality is demonstrated in the example below:
 
 ```c++
 // Create a second commitment C(r2, a2).
