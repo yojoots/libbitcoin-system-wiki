@@ -1,4 +1,4 @@
-This section describes the verification of input and output scripts with the relevant off-stack arguments (witnesses, lock-time, unspent outputs etc). Script verification does not verify the chain state information provided to the parsing the script. Script verification assesses whether input & output scripts evaluate to true on the script stack for a given a set of consensus rules.
+This section describes the verification of input and output scripts with the relevant off-stack arguments (witnesses, lock-time, unspent outputs etc). Note that script verification does not verify the chain state information passed on to the verification of the scripts. Script verification assesses whether input & output scripts evaluate to true on the script stack for a given a set of consensus rules.
 
 ![script::verify](https://ipfs.io/ipfs/QmeE3FaoJZa75qh47TsdGD6nCEr5EvWraNG32E1jKo3kVj)
 
