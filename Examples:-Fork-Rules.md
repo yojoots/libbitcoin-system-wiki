@@ -141,10 +141,8 @@ void example_p2sh(const transaction& example_transaction) {
   // Verify w/o signatures.
   code ec;
   witness empty_witness;
-  ec = script::verify(p2sh_transaction, 0u,
-          my_fork_rules, no_sig_input_script,
-          empty_witness, p2sh_multisig_script,
-          prev_output_amount);
+  ec = script::verify(p2sh_transaction, 0u, my_fork_rules, no_sig_input_script,
+      empty_witness, p2sh_multisig_script, prev_output_amount);
 
   // Prints success (Bitcoin:0)
   std::cout << ec << std::endl;
@@ -162,11 +160,9 @@ void example_p2sh(const transaction& example_transaction) {
   // Input script also works without BIP16 activation.
   //my_fork_rules = rule_fork::all_rules ^ rule_fork::bip16_rule;
 
-  // Verify w/o signatures.
-  ec = script::verify(p2sh_transaction, 0u,
-          my_fork_rules, sig_input_script,
-          empty_witness, p2sh_multisig_script,
-          prev_output_amount);
+  // Verify with signatures.
+  ec = script::verify(p2sh_transaction, 0u, my_fork_rules, sig_input_script,
+      empty_witness, p2sh_multisig_script, prev_output_amount);
 
   // Prints success (Bitcoin:0)
   std::cout << ec << std::endl;
@@ -207,10 +203,8 @@ void example_p2wpkh(const transaction& example_transaction) {
   script empty_input_script;
   code ec;
 
-  ec = script::verify(p2wpkh_transaction, 0u,
-          my_fork_rules, empty_input_script,
-          empty_witness, p2wpkh_operations,
-          prev_output_amount);
+  ec = script::verify(p2wpkh_transaction, 0u, my_fork_rules, empty_input_script,
+      empty_witness, p2wpkh_operations, prev_output_amount);
 
   // Prints success (Bitcoin:0)
   std::cout << ec << std::endl;
@@ -249,10 +243,8 @@ void example_p2wpkh(const transaction& example_transaction) {
   // Add witness to transaction.
   p2wpkh_transaction.inputs()[0].set_witness(p2wpkh_witness);
 
-  ec = script::verify(p2wpkh_transaction, 0u,
-          my_fork_rules, empty_input_script,
-          p2wpkh_witness, p2wpkh_operations,
-          prev_output_amount);
+  ec = script::verify(p2wpkh_transaction, 0u, my_fork_rules, empty_input_script,
+      p2wpkh_witness, p2wpkh_operations, prev_output_amount);
 
   // Prints success (Bitcoin:0)
   std::cout << ec << std::endl;
