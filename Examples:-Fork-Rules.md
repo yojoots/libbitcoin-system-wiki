@@ -1,5 +1,3 @@
-# Examples: Fork Rules
-
 All examples from the fork rules documentation chapter are shown here in full.
 
 **BIP16**
