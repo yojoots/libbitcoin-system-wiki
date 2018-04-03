@@ -18,6 +18,8 @@
   * [P2SH(P2WPKH)](P2SH(P2WPKH)-Transactions)
   * [P2WSH](P2WSH-Transactions)
   * [P2SH(P2WSH)](P2SH(P2WSH)-Transactions)
+  * [Script Verification](Script-Verification)
+  * [Fork Rules](Fork-Rules)
 * **[Tutorials (aaronjaramillo)](http://aaronjaramillo.org/category/libbitcoindocs)**
 * **[Cryptoeconomics](Cryptoeconomics)**
   * [Value Proposition](Value-Proposition)
