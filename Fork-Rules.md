@@ -1,4 +1,4 @@
-Bitcoin soft fork rule support are signalled with a 32-bit sequence in the block version field, with each of the first 29 bits each representing support for a given BIP. 
+Bitcoin soft fork rule support are signalled with a 32-bit sequence in the block version field, with each of the first 29 bits each representing support for a given BIP.  
 
 This 32-bit representation can be found in the [`rule_fork`](https://github.com/libbitcoin/libbitcoin/blob/master/include/bitcoin/bitcoin/machine/rule_fork.hpp#L27-L101) enum object in Libbitcoin. Individual soft fork rules can be easily activated or deactivated by modifying the respective bit .
 
@@ -18,7 +18,7 @@ We may also toggle the activation of specific fork rules to effectively illustra
 
 [BIP16](https://github.com/bitcoin/bips/blob/master/bip-0016.mediawiki) did not add any new script operators, but introduced a new stack evaluation rule: First, the redeem script data push in the input script would be verified, to ensure it hashed to the redeem script hash in the P2SH script. If this evaluated to true, the redeem script would then be evaluated again, but this time together with the unlocking script.
 
-![BIP16](https://ipfs.io/ipfs/QmfM3rkucSWcUpGFXAnsmmyZ7V39YzvUf7ihcvzyqHt4fz)
+![BIP16](https://ipfs.io/ipfs/QmdEHcQAw4uTELoyRUXYf87Xbx7YaqaR12g3YXxPm7n1Xs)
 
 We can demonstrate the BIP16 soft fork in Libbitcoin by constructing a P2SH(2-of-2 Multisig) script and passing it to the interpreter together with two different input scripts: One input script which contains only the redeem script, and another one, which also includes an unlocking script, as illustrated above.
 
@@ -134,7 +134,7 @@ BIP141 introduced the witness as part of the transaction serialisation format, w
 
 Let us consider a P2WPKH script, which is backwards compatible to previous consensus rules, meaning that it can spent by anyone when BIP141 is not activated.
 
-![BIP141/143](https://ipfs.io/ipfs/QmTNnp6VJXYzMyaQacXxR4CMWjcoFJMCaNuBWfGyq28ptx)
+![BIP141/143](https://ipfs.io/ipfs/QmTV3aG31kd3kTNWbbNSMV2z6atYKxijevgVFq85vJY5gA)
 
 To demonstrate this in Libbitcoin, we will first construct the P2WPKH script, and then attempt to spend it with an empty input script.
 
