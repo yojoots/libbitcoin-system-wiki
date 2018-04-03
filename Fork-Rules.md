@@ -1,4 +1,6 @@
-Bitcoin soft fork rule support are signalled with a 32-bit sequence in the block version field, with each of the first 29 bits each representing support for a given BIP. This 32-bit representation can be found in the rule fork enum object in Libbitcoin. Individual soft fork rules can be easily activated or deactivated by modifying the respective bit .
+Bitcoin soft fork rule support are signalled with a 32-bit sequence in the block version field, with each of the first 29 bits each representing support for a given BIP. 
+
+This 32-bit representation can be found in the [`rule_fork`](https://github.com/libbitcoin/libbitcoin/blob/master/include/bitcoin/bitcoin/machine/rule_fork.hpp#L27-L101) enum object in Libbitcoin. Individual soft fork rules can be easily activated or deactivated by modifying the respective bit .
 
 ```c++
 // Turn off BIP16 soft fork, by selectively deactivating the BIP16 fork bit.
@@ -94,10 +96,8 @@ uint32_t my_fork_rules = rule_fork::all_rules ^ rule_fork::bip16_rule;
 // Verify w/o signatures.
 code ec;
 witness empty_witness;
-ec = script::verify(p2sh_transaction, 0u,
-        my_fork_rules, no_sig_input_script,
-        empty_witness, p2sh_multisig_script,
-        prev_output_amount);
+ec = script::verify(p2sh_transaction, 0u, my_fork_rules, no_sig_input_script,
+    empty_witness, p2sh_multisig_script, prev_output_amount);
 
 // Prints success (Bitcoin:0)
 std::cout << ec << std::endl;
@@ -118,10 +118,8 @@ my_fork_rules = rule_fork::all_rules;
 // my_fork_rules = rule_fork::all_rules ^ rule_fork::bip16_rule;
 
 // Verify with signatures.
-ec = script::verify(p2sh_transaction, 0u,
-        my_fork_rules, sig_input_script,
-        empty_witness, p2sh_multisig_script,
-        prev_output_amount);
+ec = script::verify(p2sh_transaction, 0u, my_fork_rules, sig_input_script,
+    empty_witness, p2sh_multisig_script, prev_output_amount);
 
 // Prints success (Bitcoin:0)
 std::cout << ec << std::endl;
@@ -176,10 +174,8 @@ witness empty_witness;
 script empty_input_script;
 code ec;
 
-ec = script::verify(p2wpkh_transaction, 0u,
-        my_fork_rules, empty_input_script,
-        empty_witness, p2wpkh_operations,
-        prev_output_amount);
+ec = script::verify(p2wpkh_transaction, 0u, my_fork_rules, empty_input_script,
+    empty_witness, p2wpkh_operations, prev_output_amount);
 
 // Prints success (Bitcoin:0)
 std::cout << ec << std::endl;
@@ -224,10 +220,8 @@ my_fork_rules = rule_fork::all_rules;
 // Add witness to transaction.
 p2wpkh_transaction.inputs()[0].set_witness(p2wpkh_witness);
 
-ec = script::verify(p2wpkh_transaction, 0u,
-        my_fork_rules, empty_input_script,
-        p2wpkh_witness, p2wpkh_operations,
-        prev_output_amount);
+ec = script::verify(p2wpkh_transaction, 0u, my_fork_rules, empty_input_script,
+    p2wpkh_witness, p2wpkh_operations, prev_output_amount);
 
 // Prints success (Bitcoin:0)
 std::cout << ec << std::endl;
