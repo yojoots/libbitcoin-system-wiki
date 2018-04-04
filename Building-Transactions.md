@@ -1,5 +1,3 @@
-# Building Transactions
-
 Libbitcoin provides the `chain::transactions` type to capture all necessary components to build a Bitcoin transaction in its serialised format for transmission on the Bitcoin network.
 
 <!-- Image of Libbitcoin Transaction classes and subclasses -->
