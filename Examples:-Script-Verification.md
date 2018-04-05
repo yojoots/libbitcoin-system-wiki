@@ -1,4 +1,4 @@
-All examples from the script verification documentation chapter are shown here in full.
+All examples from the fork rules documentation chapter are shown here in full.
 
 **P2PKH**
 * example_p2pkh();
@@ -17,13 +17,13 @@ using namespace machine;
 auto my_secret0 = base16_literal(
     "b7423c94ab99d3295c1af7e7bbea47c75d298f7190ca2077b53bae61299b70a5");
 ec_private my_private0(my_secret0, ec_private::testnet, true);
-ec_compressed pubkey0 = my_private0.to_public().point();
-payment_address my_address0 = my_private0.to_payment_address();
+auto pubkey0 = my_private0.to_public().point();
+auto my_address0 = my_private0.to_payment_address();
 
 auto my_secret1 = base16_literal(
     "d977e2ce0f744dc3432cde9813a99360a3f79f7c8035ef82310d54c57332b2cc");
 ec_private my_private1(my_secret1, ec_private::testnet, true);
-ec_compressed pubkey1 = my_private1.to_public().point();
+auto pubkey1 = my_private1.to_public().point();
 
 
 transaction create_example_transaction() {
@@ -35,7 +35,7 @@ transaction create_example_transaction() {
   std::string btc_amount = "0.998";
   uint64_t output_amount;
   decode_base10(output_amount, btc_amount, btc_decimal_places);
-  script p2pkh_script = script::to_pay_key_hash_pattern(
+  auto p2pkh_script = script::to_pay_key_hash_pattern(
       bitcoin_short_hash(pubkey1));
   output p2pkh_output(output_amount, p2pkh_script);
 
@@ -50,7 +50,7 @@ transaction create_example_transaction() {
   example_input.set_previous_output(uxto_to_spend);
   example_input.set_sequence(max_input_sequence);
 
-  // Build Transaction.
+  // Build Transaction
   transaction tx;
   tx.set_version(1u);
   tx.inputs().push_back(example_input);
@@ -65,20 +65,20 @@ transaction create_example_transaction() {
 void example_p2pkh(const transaction& example_transaction) {
 
   // Create local example_transaction copy.
-  transaction p2pkh_transaction = example_transaction;
+  auto p2pkh_transaction = example_transaction;
 
 
   // Previous output script / Previous output amount.
   //---------------------------------------------------------------------------
 
   // Previous output script: P2PKH.
-  script p2pkh_output_script = script::to_pay_key_hash_pattern(
+  auto p2pkh_output_script = script::to_pay_key_hash_pattern(
         bitcoin_short_hash(pubkey0));
 
   // Previous output amount.
-  std::string prev_btc_amount = "1.0";
-  uint64_t prev_output_amount;
-  decode_base10(prev_output_amount, prev_btc_amount, btc_decimal_places);
+  std::string previous_btc_amount = "1.0";
+  uint64_t previous_output_amount;
+  decode_base10(previous_output_amount, previous_btc_amount, btc_decimal_places);
 
 
   // Input script.
@@ -91,26 +91,28 @@ void example_p2pkh(const transaction& example_transaction) {
       p2pkh_transaction, input0_index, sighash_algorithm::all);
 
   // Input script operations.
-  operation::list input_operations;
-  input_operations.push_back(operation(sig_0));
-  input_operations.push_back(operation(to_chunk(pubkey0)));
+  operation::list input_operations {
+      operation(sig_0),
+      operation(to_chunk(pubkey0))
+  };
   script p2pkh_input_script(input_operations);
 
   // Add input script to transaction.
   p2pkh_transaction.inputs()[0].set_script(p2pkh_input_script);
 
+
   // Verify input script, output script.
   //---------------------------------------------------------------------------
 
   // With all fork rules, no witness.
-  code ec;
+  // Note: all rules includes testnet and regtest.
   witness empty_witness;
-  ec = script::verify(p2pkh_transaction, 0u, rule_fork::all_rules,
+  auto ec = script::verify(p2pkh_transaction, 0, rule_fork::all_rules,
       p2pkh_input_script, empty_witness, p2pkh_output_script,
-      prev_output_amount);
+      previous_output_amount);
 
-  // Prints success (Bitcoin:0)
-  std::cout << ec << std::endl;
+  // Prints success
+  std::cout << ec.message() << std::endl;
 
 }
 
@@ -118,7 +120,7 @@ void example_p2pkh(const transaction& example_transaction) {
 
 int main() {
 
-  transaction tx = create_example_transaction();
+  auto tx = create_example_transaction();
 
   example_p2pkh(tx);
 
