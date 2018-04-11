@@ -19,6 +19,7 @@
   * [P2WSH](P2WSH-Transactions)
   * [P2SH(P2WSH)](P2SH(P2WSH)-Transactions)
   * [Script Verification](Script-Verification)
+  * [Script Machine](Script-Machine)
   * [Fork Rules](Fork-Rules)
 * **[Tutorials (aaronjaramillo)](http://aaronjaramillo.org/category/libbitcoindocs)**
 * **[Cryptoeconomics](Cryptoeconomics)**
