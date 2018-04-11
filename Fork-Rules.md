@@ -1,6 +1,6 @@
 The list of Bitcoin fork rules supported in Libbitcoin is shown in the table below. Each fork rule can be individually toggled on and off by flipping the respective bit in the Libbitcoin [`rule_fork`](https://github.com/libbitcoin/libbitcoin/blob/master/include/bitcoin/bitcoin/machine/rule_fork.hpp#L27-L101) object.
 
-*Note: The fork rule bit assignment in the table below reflects the most recent stable version 3 branch. The rule fork bit assignment on the current master branch and upcoming version 4 release is different and can found [here](https://github.com/libbitcoin/libbitcoin/blob/master/include/bitcoin/bitcoin/machine/rule_fork.hpp#L27-L101).*
+*Note: The fork rule bit assignment in the table below reflects the most recent stable version 3 branch. The fork rule bit assignment on the current master branch and upcoming version 4 release is different and can found [here](https://github.com/libbitcoin/libbitcoin/blob/master/include/bitcoin/bitcoin/machine/rule_fork.hpp#L27-L101).*
 
 | Fork Rule | Bit |
 |-----------|-----|
