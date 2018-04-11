@@ -322,7 +322,7 @@ equal
 Since the stack evaluates to true after running the P2SH script, the output script is first checked whether it matches a pay-to-witness program. It does not, so subsequently it is matched against the P2SH output script pattern. This match is positive, so the embedded script is popped off the stack resulting from the input script run and is initialised with the remaining input stack.
 
 ```c++
-    // 4) Omitted in this example: Check for p2w pattern.
+    // 4) Check for p2w pattern.
     //--------------------------------------------------------------------------
 
     bool witnessed(false);
