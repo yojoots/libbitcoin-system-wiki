@@ -4,10 +4,10 @@ All examples from the script machine documentation chapter are shown here in ful
 * debug_program();
 
 **Example Simple Script Evaluation**
-* debug_custom_script();
+* run_custom_script();
 
 **Example P2SH(P2WPKH) Evaluation**
-* debug_p2sh_p2wpkh();
+* run_p2sh_p2wpkh();
 
 Compile with:
 `g++ -std=c++11 -o script_machine script_machine_examples.cpp $(pkg-config --cflags libbitcoin --libs libbitcoin)`
@@ -237,7 +237,7 @@ code debug_program(program& current_program, const script& current_script) {
 }
 
 
-code debug_custom_script(const transaction& transaction, uint32_t input_index,
+code run_custom_script(const transaction& transaction, uint32_t input_index,
     uint32_t forks) {
 
     data_chunk my_data(32);
@@ -269,7 +269,7 @@ code debug_custom_script(const transaction& transaction, uint32_t input_index,
 }
 
 
-code debug_p2sh_p2wpkh(const transaction& transaction, uint32_t input_index,
+code run_p2sh_p2wpkh(const transaction& transaction, uint32_t input_index,
     uint32_t forks) {
 
     // Assumes witness and previous output point set in transaction.
@@ -427,14 +427,14 @@ int main() {
 
   auto template_transaction = create_transaction_template();
 
-  code ec = debug_custom_script(template_transaction, 0 , rule_fork::all_rules);
+  code ec = run_custom_script(template_transaction, 0 , rule_fork::all_rules);
   std::cout << "\n"
             << "-------- My script evaluation complete --------"
             << std::endl;
   std::cout << ec.message() << "\n" << std::endl;
 
   auto p2sh_p2wphk_transaction = create_p2sh_p2wpkh(template_transaction);
-  ec = debug_p2sh_p2wpkh(p2sh_p2wphk_transaction, 0, rule_fork::all_rules);
+  ec = run_p2sh_p2wpkh(p2sh_p2wphk_transaction, 0, rule_fork::all_rules);
   std::cout << "\n"
             << "--------- Script evaluation complete ----------"
             << std::endl;
