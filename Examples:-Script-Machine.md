@@ -311,7 +311,7 @@ code run_p2sh_p2wpkh(const transaction& transaction, uint32_t input_index,
         return error::stack_false;
     }
 
-    // 4) Omitted in this example: Check for p2w pattern.
+    // 4) Check for p2w pattern.
     //--------------------------------------------------------------------------
 
     bool witnessed(false);
