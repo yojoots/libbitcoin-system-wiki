@@ -158,7 +158,7 @@ BIP141 introduced the witness as part of the transaction serialisation format, w
 
 Let us consider a P2WPKH script, which is backwards compatible to previous consensus rules, meaning that it can spent by anyone when BIP141 is not activated.
 
-![BIP141/143](https://ipfs.io/ipfs/QmNabGMV9K5tHADWkKx7EM8qy8SmKSdXUJLUxNhXVTi7ms)
+![BIP141/143](https://ipfs.io/ipfs/QmVT7XmheFAPzsokDGCUA7NtTihiArCKxoMdTdUZ2gurhL)
 
 To demonstrate this in Libbitcoin, we will first construct the P2WPKH script, and then attempt to spend it with an empty input script.
 
