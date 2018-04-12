@@ -1,7 +1,10 @@
-All examples from the fork rules documentation chapter are shown here in full.
+All examples from the script verification documentation chapter are shown here in full.
 
-**P2PKH**
-* example_p2pkh();
+**P2PKH Verification**
+* create_and_verify_p2pkh();
+
+Compile with:
+`g++ -std=c++11 -o script_verify script_verify_examples.cpp $(pkg-config --cflags libbitcoin --libs libbitcoin)`
 
 ```c++
 #include <bitcoin/bitcoin.hpp>
@@ -13,7 +16,7 @@ using namespace wallet;
 using namespace chain;
 using namespace machine;
 
-// "Normal" wallets.
+// Testnet wallets.
 auto my_secret0 = base16_literal(
     "b7423c94ab99d3295c1af7e7bbea47c75d298f7190ca2077b53bae61299b70a5");
 ec_private my_private0(my_secret0, ec_private::testnet, true);
@@ -28,7 +31,7 @@ auto pubkey1 = my_private1.to_public().point();
 
 transaction create_example_transaction() {
 
-  // Function creates tx object as a tx template for all subequent examples.
+  // Function creates single input tx template for all subsequent examples.
   //---------------------------------------------------------------------------
 
   // Destination output, a p2pkh script for example.
@@ -62,11 +65,13 @@ transaction create_example_transaction() {
 }
 
 
-void example_p2pkh(const transaction& example_transaction) {
+void create_and_verify_p2pkh(const transaction& example_transaction)
+{
+
+  // Assumes relevant input script located at index 0.
 
   // Create local example_transaction copy.
   auto p2pkh_transaction = example_transaction;
-
 
   // Previous output script / Previous output amount.
   //---------------------------------------------------------------------------
@@ -79,7 +84,6 @@ void example_p2pkh(const transaction& example_transaction) {
   std::string previous_btc_amount = "1.0";
   uint64_t previous_output_amount;
   decode_base10(previous_output_amount, previous_btc_amount, btc_decimal_places);
-
 
   // Input script.
   //---------------------------------------------------------------------------
@@ -98,18 +102,31 @@ void example_p2pkh(const transaction& example_transaction) {
   script p2pkh_input_script(input_operations);
 
   // Add input script to transaction.
-  p2pkh_transaction.inputs()[0].set_script(p2pkh_input_script);
-
+  p2pkh_transaction.inputs()[input0_index].set_script(p2pkh_input_script);
 
   // Verify input script, output script.
   //---------------------------------------------------------------------------
 
-  // With all fork rules, no witness.
+  // With all fork rules.
   // Note: all rules includes testnet and regtest.
   witness empty_witness;
-  auto ec = script::verify(p2pkh_transaction, 0, rule_fork::all_rules,
+  auto ec = script::verify(p2pkh_transaction, input0_index,rule_fork::all_rules,
       p2pkh_input_script, empty_witness, p2pkh_output_script,
       previous_output_amount);
+
+  // Libbitcoin  version4: Changes to script::verify().
+  // Input script and witness parameters are moved into tx.
+  // auto ec1 = script::verify(p2pkh_transaction, input0_index,
+  //     rule_fork::all_rules, p2pkh_output_script, previous_output_amount);
+
+  // Libbitcoin version4: Alternative script::verify() signature.
+  // Prevout script and amount can be moved into tx metadata.
+  // p2pkh_transaction.inputs()[input0_index]
+  //     .previous_output().metadata.cache.set_script(p2pkh_output_script);
+  // p2pkh_transaction.inputs()[input0_index]
+  //     .previous_output().metadata.cache.set_value(previous_output_amount);
+  // auto ec2 = script::verify(p2pkh_transaction, input0_index,
+  //     rule_fork::all_rules);
 
   // Prints success
   std::cout << ec.message() << std::endl;
@@ -122,9 +139,10 @@ int main() {
 
   auto tx = create_example_transaction();
 
-  example_p2pkh(tx);
+  create_and_verify_p2pkh(tx);
 
   return 0;
 
 }
+
 ```
