@@ -38,7 +38,7 @@ We may also toggle the activation of specific fork rules to effectively illustra
 
 [BIP16](https://github.com/bitcoin/bips/blob/master/bip-0016.mediawiki) did not add any new script operators, but introduced a new stack evaluation rule: First, the embedded script data push in the input script would be verified, to ensure it hashed to the embedded script hash in the P2SH script. If this evaluated to true, the embedded script would then be evaluated again, but this time together with the input script.
 
-![BIP16](https://ipfs.io/ipfs/Qmaq7aBYB8ncoVRsmCHUYMBDTDmFBCv5c8d8gPpQqWAEKU)
+![BIP16](https://ipfs.io/ipfs/QmNrpMWpH6WU8Wv8AhHo9VDb31N9xVv6qC1Ln7zMsNZoiR)
 
 We can demonstrate the BIP16 soft fork in Libbitcoin by constructing a P2SH(2-of-2 Multisig) script and passing it to the interpreter together with two different input scripts: One input script which contains only the embedded script, and another one, which also includes an input script, as illustrated above.
 
@@ -82,11 +82,10 @@ The second input script also includes the input script with the two required sig
 // Create Endorsements.
 endorsement sig0;
 endorsement sig1;
-uint8_t input0_index(0u);
 script::create_endorsement(sig0, my_secret0, multisig_script,
-    p2sh_transaction, input0_index, sighash_algorithm::all);
+    p2sh_transaction, input_index, sighash_algorithm::all);
 script::create_endorsement(sig1, my_secret1, multisig_script,
-    p2sh_transaction, input0_index, sighash_algorithm::all);
+    p2sh_transaction, input_index, sighash_algorithm::all);
 
 // Create input script w/o signatures (no BIP16).
 operation::list unsigned_input_ops;
@@ -132,7 +131,7 @@ We will now activate BIP16 in the following step. In order to conform to BIP16 r
 //---------------------------------------------------------------------------
 
 // Add input script to transaction.
-p2sh_transaction.inputs()[0].set_script(signed_input_script);
+p2sh_transaction.inputs()[input_index].set_script(signed_input_script);
 
 // BIP16 is active.
 // Note: all rules includes testnet and regtest.
@@ -142,8 +141,9 @@ my_fork_rules = rule_fork::all_rules;
 // my_fork_rules = rule_fork::all_rules ^ rule_fork::bip16_rule;
 
 // Verify with signatures.
-ec = script::verify(p2sh_transaction, 0, my_fork_rules, signed_input_script,
-    empty_witness, p2sh_multisig_script, previous_output_amount);
+ec = script::verify(p2sh_transaction, input_index, my_fork_rules,
+    signed_input_script, empty_witness, p2sh_multisig_script,
+    previous_output_amount);
 
 // Prints success
 std::cout << ec.message() << std::endl;
@@ -158,7 +158,7 @@ BIP141 introduced the witness as part of the transaction serialisation format, w
 
 Let us consider a P2WPKH script, which is backwards compatible to previous consensus rules, meaning that it can spent by anyone when BIP141 is not activated.
 
-![BIP141/143](https://ipfs.io/ipfs/QmVT7XmheFAPzsokDGCUA7NtTihiArCKxoMdTdUZ2gurhL)
+![BIP141/143](https://ipfs.io/ipfs/QmPeQ12TWShkRGaU2tqpodXYS87AjkeiKZg4G2DRu4Lu9j)
 
 To demonstrate this in Libbitcoin, we will first construct the P2WPKH script, and then attempt to spend it with an empty input script.
 
@@ -178,7 +178,6 @@ operation::list p2wpkh_operations {
 };
 
 // Previous output amount.
-uint8_t input_index(0u);
 auto previous_btc_amount = "1.0";
 uint64_t previous_output_amount;
 decode_base10(previous_output_amount, previous_btc_amount, btc_decimal_places);
@@ -198,7 +197,7 @@ auto my_fork_rules = rule_fork::all_rules ^ rule_fork::bip141_rule
 witness empty_witness;
 script empty_input_script;
 
-auto ec = script::verify(p2wpkh_transaction, 0, my_fork_rules,
+auto ec = script::verify(p2wpkh_transaction, input_index, my_fork_rules,
     empty_input_script, empty_witness, p2wpkh_operations,
     previous_output_amount);
 
@@ -244,14 +243,15 @@ my_fork_rules = rule_fork::all_rules;
 //    (BIP143 signature serialisation not activated).
 
 // Add witness to transaction.
-p2wpkh_transaction.inputs()[0].set_witness(p2wpkh_witness);
+p2wpkh_transaction.inputs()[input_index].set_witness(p2wpkh_witness);
 
-ec = script::verify(p2wpkh_transaction, 0, my_fork_rules, empty_input_script,
-    p2wpkh_witness, p2wpkh_operations, previous_output_amount);
+ec = script::verify(p2wpkh_transaction, input_index, my_fork_rules,
+    empty_input_script, p2wpkh_witness, p2wpkh_operations,
+    previous_output_amount);
 
 // Prints success
 std::cout << ec.message() << std::endl;
 ```
 Note that the witness transaction above is not valid when BIP141/143 are deactivated. In Libbitcoin, you will have to replace the witness object with an empty one. Over-the-wire however, the witness data would not be included in messages to nodes who have not activated BIP141/143, so that this transaction would still be backwards compatible nonetheless.
 
-You can find the complete example script of this section [here](https://github.com/libbitcoin/libbitcoin/wiki/Examples:-Fork-Rules).
+You can find the complete example code from this section [here](https://github.com/libbitcoin/libbitcoin/wiki/Examples:-Fork-Rules).
