@@ -111,13 +111,14 @@ auto gen_point = base16_literal(
 
 // Manually generating the public key.
 ec_compressed my_pubkey_compressed(gen_point);
-ec_multiply(my_pubkey_compressed, my_secret);
+ec_multiply(my_pubkey_compressed,my_secret);
 
 // Better: Using helper fct to generate the public key.
-ec_compressed my_pubkey2;
-secret_to_public(my_pubkey2, my_secret);
+ec_compressed my_alternative_pubkey_compressed;
+secret_to_public(my_alternative_pubkey_compressed, my_secret);
 
-std::cout << (my_pubkey_compressed == my_pubkey2) << std::endl;
+std::cout << (my_pubkey_compressed == my_alternative_pubkey_compressed)
+          << std::endl;
 ```
 
 **Associativity of EC operators**  
@@ -148,3 +149,5 @@ ec_add(my_point_result2, my_scalar2);
 std::cout << (my_point_result1 == my_point_result2) << std::endl;
 ```
 EC associativity is an important mathematical property used by extended public keys in [HD Wallets](https://github.com/libbitcoin/libbitcoin/wiki/Addresses-&-HD-Wallets).
+
+The full example code from this chapter can be found [here](https://github.com/libbitcoin/libbitcoin/wiki/Examples:-Elliptic-Curve-Operations).
