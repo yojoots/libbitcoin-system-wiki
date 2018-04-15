@@ -10,7 +10,7 @@ We can construct such a P2WPKH output script by populating an operation vector w
 ```c++
 // P2WPKH output script.
 
-// 0 [20-byte hash160(pubKey)]
+// 0 [20-byte hash160(public key)]
 operation::list p2wpkh_operations;
 p2wpkh_operations.push_back(operation(opcode::push_size_0));
 p2wpkh_operations.push_back(
@@ -25,7 +25,7 @@ output p2wpkh_output(output_amount, p2wpkh_operations);
 
 If the spending of the previous transaction output(s) do not require the construction of witnesses, the rest of the transaction is built and signed according to the documentation sections [building transactions](https://github.com/libbitcoin/libbitcoin/wiki/Building-Transactions) and [sighash](https://github.com/libbitcoin/libbitcoin/wiki/Sighash-&-TX-Signing).
 
-You can find the complete P2WPKH example script [here](https://github.com/libbitcoin/libbitcoin/wiki/Examples:-Transactions-with-Input-Witnesses).
+You can find the complete P2WPKH example script [here](https://github.com/libbitcoin/libbitcoin/wiki/Examples:-Pay-to-Witness-Transactions).
 
 ## Spending a P2WPKH output
 
@@ -90,7 +90,7 @@ script::create_endorsement(sig_1, my_secret_witness_aware, p2wpkh_script_code,
     tx, input_index, sighash_algorithm::all, script_version::zero,
     prev_amount);
 ```
-The `script::create_endorsement` method will generate a sighash according to the witness script version parameter. For inputs requiring a witness of the current version, this argument will be set to version zero in order for the witness-specific sighash algorithm to be applied.
+The `script::create_endorsement` method will generate a sighash according to the witness program version parameter. For inputs requiring a witness of the current version, this argument will be set to version zero in order for the witness-specific sighash algorithm to be applied.
 
 ### P2WPKH Witness
 
@@ -166,4 +166,4 @@ BX tx-decode -f json 01000000000101109d2e41430bfdec7e6dfb02bf78b5827eeb717ef2521
     }
 }
 ```
-You can find the complete P2WPKH transaction script [here](https://github.com/libbitcoin/libbitcoin/wiki/Examples:-Transactions-with-Input-Witnesses).
+You can find the complete P2WPKH transaction script [here](https://github.com/libbitcoin/libbitcoin/wiki/Examples:-Pay-to-Witness-Transactions).
