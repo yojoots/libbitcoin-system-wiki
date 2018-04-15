@@ -5,23 +5,23 @@ Sending a transaction to a Pay-to-Witness-Public-Key-Hash (P2WPKH) address wrapp
 | --------------------|-------------------------------------------------------------------------|
 | Output Script       | `HASH160` `[20-byte hash160(P2WPKH(public key hash))]` `EQUAL`          |
 
-The construction of a P2SH(P2WPKH) output mirrors that of a Pay-to-Script-Hash output. The redeem script of the P2SH output shown above is the P2WPKH script.
+The construction of a P2SH(P2WPKH) output mirrors that of a Pay-to-Script-Hash output. The embedded script of the P2SH output shown above is the P2WPKH script.
 
 ```c++
 // P2SH(P2WPKH) output.
-// P2SH redeem script = P2WPKH(public key hash)
+// P2SH embedded script = P2WPKH(public key hash)
 //    0 [20-byte public key hash]
 short_hash keyhash_dest = bitcoin_short_hash(pubkey_witness_aware);
 operation::list p2wpkh_operations;
 p2wpkh_operations.push_back(operation(opcode::push_size_0));
 p2wpkh_operations.push_back(operation(to_chunk(keyhash_dest)));
-script p2wpkh_redeem_script(p2wpkh_operations);
+script p2wpkh_embedded_script(p2wpkh_operations);
 
 // P2SH output script.
-// hash160 [20-byte hash160(redeem script)] equal
-short_hash redeem_script_hash = bitcoin_short_hash(
-    p2wpkh_redeem_script.to_data(false));
-script output_script = script::to_pay_script_hash_pattern(redeem_script_hash);
+// hash160 [20-byte hash160(embedded script)] equal
+short_hash embedded_script_hash = bitcoin_short_hash(
+    p2wpkh_embedded_script.to_data(false));
+script output_script = script::to_pay_script_hash_pattern(embedded_script_hash);
 
 // Build output.
 std::string btc_amount = "1.298";
@@ -31,7 +31,7 @@ output p2sh_p2wpkh_output(output_amount, output_script);
 ```
 If the spending of the previous transaction output(s) do not require the construction of witnesses, the rest of the transaction is built and signed according to the documentation sections [building transactions](https://github.com/libbitcoin/libbitcoin/wiki/Building-Transactions) and [sighash](https://github.com/libbitcoin/libbitcoin/wiki/Sighash-&-TX-Signing).
 
-The complete P2SH(P2WPKH) example script can be found [here](https://github.com/libbitcoin/libbitcoin/wiki/Examples:-Transactions-with-Input-Witnesses).
+The complete P2SH(P2WPKH) example script can be found [here](https://github.com/libbitcoin/libbitcoin/wiki/Examples:-Pay-to-Witness-Transactions).
 
 ## Spending a P2SH(P2WPKH) Output
 
@@ -39,12 +39,12 @@ Spending a P2SH(P2WPKH) output requires constructing the transaction according t
 
 | Transaction Element | Script                                                                  |
 | --------------------|-------------------------------------------------------------------------|
-| ScriptPubKey        | `According to destination address`                                      |
-| ScriptSig           | `[zero <20-byte publicKeyHash>]`                                        |
-| ScriptCode          | `DUP` `HASH160` `[20-byte hash160(PublicKey)]` `EQUALVERIFY` `CHECKSIG` |
+| Output Script       | `According to destination address`                                      |
+| Input Script        | `[zero <20-byte publicKeyHash>]`                                        |
+| Script Code         | `DUP` `HASH160` `[20-byte hash160(PublicKey)]` `EQUALVERIFY` `CHECKSIG` |
 | Witness             | `[Signature]` `[PublicKey]`                                             |
 
-Compared to spending a native P2WPKH output, the ScriptSig is not left empty in a P2SH(P2WPKH) transaction, but is instead populated with a single data push representing the serialised P2SH redeem script (specifically, a P2WPKH script).
+Compared to spending a native P2WPKH output, the input script is not left empty in a P2SH(P2WPKH) transaction, but is instead populated with a single data push representing the serialised P2SH embedded script (specifically, a P2WPKH script).
 
 We construct the input object for our P2SH(P2WPKH) spending example.
 
@@ -97,26 +97,26 @@ endorsement sig;
 script::create_endorsement(sig, my_secret_witness_aware, script_code, tx,
     input_index, sighash_algorithm::all, script_version::zero, input_amount);
 ```
-The `script::create_endorsement` method will generate a sighash according to the witness script version parameter. For inputs requiring a witness of the current version, this argument will be set to version zero in order for the witness-specific sighash algorithm to be applied.
+The `script::create_endorsement` method will generate a sighash according to the witness program version parameter. For inputs requiring a witness of the current version, this argument will be set to version zero in order for the witness-specific sighash algorithm to be applied.
 
 ### P2SH(P2WPKH) Input Script
-The required input script for spending the P2SH(P2WPKH) output is the redeem script. The input script does not include any signatures, as these will be included in the witness.
+The required input script for spending the P2SH(P2WPKH) output is the embedded script. The input script does not include any signatures, as these will be included in the witness.
 
-The redeem script is a single data push of the P2WPKH script.
+The embedded script is a single data push of the P2WPKH script.
 
 ```c++
 // Input script.
-// redeem script = P2WPKH script
+// embedded script = P2WPKH script
 short_hash keyhash_dest = bitcoin_short_hash(pubkey_witness_aware);
 operation::list p2wpkh_operations;
 p2wpkh_operations.push_back(operation(opcode::push_size_0));
 p2wpkh_operations.push_back(operation(to_chunk(keyhash_dest)));
-script p2wpkh_redeem_script(p2wpkh_operations);
+script p2wpkh_embedded_script(p2wpkh_operations);
 
-// Wrap (P2SH) redeem script in single single data push.
-data_chunk p2sh_redeem_script_chunk = to_chunk(p2wpkh_redeem_script.to_data(true));
-script p2sh_redeem_script_wrapper(p2sh_redeem_script_chunk, false);
-tx.inputs()[0].set_script(p2sh_redeem_script_wrapper);
+// Wrap (P2SH) embedded script in single single data push.
+data_chunk p2sh_embedded_script_chunk = to_chunk(p2wpkh_embedded_script.to_data(true));
+script p2sh_embedded_script_wrapper(p2sh_embedded_script_chunk, false);
+tx.inputs()[0].set_script(p2sh_embedded_script_wrapper);
 ```
 
 ### P2SH(P2WPKH) Witness
@@ -196,4 +196,4 @@ BX tx-decode -f json 01000000000101edff78210438890748b3b60560dde8b6f06823cd12f7b
 }
 ```
 
-You can find the complete P2SH(P2WPKH) example script [here](https://github.com/libbitcoin/libbitcoin/wiki/Examples:-Transactions-with-Input-Witnesses).
+You can find the complete P2SH(P2WPKH) example script [here](https://github.com/libbitcoin/libbitcoin/wiki/Examples:-Pay-to-Witness-Transactions).
