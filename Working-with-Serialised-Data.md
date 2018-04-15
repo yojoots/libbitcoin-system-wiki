@@ -1,4 +1,4 @@
-The Bitcoin protocol is formalised at the binary level, where public keys, transactions and network messages follow specific serialisation formats in order to be communicated over the wire.
+The Bitcoin protocol is formalised at the byte level, where public keys, transactions and network messages follow specific serialisation formats in order to be communicated over the wire.
 
 A brief overview of how serialised bytes are handled in Libbitcoin may be helpful for beginners during the study of Libbitcoin.
 
@@ -146,4 +146,5 @@ array_slice(const byte_array<Size>& container);
 
 // For a data_chunk, this compiles to:
 array_slice(const data_chunk& container);
-```
+```  
+You can find the entire example code from this chapter [here](https://github.com/libbitcoin/libbitcoin/wiki/Examples:-Serialised-Data).
