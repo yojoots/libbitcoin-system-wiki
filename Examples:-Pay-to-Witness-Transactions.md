@@ -1,4 +1,4 @@
-All examples from the witness documentation chapters are shown here in full.
+All examples from the witness documentation chapters are shown here in full. The specific examples referenced in the subsections are wrapped in the functions listed below.
 
 **P2WPKH**
 * example_to_p2wpkh();
@@ -16,6 +16,11 @@ All examples from the witness documentation chapters are shown here in full.
 * example_to_p2sh_p2wsh();
 * example_from_p2sh_p2wsh();
 
+**Libbitcoin API:** Version 3.
+
+Compile with:
+`g++ -std=c++11 -o p2w p2w_examples.cpp $(pkg-config --cflags libbitcoin --libs libbitcoin)`
+
 ```C++
 #include <bitcoin/bitcoin.hpp>
 #include <string.h>
@@ -26,11 +31,11 @@ using namespace wallet;
 using namespace chain;
 using namespace machine;
 
-// "Normal" wallets.
+// Testnet wallets.
 auto my_secret0 = base16_literal(
     "b7423c94ab99d3295c1af7e7bbea47c75d298f7190ca2077b53bae61299b70a5");
 ec_private my_private0(my_secret0, ec_private::testnet, true);
-ec_compressed pubkey0= my_private0.to_public().point();
+ec_compressed pubkey0 = my_private0.to_public().point();
 payment_address my_address0 = my_private0.to_payment_address();
 
 auto my_secret1 = base16_literal(
@@ -38,27 +43,28 @@ auto my_secret1 = base16_literal(
 ec_private my_private1(my_secret1, ec_private::testnet, true);
 ec_compressed pubkey1 = my_private1.to_public().point();
 
-// "Witness Aware" wallets.
+// Witness aware testnet wallets.
+// ("Witness aware" is an arbitrary assignment for illustration purposes)
 auto my_secret_witness_aware = base16_literal(
     "0a44957babaa5fd46c0d921b236c50b1369519c7032df7906a18a31bb905cfdf");
-ec_private my_private_witness_aware(
-    my_secret_witness_aware, ec_private::testnet, true);
-ec_compressed pubkey_witness_aware =
-    my_private_witness_aware.to_public().point();
+ec_private my_private_witness_aware(my_secret_witness_aware,
+    ec_private::testnet, true);
+ec_compressed pubkey_witness_aware = my_private_witness_aware
+    .to_public().point();
 
 auto my_secret_witness_aware1 = base16_literal(
     "2361b894dab5c45c3c448eb4ab65f847cb3000e05969f18c94b8850233a95b74");
-ec_private my_private_witness_aware1(
-    my_secret_witness_aware1, ec_private::testnet, true);
-ec_compressed pubkey_witness_aware1 =
-    my_private_witness_aware1.to_public().point();
+ec_private my_private_witness_aware1(my_secret_witness_aware1,
+    ec_private::testnet, true);
+ec_compressed pubkey_witness_aware1 = my_private_witness_aware1
+    .to_public().point();
 
 auto my_secret_witness_aware2 = base16_literal(
     "87493c67155f44a9a9a6abf621926a407121d6f4e1e94c75ced61208d7abe9db");
-ec_private my_private_witness_aware2(
-    my_secret_witness_aware2, ec_private::testnet, true);
-ec_compressed pubkey_witness_aware2 =
-    my_private_witness_aware2.to_public().point();
+ec_private my_private_witness_aware2(my_secret_witness_aware2,
+    ec_private::testnet, true);
+ec_compressed pubkey_witness_aware2 = my_private_witness_aware2
+    .to_public().point();
 
 
 void example_to_p2wpkh() {
@@ -87,12 +93,12 @@ void example_to_p2wpkh() {
   input input0;
   input0.set_previous_output(uxto_to_spend);
   input0.set_sequence(max_input_sequence);
-  // Previous redeem script.
+  // Previous embedded script.
   script prev_p2pkh_output_script = script::to_pay_key_hash_pattern(
       bitcoin_short_hash(pubkey0));
 
   // P2WPKH output script.
-  // 0 [20-byte hash160(pubKey)]
+  // 0 [20-byte hash160(public key)]
   operation::list p2wpkh_operations;
   p2wpkh_operations.push_back(operation(opcode::push_size_0));
   p2wpkh_operations.push_back(
@@ -211,7 +217,7 @@ void example_to_p2sh_p2wpkh() {
   //**************************************************************
 
   // Output script.
-  //    0 [20-byte hash160(redeem script)]
+  //    0 [20-byte hash160(embedded script)]
   // Input script.
   //    According to previous output.
   // Script code.
@@ -235,18 +241,18 @@ void example_to_p2sh_p2wpkh() {
       bitcoin_short_hash(pubkey0));
 
   // P2SH(P2WPKH) output.
-  // P2SH redeem script = P2WPKH(public key hash)
+  // P2SH embedded script = P2WPKH(public key hash)
   //    0 [20-byte public key hash]
   short_hash keyhash_dest = bitcoin_short_hash(pubkey_witness_aware);
   operation::list p2wpkh_operations;
   p2wpkh_operations.push_back(operation(opcode::push_size_0));
   p2wpkh_operations.push_back(operation(to_chunk(keyhash_dest)));
-  script p2wpkh_redeem_script(p2wpkh_operations);
+  script p2wpkh_embedded_script(p2wpkh_operations);
   // P2SH output script.
-  // hash160 [20-byte hash160(redeem script)] equal
-  short_hash redeem_script_hash = bitcoin_short_hash(
-      p2wpkh_redeem_script.to_data(false));
-  script output_script = script::to_pay_script_hash_pattern(redeem_script_hash);
+  // hash160 [20-byte hash160(embedded script)] equal
+  short_hash embedded_script_hash = bitcoin_short_hash(
+      p2wpkh_embedded_script.to_data(false));
+  script output_script = script::to_pay_script_hash_pattern(embedded_script_hash);
   // Build output.
   std::string btc_amount = "1.298";
   uint64_t output_amount;
@@ -285,7 +291,7 @@ void example_from_p2sh_p2wpkh() {
 
   // Output script.
   //    According to destination address.
-  // Input script: [p2sh redeem script]
+  // Input script: [p2sh embedded script]
   //    [0 <20-byte public key hash>]
   // Script code.
   //    P2PKH(hash160(public key))
@@ -335,18 +341,18 @@ void example_from_p2sh_p2wpkh() {
       input_index, sighash_algorithm::all, script_version::zero, input_amount);
 
   // Input script.
-  // redeem script = P2WPKH script
+  // embedded script = P2WPKH script
   short_hash keyhash_dest = bitcoin_short_hash(pubkey_witness_aware);
   operation::list p2wpkh_operations;
   p2wpkh_operations.push_back(operation(opcode::push_size_0));
   p2wpkh_operations.push_back(operation(to_chunk(keyhash_dest)));
-  script p2wpkh_redeem_script(p2wpkh_operations);
+  script p2wpkh_embedded_script(p2wpkh_operations);
 
-  // Wrap (P2SH) redeem script in single single data push.
-  data_chunk p2sh_redeem_script_chunk =
-      to_chunk(p2wpkh_redeem_script.to_data(true));
-  script p2sh_redeem_script_wrapper(p2sh_redeem_script_chunk, false);
-  tx.inputs()[0].set_script(p2sh_redeem_script_wrapper);
+  // Wrap (P2SH) embedded script in single single data push.
+  data_chunk p2sh_embedded_script_chunk =
+      to_chunk(p2wpkh_embedded_script.to_data(true));
+  script p2sh_embedded_script_wrapper(p2sh_embedded_script_chunk, false);
+  tx.inputs()[0].set_script(p2sh_embedded_script_wrapper);
 
   // Build witness.
   // 02 [signature] [public key]
@@ -402,10 +408,10 @@ void example_to_p2wsh() {
 
   // P2WSH output script.
   //    0 [32-byte sha256(witness script)]
-  hash_digest redeem_script_hash = sha256_hash(witness_script.to_data(false));
+  hash_digest embedded_script_hash = sha256_hash(witness_script.to_data(false));
   operation::list p2sh_operations;
   p2sh_operations.push_back(operation(opcode::push_size_0));
-  p2sh_operations.push_back(operation(to_chunk(redeem_script_hash)));
+  p2sh_operations.push_back(operation(to_chunk(embedded_script_hash)));
 
   // Build output.
   std::string btc_amount = "1.295";
@@ -525,7 +531,7 @@ void example_to_p2sh_p2wsh() {
 //**************************************************************
 
 // Output script.
-//    hash160 [20-byte hash160(redeem script)] equal
+//    hash160 [20-byte hash160(embedded script)] equal
 // Input script.
 //    According to previous output.
 // Script code.
@@ -556,7 +562,7 @@ points.push_back(pubkey_witness_aware);
 points.push_back(pubkey_witness_aware1);
 points.push_back(pubkey_witness_aware2);
 script witness_script = script::to_pay_multisig_pattern(signatures, points);
-// P2WSH(Multisig) redeem script.
+// P2WSH(Multisig) embedded script.
 //    0 [34-byte sha256(witness script)]
 hash_digest witness_script_hash = sha256_hash(witness_script.to_data(false));
 operation::list p2wsh_operations;
@@ -564,9 +570,9 @@ p2wsh_operations.push_back(operation(opcode::push_size_0));
 p2wsh_operations.push_back(operation(to_chunk(witness_script_hash)));
 script p2wsh_script(p2wsh_operations);
 // P2SH(P2WSH) output script.
-//    hash160 [sha256(redeem script)] equal
-short_hash redeem_script_hash = bitcoin_short_hash(p2wsh_script.to_data(false));
-script output_script = script::to_pay_script_hash_pattern(redeem_script_hash);
+//    hash160 [sha256(embedded script)] equal
+short_hash embedded_script_hash = bitcoin_short_hash(p2wsh_script.to_data(false));
+script output_script = script::to_pay_script_hash_pattern(embedded_script_hash);
 // Build output.
 std::string btc_amount = "0.648";
 uint64_t output_amount;
@@ -614,7 +620,7 @@ void example_from_p2sh_p2wsh() {
   //    [signature0] [signature1] [...] [witness script]
 
   // P2WPKH output.
-  // 0 [20-byte hash160(pubKey)]
+  // 0 [20-byte hash160(public key)]
   operation::list p2wpkh_operations;
   p2wpkh_operations.push_back(operation(opcode::push_size_0));
   p2wpkh_operations.push_back(operation(to_chunk(bitcoin_short_hash(pubkey1))));
@@ -674,10 +680,10 @@ void example_from_p2sh_p2wsh() {
   script p2wsh_script(p2wsh_operations);
 
   // Input script.
-  // Wrap redeem script as single data push (P2SH).
-  data_chunk p2sh_redeem_script_chunk = to_chunk(p2wsh_script.to_data(true));
-  script p2sh_redeem_script_wrapper(p2sh_redeem_script_chunk, false);
-  tx.inputs()[0].set_script(p2sh_redeem_script_wrapper);
+  // Wrap embedded script as single data push (P2SH).
+  data_chunk p2sh_embedded_script_chunk = to_chunk(p2wsh_script.to_data(true));
+  script p2sh_embedded_script_wrapper(p2sh_embedded_script_chunk, false);
+  tx.inputs()[0].set_script(p2sh_embedded_script_wrapper);
 
   // Create witness.
   data_stack witness_stack;
