@@ -3,9 +3,9 @@ Sending a transaction to a Pay-to-Witness-Script-Hash (P2WSH) address wrapped in
 
 | Transaction Element | Script                 								                                |
 | --------------------|-----------------------------------------------------------------------|
-| Output Script       | `HASH160` `[20-byte hash160(<zero> <sha256(witness script)>)]` `EQUAL`|
+| Output Script       | `HASH160` `[20-byte hash160(<zero> <sha256(witness program)>)]` `EQUAL`|
 
-The redeemscript of the P2SH output script shown above is `<zero> <sha256(WitnessScript)>)`. The construction of a Pay-to-Witness-Script-Hash (P2WSH) wrapped in a Pay-to-Script-Hash output mirrors that of a regular Pay-to-Script-Hash output.
+The embedded script of the P2SH script shown above is `<zero> <sha256(witness program)>)`. The construction of a Pay-to-Witness-Script-Hash (P2WSH) wrapped in a Pay-to-Script-Hash output mirrors that of a regular Pay-to-Script-Hash output.
 
 ```c++
 // P2SH(P2WSH(multisig)) output.
@@ -17,7 +17,7 @@ points.push_back(pubkey_witness_aware1);
 points.push_back(pubkey_witness_aware2);
 script witness_script = script::to_pay_multisig_pattern(signatures, points);
 
-// P2WSH(Multisig) redeem script.
+// P2WSH(Multisig) embedded script.
 //    0 [34-byte sha256(witness script)]
 hash_digest witness_script_hash = sha256_hash(witness_script.to_data(false));
 operation::list p2wsh_operations;
@@ -26,9 +26,9 @@ p2wsh_operations.push_back(operation(to_chunk(witness_script_hash)));
 script p2wsh_script(p2wsh_operations);
 
 // P2SH(P2WSH) output script.
-//    hash160 [sha256(redeem script)] equal
-short_hash redeem_script_hash = bitcoin_short_hash(p2wsh_script.to_data(false));
-script output_script = script::to_pay_script_hash_pattern(redeem_script_hash);
+//    hash160 [sha256(embedded script)] equal
+short_hash embedded_script_hash = bitcoin_short_hash(p2wsh_script.to_data(false));
+script output_script = script::to_pay_script_hash_pattern(embedded_script_hash);
 
 // Build output.
 std::string btc_amount = "0.648";
@@ -39,7 +39,7 @@ output p2sh_p2wpkh_output(output_amount, output_script);
 
 If the spending of the previous transaction output(s) do not require the construction of witnesses, the rest of the transaction is built and signed according to the documentation sections [building transactions](https://github.com/libbitcoin/libbitcoin/wiki/Building-Transactions) and [sighash](https://github.com/libbitcoin/libbitcoin/wiki/Sighash-&-TX-Signing).
 
-You can find the complete P2SH(P2WSH) example script [here](https://github.com/libbitcoin/libbitcoin/wiki/Examples:-Transactions-with-Input-Witnesses).
+You can find the complete P2SH(P2WSH) example script [here](https://github.com/libbitcoin/libbitcoin/wiki/Examples:-Pay-to-Witness-Transactions).
 
 ## Spending a P2SH(P2WSH) Output
 
@@ -52,7 +52,7 @@ Spending a P2WSH output requires constructing the transaction according to the f
 | Script Code         | `witness script`                                     |
 | Witness             | `[input script of witness script]` `[witness script]`|
 
-Compared to spending a native P2WSH output, the input script is not left empty in a P2SH(P2WSH) transaction, but is instead populated with a single data push representing the serialised P2SH redeem script (specifically, a P2WSH script).
+Compared to spending a native P2WSH output, the input script is not left empty in a P2SH(P2WSH) transaction, but is instead populated with a single data push representing the serialised P2SH embedded script (specifically, a P2WSH script).
 
 We construct the input object for our P2SH(P2WSH) output spending example.
 
@@ -110,13 +110,13 @@ script::create_endorsement(sig1, my_secret_witness_aware1, witness_script, tx,
       input0_index, sighash_algorithm::all, script_version::zero, input_amount);
 
 ```
-The `script::create_endorsement` method will generate a sighash according to the witness script version parameter. For inputs requiring a witness of the current version, this argument will be set to version zero in order for the witness-specific sighash algorithm to be applied.
+The `script::create_endorsement` method will generate a sighash according to the witness program version parameter. For inputs requiring a witness of the current version, this argument will be set to version zero in order for the witness-specific sighash algorithm to be applied.
 
 ### P2SH(P2WSH) Input Script
 
-The required input script for spending the P2SH(P2WSH) output is the redeem script. The input script does not include any signatures, as these will be included in the witness.
+The required input script for spending the P2SH(P2WSH) output is the embedded script. The input script does not include any signatures, as these will be included in the witness.
 
-The redeem script is a single data push of the P2WSH script.
+The embedded script is a single data push of the P2WSH script.
 
 ```c++
 // P2SH output script.
@@ -128,10 +128,10 @@ p2wsh_operations.push_back(operation(to_chunk(witness_script_hash)));
 script p2wsh_script(p2wsh_operations);
 
 // Input script.
-// Wrap redeem script as single data push (P2SH).
-data_chunk p2sh_redeem_script_chunk = to_chunk(p2wsh_script.to_data(true));
-script p2sh_redeem_script_wrapper(p2sh_redeem_script_chunk, false);
-tx.inputs()[0].set_script(p2sh_redeem_script_wrapper);
+// Wrap embedded script as single data push (P2SH).
+data_chunk p2sh_embedded_script_chunk = to_chunk(p2wsh_script.to_data(true));
+script p2sh_embedded_script_wrapper(p2sh_embedded_script_chunk, false);
+tx.inputs()[0].set_script(p2sh_embedded_script_wrapper);
 ```
 
 ### P2SH(P2WSH) Witness
@@ -187,7 +187,7 @@ std::cout << encode_base16(tx.to_data(true,true)) << std::endl;
 ```
 Parsing the serialised form with BX gives us an overview of our constructed P2SH(P2WSH) transaction.
 
-```
+```sh
 BX tx-decode -f json 01000000000101708256c5896fb3f00ef37601f8e30c5b460dbcd1fca1cd7199f9b56fc4ecd5400000000023220020615ae01ed1bc1ffaad54da31d7805d0bb55b52dfd3941114330368c1bbf69b4cffffffff01603edb0300000000160014bbef244bcad13cffb68b5cef3017c7423675552204004730440220010d2854b86b90b7c33661ca25f9d9f15c24b88c5c4992630f77ff004b998fb802204106fc3ec8481fa98e07b7e78809ac91b6ccaf60bf4d3f729c5a75899bb664a501473044022046d66321c6766abcb1366a793f9bfd0e11e0b080354f18188588961ea76c5ad002207262381a0661d66f5c39825202524c45f29d500c6476176cd910b1691176858701695221026ccfb8061f235cc110697c0bfb3afb99d82c886672f6b9b5393b25a434c0cbf32103befa190c0c22e2f53720b1be9476dcf11917da4665c44c9c71c3a2d28a933c352102be46dc245f58085743b1cc37c82f0d63a960efa43b5336534275fc469b49f4ac53ae00000000
 ```
 
@@ -219,4 +219,4 @@ BX tx-decode -f json 01000000000101708256c5896fb3f00ef37601f8e30c5b460dbcd1fca1c
 }
 ```
 
-You can find the complete P2SH(P2WSH) example script [here](https://github.com/libbitcoin/libbitcoin/wiki/Examples:-Transactions-with-Input-Witnesses).
+You can find the complete P2SH(P2WSH) example script [here](https://github.com/libbitcoin/libbitcoin/wiki/Examples:-Pay-to-Witness-Transactions).
