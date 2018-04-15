@@ -1,10 +1,15 @@
-All examples from the fork rules documentation chapter are shown here in full.
+All examples from the fork rules documentation chapter are shown here in full. The specific examples referenced in the subsections are wrapped in the functions listed below.
 
-**BIP16**
-* example_p2sh();
+**Verification with/without BIP16**
+* create_and_verify_p2sh();
 
-**BIP141/143**
-* example_p2wpkh();
+**Verification with/without BIP141/143**
+* create_and_verify_p2wpkh();
+
+**Libbitcoin API:** Version 3. *Note that the fork rules bit assignment with be different for the [upcoming version 4 release](https://github.com/libbitcoin/libbitcoin/blob/master/include/bitcoin/bitcoin/machine/rule_fork.hpp#L27-L101) (current master branch).*
+
+Compile with:
+`g++ -std=c++11 -o fork_rules fork_rules_examples.cpp $(pkg-config --cflags libbitcoin --libs libbitcoin)`
 
 ```c++
 #include <bitcoin/bitcoin.hpp>
@@ -16,7 +21,7 @@ using namespace wallet;
 using namespace chain;
 using namespace machine;
 
-// "Normal" wallets.
+// Testnet wallets.
 auto my_secret0 = base16_literal(
     "b7423c94ab99d3295c1af7e7bbea47c75d298f7190ca2077b53bae61299b70a5");
 ec_private my_private0(my_secret0, ec_private::testnet, true);
@@ -28,7 +33,8 @@ auto my_secret1 = base16_literal(
 ec_private my_private1(my_secret1, ec_private::testnet, true);
 auto pubkey1 = my_private1.to_public().point();
 
-// "Witness Aware" wallets.
+// Witness aware testnet wallets.
+// ("Witness aware" is an arbitrary assignment for illustration purposes)
 auto my_secret_witness_aware = base16_literal(
     "0a44957babaa5fd46c0d921b236c50b1369519c7032df7906a18a31bb905cfdf");
 ec_private my_private_witness_aware(my_secret_witness_aware,
@@ -39,7 +45,7 @@ auto pubkey_witness_aware = my_private_witness_aware
 
 transaction create_example_transaction() {
 
-  // Function creates tx object as a tx template for all subequent examples.
+  // Function creates single input tx template for all subsequent examples.
   //---------------------------------------------------------------------------
 
   // Destination output, a p2pkh script for example.
@@ -73,11 +79,11 @@ transaction create_example_transaction() {
 }
 
 
-void example_p2sh(const transaction& example_transaction) {
+void create_and_verify_p2sh(const transaction& example_transaction) {
 
   // Create local example_transaction copy.
   auto p2sh_transaction = example_transaction;
-
+  uint8_t input_index(0u);
 
   // Previous output script / Previous output amount.
   //---------------------------------------------------------------------------
@@ -102,18 +108,16 @@ void example_p2sh(const transaction& example_transaction) {
   uint64_t previous_output_amount;
   decode_base10(previous_output_amount, previous_btc_amount, btc_decimal_places);
 
-
   // Input Scripts.
   //---------------------------------------------------------------------------
 
   // Create Endorsements.
   endorsement sig0;
   endorsement sig1;
-  uint8_t input0_index(0u);
   script::create_endorsement(sig0, my_secret0, multisig_script,
-      p2sh_transaction, input0_index, sighash_algorithm::all);
+      p2sh_transaction, input_index, sighash_algorithm::all);
   script::create_endorsement(sig1, my_secret1, multisig_script,
-      p2sh_transaction, input0_index, sighash_algorithm::all);
+      p2sh_transaction, input_index, sighash_algorithm::all);
 
   // Create input script w/o signatures (no BIP16).
   operation::list unsigned_input_ops;
@@ -130,12 +134,11 @@ void example_p2sh(const transaction& example_transaction) {
   };
   script signed_input_script(signed_input_ops);
 
-
   // Script Verification w/o BIP16 activation.
   //---------------------------------------------------------------------------
 
   // Add input script to transaction.
-  p2sh_transaction.inputs()[0].set_script(unsigned_input_script);
+  p2sh_transaction.inputs()[input_index].set_script(unsigned_input_script);
 
   // Turn off BIP16 soft fork.
   // Note: all rules includes testnet and regtest.
@@ -143,29 +146,30 @@ void example_p2sh(const transaction& example_transaction) {
 
   // Verify w/o signatures.
   witness empty_witness;
-  auto ec = script::verify(p2sh_transaction, 0, my_fork_rules, unsigned_input_script,
-      empty_witness, p2sh_multisig_script, previous_output_amount);
+  auto ec = script::verify(p2sh_transaction, input_index, my_fork_rules,
+      unsigned_input_script, empty_witness, p2sh_multisig_script,
+      previous_output_amount);
 
   // Prints success
   std::cout << ec.message() << std::endl;
-
 
   // Script verification with BIP16 activation.
   //---------------------------------------------------------------------------
 
   // Add input script to transaction.
-  p2sh_transaction.inputs()[0].set_script(signed_input_script);
+  p2sh_transaction.inputs()[input_index].set_script(signed_input_script);
 
   // BIP16 is active.
   // Note: all rules includes testnet and regtest.
   my_fork_rules = rule_fork::all_rules;
 
   // Input script also works without BIP16 activation.
-  //my_fork_rules = rule_fork::all_rules ^ rule_fork::bip16_rule;
+  // my_fork_rules = rule_fork::all_rules ^ rule_fork::bip16_rule;
 
   // Verify with signatures.
-  ec = script::verify(p2sh_transaction, 0, my_fork_rules, signed_input_script,
-      empty_witness, p2sh_multisig_script, previous_output_amount);
+  ec = script::verify(p2sh_transaction, input_index, my_fork_rules,
+      signed_input_script, empty_witness, p2sh_multisig_script,
+      previous_output_amount);
 
   // Prints success
   std::cout << ec.message() << std::endl;
@@ -173,11 +177,11 @@ void example_p2sh(const transaction& example_transaction) {
 }
 
 
-void example_p2wpkh(const transaction& example_transaction) {
+void create_and_verify_p2wpkh(const transaction& example_transaction) {
 
   // Create local example_transaction copy.
   transaction p2wpkh_transaction = example_transaction;
-
+  uint8_t input_index(0u);
 
   // Previous output script / Previous output amount.
   //---------------------------------------------------------------------------
@@ -190,10 +194,9 @@ void example_p2wpkh(const transaction& example_transaction) {
   };
 
   // Previous output amount.
-  uint8_t input_index(0u);
   auto previous_btc_amount = "1.0";
   uint64_t previous_output_amount;
-  decode_base10(previous_output_amount, previous_btc_amount, btc_decimal_places);
+  decode_base10(previous_output_amount, previous_btc_amount,btc_decimal_places);
 
 
   // Script Verification w/o BIP141/143 activation.
@@ -207,13 +210,12 @@ void example_p2wpkh(const transaction& example_transaction) {
   witness empty_witness;
   script empty_input_script;
 
-  auto ec = script::verify(p2wpkh_transaction, 0, my_fork_rules,
+  auto ec = script::verify(p2wpkh_transaction, input_index, my_fork_rules,
       empty_input_script, empty_witness, p2wpkh_operations,
       previous_output_amount);
 
   // Prints success
   std::cout << ec.message() << std::endl;
-
 
   // Create Witness.
   //---------------------------------------------------------------------------
@@ -237,20 +239,20 @@ void example_p2wpkh(const transaction& example_transaction) {
   };
   witness p2wpkh_witness(witness_stack);
 
-
   // Script Verification with BIP141/143 activation.
   //---------------------------------------------------------------------------
 
   my_fork_rules = rule_fork::all_rules;
   // Without bip141: error code 77, unexpected witness.
   // Without bip143: error code 65, stack false...
-  //    (BIP143 signature serialisation not activated).
+  //    ...since BIP143 signature serialisation not activated.
 
   // Add witness to transaction.
-  p2wpkh_transaction.inputs()[0].set_witness(p2wpkh_witness);
+  p2wpkh_transaction.inputs()[input_index].set_witness(p2wpkh_witness);
 
-  ec = script::verify(p2wpkh_transaction, 0, my_fork_rules, empty_input_script,
-      p2wpkh_witness, p2wpkh_operations, previous_output_amount);
+  ec = script::verify(p2wpkh_transaction, input_index, my_fork_rules,
+      empty_input_script, p2wpkh_witness, p2wpkh_operations,
+      previous_output_amount);
 
   // Prints success
   std::cout << ec.message() << std::endl;
@@ -261,11 +263,12 @@ int main() {
 
   auto tx = create_example_transaction();
 
-  example_p2sh(tx);
+  create_and_verify_p2sh(tx);
 
-  example_p2wpkh(tx);
+  create_and_verify_p2wpkh(tx);
 
   return 0;
 
 }
+
 ```
