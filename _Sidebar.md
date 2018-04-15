@@ -7,6 +7,7 @@
 * **[Build Libbitcoin](Build)**
 * **[Comprehensive Overview](https://en.bitcoin.it/wiki/Libbitcoin)**
 * **[Developer Documentation](Developer-Documentation)**
+  * [Code Examples](Ready-to-Compile-Code-Examples)
   * [Serialised Data](Working-with-Serialised-Data)
   * [EC Operations](Elliptic-Curve-Operations)
   * [ECDSA & DER Signatures](ECDSA-&-DER-Signatures)
