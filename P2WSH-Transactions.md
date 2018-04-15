@@ -5,7 +5,7 @@ Sending a transaction to a Pay-to-Witness-Script-Hash (P2WPKH) address requires 
 | --------------------|-------------------------------------------|
 | Output Script       | `zero` `[32-byte sha256(witness script)]` |
 
-The witness script is the redeem script for such a native P2WSH output. We can construct a P2WSH output script by populating a operation vector with the respective operations.
+The witness script is the embedded script for the native P2WSH output. We can construct a P2WSH output script by populating a operation vector with the respective operations.
 
 ```c++
 // Witness script: Multisig.
@@ -18,10 +18,10 @@ script witness_script = script::to_pay_multisig_pattern(signatures, points);
 
 // P2WSH output script.
 //    0 [32-byte sha256(witness script)]
-hash_digest redeem_script_hash = sha256_hash(witness_script.to_data(false));
+hash_digest embedded_script_hash = sha256_hash(witness_script.to_data(false));
 operation::list p2sh_operations;
 p2sh_operations.push_back(operation(opcode::push_size_0));
-p2sh_operations.push_back(operation(to_chunk(redeem_script_hash)));
+p2sh_operations.push_back(operation(to_chunk(embedded_script_hash)));
 
 // Build output.
 std::string btc_amount = "1.295";
@@ -32,18 +32,18 @@ output p2wsh_output(output_amount, p2sh_operations);
 
 If the spending of the previous transaction output(s) do not require the construction of witnesses, the rest of the transaction is built and signed according to the documentation sections [building transactions](https://github.com/libbitcoin/libbitcoin/wiki/Building-Transactions) and [sighash](https://github.com/libbitcoin/libbitcoin/wiki/Sighash-&-TX-Signing).
 
-You can find the complete P2WSH example script [here](https://github.com/libbitcoin/libbitcoin/wiki/Examples:-Transactions-with-Input-Witnesses).
+You can find the complete P2WSH example script [here](https://github.com/libbitcoin/libbitcoin/wiki/Examples:-Pay-to-Witness-Transactions).
 
 ## Spending a P2WSH Output
 
 Spending a P2WSH output requires constructing the transaction according to the following scheme.
 
-| Transaction Element | Script                                                |
-| --------------------|-------------------------------------------------------|
-| Output Script       | `According to destination address`                    |
-| Input Script        | `"empty"`                                             |
-| Script Code         | `WitnessScript`                                       |
-| Witness             | `[input script of witness script]` `[witness script]` |
+| Transaction Element | Script |
+| --------------------|--------|
+| Output Script | `According to destination address` |
+| Input Script | `"empty"`|
+| Script Code | `Witness Script` |
+| Witness | `[input script of P2WSH embedded script]` `[witness script]`|
 
 The construction of the input in Libbitcoin initially follows the steps of populating input objects with the previous transaction elements.
 
@@ -100,7 +100,7 @@ script::create_endorsement(sig1, my_secret_witness_aware1, witness_script, tx,
     input0_index, sighash_algorithm::all, script_version::zero, input_amount);
 ```
 
-The `script::create_endorsement` method will generate a sighash according to the witness script version parameter. For inputs requiring a witness of the current version, this argument will be set to version zero in order for the witness-specific sighash algorithm to be applied.
+The `script::create_endorsement` method will generate a sighash according to the witness program version parameter. For inputs requiring a witness of the current version, this argument will be set to version zero in order for the witness-specific sighash algorithm to be applied.
 
 ### P2WSH Witness
 
@@ -184,4 +184,4 @@ BX tx-decode -f json 0100000000010193a2db37b841b2a46f4e9bb63fe9c1012da3ab7fe30b9
     }
 }
 ```
-You can find the complete P2WSH transaction script [here](https://github.com/libbitcoin/libbitcoin/wiki/Examples:-Transactions-with-Input-Witnesses).
+You can find the complete P2WSH transaction script [here](https://github.com/libbitcoin/libbitcoin/wiki/Examples:-Pay-to-Witness-Transactions).
