@@ -1,7 +1,9 @@
-All examples from the script verification documentation chapter are shown here in full.
+All examples from the script verification documentation chapter are shown here in full. The specific examples referenced in the subsections are wrapped in the functions listed below.
 
 **P2PKH Verification**
 * create_and_verify_p2pkh();
+
+**Libbitcoin API**: Libbitcoin version 3. For version 4, `script::verify()` method has a simplified function signature. See code comments in the script below.
 
 Compile with:
 `g++ -std=c++11 -o script_verify script_verify_examples.cpp $(pkg-config --cflags libbitcoin --libs libbitcoin)`
