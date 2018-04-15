@@ -82,3 +82,4 @@ p2pkh_transaction.inputs()[input0_index]
 auto ec2 = script::verify(p2pkh_transaction, input0_index,
     rule_fork::all_rules);
 ```
+You can find the complete example code from this chapter [here](https://github.com/libbitcoin/libbitcoin/wiki/Examples:-Script-Verification)
