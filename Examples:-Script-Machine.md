@@ -1,4 +1,4 @@
-All examples from the script machine documentation chapter are shown here in full.
+All examples from the script machine documentation chapter are shown here in full. The specific examples referenced in the subsections are wrapped in the functions listed below.
 
 **Example Script Debugger**
 * debug_program();
@@ -8,6 +8,8 @@ All examples from the script machine documentation chapter are shown here in ful
 
 **Example P2SH(P2WPKH) Evaluation**
 * run_p2sh_p2wpkh();
+
+**Libbitcoin API**: Libbitcoin version 3. The code in this example accesses the `output_point` `validation` struct. This struct will be moved to `metadata` beginning with Libbitcoin version 4 (current master branch).
 
 Compile with:
 `g++ -std=c++11 -o script_machine script_machine_examples.cpp $(pkg-config --cflags libbitcoin --libs libbitcoin)`
@@ -22,7 +24,7 @@ using namespace wallet;
 using namespace chain;
 using namespace machine;
 
-// "Normal" wallets.
+// Testnet wallets.
 auto my_secret0 = base16_literal(
     "b7423c94ab99d3295c1af7e7bbea47c75d298f7190ca2077b53bae61299b70a5");
 ec_private my_private0(my_secret0, ec_private::testnet, true);
@@ -34,7 +36,8 @@ auto my_secret1 = base16_literal(
 ec_private my_private1(my_secret1, ec_private::testnet, true);
 auto pubkey1 = my_private1.to_public().point();
 
-// "Witness Aware" wallet.
+// Witness aware testnet wallets.
+// ("Witness aware" is an arbitrary assignment for illustration purposes)
 auto my_secret_witness_aware = base16_literal(
     "0a44957babaa5fd46c0d921b236c50b1369519c7032df7906a18a31bb905cfdf");
 ec_private my_private_witness_aware(my_secret_witness_aware,
@@ -106,14 +109,14 @@ transaction create_p2sh_p2wpkh(transaction& transaction_template) {
 
     // Set prevout in transaction
     output_point outpoint;
-    outpoint.metadata.cache.set_script(std::move(p2sh_p2wpkh_output_script));
+    outpoint.validation.cache.set_script(std::move(p2sh_p2wpkh_output_script));
 
     // Set prevout amount in transaction.
     uint8_t input_index(0u);
     std::string btc_amount_in = "1.298";
     uint64_t input_amount;
     decode_base10(input_amount, btc_amount_in, btc_decimal_places);
-    outpoint.metadata.cache.set_value(input_amount);
+    outpoint.validation.cache.set_value(input_amount);
 
     p2sh_p2wpkh_transaction.inputs()[0].set_previous_output(outpoint);
 
@@ -237,7 +240,7 @@ code debug_program(program& current_program, const script& current_script) {
 }
 
 
-code run_custom_script(const transaction& transaction, uint32_t input_index,
+code run_simple_script(const transaction& transaction, uint32_t input_index,
     uint32_t forks) {
 
     data_chunk my_data(32);
@@ -277,9 +280,9 @@ code run_p2sh_p2wpkh(const transaction& transaction, uint32_t input_index,
     auto input_script = p2sh_p2wpkh_transaction.inputs()[input_index].script();
     auto witness = p2sh_p2wpkh_transaction.inputs()[input_index].witness();
     auto prevout_script = p2sh_p2wpkh_transaction.inputs()[input_index]
-        .previous_output().metadata.cache.script();
+        .previous_output().validation.cache.script();
     auto input_amount = p2sh_p2wpkh_transaction.inputs()[input_index]
-        .previous_output().metadata.cache.value();
+        .previous_output().validation.cache.value();
 
     code ec;
 
@@ -427,7 +430,7 @@ int main() {
 
   auto template_transaction = create_transaction_template();
 
-  code ec = run_custom_script(template_transaction, 0 , rule_fork::all_rules);
+  code ec = run_simple_script(template_transaction, 0 , rule_fork::all_rules);
   std::cout << "\n"
             << "-------- My script evaluation complete --------"
             << std::endl;
@@ -443,4 +446,5 @@ int main() {
   return 0;
 
 }
+
 ```
