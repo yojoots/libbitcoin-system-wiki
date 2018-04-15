@@ -2,13 +2,15 @@ In the previous chapter we illustrated how to create private/public key pairs in
 
 In this chapter, we will cover how to derive publicly shareable Bitcoin addresses, and how to deterministically derive new addresses from existing keys with Hierarchical Deterministic (HD) wallets.
 
+The full example code from this chapter can be found [here](https://github.com/libbitcoin/libbitcoin/wiki/Examples:-Addresses,-Wallets-and-HD-Derivation)
+
 ## Creating a Bitcoin Address
 A publicly shareable Bitcoin address is derived from a compressed or uncompressed public key with the additional information of whether it is intended for the Bitcoin mainnet or testnet.
 
 The serialised Bitcoin address consists of:
 * 1-Byte **Version Prefix**  
-  * Mainnet: 0x00
-  * Testnet: 0x6F
+ * Mainnet: 0x00
+ * Testnet: 0x6F
 * 20-Byte **Hash Digest** (Double Hashed Public Key)
 * 4-Byte **Checksum**
 
@@ -16,36 +18,41 @@ The serialised format is encoded in Base58. Note that the public key is hashed i
 
 Let us create a Bitcoin address in Libbitcoin:
 ```c++
-//Namespace
+#include <bitcoin/bitcoin.hpp>
+#include <string.h>
+#include <iostream>
+
+// Namespace
 using namespace bc;
 using namespace wallet;
 ```
 <!-- Example 1 -->
 ```c++
-//Begin with a private key
-auto my_secret = base16_literal("f3c8f9a6198cca98f481edde13bcc031b1470a81e367b838fe9e0a9db0f5993d");
+// Begin with a private key
+auto my_secret = base16_literal(
+    "f3c8f9a6198cca98f481edde13bcc031b1470a81e367b838fe9e0a9db0f5993d");
 
-//Derive pubkey point
+// Derive pubkey point
 ec_compressed my_pubkey;
 secret_to_public(my_pubkey, my_secret);
 
-//Pubkeyhash: sha256 + hash160
+// Pubkeyhash: sha256 + hash160
 auto my_pubkeyhash = bitcoin_short_hash(my_pubkey);
 
-//Prefix for mainnet = 0x00
+// Prefix for mainnet = 0x00
 one_byte addr_prefix = { { 0x00 } }; //Testnet 0x6f
 
-//Byte sequence = prefix + pubkey + checksum(4-bytes)
+// Byte sequence = prefix + pubkey + checksum(4-bytes)
 data_chunk prefix_pubkey_checksum(to_chunk(addr_prefix));
 extend_data(prefix_pubkey_checksum, my_pubkeyhash);
 append_checksum(prefix_pubkey_checksum);
 
-//Base58 encode byte sequence -> Bitcoin Address
+// Base58 encode byte sequence -> Bitcoin Address
 std::cout << encode_base58(prefix_pubkey_checksum) << std::endl;
 
-//You can directly generate Bitcoin addresses
-//with Libbitcoin wallet types: ec_private/ec_public
-//described in the following section
+// You can directly generate Bitcoin addresses
+// with Libbitcoin wallet types: ec_private/ec_public
+// described in the following section
 ```
 <!-- In the next section we will cover Libbitcoin wallet types `ec_private` & `ec_public` feature methods which directly format Bitcoin addresses from secrets and public key points. -->
 
@@ -63,30 +70,30 @@ From the previous example we conclude that following pieces of information are r
 The Wallet Import Format (WIF) provides these three pieces of information in a byte sequence.
 
 * 1-Byte **Version Prefix**  
-  * Mainnet: 0x80
-  * Testnet: 0xEF
+ * Mainnet: 0x80
+ * Testnet: 0xEF
 * 32-byte **Private Key**
 * 1-Byte **Compression Marker**
-  * 0x01 or omitted
+ * 0x01 or omitted
 * 4-Byte **Checksum**
 
 
 We can now manually create a WIF private key following the preceding schema.  
 <!-- Example 1 (part2) -->
 ```c++
-//WIF encoded private key
-//Additional Information: Mainnet, PubKey compression
-one_byte secret_prefix = { { 0x80 } }; //Testnet: 0xEF
+// WIF encoded private key
+// Additional Information: Mainnet, PubKey compression
+one_byte secret_prefix = { { 0x80 } }; //Testnet Prefix: 0xEF
 one_byte secret_compressed = { { 0x01} }; //Omitted if uncompressed
 
-//Apply prefix, suffix & append checksum
+// Apply prefix, suffix & append checksum
 auto prefix_secret_comp_checksum = to_chunk(secret_prefix);
 extend_data(prefix_secret_comp_checksum, my_secret);
 extend_data(prefix_secret_comp_checksum, secret_compressed);
 append_checksum(prefix_secret_comp_checksum);
 
-//WIF (mainnet/compressed)
-std::cout << encode_base58(prefix_secret_comp_checksum);
+// WIF (mainnet/compressed)
+std::cout << encode_base58(prefix_secret_comp_checksum) << std::endl;
 ```
 The WIF can now be easily imported into any new wallet, and provides all the information for its unique Bitcoin address to be derived.  
 
@@ -95,12 +102,12 @@ The WIF can now be easily imported into any new wallet, and provides all the inf
 In Libbitcoin, we can use the wallet type `ec_private` to store a private key and necessary information to derive a unique Bitcoin address or export the private key in WIF form.
 <!-- Example 1 (part3) -->
 ```c++
-//Instantiate ec_private object
-//ec_private::mainnet = 0x8000 (Mainnet Prefixes 0x80,0x00)
-//ec_private::testnet = 0xEF6F (Testnet Prefixes 0xEF,0x6F)
+// Instantiate ec_private object
+// ec_private::mainnet = 0x8000 (Mainnet Prefixes 0x80,0x00)
+// ec_private::testnet = 0xEF6F (Testnet Prefixes 0xEF,0x6F)
 ec_private my_private(my_secret, ec_private::mainnet, true);
-std::cout << my_private.to_payment_address() << "\n";
-std::cout << my_private.encoded() << "\n"; //WIF private key
+std::cout << my_private.to_payment_address() << std::endl;
+std::cout << my_private.encoded() << std::endl; //WIF private key
 ```
 
 The `ec_public` type is complementary and holds only following information:
@@ -111,17 +118,17 @@ Therefore, this type requires a network (mainnet/testnet) argument in order to p
 
 <!-- Example 1 (part 4) -->
 ```c++
-//ec_public from ec_private
-//(compression implied from ec_private input)
+// ec_public from ec_private
+// (compression implied from ec_private input)
 ec_public my_public(my_private);
 
-//ec_public from point
-//(compression not implied, supplied as arguments)
+// ec_public from point
+// (compression not implied, supplied as arguments)
 ec_public my_public2(my_pubkey, true); //compression = true
 
-//Payment addresses:
-//Will always default to mainnet if no argument supplied
-//regardless of version in ec_private constructor argument
+// Payment addresses:
+// Will always default to mainnet if no argument supplied
+// regardless of version in ec_private constructor argument
 payment_address my_addr = my_public.to_payment_address();
 payment_address my_addr2 = my_public2.to_payment_address(); //0x00, 0x6f
 std::cout << (my_addr.encoded() == my_addr2.encoded()) << std::endl;
@@ -143,12 +150,12 @@ We use the Libbitcoin type `wallet::word_list` to instantiate a mnemonic word li
 
 <!-- Example 2 (part 1) -->
 ```c++
-//128, 160, 192, 224, 256 bits of Entropy are valid
-//We generate 128 bits of Entropy
+// 128, 160, 192, 224, 256 bits of Entropy are valid
+// We generate 128 bits of Entropy
 data_chunk my_entropy_128(16); //16 bytes = 128 bits
 pseudo_random_fill(my_entropy_128);
 
-//Instantiate mnemonic word_list
+// Instantiate mnemonic word_list
 word_list my_word_list = create_mnemonic(my_entropy_128);
 std::cout << join(my_word_list) << std::endl; //join to a single string with spaces
 ```
@@ -160,19 +167,23 @@ This 128 - 256 bit secret encoded by the mnemonic word list can be stretched to 
 
 ![key stretching](https://ipfs.io/ipfs/Qmf9N5MgnnQUCq2U6zYNFf7E2LxU8TSfEygVJ2KWvojkGA)
 
-We use the `decode_mnemonic(my_word_list, my_passphrase)` method to derive the 512 bit seed, from which we will later create a HD wallet. The passphrase is optional, but increases the cost of brute-force attacks against the mnemonic word list.
+We use the `decode_mnemonic(my_word_list, my_passphrase)` method to derive the 512 bit seed, from which we will later create a HD wallet. The passphrase is optional, but increases the cost of brute-force attacks against the mnemonic word list. Note that using an optional secret passphrase will require compiling Libbitcoin with the [ICU option](https://github.com/libbitcoin/libbitcoin/blob/master/README.md).
 
 <!-- Example 3 (part 1) -->
 ```c++
-//Load mnemonic sentence into word list
+// Load mnemonic sentence into word list
 std::string my_sentence = "market parent marriage drive umbrella custom leisure fury recipe steak have enable";
 auto my_word_list = split(my_sentence, " ", true);
 
-//Create an optional secret passphrase
+// Create an optional secret passphrase
 std::string my_passphrase = "my secret passphrase";
 
-//Create 512bit seed
-auto hd_seed = decode_mnemonic(my_word_list, my_passphrase);
+// Create 512bit seed (without optional secret passphrase)
+auto hd_seed = decode_mnemonic(my_word_list);
+
+// Create 512bit seed (with optional secret passphrase)
+// Requires: Libbitcoin compiled with ICU.
+// auto hd_seed = decode_mnemonic(my_word_list, my_passphrase);
 ```
 
 ## Hierarchical Deterministic Wallets
@@ -197,12 +208,12 @@ Libbitcoin provides us with the `hd_private` type to instantiate the master priv
 
 <!-- Example 3 (part 2) -->
 ```c++
-//We reuse 512 bit hd_seed from the previous example
-//Derivation of master private key m
+// We reuse 512 bit hd_seed from the previous example
+// Derivation of master private key m
 data_chunk seed_chunk(to_chunk(hd_seed));
 hd_private m(seed_chunk, hd_private::mainnet);
 
-//Derivation of master public key M
+// Derivation of master public key M
 hd_public M = m.to_public();
 ```
 Both types have methods to derive child keys described in subsequent sections of this chapter.
@@ -224,12 +235,12 @@ In Libbitcoin, we can derive create private key or public key children of a `hd_
 
 <!-- Example 3 (part 3) -->
 ```c++
-//Derive children of master key m
+// Derive children of master key m
 auto m0 = m.derive_private(0);
 auto m1 = m.derive_private(1);
 auto m2 = m.derive_private(2);
 
-//Derive grandchild private keys
+// Derive grandchild private keys
 auto m10 = m1.derive_private(0); //Depth 2, Index 0
 auto m11 = m1.derive_private(1); //Depth 2, Index 1
 auto m12 = m1.derive_private(2); //Depth 2, Index 2
@@ -237,14 +248,14 @@ auto m100 = m10.derive_private(0); //Depth 3, Index 0
 auto m101 = m10.derive_private(1); //Depth 3, Index 1
 auto m102 = m10.derive_private(2); //Depth 3, Index 1
 
-//Derive grandchild public keys
+// Derive grandchild public keys
 auto M00 = m0.derive_public(0); //Depth 2, Index 0
 auto M01 = m0.derive_public(1); //Depth 2, Index 1
 auto M02 = m0.derive_public(2); //Depth 2, Index 2
-//...
+// ...
 
-//Derive hd_public of any hd_private object
-//of same depth & index
+// Derive hd_public of any hd_private object
+// of same depth & index
 auto M102 = m102.to_public();
 ```
 
@@ -268,43 +279,43 @@ So we can now create child public keys with `HMAC-SHA512` with the following inp
 
 The ability to derive public key descendants of arbitrary depth without the knowledge of the corresponding private keys allows us to derive private and public keys in completely separate environments. The image below shows all the possible derivation paths for HD private and public keys.
 
-![Child derivation paths](https://ipfs.io/ipfs/QmPUSFtkvcbM6emJPHbnSLnPW7waxFXtjRRwDjqbSGp9hT)
+![Child derivation paths](https://ipfs.io/ipfs/QmcF3DyJmDuRwzTkguwJohaY3JuKiQkNY3pSpVCdA4GP7t)
 
 Deriving public keys in Libbitcoin is similar to the previous example of child private keys.
 
 <!-- Example 3 (part 4) -->
 ```c++
-//Derive public children of master key M
+// Derive public children of master key M
 auto M0 = M.derive_public(0); //Depth 1, Index 0
 auto M1 = M.derive_public(1); //Depth 1, Index 1
 auto M2 = M.derive_public(2); //Depth 1, Index 2
 
-//Derive further public children
+// Derive further public children
 auto M10 = M1.derive_public(0); //Depth 2, Index 0
 auto M11 = M1.derive_public(1); //Depth 2, Index 1
 auto M12 = M1.derive_public(2); //Depth 2, Index 2
 auto M100 = M10.derive_public(0); //Depth 3, Index 0
 auto M101 = M10.derive_public(1); //Depth 3, Index 1
-//...
+// ...
 
-//No private children can be derived
-//from child public keys!
+// No private children can be derived
+// from child public keys!
 ```
 ### Extended Private & Public Keys
 
 All key information required to generate child private and public keys can be serialised in the *extended key format*.
 
 * 4-byte **Version**
-  * Private Key: Mainnet(0x0488ADE4)/Testnet(0x04358394 )
-  * Public Key: Mainnet(0x0488B21E)/Testnet(0x043587CF )
+ * Private Key: Mainnet(0x0488ADE4)/Testnet(0x04358394 )
+ * Public Key: Mainnet(0x0488B21E)/Testnet(0x043587CF )
 * 1-byte **Depth**
 * 4-byte **Fingerprint of parent**  
-  * First 4-bytes of Hash160 (parent pubic key)
+ * First 4-bytes of Hash160 (parent pubic key)
 * 4-byte **Index Number**
 * 32-byte **Parent Chain Code**
 * 34-byte **Key**
-  * Private Key: 0x00 + 32 bytes private key
-  * Public Key: 34 byte compressed public key
+ * Private Key: 0x00 + 32 bytes private key
+ * Public Key: 34 byte compressed public key
 * 4-byte **Checksum**
 
 More extended serialisation details can be found in  [BIP32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki).
@@ -313,45 +324,45 @@ Let us revisit how we instantiated `hd_private` and `hd_public` previously and u
 
 <!-- Example 4 (part 1) -->
 ```c++
-//Generate master private key
-//hd_private::mainnet = 0x0488ADE40488B21E
-//Versions for both private and public keys
+// Generate master private key
+// hd_private::mainnet = 0x0488ADE40488B21E
+// Versions for both private and public keys
 hd_private m(seed_chunk, hd_private::mainnet);
 auto m1 = m.derive_private(1);
 
-//Public key mainnet prefix 0488B21E
-//is implicitly passed on to M  
+// Public key mainnet prefix 0488B21E
+// is implicitly passed on to M
 hd_public M = m1.to_public();
 
-//Extended Private Key:
-//m1 serialised in extended private key format
-auto m1_xprv = m1.to_hd_key();
+// Extended Private Key:
+// m1 serialised in extended private key format
+auto m1_xprv = m.to_hd_key();
 
-//4 Bytes: Version in hex
+// 4 Bytes: Version in hex
 auto m1_xprv_ver = slice<0,4>(m1_xprv);
 std::cout << encode_base16(m1_xprv_ver) << std::endl;
 
-//1-Byte: Depth
+// 1-Byte: Depth
 auto m1_xprv_depth = slice<4,5>(m1_xprv);
 std::cout << encode_base16(m1_xprv_depth) << std::endl;
 
-//4-Bytes: Parent Fingerprint
+// 4-Bytes: Parent Fingerprint
 auto m1_xprv_parent = slice<5,9>(m1_xprv);
 std::cout << encode_base16(m1_xprv_parent) << std::endl;
 
-//4-Bytes: Index Number
+// 4-Bytes: Index Number
 auto m1_xprv_index = slice<9,13>(m1_xprv);
 std::cout << encode_base16(m1_xprv_index) << std::endl;
 
-//32-Bytes: Chain Code
+// 32-Bytes: Chain Code
 auto m1_xprv_chaincode = slice<13,45>(m1_xprv);
 std::cout << encode_base16(m1_xprv_chaincode) << std::endl;
 
-//34-Bytes: Private Key (with 0x00 prefix)
+// 34-Bytes: Private Key (with 0x00 prefix)
 auto m1_xprv_private = slice<45,78>(m1_xprv);
 std::cout << encode_base16(m1_xprv_private) << std::endl;
 
-//4-Bytes: double sha256 checksum
+// 4-Bytes: double sha256 checksum
 auto m1_xprv_checksum = slice<78,82>(m1_xprv);
 std::cout << encode_base16(m1_xprv_checksum) << std::endl;
 ```
@@ -359,7 +370,7 @@ std::cout << encode_base16(m1_xprv_checksum) << std::endl;
 
 In the case that a both the public extended key and a descendent child private key are exposed, it is possible for a malicious actor to derive both the private extended key as well as all descendent children.
 
-![HD Key Exposure](https://ipfs.io/ipfs/QmSiYBrW8hxzysgQ4M8bF7rWJy9s2CD33zjxavF3y3Jsv9)
+![HD Key Exposure](https://ipfs.io/ipfs/QmeqQkX1zPE6qiFrDsufRmtMUvwTWw47xkcpdfegs4MQW9)
 
 To prevent this, a hardened child private key can be derived using the parent private key instead of the parent public key as an input to the `HMAC-SHA512` function.
 
@@ -372,20 +383,17 @@ This breaks the derivation path between a hardened public key and its public key
 In Libbitcoin, deriving a hardened child private key is implied with the index being set >= 0xFFFFFFFF:
 <!-- Example 4 (part 2) -->
 ```c++
-//Hardened private key derivation with index >= 1 << 31
+// Hardened private key derivation with index >= 1 << 31
 auto m0 = m.derive_private(0);
 auto m00h = m.derive_private(hd_first_hardened_key);
 auto m01h = m.derive_private(1 + hd_first_hardened_key);
 auto m02h = m.derive_private(2 + hd_first_hardened_key);
 
-//Hardened public key can only be derived from private key
+// Hardened public key can only be derived from private key
 auto M00h = m00h.to_public();
-//or from parent private key
+// or from parent private key
 auto M00h_ = m.derive_public(hd_first_hardened_key);
-//Above keys are equivalent
+// Above keys are equivalent
 std::cout << (M00h == M00h_) << std::endl;
 ```
-
-[**Next** -- Building Transactions](https://github.com/libbitcoin/libbitcoin/wiki/Building-Transactions)  
-[**Previous** -- Elliptic Curve Operations & Signing ](https://github.com/libbitcoin/libbitcoin/wiki/Elliptic-Curve-Operations-&-Signing)  
-[**Return to Index**](https://github.com/libbitcoin/libbitcoin/wiki)
+The full example code from this chapter can be found [here](https://github.com/libbitcoin/libbitcoin/wiki/Examples:-Addresses,-Wallets-and-HD-Derivation)
