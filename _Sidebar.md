@@ -14,7 +14,7 @@
   * [Pedersen Commitments](Pedersen-Commitments-in-EC-Form)
   * [Addresses & HD Wallets](Addresses-and-HD-Wallets)
   * [Building Transactions](Building-Transactions)
-  * [Sighash & TX Signing](Sighash-&-TX-Signing)
+  * [Sighash & TX Signing](Sighash-and-TX-Signing)
   * [P2WPKH](P2WPKH-Transactions)
   * [P2SH(P2WPKH)](P2SH(P2WPKH)-Transactions)
   * [P2WSH](P2WSH-Transactions)
