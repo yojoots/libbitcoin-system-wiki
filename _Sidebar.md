@@ -10,7 +10,7 @@
   * [Code Examples](Ready-to-Compile-Code-Examples)
   * [Serialised Data](Working-with-Serialised-Data)
   * [EC Operations](Elliptic-Curve-Operations)
-  * [ECDSA & DER Signatures](ECDSA-&-DER-Signatures)
+  * [ECDSA & DER Signatures](ECDSA-and-DER-Signatures)
   * [Pedersen Commitments](Pedersen-Commitments-in-EC-Form)
   * [Addresses & HD Wallets](Addresses-&-HD-Wallets)
   * [Building Transactions](Building-Transactions)
