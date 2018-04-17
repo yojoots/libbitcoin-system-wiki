@@ -148,6 +148,6 @@ ec_add(my_point_result2, my_scalar2);
 // (r1 + r2) * G = r1 * G + r2 * G
 std::cout << (my_point_result1 == my_point_result2) << std::endl;
 ```
-EC associativity is an important mathematical property used by extended public keys in [HD Wallets](https://github.com/libbitcoin/libbitcoin/wiki/Addresses-&-HD-Wallets).
+EC associativity is an important mathematical property used by extended public keys in [HD Wallets](https://github.com/libbitcoin/libbitcoin/wiki/Addresses-and-HD-Wallets).
 
 The full example code from this chapter can be found [here](https://github.com/libbitcoin/libbitcoin/wiki/Examples:-Elliptic-Curve-Operations).
