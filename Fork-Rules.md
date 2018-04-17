@@ -150,7 +150,7 @@ std::cout << ec.message() << std::endl;
 ```
 By deactivating BIP16 in the example above you can verify that the input script is backwards compatible.
 
-You can find the complete example script of this section [here](https://github.com/libbitcoin/libbitcoin/wiki/Examples:-Fork-Rules).
+You can find the complete example script of this section [here](https://github.com/libbitcoin/libbitcoin/wiki/Examples-from-Fork-Rules).
 
 ## Example: BIP141/143 Soft fork
 
@@ -254,4 +254,4 @@ std::cout << ec.message() << std::endl;
 ```
 Note that the witness transaction above is not valid when BIP141/143 are deactivated. In Libbitcoin, you will have to replace the witness object with an empty one. Over-the-wire however, the witness data would not be included in messages to nodes who have not activated BIP141/143, so that this transaction would still be backwards compatible nonetheless.
 
-You can find the complete example code from this section [here](https://github.com/libbitcoin/libbitcoin/wiki/Examples:-Fork-Rules).
+You can find the complete example code from this section [here](https://github.com/libbitcoin/libbitcoin/wiki/Examples-from-Fork-Rules).

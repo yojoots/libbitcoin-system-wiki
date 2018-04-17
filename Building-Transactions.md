@@ -189,4 +189,4 @@ tx.inputs()[0].set_script(my_input_script_0);
 // Print serialised transaction
 std::cout << encode_base16(tx.to_data()) << std::endl;
 ```
-The full example code from this chapter can be found [here](https://github.com/libbitcoin/libbitcoin/wiki/Examples:-Building-Transactions).
+The full example code from this chapter can be found [here](https://github.com/libbitcoin/libbitcoin/wiki/Examples-from-Building-Transactions).

@@ -317,4 +317,4 @@ We construct a transaction with a `NONE|ANYONECANPAY` input signature below:
   // Success.
   std::cout << ec_input1.message() << std::endl;
 ```  
-You can find the entire chapter example code [here](https://github.com/libbitcoin/libbitcoin/wiki/Examples:-Sighash-and-Partial-Transaction-Signing).
+You can find the entire chapter example code [here](https://github.com/libbitcoin/libbitcoin/wiki/Examples-from-Sighash-and-Partial-Transaction-Signing).

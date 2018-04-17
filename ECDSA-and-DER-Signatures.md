@@ -70,4 +70,4 @@ We use a simple parser function to ensure a DER signature adheres to strict DER 
 std::cout << parse_signature(my_signature, my_der_signature, true)
     << std::endl;
 ```
-The full example code from this chapter can be found [here](https://github.com/libbitcoin/libbitcoin/wiki/Examples:-ECDSA-and-DER-Signatures).
+The full example code from this chapter can be found [here](https://github.com/libbitcoin/libbitcoin/wiki/Examples-from-ECDSA-and-DER-Signatures).

@@ -1,6 +1,6 @@
 This section provides a deeper look into how scripts can be parsed and evaluated by the Libbitcoin script machine. The previous [script verification](https://github.com/libbitcoin/libbitcoin/wiki/Script-Verification) chapter provided an introduction to the evaluation of transaction scripts via the [`script::verify()`](https://github.com/libbitcoin/libbitcoin/blob/master/include/bitcoin/bitcoin/chain/script.hpp#L212-L218) method without exposing the reader to many details of the script machine. However, when working with more complex Bitcoin scripts, the ability to use lower level Libbitcoin script machine API functionality can be helpful in the design and debugging of more complex scripts.
 
-The full ready-to-compile code examples from this chapter can be found [here](https://github.com/libbitcoin/libbitcoin/wiki/Examples:-Script-Machine).
+The full ready-to-compile code examples from this chapter can be found [here](https://github.com/libbitcoin/libbitcoin/wiki/Examples-from-Script-Machine).
 
 ## The Script Program
 
@@ -113,7 +113,7 @@ code debug_program(program& current_program, const script& current_script) {
 
 }
 ```
-We can use the program debugger to run any valid sample script. In the example below, we will run a simple script with if/else, data-push, hashing and check-equal operations. You can find the full ready-to-compile example code in its entirety [here](https://github.com/libbitcoin/libbitcoin/wiki/Examples:-Script-Machine).
+We can use the program debugger to run any valid sample script. In the example below, we will run a simple script with if/else, data-push, hashing and check-equal operations.
 
 **Example Bitcoin script:**
 
@@ -187,7 +187,7 @@ endif
 >>>>>>>> Stack after operation: 7
 [01]
 ```
-We can observe that the top stack element evaluates to true after the completion of the script run. The full ready-to-compile code examples from this chapter can be found [here](https://github.com/libbitcoin/libbitcoin/wiki/Examples:-Script-Machine).
+We can observe that the top stack element evaluates to true after the completion of the script run. The full ready-to-compile code examples from this chapter can be found [here](https://github.com/libbitcoin/libbitcoin/wiki/Examples-from-Script-Machine).
 
 ## Evaluating Input and Output Scripts
 
@@ -223,7 +223,7 @@ We illustrate a P2SH(P2WPKH) script evaluation example below. Using the previous
 
 Our example is wrapped in the function `run_p2sh_p2wpkh()`, which will extract the input, output scripts and witness from its transaction parameter. *Note that the `validation` struct will be moved to `metadata` beginning with the upcoming Libbitcoin version 4 (current master).*
 
-You can find the ready-to-compile example code in its entirety [here](https://github.com/libbitcoin/libbitcoin/wiki/Examples:-Script-Machine).
+You can find the ready-to-compile example code in its entirety [here](https://github.com/libbitcoin/libbitcoin/wiki/Examples-from-Script-Machine).
 
 ```c++
 code run_p2sh_p2wpkh(const transaction& transaction, uint32_t input_index,
@@ -508,4 +508,4 @@ checksig
 >>>>> Stack after operation: 4
 [01]
 ```
-Our P2SH(P2WPKH) transaction example evaluates to true. The full ready-to-compile code examples from this chapter can be found [here](https://github.com/libbitcoin/libbitcoin/wiki/Examples:-Script-Machine).
+Our P2SH(P2WPKH) transaction example evaluates to true. The full ready-to-compile code examples from this chapter can be found [here](https://github.com/libbitcoin/libbitcoin/wiki/Examples-from-Script-Machine).

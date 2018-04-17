@@ -2,7 +2,7 @@ In the previous chapter we illustrated how to create private/public key pairs in
 
 In this chapter, we will cover how to derive publicly shareable Bitcoin addresses, and how to deterministically derive new addresses from existing keys with Hierarchical Deterministic (HD) wallets.
 
-The full example code from this chapter can be found [here](https://github.com/libbitcoin/libbitcoin/wiki/Examples:-Addresses,-Wallets-and-HD-Derivation)
+The full example code from this chapter can be found [here](https://github.com/libbitcoin/libbitcoin/wiki/Examples-from-Addresses-and-HD-Wallets)
 
 ## Creating a Bitcoin Address
 A publicly shareable Bitcoin address is derived from a compressed or uncompressed public key with the additional information of whether it is intended for the Bitcoin mainnet or testnet.
@@ -396,4 +396,4 @@ auto M00h_ = m.derive_public(hd_first_hardened_key);
 // Above keys are equivalent
 std::cout << (M00h == M00h_) << std::endl;
 ```
-The full example code from this chapter can be found [here](https://github.com/libbitcoin/libbitcoin/wiki/Examples:-Addresses,-Wallets-and-HD-Derivation)
+The full example code from this chapter can be found [here](https://github.com/libbitcoin/libbitcoin/wiki/Examples-from-Addresses-and-HD-Wallets)

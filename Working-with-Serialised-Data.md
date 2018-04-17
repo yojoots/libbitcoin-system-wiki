@@ -147,4 +147,4 @@ array_slice(const byte_array<Size>& container);
 // For a data_chunk, this compiles to:
 array_slice(const data_chunk& container);
 ```  
-You can find the entire example code from this chapter [here](https://github.com/libbitcoin/libbitcoin/wiki/Examples:-Serialised-Data).
+You can find the entire example code from this chapter [here](https://github.com/libbitcoin/libbitcoin/wiki/Examples-from-Serialised-Data).

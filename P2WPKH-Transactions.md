@@ -25,7 +25,7 @@ output p2wpkh_output(output_amount, p2wpkh_operations);
 
 If the spending of the previous transaction output(s) do not require the construction of witnesses, the rest of the transaction is built and signed according to the documentation sections [building transactions](https://github.com/libbitcoin/libbitcoin/wiki/Building-Transactions) and [sighash](https://github.com/libbitcoin/libbitcoin/wiki/Sighash-and-TX-Signing).
 
-You can find the complete P2WPKH example script [here](https://github.com/libbitcoin/libbitcoin/wiki/Examples:-Pay-to-Witness-Transactions).
+You can find the complete P2WPKH example script [here](https://github.com/libbitcoin/libbitcoin/wiki/Examples-from-Pay-to-Witness-Transactions).
 
 ## Spending a P2WPKH output
 
@@ -166,4 +166,4 @@ BX tx-decode -f json 01000000000101109d2e41430bfdec7e6dfb02bf78b5827eeb717ef2521
     }
 }
 ```
-You can find the complete P2WPKH transaction script [here](https://github.com/libbitcoin/libbitcoin/wiki/Examples:-Pay-to-Witness-Transactions).
+You can find the complete P2WPKH transaction script [here](https://github.com/libbitcoin/libbitcoin/wiki/Examples-from-Pay-to-Witness-Transactions).
