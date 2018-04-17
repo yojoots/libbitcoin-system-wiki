@@ -1,4 +1,4 @@
-Signing a transaction in Bitcoin means endorsing a serialised representation of the transaction called [sighash](https://github.com/libbitcoin/libbitcoin/wiki/Sighash-&-TX-Signing) with an [ECDSA](https://en.wikipedia.org/wiki/Elliptic_Curve_Digital_Signature_Algorithm) signature.
+Signing a transaction in Bitcoin means endorsing a serialised representation of the transaction called [sighash](https://github.com/libbitcoin/libbitcoin/wiki/Sighash-and-TX-Signing) with an [ECDSA](https://en.wikipedia.org/wiki/Elliptic_Curve_Digital_Signature_Algorithm) signature.
 
 The ECDSA signature itself is composed of two scalar values `r,s`.
 
