@@ -12,7 +12,7 @@
   * [EC Operations](Elliptic-Curve-Operations)
   * [ECDSA & DER Signatures](ECDSA-and-DER-Signatures)
   * [Pedersen Commitments](Pedersen-Commitments-in-EC-Form)
-  * [Addresses & HD Wallets](Addresses-&-HD-Wallets)
+  * [Addresses & HD Wallets](Addresses-and-HD-Wallets)
   * [Building Transactions](Building-Transactions)
   * [Sighash & TX Signing](Sighash-&-TX-Signing)
   * [P2WPKH](P2WPKH-Transactions)
