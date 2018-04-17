@@ -37,7 +37,7 @@ decode_base10(output_amount, btc_amount, btc_decimal_places);
 output p2sh_p2wpkh_output(output_amount, output_script);
 ```
 
-If the spending of the previous transaction output(s) do not require the construction of witnesses, the rest of the transaction is built and signed according to the documentation sections [building transactions](https://github.com/libbitcoin/libbitcoin/wiki/Building-Transactions) and [sighash](https://github.com/libbitcoin/libbitcoin/wiki/Sighash-&-TX-Signing).
+If the spending of the previous transaction output(s) do not require the construction of witnesses, the rest of the transaction is built and signed according to the documentation sections [building transactions](https://github.com/libbitcoin/libbitcoin/wiki/Building-Transactions) and [sighash](https://github.com/libbitcoin/libbitcoin/wiki/Sighash-and-TX-Signing).
 
 You can find the complete P2SH(P2WSH) example script [here](https://github.com/libbitcoin/libbitcoin/wiki/Examples:-Pay-to-Witness-Transactions).
 
