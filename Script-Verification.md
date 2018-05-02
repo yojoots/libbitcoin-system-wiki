@@ -1,6 +1,6 @@
 This section describes the verification of input and output scripts with the relevant non-script arguments (witnesses, lock-time, previous output amounts etc). Note that script verification does not verify any chain state information. Script verification assesses whether input & output scripts evaluate to true on the script stack for a given a set of consensus rules.
 
-![script::verify](https://ipfs.io/ipfs/QmawhfSnituYBH61hGNy8gFxHVM4QNnDjjxrLdxs1BRdTD)
+![script::verify](files/Script-Verification/script_verification.jpg)
 
 In Libbitcoin, the [`script::verify()`](https://github.com/libbitcoin/libbitcoin/blob/master/include/bitcoin/bitcoin/chain/script.hpp#L212-L218) function parses the input and output scripts through the script interpreter, in order to evaluate if the entire script evaluates to true.
 

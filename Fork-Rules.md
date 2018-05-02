@@ -38,7 +38,7 @@ We may also toggle the activation of specific fork rules to effectively illustra
 
 [BIP16](https://github.com/bitcoin/bips/blob/master/bip-0016.mediawiki) did not add any new script operators, but introduced a new stack evaluation rule: First, the embedded script data push in the input script would be verified, to ensure it hashed to the embedded script hash in the P2SH script. If this evaluated to true, the embedded script would then be evaluated again, but this time together with the input script.
 
-![BIP16](https://ipfs.io/ipfs/QmNrpMWpH6WU8Wv8AhHo9VDb31N9xVv6qC1Ln7zMsNZoiR)
+![BIP16](files/Fork-Rules/BIP_16_fork.jpg)
 
 We can demonstrate the BIP16 soft fork in Libbitcoin by constructing a P2SH(2-of-2 Multisig) script and passing it to the interpreter together with two different input scripts: One input script which contains only the embedded script, and another one, which also includes an input script, as illustrated above.
 
@@ -158,7 +158,7 @@ BIP141 introduced the witness as part of the transaction serialisation format, w
 
 Let us consider a P2WPKH script, which is backwards compatible to previous consensus rules, meaning that it can spent by anyone when BIP141 is not activated.
 
-![BIP141/143](https://ipfs.io/ipfs/QmPeQ12TWShkRGaU2tqpodXYS87AjkeiKZg4G2DRu4Lu9j)
+![BIP141/143](files/Fork-Rules/BIP_141_143_fork.jpg)
 
 To demonstrate this in Libbitcoin, we will first construct the P2WPKH script, and then attempt to spend it with an empty input script.
 

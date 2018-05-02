@@ -165,7 +165,7 @@ The `wallet::word_list` type is simply a type alias of `std::vector<std::string>
 
 This 128 - 256 bit secret encoded by the mnemonic word list can be stretched to 512 bits using the "Password-Based Key Derivation Function 2" (PBKDF2) function, which accepts two parameters: The mnemonic word list and a salt consisting of `"mnemonic"` and an optional passphrase.
 
-![key stretching](https://ipfs.io/ipfs/Qmf9N5MgnnQUCq2U6zYNFf7E2LxU8TSfEygVJ2KWvojkGA)
+![key stretching](files/Addresses-and-HD-Wallets/mnemonic_keystretching.jpg)
 
 We use the `decode_mnemonic(my_word_list, my_passphrase)` method to derive the 512 bit seed, from which we will later create a HD wallet. The passphrase is optional, but increases the cost of brute-force attacks against the mnemonic word list. Note that using an optional secret passphrase will require compiling Libbitcoin with the [ICU option](https://github.com/libbitcoin/libbitcoin/blob/master/README.md).
 
@@ -192,7 +192,7 @@ Hierarchical deterministic (HD) wallets allow for an arbitrary number of Bitcoin
 
 This root seed can have a length of 128, 256 or 512 bits. The 512 bit lengthened secret encoded by the mnemonic in the previous section is frequently used as the HD root seed to create a HD wallet.
 
-![HD Wallet Master Keys](https://ipfs.io/ipfs/QmStnFJNnQaJR9w3JWRW8VXBqkiFF92FNfXS58P7R4PrGe)
+![HD Wallet Master Keys](files/Addresses-and-HD-Wallets/hd_master_key.jpg)
 
 The 512 bit HD root seed is hashed by the `HMAC-SHA512` algorithm to create a
 512 bit digest, which is used split into two separate parts:
@@ -229,7 +229,7 @@ The index is incremented to generate additional child private key from the same 
 
 *Note that  indices between 0 and 2^31-1 (0x and 0x7FFFFFFF) are used for normal child derivation as described above. Higher indices are reserved for hardened child derivation, which will be covered in a later section in this chapter.*
 
-![Child Private Keys](https://ipfs.io/ipfs/QmXpKfQ7Xqfz72SmgqNWqLcrfbXAipsSKvGzmtHtTnUf9u)
+![Child Private Keys](files/Addresses-and-HD-Wallets/priv_child_derivation.jpg)
 
 In Libbitcoin, we can derive create private key or public key children of a `hd_private` object with a given index number.
 
@@ -275,11 +275,11 @@ So we can now create child public keys with `HMAC-SHA512` with the following inp
 * 256 bit **Parent Chain Code**
 * 32 bit **Index Number**  
 
-![Child Public Keys](https://ipfs.io/ipfs/QmYB2mACFr51NHmzvb4YL2Did95iCmHbvbiz87isUZ6WJm)
+![Child Public Keys](files/Addresses-and-HD-Wallets/pub_child_derivation.jpg)
 
 The ability to derive public key descendants of arbitrary depth without the knowledge of the corresponding private keys allows us to derive private and public keys in completely separate environments. The image below shows all the possible derivation paths for HD private and public keys.
 
-![Child derivation paths](https://ipfs.io/ipfs/QmcF3DyJmDuRwzTkguwJohaY3JuKiQkNY3pSpVCdA4GP7t)
+![Child derivation paths](files/Addresses-and-HD-Wallets/hd_extended_derivationpaths.jpg)
 
 Deriving public keys in Libbitcoin is similar to the previous example of child private keys.
 
@@ -370,15 +370,15 @@ std::cout << encode_base16(m1_xprv_checksum) << std::endl;
 
 In the case that a both the public extended key and a descendent child private key are exposed, it is possible for a malicious actor to derive both the private extended key as well as all descendent children.
 
-![HD Key Exposure](https://ipfs.io/ipfs/QmeqQkX1zPE6qiFrDsufRmtMUvwTWw47xkcpdfegs4MQW9)
+![HD Key Exposure](files/Addresses-and-HD-Wallets/exposed_hd_keys.jpg)
 
 To prevent this, a hardened child private key can be derived using the parent private key instead of the parent public key as an input to the `HMAC-SHA512` function.
 
-![Hardened Derivation](https://ipfs.io/ipfs/QmcKnPY145Cxt8A2k8Zdh9CNYhMRa9SZ21C2CrFEQ2LQBR)
+![Hardened Derivation](files/Addresses-and-HD-Wallets/hardened_derivation.jpg)
 
 This breaks the derivation path between a hardened public key and its public key parent.
 
-![Hardened Child Keys](https://ipfs.io/ipfs/QmRar54qos7KpznExouSp1FoR53xr5Dbw3m6npVUjXymET)  
+![Hardened Child Keys](files/Addresses-and-HD-Wallets/extended_keys_hardened.jpg)  
 
 In Libbitcoin, deriving a hardened child private key is implied with the index being set >= 0xFFFFFFFF:
 <!-- Example 4 (part 2) -->

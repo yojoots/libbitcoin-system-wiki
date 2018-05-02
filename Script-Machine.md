@@ -6,7 +6,7 @@ The full ready-to-compile code examples from this chapter can be found [here](ht
 
 The basis of running a script in the Libbitcoin script machine is the [`machine::program`](https://github.com/libbitcoin/libbitcoin/blob/master/include/bitcoin/bitcoin/machine/program.hpp#L36-L165) class. A Libbitcoin program contains a script, stack and other internal  objects which capture the current state of the program during a script run.
 
-![machine::program](https://ipfs.io/ipfs/QmQ1fVnV8pLK1BY36gm43mKfM4tA1cPfhdKuKEjyb6gaHK)
+![machine::program](files/Script-Machine/script_machine.jpg)
 
 During a script run, the current operation can affect the stack, alternate stack and the flow control state of the program, if the operation is conditional. At the beginning of a script run, the stack can be either empty, or adopt an initial state. The flow control state must be neutral at the beginning and end of each script run, ensuring that all conditional blocks are  closed (OP_IF requires OP_ENDIF).
 
@@ -195,7 +195,7 @@ When evaluating input and output scripts during the validation of a Bitcoin tran
 
 *Note: Input and output scripts are run separately, because concatenation of both scripts could allow the output script to be altered by the preceding input script. For example, it would be possible to end the input script with a data push operator, rendering the entire output script into a single data push.*
 
-![evaluation: no rules](https://ipfs.io/ipfs/QmRJyaAbwR7SwhteXWNWHYAMf3xLSoBivB6neHqsQAwFRw)
+![evaluation: no rules](files/Script-Machine/script_evaluation.jpg)
 
 After completion of the output script run, the stack will evaluate to true if the top stack element is a non-zero element. In the case that fork rules BIP16 and BIP141 are inactive, the transaction script verification is complete.
 
@@ -203,19 +203,19 @@ After completion of the output script run, the stack will evaluate to true if th
 
 If BIP16 is activated, the transaction script evaluation is extended by an embedded script run. The embedded script data push from the top of the input script stack is popped off, and the remaining stack is carried over to the P2SH embedded script run.
 
-![evaluation: BIP16](https://ipfs.io/ipfs/QmX3hgpG8am2JRnRpwFSTsiXtYB6dWMWvuHBMy45hoZEep)
+![evaluation: BIP16](files/Script-Machine/script_evaluation_bip_16.jpg)
 
 ### Evaluating Witness Program Scripts (BIP141)
 
 If BIP141 is activated, the transaction script evaluation is extended similar to the P2SH case. After the output script run is completed, the output script is checked whether it fits the pay-to-witness pattern. If a pay-to-witness pattern match is positive and the witness program is a P2WPKH script, a P2PKH script of the witness public key hash will be run with the witness in its initial stack. In the case of a P2WSH witness program, the P2WSH embedded script is first popped off the witness and run with the remaining witness stack.
 
-![evaluation: BIP141](https://ipfs.io/ipfs/QmbKFRn4D1hZN2u3KT6tn4jZf3KFjnhrrZBNoT29EbPDXb)
+![evaluation: BIP141](files/Script-Machine/script_evaluation_bip_141.jpg)
 
 ### P2SH(Pay-to-Witness Program) (BIP16/141)
 
 For pay-to-witness programs wrapped in P2SH scripts, the initial script runs will mirror that of regular P2SH script evaluations. However, once the P2SH output script run is successfully completed, and a pay-to-witness pattern is detected in the embedded script, the extracted script run will be initiated with the witness stack.
 
-![evaluation: BIP16+141](https://ipfs.io/ipfs/QmbeDUdWauariV4Qfe8WL7b8Kr24Z1fuw5Amp9kM7PgQZN)
+![evaluation: BIP16+141](files/Script-Machine/script_evaluation_bip_16_141.jpg)
 
 ### P2SH(P2WPKH) Example:
 
