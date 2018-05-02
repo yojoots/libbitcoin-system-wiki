@@ -14,7 +14,7 @@ The input signature can endorse an entire transaction with a fixed set of inputs
 
 The illustration below illustrates the signature derivation for an input with the sighash set to `ALL`:
 
-![SIGHASH ALL](https://ipfs.io/ipfs/QmbEYaLrNkCV8zHcvvHYPwHDA4f87Zp9w1pkrBMhxAQQWf)
+![SIGHASH ALL](files/Sighash-and-TX-Signing/sighash_all.jpg)
 
 Since the entire transaction is included in the sighash that is signed, we must first construct the complete set of inputs and outputs before the signatures are created.
 
@@ -97,7 +97,7 @@ std::cout << ec_input1.message() << std::endl;
 
 Signing an input with the sighash marker set to `NONE` omits all outputs in the sighash which is signed.
 
-![SIGHASH NONE](https://ipfs.io/ipfs/QmaEDF2XYYwMtHzd7jcqRcWbPnMXWFtfbsg9B2TzxAj3su)
+![SIGHASH NONE](files/Sighash-and-TX-Signing/sighash_none.jpg)
 
 We can therefore modify any output after the input signatures are created.
 
@@ -171,7 +171,7 @@ std::cout << ec_input1.message() << std::endl;
 
 A signature with the sighash marker set to `SINGLE` will only endorse or fix a single output with the same index as the input being signed. All other outputs can be modified later.
 
-![SIGHASH SINGLE](https://ipfs.io/ipfs/QmNhHs2y7LhHx6b7xdCN2tJsB3j8WaZNXeuMqJiQjPEcz2)
+![SIGHASH SINGLE](files/Sighash-and-TX-Signing/sighash_single.jpg)
 
 In the following example, we will sign a transaction with 2 inputs and 2 outputs, but add further outputs later on.
 <!-- Example 3 -->
@@ -256,7 +256,7 @@ The sighash modifier `ANYONECANPAY` enables inputs to be modified after signing,
 
 The following image illustrates the signature derivation for an input set to `SINGLE|ANYONECANPAY`
 
-![SIGHASH SINGLE|ANYONECANPAY](https://ipfs.io/ipfs/QmZX7tS7tvtHnfKEokMTfq57yeweiEBQh8DHTqfb4fgET2)
+![SIGHASH SINGLE|ANYONECANPAY](files/Sighash-and-TX-Signing/sighash_single_anyonecanpay.jpg)
 
 **Sighash Example: NONE|ANYONECANPAY**  
 
