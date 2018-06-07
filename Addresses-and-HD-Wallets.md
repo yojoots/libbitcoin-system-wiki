@@ -84,7 +84,7 @@ We can now manually create a WIF private key following the preceding schema.
 // WIF encoded private key
 // Additional Information: Mainnet, PubKey compression
 one_byte secret_prefix = { { 0x80 } }; //Testnet Prefix: 0xEF
-one_byte secret_compressed = { { 0x01} }; //Omitted if uncompressed
+one_byte secret_compressed = { { 0x01 } }; //Omitted if uncompressed
 
 // Apply prefix, suffix & append checksum
 auto prefix_secret_comp_checksum = to_chunk(secret_prefix);
