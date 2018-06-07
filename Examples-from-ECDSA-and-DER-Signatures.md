@@ -12,17 +12,16 @@ Script below is ready-to-compile: `g++ -std=c++11 -o ecdsa_der ecdsa_der_example
 #include <string.h>
 #include <iostream>
 
-
 using namespace bc;
 
-void ecdsa_der_signing() {
-
+void ecdsa_der_signing()
+{
     //********** Part 1 **********
 
-    // Hash of an arbitrary msg.
-    auto msg = base16_literal(
-  	     "04c294ab836b61955e762547c561a45e4be88984dca06da959d47bf880fd92f4");
-    hash_digest my_hash = bitcoin_hash(msg);
+    // Hash of an arbitrary message.
+    auto message = base16_literal(
+  	 "04c294ab836b61955e762547c561a45e4be88984dca06da959d47bf880fd92f4");
+    auto my_hash = bitcoin_hash(message);
 
     // My private & public keys.
     auto my_secret = base16_literal(
@@ -54,16 +53,13 @@ void ecdsa_der_signing() {
     // Strict enforcement of DER = true.
     std::cout << parse_signature(my_signature, my_der_signature, true)
               << std::endl;
-
 }
 
 
-int main() {
-
+int main()
+{
   ecdsa_der_signing();
-
   return 0;
-
 }
 
 ```
