@@ -30,7 +30,7 @@ void ecdsa_der_signing()
     secret_to_public(my_pubkey, my_secret);
 
     // Sign hash of TX with my private key.
-    ec_signature my_signature; //r,s
+    ec_signature my_signature;
     sign(my_signature, my_secret, my_hash);
 
     // Verify Signature.
@@ -54,7 +54,6 @@ void ecdsa_der_signing()
     std::cout << parse_signature(my_signature, my_der_signature, true)
               << std::endl;
 }
-
 
 int main()
 {
