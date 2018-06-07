@@ -29,88 +29,73 @@ The following example function `debug_program()` will loop through all valid ope
   * *(debug_program: Print operation & Stack)*
 
 ```c++
-code debug_program(program& current_program, const script& current_script) {
-
+code debug_program(program& current_program, const script& current_script)
+{
     code ec;
 
-    //Check if script is valid.
-    //    Trailing invalid op due to push op size mismatch
-    //    Script is unspendable (op_return / > max_script_size of 10kbytes)
-    if (!current_program.is_valid()) {
-        ec = error::invalid_script;
-        return ec;
-    }
+    // Check if script is valid.
+    // Trailing invalid op due to push op size mismatch
+    // Script is unspendable (op_return / > max_script_size of 10kb)
+    if (!current_program.is_valid())
+        return error::invalid_script;
 
     // Script is valid:
-    else {
 
-        // Run individual operations of script.
-        int script_index(0);
+    // Run individual operations of script.
+    int script_index(0);
 
-        // Loop through all script operations.
-        for (const auto& op: current_program) {
+    // Loop through all script operations.
+    for (const auto& op: current_program)
+    {
+        // Max script element size (520 bytes)
+        if (op.is_oversized())
+            return error::invalid_push_data_size;
 
-            // Max script element size (520 bytes)
-            if (op.is_oversized()) {
-                return error::invalid_push_data_size;
-            }
+        // Disallowed operations which can cause script vulnerabilities.
+        if (op.is_disabled())
+            return error::op_disabled;
 
-            // Disallowed operations which can cause script vulnerabilities.
-            if (op.is_disabled()) {
-                return error::op_disabled;
-            }
+        // Increment operation count for (op >= op_97),
+        // Maximum count of 201 permitted.
+        if (!current_program.increment_operation_count(op))
+            return error::invalid_operation_count;
 
-            // Increment operation count for (op >= op_97),
-            //    Maximimum count of 201 permitted.
-            if (!current_program.increment_operation_count(op)) {
-                return error::invalid_operation_count;
-            }
-
-            // If operation is unconditional, conditional state must be positive
-            //    for subsequent operation.
-            if (current_program.if_(op))
+        // If operation is unconditional, conditional state must be positive
+        // for subsequent operation.
+        if (current_program.if_(op))
+        {
+            // Check that stack < 1000 elements (overflow).
+            if (!current_program.is_stack_overflow())
             {
-                // Check that stack < 1000 elements (overflow).
-                if (!current_program.is_stack_overflow())
-                {
-                    // Execute operation. Changes state of stack.
-                    if ((ec = current_program.evaluate(op))) // if error
-                    {
-                        return ec;
-                    }
+                // Execute operation. Changes state of stack.
+                if ((ec = current_program.evaluate(op)))
+                    return ec;
 
-                    // Print out operator that has been executed.
-                    std::cout << std::endl;
-                    std::cout << std::string(script_index + 1, '>')
-                              << " Operation: " << script_index << std::endl;
-                    std::cout << op.to_string(rule_fork::all_rules) << std::endl;
-                    std::cout << std::endl;
+                // Print out operator that has been executed.
+                std::cout << std::endl;
+                std::cout << std::string(script_index + 1, '>')
+                          << " Operation: " << script_index << std::endl;
+                std::cout << op.to_string(rule_fork::all_rules) << std::endl;
+                std::cout << std::endl;
 
-                    // Print stack state after execution of operation.
-                    program program_copy(current_script, current_program);
-                    std::cout << std::string(script_index + 1, '>')
-                              << " Stack after operation: "
-                              << script_index << std::endl;
-                    while (!program_copy.empty())
-                    {
-                        std::cout << "[" << encode_base16(program_copy.pop())
-                                  << "]" << std::endl;
-                    }
+                // Print stack state after execution of operation.
+                program program_copy(current_script, current_program);
+                std::cout << std::string(script_index + 1, '>')
+                          << " Stack after operation: "
+                          << script_index << std::endl;
 
-                    // Increment script_index.
-                    script_index += 1;
-                }
+                while (!program_copy.empty())
+                    std::cout << "[" << encode_base16(program_copy.pop())
+                              << "]" << std::endl;
+
+                script_index += 1;
             }
         }
     }
 
-    // Checks for no outstanding flow control operations.
-    // e.g. missing ENDIF
-    current_program.closed() ?
-        ec = error::success : ec = error::invalid_stack_scope;
-
-    return ec;
-
+    // Check for no outstanding flow control operations (missing ENDIF).
+    return current_program.closed() ? error::success : 
+        error::invalid_stack_scope;
 }
 ```
 We can use the program debugger to run any valid sample script. In the example below, we will run a simple script with if/else, data-push, hashing and check-equal operations.
@@ -227,8 +212,8 @@ You can find the ready-to-compile example code in its entirety [here](https://gi
 
 ```c++
 code run_p2sh_p2wpkh(const transaction& transaction, uint32_t input_index,
-    uint32_t forks) {
-
+    uint32_t forks)
+{
     // Assumes witness and previous output point set in transaction.
     auto p2sh_p2wpkh_transaction = transaction;
     auto input_script = p2sh_p2wpkh_transaction.inputs()[input_index].script();
@@ -288,9 +273,7 @@ Subsequently, given that the input script run was successful, the output script 
     //--------------------------------------------------------------------------
 
     if (!output_program.stack_result(false))
-    {
         return error::stack_false;
-    }
 ```
 
 The second run results in the following stack states printed by our example `debug_program()` function.
@@ -325,28 +308,25 @@ Since the stack evaluates to true after running the P2SH script, the output scri
     // 4) Check for p2w pattern.
     //--------------------------------------------------------------------------
 
-    bool witnessed(false);
+    auto witnessed = false;
 
-    if ((forks & rule_fork::bip141_rule) == rule_fork::bip141_rule)
+    if ((forks & rule_fork::bip141_rule) != 0)
     {
         if ((witnessed = script::is_witness_program_pattern(
             prevout_script.operations())))
         {
-            //Omitted: Evaluate witness program
+            // Omitted: Evaluate witness program
         }
     }
 
     // 5) Detect P2SH pattern in output script (BIP16)
     //--------------------------------------------------------------------------
 
-    if (!((forks & rule_fork::bip16_rule) == rule_fork::bip16_rule))
-    {
+    if ((forks & rule_fork::bip16_rule) == 0))
         return error::success;
-    }
 
     if (prevout_script.output_pattern() == script_pattern::pay_script_hash)
     {
-
         std::cout << "\n"
                   << "----------- P2SH pattern detected -------------"
                   << std::endl;
@@ -401,15 +381,12 @@ The P2PKH script is initialised with the witness data stack.
     // 6) Detect witness program pattern in P2SH embedded script (bip141)
     //----------------------------------------------------------------------
 
-        if (!((forks & rule_fork::bip141_rule) == rule_fork::bip141_rule))
-        {
+        if ((forks & rule_fork::bip141_rule) == 0)
             return error::success;
-        }
 
         if ((witnessed = script::is_witness_program_pattern(
             embedded_script.operations())))
         {
-
             std::cout << "\n"
                       << "---------- Witness program detected -----------"
                       << std::endl;
@@ -419,9 +396,7 @@ The P2PKH script is initialised with the witness data stack.
 
             // The input script must be a push of the embedded_script (bip141).
             if (input_script.size() != 1)
-            {
                 return error::dirty_witness;
-            }
 
             const auto version = embedded_script.version();
 
@@ -431,11 +406,9 @@ The P2PKH script is initialised with the witness data stack.
                 script script;
                 data_stack stack;
 
-                if (!witness.extract_embedded_script(
-                    script, stack, embedded_script))//
-                {
+                if (!witness.extract_embedded_script(script, stack,
+                    embedded_script))
                     return error::invalid_witness;
-                }
 
                 std::cout
                     << "\n"
@@ -446,20 +419,18 @@ The P2PKH script is initialised with the witness data stack.
                     forks, std::move(stack), input_amount,
                     version);
 
-                ec = debug_program(witness, script);
+                if ((ec = debug_program(witness, script)))
+                    return ec;
 
                 if (!witness.stack_result(false))
                     return error::stack_false;
             }
         }
-    } // End p2sh run.
+    }
 
 // Witness must be empty
-if (!witnessed && !witness.empty())
-return error::unexpected_witness;
-
-return error::success;
-
+return (witnessed || witness.empty()) ? error::success :
+    error::unexpected_witness;
 }
 ```
 
