@@ -4,4 +4,4 @@ There is a theory that [security](Qualitative-Security-Model) is increased by [d
 
 There is a related theory that transparency of a decoupled pool is greater than that of a coupled pool, facilitating flight of members to non-censoring pools, therefore limiting the dominance of censoring pools. Generously accepting the assumptions of greater transparency and independent miners operating against financial self-interest, we are still left with the fact of co-option. The [state](Glossary#state) can still reserve for itself the ability to operate with the [financial advantages of pooling](Pooling-Pressure-Risk) and the theory is therefore invalid.
 
-This fallacy is similar to the [Relay Fallacy](Relay-Fallacy) in that all financial advantage depends on deferring control over that advantage to a single [person](Glossary#person).
+This fallacy is similar to the [Relay Fallacy](Relay-Fallacy) in that all financial advantage depends on granting control over that advantage to a single [person](Glossary#person).
