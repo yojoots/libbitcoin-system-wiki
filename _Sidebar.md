@@ -54,7 +54,7 @@
   * [Causation Fallacy](Causation-Fallacy)
   * [Cockroach Fallacy](Cockroach-Fallacy)
   * [Credit Expansion Fallacy](Credit-Expansion-Fallacy)
-  * [Decoupled-Mining-Fallacy](Decoupled-Mining-Fallacy)
+  * [Decoupled Mining Fallacy](Decoupled-Mining-Fallacy)
   * [Dumping Fallacy](Dumping-Fallacy)
   * [Empty Block Fallacy](Empty-Block-Fallacy)
   * [Energy Exhaustion Fallacy](Energy-Exhaustion-Fallacy)
