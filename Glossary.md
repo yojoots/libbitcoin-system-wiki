@@ -249,7 +249,7 @@ A [Miner](#miner) who builds on the [Blocks](#block) of others.
 A [Miner](#miner) who is not always [Honest](#honest).
 #### Variance
 The varying frequency of achieving a [Reward](#reward).
-#### Decoupled
+#### Decouple
 A [Mine](#mine) that shares [Reward](#reward) with another to reduce [Variance](#variance).
 
 ## Deviations
