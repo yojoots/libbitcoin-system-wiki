@@ -58,9 +58,9 @@ std::cout << (my_scalar_added1 == my_scalar_added2) << std::endl;
 ec_secret my_scalar_multiplied1(my_scalar1);
 ec_secret my_scalar_multiplied2(my_scalar2);
 // my_scalar_multiplied1 *= my_scalar2 % p
-ec_add(my_scalar_multiplied1, my_scalar2);
+ec_multiply(my_scalar_multiplied1, my_scalar2);
 // my_scalar_multiplied2 *= my_scalar1 % p
-ec_add(my_scalar_multiplied2, my_scalar1);
+ec_multiply(my_scalar_multiplied2, my_scalar1);
 std::cout << (my_scalar_multiplied1 == my_scalar_multiplied2) << std::endl;
 ```
 
