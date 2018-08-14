@@ -22,7 +22,7 @@ For Segwit enabled addresses, the segwit witness is represented by the `witness`
 
 | TX component               | Libbitcoin transaction  |
 | ---------------------------|-------------------------|
-| Inpput: Segregated Witness | input > witness         |
+| Input: Segregated Witness  | input > witness         |
 
 
 ## Constructing the Transaction Object
