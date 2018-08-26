@@ -53,7 +53,7 @@ Don't treat non-boolean values or expressions as boolean, even in assertions, us
 
 Use `char` for "characters", don't use `unsigned char` when you mean "byte", use `uint8_t`.
 
-Assume `char` is interpreted as Utf-8, even in VC++! We have implemented "Utf-8 everywhere".
+Assume `char` is interpreted as Utf-8, even in VC++! We have implemented [Utf-8 Everywhere](http://utf8everywhere.org/).
 
 Use `boost::filesystem::path` for any part of a filesystem path, not `std::string`.
 
