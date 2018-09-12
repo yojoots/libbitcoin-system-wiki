@@ -7,6 +7,7 @@ The theory is invalid, as it rests on a factual error. **It is evident that stat
 * Drugs
 * Gambling
 * Prostitution
+* Religion
 * Speech
 * Assembly
 * Trade
