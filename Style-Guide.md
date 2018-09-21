@@ -104,7 +104,7 @@ Be careful with the use of assertions, they get removed in `NDEBUG` builds and c
 
 Use assertions **only** to facilitate debugging, **not** for error handling.
 
-Guard all parameters of published API calls against bad data. Assersions are insufficient guards for API parameters.
+Guard all parameters of published API calls against bad data. Assertions are insufficient guards for API parameters.
 
 Avoid direct use of numeric literals other than zero in a zero-based index. Use `sizeof()` if you are referring to a type size. Use `constexpr` or `const` for magic numbers.
 
