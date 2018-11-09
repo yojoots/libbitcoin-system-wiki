@@ -1,4 +1,4 @@
-There is a theory that property [ownership](Glossary#owner) can be secured by immutable [claim](Glossary#claimant)-keeping, both against claim loss and [custodial](Glossary#custodian) failure.
+There is a theory that property [ownership](Glossary#owner) can be secured by immutable [claim](Glossary#claimant)-keeping, both against claim loss and [Custodial Risk](Custodial-Risk-Principle).
 
 Given that a claim is not itself the property, control of the property rests with the custodian against whom the claim is made. A custodian has the ability to surrender or retain the property and is therefore a [trusted third party](https://en.wikipedia.org/wiki/Trusted_third_party). Abrogation of a claim by its custodian is always mitigated by custodian signature, cryptographic or otherwise, with enforcement of the claim left to its holder.
 
