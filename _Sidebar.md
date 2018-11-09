@@ -27,6 +27,7 @@
 * **[Cryptoeconomics](Cryptoeconomics)**
   * [Value Proposition](Value-Proposition)
   * [Axiom of Resistance](Axiom-of-Resistance)
+  * [Custodial Risk Principle](Custodial-Risk-Principle)
   * [Dedicated Cost Principle](Dedicated-Cost-Principle)
   * [Other Means Principle](Other-Means-Principle)
   * [Patent Resistance Principle](Patent-Resistance-Principle)
