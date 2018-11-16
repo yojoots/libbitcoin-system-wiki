@@ -1,5 +1,5 @@
 ## Sending to a P2WSH Output
-Sending a transaction to a Pay-to-Witness-Script-Hash (P2WPKH) address requires the construction of the following output script:
+Sending a transaction to a Pay-to-Witness-Script-Hash (P2WSH) address requires the construction of the following output script:
 
 | Transaction Element | Script								                    |
 | --------------------|-------------------------------------------|
