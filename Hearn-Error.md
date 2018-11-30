@@ -1,4 +1,4 @@
-There is a theory that [states](Glossary#state) cannot ban popular things.
+There is a theory that a [state](Glossary#state) cannot ban popular things.
 
 This implies that high [transaction](Glossary#transaction) throughput allows effective defense against [attacks](Glossary#attack) and [coercion](Glossary#coercion). This in turn implies that Bitcoin can be secured by accepting the [centralizing](Glossary#centralization) force of very high transaction throughput.
 
