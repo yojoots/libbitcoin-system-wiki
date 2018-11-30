@@ -2,7 +2,7 @@ Resistance to [censorship](Glossary#censorship) is a consequence of [transaction
 
 A majority miner is financially profitable. As such there is no cost to acquiring the means of censorship. As mining is necessarily an [anonymous](Risk-Sharing-Principle) role it is always possible for any actor to acquire and deploy majority hash power, and to control it at any given time.
 
-In the case of active censorship, fees may rise on transactions that fail to confirm. This fee premium creates a greater potential profit for miners who confirm censored transactions. At a sufficient level this opportunity produces additional competition and therefore increasing overall [hash rate](hash-rate).
+In the case of active censorship, fees may rise on transactions that fail to confirm. This fee premium creates a greater potential profit for miners who confirm censored transactions. At a sufficient level this opportunity produces additional competition and therefore increasing overall [hash rate](Glossary#hash-rate).
 
 If rising non-censoring hash power exceeds that of the censor, its enforcement fails. The censor is thus faced with the choice of subsidizing operations or abandoning the effort. Only the [state](Glossary#state) can perpetually subsidize operations, as it can compel tax and gains from preservation of its own currency regime. **The state must consume taxes to at least the level of the fee premium to maintain censorship enforcement.**
 
