@@ -4,7 +4,7 @@ A majority miner is financially profitable. As such there is no cost to acquirin
 
 In the case of active censorship, fees may rise on transactions that fail to confirm. This fee premium creates a greater potential profit for miners who confirm censored transactions. At a sufficient level this opportunity produces additional competition and therefore increasing overall [hash rate](Glossary#hash-rate).
 
-If rising non-censoring hash power exceeds that of the censor, its enforcement fails. The censor is thus faced with the choice of subsidizing operations or abandoning the effort. Only the [state](Glossary#state) can perpetually subsidize operations, as it can compel tax and gains from preservation of its own currency regime. **The state must consume taxes to at least the level of the fee premium to maintain censorship enforcement.**
+If rising non-censoring [hash power](Glossary#hash-power) exceeds that of the censor, its enforcement fails. The censor is thus faced with the choice of subsidizing operations or abandoning the effort. Only the [state](Glossary#state) can perpetually subsidize operations, as it can compel tax and gains from preservation of its own currency regime. **The state must consume taxes to at least the level of the fee premium to maintain censorship enforcement.**
 
 A [coin](Glossary#coin) without integrated fees would either fail to a censor or evolve a side fee market. As shown in [Side Fee Fallacy](Side-Fee-Fallacy) it is not necessary that fees be integrated, however fee integration is an important anonymity technique. In either case censorship resistance arises only from the fee premium.
 
