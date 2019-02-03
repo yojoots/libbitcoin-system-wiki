@@ -465,7 +465,7 @@ Contrast ./xmr results above from what https://xmr.llcoins.net/addresstests.html
 
 **Ethereum Hexadecimal m/44'/60'/0'/0/0 Private Key** 
 ```
-% echo "radar blur cabbage chef fix engine embark joy scheme fiction master release" | bx mnemonic-to-seed | bx hd-new -v 76066276 | bx hd-private -d -i 44 | bx hd-private -d -i 60 | bx hd-private -d -i 0 | bx hd-private -i 0 | bx hd-private -i 0 | bx hd-to-ec
+% echo "radar blur cabbage chef fix engine embark joy scheme fiction master release" | bx mnemonic-to-seed -p "" | bx hd-new | bx hd-private -d -i 44 | bx hd-private -d -i 60 | bx hd-private -d -i 0 | bx hd-private -i 0 | bx hd-private -i 0 | bx hd-to-ec
 ```
 ```
 radar blur cabbage chef fix engine embark joy scheme fiction master release
@@ -481,7 +481,7 @@ b96e9ccb774cc33213cbcb2c69d3cdae17b0fe4888a1ccd343cbd1a17fd98b18
 
 **Ethereum Hexadecimal M/44'/60'/0'/0/0 Public Address:**
 ```
-% echo "radar blur cabbage chef fix engine embark joy scheme fiction master release" | bx mnemonic-to-seed | bx hd-new -v 76066276 | bx hd-private -d -i 44 | bx hd-private -d -i 60 | bx hd-private -d -i 0 | bx hd-private -i 0 | bx hd-private -i 0 | bx hd-to-ec | bx ec-to-public -u | sed 's/^..//' | ./kec | sed 's/^........................//'
+% echo "radar blur cabbage chef fix engine embark joy scheme fiction master release" | bx mnemonic-to-seed -p "" | bx hd-new | bx hd-private -d -i 44 | bx hd-private -d -i 60 | bx hd-private -d -i 0 | bx hd-private -i 0 | bx hd-private -i 0 | bx hd-to-ec | bx ec-to-public -u | sed 's/^..//' | ./kec | sed 's/^.\{24\}//'
 ```
 ```
 radar blur cabbage chef fix engine embark joy scheme fiction master release
