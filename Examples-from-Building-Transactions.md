@@ -5,14 +5,15 @@ All examples from the building transactions documentation chapter are shown here
 
 **Libbitcoin API:** Version 3.
 
-Script below is ready-to-compile: `g++ -std=c++11 -o build_tx build_tx_examples.cpp $(pkg-config --cflags libbitcoin --libs libbitcoin)`
+Script below is ready-to-compile: `g++ -std=c++11 -o build_tx build_tx_examples.cpp $(pkg-config --cflags libbitcoin-system --libs libbitcoin-system)`
 
 ```c++
-#include <bitcoin/bitcoin.hpp>
+#include <bitcoin/system.hpp>
 #include <string.h>
 #include <iostream>
 
 using namespace bc;
+using namespace bc::system;
 using namespace wallet;
 using namespace chain;
 using namespace machine;
