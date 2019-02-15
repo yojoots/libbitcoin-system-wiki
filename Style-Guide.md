@@ -4,6 +4,8 @@ Each continued line should be nested by 1 indent. Parameter stacking is discoura
 
 If you're nesting more than 3 levels deep then generally you are doing something wrong. Reorganize and/or break it into functions. Always prefer flat over nested, dumb over clever, slow+clear over fast+obtuse.
 
+Avoid structured exception handling.
+
 Use `_` as opposed to `-` in source file names.
 
 Variables, functions, `class`, `enum`, and `typedef` are lower case, `define` (macros) upper case, [CamelCase](http://en.wikipedia.org/wiki/CamelCase) identifiers for `template` types, no other mixed case.
