@@ -463,7 +463,7 @@ Contrast ./xmr results above from what https://xmr.llcoins.net/addresstests.html
 
 **Ledger Monero m/44'/128'/0'/0/0 Account with a BIP39 passphrase:**
 ```
-% % echo "radar blur cabbage chef fix engine embark joy scheme fiction master release" | bx mnemonic-to-seed -p "My Passphrase" | bx hd-new | bx hd-private -d -i 44 | bx hd-private -d -i 128 |  bx hd-private -d -i 0 | bx hd-private -i 0 | bx hd-private -i 0 | bx hd-to-ec | ./kec256 | ./xmr
+% echo "radar blur cabbage chef fix engine embark joy scheme fiction master release" | bx mnemonic-to-seed -p "My Passphrase" | bx hd-new | bx hd-private -d -i 44 | bx hd-private -d -i 128 |  bx hd-private -d -i 0 | bx hd-private -i 0 | bx hd-private -i 0 | bx hd-to-ec | ./kec256 | ./xmr
 ```
     Seed                 : 0bf346303b16143997f4c4630f33948069cea4f109d07419a15f2046beaabf0d
     Private Spend Key    : 0bf346303b16143997f4c4630f33948069cea4f109d07419a15f2046beaabf0d
