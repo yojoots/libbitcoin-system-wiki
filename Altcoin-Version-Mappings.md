@@ -449,7 +449,7 @@ t1Zv78LE5HMXGCH1MfBcBzywHdAfosDv6tE
 **Monero m/44'/128'/0' Account :**
 
 ```
-% echo "radar blur cabbage chef fix engine embark joy scheme fiction master release" | bx mnemonic-to-seed | bx hd-new | bx hd-private -d -i 44 | bx hd-private -d -i 128 |  bx hd-private -d -i 0 | bx hd-to-ec | ./xmr
+% echo "radar blur cabbage chef fix engine embark joy scheme fiction master release" | bx mnemonic-to-seed -p "" | bx hd-new | bx hd-private -d -i 44 | bx hd-private -d -i 128 |  bx hd-private -d -i 0 | bx hd-to-ec | ./xmr
 ```
     Seed                 : e62551cad9fe0f05d7c84cf6a0ef7e8fc0534c2694279fc6e46d38f21a3f6ed3
     Private Spend Key    : dd62d51183f6208cf4d1b9af523f2c80bf534c2694279fc6e46d38f21a3f6e03
@@ -460,6 +460,18 @@ t1Zv78LE5HMXGCH1MfBcBzywHdAfosDv6tE
     Electrum Seed Words  : bacon enigma gasp furnished memoir aunt input makeup dodge amended hookup tyrant syringe tinted absorb science cement vacation inexact kiwi inflamed sensible mews motherly memoir
 
 Contrast ./xmr results above from what https://xmr.llcoins.net/addresstests.html yields using e62551cad9fe0f05d7c84cf6a0ef7e8fc0534c2694279fc6e46d38f21a3f6ed3 as the "Hexadecimal Seed".  There are two sets of Electrum seed words that result in the same Monero address. Subtle differences can be easily explained by knowing if the seed is already normalized (i.e., sc_reduce32 is applied) or not. Also, **./xmr** source code is located [**here**](https://github.com/skaht/XMR). 
+
+**Ledger Monero m/44'/128'/0'/0/0 Account with a BIP39 passphrase:**
+```
+% % echo "radar blur cabbage chef fix engine embark joy scheme fiction master release" | bx mnemonic-to-seed -p "My Passphrase" | bx hd-new | bx hd-private -d -i 44 | bx hd-private -d -i 128 |  bx hd-private -d -i 0 | bx hd-private -i 0 | bx hd-private -i 0 | bx hd-to-ec | ./kec256 | ./xmr
+```
+    Seed                 : 0bf346303b16143997f4c4630f33948069cea4f109d07419a15f2046beaabf0d
+    Private Spend Key    : 0bf346303b16143997f4c4630f33948069cea4f109d07419a15f2046beaabf0d
+    Private View Key     : 038a654e0bafb86bd0824b8ac7d3353f315649f15ee66d9cfb1c3ab00a7aae00
+    Public Spend Key     : c732fb75462550d4b83ad29d81c5ff5bb8c48adc0906e77dcf289b5dbc3f7274
+    Public View Key      : 2c79bef7da4038fab3e4e9fb3d59c6d279286a7e85e634f7dd2459298e1b42a4
+    Monero Address       : 49AwGDMSN5DcaeXfD9D1xiGLpKZCVeDbUN3WQRtH87zyLS2nPEkPLFZiw8ZVAJB6uBcCrZC8pZf4XiTbCjYz7XhTKcbwq2Q
+    Electrum Seed Words  : yearbook girth medicate smuggled yoga dreams foyer injury soya tattoo scuba epoxy kernels tissue soprano inkling waffle antics delayed demonstrate kidneys gemstone nifty ourselves gemstone
 
 ### 11) Ethereum (ETH) BIP 39/44 Technology [Examples](https://medium.com/@alexberegszaszi/why-do-my-bip32-wallets-disagree-6f3254cc5846#.mwhwon7af):
 
