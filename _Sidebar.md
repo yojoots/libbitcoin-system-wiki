@@ -79,7 +79,6 @@
   * [Reserve Currency Fallacy](Reserve-Currency-Fallacy)
   * [Selfish Mining Fallacy](Selfish-Mining-Fallacy)
   * [Side Fee Fallacy](Side-Fee-Fallacy)
-  * [Stock to Flow Fallacy](Stock-to-Flow-Fallacy)
   * [Brand Arrogation](Brand-Arrogation)
   * [Fedcoin Objectives](Fedcoin-Objectives)
   * [Hearn Error](Hearn-Error)
