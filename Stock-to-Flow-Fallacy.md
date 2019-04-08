@@ -8,6 +8,6 @@ In other words, flow is a function of demand. An anticipated loss results in no 
 
 Stock-to-flow does not imply anything about future flow. It can be used to analyze historical relations, and to calculate future stock based on *assumed* future flow, but it cannot be used to *predict* future flow. Any statement that a [speculation](Glossary#speculate) will be more profitable than another based on historical stock-to-flow ratios is an error.
 
-To the extent that future supply and demand is predictable it is priced in to every trade, nullifying any supposed advantage of one money over another.
-
 Given counterfeit laws, [state](Glossary#state) money does not follow these principles. Competition to produce the money is restricted, allowing control of supply independent of market forces. Yet as with other monies, supply and demand are unpredictable.
+
+To the extent that future supply and demand is predictable it is priced in to every trade, nullifying any supposed advantage of one money over another.
