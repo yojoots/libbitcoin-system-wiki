@@ -6,7 +6,7 @@ The theory fails to consider the source of flow rates. It necessarily assumes th
 
 In other words, flow is a function of demand. An anticipated loss results in no production whatsoever. This lack of any flow is not inherent in the substance but a consequence of lack of demand. **Given that both supply and demand determine flow, the theory is invalid.** This error is not an aspect of the elemental stock-to-flow concept, but a misapplication of it.
 
-Stock-to-flow does not imply anything about future flow. It can be used to analyze historical relations, and to calculate future stock based on *assumed* future flow, but it cannot be used to *predict* future flow. Any statement that a [speculation](Glossary#speculate) will be more profitable than another based on historical stock-to-flow ratios is an error.
+Stock-to-flow does not imply anything about future flow. It can be used to analyze historical relations, and to calculate future stock based on *assumed* future flow, but it cannot be used to *predict* future flow. Any statement that one [speculation](Glossary#speculate) will be more profitable than another based on historical stock-to-flow ratios is an error.
 
 Given counterfeit laws, [state](Glossary#state) money does not follow these principles. Competition to produce the money is restricted, allowing control of supply independent of market forces. Yet as with other monies, supply and demand are unpredictable.
 
