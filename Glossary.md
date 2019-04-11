@@ -5,6 +5,9 @@ A decision maker.
 An instruction follower.
 
 ## Agreement
+#### Bitcoin
+The set of principles that secure a [Coin](#coin) from the [State](#state).
+> The term and principles are defined by Satoshi in “Bitcoin: A Peer-to-Peer Electronic Cash System”.
 #### Consensus
 An agreement among [People](#person).
 > Also the set of people who participate in an agreement.
