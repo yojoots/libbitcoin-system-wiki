@@ -10,7 +10,7 @@ An agreement among [People](#person).
 > Also the set of people who participate in an agreement.
 #### Coin
 A [Consensus](#consensus) regarding a mutually-acceptable medium for [Trade](#trade).
-> Bitcoin is a Coin.
+> BTC is a Coin.
 #### Consensus Rules
 The set of constraints that define a [Coin](#coin).
 #### Rule
