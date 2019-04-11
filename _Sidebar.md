@@ -38,6 +38,7 @@
   * [Fragmentation Principle](Fragmentation-Principle)
   * [Public Data Principle](Public-Data-Principle)
   * [Social Network Principle](Social-Network-Principle)
+  * [Substitution Principle](Substitution-Principle)
   * [Censorship Resistance Property](Censorship-Resistance-Property)
   * [Consensus Property](Consensus-Property)
   * [Stability Property](Stability-Property)
