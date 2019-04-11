@@ -6,8 +6,8 @@ The theory fails to consider the source of flow rates. It necessarily assumes th
 
 In other words, flow is a function of demand. An anticipated loss results in no production whatsoever. This lack of any flow is not inherent in the substance but a consequence of lack of demand. **Given that both supply and demand determine flow, the theory is invalid.** This error is not an aspect of the elemental stock-to-flow concept, but a misapplication of it.
 
-Stock-to-flow does not imply anything about future flow. It can be used to analyze historical relations, and to calculate future stock based on *assumed* future flow, but it cannot be used to *predict* future flow. Any statement that one [speculation](Glossary#speculate) will be more profitable than another based on historical stock-to-flow ratios is an error.
+Given counterfeit laws, competition to produce [state](Glossary#state) money is restricted, allowing control of supply by the state, independent of market forces. As with other monies, supply and demand are generally unpredictable. A state may “peg” its issue of reserve notes to another money, such as gold. This relation may even hold over many decades. In this case the stock-to-flow ratio would indicate a “hardness” comparable to that of gold.
 
-Given counterfeit laws, competition to produce [state](Glossary#state) money is restricted, allowing control of supply by the state, independent of market forces. Yet as with other monies, supply and demand are generally unpredictable.
+Stock-to-flow does not imply anything about future flow. It can be used to analyze historical relations, and to calculate future stock based on *assumed* future flow, but it cannot be used to *predict* future flow. Any statement that one [speculation](Glossary#speculate) will be more profitable than another based on historical stock-to-flow ratios is an error.
 
 To the extent that future supply and demand is [predictable](Inflation-Fallacy) it is priced in to every trade, nullifying any supposed advantage of one more predictable money over another.
