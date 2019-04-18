@@ -70,6 +70,7 @@
   * [Ideal Money Fallacy](Ideal-Money-Fallacy)
   * [Impotent Mining Fallacy](Impotent-Mining-Fallacy)
   * [Inflation Fallacy](Inflation-Fallacy)
+  * [Jurisdictional Arbitrage Fallacy](Jurisdictional-Arbitrage-Fallacy)
   * [Lunar Fallacy](Lunar-Fallacy)
   * [Network Effect Fallacy](Network-Effect-Fallacy)
   * [Private Key Fallacy](Private-Key-Fallacy)
