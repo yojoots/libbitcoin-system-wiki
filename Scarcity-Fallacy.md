@@ -6,6 +6,6 @@ A single [coin](Glossary#coin) has [fixed supply](Inflation-Fallacy). There is a
 
 **Demand is not a necessary consequence of fixed supply, and therefore the theory is invalid.** Bitcoin cannot be valuable only because it is scarce, though it necessarily becomes more scarce the more highly it is valued.
 
-Any product is valued because of its [utility](Glossary#utility) to a person. A related theory is that Bitcoin’s fixed supply is the source of its utility because it ensures non-increasing availability, and thereby non-declining price. However, this implies non-decreasing demand.
+Any product is valued because of its [utility](Glossary#utility) to a person. A related theory is that Bitcoin’s fixed supply is the source of its utility because it ensures non-increasing availability, and thereby non-declining price. However, this requires non-decreasing demand.
 
 Bitcoin is unique in the realm of property in that the cost of [transferring](Glossary#exchange) it inherently increases with demand to do so. It is also, unlike the Mona Lisa, subject to effective [substitution](Substitution-Principle). These forces necessarily create the [negative demand](Lunar-Fallacy) feedback seen in property without fixed supply. Given that no level of demand is assured the second theory is also invalid.
