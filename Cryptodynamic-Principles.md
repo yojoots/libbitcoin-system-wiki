@@ -1,6 +1,6 @@
 Cryptodynamics is a term coined here for the purpose of easily referring to the fundamental principles of [Bitcoin](Glossary#bitcoin). This is intended to both inform understanding of Bitcoin and differentiate it from other technologies. The principles are the minimal subset of cryptoeconomic principles necessary to achieve this objective.
 
-While the choice of name is not essential, a rationale for the choice is provided below.
+While the choice of name is not essential, a rationale for it is provided below.
 
 ### Crypto
 
