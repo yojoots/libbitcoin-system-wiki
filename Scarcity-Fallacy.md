@@ -8,4 +8,4 @@ A single [coin](Glossary#coin) has [fixed supply](Inflation-Fallacy). There is a
 
 A related theory is that Bitcoin’s fixed supply is the source of its utility because it ensures non-increasing availability. However, this requires non-decreasing demand.
 
-Bitcoin is unique in the realm of property in that the cost of [transferring](Glossary#exchange) it inherently increases with demand to do so. It is also, unlike the Mona Lisa, subject to effective [substitution](Substitution-Principle). These forces necessarily create the [negative demand](Lunar-Fallacy) feedback seen in property without fixed supply. Given that no level of demand is assured the second theory is also invalid.
+Bitcoin is unique in the realm of property in that the cost of [transferring](Glossary#exchange) it inherently increases with demand to do so. It is also, unlike the Mona Lisa, subject to effective [substitution](Substitution-Principle). These forces necessarily create the [negative demand](Lunar-Fallacy) feedback seen in property without fixed supply. Given that non-decreasing demand is not assured the second theory is also invalid.
