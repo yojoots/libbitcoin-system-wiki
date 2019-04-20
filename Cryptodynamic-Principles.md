@@ -4,7 +4,7 @@ While the choice of name is not essential, a rationale for the choice is provide
 
 ### Crypto
 
-“A crypto currency is a [[money]] that uses strong cryptography to secure financial transactions, control the creation of additional units, and verify the transfer of [[units]].” - [Wikipedia](https://en.m.wikipedia.org/wiki/Cryptocurrency)
+“A crypto currency is a [money] that uses strong cryptography to secure financial transactions, control the creation of additional units, and verify the transfer of [units].” - [Wikipedia](https://en.m.wikipedia.org/wiki/Cryptocurrency)
 
 ### Dynamics
 
