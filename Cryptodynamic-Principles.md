@@ -21,3 +21,7 @@ Security force is entirely human in nature. [People](Glossary#person) must act t
 * [Risk Sharing](Risk-Sharing-Principle)
 * [Energy Sinking](Proof-of-Stake-Fallacy)
 * [Power Regulating](Censorship-Resistance-Property)
+
+These forces depend upon each other in order. Without risk sharing energy cannot be sunk into the system to balance the power of a censor. With these three forces intact Bitcoin [can be](Axiom-of-Resistance) secure. Without anyone of them a technology is not Bitcoin.
+
+It should not be assumed that, given the incorporation of these forces that a Bitcoin is secure. Furthermore one may be more secure than another. It is only the case that given the incorporation of these forces a technology is a Bitcoin and that without them it is not.
