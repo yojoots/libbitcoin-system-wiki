@@ -4,7 +4,7 @@ Scarcity may also refer to the *relative* availabity of some property. For a giv
 
 A single [coin](Glossary#coin) has [fixed supply](Inflation-Fallacy). There is a theory that the fixed supply of Bitcoin is the source of its value. As with Bitcoin, there is a fixed supply of the [Mona Lisa](https://en.m.wikipedia.org/wiki/Mona_Lisa), only one is possible. The theory implies that this is the source of demand for the famed work of art. However there are countless unique works of art with no demand, and therefore no value.
 
-**Demand is not a necessary consequence of fixed supply, and therefore the theory is invalid.** Bitcoin cannot be valuable only because it is scarce, though it necessarily becomes more scarce the more highly it is valued. It can only be valued because of its [utility](Glossary#utility) in some scenario.
+**Demand is not a necessary consequence of fixed supply, and therefore the theory is invalid.** Bitcoin cannot be valuable only because it is scarce, though it necessarily becomes more scarce the more highly it is valued. It can only be valued because of its [utility](Glossary#utility).
 
 A related theory is that Bitcoin’s fixed supply is its source of utility because this ensures decreasing availability, and thereby price, given increasing demand.
 
