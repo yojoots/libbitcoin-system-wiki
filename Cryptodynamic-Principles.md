@@ -24,4 +24,4 @@ Security force is entirely human in nature. [People](Glossary#person) must act t
 
 These forces depend upon each other in order. Without risk sharing energy cannot be sunk into the system to balance the [power](Glossary#power) of a [censor](Glossary#censorship). With these three forces intact Bitcoin can be secure. Without anyone of them a technology is not Bitcoin.
 
-It [cannot be assumed](Axiom-of-Resistance) that, given the incorporation of these forces that a Bitcoin is secure. Furthermore one may be more secure than another. It is only the case that given the incorporation of these forces a technology is a Bitcoin and that without them it is not.
+It [cannot be assumed](Axiom-of-Resistance) that, given the incorporation of these forces that a Bitcoin is secure. Furthermore one may be more secure than another. It is only the case that given the incorporation of these forces a technology is a Bitcoin and that without them it is not. The possibility of security afforded by incorporation of these forces can be referred to as “cryptodynamic security”.
