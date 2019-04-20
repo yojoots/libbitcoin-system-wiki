@@ -16,7 +16,7 @@ Cryptodynamics is the set of forces that secure Bitcoin [transactions](Glossary#
 
 **Principles**
 
-Security force is entirely human in nature. [People](Glossary#person) must act to secure anything, including Bitcoin. As an economic system, Bitcoin can only expect people to act in an economically-rational manner (self interest). As such Bitcoin security forces are entirely based on the self-interested actions of individual persons, specifically:
+Security force is entirely human in nature. [People](Glossary#person) must act to secure anything, including Bitcoin. As an economic system, Bitcoin security can only expect people to act in an economically-rational manner (self interest). As such Bitcoin security forces are entirely based on the self-interested actions of individual persons, specifically:
 
 * [Risk Sharing](Risk-Sharing-Principle)
 * [Energy Sinking](Proof-of-Stake-Fallacy)
