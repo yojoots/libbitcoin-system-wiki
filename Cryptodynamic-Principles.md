@@ -26,4 +26,4 @@ These forces depend upon each other in order. Without risk sharing energy cannot
 
 It [cannot be assumed](Axiom-of-Resistance) that, given the incorporation of these forces that a Bitcoin is secure. Furthermore one may be more secure than another. It is only the case that given the incorporation of these forces a technology is a Bitcoin and that without them it is not.
 
-The possibility of security afforded by these forces can be referred to as “cryptodynamic security”. So, for example, a proof-of-stake (PoS) technology is not cryptodynamically secure, although a technology incorporating proof-of-work (PoW) *and* PoS *may* be, however the PoS aspect adds nothing to cryptodynamic security.
+The possibility of security afforded by these forces can be referred to as “cryptodynamic security”. So, for example, a proof-of-stake (PoS) technology is not cryptodynamically secure, although a technology incorporating proof-of-work (PoW) *and* PoS may be, however the PoS aspect adds nothing to cryptodynamic security.
