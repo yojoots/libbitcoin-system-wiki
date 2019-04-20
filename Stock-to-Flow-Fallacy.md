@@ -10,4 +10,4 @@ Given counterfeit laws, competition to produce [state](Glossary#state) money is 
 
 Stock-to-flow does not imply anything about future flow. It can be used to analyze historical relations, and to calculate future stock based on *assumed* future flow, but it cannot be used to *predict* future flow. Any statement that one [speculation](Glossary#speculate) will be more profitable than another based on historical stock-to-flow ratios is an error.
 
-To the extent that future supply and demand is [predictable](Inflation-Fallacy) it is priced in to every [trade](Glossary#exchange), nullifying any supposed advantage of one more predictable money over another.
+To the extent that future supply and demand is [predictable](Inflation-Fallacy) it is priced in to every [exchange](Glossary#exchange), nullifying any supposed advantage of one more predictable money over another.
