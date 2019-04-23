@@ -8,7 +8,7 @@ While the choice of name is not essential, a rationale for it is provided below.
 
 **Dynamics**
 
-“Dynamics is the branch of applied mathematics [[...]] concerned with the study of forces [[...]] and their effect on motion.” - [Wikipedia](https://en.m.wikipedia.org/wiki/Dynamics_(mechanics))
+“Dynamics is the branch of applied mathematics [...] concerned with the study of forces [...] and their effect on motion.” - [Wikipedia](https://en.m.wikipedia.org/wiki/Dynamics_(mechanics))
 
 **Crypto + Dynamics**
 
