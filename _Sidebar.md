@@ -63,6 +63,7 @@
   * [Dumping Fallacy](Dumping-Fallacy)
   * [Empty Block Fallacy](Empty-Block-Fallacy)
   * [Energy Exhaustion Fallacy](Energy-Exhaustion-Fallacy)
+  * [Energy Store Fallacy](Energy-Store-Fallacy)
   * [Energy Waste Fallacy](Energy-Waste-Fallacy)
   * [Fee Recovery Fallacy](Fee-Recovery-Fallacy)
   * [Genetic Purity Fallacy](Genetic-Purity-Fallacy)
