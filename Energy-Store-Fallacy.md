@@ -1,4 +1,4 @@
-There is a theory that the value of energy expended by [proof](Glossary#proof) of [work](Glossary#work) is converted to [coin](Glossary#coin) [value](Glossary#value), in effect “storing” the value for later consumption. To the extent that energy has value, the work is sold for bitcoin, and money is a [store of value](https://en.m.wikipedia.org/wiki/Store_of_value) this is correct.
+There is a theory that the value of energy expended by [proof](Glossary#proof) of [work](Glossary#work) is converted to [coin](Glossary#coin) [value](Glossary#value), in effect “storing” the value for later consumption. To the extent that energy has value, the work is sold for bitcoin, and money is a [store of value](https://en.m.wikipedia.org/wiki/Store_of_value), this is correct.
 
 However the theory errs in the implication that energy value expended in [mining](Glossary#mine) is unique in its contribution to value. Miners [trade](Glossary#trade) energy for [units](Glossary#unit). However all [merchants](Glossary#merchant) trade something. Furthermore, mining can be compensated by [side fees](Side-Fee-Fallacy), ultimately contributing nothing to demand.
 
