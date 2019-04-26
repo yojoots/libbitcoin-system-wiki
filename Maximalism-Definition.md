@@ -1,0 +1,3 @@
+Maximalism is a public relations effort to discourage the formation of [substitutes](Substitution-Principle) for a given [coin](Glossary#coin). To the extent this is successful it may benefit existing [owners](Glossary#owner) by restricting supply and subsequently elevating [price](Glossary#price). However as [people](Glossary#person) fail to find close substitutes, activity moves to more distant ones. In the case of electronic payments this is generally [state](Glossary#state) money. 
+
+Proponents of maximalism often express the contradictory theory that other coins cannot be competitive with their preferred coin. If this was the case there would be no reason to advocate for a single coin.
