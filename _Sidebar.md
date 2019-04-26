@@ -92,6 +92,7 @@
   * [Proof of Memory Facade](Proof-of-Memory-Facade)
   * [Spam Misnomer](Spam-Misnomer)
   * [Split Speculator Dilemma](Split-Speculator-Dilemma)
+  * [Maximalism Definition](Maximalism-Definition)
   * [Shitcoin Definition](Shitcoin-Definition)
   * [Glossary](Glossary)
 * **Console Applications**
