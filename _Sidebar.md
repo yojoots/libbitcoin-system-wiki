@@ -36,6 +36,7 @@
   * [Scalability Principle](Scalability-Principle)
   * [Consolidation Principle](Consolidation-Principle)
   * [Fragmentation Principle](Fragmentation-Principle)
+  * [Permissionless Principle](Permissionless-Principle)
   * [Public Data Principle](Public-Data-Principle)
   * [Social Network Principle](Social-Network-Principle)
   * [Substitution Principle](Substitution-Principle)
