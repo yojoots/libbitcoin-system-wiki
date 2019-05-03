@@ -1,6 +1,6 @@
 In modern logic an [axiom](https://en.wikipedia.org/wiki/Axiom) is a premise, it cannot be proven. It is a starting assumption against which other things may be proven. For example, in [Euclidean geometry](https://en.wikipedia.org/wiki/Euclidean_geometry) one cannot prove that parallel lines never meet. It simply defines the particular geometry.
 
-Proving statements about Bitcoin requires reliance on other systems, specfically [mathematics](https://en.wikipedia.org/wiki/Zermelo%E2%80%93Fraenkel_set_theory), [probability](https://en.wikipedia.org/wiki/Probability_axioms) or [praxeology](https://en.wikipedia.org/wiki/Praxeology), and therefore the assumptions upon which they rely. However Bitcoin also relies on an axiom not found in these systems. Satoshi alludes to this in an early [statement](http://satoshi.nakamotoinstitute.org/emails/cryptography/4):
+Proving statements about Bitcoin requires reliance on other systems, specifically [mathematics](https://en.wikipedia.org/wiki/Zermelo%E2%80%93Fraenkel_set_theory), [probability](https://en.wikipedia.org/wiki/Probability_axioms) or [praxeology](https://en.wikipedia.org/wiki/Praxeology), and therefore the assumptions upon which they rely. However Bitcoin also relies on an axiom not found in these systems. Satoshi alludes to this in an early [statement](http://satoshi.nakamotoinstitute.org/emails/cryptography/4):
 
 >> You will not find a solution to political problems in cryptography.
 >
