@@ -159,7 +159,7 @@ To [Trade](#trade) time without [Units](#units) for property of greater [Utility
 #### Borrow
 To [Trade](#trade) time with [Units](#units) for property of greater [Utility](#utility) to the [Lender](#lend).
 #### Interest
-The average rate of increase in [Utility](#utility) from [Lending](#lend).
+The rate of increase in [Utility](#utility) from [Lending](#lend).
 #### Profit
 The return on [Speculation](#speculate).
 > This excludes interest.
