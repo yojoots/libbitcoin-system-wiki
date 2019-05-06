@@ -39,6 +39,7 @@
   * [Permissionless Principle](Permissionless-Principle)
   * [Public Data Principle](Public-Data-Principle)
   * [Social Network Principle](Social-Network-Principle)
+  * [State Banking Principle](State-Banking-Principle)
   * [Substitution Principle](Substitution-Principle)
   * [Cryptodynamic Principles](Cryptodynamic-Principles)
   * [Censorship Resistance Property](Censorship-Resistance-Property)
