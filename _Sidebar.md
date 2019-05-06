@@ -91,6 +91,7 @@
   * [Hearn Error](Hearn-Error)
   * [Proof of Memory Facade](Proof-of-Memory-Facade)
   * [Spam Misnomer](Spam-Misnomer)
+  * [Split Credit Expansion Fallacy](Split-Credit-Expansion-Fallacy)
   * [Split Speculator Dilemma](Split-Speculator-Dilemma)
   * [Maximalism Definition](Maximalism-Definition)
   * [Shitcoin Definition](Shitcoin-Definition)
