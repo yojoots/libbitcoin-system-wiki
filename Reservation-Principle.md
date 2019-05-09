@@ -16,4 +16,4 @@ With the inability to tax at sufficient levels comes consumption of the reserve,
 
 As most global reserve is in fiat, a failure in the reserved fiat will propagate through all state monies. Such a failure can be mitigated neither by transition to another sovereign's fiat nor gold and/or silver. Trade is largely electronic and metals do not travel over computer networks. In other words, Bitcoin is the only money that can resolve a currency crisis in the modern global reserve without a catastrophic global contraction of trade.
 
-As shown in [Reserve Currency Fallacy](Reserve-Currency-Fallacy), if Bitcoin was to become primarily a reserve it would cease to be Bitcoin. However it will always be possible to continue it apart from the state, and people may better defend it after learning from past failures.
+As shown in [Reserve Currency Fallacy](Reserve-Currency-Fallacy), if Bitcoin was to become primarily a reserve it would [cease to be Bitcoin](Fedcoin-Objectives). However it will always be possible to continue it apart from the state, and people may better defend it after learning from past failures.
