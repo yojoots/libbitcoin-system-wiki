@@ -2,4 +2,4 @@ Bitcoin has since its inception defied clear definition. This is a consequence o
 
 While there is only one set of concepts, each of the other contexts has any number of possible variations consistent with them. There are many implementations (of the prototype and otherwise), consensus rules have deviated (in the prototype and in other implementations), history is dynamic and arbitrary (even the prototype-encoded [genesis](Glossary#genesis) [block](Glossary#block) could have been different without consequence), and each coin manifests distinct units.
 
-For these reasons Bitcoin is used herein as a label for [Cryptodynamic Principles](Cryptodynamic-Principles). Implementations are referred to by their brands, such as "[Bitcoin Core](https://bitcoin.org/en/bitcoin-core)" and "[Libbitcoin](https://libbitcoin.org)".
+For these reasons Bitcoin is used herein as a label for [Cryptodynamic Principles](Cryptodynamic-Principles). Implementations are referred to by their [brands](Brand-Arrogation), such as "[Bitcoin Core](https://bitcoin.org/en/bitcoin-core)" and "[Libbitcoin](https://libbitcoin.org)".
