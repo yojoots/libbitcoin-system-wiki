@@ -2,7 +2,7 @@ The concept of [risk free rate of return](https://en.wikipedia.org/wiki/Risk-fre
 
 The theory requires a provable fixed-time [covenant](https://en.wikipedia.org/wiki/Covenant_(law)) on the loaned [units](Glossary#unit) of [coin](Glossary#coin) by the lender. The covenant ensures that the lender cannot spend the units until [maturity](https://en.wikipedia.org/wiki/Maturity_(finance)) of the loan and that ownership of the units returns to the lender at that time. The lender trades with a borrower these encumbered units in [exchange](Glossary#exchange) for interest. The lender's [opportunity cost](https://en.wikipedia.org/wiki/Opportunity_cost) imposed by the covenant is offset by this interest.
 
-However, the units provide no monetary value to the borrower. Control over the units provably returns to the lender, leaving any [person](Glossary#person) who has accepted them with nothing at that time. **This zero value is necessarily imputed to each exchange prior to maturity and therefore to the loan itself, invalidating the theory.**
+However, the units provide no monetary value to the borrower. Full control over the units provably returns to the lender, leaving any [person](Glossary#person) who has accepted them with nothing at that time. **This zero value is necessarily imputed to each exchange prior to maturity and therefore to the loan itself, invalidating the theory.**
 
 There is a related theory that the units can be used by the borrower to instead track an asset of perpetual value. Given that the tracking expires at maturity, this theory is invalid for the same reason.
 
