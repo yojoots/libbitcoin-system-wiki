@@ -59,6 +59,8 @@ An [Output](#output) [Point](#point) and an [Endorsement](#endorsement).
 The [Output](#output) to which an [Input](#input) refers.
 #### Locktime
 An expression of earliest [Transaction](#transaction) [Validity](#validity).
+#### Dust
+An insufficient number of [Units](#unit) for [Transfer](#transfer) via an [Output](#output).
 
 ## Blocks
 #### Timestamp
