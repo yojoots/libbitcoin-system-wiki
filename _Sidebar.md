@@ -83,6 +83,7 @@
   * [Relay Fallacy](Relay-Fallacy)
   * [Replay Protection Fallacy](Replay-Protection-Fallacy)
   * [Reserve Currency Fallacy](Reserve-Currency-Fallacy)
+  * [Risk Free Return Fallacy](Risk-Free-Return-Fallacy)
   * [Scarcity Fallacy](Scarcity-Fallacy)
   * [Selfish Mining Fallacy](Selfish-Mining-Fallacy)
   * [Side Fee Fallacy](Side-Fee-Fallacy)
