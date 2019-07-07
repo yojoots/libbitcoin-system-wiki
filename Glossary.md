@@ -61,6 +61,7 @@ The [Output](#output) to which an [Input](#input) refers.
 An expression of earliest [Transaction](#transaction) [Validity](#validity).
 #### Dust
 An insufficient number of [Units](#unit) for [Transfer](#transfer) via an [Output](#output).
+> BTC consensus rules prohibit transfer of less than one unit.
 
 ## Blocks
 #### Timestamp
