@@ -6,4 +6,4 @@ The theorem also fails to terminate its regression by not explaining how a perso
 
 The first valuation of a thing can be for any reason, including its utility as a money. This is inherent in the concept of subjective value. The theorem is based on empirical observation of monetary evolution. Yet as an [epistemology](https://en.m.wikipedia.org/wiki/Epistemology), [praxeology](https://en.wikipedia.org/wiki/Praxeology) inherently rejects empiricism.
 
-One of many problems with empirical economics is that new observations can invalidate previous conclusions. Bitcoin has done so to the this theorem. It can clearly be observed that Satoshi [intended to create a money](https://bitcoin.org/bitcoin.pdf), for its first use as money.
+One of many problems with empirical economics is that new observations can invalidate previous conclusions. Bitcoin has done so to this theorem. It can clearly be observed that Satoshi [intended to create a money](https://bitcoin.org/bitcoin.pdf), for its first use as money.
