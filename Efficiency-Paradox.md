@@ -1,0 +1,5 @@
+Bitcoin [mining](Glossary#mine) overall cannot be made more efficient in terms of real cost. Given that all costs resolve to energy, this could be restated as, Bitcoin cannot be made more energy efficient.
+
+This is a necessary consequence of the fact that Bitcoin mining must consume in cost the amount of its [reward](Glossary#reward). [Paradoxically](https://en.wikipedia.org/wiki/Paradox), no matter what technology improvement is introduced, the cost of [transaction](Glossary#transaction) [confirmation](Glossary#confirmation) cannot be reduced.
+
+This apparent contradiction arises from the fact that reward ultimately determines cost. An increase in [hash rate](Glossary#hash-rate) for the same cost results in a [difficulty](Glossary#difficulty) increase to maintain the [block](Glossary#block) [period](Glossary#period), increasing the cost accordingly.
