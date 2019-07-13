@@ -2,7 +2,7 @@ The [Regression Theorem](https://wiki.mises.org/wiki/Regression_theorem) relies 
 
 This assumption contradicts the [Subjective Theory of Value](https://en.m.wikipedia.org/wiki/Subjective_theory_of_value) upon which the theorem relies, invalidating it. **Value is subjective, which implies it can be based on anything, even if objectively that basis appears irrational.**
 
-The theorem also fails to terminate its regression by not explaining how a person comes to value something for its *original* [utility](Glossary#utility). One must assume something will be useful if nobody has ever attempted to use it. This assumption of utility is valuation, which remains subjective.
+The theorem also fails to terminate its regression by not explaining how a person comes to value something for its *original* [utility](Glossary#utility). One must *assume* (not remember) something will be useful if nobody has ever attempted to use it. This assumption of utility is valuation, which remains subjective.
 
 The first valuation of a thing can be for any reason, including its utility as a money. This is inherent in the concept of subjective value. The theorem is based on empirical observation of monetary evolution. Yet as an [epistemology](https://en.m.wikipedia.org/wiki/Epistemology), [praxeology](https://en.wikipedia.org/wiki/Praxeology) inherently rejects empiricism.
 
