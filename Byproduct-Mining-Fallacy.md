@@ -4,7 +4,7 @@ Given a competitive [market](Glossary#market) for these byproducts, they represe
 
 **The increased production necessarily consumes the same amount of energy that was being consumed as waste, invalidating the theory.**
 
-Bitcoin can consume oil or gas drilling unmarketable byproducts. To the extent that this represents a lower mining cost, the discount energy increases [miner](Glossary#miner) [profit](Glossary#profit). This increases competition for it until the net cost advantage is eventually eliminated. In the interim this represents a [profit opportunity](https://bitcoinist.com/bitcoin-mining-waste-oil-industry).
+Bitcoin can consume the unmarketable byproducts of oil or gas drilling. To the extent that this represents a lower mining cost, the discount energy increases [miner](Glossary#miner) [profit](Glossary#profit). This increases competition for it until the net cost advantage is eventually eliminated. In the interim this represents a [profit opportunity](https://bitcoinist.com/bitcoin-mining-waste-oil-industry).
 
 This positive mining cost is also a negative drilling cost, increasing driller profit. This implies that all drilling eventually adopts this cost reduction, just as miners have done. The total of energy consumption remains unchanged, however usable energy supply has expanded. 
 
