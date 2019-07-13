@@ -1,4 +1,4 @@
-There is a theory that [mining](Glossary#mine) can consume a necessary and [unmarketable byproduct](https://en.m.wikipedia.org/wiki/Waste) of production, thereby eliminating the energy consumption it represents. Examples include [unused natural gas](https://bitcoinist.com/bitcoin-mining-waste-oil-industry/) and [unused computing memory](Proof-of-Memory-Fallacy).
+There is a theory that [mining](Glossary#mine) can consume a necessary and [unmarketable byproduct](https://en.m.wikipedia.org/wiki/Waste) of production, thereby eliminating the energy consumption it represents. Examples include [unused natural gas](https://bitcoinist.com/bitcoin-mining-waste-oil-industry/) and [unused computing memory](Proof-of-Memory-Facade).
 
 Given a competitive [market](Glossary#market) for these byproducts, they represent [mining cost](Dedicated-Cost-Fallacy). In other words, they have become marketable. However, this also reduces the cost of producing the primary product, or increases its marketable value to the same effect. Given unchanged demand for the primary product, its supply necessarily increases to capture that demand.
 
