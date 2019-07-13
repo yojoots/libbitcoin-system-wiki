@@ -81,6 +81,7 @@
   * [Private Key Fallacy](Private-Key-Fallacy)
   * [Proof of Stake Fallacy](Proof-of-Stake-Fallacy)
   * [Proof of Work Fallacy](Proof-of-Work-Fallacy)
+  * [Regression Fallacy](Regression-Fallacy)
   * [Relay Fallacy](Relay-Fallacy)
   * [Replay Protection Fallacy](Replay-Protection-Fallacy)
   * [Reserve Currency Fallacy](Reserve-Currency-Fallacy)
