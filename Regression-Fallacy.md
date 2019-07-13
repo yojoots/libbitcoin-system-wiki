@@ -1,0 +1,9 @@
+The [Regression Theorem](https://wiki.mises.org/wiki/Regression_theorem) relies on the assumption that the first [people](Glossary#person) to [value](Glossary#value) something as a money must do so based on a memory of its prior [use value](https://en.m.wikipedia.org/wiki/Use_value), with the thing eventually obtaining [barter value](https://en.m.wikipedia.org/wiki/Barter) and finally monetary value.
+
+This assumption violates the [Subjective Theory of Value](https://en.m.wikipedia.org/wiki/Subjective_theory_of_value) upon which it relies, invalidating the theorem. **Value is subjective, which implies it can be based on anything, even if objectively that basis appears irrational.**
+
+The theorem also fails to terminate its regression by not explaining how a person comes to value something for its *original* [utility](Glossary#utility). One must assume something will be useful if nobody has ever attempted to use it. This assumption of utility is valuation, which remains subjective.
+
+The first valuation of a thing can be for any reason, including its utility as a money. This is inherent in the concept of subjective value. The theorem is based on empirical observation of monetary evolution. Yet as an [epistemology](https://en.m.wikipedia.org/wiki/Epistemology), [praxeology](https://en.wikipedia.org/wiki/Praxeology) inherently rejects empiricism.
+
+One of many problems with empirical economics is that new observations can invalidate previous conclusions. Bitcoin has done so to the this theorem. It can clearly be observed that Satoshi [intended to create a money](https://bitcoin.org/bitcoin.pdf), for its first use as money.
