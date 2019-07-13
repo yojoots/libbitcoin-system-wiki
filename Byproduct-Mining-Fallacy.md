@@ -10,4 +10,4 @@ This positive mining cost is also a negative drilling cost, increasing driller [
 
 This implies a reduced energy [price](Glossary#price) generally. As such mining must consume more energy to consume the same cost. So to the extent that mining has reduced cost, it must increase it. Therefore energy cost generally cannot fall due to mining of the waste byproduct of drilling.
 
-Furthermore, consumption of the byproduct does not imply a reduction in pollution. Productive consumption of energy (i.e. [work](Glossary#work)) is not inherently less pollutive than non-productive (e.g. flaring). Certainly this is not the case where encompassing property rights are enforceable.
+Furthermore, consumption of the byproduct does not imply a reduction in pollution. Productive consumption of energy (i.e. [work](Glossary#work)) is not inherently less pollutive than non-productive (e.g. flaring). Certainly this is the case where encompassing property rights are enforceable, otherwise the difference is a taking of those rights by the [state](Glossary#state) for the benefit of the driller.
