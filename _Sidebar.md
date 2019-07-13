@@ -58,6 +58,7 @@
   * [Auditability Fallacy](Auditability-Fallacy)
   * [Balance of Power Fallacy](Balance-of-Power-Fallacy)
   * [Blockchain Fallacy](Blockchain-Fallacy)
+  * [Byproduct Mining Fallacy](Byproduct-Mining-Fallacy)
   * [Causation Fallacy](Causation-Fallacy)
   * [Cockroach Fallacy](Cockroach-Fallacy)
   * [Credit Expansion Fallacy](Credit-Expansion-Fallacy)
