@@ -7,3 +7,9 @@ A [money substitute](https://wiki.mises.org/wiki/Money_substitutes) is a [contra
 [Representative money](https://en.wikipedia.org/wiki/Representative_money) is often misinterpreted as a present good, yet because it is a claim (to what it represents), it is a money substitute. The gold-backed U.S. Dollar was a money substitute and the modern U.S. Dollar is fiat. All account-based U.S. Dollars are money substitutes, just as all custodial Bitcoin accounts represent money substitutes. These are promises to redeem in Dollars or Bitcoin respectively. The Dollars that one can hold in one's hand are fiat, just as are the Bitcoin that one can spend with one's private keys.
 
 As such the term "fiat" alone does not distinguish between Dollars and Bitcoin. However this distinction was never required before the existence of Bitcoin. Monies without use value were [presumed not to be possible](https://github.com/libbitcoin/libbitcoin-system/wiki/Regression-Fallacy). However there is a material distinction between these two types of money, neither of which have use value. This begs for a new differentiating term.
+
+The Dollar (as all state fiat) differs from Bitcoin in that it depends on [monopoly protection](https://mises.org/library/man-economy-and-state-power-and-market/html/pp/1054) for production.
+
+> monopoly is a grant of special privilege by the State, reserving a certain area of production to one particular individual or group
+
+The monopoly on production of state fiat is created by anti-[counterfeit](https://en.wikipedia.org/wiki/Counterfeit_money) statute. A [unit](Glossary#unit) of the money is considered [invalid](Glossary#valid) unless produced by an [authorized agent](https://www.usmint.gov/) of the [state](Glossary#state).
