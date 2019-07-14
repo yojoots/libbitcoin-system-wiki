@@ -21,12 +21,16 @@ Both money and money substitutes constitute [currency](https://en.wikipedia.org/
 ### Summary
 * [currency](https://en.wikipedia.org/wiki/Currency)
     * [money](https://en.wikipedia.org/wiki/Money) [present]
-        * [fiat](https://en.wikipedia.org/wiki/Fiat_money) [no use value]
-            * [monopoly](https://mises.org/library/man-economy-and-state-power-and-market/html/pp/1054) [monopoly mint]
-            * [market](https://bitcoin.org/bitcoin.pdf) [market mint]
         * [commodity](https://en.wikipedia.org/wiki/Commodity_money) [use value]
             * [coin](https://en.wikipedia.org/wiki/Coin)
+                * [U.S. Dollar Coin](https://en.wikipedia.org/wiki/Dollar_coin_(United_States))
+        * [fiat](https://en.wikipedia.org/wiki/Fiat_money) [no use value]
+            * [monopoly](https://mises.org/library/man-economy-and-state-power-and-market/html/pp/1054) [monopoly mint]
+                * [U.S. Dollar Bill](https://en.wikipedia.org/wiki/United_States_one-dollar_bill)
+            * [market](https://en.wikipedia.org/wiki/Free_market) [market mint]
+                * [Bitcoin](https://bitcoin.org/bitcoin.pdf)
     * [money substitute](https://wiki.mises.org/wiki/Money_substitutes) [future]
         * [electronic](https://www.investopedia.com/terms/e/electronic-money.asp) [intangible]
         * [representative](https://en.wikipedia.org/wiki/Representative_money) [tangible]
             * [banknote](https://en.wikipedia.org/wiki/Banknote)
+                * [U.S. Silver Certificate](https://en.wikipedia.org/wiki/Silver_certificate_(United_States))
