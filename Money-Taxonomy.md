@@ -18,14 +18,14 @@ Commodity money is also market money, as it does not rely on monopoly privilege 
 
 Both money and money substitutes constitute [currency](https://en.wikipedia.org/wiki/Currency). All monies are subject to lending and therefore necessarily [credit expansion](Credit-Expansion-Fallacy) (i.e. into money substitutes) and its corresponding fractional reservation.
 
-[Currency](https://en.wikipedia.org/wiki/Currency)
-* [money](https://en.wikipedia.org/wiki/Money)
-    * [fiat](https://en.wikipedia.org/wiki/Fiat_money)
+[currency](https://en.wikipedia.org/wiki/Currency)
+* [money](https://en.wikipedia.org/wiki/Money) - present
+    * [fiat](https://en.wikipedia.org/wiki/Fiat_money) - no use value
         * [monopoly](https://mises.org/library/man-economy-and-state-power-and-market/html/pp/1054)
         * [market](https://bitcoin.org/bitcoin.pdf)
-    * [commodity](https://en.wikipedia.org/wiki/Commodity_money)
+    * [commodity](https://en.wikipedia.org/wiki/Commodity_money) - use value
         * [coin](https://en.wikipedia.org/wiki/Coin)
-* [money substitute](https://wiki.mises.org/wiki/Money_substitutes)
+* [money substitute](https://wiki.mises.org/wiki/Money_substitutes) - future
     * [electronic](https://www.investopedia.com/terms/e/electronic-money.asp)
     * [representative](https://en.wikipedia.org/wiki/Representative_money)
         * [banknote](https://en.wikipedia.org/wiki/Banknote)
