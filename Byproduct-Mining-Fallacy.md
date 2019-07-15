@@ -8,5 +8,5 @@ The movement of mining from the primary product to the waste byproduct increases
 
 Bitcoin requires the consumption of resources in widespread use, as an aspect of its [security](https://github.com/libbitcoin/libbitcoin-system/wiki/Censorship-Resistance-Property). Energy for example is a factor of all production, along with time and labor. Such fundamental resources tend to increase in consumption given reduced price. Furthermore, given that energy is a factor in all production, the cost of other products (e.g. computing memory) also reduce to energy, time and labor - with labor itself representing energy cost (e.g. food production).
 
-So given the implied reduced price, production tends to expand accordingly (growing capital and therefore making [people](Glossary#person) wealthier overall). **As such a consequent reduction in overall energy consumption cannot be assumed**, invalidating the theory.
+So given the implied reduced price, production tends to expand accordingly (growing capital and therefore making [people](Glossary#person) wealthier overall). This [price stability](Stability-Property) is a general characteristic of all commodities. **As such a consequent reduction in overall energy consumption cannot be assumed**, invalidating the theory.
 
