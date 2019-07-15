@@ -2,7 +2,7 @@ There is a theory that, to the extent Bitcoin [mining](Glossary#mine) can consum
 
 Given a new byproduct [market](Glossary#market), the [price](Glossary#price) advantage represents [opportunity cost](https://en.wikipedia.org/wiki/Opportunity_cost) to each [miner](Glossary#miner). Competition for the waste byproduct increases its price, potentially up to the level where the cost advantage is eliminated. In the interim this represents a mining [profit opportunity](https://bitcoinist.com/bitcoin-mining-waste-oil-industry).
 
-The reduced cost of mining must result in increased mining so that its cost returns to the original level. [Paradoxically](Efficiency-Paradox), any reduced cost results in *greater* consumption. However the byproduct is otherwise "consumed" as waste. So its consumption in mining, even to a greater extent, does not represent any actual increase in overall consumption of the resource.
+The reduced cost of mining must result in increased mining so that its cost returns to the original level. [Paradoxically](Efficiency-Paradox), any reduced cost results in *greater* consumption. However the byproduct is otherwise "consumed" as waste. So its consumption in mining, even to a greater extent, does not represent any actual increase in its overall consumption.
 
 The movement of mining from the primary product to the waste byproduct increases the marketable supply (e.g. energy) or  utility (e.g. computing memory) of the primary product. Given the assumption of unchanged remaining demand, these changes to supply or demand respectively imply lower price.
 
