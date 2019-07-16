@@ -1,6 +1,6 @@
 There is a theory that in a choice to join a ban on Bitcoin, individual states face a [prisoner's dilemma](https://en.wikipedia.org/wiki/Prisoner%27s_dilemma). A meaningful ban implies one or more states (the "prison") will enforce [economic sanctions](https://www.cfr.org/backgrounder/what-are-economic-sanctions) (at least) on other states (the "prisoners") potentially moving to Bitcoin as a [reserve currency](https://en.wikipedia.org/wiki/Reserve_currency).
 
-We assume that the prisoners who may decide to use Bitcoin are trading partners. In other words the use of Bitcoin as a reserve currency is useful in that they have a partner to transact with.
+We assume that the prisoners who may decide to use Bitcoin are trading partners. In other words the use of Bitcoin as a reserve currency is useful in that they have a partner with whom to [transact](Glossary#transaction).
 
 The outcome for individual Bitcoin (**S**ucker):
 * Economic sanction.
