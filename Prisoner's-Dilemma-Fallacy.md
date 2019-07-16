@@ -1,6 +1,6 @@
 There is a theory that in a choice to join a ban on Bitcoin, individual states face a [prisoner's dilemma](https://en.wikipedia.org/wiki/Prisoner%27s_dilemma). A meaningful ban implies one or more states (the "prison") will enforce [economic sanctions](https://www.cfr.org/backgrounder/what-are-economic-sanctions) (at least) on other states (the "prisoners") potentially moving to Bitcoin as a [reserve currency](https://en.wikipedia.org/wiki/Reserve_currency).
 
-We assume that the prisoners who may decide to use Bitcoin are trading partners. In other words the use of Bitcoin as a reserve currency is useful in that they have a partner with whom to [transact](Glossary#transaction).
+We assume that the prisoners who may decide to use Bitcoin are [trading](Glossary#trade) partners. In other words the use of Bitcoin as a reserve currency is useful because there is a partner with whom to [transact](Glossary#transaction).
 
 The outcome for individual Bitcoin (**S**ucker):
 * Economic sanction.
@@ -31,4 +31,4 @@ The outcome for mutual Dollar (**P**unishment):
 
 We can conclude that `P > S` holds, as individual sanction implies no international settlement and therefore no benefit from a [foreign exchange reserve](https://en.wikipedia.org/wiki/Foreign-exchange_reserves), and presumably economic sanctions are undesirable.
 
-To determine if `R > P` and `T > R`, an objective measure is required to relate seigniorage and sanction. This can be obtained by the observation that Gold is subject to neither [seigniorage](https://en.wikipedia.org/wiki/Seigniorage) nor sanction. **In other words Gold provides the above benefits of Bitcoin without sanction.** Yet Gold has not been chosen (and was previously dropped in favor of Dollar), which implies the Dollar outcome is preferred to Gold and therefore Bitcoin. As such, neither of the [dominant strategies](https://en.wikipedia.org/wiki/Strategic_dominance) hold, invalidating the theory. The game does not represent a prisoner's dilemma.
+To determine if `R > P` and `T > R` hold, an objective measure is required to relate seigniorage and sanction. This can be obtained by the observation that Gold is subject to neither [seigniorage](https://en.wikipedia.org/wiki/Seigniorage) nor sanction. **In other words Gold provides the above benefits of Bitcoin without sanction.** Yet Gold has not been chosen (and was previously dropped in favor of Dollar), which implies the Dollar outcome is preferred to Gold and therefore Bitcoin. As such, neither of the [dominant strategies](https://en.wikipedia.org/wiki/Strategic_dominance) hold, invalidating the theory. The game does not represent a prisoner's dilemma.
