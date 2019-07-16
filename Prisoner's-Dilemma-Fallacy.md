@@ -31,5 +31,4 @@ The outcome for group Dollar (**P**unishment):
 
 We can conclude that `P > S` holds, as `S` implies no international settlement and therefore no benefit from a [foreign exchange reserve](https://en.wikipedia.org/wiki/Foreign-exchange_reserves), and presumably economic sanctions are undesirable.
 
-To determine if `R > P` and `T > R`, an objective measure is required to relate sanction and seigniorage. This can be obtained by the observation that gold is subject neither to [seigniorage](https://en.wikipedia.org/wiki/Seigniorage) nor sanction. Given that a better alternative exists it would be chosen before Bitcoin.
-
+To determine if `R > P` and `T > R`, an objective measure is required to relate sanction and seigniorage. This can be obtained by the observation that Gold is subject to neither [seigniorage](https://en.wikipedia.org/wiki/Seigniorage) nor sanction. In other words Gold provides the same benefits as Bitcoin but without sanction. Yet the Gold option has not been chosen, which implies the Dollar outcome is preferred to Gold and therefore Bitcoin. As such, neither of these relations hold, invalidating the theory. The game does not represent a prisoner's dilemma.
