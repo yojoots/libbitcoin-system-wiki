@@ -10,7 +10,6 @@ The outcome for group Bitcoin (**R**eward):
 * Economic sanction.
 * Trading partner economic sanction.
 * A reserve currency not taxed via seigniorage.
-* Ability to transact with trading partners in private.
 
 The outcome for individual Dollar (**T**emptation):
 * Inclusion in the global financial system.
@@ -29,3 +28,8 @@ The outcome for group Dollar (**P**unishment):
 `T > R > P > S` must be true, where:
 * `R > P` implies that mutual Bitcoin is preferred by each to mutual Dollar.
 * `T > R` and `P > S` imply that Dollar is the dominant strategy for each.
+
+We can conclude that `P > S` holds, as `S` implies no international settlement and therefore no benefit from a [foreign exchange reserve](https://en.wikipedia.org/wiki/Foreign-exchange_reserves), and presumably economic sanctions are undesirable.
+
+To determine if `R > P` and `T > R`, we require an objective measure. This can be obtained by the observation gold is not subject to [seigniorage](https://en.wikipedia.org/wiki/Seigniorage) or sanction. Given that a better alternative exists it would be chosen before Bitcoin.
+
