@@ -25,7 +25,7 @@ The outcome for mutual Dollar (**P**unishment):
 |Bitcoin            |R\R    |S\T     |
 |Dollar             |T\S    |P\P     |
 
-`T > R > P > S` must be true, where:
+To be a strong prisoner's dilemma `T > R > P > S` must be true, where:
 * `T > R` and `P > S` imply that Dollar is the dominant strategy for each.
 * `R > P` implies that mutual Bitcoin is preferred by each to mutual Dollar.
 
