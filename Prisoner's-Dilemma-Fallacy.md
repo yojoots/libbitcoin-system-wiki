@@ -6,7 +6,7 @@ The outcome for individual Bitcoin (**S**ucker):
 * Economic sanction.
 * An unusable reserve currency (no trading partners).
 
-The outcome for group Bitcoin (**R**eward):
+The outcome for mutual Bitcoin (**R**eward):
 * Economic sanction.
 * Trading partner economic sanction.
 * A reserve currency not taxed via seigniorage.
@@ -15,7 +15,7 @@ The outcome for individual Dollar (**T**emptation):
 * Inclusion in the global financial system.
 * A reserve currency taxed via seigniorage.
 
-The outcome for group Dollar (**P**unishment):
+The outcome for mutual Dollar (**P**unishment):
 * Inclusion in the global financial system.
 * A reserve currency taxed via seigniorage.
 
@@ -31,4 +31,4 @@ The outcome for group Dollar (**P**unishment):
 
 We can conclude that `P > S` holds, as individual sanction implies no international settlement and therefore no benefit from a [foreign exchange reserve](https://en.wikipedia.org/wiki/Foreign-exchange_reserves), and presumably economic sanctions are undesirable.
 
-To determine if `R > P` and `T > R`, an objective measure is required to relate sanction and seigniorage. This can be obtained by the observation that Gold is subject to neither [seigniorage](https://en.wikipedia.org/wiki/Seigniorage) nor sanction. In other words Gold provides the same benefits as Bitcoin but without sanction. Yet the Gold option has not been chosen, which implies the Dollar outcome is preferred to Gold and therefore Bitcoin. As such, neither of these relations hold, invalidating the theory. The game does not represent a prisoner's dilemma.
+To determine if `R > P` and `T > R`, an objective measure is required to relate seigniorage and sanction. This can be obtained by the observation that Gold is subject to neither [seigniorage](https://en.wikipedia.org/wiki/Seigniorage) nor sanction. In other words Gold provides the above benefits of Bitcoin without sanction. Yet Gold has not been chosen (and was previously dropped in favor of Dollar), which implies the Dollar outcome is preferred to Gold and therefore Bitcoin. As such, neither of these relations hold, invalidating the theory. The game does not represent a prisoner's dilemma.
