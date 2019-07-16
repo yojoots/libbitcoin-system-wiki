@@ -26,8 +26,8 @@ The outcome for mutual Dollar (**P**unishment):
 |Dollar             |T\S    |P\P     |
 
 `T > R > P > S` must be true, where:
-* `R > P` implies that mutual Bitcoin is preferred by each to mutual Dollar.
 * `T > R` and `P > S` imply that Dollar is the dominant strategy for each.
+* `R > P` implies that mutual Bitcoin is preferred by each to mutual Dollar.
 
 We can conclude that `P > S` holds, as individual sanction implies no international settlement and therefore no benefit from a [foreign exchange reserve](https://en.wikipedia.org/wiki/Foreign-exchange_reserves), and presumably economic sanctions are undesirable.
 
