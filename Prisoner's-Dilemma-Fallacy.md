@@ -20,14 +20,12 @@ The outcome for group Dollar (**P**unishment):
 * Inclusion in the global financial system.
 * A reserve currency taxed via seigniorage.
 
-#### Canonical Payoff Matrix
-|Brazil\Russia      |Bitcoin|Dollar  |
+#### Payoff Matrix
+|Brazil\Ireland     |Bitcoin|Dollar  |
 |-------------------|-------|--------|
 |Bitcoin            |R\R    |S\T     |
 |Dollar             |T\S    |P\P     |
 
-To be a prisoner's dilemma game in the strong sense, the following condition must hold for the payoffs:
-
-T > R > P > S
-
-The payoff relationship R > P implies that mutual cooperation is superior to mutual defection, while the payoff relationships T > R and P > S imply that defection is the dominant strategy for both agents.
+`T > R > P > S` must be true, where:
+* `R > P` implies that mutual Bitcoin is preferred by each to mutual Dollar.
+* `T > R` and `P > S` imply that Dollar is the dominant strategy for each.
