@@ -61,4 +61,4 @@ The Gold-Bitcoin relation assumes that [clearing](https://en.wikipedia.org/wiki/
 >
 > [The classical Gold Standard](https://www.gold.org/about-gold/history-of-gold/the-gold-standard)
 
-Dollar has been preferred to Gold despite having roughly twice the weight, significantly larger size, and seigniorage. The Gold-Bitcoin relation assumes no distinction in volatility and liquidity, though Gold objectively outperforms Bitcoin in both areas. Other Gold, Bitcoin and Dollar monetary properties are assumed to be either equivalent or not relevant to state reserve currency.
+Dollar has been preferred to Gold despite having roughly twice the weight, significantly larger size, and seigniorage. The Gold-Bitcoin relation assumes no distinction in volatility and liquidity, though Gold objectively outperforms Bitcoin in both areas. Given that Gold and Bitcoin are both [stable monies](Stability-Property), no speculative return is assumed for either. Other Gold, Bitcoin and Dollar monetary properties are assumed to be either equivalent or not relevant to state reserve currency.
