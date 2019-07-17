@@ -39,9 +39,11 @@ We can conclude that `P > S` holds, as individual sanction implies no internatio
 
 To determine if `R > P` and `T > R` hold, an objective method is required to relate only seigniorage and sanction, as presumably sanctions are undesirable. This can be obtained by the observation that Gold is subject to neither [seigniorage](https://en.wikipedia.org/wiki/Seigniorage) nor sanction. **In other words Gold provides the above benefits of Bitcoin without sanction.** Yet Gold has not been chosen (and was previously dropped in favor of Dollar), which implies the Dollar outcome is preferred to Gold and therefore Bitcoin. As such, neither of the [dominant strategies](https://en.wikipedia.org/wiki/Strategic_dominance) hold.
 
-The Gold-Bitcoin relation assumes that the [clearing](https://en.wikipedia.org/wiki/Clearing_(finance)) costs of transporting Gold and of [confirming](Glossary#confirmation) in Bitcoin are [negligible](https://www.gold.org/about-gold/history-of-gold/the-gold-standard) in the context of international settlement. Clearing requires periodic movement of only payment imbalances between states.
+The Gold-Bitcoin relation assumes that [clearing](https://en.wikipedia.org/wiki/Clearing_(finance)) costs, of transporting Gold and [confirming](Glossary#confirmation) in Bitcoin, are [negligible](https://www.gold.org/about-gold/history-of-gold/the-gold-standard) in the context of international settlement. Clearing requires periodic movement of only payment imbalances between states.
 
-> The use of such methods meant that any correction of an economic imbalance would be accelerated and normally it would not be necessary to wait for the point at which substantial quantities of gold needed to be transported from one country to another.
+> ... any correction of an economic imbalance would be accelerated and normally it would not be necessary to wait for the point at which substantial quantities of gold needed to be transported from one country to another.
+>
+> [The classical Gold Standard](https://www.gold.org/about-gold/history-of-gold/the-gold-standard)
 
 #### Strong Asymmetric Dilemma With Ordinal Outcome Relations
 
