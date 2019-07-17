@@ -26,10 +26,10 @@ The outcome for mutual Dollar (**P**unishment):
 
 #### Strong Symmetric Dilemma With Ordinal Outcome Relations
 
-|Brazil\Ireland     |Bitcoin|Dollar  |
-|-------------------|-------|--------|
-|Bitcoin            |R\R    |S\T     |
-|Dollar             |T\S    |P\P     |
+|Brazil\Ireland|Bitcoin|Dollar|
+|--------------|-------|------|
+|Bitcoin       |R\R    |S\T   |
+|Dollar        |T\S    |P\P   |
 
 To be considered a prisoner's dilemma `T > R > P > S` must be true where:
 * `T > R` and `P > S` imply that Dollar is the dominant strategy for each.
@@ -41,7 +41,19 @@ To determine if `R > P` and `T > R` hold, an objective method is required to rel
 
 #### Strong Asymmetric Dilemma With Ordinal Outcome Relations
 
-[XXX]
+|Brazil\Ireland|Bitcoin|Dollar|
+|--------------|-------|------|
+|Bitcoin       |Rr\Rc  |Sr\Tr |
+|Dollar        |Tr\Sc  |Pc\Pc |
+
+To be considered a prisoner's dilemma `Ti > Ri > Pi > Si` must be true where:
+* `Tr > Rr` and `Pr > Sr`
+* `Tc > Rc` and `Pc > Sc`
+* `Rr > Pr` and `Rc > Pc`
+
+If these relations all hold then individual Dollar is preferred to Bitcoin, and mutual Bitcoin is preferred.
+
+XXX
 
 #### Other Assumptions
 
