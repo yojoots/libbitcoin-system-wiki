@@ -43,8 +43,8 @@ To determine if `R > P` and `T > R` hold, an objective method is required to rel
 
 |Brazil\Ireland|Bitcoin|Dollar|
 |--------------|-------|------|
-|Bitcoin       |Rr\Rc  |Sr\Tr |
-|Dollar        |Tr\Sc  |Pc\Pc |
+|Bitcoin       |Rr\Rc  |Sr\Tc |
+|Dollar        |Tr\Sc  |Pr\Pc |
 
 To be considered a prisoner's dilemma `Ti > Ri > Pi > Si` must be true where:
 * `Tr > Rr` and `Pr > Sr`
