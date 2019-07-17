@@ -6,7 +6,7 @@ Time preference is the [axiom](https://en.m.wikipedia.org/wiki/Axiom) of economi
 
 The [theory of diminishing marginal utility](https://en.m.wikipedia.org/wiki/Marginal_utility) implies that for each additional [unit](Glossary#unit) of a given thing acquired by a person, the usefulness of a unit declines. This implies that, for a given time preference and [interest](Glossary#interest) rate, increased wealth implies a greater willingness to [lend](Glossary#lend). Similarly, a higher interest rate implies a greater willingness for a person of a given time preference to lend. It is a fundamental error to assume that either interest rates or wealth imply any change to time preference. Human preferences can change for any number of reasons, but the actual reasons are unknowable. By reversing cause and effect, such an error invalidates all conclusions, invalidating the theory. **Bitcoin helps people express their preferences, it implies no attempt to change them.**
 
-A related theory states that lower time preference is objectively better than higher. The theory presumes an objective morality (a basis for determining vale). Economics does not make value judgements, it infers their necessary consequence. Aggression merely differentiates the free [market](Glossary#markey) from market intervention, such as by the [state](Glossary#state). However, if one accepts [nonaggression](https://en.m.wikipedia.org/wiki/Non-aggression_principle) as the moral divide, no moral distinction between higher and lower time preference exists.
+A related theory states that lower time preference is objectively better than higher. The theory presumes an objective morality (a basis for determining vale). Economics does not make value judgements, it infers their necessary consequence. Aggression merely differentiates the free [market](Glossary#market) from market intervention, such as by the [state](Glossary#state). However, if one accepts [nonaggression](https://en.m.wikipedia.org/wiki/Non-aggression_principle) as the moral divide, no moral distinction between higher and lower time preference exists.
 
 Infinite time preference implies no lending and therefore no production. Zero time preference implies no consumption of what is produced. Given that the production exists only to satisfy eventual consumption, zero time preference also implies no production, as there is no value attributable to the consumption of products. So even absent a moral distinction, assuming people want products, no given time preference is inherently more successful in delivering them.
 
@@ -14,11 +14,11 @@ Wealth is nothing more than people satisfying preferences, including those for p
 
 It can be enlightening to consider subjectivity in terms of sexual preference.
 
-* { X, Y }
-* { X->X, Y->Y }
-* { X->X|Y, Y->X|Y }
-* { X->Y, Y->X }
+* `{ X, Y }`
+* `{ X->X, Y->Y }`
+* `{ X->X|Y, Y->X|Y }`
+* `{ X->Y, Y->X }`
 
-One might consider these groups ordered in terms of increasing productivity (i.e. producing more humans). Many states attempt to reduce the expression of these sexual preferences to the set { X->Y, Y->X }. Both outright [criminalization](https://en.m.wikipedia.org/wiki/LGBT_rights_by_country_or_territory) of expression and explicit [financial incentive](https://en.m.wikipedia.org/wiki/Marriage_promotion) for it are employed to this end. This has a discernible impact on *expression* of sexual preference, but cannot be said to have any impact on the preference itself.
+One might consider these groups ordered in terms of increasing productivity (i.e. producing more humans). Many states attempt to reduce the expression of these sexual preferences to the set `{ X->Y, Y->X }`. Both outright [criminalization](https://en.m.wikipedia.org/wiki/LGBT_rights_by_country_or_territory) of expression and explicit [financial incentive](https://en.m.wikipedia.org/wiki/Marriage_promotion) for it are employed to this end. This has a discernible impact on *expression* of sexual preference, but cannot be said to have any impact on the preference itself.
 
 Similarly it should be clear that an increase in productivity is not objectively good. People doing what they want is the moral good, again assuming the moral principle of nonaggression. Even if we assume all people prefer continuation of the species, this implies no effect on individual sexual preferences.
