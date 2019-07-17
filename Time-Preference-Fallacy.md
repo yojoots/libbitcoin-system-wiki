@@ -1,4 +1,4 @@
-There is a theory that Bitcoin will lower human [time preference](https://en.m.wikipedia.org/wiki/Time_preference).
+There is a theory that Bitcoin can lower human [time preference](https://en.m.wikipedia.org/wiki/Time_preference).
 
 Value derives from the human perception of [utility](Glossary#utility). A [person](Glossary#person) who trades a car for a horse objectively values the usefulness of [owning](Glossary#owner) the horse more than the car. This implies nothing about *why* one is more valuable than the other to the person. It also implies nothing about the the valuations made by others, or by the same person at any other time. The value placed on one thing over another is a preference. The reason for the preference is not knowable in economic theory.
 
