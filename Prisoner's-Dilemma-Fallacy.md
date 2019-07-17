@@ -55,7 +55,7 @@ If these relations all hold then individual Dollar is preferred to Bitcoin, and 
 
 #### Other Assumptions
 
-The Gold-Bitcoin relation assumes that [clearing](https://en.wikipedia.org/wiki/Clearing_(finance)) costs, of transporting Gold and [confirming](Glossary#confirmation) in Bitcoin, are [negligible](https://www.gold.org/about-gold/history-of-gold/the-gold-standard) in the context of international settlement. Clearing requires periodic movement of only payment imbalances between states.
+The Gold-Bitcoin relation assumes that [clearing](https://en.wikipedia.org/wiki/Clearing_(finance)) costs, of transporting Gold and [confirming](Glossary#confirmation) Bitcoin, are [negligible](https://www.gold.org/about-gold/history-of-gold/the-gold-standard) in the context of international settlement. Clearing requires periodic movement of only payment imbalances between states.
 
 > ... any correction of an economic imbalance would be accelerated and normally it would not be necessary to wait for the point at which substantial quantities of gold needed to be transported from one country to another.
 >
