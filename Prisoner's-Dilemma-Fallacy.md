@@ -37,7 +37,7 @@ To be considered a prisoner's dilemma `T > R > P > S` must be true where:
 
 We can conclude that `P > S` holds, as individual sanction implies no international settlement and therefore no benefit from a [foreign exchange reserve](https://en.wikipedia.org/wiki/Foreign-exchange_reserves), and presumably sanctions are undesirable.
 
-To determine if `R > P` and `T > R` hold, an objective method is required to relate only seigniorage and sanction, as presumably sanctions are undesirable. This can be obtained by the observation that Gold is subject to neither [seigniorage](https://en.wikipedia.org/wiki/Seigniorage) nor sanction. **In other words Gold provides the above benefits of Bitcoin without sanction.** Yet Gold has not been chosen (and was previously dropped in favor of Dollar), which implies the Dollar outcome is preferred to Gold and therefore Bitcoin. As such, neither of the [dominant strategies](https://en.wikipedia.org/wiki/Strategic_dominance) hold.
+To determine if `R > P` and `T > R` hold, an objective method is required to relate only seigniorage and sanction, as presumably sanctions are undesirable. This can be obtained by the observation that Gold is subject to neither [seigniorage](https://en.wikipedia.org/wiki/Seigniorage) nor sanction. **In other words Gold provides the above benefits of Bitcoin without sanction.** Yet Gold has not been chosen (and was previously dropped in favor of Dollar), which implies the Dollar outcome is preferred to Gold and therefore Bitcoin. As such, neither of the [dominant strategies](https://en.wikipedia.org/wiki/Strategic_dominance) hold. As such there is no dilemma.
 
 #### Strong Asymmetric Dilemma With Ordinal Outcome Relations
 
@@ -51,9 +51,7 @@ To be considered a prisoner's dilemma `Ti > Ri > Pi > Si` must be true where:
 * `Tc > Rc` and `Pc > Sc`
 * `Rr > Pr` and `Rc > Pc`
 
-If these relations all hold then individual Dollar is preferred to Bitcoin, and mutual Bitcoin is preferred.
-
-XXX
+If these relations all hold then individual Dollar is preferred to Bitcoin, and mutual Bitcoin is preferred. Given that these are the same relations evaluated in the symmetric scenario, there is no dilemma.
 
 #### Other Assumptions
 
