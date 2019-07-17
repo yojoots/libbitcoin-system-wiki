@@ -3,7 +3,7 @@
 We can organize monies into three supply categories:
 
 * Market supply ([commodity](https://en.wikipedia.org/wiki/Commodity))
-* Monopoly supply ([monopoly](Money-Taxonomy) )
+* Monopoly supply ([monopoly](Money-Taxonomy))
 * Fixed supply ([bitcoin](https://en.wikipedia.org/wiki/Bitcoin))
 
 In any money, destruction of [units](Glossary#unit) decreases supply and therefore increases the value of those that remain. Given that there is no financial incentive for loss it does not impact stability.
