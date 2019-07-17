@@ -1,9 +1,9 @@
-[Value](Glossary#value) is [subjective](https://en.wikipedia.org/wiki/Subjective_theory_of_value) and therefore price constancy is an economic fiction. The [exchange](Glossary#exchange) [prices](Glossary#price) of a [money](Money-Taxonomy) is is determined by its [supply and demand](https://en.m.wikipedia.org/wiki/Supply_and_demand) which is in turn affected by the demand schedules of all people for all products. The stability of a money is not a tendency toward constant price in all other things, it is a [damping](https://en.wikipedia.org/wiki/Damping_ratio) relationship between demand for the money and its supply.
+[Value](Glossary#value) is [subjective](https://en.wikipedia.org/wiki/Subjective_theory_of_value) and therefore price constancy is an economic fiction. The [exchange](Glossary#exchange) [prices](Glossary#price) of a money is is determined by its [supply and demand](https://en.m.wikipedia.org/wiki/Supply_and_demand) which is in turn affected by the demand schedules of all people for all products. The stability of a money is not a tendency toward constant price in all other things, it is a [damping](https://en.wikipedia.org/wiki/Damping_ratio) relationship between demand for the money and its supply.
 
 We can organize monies into three supply categories:
 
 * Market supply ([commodity](https://en.wikipedia.org/wiki/Commodity))
-* Monopoly supply ([monopoly](https://en.wikipedia.org/wiki/Fiat_money))
+* Monopoly supply ([monopoly](Money-Taxonomy) )
 * Fixed supply ([bitcoin](https://en.wikipedia.org/wiki/Bitcoin))
 
 In any money, destruction of [units](Glossary#unit) decreases supply and therefore increases the value of those that remain. Given that there is no financial incentive for loss it does not impact stability.
