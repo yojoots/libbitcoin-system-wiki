@@ -12,6 +12,8 @@ Infinite time preference implies no lending and therefore no production. Zero ti
 
 Wealth is nothing more than the consequence of people satisfying preferences, including those for present and deferred consumption. States employ fiscal and monetary [stimulus](https://en.m.wikipedia.org/wiki/Stimulus_(economics)) in an attempt to increase consumption and production respectively, in order to maximize tax revenue. Yet this comes at the cost of taxing both. The outcome is the shifting of capital allocation decisions from the market to the state. This implies people are less able to *satisfy* preferences. However it implies no change to the preferences that they hold.
 
+A related theory states that people can demonstrate lower time preference by [hoarding](Glossary#hoard) more bitcoin. An increased level of hoarding at the expense of lending implies *higher* time preference. It is true that an increased level of hoarding at the expense of consumption may imply a lower time preference, since consumption is deferred. However, by hoarding more than otherwise required for liquidity, one is simply deferring consumption for the sake of deferring consumption. The benefit of deferred consumption, as implied by time preference, is in capturing time value (interest). Considering the hoard a speculation does not capture time value.
+
 It can be enlightening to consider subjectivity in terms of sexual preference.
 
 * `{ X, Y }`
