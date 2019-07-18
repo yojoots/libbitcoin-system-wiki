@@ -21,7 +21,7 @@ It can be enlightening to consider the subjectivity of value in terms of sexual 
 * `{ X->X|Y, Y->X|Y }`
 * `{ X->Y, Y->X }`
 
-One might consider this list ordered in terms of increasing production (i.e. producing more humans). Many states attempt to reduce the expression of these sexual preferences to the set `{ X->Y, Y->X }`. Both outright [criminalization](https://en.m.wikipedia.org/wiki/LGBT_rights_by_country_or_territory) of expression and explicit [financial incentive](https://en.m.wikipedia.org/wiki/Marriage_promotion) for it are employed to this end. This has a discernible impact on *expression* of sexual preference, but cannot be said to have any impact on the preference itself.
+One might consider this list ordered in terms of increasing production (i.e. producing more humans). Many states attempt to reduce the expression of sexual preference to the set `{ X->Y, Y->X }`. Both outright [criminalization](https://en.m.wikipedia.org/wiki/LGBT_rights_by_country_or_territory) of expression and explicit [financial incentive](https://en.m.wikipedia.org/wiki/Marriage_promotion) for it are employed to this end. This has a discernible impact on *expression* of sexual preference, but cannot be said to have any impact on the preference itself.
 
 Similarly it should be clear that an increase in production is not objectively good. People doing what they want is the moral good, again assuming the moral principle of nonaggression. Even if we assume all people prefer [continuation of the species](https://futurism.com/in-order-to-ensure-human-survival-we-must-become-a-multi-planetary-species), this implies no effect on individual sexual preferences.
 
