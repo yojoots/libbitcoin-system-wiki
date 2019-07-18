@@ -4,7 +4,7 @@ As discussed in [Dumping Fallacy](Dumping-Fallacy) there is no way to discourage
 
 Given a position before the split, an owner is impacted by the increased cost of unit conversion, and [replay protection](Replay-Protection-Fallacy) as applicable. These are unavoidable future [trading](Glossary#trade) costs that reduce the [net present value](https://en.m.wikipedia.org/wiki/Net_present_value) of the units. Therefore these factors are not relevant to the question.
 
-The remaining considerations are based on the **assumption** that the combined coins will increase in [price](Glossary#price) over the contemplated period of time.
+The remaining considerations are based on the *assumption* that the combined coins will increase in [price](Glossary#price) over the contemplated period of time.
 
 The [Consolidation Principle](Consolidation-Principle) implies that the two similar coins must eventually consolidate, reducing to zero the value of one of them over time. If one happens to know which this will be, it is rational to sell it and buy the other. However, given that one may *not* know which coin will survive, there is a chance that the trade would sell the coin that succeeds for the one that fails, sacrificing *all* value in the original units. With no knowledge of the future, selling all or part of one for the other increases the potential reward in proportion to the increased risk. As such it is equally rational to hoard both, which preserves the assumptions that existed prior to the split.
 
