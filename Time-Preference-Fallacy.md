@@ -1,4 +1,4 @@
-There is a theory that lower [time preference](https://en.m.wikipedia.org/wiki/Time_preference) is better than higher, as it encourages greater production and therefore greater wealth. This is a reversal of cause and effect.
+There is a theory that lower [time preference](https://en.m.wikipedia.org/wiki/Time_preference) is better than higher, as it results in greater production and therefore greater wealth. This is a reversal of cause and effect.
 
 Time preference is the economic [axiom](https://en.m.wikipedia.org/wiki/Axiom) that states people prefer a "present good" over the same "future good". As a conflict with [subjective value](https://en.m.wikipedia.org/wiki/Subjective_theory_of_value), this idea cannot be proven. Time is unique in that it is assumed to have inherent value. This assumption is grounded in the observations that people have limited time and that it is a necessary factor of all production.
 
