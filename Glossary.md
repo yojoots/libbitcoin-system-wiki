@@ -27,7 +27,7 @@ The act of discarding [Invalid](#validity) data.
 
 ## Objects
 #### Unit
-The atomic transferable value of a [Coin](#coin).
+A minimum transferable amount of property represented by a [Coin](#coin).
 > The Satoshi is the Bitcoin unit.
 #### Transfer
 The change of control over certain [Units](#unit).
@@ -143,7 +143,7 @@ A voluntary swap of property between two [People](#person).
 #### Utility
 The usefulness of certain property to a [Person](#person).
 #### Value
-The [Utility](#utility) of a number of [Units](#unit) to a [Person](#person).
+The preference of a [Person](#person) for certain property over other.
 #### Supply
 The set of all issued [Units](#unit).
 #### Exchange
