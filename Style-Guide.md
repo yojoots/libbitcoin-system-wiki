@@ -8,7 +8,7 @@ Avoid structured exception handling.
 
 Use `_` as opposed to `-` in source file names.
 
-Variables, functions, `class`, `enum`, and `typedef` are lower case, `define` (macros) upper case, [CamelCase](http://en.wikipedia.org/wiki/CamelCase) identifiers for `template` types, no other mixed case.
+Variables, functions, `class`, `enum`, and `typedef` are lower case, `define` (macros) upper case, [PascalCase](http://en.wikipedia.org/wiki/CamelCase) identifiers for `template` types, no other mixed case.
 
 Write self-documenting code. Names should be explanatory, not cryptic or ambiguous. Avoid abbreviations and acronyms.
 
@@ -22,11 +22,11 @@ The `using` keyword should never be used in headers. Never declare `using namesp
 
 Every `{` begins a newline except for namespaces and closings on the same line: `{ ... }`.
 
-Don't internally terminate line-oriented macros, so termination will not be redundant: FOO_BAR();
+Don't internally terminate line-oriented macros, so termination will not be redundant (which produces warnings): FOO_BAR();
 
 Spaces between all operators: `x = 5 * 8 + 4 * 2`.
 
-If the order is ambiguous or confusing then use parenthesis: `x = (5 * 8) + (4 * 2)`.
+If the order is ambiguous or confusing then use parenthesis: `x = (5 * 8) + (4 * 2)` but avoid otherwise.
 
 Avoid raw pointers in C++, using smart pointers if pointers are necessary.
 
@@ -47,7 +47,7 @@ Use standard integer types where possible:
 
 Don't use `long` integers as this type varies in length by platform.
 
-Don't assume `sizeof(void*) == sizeof(size_t)` as it is not guaranteed and it's semantically incorrect.
+Don't assume `sizeof(void*)` is `sizeof(size_t)` as it is not guaranteed and it's semantically incorrect.
 
 Generally you should use `size_t` for arbitrary length representation.
 
@@ -57,13 +57,19 @@ Use `char` for "characters", don't use `unsigned char` when you mean "byte", use
 
 Assume `char` is interpreted as Utf-8, even in VC++! We have implemented [Utf-8 Everywhere](http://utf8everywhere.org/).
 
+Don't use `const` with copy-by-value parameters. Use `foo(uint8_t bar)` and `foo(std::string bar)` instead of `foo(const uint8_t bar)` and `foo(const std::string bar)`. This prevents unnecessary constraint of the internal value, which otherwise requires another copy for modification. It also reduces function signature sizes.
+
+Prefix out parameters with `out_` and keep them to the far left of parameter list, as `foo (std::string& out_bar, uint8_t)`. This provides consistency with functions that have both out and default default parameters.
+
+Use `const` references for non-integral parameters to prevent unnecessary copying.
+
 Use `boost::filesystem::path` for any part of a filesystem path, not `std::string`.
 
 Each `:`, `;` (in for loops) and `,` has a space after it.
 
 No spaces between function/macros name and left parenthesis: `do_bar(...)`. This greatly facilitates search.
 
-Keywords such as `if` and `for`are not functions, one space before left parenthesis: `while (!done) ...`.
+Keywords such as `if` and `for` are not functions, one space before left parenthesis: `while (!done) ...`.
 
 Flow control should transition on new lines.
 
