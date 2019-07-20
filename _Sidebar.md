@@ -63,6 +63,7 @@
   * [Causation Fallacy](Causation-Fallacy)
   * [Cockroach Fallacy](Cockroach-Fallacy)
   * [Credit Expansion Fallacy](Credit-Expansion-Fallacy)
+  * [Debt Loop Fallacy](Debt-Loop-Fallacy)
   * [Decoupled Mining Fallacy](Decoupled-Mining-Fallacy)
   * [Dumping Fallacy](Dumping-Fallacy)
   * [Empty Block Fallacy](Empty-Block-Fallacy)
