@@ -15,7 +15,7 @@ All money implies money substitutes, as a [consequence of lending](Credit-Expans
 * finite regression (money substitute)
 * infinite regression (impossible money)
 
-A note may be a claim for another type of claim, but not for itself. Otherwise there is no actual regression and it *is* money. This holds in the case where the claim is directly or indirectly entirely circular, as in any case the note settles itself. Examples include Gold, Bitcoin, and the irredeemable (modern) U.S. Dollar.
+A note may be a claim for another type of claim, but not for itself. Otherwise there is no actual regression and it *is* money. This holds in the case where the claim is directly or indirectly entirely circular, as the note settles itself. Examples include Gold, Bitcoin, and the irredeemable (modern) U.S. Dollar.
 
 A direct claim (single regression) for money is a representative money, though this term is generally reserved for a tangible note that represents a commodity money. The note directly *represents* money. The redeemable U.S. Dollar was a representative money.
 
