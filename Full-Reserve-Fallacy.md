@@ -32,7 +32,7 @@ A related theory is that money substitutes trade at the same value as the money 
 
 > Banks are charged a gross transfer fee of $0.82 for every transaction, however there is a three-tiered discount schedule, which results in actual transaction fees costing between $0.034 and $0.82 per transaction depending on transaction volume.
 
-This is why many business are "cash only", others do not accept checks, others charge a premium to offset the discount, and  why there are [ATM fees](https://en.wikipedia.org/wiki/ATM_usage_fees), etc. As such the observation that money substitutes are not discounted is refuted by a mountain of evidence to the contrary. More importantly, these costs are provably necessary even if they are ignored.
+This is why many business are "cash only", others do not accept checks, others charge a premium to offset the discount, and  why there are [ATM fees](https://en.wikipedia.org/wiki/ATM_usage_fees), etc. As such the observation that money substitutes are not discounted is refuted by a mountain of evidence to the contrary. More importantly, this discount is provably necessary, invalidating the theory.
 
 A related theory is that bank lending creates [price inflation](https://en.wikipedia.org/wiki/Inflation) as a consequence of [credit expansion](Credit-Expansion-Fallacy). Given that lending and money have necessarily evolved together, there is never a time where credit expansion itself changes the level of money substitutes. This requires either an expansion of the supply of money, or a reduction in [time preference](Time-Preference-Fallacy), reflected as the economic rate of interest. Credit expansion is strictly a function of these two factors, not lending itself. As such the theory is invalid.
 
