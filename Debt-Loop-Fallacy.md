@@ -15,10 +15,10 @@ All money implies money substitutes, as a [consequence of lending](Credit-Expans
 * finite regression (money substitute)
 * infinite regression (impossible money)
 
-A note may be a claim for another type of claim, but not for itself. Otherwise there is no actual regression and the supposed claim *is* money. This holds in the case where the claim is directly or indirectly entirely circular, as the note settles itself. Examples include Gold, Bitcoin, and the irredeemable (modern) U.S. Dollar.
+A note may be a claim for another type of claim, but not for itself. Otherwise there is no actual regression and the supposed claim *is* money. This holds in the case where the claim is directly or indirectly entirely circular, as the note [settles](https://en.wikipedia.org/wiki/Clearing_(finance)) itself. Examples include Gold, Bitcoin, and the irredeemable (modern) U.S. Dollar.
 
 A direct claim (single regression) for money is a representative money, though this term is generally reserved for a tangible note that represents a commodity money. The note directly *represents* money. The redeemable U.S. Dollar was a representative money.
 
-An indirect claim represents any finite progression of claims against others. When all claims are [settled](https://en.wikipedia.org/wiki/Clearing_(finance)), the money is held by its rightful [owner](Glossary#owner) with all claims closed out, and any circular claims fully [netted](https://en.wikipedia.org/wiki/Set-off_(law)#Close_out_netting). Note that if the claims are fully circular there is nothing to settle (i.e. the claim is money).
+An indirect claim represents any finite progression of claims against others. When all claims are settled, the money is held by its rightful [owner](Glossary#owner) with all claims closed out, and any circular claims fully [netted](https://en.wikipedia.org/wiki/Set-off_(law)#Close_out_netting). Note that if the claims are fully circular there is nothing to settle (i.e. the claim is money).
 
 An infinite regression of claims [cannot exist](https://en.wikipedia.org/wiki/Turtles_all_the_way_down). Any claim to the contrary is purely euphemistic. The debtor in any claim may default, but a claim can only be made against a finite number of other claims.
