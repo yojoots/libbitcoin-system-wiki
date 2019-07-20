@@ -8,7 +8,7 @@ The theory represents a misunderstanding of the nature of value. No money has in
 
 The theory also represents a misunderstanding of the nature of money and credit (e.g. money substitutes). A claim cannot be a claim for itself. In such a scenario, the claim would settle itself. In other words, if $100 was a claim for $100, holding the claim is satisfaction of the claim. In other words, it would not be a claim at all, it would be money. This transition happens when representative money is abrogated by its issuer. The U.S. Dollar was [monetized in 1933](https://en.wikipedia.org/wiki/Gold_Reserve_Act) when its redeemability was canceled. [People](Glossary#person) were compelled to exchange redeemable dollars for irredeemable dollars. To the extent that formerly-redeemable Dollars remain in circulation, as many still do, they are converted when encountered by the [Federal Reserve](https://en.wikipedia.org/wiki/Federal_Reserve). The retention of the phrase "Federal Reserve Note" on the irredeemable Dollar is anachronistic.
 
-All money implies money substitutes, as a [consequence of lending](Credit-Expansion-Fallacy). We can classify four hypothetical scenarios for money substitutes in terms of debt regression, where a one step in the regression implies a single [promissory note](https://en.wikipedia.org/wiki/Promissory_note).
+All money implies money substitutes, as a [consequence of lending](Credit-Expansion-Fallacy). We can classify four hypothetical scenarios for money substitutes in terms of debt regression, where each step in the regression is a [promissory note](https://en.wikipedia.org/wiki/Promissory_note).
 
 * no regression (money)
 * single regression (representative money)
