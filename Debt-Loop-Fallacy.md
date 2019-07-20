@@ -10,10 +10,10 @@ The theory also represents a misunderstanding of the nature of money and credit 
 
 All money implies money substitutes, as a [consequence of lending](Credit-Expansion-Fallacy). We can classify four hypothetical scenarios for money substitutes in terms of debt regression, where a one step in the regression implies a single [promissory note](https://en.wikipedia.org/wiki/Promissory_note).
 
-1. no regression (money)
-2. single regression (representative money)
-3. finite regression (money substitute)
-4. infinite regression (impossible money)
+* no regression (money)
+* single regression (representative money)
+* finite regression (money substitute)
+* infinite regression (impossible money)
 
 A note may be a claim for another type of claim, but not for itself. Otherwise there is no actual regression and it *is* money. This holds in the case where the claim is directly or indirectly entirely circular, as in any case the note settles itself. Examples include Gold, Bitcoin, and the irredeemable (modern) U.S. Dollar.
 
