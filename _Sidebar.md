@@ -72,6 +72,7 @@
   * [Energy Waste Fallacy](Energy-Waste-Fallacy)
   * [Fee Recovery Fallacy](Fee-Recovery-Fallacy)
   * [Genetic Purity Fallacy](Genetic-Purity-Fallacy)
+  * [Full Reserve Fallacy](Full-Reserve-Fallacy)
   * [Halving Fallacy](Halving-Fallacy)
   * [Hoarding Fallacy](Hoarding-Fallacy)
   * [Ideal Money Fallacy](Ideal-Money-Fallacy)
