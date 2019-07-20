@@ -19,6 +19,6 @@ A note may be a claim for another type of claim, but not for itself. Otherwise t
 
 A direct claim (single regression) for money is a representative money, though this term is generally reserved for a tangible note that represents a commodity money. The note directly *represents* money. The redeemable U.S. Dollar was a representative money.
 
-An indirect claim represents any finite progression of claims for money substitutes. When all claims are [settled](https://en.wikipedia.org/wiki/Clearing_(finance)), the money is held by its rightful [owner](Glossary#owner) and the claims are closed out, with circular claims fully [netted out](https://en.wikipedia.org/wiki/Set-off_(law)#Close_out_netting). Note that if the claims are fully circular there is nothing to settle (i.e. they are money).
+An indirect claim represents any finite progression of claims for money substitutes. When all claims are [settled](https://en.wikipedia.org/wiki/Clearing_(finance)), the money is held by its rightful [owner](Glossary#owner) with all claims closed out, and circular claims fully [netted](https://en.wikipedia.org/wiki/Set-off_(law)#Close_out_netting). Note that if the claims are fully circular there is nothing to settle (i.e. they are money).
 
 An infinite regression of debt [cannot exist](https://en.wikipedia.org/wiki/Turtles_all_the_way_down).
