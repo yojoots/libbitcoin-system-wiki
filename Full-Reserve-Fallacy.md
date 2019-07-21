@@ -4,7 +4,7 @@ This theory hinges on the definition of the word "bank". [Rothbard](https://en.w
 
 > When a man deposits goods at a warehouse, he is given a receipt and pays the owner of the warehouse a certain sum for the service of storage. He still retains ownership of the property; the owner of the warehouse is simply guarding it for him. When the warehouse receipt is presented, the owner is obligated to restore the good deposited. A warehouse specializing in money is known as a "bank."
 
-Banks do offer this warehousing service, in the name of [safe deposit](https://en.wikipedia.org/wiki/Safe_deposit_box). But banks are not so narrowly defined. They also generally offer interest-bearing accounts such as [saving deposit](https://en.wikipedia.org/wiki/Savings_account) and [term deposit](https://en.wikipedia.org/wiki/Time_deposit) respectively. Rothbard uses the expectation of [interest](Glossary#interest) to differentiate warehousing money from [lending](Glossary#lend) it:
+Banks do offer this warehousing service, in the name of [safe deposit](https://en.wikipedia.org/wiki/Safe_deposit_box). But banks are not so narrowly defined. They also generally offer interest-bearing accounts such as [saving deposit](https://en.wikipedia.org/wiki/Savings_account) and [term deposit](https://en.wikipedia.org/wiki/Time_deposit). Rothbard uses the expectation of [interest](Glossary#interest) to differentiate warehousing money from [lending](Glossary#lend) it:
 
 > Someone else's property is taken by the warehouse and used for its own money-making purposes. It is not borrowed, since no interest is paid for the use of the money.
 
