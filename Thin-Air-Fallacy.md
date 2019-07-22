@@ -34,7 +34,7 @@ Notice that Person has actually lent to his own enterprise (i.e. lending busines
 |-----------|----------|----------|----------|----------|
 |amount     |     100oz|      10oz|      90oz|          |
 
-|*Borrower* |savings   |hoard     |asset     |liability |
+|*Business* |savings   |hoard     |asset     |liability |
 |-----------|----------|----------|----------|----------|
 |amount     |      90oz|          |      90oz|          |
 
