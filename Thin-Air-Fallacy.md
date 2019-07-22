@@ -177,7 +177,7 @@ The failure to recognize these principles likely results from failure to conside
 In summary, it has been shown that:
 
 * Fractional reserve is inherent in lending.
-* The economic fraction of reserve is time preference.
+* The fraction of reserve is the expression of time preference.
 * Non-positive reserve is not possible.
 * Lower reserve reduces chances of being able to settle accounts.
 * No distinction exists between naive and practical money creation.
