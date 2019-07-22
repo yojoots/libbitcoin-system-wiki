@@ -160,7 +160,7 @@ When Borrower spends just 1oz to Merchant, using the money substitute, Merchant'
 |Borrower   |          |          |     999oz|    1000oz|          |          |
 |Merchant   |          |          |       1oz|          |          |          |
 
-The imbalance between Merchant and Bank accounts must be settled. The money must actually be moved from the control of Bank to Merchant (or typically Merchant's bank). At this point Bank has failed and Merchant is unpaid. Bank may create as much money substitute as it wants, but negative reserve is just an [empty promise](https://en.wiktionary.org/wiki/empty_promise).
+The imbalance between Merchant and Bank accounts must be settled. The money must actually be moved from the control of Bank to Merchant (or typically Merchant's bank). At this point Bank has failed and Merchant is unpaid, as the transaction cannot clear. Bank may create as much money substitute as it wants, but negative reserve is just an [empty promise](https://en.wiktionary.org/wiki/empty_promise).
 
 |           |savings   |money     |asset     |liability |credit    |debt      |
 |-----------|----------|----------|----------|----------|----------|----------|
