@@ -137,7 +137,7 @@ Then let us assume Borrower deposits his borrowed money with Bank.
 |Bank       |      90oz|      90oz|          |          |
 |Borrower   |          |          |      81oz|      81oz|
 
-Notice that the this is identical to the final outcome of the naive view. **There is no distinction between these supposedly-competing views on money creation**, invaliding the theory. This resolves the [centuries-old debate](https://en.wikipedia.org/wiki/Credit_theory_of_money#Scholarship), apparently begun between [Plato](https://en.wikipedia.org/wiki/Plato) and [Aristotle](https://en.wikipedia.org/wiki/Aristotle), regarding whether money is created through mining or through credit expansion. The theories are identical, as money and credit are a [duality](https://en.wiktionary.org/wiki/duality).
+Notice that the this is identical to the final outcome of the naive view. **There is no distinction between these supposedly-competing views on money creation**, invaliding the theory. This resolves the [centuries-old debate](https://en.wikipedia.org/wiki/Credit_theory_of_money#Scholarship), apparently begun between [Plato](https://en.wikipedia.org/wiki/Plato) and [Aristotle](https://en.wikipedia.org/wiki/Aristotle), regarding whether money is based on mining or credit. The theories are identical, as money and credit are a [duality](https://en.wiktionary.org/wiki/duality). Adherents to the two theories are merely [talking past each other](https://en.m.wikipedia.org/wiki/Talking_past_each_other).
 
 > According to Joseph Schumpeter, the first known advocate of a credit theory of money was Plato. Schumpeter describes metallism as the other of "two fundamental theories of money", saying the first known advocate of metallism was Aristotle.
 
