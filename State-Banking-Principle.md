@@ -6,8 +6,6 @@ This implies that the [monetary inflation](https://en.wikipedia.org/wiki/Monetar
 
 Yet the Fed can *pretend* it has money in its vault and print it only when it is required for settlement. When a member bank requires money it borrows it from the Fed. When the Fed's reserve of actual money is insufficient, it simply makes a withdrawal from the taxpayer by demanding money from the printer (i.e. inflation tax). Without this ability create new fiat the Fed would be unable to settle accounts, just as would any bank if there was insufficient reserve (including that which could be borrowed) to cover withdrawals and defaults. Until the member bank must settle in fiat, such as in the case of cash withdrawal at [ATMs](https://en.wikipedia.org/wiki/Automated_teller_machine), [teller windows](https://en.wikipedia.org/wiki/Bank_teller) or with non-member banks and other institutions, there is no need to move the actual money, or print it. But without the ability to print it, the Fed would be subject to default just as any other bank. 
 
-### Observation
-
 Given these facts, one would expect the level of money substitutes to be no greater than the product of coinage + fiat (and accounting for fiat not yet printed) in curculation, and the "[money multiplier](https://en.wikipedia.org/wiki/Money_multiplier)" implied by bank reserve requirements:
 
 > In equations, writing M for commercial bank money (loans) [money substitutes], R for reserves (central bank money) [money], and RR for the reserve ratio, the reserve ratio requirement is that `R/M >= RR`; the fraction of reserves must be at least the reserve ratio. Taking the reciprocal, `M/R <= 1/RR`, which yields `M <= R x (1/RR)`, meaning that commercial bank money is at most `R x 1/RR`, the latter being the multiplier ignoring leakages into currency [money held outside of banks].
@@ -59,4 +57,4 @@ As borrowing by member banks is reduced (by the Fed raising its cost), the Fed's
 
 This "leftover Fed revenue" is that which is earned, after operating expenses, from loans of money printed by the U.S. Treasury at nominal cost, guaranteed by its [monopoly protection](https://en.wikipedia.org/wiki/Counterfeit) in doing so. So the net result is that the Treasury prints new money and then recaptures the money earned as interest that money printed. While the money is not printed and then deposited directly into the Treasury, the result is the same.
 
-Money is not created [out of thin air](Thin-Air-Fallacy) by banking accounting. It is literally created out of [old blue jeans](https://www.washingtonpost.com/news/wonk/wp/2013/12/16/how-tight-jeans-almost-ruined-americas-money) by the state.
+Money is not created *ex nihilo* by fraudulent banking accounting. It is literally created out of [old blue jeans](https://www.washingtonpost.com/news/wonk/wp/2013/12/16/how-tight-jeans-almost-ruined-americas-money) by the state.
