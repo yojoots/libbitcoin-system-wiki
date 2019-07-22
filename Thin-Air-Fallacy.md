@@ -14,47 +14,32 @@ In a free market people can perform the same operations as banks, without necess
 
 In the naive view, the potential lender has saved both the liquidity required for personal consumption (hoard) and the amount intended for earning [interest](Glossary#interest) (investment). All lending in this scenario originates from savings. Savings includes the sum of the hoard (money) and the amount that asset exceeds liability: `[savings = money + (asset - liability)]`. Money is gold and assets are money substitutes.
 
-|*Person*  |savings   |money     |asset     |liability |
-|----------|----------|----------|----------|----------|
-|amount    |     100oz|     100oz|          |          |
+|         |money     |asset     |liability |
+|---------|----------|----------|----------|----------|
+|Person   |     100oz|     100oz|          |          |
 
 In the naive view of personal lending, Person hands over 80oz of gold to Borrower. Borrower accepts an obligation to repay Person with interest at [loan maturity](https://en.wikipedia.org/wiki/Maturity_(finance)). To simplify the accounting we will assume zero interest and no accounting for repayment risk.
 
-|*Person*   |savings   |money     |asset     |liability |
+|           |savings   |money     |asset     |liability |
 |-----------|----------|----------|----------|----------|
-|amount     |     100oz|      20oz|      80oz|          |
-
-|*Borrower* |savings   |money     |asset     |liability |
-|-----------|----------|----------|----------|----------|
-|amount     |          |      80oz|          |      80oz|
+|Person     |     100oz|      20oz|      80oz|          |
+|Borrower   |          |      80oz|          |      80oz|
 
 Notice that Person has actually lent to his own enterprise (i.e. lending business) a fraction of his savings for the purpose of earning interest, which is accounted for below. Let us consider that Person hoards 10% of his savings for the liquidity required for near-term consumption and Business hoards at 10% for the same reason.
 
-|*Person*   |savings   |money     |asset     |liability |
+|           |savings   |money     |asset     |liability |
 |-----------|----------|----------|----------|----------|
-|amount     |     100oz|      10oz|      90oz|          |
-
-|*Business* |savings   |money     |asset     |liability |
-|-----------|----------|----------|----------|----------|
-|amount     |      90oz|       9oz|      81oz|          |
-
-|*Borrower* |savings   |money     |asset     |liability |
-|-----------|----------|----------|----------|----------|
-|amount     |          |      81oz|          |      81oz|
+|Person     |     100oz|      10oz|      90oz|          |
+|Business   |      90oz|       9oz|      81oz|          |
+|Borrower   |          |      81oz|          |      81oz|
 
 Notice that Person's business is operating with no reserve. All of his deposited money is at risk of default. Projecting this into the naive view of banking, we need only rename "Lender" to "Depositor" and "Business" to "Bank". There is no need to assume that these are distinct individuals.
 
-|*Depositor*|savings   |money     |asset     |liability |
+|           |savings   |money     |asset     |liability |
 |-----------|----------|----------|----------|----------|
-|amount     |     100oz|      10oz|      90oz|          |
-
-|*Bank*     |savings   |money     |asset     |liability |
-|-----------|----------|----------|----------|----------|
-|amount     |      90oz|       9oz|      81oz|          |
-
-|*Borrower* |savings   |money     |asset     |liability |
-|-----------|----------|----------|----------|----------|
-|amount     |          |      81oz|          |      81oz|
+|Depositor  |     100oz|      10oz|      90oz|          |
+|Bank       |      90oz|       9oz|      81oz|          |
+|Borrower   |          |      81oz|          |      81oz|
 
 Notice that by properly accounting for the Person as putting money at risk (i.e. a depositor) we can see that all lending is fractionally reserved. There are two loans in this scenario, both reserved at 10%, resulting in monetary substitutes of 171% of money. Given the assumption of uniform [time preference](Time-Preference-Fallacy), Borrower will lend 90% of his savings, as will all subsequent borrowers. Assuming a minimum money divisibility of 1oz, credit expansion terminates at 8.903 times the amount of money, after 43 loans:
 
