@@ -14,44 +14,44 @@ In a free market people can perform the same operations as banks, without necess
 
 In the naive view, the potential lender has saved both the liquidity required for personal consumption (hoard) and the amount intended for earning [interest](Glossary#interest) (investment). All lending in this scenario originates from money savings. 
 
-|Person    |savings   |hoard     |asset     |liability |
+|*Person*  |savings   |hoard     |asset     |liability |
 |----------|----------|----------|----------|----------|
 |amount    |     100oz|          |          |          |
 
 In the naive view of personal lending, Person hands over 90oz of gold to Borrower. Borrower accepts an obligation to repay Person with interest at [loan maturity](https://en.wikipedia.org/wiki/Maturity_(finance)). To simplify the accounting we will assume zero interest and no accounting for repayment risk. In all cases, savings includes the sum of the hoard and the amount that asset exceeds liability: `[savings = hoard + (asset - liability)]`.
 
-|Person    |savings   |hoard     |asset     |liability |
-|----------|----------|----------|----------|----------|
-|amount    |     100oz|      10oz|      90oz|          |
+|*Person*   |savings   |hoard     |asset     |liability |
+|-----------|----------|----------|----------|----------|
+|amount     |     100oz|      10oz|      90oz|          |
 
-|Borrower  |savings   |hoard     |asset     |liability |
-|----------|----------|----------|----------|----------|
-|amount    |      90oz|      90oz|      90oz|      90oz|
+|*Borrower* |savings   |hoard     |asset     |liability |
+|-----------|----------|----------|----------|----------|
+|amount     |      90oz|      90oz|      90oz|      90oz|
 
 Notice that Person has actually lent to his own enterprise (i.e. lending business) a fraction of his savings for the purpose of earning interest, which is accounted for below.
 
-|Person    |savings   |hoard     |asset     |liability |
-|----------|----------|----------|----------|----------|
-|amount    |     100oz|      10oz|      90oz|          |
+|*Person*   |savings   |hoard     |asset     |liability |
+|-----------|----------|----------|----------|----------|
+|amount     |     100oz|      10oz|      90oz|          |
 
-|Business  |savings   |hoard     |asset     |liability |
-|----------|----------|----------|----------|----------|
-|amount    |      90oz|          |      90oz|          |
+|*Borrower* |savings   |hoard     |asset     |liability |
+|-----------|----------|----------|----------|----------|
+|amount     |      90oz|          |      90oz|          |
 
-|Borrower  |savings   |hoard     |asset     |liability |
-|----------|----------|----------|----------|----------|
-|amount    |      90oz|      90oz|      90oz|      90oz|
+|*Borrower* |savings   |hoard     |asset     |liability |
+|-----------|----------|----------|----------|----------|
+|amount     |      90oz|      90oz|      90oz|      90oz|
 
 Notice that the lender's business is operating with no reserve. All of his deposited money is at risk of default. Projecting this into the naive view of banking, we need only rename "Lender" to "Depositor" and "Business" to "Bank". There is no need to assume that these are distinct individuals.
 
-|Depositor |savings   |hoard     |asset     |liability |
-|----------|----------|----------|----------|----------|
-|amount    |     100oz|      10oz|      90oz|          |
+|*Depositor*|savings   |hoard     |asset     |liability |
+|-----------|----------|----------|----------|----------|
+|amount     |     100oz|      10oz|      90oz|          |
 
-|Bank      |savings   |hoard     |asset     |liability |
-|----------|----------|----------|----------|----------|
-|amount    |      90oz|          |      90oz|          |
+|*Bank*     |savings   |hoard     |asset     |liability |
+|-----------|----------|----------|----------|----------|
+|amount     |      90oz|          |      90oz|          |
 
-|Borrower  |savings   |hoard     |asset     |liability |
-|----------|----------|----------|----------|----------|
-|amount    |      90oz|      90oz|      90oz|      90oz|
+|*Borrower* |savings   |hoard     |asset     |liability |
+|-----------|----------|----------|----------|----------|
+|amount     |      90oz|      90oz|      90oz|      90oz|
