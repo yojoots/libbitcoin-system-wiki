@@ -8,7 +8,7 @@ Money is created by [miners](Glossary#miner) at a material cost, potentially sol
 
 #### Practical View
 
-Money substitutes are created by banks, at no material cost, as a consequence of fractional reserve lending. The supply of these substitutes expands with every loan, contracting only as loans are [settled](https://en.wikipedia.org/wiki/Clearing_(finance)). Given the implied lack of constraint on credit expansion, overall debt grows without bound, creating general [price inflation](https://en.wikipedia.org/wiki/Inflation).
+Money substitutes are created by banks, at no material cost, as a consequence of fractional reserve lending. The supply of these substitutes expands with every loan, contracting only as loans are [settled](https://en.wikipedia.org/wiki/Clearing_(finance)). Given the implied lack of constraint on credit expansion, overall debt grows without bound, creating general price inflation.
 
 In a free market people can perform the same operations as banks, without necessarily calling themselves banks. Therefore the distinction between these two possibilities must be based on obscuration of the supposed fraud. The theory holds that this obscuration is accomplished using an accounting trick that is not widely understood. So let us investigate the difference. Any money will suffice in this investigation of the money substitutes created in either case, including Gold, Bitcoin or [monopoly money](Money-Taxonomy).
 
