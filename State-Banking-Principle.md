@@ -57,4 +57,4 @@ As borrowing by member banks is reduced (by the Fed raising its cost), the Fed's
 
 This "leftover Fed revenue" is that which is earned, after operating expenses, from loans of money printed by the U.S. Treasury at nominal cost, guaranteed by its [monopoly protection](https://en.wikipedia.org/wiki/Counterfeit) in doing so. So the net result is that the Treasury prints new money and then recaptures the money earned as interest that money printed. While the money is not printed and then deposited directly into the Treasury, the result is the same.
 
-State [monopoly money](Money-Taxonomy) is not created *ex nihilo* by fraudulent bank accounting. It is literally created out of [old blue jeans](https://www.washingtonpost.com/news/wonk/wp/2013/12/16/how-tight-jeans-almost-ruined-americas-money) by the state.
+State [monopoly money](Money-Taxonomy) is not created *ex nihilo* by fraudulent bank accounting. It is literally created from [old blue jeans](https://www.washingtonpost.com/news/wonk/wp/2013/12/16/how-tight-jeans-almost-ruined-americas-money) by the state.
