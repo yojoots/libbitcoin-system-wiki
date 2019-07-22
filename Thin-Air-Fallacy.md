@@ -109,3 +109,11 @@ In the practical model of bank accounting (i.e. how it typically happens), Bank 
 |Bank       |      90oz|      90oz|          |          |      81oz|      81oz|
 |Borrower   |          |          |      81oz|      81oz|          |          |
 
+This is where explanations of the theory tend to terminate. The offsetting accounts of both Bank and Borrower balance, but Borrower has 81oz of gold to spend and Bank has not had to turn over any gold to Borrower. There is still only 100oz of money, but both Bank and Borrower have 81oz of money substitute. The theory observes that this implies Bank can create any amount of money substitute, such as the following. Notice that everything still balances, seeming validating the theory:
+
+|           |savings   |money     |asset     |liability |credit    |debt      |
+|-----------|----------|----------|----------|----------|----------|----------|
+|Depositor  |     100oz|      10oz|      90oz|          |          |          |
+|Bank       |      90oz|      90oz|          |          |    1000oz|    1000oz|
+|Borrower   |          |          |    1000oz|    1000oz|          |          |
+
