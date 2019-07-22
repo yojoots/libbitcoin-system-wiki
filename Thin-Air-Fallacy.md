@@ -14,7 +14,7 @@ In a free market people can perform the same operations as banks, without necess
 
 In the naive view, the potential lender has saved both the liquidity required for personal consumption (hoard) and the amount intended for earning [interest](Glossary#interest) (investment). All lending in this scenario originates from savings. Savings includes the sum of the hoard (money) and the amount that asset exceeds liability: `[savings = money + (asset - liability)]`. Money is gold and assets are money substitutes.
 
-|         |money     |asset     |liability |
+|         |savings   |money     |asset     |liability |
 |---------|----------|----------|----------|----------|
 |Person   |     100oz|     100oz|          |          |
 
