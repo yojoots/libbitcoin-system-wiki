@@ -135,7 +135,9 @@ Then let us assume Borrower deposits his borrowed money with Bank.
 |Bank       |      90oz|      90oz|          |          |
 |Borrower   |          |          |      81oz|      81oz|
 
-Notice that the this is identical to the final outcome of the naive view. **There is no distinction between these supposedly-competing views on money creation**, invaliding the theory.
+Notice that the this is identical to the final outcome of the naive view. **There is no distinction between these supposedly-competing views on money creation**, invaliding the theory. This resolves the [centuries-old debate](https://en.wikipedia.org/wiki/Credit_theory_of_money#Scholarship), supposedly begun with Plato and Aristotle, regarding whether money is created through mining or through credit expansion. The theories are identical, as money and credit are a [duality](https://en.wiktionary.org/wiki/duality).
+
+> According to Joseph Schumpeter, the first known advocate of a credit theory of money was Plato. Schumpeter describes metallism as the other of "two fundamental theories of money", saying the first known advocate of metallism was Aristotle.
 
 Recall that each loan is reserved at 10%, so Bank can lend up 8.903 times the amount of money on reserve, or 890.3oz of money substitute against 100oz money reserved. This is a [reserve ratio](https://en.wikipedia.org/wiki/Reserve_requirement) of 100:890.3 or ~11.2%.
 
@@ -158,7 +160,7 @@ When Borrower spends just 1oz to Merchant, using the money substitute, Merchant'
 |Borrower   |          |          |     999oz|    1000oz|          |          |
 |Merchant   |          |          |       1oz|          |          |          |
 
-The imbalance between Merchant and Bank accounts must be settled. The money must actually be moved from the control of Bank to Merchant (or typically Merchant's bank). At this point Bank has failed. Bank may create as much money substitute as it wants, but negative reserve is just an [empty promises](https://en.wiktionary.org/wiki/empty_promise). The failure to recognize these principles likely results from failure to consider the clearing process. This likely stems from the failure to recognize the clear and necessary [duality](https://en.wiktionary.org/wiki/duality) of money and money substitutes. This likely stems from the habit of referring to money (e.g. gold) in the same terms as money substitutes (e.g. accounts for gold).
+The imbalance between Merchant and Bank accounts must be settled. The money must actually be moved from the control of Bank to Merchant (or typically Merchant's bank). At this point Bank has failed. Bank may create as much money substitute as it wants, but negative reserve is just an [empty promises](https://en.wiktionary.org/wiki/empty_promise). The failure to recognize these principles likely results from failure to consider the clearing process. This likely stems from the failure to recognize the clear and necessary duality of money and money substitutes. This likely stems from the habit of referring to money (e.g. gold) in the same terms as money substitutes (e.g. accounts for gold).
 
 |           |savings   |money     |asset     |liability |credit    |debt      |
 |-----------|----------|----------|----------|----------|----------|----------|
