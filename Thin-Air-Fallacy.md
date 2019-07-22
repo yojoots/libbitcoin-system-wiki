@@ -99,7 +99,7 @@ Notice that by properly accounting for the Person as putting money at risk (i.e.
 
 Notice that in order for any person to spend from his hoard while maintaining his time preference, a loan must be settled in order to offset the spending. The settlement process moves the money from the former borrower to its lender, and cancels the note. The person in receipt of the spent money must lend it in order to satisfy his time preference, and so on.
 
-No further expansion is possible without an increase in the amount of money or an overall reduction in time preferences. An increase in money increases the absolute amount of credit and a reduction in time preference increases the rate of credit expansion in relation to the money. Given that money and credit evolve together, there is never any actual increase in money substitutes apart from these changes.
+No further expansion is possible without an increase in the amount of money or an overall reduction in time preference. An increase in money increases the absolute amount of credit and a reduction in time preference increases the rate of credit expansion in relation to the money. Given that money and credit evolve together, there is never any actual increase in money substitutes apart from these changes.
 
 In the practical view, we work with the same assumptions, however we apply the view of bank accounting to expose any distinction. In the simple model, Bank has received 100oz from Depositor and hands over 80oz to Borrower. This is identical to the naive view:
 
