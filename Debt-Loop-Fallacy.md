@@ -21,4 +21,4 @@ A direct claim (single regression) for money is a representative money, though t
 
 An indirect claim represents any finite progression of claims against others. When all claims are settled, the money is held by its rightful [owner](Glossary#owner) with all claims closed out, and any circular claims fully [netted](https://en.wikipedia.org/wiki/Set-off_(law)#Close_out_netting). Note that if the claims are fully circular there is nothing to settle (i.e. the claim is money).
 
-An infinite regression of claims [cannot exist](https://en.wikipedia.org/wiki/Turtles_all_the_way_down). Any statement to the contrary is purely euphemistic. The debtor in any claim may default, but a claim can only be made against a finite number of other claims.
+An infinite regression of claims [cannot exist](https://en.wikipedia.org/wiki/Turtles_all_the_way_down). Any statement to the contrary is a clear error. The debtor in any claim may default, but a claim can only be made against a finite number of other claims.
