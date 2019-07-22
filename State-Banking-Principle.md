@@ -30,7 +30,7 @@ However money accounted for but not yet printed is [not included](https://en.wik
 
 > In the United States, a bank's reserves consist of U.S. currency held by the bank (also known as "vault cash") plus the bank's balances in Federal Reserve accounts. For this purpose, paper currency on hand and balances in Federal Reserve ("Fed") accounts are interchangeable (both are obligations of the Fed).
 
-The [total amount](https://tradingeconomics.com/united-states/money-supply-m0) of U.S. Dollars and equivalents in circulation in May 2019 was approximately $3,250,000,000,000. Incidentally the difference between this amount and "money in circulation" as reported by the Fed is the amount accounted for but not yet printed, or $1,550,000,000,000.
+The [total amount](https://tradingeconomics.com/united-states/money-supply-m0) of U.S. Dollars accounted for in May 2019 was approximately $3,250,000,000,000. Incidentally the difference between this amount and "money in circulation" as reported by the Fed is the amount accounted for but not yet printed, or $1,550,000,000,000.
 
 The sum of all U.S. Dollar money and money substitutes is referred to as M3:
 
