@@ -42,7 +42,7 @@ Notice that Person has actually lent to his own enterprise (i.e. lending busines
 |-----------|----------|----------|----------|----------|
 |amount     |      90oz|      90oz|      90oz|      90oz|
 
-Notice that the lender's business is operating with no reserve. All of his deposited money is at risk of default. Projecting this into the naive view of banking, we need only rename "Lender" to "Depositor" and "Business" to "Bank". There is no need to assume that these are distinct individuals.
+Notice that Person's business is operating with no reserve. All of his deposited money is at risk of default. Projecting this into the naive view of banking, we need only rename "Lender" to "Depositor" and "Business" to "Bank". There is no need to assume that these are distinct individuals.
 
 |*Depositor*|savings   |hoard     |asset     |liability |
 |-----------|----------|----------|----------|----------|
