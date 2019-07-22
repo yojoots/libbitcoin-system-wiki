@@ -190,7 +190,7 @@ Yet the Fed can *pretend* it has money in its vault and print it only when it is
 
 ### Observation
 
-Given these facts, one would expect the level of monetary substitutes to be no greater than the product of coinage + fiat (and accounting for fiat not yet printed) in curculation, and the "[money multiplier](https://en.wikipedia.org/wiki/Money_multiplier)" implied by bank reserve requirements:
+Given these facts, one would expect the level of money substitutes to be no greater than the product of coinage + fiat (and accounting for fiat not yet printed) in curculation, and the "[money multiplier](https://en.wikipedia.org/wiki/Money_multiplier)" implied by bank reserve requirements:
 
 > In equations, writing M for commercial bank money (loans) [money substitutes], R for reserves (central bank money) [money], and RR for the reserve ratio, the reserve ratio requirement is that `R/M >= RR`; the fraction of reserves must be at least the reserve ratio. Taking the reciprocal, `M/R <= 1/RR`, which yields `M <= R x (1/RR)`, meaning that commercial bank money is at most `R x 1/RR`, the latter being the multiplier ignoring leakages into currency [money held outside of banks].
 
@@ -224,7 +224,20 @@ The sum of all U.S. Dollar money and money substitutes is referred to as M3:
 
 [According to the Federal Reserve Bank of St. Louis](https://fred.stlouisfed.org/series/MABMM301USM189S), M3 was $14,613,500,000,000 in May of 2015, the last date provided. [According to the OECD](https://data.oecd.org/money/broad-money-m3.htm), M3 in May 2019 was 121% of M3 in 2015, or $17,682,335,000,000.
 
-The amount of money substitutes is the difference between M3 and M0, or $14,432,335,000,000. The actual reserve ratio is therefore $3,250,000,000,000 divided by $14,432,335,000,000, or 22.52%. Given that the reserve requirement is no more than 10%, the level of monetary expansion is less than half that allowed by law. This implies that time preference, not the regulatory reserve requirement, is currently controlling the rate of credit expansion. The implied an iteration of loans at a reserve rate on each loan of 18.38%. While these numbers exclude the expansion implied by private U.S. Dollar lending, it seems clear that credit expansion by banks is limited by both money and time preference.
+The amount of money substitutes is the difference between M3 and M0, or $14,432,335,000,000. The actual reserve ratio is therefore $3,250,000,000,000 divided by $14,432,335,000,000, or 22.52%. Given that the reserve requirement is no more than 10%, the level of monetary expansion is less than half that allowed by law. This implies that time preference, not the regulatory reserve requirement, is currently controlling the rate of credit expansion. The implied an iteration of loans at a reserve rate on each loan of 18.38%.
+
+While these numbers exclude the expansion implied by private U.S. Dollar lending, it seems clear that credit expansion by banks is limited by both money and time preference. However, there is a significant amount of money available should lending increase due to lowering of time preferences. As this money starts competing for goods as opposed to sitting in vaults, a significant increase in [price inflation](https://en.wikipedia.org/wiki/Inflation) should be expected. This highlights the point that monetary expansion alone does not immediately create price inflation, but instead is its harbinger.
+
+As loans to member banks are settled, the vault money of the Fed can be destroyed with the opposite effect of its printing. While the Fed has contracted M0 [by almost 20%](https://tradingeconomics.com/united-states/money-supply-m0) in the four years since its peak in 2015, as negative seigniorage this comes at a cost to tax revenue. The Fed itself operates as a non-profit organization, so net income derived from its loans to member banks is [remitted to the U.S. Treasury](https://www.stlouisfed.org/on-the-economy/2018/september/fed-payments-treasury-rising-interest-rates) annually.
+
+> The Federal Reserve increased the federal funds rate target seven times since between Dec. 2015 and June 2018. This has implications for the path of the federal deficit and federal debt in two ways:
+> 
+> * Directly through net interest payments
+> * Indirectly through the yearly remittances from the Fed to the U.S. Treasury Department
+>
+>The yearly remittances to the Treasury are essentially the leftover Fed revenue after operating expenses. By law, this additional revenue must be turned over to the Treasury.
+> 
+>The revenue sent to the Treasury peaked at $97.7 billion in 2015 and has been steadily falling since. In January, the Fed sent $80.2 billion to the Treasury. In this blog post, I explore why these transfers are likely to continue declining.
 
 ### Conclusion
 
