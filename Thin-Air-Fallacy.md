@@ -12,15 +12,15 @@ Money substitutes are created by banks, at no material cost, as a consequence of
 
 In a free market people can perform the same operations as banks, without necessarily calling themselves banks. Therefore the distinction between these two possibilities must be based on obscuration of the supposed fraud. The theory holds that this obscuration is accomplished using an accounting trick that is not widely understood. So let us investigate the difference. Any money will suffice in this investigation of the money substitutes created in either case, including Gold, Bitcoin or [monopoly money](Money-Taxonomy).
 
-In the naive view, the potential lender has saved both the liquidity required for personal consumption (hoard) and the amount intended for earning [interest](Glossary#interest) (investment). All lending in this scenario originates from money savings. In all cases, savings includes the sum of the hoard and the amount that asset exceeds liability: `[savings = hoard + (asset - liability)]`.
+In the naive view, the potential lender has saved both the liquidity required for personal consumption (hoard) and the amount intended for earning [interest](Glossary#interest) (investment). All lending in this scenario originates from savings. Savings includes the sum of the hoard (money) and the amount that asset exceeds liability: `[savings = money + (asset - liability)]`. Money is gold and assets are money substitutes.
 
-|*Person*  |savings   |hoard     |asset     |liability |
+|*Person*  |savings   |money     |asset     |liability |
 |----------|----------|----------|----------|----------|
 |amount    |     100oz|     100oz|          |          |
 
 In the naive view of personal lending, Person hands over 80oz of gold to Borrower. Borrower accepts an obligation to repay Person with interest at [loan maturity](https://en.wikipedia.org/wiki/Maturity_(finance)). To simplify the accounting we will assume zero interest and no accounting for repayment risk.
 
-|*Person*   |savings   |hoard     |asset     |liability |
+|*Person*   |savings   |money     |asset     |liability |
 |-----------|----------|----------|----------|----------|
 |amount     |     100oz|      20oz|      80oz|          |
 
@@ -30,15 +30,15 @@ In the naive view of personal lending, Person hands over 80oz of gold to Borrowe
 
 Notice that Person has actually lent to his own enterprise (i.e. lending business) a fraction of his savings for the purpose of earning interest, which is accounted for below. Let us consider that Person hoards 10% of his savings for the liquidity required for near-term consumption.
 
-|*Person*   |savings   |hoard     |asset     |liability |
+|*Person*   |savings   |money     |asset     |liability |
 |-----------|----------|----------|----------|----------|
 |amount     |     100oz|      10oz|      90oz|          |
 
-|*Business* |savings   |hoard     |asset     |liability |
+|*Business* |savings   |money     |asset     |liability |
 |-----------|----------|----------|----------|----------|
 |amount     |      90oz|      10oz|      80oz|          |
 
-|*Borrower* |savings   |hoard     |asset     |liability |
+|*Borrower* |savings   |money     |asset     |liability |
 |-----------|----------|----------|----------|----------|
 |amount     |      80oz|      80oz|      80oz|      80oz|
 
