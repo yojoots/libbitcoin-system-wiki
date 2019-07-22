@@ -160,7 +160,7 @@ When Borrower spends just 1oz to Merchant, using the money substitute, Merchant'
 |Borrower   |          |          |     999oz|    1000oz|          |          |
 |Merchant   |          |          |       1oz|          |          |          |
 
-The imbalance between Merchant and Bank accounts must be settled. The money must actually be moved from the control of Bank to Merchant (or typically Merchant's bank). At this point Bank has failed. Bank may create as much money substitute as it wants, but negative reserve is just an [empty promise](https://en.wiktionary.org/wiki/empty_promise). The failure to recognize these principles likely results from failure to consider the clearing process. This likely stems from the failure to recognize the clear and necessary duality of money and money substitutes. This likely stems from the habit of referring to money (e.g. gold) in the same terms as money substitutes (e.g. accounts for gold).
+The imbalance between Merchant and Bank accounts must be settled. The money must actually be moved from the control of Bank to Merchant (or typically Merchant's bank). At this point Bank has failed. Bank may create as much money substitute as it wants, but negative reserve is just an [empty promise](https://en.wiktionary.org/wiki/empty_promise).
 
 |           |savings   |money     |asset     |liability |credit    |debt      |
 |-----------|----------|----------|----------|----------|----------|----------|
@@ -169,7 +169,7 @@ The imbalance between Merchant and Bank accounts must be settled. The money must
 |Borrower   |          |          |     999oz|    1000oz|          |          |
 |Merchant   |          |      -1oz|          |          |          |          |
 
-Bank did not create the offsetting accounts to obscure fraudulent money creation. Bank created offsetting accounts for two reasons:
+The failure to recognize these principles likely results from failure to consider the clearing process. This likely stems from the failure to recognize the inherent duality of money and money substitutes. This likely stems from the habit of referring to money (e.g. gold) in the same terms as money substitutes (e.g. accounts for gold). Bank did not create the offsetting accounts to obscure fraudulent money creation. Bank created offsetting accounts for two reasons:
 
 * Preclude physical transfer just to redeposit the money into Bank.
 * Encourage redeposit into Bank as opposed to a competitor (or own hoard).
