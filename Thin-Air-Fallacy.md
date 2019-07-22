@@ -141,7 +141,7 @@ Notice that the this is identical to the final outcome of the naive view. **Ther
 
 > According to Joseph Schumpeter, the first known advocate of a credit theory of money was Plato. Schumpeter describes metallism as the other of "two fundamental theories of money", saying the first known advocate of metallism was Aristotle.
 
-Adherents of the two theories are merely [talking past each other](https://en.m.wikipedia.org/wiki/Talking_past_each_other). Bitcoin, as a fiat absent state support, has finally made observable both the logical errors of [metallism](https://en.m.wikipedia.org/wiki/Metallism), which [attempted to show](Regression-Fallacy) the necessity of [use value](https://en.m.wikipedia.org/wiki/Use_value) to money, and [chartalism](https://en.m.wikipedia.org/wiki/Chartalism), which [attempted to show](Debt-Loop-Fallacy) the necessity of the state to non-use-value money (i.e. fiat).
+Adherents of the two theories are merely [talking past each other](https://en.m.wikipedia.org/wiki/Talking_past_each_other). Bitcoin, as a fiat (i.e. non-[use-value](https://en.m.wikipedia.org/wiki/Use_value) money) absent state support, has finally made observable both the logical errors of [metallism](https://en.m.wikipedia.org/wiki/Metallism), which [attempted to show](Regression-Fallacy) the necessity of use value to money, and [chartalism](https://en.m.wikipedia.org/wiki/Chartalism), which [attempted to show](Debt-Loop-Fallacy) the necessity of the state to fiat.
 
 Recall that each loan is reserved at 10%, so Bank can lend up 8.903 times the amount of money on reserve, or 890.3oz of money substitute against 100oz money reserved. This is a [reserve ratio](https://en.wikipedia.org/wiki/Reserve_requirement) of 100:890.3 or ~11.2%.
 
