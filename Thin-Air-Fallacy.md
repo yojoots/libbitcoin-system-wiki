@@ -173,7 +173,7 @@ The imbalance between Merchant and Bank accounts must be settled. The money must
 |Borrower   |          |          |     999oz|    1000oz|          |          |
 |Merchant   |          |      -1oz|          |          |          |          |
 
-The failure to recognize these principles likely results from failure to consider the clearing process. This likely stems from the failure to recognize the inherent duality of money and money substitutes. This likely stems from the habit of referring to money (e.g. gold) in the same terms as money substitutes (e.g. accounts for gold). Bank did not create the offsetting accounts to obscure fraudulent money creation. Bank created offsetting accounts for two reasons:
+The failure to recognize these principles likely results from failure to consider the clearing process. This likely stems from the failure to recognize the inherent duality of money and money substitutes, as the former must always exist to settle the claims implied by the latter. This likely stems from the habit of referring to money (e.g. gold) in the same terms as money substitutes (e.g. accounts for gold). Bank did not create the offsetting accounts to obscure fraudulent money creation. Bank created offsetting accounts for two reasons:
 
 * Preclude physical transfer just to redeposit the money into Bank.
 * Encourage redeposit into Bank as opposed to a competitor (or Borrower hoard).
