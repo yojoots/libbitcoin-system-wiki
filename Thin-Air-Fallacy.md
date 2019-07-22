@@ -101,7 +101,7 @@ Notice that in order for any person to spend from his hoard while maintaining hi
 
 No further expansion is possible without an increase in the amount of money or an overall reduction in time preference. An increase in money increases the absolute amount of credit and a reduction in time preference increases the rate of credit expansion in relation to the money. Given that money and credit evolve together, there is never any actual increase in money substitutes apart from these changes.
 
-In the practical view, we work with the same assumptions, however we apply the view of bank accounting to expose any distinction. In the simple model, Bank has received 100oz from Depositor and hands over 80oz to Borrower. This is identical to the naive view:
+In the practical view, we work with the same assumptions, however we apply the practical view of bank accounting to expose any distinction. In the simple model, Bank has received 100oz from Depositor and hands over 80oz to Borrower. This is identical to the naive view:
 
 |           |savings   |money     |asset     |liability |
 |-----------|----------|----------|----------|----------|
