@@ -176,6 +176,8 @@ The failure to recognize these principles likely results from failure to conside
 * Preclude physical transfer just to redeposit the money into Bank.
 * Encourage redeposit into Bank as opposed to a competitor (or Borrower hoard).
 
+When Bank has insufficient reserve to satisfy withdrawals, either due to loans in default or a [bank run](https://en.wikipedia.org/wiki/Bank_run), it has only two options, default or borrow. To prevent the former, [central banking](https://en.wikipedia.org/wiki/Central_bank) exists to provide the latter. This is the meaning of the term "[lender of last resort](https://en.wikipedia.org/wiki/Lender_of_last_resort)". [State Banking Principle](State-Banking-Principle) provides a detailed explanation of this *actual* source of [monetary inflation](https://en.wikipedia.org/wiki/Monetary_inflation).
+
 In summary, it has been shown that:
 
 * Fractional reserve is inherent in lending.
@@ -184,5 +186,3 @@ In summary, it has been shown that:
 * Lower reserve reduces chances of being able to settle accounts.
 * No distinction exists between naive and practical money creation.
 * Banks have no ability to create money.
-
-When Bank has insufficient reserve to satisfy withdrawals, either due to loans in default or a [bank run](https://en.wikipedia.org/wiki/Bank_run), it has only two options, default or borrow. To prevent the former, [central banking](https://en.wikipedia.org/wiki/Central_bank) exists to provide the latter. This is the meaning of the term "[lender of last resort](https://en.wikipedia.org/wiki/Lender_of_last_resort)". [State Banking Principle](State-Banking-Principle) provides a detailed explanation of this *actual* source of [monetary inflation](https://en.wikipedia.org/wiki/Monetary_inflation).
