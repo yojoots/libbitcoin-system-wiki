@@ -30,7 +30,7 @@ In the naive view of personal lending, Person hands over 90oz of gold to Borrowe
 
 Notice that Person has actually lent to his own enterprise (i.e. lending business) a fraction of his savings for the purpose of earning interest, which is accounted for below.
 
-|Lender    |savings   |hoard     |asset     |liability |
+|Person    |savings   |hoard     |asset     |liability |
 |----------|----------|----------|----------|----------|
 |amount    |     100oz|      10oz|      90oz|          |
 
