@@ -18,7 +18,7 @@ In the naive view, the potential lender has saved both the liquidity required fo
 |---------|----------|----------|----------|----------|
 |Person   |     100oz|     100oz|          |          |
 
-In this view of personal lending, Person hands over 80oz of gold to Borrower. Borrower accepts an obligation to repay Person with interest at [loan maturity](https://en.wikipedia.org/wiki/Maturity_(finance)). To simplify the accounting we will assume zero interest and no accounting for repayment risk:
+In this view of personal lending, Person hands over 80oz of gold to Borrower. Borrower accepts an obligation to repay Person with interest at [loan maturity](https://en.wikipedia.org/wiki/Maturity_(finance)). To simplify the accounting we will assume zero interest and no accounting (i.e. discounting) for repayment risk:
 
 |           |savings   |money     |asset     |liability |
 |-----------|----------|----------|----------|----------|
