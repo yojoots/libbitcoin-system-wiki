@@ -12,3 +12,24 @@ Money substitutes are created by banks, at no material cost, as a consequence of
 
 In a free market people can perform the same operations as banks, without necessarily calling themselves banks. Therefore the distinction between these two possibilities must be based on obscuration of the supposed fraud. The theory holds that this obscuration is accomplished using an accounting trick that is not widely understood. So let us investigate the difference. Any money will suffice in this investigation of the money substitutes created in either case, including Gold, Bitcoin or [monopoly money](Money-Taxonomy).
 
+In the naive view, the potential lender has saved both the liquidity required for personal consumption (hoard) and the amount intended for earning [interest](Glossary#interest) (investment). All lending in this scenario originates from money savings. 
+
+|Lender    |savings   |hoard     |asset     |liability |
+|----------|----------|----------|----------|----------|
+|amount    |     100oz|          |          |          |
+
+In the simplest model, the lender hands over 90oz of gold to a borrower. The borrower accepts an obligation to repay with interest at [loan maturity](https://en.wikipedia.org/wiki/Maturity_(finance)). To simplify the accounting we will assume zero interest and no accounting for repayment risk.
+
+|Lender    |savings   |hoard     |asset     |liability |
+|----------|----------|----------|----------|----------|
+|amount    |     100oz|      10oz|      90oz|          |
+
+|Borrower  |savings   |hoard     |asse      |liability |
+|----------|----------|----------|----------|----------|
+|amount    |      90oz|      90oz|      90oz|      90oz|
+
+Notice that in all cases, savings includes the sum of the hoard and the amount that asset exceeds liability.
+
+> savings = hoard + (asset - liability)
+
+
