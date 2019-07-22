@@ -121,7 +121,7 @@ In the typical practice of bank accounting, Bank does not hand over the money. I
 
 This is where explanations of the theory tend to terminate. The offsetting accounts of both Bank and Borrower balance, but Borrower has 81oz of gold to spend and Bank has not had to turn over any gold to Borrower. There is still only 100oz of money, but both Bank and Borrower have 81oz of money substitute. The theory assumes that this implies Bank can create any amount of money substitute. Notice that everything will still balance, and all accounts can be settled, seemingly validating the theory.
 
-This however demonstrates no actual use of either the loan asset or the bank credit. Let us take this a bit further by assuming Borrower clears his account, settling the Bank's credit and debt accounts.
+This however demonstrates no actual spending of either the loan asset or the bank credit. Let us take this a bit further by assuming Borrower clears his account, settling the Bank's credit and debt accounts.
 
 |           |savings   |money     |asset     |liability |credit    |debt      |
 |-----------|----------|----------|----------|----------|----------|----------|
@@ -147,7 +147,7 @@ Recall that each loan is reserved at 10%, so Bank can lend up 8.903 times the am
 
 If Bank reserves each loan at 0%, credit expansion would be infinite. However this implies zero time preference, or the idea that time has no value, implying that all money is lent indefinitely. In the case of Bank, 0% reserve implies no liquidity to satisfy any withdrawal (i.e. immediate failure). Yet given zero time preference there could never be any withdrawals, making the scenario irrelevant. Credit expansion is necessarily finite.
 
-Let us revisit the scenario where Bank creates credit at negative reserve (i.e. out of thin air). For example, on deposits of 0oz Bank issues a loan of 1000oz:
+Let us revisit the scenario where Bank creates credit at negative reserve (i.e. out of thin air), this time considering spending. For example, on deposits of 0oz Bank issues a loan of 1000oz:
 
 |           |savings   |money     |asset     |liability |credit    |debt      |
 |-----------|----------|----------|----------|----------|----------|----------|
