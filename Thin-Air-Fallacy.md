@@ -194,7 +194,7 @@ Given these facts, one would expect the level of monetary substitutes to be no g
 
 > In equations, writing M for commercial bank money (loans) [money substitutes], R for reserves (central bank money) [money], and RR for the reserve ratio, the reserve ratio requirement is that `R/M >= RR`; the fraction of reserves must be at least the reserve ratio. Taking the reciprocal, `M/R <= 1/RR`, which yields `M <= R x (1/RR)`, meaning that commercial bank money is at most `R x 1/RR`, the latter being the multiplier ignoring leakages into currency [money held outside of banks].
 
-Bank reserve requirements in the U.S. are as follows, implying a minimum reserve ratio of less than than 10%:
+Bank [reserve requirements](https://en.wikipedia.org/wiki/Reserve_requirement#United_States) in the U.S. are as follows, implying a minimum reserve ratio of less than than 10%:
 
 > A depository institution's reserve requirements vary by the dollar amount of NTAs [Net Transaction Accounts] held by customers of that institution. Effective January 18, 2018, institutions with net transactions accounts:
 >
@@ -210,7 +210,7 @@ The total amount of [U.S. Dollars in circulation](https://en.wikipedia.org/wiki/
 
 > There was approximately $1.70 trillion in circulation as of January 31, 2019. This figure includes Federal Reserve notes ($1,655.2 billion), U.S. notes ($0.2 billion), currency no longer issued ($0.2 billion), and coins outstanding ($47.2 billion).
 
-However that money accounted for but not yet printed is not included above, so we cannot rely on this number: 
+However that money accounted for but not yet printed is [not included](https://en.wikipedia.org/wiki/Money_supply#United_States) above, so we cannot rely on this number: 
 
 > In the United States, a bank's reserves consist of U.S. currency held by the bank (also known as "vault cash") plus the bank's balances in Federal Reserve accounts. For this purpose, paper currency on hand and balances in Federal Reserve ("Fed") accounts are interchangeable (both are obligations of the Fed).
 
