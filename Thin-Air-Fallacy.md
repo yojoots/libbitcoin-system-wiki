@@ -14,7 +14,7 @@ Money substitutes are created by banks, at no material cost, as a consequence of
 
 In a free market people can perform the same operations as banks, without necessarily calling themselves banks. Therefore the distinction between these two possibilities must be based on obscuration of the supposed fraud. The theory holds that this obscuration is accomplished using an accounting trick that is not widely understood. So let us investigate the difference. Any money will suffice in this investigation of the money substitutes created in either case, including Gold, Bitcoin or [monopoly money](Money-Taxonomy).
 
-In the naive view, the potential lender has saved both the liquidity required for personal consumption (hoard) and the amount intended for earning [interest](Glossary#interest) (investment). All lending in this scenario originates from savings. Savings includes the sum of the hoard (money) and the amount that asset exceeds liability: `[savings = money + (asset - liability)]`. Money is gold and assets are money substitutes:
+In the naive view, the potential lender has saved both the liquidity required for personal consumption (hoard) and the amount intended for earning [interest](Glossary#interest) (investment). All lending in this scenario originates from savings. Savings includes the sum of the hoard (money) and the amount that asset exceeds liability: `savings = money + (asset - liability)`. Money is gold and assets are money substitutes:
 
 |         |savings   |money     |asset     |liability |
 |---------|----------|----------|----------|----------|
@@ -111,7 +111,7 @@ In the practical view, we work with the same assumptions, however we apply the p
 |Bank       |      90oz|       9oz|      81oz|          |
 |Borrower   |          |      81oz|          |      81oz|
 
-In the typical practice of bank accounting, Bank does not hand over the money. Instead it creates offsetting accounts for its loan asset ("credit") and liability ("debt"). The savings relation is expanded to include these new accounts: `[savings = money + (asset - liability) + (credit - debt)]`. At the time of loan issuance, the accounts are as follows:
+In the typical practice of bank accounting, Bank does not hand over the money. Instead it creates offsetting accounts for its loan asset ("credit") and liability ("debt"). The savings relation is expanded to include these new accounts: `savings = money + (asset - liability) + (credit - debt)`. At the time of loan issuance, the accounts are as follows:
 
 |           |savings   |money     |asset     |liability |credit    |debt      |
 |-----------|----------|----------|----------|----------|----------|----------|
