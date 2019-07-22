@@ -197,10 +197,10 @@ Given these facts, one would expect the level of monetary substitutes to be no g
 Bank reserve requirements in the U.S. are as follows, implying a minimum reserve ratio of less than than 10%:
 
 > A depository institution's reserve requirements vary by the dollar amount of NTAs [Net Transaction Accounts] held by customers of that institution. Effective January 18, 2018, institutions with net transactions accounts:
-
-* Of less than $16 million have no minimum reserve requirement;
-* Between $16 million and $122.3 million must have a liquidity ratio of 3% of NTAs;
-* Exceeding $122.3 million must have a liquidity ratio of 10% of NTAs.
+>
+> * Of less than $16 million have no minimum reserve requirement;
+> * Between $16 million and $122.3 million must have a liquidity ratio of 3% of NTAs;
+> * Exceeding $122.3 million must have a liquidity ratio of 10% of NTAs.
 
 The total amount of [U.S. Dollars in circulation](https://en.wikipedia.org/wiki/Money_supply#United_States) is referred to as M0:
 
@@ -218,11 +218,9 @@ The [total amount](https://tradingeconomics.com/united-states/money-supply-m0) o
 
 The sum of all U.S. Dollar money and money substitutes is referred to as M3:
 
-> M1: The total amount of M0 (cash/coin) outside of the private banking system plus the amount of demand deposits, travelers checks and other checkable deposits
->
-> M2: M1 + most savings accounts, money market accounts, retail money market mutual funds, and small denomination time deposits (certificates of deposit of under $100,000).
->
-> M3: M2 + all other CDs (large time deposits, institutional money market mutual fund balances), deposits of [eurodollars](https://en.wikipedia.org/wiki/Eurodollar) and [repurchase agreements](https://en.wikipedia.org/wiki/Repurchase_agreement).
+> * M1: The total amount of M0 (cash/coin) outside of the private banking system plus the amount of demand deposits, travelers checks and other checkable deposits
+> * M2: M1 + most savings accounts, money market accounts, retail money market mutual funds, and small denomination time deposits (certificates of deposit of under $100,000).
+> * M3: M2 + all other CDs (large time deposits, institutional money market mutual fund balances), deposits of [eurodollars](https://en.wikipedia.org/wiki/Eurodollar) and [repurchase agreements](https://en.wikipedia.org/wiki/Repurchase_agreement).
 
 [According to the Federal Reserve Bank of St. Louis](https://fred.stlouisfed.org/series/MABMM301USM189S), M3 was $14,613,500,000,000 in May of 2015, the last date provided. [According to the OECD](https://data.oecd.org/money/broad-money-m3.htm), M3 in May 2019 was 121% of M3 in 2015, or $17,682,335,000,000.
 
