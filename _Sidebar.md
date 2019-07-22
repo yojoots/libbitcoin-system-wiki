@@ -95,6 +95,7 @@
   * [Side Fee Fallacy](Side-Fee-Fallacy)
   * [Split Credit Expansion Fallacy](Split-Credit-Expansion-Fallacy)
   * [Stock to Flow Fallacy](Stock-to-Flow-Fallacy)
+  * [Thin Air Fallacy](Thin-Air-Fallacy)
   * [Time Preference Fallacy](Time-Preference-Fallacy)
   * [Fedcoin Objectives](Fedcoin-Objectives)
   * [Hearn Error](Hearn-Error)
