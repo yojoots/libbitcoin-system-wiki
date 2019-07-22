@@ -1,4 +1,6 @@
-There is a theory that [fractional reserve banking](https://en.wikipedia.org/wiki/Fractional-reserve_banking) inherently gives banks the ability to create money at no material cost. The theory does not depend on the [state](Glossary#state) privilege of [seigniorage](https://en.wikipedia.org/wiki/Seigniorage). It is considered a consequence of the accounting practices of [free banking](https://en.wikipedia.org/wiki/Free_banking). This is sometimes referred to as creating money *ex nihilo* or "out of thin air".
+There is a theory that [fractional reserve banking](https://en.wikipedia.org/wiki/Fractional-reserve_banking) inherently gives banks the ability to create money at no material cost. The theory does not depend on the [state](Glossary#state) privilege of [seigniorage](https://en.wikipedia.org/wiki/Seigniorage). It is considered a consequence of the accounting practices of [free banking](https://en.wikipedia.org/wiki/Free_banking). This is sometimes referred to as creating money *ex nihilo* or "[out of thin air](https://en.wikipedia.org/wiki/Fractional-reserve_banking#Criticisms_of_textbook_descriptions_of_the_monetary_system)".
+
+> Lord Adair Turner, formerly the UK's chief financial regulator, said "Banks do not, as too many textbooks still suggest, take deposits of existing money from savers and lend it out to borrowers: they create credit and money ex nihilo – extending a loan to the borrower and simultaneously crediting the borrower’s money account".
 
 Adherents describe two competing views on money creation:
 
