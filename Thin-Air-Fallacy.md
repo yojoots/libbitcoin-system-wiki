@@ -41,7 +41,7 @@ Notice that Person's business is operating with no reserve. All of his deposited
 |Bank       |      90oz|       9oz|      81oz|          |
 |Borrower   |          |      81oz|          |      81oz|
 
-Then let us assume Borrower deposits his borrowed money with Bank.
+Then let us assume Borrower deposits his borrowed money with Bank. It is worth considering that this deposit could be at any bank with no change in behavior.
 
 |           |savings   |money     |asset     |liability |
 |-----------|----------|----------|----------|----------|
