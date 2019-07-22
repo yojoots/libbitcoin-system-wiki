@@ -167,6 +167,8 @@ The imbalance between Merchant and Bank accounts must be settled. The money must
 |Borrower   |          |          |     999oz|    1000oz|          |          |
 |Merchant   |          |      -1oz|          |          |          |          |
 
+### Implications
+
 It should be evident that:
 
 * Fractional reserve is inherent in lending.
@@ -186,6 +188,8 @@ This implies that the [monetary inflation](https://en.wikipedia.org/wiki/Monetar
 
 Yet the Fed can *pretend* it has money in its vault and print it only when it is required for settlement. When a member bank requires money it borrows it from the Fed. When the Fed's reserve of actual money is insufficient, it simply makes a withdrawal from the taxpayer by demanding money from the printer (i.e. inflation tax). Without this ability create new fiat the Fed would be unable to settle accounts, just as would any bank if there was insufficient reserve (including that which could be borrowed) to cover withdrawals and defaults. Until the member bank must settle in fiat, such as in the case of cash withdrawal at [ATMs](https://en.wikipedia.org/wiki/Automated_teller_machine), [teller windows](https://en.wikipedia.org/wiki/Bank_teller) or with non-member banks and other institutions, there is no need to move the actual money, or print it. But without the ability to print it, the Fed would be subject to default just as any other bank. 
 
+### Observation
+
 Given these facts, one would expect the product of [fiat and coinage in circulation](https://www.federalreserve.gov/faqs/currency_12773.htm), and the "[money multiplier](https://en.wikipedia.org/wiki/Money_multiplier)" implied by bank reserve requirements, to equal the level of monetary substitutes in the case of maximal lending:
 
 > In equations, writing M for commercial bank money (loans) [money substitutes], R for reserves (central bank money) [money], and RR for the reserve ratio, the reserve ratio requirement is that `R/M >= RR`; the fraction of reserves must be at least the reserve ratio. Taking the reciprocal, `M/R <= 1/RR`, which yields `M <= R x (1/RR)`, meaning that commercial bank money is at most `R x 1/RR`, the latter being the multiplier ignoring leakages into currency [money held outside of banks].
@@ -198,16 +202,32 @@ Bank reserve requirements in the U.S. are as follows, implying an reserve ratio 
 * Between $16 million and $122.3 million must have a liquidity ratio of 3% of NTAs;
 * Exceeding $122.3 million must have a liquidity ratio of 10% of NTAs.
 
-[According to the Federal Reserve](https://www.federalreserve.gov/faqs/currency_12773.htm), there is approximately $1,700,000,000,000 of money in circulation:
+The amount of [all U.S. Dollar money](https://en.wikipedia.org/wiki/Money_supply#United_States) is referred to as M0:
+
+> M0: The total of all physical currency including coinage. M0 = Federal Reserve Notes + US Notes + Coins. It is not relevant whether the currency is held inside or outside of the private banking system as reserves.
+
+Note that money not yet printed is included in M0:
+
+> In the United States, a bank's reserves consist of U.S. currency held by the bank (also known as "vault cash") plus the bank's balances in Federal Reserve accounts. For this purpose, paper currency on hand and balances in Federal Reserve ("Fed") accounts are interchangeable (both are obligations of the Fed). Reserves may come from any source, including the federal funds market, deposits by the public, and borrowing from the Fed itself.
+
+The sum of all U.S. Dollar money and money substitutes is referred to as M3:
+
+> M1: The total amount of M0 (cash/coin) outside of the private banking system plus the amount of demand deposits, travelers checks and other checkable deposits
+>
+> M2: M1 + most savings accounts, money market accounts, retail money market mutual funds, and small denomination time deposits (certificates of deposit of under $100,000).
+>
+> M3: M2 + all other CDs (large time deposits, institutional money market mutual fund balances), deposits of [eurodollars](https://en.wikipedia.org/wiki/Eurodollar) and [repurchase agreements](https://en.wikipedia.org/wiki/Repurchase_agreement).
+
+Therefore money substitutes is the difference between M3 and M0.
+
+[According to the U.S. Federal Reserve](https://www.federalreserve.gov/faqs/currency_12773.htm), at the end of January 2019, there was approximately $1,700,000,000,000 of money in circulation:
 
 > There was approximately $1.70 trillion in circulation as of January 31, 2019. This figure includes Federal Reserve notes ($1,655.2 billion), U.S. notes ($0.2 billion), currency no longer issued ($0.2 billion), and coins outstanding ($47.2 billion).
 
-The level of all money substitutes is [referred to as M3](https://en.wikipedia.org/wiki/Money_supply#Empirical_measures_in_the_United_States_Federal_Reserve_System).
+[However, must include member bank balances held in Fed accounts (not yet printed).]
 
-* M1: Bank reserves are not included in M1.
-* M2: Represents M1 and "close substitutes" for M1. M2 is a broader classification of money than M1.
-* M3: M2 plus large and long-term deposits. Since 2006, M3 is no longer published by the US central bank.
+[According to the Federal Reserve Bank of St. Louis](https://fred.stlouisfed.org/series/MABMM301USM189S), M3 was $14,613,500,000,000 in May of 2015, the last date provided. [According to the OECD](https://data.oecd.org/money/broad-money-m3.htm), M3 in January 2019 was 122% of M3 (in 2015), or $17,828,470,000,000.
 
-[According to the Federal Reserve Bank of St. Louis](https://fred.stlouisfed.org/series/MABMM301USM189S), M3 was $14,613,500,000,000 in May of 2015, the last date provided.
+### Conclusion
 
-Literal printing is how money is created "out of thin air", or more accurately, out of [old blue jeans](https://www.washingtonpost.com/news/wonk/wp/2013/12/16/how-tight-jeans-almost-ruined-americas-money).
+Money is not created "out of thin air" by banking accounting. It is literally created out of [old blue jeans](https://www.washingtonpost.com/news/wonk/wp/2013/12/16/how-tight-jeans-almost-ruined-americas-money) by the state.
