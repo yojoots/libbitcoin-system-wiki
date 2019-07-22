@@ -12,20 +12,20 @@ Money substitutes are created by banks, at no material cost, as a consequence of
 
 In a free market people can perform the same operations as banks, without necessarily calling themselves banks. Therefore the distinction between these two possibilities must be based on obscuration of the supposed fraud. The theory holds that this obscuration is accomplished using an accounting trick that is not widely understood. So let us investigate the difference. Any money will suffice in this investigation of the money substitutes created in either case, including Gold, Bitcoin or [monopoly money](Money-Taxonomy).
 
-In the naive view, the potential lender has saved both the liquidity required for personal consumption (hoard) and the amount intended for earning [interest](Glossary#interest) (investment). All lending in this scenario originates from savings. Savings includes the sum of the hoard (money) and the amount that asset exceeds liability: `[savings = money + (asset - liability)]`. Money is gold and assets are money substitutes.
+In the naive view, the potential lender has saved both the liquidity required for personal consumption (hoard) and the amount intended for earning [interest](Glossary#interest) (investment). All lending in this scenario originates from savings. Savings includes the sum of the hoard (money) and the amount that asset exceeds liability: `[savings = money + (asset - liability)]`. Money is gold and assets are money substitutes:
 
 |         |savings   |money     |asset     |liability |
 |---------|----------|----------|----------|----------|
 |Person   |     100oz|     100oz|          |          |
 
-In the naive view of personal lending, Person hands over 80oz of gold to Borrower. Borrower accepts an obligation to repay Person with interest at [loan maturity](https://en.wikipedia.org/wiki/Maturity_(finance)). To simplify the accounting we will assume zero interest and no accounting for repayment risk.
+In this view of personal lending, Person hands over 80oz of gold to Borrower. Borrower accepts an obligation to repay Person with interest at [loan maturity](https://en.wikipedia.org/wiki/Maturity_(finance)). To simplify the accounting we will assume zero interest and no accounting for repayment risk:
 
 |           |savings   |money     |asset     |liability |
 |-----------|----------|----------|----------|----------|
 |Person     |     100oz|      20oz|      80oz|          |
 |Borrower   |          |      80oz|          |      80oz|
 
-Notice that Person has actually lent to his own enterprise (i.e. lending business) a fraction of his savings for the purpose of earning interest, which is accounted for below. Let us consider that Person hoards 10% of his savings for the liquidity required for near-term consumption and Business hoards at 10% for the same reason.
+Notice that Person has actually lent to his own enterprise (i.e. lending business) a fraction of his savings for the purpose of earning interest, which is accounted for below. Let us consider that Person hoards 10% of his savings for the liquidity required for near-term consumption and Business hoards at 10% for the same reason:
 
 |           |savings   |money     |asset     |liability |
 |-----------|----------|----------|----------|----------|
@@ -33,7 +33,7 @@ Notice that Person has actually lent to his own enterprise (i.e. lending busines
 |Business   |      90oz|       9oz|      81oz|          |
 |Borrower   |          |      81oz|          |      81oz|
 
-Notice that Person's business is operating with no reserve. All of his deposited money is at risk of default. Projecting this into the naive view of banking, we need only rename "Lender" to "Depositor" and "Business" to "Bank". There is no need to assume that these are distinct individuals.
+Notice that Person's business is operating with no reserve. All of his deposited money is at risk of default. Projecting this into the naive view of banking, we need only rename "Lender" to "Depositor" and "Business" to "Bank". There is no need to assume that these are distinct individuals:
 
 |           |savings   |money     |asset     |liability |
 |-----------|----------|----------|----------|----------|
@@ -92,4 +92,20 @@ Notice that by properly accounting for the Person as putting money at risk (i.e.
 Notice that in order for any person to spend from his hoard while maintaining his time preference, a loan must be settled in order to offset the spending. The settlement process moves the money from the former borrower to its lender, and cancels the note. The person in receipt of the spent money must lend it in order to satisfy his time preference, and so on.
 
 No further expansion is possible without an increase in the amount of money or an overall reduction in time preferences. An increase in money increases the absolute amount of credit and a reduction in time preference increases the rate of credit expansion in relation to the money. Given that money and credit evolve together, there is never any actual increase in money substitutes apart from these changes.
+
+In the practical view, we work with the same assumptions, however we apply the view of bank accounting to expose any distinction. In the simple model, Bank has received 100oz from Depositor and hands over 80oz to Borrower. This is identical to the naive view:
+
+|           |savings   |money     |asset     |liability |
+|-----------|----------|----------|----------|----------|
+|Depositor  |     100oz|      10oz|      90oz|          |
+|Bank       |      90oz|       9oz|      81oz|          |
+|Borrower   |          |      81oz|          |      81oz|
+
+In the practical model of bank accounting (i.e. how it typically happens), Bank does not hand over the money. Instead it creates offsetting accounts for its loan asset ("credit") and liability ("debt"). The savings relation is expanded to include these new accounts: `[savings = money + (asset - liability) + (credit - debt)]`. At the time of loan issuance, the accounts are as follows:
+
+|           |savings   |money     |asset     |liability |credit    |debt      |
+|-----------|----------|----------|----------|----------|----------|----------|
+|Depositor  |     100oz|      10oz|      90oz|          |          |          |
+|Bank       |      90oz|      90oz|          |          |      81oz|      81oz|
+|Borrower   |          |          |      81oz|      81oz|          |          |
 
