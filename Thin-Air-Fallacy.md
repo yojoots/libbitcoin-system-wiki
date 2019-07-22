@@ -167,7 +167,7 @@ The imbalance between Merchant and Bank accounts must be settled. The money must
 |Borrower   |          |          |     999oz|    1000oz|          |          |
 |Merchant   |          |      -1oz|          |          |          |          |
 
-It should be evident that:
+In summary, it has been shown that:
 
 * Fractional reserve is inherent in lending.
 * The economic fraction of reserve is time preference.
