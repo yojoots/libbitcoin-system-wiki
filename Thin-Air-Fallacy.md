@@ -145,7 +145,7 @@ Adherents of the two theories are merely [talking past each other](https://en.m.
 
 Recall that each loan is reserved at 10%, so Bank can lend up 8.903 times the amount of money on reserve, or 890.3oz of money substitute against 100oz money reserved. This is a [reserve ratio](https://en.wikipedia.org/wiki/Reserve_requirement) of 100:890.3 or ~11.2%.
 
-If Bank reserves each loan at 0%, credit expansion would be unlimited. However this implies zero time preference, or the idea that time has no value, implying that all money is lent indefinitely. In the case of Bank, 0% reserve implies no liquidity to satisfy any withdrawal (i.e. immediate failure). This is no different than any individual or business failing to hoard sufficient to maintain necessary liquidity. In other words, insufficiently low time preference.
+If Bank reserves each loan at 0%, credit expansion would be infinite. However this implies zero time preference, or the idea that time has no value, implying that all money is lent indefinitely. In the case of Bank, 0% reserve implies no liquidity to satisfy any withdrawal (i.e. immediate failure). Yet given zero time preference there could never be any withdrawals, making the scenario irrelevant. Credit expansion is necessarily finite.
 
 Let us revisit the scenario where Bank creates credit at negative reserve (i.e. out of thin air). For example, on deposits of 0oz Bank issues a loan of 1000oz:
 
