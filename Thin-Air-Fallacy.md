@@ -109,11 +109,27 @@ In the practical model of bank accounting (i.e. how it typically happens), Bank 
 |Bank       |      90oz|      90oz|          |          |      81oz|      81oz|
 |Borrower   |          |          |      81oz|      81oz|          |          |
 
-This is where explanations of the theory tend to terminate. The offsetting accounts of both Bank and Borrower balance, but Borrower has 81oz of gold to spend and Bank has not had to turn over any gold to Borrower. There is still only 100oz of money, but both Bank and Borrower have 81oz of money substitute. The theory observes that this implies Bank can create any amount of money substitute, such as the following. Notice that everything still balances, seeming validating the theory:
+This is where explanations of the theory tend to terminate. The offsetting accounts of both Bank and Borrower balance, but Borrower has 81oz of gold to spend and Bank has not had to turn over any gold to Borrower. There is still only 100oz of money, but both Bank and Borrower have 81oz of money substitute. The theory observes that this implies Bank can create any amount of money substitute, such as the following. Notice that everything still balances, and all accounts can be settled, seeming validating the theory:
 
 |           |savings   |money     |asset     |liability |credit    |debt      |
 |-----------|----------|----------|----------|----------|----------|----------|
 |Depositor  |     100oz|      10oz|      90oz|          |          |          |
 |Bank       |      90oz|      90oz|          |          |    1000oz|    1000oz|
 |Borrower   |          |          |    1000oz|    1000oz|          |          |
+
+This however demonstrates no actual use of either the loan asset or the bank credit. Let us take this a bit further by assuming Borrower clears his account, settling the Bank's credit and debit accounts.
+
+|           |savings   |money     |asset     |liability |credit    |debt      |
+|-----------|----------|----------|----------|----------|----------|----------|
+|Depositor  |     100oz|      10oz|      90oz|          |          |          |
+|Bank       |      90oz|       9oz|          |          |          |          |
+|Borrower   |          |      81oz|          |      81oz|          |          |
+
+Then let us assume Borrower deposits his borrowed money with Bank.
+
+|           |savings   |money     |asset     |liability |
+|-----------|----------|----------|----------|----------|
+|Depositor  |     100oz|      10oz|      90oz|          |
+|Bank       |      90oz|      90oz|          |          |
+|Borrower   |          |          |      81oz|      81oz|
 
