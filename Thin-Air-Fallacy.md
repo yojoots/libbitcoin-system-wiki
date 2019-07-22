@@ -224,7 +224,7 @@ The sum of all U.S. Dollar money and money substitutes is referred to as M3:
 
 [According to the Federal Reserve Bank of St. Louis](https://fred.stlouisfed.org/series/MABMM301USM189S), M3 was $14,613,500,000,000 in May of 2015, the last date provided. [According to the OECD](https://data.oecd.org/money/broad-money-m3.htm), M3 in May 2019 was 121% of M3 in 2015, or $17,682,335,000,000.
 
-The amount of money substitutes is the difference between M3 and M0, or $14,432,335,000,000. The actual reserve ratio is therefore $3,250,000,000,000 divided by $14,432,335,000,000, or 22.52%. Given that the reserve requirement is no more than 10%, the level of monetary expansion is less than half that allowed by law. This implies that time preference, not the regulatory reserve requirement, is currently controlling the rate of credit expansion. The implied an iteration of loans at a reserve rate on each loan of 18.38%.
+The amount of money substitutes is the difference between M3 and M0, or $14,432,335,000,000. The actual reserve ratio is therefore $3,250,000,000,000 divided by $14,432,335,000,000, or 22.52%. Given that the reserve requirement is no more than 10%, the level of monetary expansion is less than half that allowed by law. This implies that time preference, not the regulatory reserve requirement, is currently controlling the rate of credit expansion. This implies a progression of loans at a reserve rate of 18.38% on each loan (i.e. the ratio of hoarding to lending).
 
 While these numbers exclude the expansion implied by private U.S. Dollar lending, it seems clear that credit expansion by banks is limited by both money and time preference. However, there is a significant amount of money available should lending increase due to lowering of time preferences. As this money starts competing for goods as opposed to sitting in vaults, a significant increase in [price inflation](https://en.wikipedia.org/wiki/Inflation) should be expected. This highlights the point that monetary expansion alone does not immediately create price inflation, but instead is its harbinger.
 
@@ -237,7 +237,9 @@ As borrowing by member banks is reduced (by the Fed raising its cost), the Fed's
 >
 >The yearly remittances to the Treasury are essentially the leftover Fed revenue after operating expenses. By law, this additional revenue must be turned over to the Treasury.
 > 
->The revenue sent to the Treasury peaked at $97.7 billion in 2015 and has been steadily falling since. In January, the Fed sent $80.2 billion to the Treasury. In this blog post, I explore why these transfers are likely to continue declining.
+>The revenue sent to the Treasury peaked at $97.7 billion in 2015 and has been steadily falling since. In January, the Fed sent $80.2 billion to the Treasury.
+
+This "leftover Fed revenue" is that which is earned, after operating expenses, from loans of money printed by the U.S. Treasury at nominal cost, guaranteed by its [monopoly protection](https://en.wikipedia.org/wiki/Counterfeit) in doing so. So the net result is that the Treasury prints new money and then recaptures the money earned as interest that money printed. While the money is not printed and then deposited directly into the Treasury, the result is the same.
 
 ### Conclusion
 
