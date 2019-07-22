@@ -176,7 +176,7 @@ It should be evident that:
 * No distinction exists between naive and practical money creation.
 * Banks have no ability to create money.
 
-When Bank has insufficient reserve to satisfy withdrawals, either due to loans in default or a [bank run](https://en.wikipedia.org/wiki/Bank_run), it has only two options, default or borrow. To prevent the former, [central banking](https://en.wikipedia.org/wiki/Central_bank) exists to provide the latter. This is the meaning of the term [lender of last resort](https://en.wikipedia.org/wiki/Lender_of_last_resort).
+When Bank has insufficient reserve to satisfy withdrawals, either due to loans in default or a [bank run](https://en.wikipedia.org/wiki/Bank_run), it has only two options, default or borrow. To prevent the former, [central banking](https://en.wikipedia.org/wiki/Central_bank) exists to provide the latter. This is the meaning of the term "[lender of last resort](https://en.wikipedia.org/wiki/Lender_of_last_resort)".
 
 There is nothing inherently special about such a lender in free banking, it is just another lender subject to the constraints demonstrated above. However, in state banking this lender is supported by the taxpayer. The state taxes to provide [discount loans](https://en.wikipedia.org/wiki/Discount_window) to member banks. The loans must be at a [discount to market rates](https://www.frbdiscountwindow.org/pages/discount-rates/current-discount-rates) as otherwise it doesn't constitute a last resort. Banks always have the option to borrow from other banks and potential depositors. Taxation is necessary to support the discount (i.e. cheap money). So if the economic rate of interest is 10%, the state may lend to member banks at 3% and cover the difference with taxes.
 
