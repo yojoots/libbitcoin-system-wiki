@@ -14,7 +14,7 @@ In a free market people can perform the same operations as banks, without necess
 
 In the naive view, the potential lender has saved both the liquidity required for personal consumption (hoard) and the amount intended for earning [interest](Glossary#interest) (investment). All lending in this scenario originates from money savings. 
 
-|Lender    |savings   |hoard     |asset     |liability |
+|Person    |savings   |hoard     |asset     |liability |
 |----------|----------|----------|----------|----------|
 |amount    |     100oz|          |          |          |
 
