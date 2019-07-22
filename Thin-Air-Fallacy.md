@@ -151,7 +151,7 @@ Let us revisit the scenario where Bank creates credit at negative reserve (i.e. 
 |Bank       |          |          |          |          |    1000oz|    1000oz|
 |Borrower   |          |          |    1000oz|    1000oz|          |          |
 
-When Borrower spends just 1oz to Merchant, using the money substitute, Merchant's account is credited and Borrower's account debited by 1oz.
+When Borrower spends just 1oz to Merchant, using the money substitute, Merchant's asset account is increased by 1oz and Borrower's decreased by 1oz.
 
 |           |savings   |money     |asset     |liability |credit    |debt      |
 |-----------|----------|----------|----------|----------|----------|----------|
