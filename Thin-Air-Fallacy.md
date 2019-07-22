@@ -41,6 +41,14 @@ Notice that Person's business is operating with no reserve. All of his deposited
 |Bank       |      90oz|       9oz|      81oz|          |
 |Borrower   |          |      81oz|          |      81oz|
 
+Then let us assume Borrower deposits his borrowed money with Bank.
+
+|           |savings   |money     |asset     |liability |
+|-----------|----------|----------|----------|----------|
+|Depositor  |     100oz|      10oz|      90oz|          |
+|Bank       |      90oz|      90oz|          |          |
+|Borrower   |          |          |      81oz|      81oz|
+
 Notice that by properly accounting for the Person as putting money at risk (i.e. a depositor) we can see that all lending is fractionally reserved. There are two loans in this scenario, both reserved at 10%, resulting in monetary substitutes of 171% of money. Given the assumption of uniform [time preference](Time-Preference-Fallacy), Borrower will lend 90% of his savings, as will all subsequent borrowers. Assuming a minimum money divisibility of 1oz, credit expansion terminates at 8.903 times the amount of money, after 43 loans:
 
 | Loan | Hoarded | Loaned | Credit |
@@ -109,13 +117,7 @@ In the practical model of bank accounting (i.e. how it typically happens), Bank 
 |Bank       |      90oz|      90oz|          |          |      81oz|      81oz|
 |Borrower   |          |          |      81oz|      81oz|          |          |
 
-This is where explanations of the theory tend to terminate. The offsetting accounts of both Bank and Borrower balance, but Borrower has 81oz of gold to spend and Bank has not had to turn over any gold to Borrower. There is still only 100oz of money, but both Bank and Borrower have 81oz of money substitute. The theory observes that this implies Bank can create any amount of money substitute, such as the following. Notice that everything still balances, and all accounts can be settled, seeming validating the theory:
-
-|           |savings   |money     |asset     |liability |credit    |debt      |
-|-----------|----------|----------|----------|----------|----------|----------|
-|Depositor  |     100oz|      10oz|      90oz|          |          |          |
-|Bank       |      90oz|      90oz|          |          |    1000oz|    1000oz|
-|Borrower   |          |          |    1000oz|    1000oz|          |          |
+This is where explanations of the theory tend to terminate. The offsetting accounts of both Bank and Borrower balance, but Borrower has 81oz of gold to spend and Bank has not had to turn over any gold to Borrower. There is still only 100oz of money, but both Bank and Borrower have 81oz of money substitute. The theory observes that this implies Bank can create any amount of money substitute. Notice that everything will still balance, and all accounts can be settled, seeming validating the theory.
 
 This however demonstrates no actual use of either the loan asset or the bank credit. Let us take this a bit further by assuming Borrower clears his account, settling the Bank's credit and debit accounts.
 
@@ -133,3 +135,45 @@ Then let us assume Borrower deposits his borrowed money with Bank.
 |Bank       |      90oz|      90oz|          |          |
 |Borrower   |          |          |      81oz|      81oz|
 
+Notice that the this is identical to the final outcome of the naive view. **There is no distinction between these supposedly-competing views on money creation**, invaliding the theory.
+
+Recall that each loan is reserved at 10%, so Bank can lend up 8.903 times the amount of money on reserve, or 890.3oz of money substitute against 100oz money reserved. This is a [reserve ratio](https://en.wikipedia.org/wiki/Reserve_requirement) of 100:890.3 or ~11.2%.
+
+If Bank reserves each loan at 0%, credit expansion would be unlimited. However this implies zero time preference, or the idea that time has no value, implying that all money is lent indefinitely. In the case of Bank, 0% reserve implies no liquidity to satisfy any withdrawal (i.e. immediate failure). This is no different than any individual or business failing to hoard sufficient to maintain necessary liquidity. In other words, insufficiently low time preference.
+
+Let us revisit the scenario where Bank creates credit at negative reserve (i.e. out of thin air). For example, on deposits of 0oz Bank issues a loan of 1000oz:
+
+|           |savings   |money     |asset     |liability |credit    |debt      |
+|-----------|----------|----------|----------|----------|----------|----------|
+|Depositor  |          |          |          |          |          |          |
+|Bank       |          |          |          |          |    1000oz|    1000oz|
+|Borrower   |          |          |    1000oz|    1000oz|          |          |
+
+When Borrower spends just 1oz to Merchant, using the money substitute, Merchant's account is credited and Borrower's account debited by 1oz.
+
+|           |savings   |money     |asset     |liability |credit    |debt      |
+|-----------|----------|----------|----------|----------|----------|----------|
+|Depositor  |          |          |          |          |          |          |
+|Bank       |          |          |          |          |    1000oz|    1000oz|
+|Borrower   |          |          |     999oz|    1000oz|          |          |
+|Merchant   |          |          |       1oz|          |          |          |
+
+The imbalance between Merchant and Bank accounts must be settled. The money must actually be moved from the control of Bank to Merchant (or typically Merchant's bank). At this point Bank has failed. Bank may create as much money substitute as it wants, but negative reserve is just an [empty promises](https://en.wiktionary.org/wiki/empty_promise).
+
+|           |savings   |money     |asset     |liability |credit    |debt      |
+|-----------|----------|----------|----------|----------|----------|----------|
+|Depositor  |          |          |          |          |          |          |
+|Bank       |          |      -1oz|          |          |    1000oz|    1000oz|
+|Borrower   |          |          |     999oz|    1000oz|          |          |
+|Merchant   |          |      -1oz|          |          |          |          |
+
+It should be evident that:
+
+* Fractional reserve is inherent in lending.
+* The economic fraction of reserve is time preference.
+* Non-positive reserve is not possible.
+* Lower reserve reduces chances of being able to settle accounts.
+* No distinction exists between naive and practical money creation.
+* Banks have no ability to create money.
+
+When Bank has insufficient reserve to satisfy withdrawals, either due to loans in default or a [bank run](https://en.wikipedia.org/wiki/Bank_run), it has only two options, default or borrow. To prevent the former, [central banking](https://en.wikipedia.org/wiki/Central_bank) exists to provide the latter. This is the meaning of the term [lender of last resort](https://en.wikipedia.org/wiki/Lender_of_last_resort).
