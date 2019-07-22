@@ -224,7 +224,7 @@ The sum of all U.S. Dollar money and money substitutes is referred to as M3:
 
 [According to the Federal Reserve Bank of St. Louis](https://fred.stlouisfed.org/series/MABMM301USM189S), M3 was $14,613,500,000,000 in May of 2015, the last date provided. [According to the OECD](https://data.oecd.org/money/broad-money-m3.htm), M3 in May 2019 was 121% of M3 in 2015, or $17,682,335,000,000.
 
-The amount of money substitutes is the difference between M3 and M0, or $14,432,335,000,000.
+The amount of money substitutes is the difference between M3 and M0, or $14,432,335,000,000. The actual reserve ratio is therefore $3,250,000,000,000 divided by $14,432,335,000,000, or 22.52%. Given that the reserve requirement is no more than 10%, the level of monetary expansion is less than half that allowed by law. This implies that time preference, not the regulatory reserve requirement, is currently controlling the rate of credit expansion. The implied an iteration of loans at a reserve rate on each loan of 18.38%. While these numbers exclude the expansion implied by private U.S. Dollar lending, it seems clear that credit expansion by banks is limited by both money and time preference.
 
 ### Conclusion
 
