@@ -169,8 +169,8 @@ The imbalance between Merchant and Bank accounts must be settled. The money must
 
 Bank did not create the offsetting accounts to obscure fraudulent money creation. Bank created offsetting accounts for two reasons:
 
-* Encourage Borrower to deposit the money into Bank as opposed to a competing bank or his own hoard.
-* Preclude the need for Borrower to physically receive the money just to redeposit it in an account
+* Preclude physical transfer just to redeposit the money into Bank.
+* Encourage redeposit into Bank as opposed to a competitor (or own hoard).
 
 In summary, it has been shown that:
 
