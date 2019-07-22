@@ -117,7 +117,7 @@ In the typical practice of bank accounting, Bank does not hand over the money. I
 |Bank       |      90oz|      90oz|          |          |      81oz|      81oz|
 |Borrower   |          |          |      81oz|      81oz|          |          |
 
-This is where explanations of the theory tend to terminate. The offsetting accounts of both Bank and Borrower balance, but Borrower has 81oz of gold to spend and Bank has not had to turn over any gold to Borrower. There is still only 100oz of money, but both Bank and Borrower have 81oz of money substitute. The theory observes that this implies Bank can create any amount of money substitute. Notice that everything will still balance, and all accounts can be settled, seeming validating the theory.
+This is where explanations of the theory tend to terminate. The offsetting accounts of both Bank and Borrower balance, but Borrower has 81oz of gold to spend and Bank has not had to turn over any gold to Borrower. There is still only 100oz of money, but both Bank and Borrower have 81oz of money substitute. The theory assumes that this implies Bank can create any amount of money substitute. Notice that everything will still balance, and all accounts can be settled, seeming validating the theory.
 
 This however demonstrates no actual use of either the loan asset or the bank credit. Let us take this a bit further by assuming Borrower clears his account, settling the Bank's credit and debit accounts.
 
