@@ -109,7 +109,7 @@ In the practical view, we work with the same assumptions, however we apply the p
 |Bank       |      90oz|       9oz|      81oz|          |
 |Borrower   |          |      81oz|          |      81oz|
 
-In the practical model of bank accounting (i.e. how it typically happens), Bank does not hand over the money. Instead it creates offsetting accounts for its loan asset ("credit") and liability ("debt"). The savings relation is expanded to include these new accounts: `[savings = money + (asset - liability) + (credit - debt)]`. At the time of loan issuance, the accounts are as follows:
+In the typical practice of bank accounting, Bank does not hand over the money. Instead it creates offsetting accounts for its loan asset ("credit") and liability ("debt"). The savings relation is expanded to include these new accounts: `[savings = money + (asset - liability) + (credit - debt)]`. At the time of loan issuance, the accounts are as follows:
 
 |           |savings   |money     |asset     |liability |credit    |debt      |
 |-----------|----------|----------|----------|----------|----------|----------|
@@ -166,6 +166,11 @@ The imbalance between Merchant and Bank accounts must be settled. The money must
 |Bank       |          |      -1oz|          |          |    1000oz|    1000oz|
 |Borrower   |          |          |     999oz|    1000oz|          |          |
 |Merchant   |          |      -1oz|          |          |          |          |
+
+Bank did not create the offsetting accounts to obscure fraudulent money creation. Bank created offsetting accounts for two reasons:
+
+* Encourage Borrower to deposit the money into Bank as opposed to a competing bank or his own hoard.
+* Preclude the need for Borrower to physically receive the money just to redeposit it in an account
 
 In summary, it has been shown that:
 
