@@ -56,7 +56,7 @@ Notice that Person's business is operating with no reserve. All of his deposited
 |-----------|----------|----------|----------|----------|
 |amount     |          |      81oz|          |      81oz|
 
-Notice that by properly accounting for the Person as putting money at risk (i.e. a depositor) we can see that all lending is fractionally reserved. There are two loans in this scenario, both reserved at 10%, resulting in monetary substitutes of 171% of money. Given the assumption of uniform [time preference](Time-Preference-Fallacy), Borrower will lend 90% of his savings, as will all subsequent borrowers. Assuming a minimum money divisibility of 1oz, credit expansion terminates at 8.903 times the amount of money, after 43 loans.
+Notice that by properly accounting for the Person as putting money at risk (i.e. a depositor) we can see that all lending is fractionally reserved. There are two loans in this scenario, both reserved at 10%, resulting in monetary substitutes of 171% of money. Given the assumption of uniform [time preference](Time-Preference-Fallacy), Borrower will lend 90% of his savings, as will all subsequent borrowers. Assuming a minimum money divisibility of 1oz, credit expansion terminates at 8.903 times the amount of money, after 43 loans:
 
 | Loan | Hoarded | Loaned | Credit |
 |------|---------|--------|--------|
@@ -104,3 +104,4 @@ Notice that by properly accounting for the Person as putting money at risk (i.e.
 | 42   |  98.80  |   1.20 | 889.22 |
 | 43   |  98.92  |   1.08 | 890.30 |
 
+Notice that in order for any person to spend from his hoard while maintaining his time preference, a loan must be settled in order to offset the spending. The settlement process moves the money from the former borrower to its lender, and cancels the note. No further expansion is possible without an increase in the amount of money or an overall reduction in time preferences. Given that money and credit evolve together, there is never any actual increase in money substitutes apart from these changes.
