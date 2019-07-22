@@ -26,7 +26,7 @@ In the naive view of personal lending, Person hands over 80oz of gold to Borrowe
 
 |*Borrower* |savings   |money     |asset     |liability |
 |-----------|----------|----------|----------|----------|
-|amount     |      80oz|      80oz|          |      80oz|
+|amount     |          |      80oz|          |      80oz|
 
 Notice that Person has actually lent to his own enterprise (i.e. lending business) a fraction of his savings for the purpose of earning interest, which is accounted for below. Let us consider that Person hoards 10% of his savings for the liquidity required for near-term consumption.
 
@@ -40,7 +40,7 @@ Notice that Person has actually lent to his own enterprise (i.e. lending busines
 
 |*Borrower* |savings   |money     |asset     |liability |
 |-----------|----------|----------|----------|----------|
-|amount     |      80oz|      80oz|          |      80oz|
+|amount     |          |      80oz|          |      80oz|
 
 Notice that Person's business is operating with no reserve. All of his deposited money is at risk of default. Projecting this into the naive view of banking, we need only rename "Lender" to "Depositor" and "Business" to "Bank". There is no need to assume that these are distinct individuals.
 
@@ -54,4 +54,4 @@ Notice that Person's business is operating with no reserve. All of his deposited
 
 |*Borrower* |savings   |money     |asset     |liability |
 |-----------|----------|----------|----------|----------|
-|amount     |      80oz|      80oz|          |      80oz|
+|amount     |          |      80oz|          |      80oz|
