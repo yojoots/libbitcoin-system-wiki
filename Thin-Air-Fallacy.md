@@ -1,1 +1,2 @@
-Coming soon...
+There is a theory that [fractional reserve banking](https://en.wikipedia.org/wiki/Fractional-reserve_banking) inherently gives banks the ability to create [money](Money-Taxonomy) at no material cost. The theory does not depend on the [state](Glossary#state) privilege of [seigniorage](https://en.wikipedia.org/wiki/Seigniorage). It is considered a consequence of the accounting practices of [free banking](https://en.wikipedia.org/wiki/Free_banking). This is sometimes referred to as creating money *ex nihilo* or "out of thin air".
+
