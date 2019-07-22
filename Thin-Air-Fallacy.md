@@ -27,7 +27,7 @@ In this view of personal lending, Person hands over 81oz of gold to Borrower. Bo
 |Person     |     100oz|      19oz|      81oz|          |
 |Borrower   |          |      81oz|          |      81oz|
 
-Notice that Person has actually lent to his own enterprise (e.g. lending business) a fraction of his savings, which is accounted for below. Let us consider that Person hoards 10% of his savings for the liquidity required for near-term consumption and his Business hoards 10% for the same reason:
+Notice that Person has actually lent to his own enterprise (e.g. lending business) a fraction of his savings, which is accounted for below. Let us assume that Person hoards 10% of his savings for the liquidity required for near-term consumption and his Business hoards 10% for the same reason:
 
 |           |savings   |money     |asset     |liability |
 |-----------|----------|----------|----------|----------|
