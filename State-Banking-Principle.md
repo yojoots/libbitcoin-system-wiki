@@ -26,11 +26,11 @@ The total amount of [U.S. Dollars in circulation](https://en.wikipedia.org/wiki/
 
 > There was approximately $1.70 trillion in circulation as of January 31, 2019. This figure includes Federal Reserve notes ($1,655.2 billion), U.S. notes ($0.2 billion), currency no longer issued ($0.2 billion), and coins outstanding ($47.2 billion).
 
-However that money accounted for but not yet printed is [not included](https://en.wikipedia.org/wiki/Money_supply#United_States) above, so we cannot rely on this number: 
+However money accounted for but not yet printed is [not included](https://en.wikipedia.org/wiki/Money_supply#United_States) above, so we cannot rely on this number:
 
 > In the United States, a bank's reserves consist of U.S. currency held by the bank (also known as "vault cash") plus the bank's balances in Federal Reserve accounts. For this purpose, paper currency on hand and balances in Federal Reserve ("Fed") accounts are interchangeable (both are obligations of the Fed).
 
-The [total amount](https://tradingeconomics.com/united-states/money-supply-m0) of U.S. Dollars and equivalents in circulation in May 2019 was approximately $3,250,000,000,000.
+The [total amount](https://tradingeconomics.com/united-states/money-supply-m0) of U.S. Dollars and equivalents in circulation in May 2019 was approximately $3,250,000,000,000. Incidentally the difference between this amount and "money in circulation" as reported by the Fed is the amount accounted for but not yet printed, or $1,550,000,000,000.
 
 The sum of all U.S. Dollar money and money substitutes is referred to as M3:
 
@@ -58,3 +58,5 @@ As borrowing by member banks is reduced (by the Fed raising its cost), the Fed's
 This "leftover Fed revenue" is that which is earned, after operating expenses, from loans of money printed by the U.S. Treasury at nominal cost, guaranteed by its [monopoly protection](https://en.wikipedia.org/wiki/Counterfeit) in doing so. So the net result is that the Treasury prints new money and then recaptures the money earned as interest that money printed. While the money is not printed and then deposited directly into the Treasury, the result is the same.
 
 State [monopoly money](Money-Taxonomy) is not created *ex nihilo* by fraudulent bank accounting. It is literally created from [old blue jeans](https://www.washingtonpost.com/news/wonk/wp/2013/12/16/how-tight-jeans-almost-ruined-americas-money) by the state.
+
+The transition to a modern "[cashless society](https://www.nytimes.com/2018/11/21/business/sweden-cashless-society.html)" implies that central banks would retain the existing form of accounting for not-yet-printed fiat, and simply perform all settlement internally. A digital fiat, such as the experimental [e-Krona](https://www.riksbank.se/en-gb/payments--cash/e-krona), would be required for people to transact with state money electronically. Bitcoin serves the same purpose, but without state control of either [issuance](Glossary#inflation) or [confirmation](Glossary#confirmation).
