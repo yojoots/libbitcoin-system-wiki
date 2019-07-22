@@ -158,7 +158,7 @@ When Borrower spends just 1oz to Merchant, using the money substitute, Merchant'
 |Borrower   |          |          |     999oz|    1000oz|          |          |
 |Merchant   |          |          |       1oz|          |          |          |
 
-The imbalance between Merchant and Bank accounts must be settled. The money must actually be moved from the control of Bank to Merchant (or typically Merchant's bank). At this point Bank has failed. Bank may create as much money substitute as it wants, but negative reserve is just an [empty promises](https://en.wiktionary.org/wiki/empty_promise).
+The imbalance between Merchant and Bank accounts must be settled. The money must actually be moved from the control of Bank to Merchant (or typically Merchant's bank). At this point Bank has failed. Bank may create as much money substitute as it wants, but negative reserve is just an [empty promises](https://en.wiktionary.org/wiki/empty_promise). The failure to recognize these principles likely results from failure to consider the clearing process. This likely stems from the failure to recognize the clear and necessary [duality](https://en.wiktionary.org/wiki/duality) of money and money substitutes. This likely stems from the habit of referring to money (e.g. gold) in the same terms as money substitutes (e.g. accounts for gold).
 
 |           |savings   |money     |asset     |liability |credit    |debt      |
 |-----------|----------|----------|----------|----------|----------|----------|
@@ -177,3 +177,5 @@ It should be evident that:
 * Banks have no ability to create money.
 
 When Bank has insufficient reserve to satisfy withdrawals, either due to loans in default or a [bank run](https://en.wikipedia.org/wiki/Bank_run), it has only two options, default or borrow. To prevent the former, [central banking](https://en.wikipedia.org/wiki/Central_bank) exists to provide the latter. This is the meaning of the term [lender of last resort](https://en.wikipedia.org/wiki/Lender_of_last_resort).
+
+There is nothing inherently special about such a lender in free banking, it is just another lender subject to the constraints demonstrated above. However, in state banking this lender is supported by the taxpayer. The state taxes to provide discount loans to member banks. The loans must be at a [discount to market rates](https://en.wikipedia.org/wiki/Discount_window), as otherwise it doesn't constitute a last resort. Banks always have the option to borrow from other banks and potential depositors. Taxation is necessary to support the discount (i.e. cheap money). So if the economic rate of interest is 10%, the state may [lend to member banks at 3%](https://www.frbdiscountwindow.org/pages/discount-rates/current-discount-rates) and cover the difference with taxes.
