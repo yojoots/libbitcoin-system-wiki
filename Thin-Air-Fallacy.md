@@ -137,9 +137,11 @@ Then let us assume Borrower deposits his borrowed money with Bank.
 |Bank       |      90oz|      90oz|          |          |
 |Borrower   |          |          |      81oz|      81oz|
 
-Notice that the this is identical to the final outcome of the naive view. **There is no distinction between these supposedly-competing views on money creation**, invaliding the theory. This resolves the [centuries-old debate](https://en.wikipedia.org/wiki/Credit_theory_of_money#Scholarship), apparently begun between [Plato](https://en.wikipedia.org/wiki/Plato) and [Aristotle](https://en.wikipedia.org/wiki/Aristotle), regarding whether money is based on mining or credit. The theories are identical, as money and credit are a [duality](https://en.wiktionary.org/wiki/duality). Adherents of the two theories are merely [talking past each other](https://en.m.wikipedia.org/wiki/Talking_past_each_other).
+Notice that the this is identical to the final outcome of the naive view. **There is no distinction between these supposedly-competing views on money creation**, invaliding the theory. This resolves the [centuries-old debate](https://en.wikipedia.org/wiki/Credit_theory_of_money#Scholarship), apparently begun between [Plato](https://en.wikipedia.org/wiki/Plato) and [Aristotle](https://en.wikipedia.org/wiki/Aristotle), regarding whether money is based on mining or credit. The theories are identical, as money and credit are a [duality](https://en.wiktionary.org/wiki/duality).
 
 > According to Joseph Schumpeter, the first known advocate of a credit theory of money was Plato. Schumpeter describes metallism as the other of "two fundamental theories of money", saying the first known advocate of metallism was Aristotle.
+
+Adherents of the two theories are merely [talking past each other](https://en.m.wikipedia.org/wiki/Talking_past_each_other). Bitcoin has finally made observable the logical errors of [regression theory](Regression-Fallacy), which attempted to show the necessity of [metallism](https://en.m.wikipedia.org/wiki/Metallism), and those of [chartalism](https://en.m.wikipedia.org/wiki/Chartalism), which attempted to show the [necessity of the state](https://github.com/libbitcoin/libbitcoin-system/wiki/Debt-Loop-Fallacy) to fiat (i.e. non-use-value) money.
 
 Recall that each loan is reserved at 10%, so Bank can lend up 8.903 times the amount of money on reserve, or 890.3oz of money substitute against 100oz money reserved. This is a [reserve ratio](https://en.wikipedia.org/wiki/Reserve_requirement) of 100:890.3 or ~11.2%.
 
