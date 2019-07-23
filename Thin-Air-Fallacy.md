@@ -155,25 +155,27 @@ Let us revisit the scenario where Bank creates credit at negative reserve (i.e. 
 |Bank       |          |          |          |          |    1000oz|    1000oz|
 |Borrower   |          |          |    1000oz|    1000oz|          |          |
 
-When Borrower spends just 1oz to Merchant, using the money substitute, Merchant's asset account is increased by 1oz and Borrower's decreased by 1oz.
+When Borrower spends just 1oz to Merchant, using the money substitute, Merchant's asset account is increased by 1oz and Borrower's decreased by 1oz. Note that Borrower now owes Bank 1oz and Merchant has an account for 1oz.
 
 |           |savings   |money     |asset     |liability |credit    |debt      |
 |-----------|----------|----------|----------|----------|----------|----------|
 |Depositor  |          |          |          |          |          |          |
 |Bank       |          |          |          |          |    1000oz|    1000oz|
-|Borrower   |          |          |     999oz|    1000oz|          |          |
-|Merchant   |          |          |       1oz|          |          |          |
+|Borrower   |      -1oz|          |     999oz|    1000oz|          |          |
+|Merchant   |       1oz|          |       1oz|          |          |          |
 
-The imbalance between Merchant and Bank accounts must be settled. The money must actually be moved from the control of Bank to Merchant (or typically Merchant's bank). At this point Bank has failed and Merchant is unpaid, as the transaction cannot be settled. Bank may create as much money substitute as it wants, but negative reserve is just an [empty promise](https://en.wiktionary.org/wiki/empty_promise).
+All looks good until Merchant attempts to withdraw from his account. At that point Bank has defaulted and Merchant is unpaid. If Merchant's account is with another bank, the payment fails as soon as the two banks attempt to settle accounts. With a hypothetical negative reserve, the accounts balance as follows, indicating Bank's demise (negative money): 
 
 |           |savings   |money     |asset     |liability |credit    |debt      |
 |-----------|----------|----------|----------|----------|----------|----------|
 |Depositor  |          |          |          |          |          |          |
-|Bank       |          |      -1oz|          |          |    1000oz|    1000oz|
-|Borrower   |          |          |     999oz|    1000oz|          |          |
-|Merchant   |          |          |       1oz|          |          |          |
+|Bank       |      -1oz|      -1oz|          |          |    1000oz|    1000oz|
+|Borrower   |      -1oz|          |     999oz|    1000oz|          |          |
+|Merchant   |       1oz|       1oz|          |          |          |          |
 
-The failure to recognize these principles likely results from failure to consider the clearing process. This likely stems from the failure to recognize the inherent *duality of money and credit*, as the former must always exist to settle the claims implied by the latter. This likely stems from the habit of referring to money (e.g. gold) in the same terms as money substitutes (e.g. credits for gold). Bank did not create the offsetting accounts to obscure fraudulent money creation. Bank created offsetting accounts for two reasons:
+The money must actually be moved from the control of Bank to Merchant or Merchant's bank, which is not possible. A simpler example is the failure of any attempt of Borrower to withdraw from his account. Bank may create as much money substitute as it wants, but negative reserve is just an [empty promise](https://en.wiktionary.org/wiki/empty_promise). In this example Bank has created 1000oz of promises that it cannot keep.
+
+The failure to recognize these principles likely results from failure to consider the settlement process. This likely stems from the failure to recognize the inherent *duality of money and credit*, as the former must always exist to settle the claims implied by the latter. This likely stems from the habit of referring to money (e.g. gold) in the same terms as money substitutes (e.g. credits for gold). Bank did not create the offsetting accounts to obscure fraudulent money creation. Bank created offsetting accounts for two reasons:
 
 * Preclude physical transfer just to redeposit the money into Bank.
 * Encourage redeposit into Bank as opposed to a competitor (or Borrower hoard).
