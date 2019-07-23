@@ -55,7 +55,7 @@ Notice that by properly accounting for the Person having money at risk (i.e. a d
 
 Where `r` is the uniform level of individual reserve and `m` is the amount of money, the total amount of credit `c` for any number of loans `n` is given by the following [partial sum](https://www.wolframalpha.com/input/?i=sum+of+m+*+(1-r)%5En+as+n+goes+from+1+to+infinity):
 ```
-c = Sum(n=1..n)[m * (1 - r)^n] =
+c = ∑(n=1..n)[m * (1 - r)^n] =
 (m * (r - 1) ((1 - r)^n - 1))/r =
 (100oz * (10% - 1) ((1 - 10%)^43 - 1))/10% = 890.3oz
 ```
