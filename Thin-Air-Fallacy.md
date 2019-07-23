@@ -188,7 +188,7 @@ All looks good until Merchant attempts to withdraw from his account. At that poi
 |Borrower   |      -1oz|          |     999oz|    1000oz|          |          |
 |Merchant   |       1oz|       1oz|          |          |          |          |
 
-The money must actually be moved from the control of Bank to Merchant or Merchant's bank, which is not possible. A simpler example is the failure of any attempt by Borrower to withdraw from his account. Bank may create as much money substitute as it wants, but negative reserve is just an [empty promise](https://en.wiktionary.org/wiki/empty_promise). In this example Bank has created 1000oz of promises that it cannot keep.
+The money must actually be [moved](https://www.brinks.com/en/public/brinks/logistics) from the control of Bank to Merchant or Merchant's bank, which is not possible. A simpler example is the failure of any attempt by Borrower to withdraw from his account. Bank may create as much money substitute as it wants, but negative reserve is just an [empty promise](https://en.wiktionary.org/wiki/empty_promise). In this example Bank has created 1000oz of promises that it cannot keep.
 
 The failure to recognize these principles likely results from failure to consider the settlement process. This likely stems from the failure to recognize the inherent *duality of money and credit*, as the former must always exist to settle the claims implied by the latter. This likely stems from the habit of referring to money (e.g. gold) in the same terms as money substitutes (e.g. credits for gold). Bank did not create the offsetting accounts to obscure fraudulent money creation. Bank created offsetting accounts for two reasons:
 
