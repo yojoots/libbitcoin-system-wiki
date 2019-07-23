@@ -61,11 +61,11 @@ c = Sum(n=1..n)[m * (1 - r)^n] =
 ```
 The [reserve ratio](https://en.wikipedia.org/wiki/Reserve_requirement) `rr` is given by the ratio of money to credit:
 ```
-rr = m/c = 100z/890.3oz = ~11.232%
+rr = m/c = 100oz/890.3oz = ~11.23%
 ```
 The [money multiplier](https://en.wikipedia.org/wiki/Money_multiplier) is given by the inverse of the reserve ratio:
 ```
-1/rr = 1/~11.232% = ~8.903
+1/rr = 1/(100oz/890.3oz) = 8.903
 ```
 
 | Loan | Hoarded | Loaned | Credit |
