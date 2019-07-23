@@ -183,7 +183,7 @@ When Bank has insufficient reserve to satisfy withdrawals, either due to loans i
 In summary, it has been shown that:
 
 * Fractional reserve is inherent in lending.
-* The fraction of reserve is the expression of time preference.
+* The fraction of reserve is an expression of time preference.
 * Non-positive reserve is not possible.
 * Lower reserve reduces chances of being able to settle accounts.
 * No distinction exists between naive and practical money creation.
