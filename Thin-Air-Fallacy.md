@@ -59,6 +59,14 @@ Sum(n=1..n)[m * (1 - r)^n] =
 (m * (r - 1) ((1 - r)^n - 1))/r =
 (100oz * (10% - 1) ((1 - 10%)^43 - 1))/10% = 890.30oz
 ```
+For a given lender with this level of reservation of individual loans, the [reserve ratio](https://en.wikipedia.org/wiki/Reserve_requirement) is given by:
+```
+m/Sum(n=1..n)[m(1-r)^n] = 100z/890.30oz = ~11.23%
+```
+For the same scenario the [money multiplier]() is given by the inverse of the reserve ratio:
+```
+1/m/Sum(n=1..n)[m(1-r)^n] = 1/~11.23% = ~8.903
+```
 
 | Loan | Hoarded | Loaned | Credit |
 |------|---------|--------|--------|
