@@ -53,19 +53,19 @@ Then let us assume Borrower deposits his borrowed money with Bank. It is worth c
 
 Notice that by properly accounting for the Person having money at risk (i.e. a depositor) we can see that all lending is fractionally reserved. There are two loans in this scenario, both reserved at 10%, resulting in monetary substitutes of 171% of money. Given the assumption of uniform [time preference](Time-Preference-Fallacy), Borrower will lend 90% of his savings, as will all subsequent borrowers. Assuming a minimum practical loan of 1oz, after 43 loans credit expansion terminates at 8.903 times the amount of money.
 
-Where `r` is the uniform level of individual reserve and `m` is the amount of money, the total amount of credit for any number of loans `n` is given by the following [partial sum](http://mathworld.wolfram.com/PartialSum.html):
+Where `r` is the uniform level of individual reserve and `m` is the amount of money, the total amount of credit `c` for any number of loans `n` is given by the following [partial sum](https://www.wolframalpha.com/input/?i=sum+of+m+*+(1-r)%5En+as+n+goes+from+1+to+infinity):
 ```
-Sum(n=1..n)[m * (1 - r)^n] =
+c = Sum(n=1..n)[m * (1 - r)^n] =
 (m * (r - 1) ((1 - r)^n - 1))/r =
 (100oz * (10% - 1) ((1 - 10%)^43 - 1))/10% = 890.3oz
 ```
-For the same scenario the [reserve ratio](https://en.wikipedia.org/wiki/Reserve_requirement) is given by:
+The [reserve ratio](https://en.wikipedia.org/wiki/Reserve_requirement) `rr` is given by the ratio of money to credit:
 ```
-m/Sum(n=1..n)[m(1-r)^n] = 100z/890.3oz = ~11.232%
+rr = m/c = 100z/890.3oz = ~11.232%
 ```
-For the same scenario the [money multiplier](https://en.wikipedia.org/wiki/Money_multiplier) is given by the inverse of the reserve ratio:
+The [money multiplier](https://en.wikipedia.org/wiki/Money_multiplier) is given by the inverse of the reserve ratio:
 ```
-1/m/Sum(n=1..n)[m(1-r)^n] = 1/~11.232% = ~8.903
+1/rr = 1/~11.232% = ~8.903
 ```
 
 | Loan | Hoarded | Loaned | Credit |
