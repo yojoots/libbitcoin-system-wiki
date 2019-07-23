@@ -179,7 +179,7 @@ When Borrower spends just 1oz to Merchant, using the money substitute, Merchant'
 |Borrower   |      -1oz|          |     999oz|    1000oz|          |          |
 |Merchant   |       1oz|          |       1oz|          |          |          |
 
-All looks good until Merchant attempts to withdraw from his account. At that point Bank has defaulted and Merchant is unpaid. If Merchant's account is with another bank, the payment fails as soon as the two banks attempt to settle accounts. With a hypothetical negative reserve, the accounts balance as follows, indicating Bank's demise (negative money): 
+All looks good until Merchant attempts to withdraw from his account. At that point Bank has defaulted and Merchant is unpaid. If Merchant's account is with another bank, the payment fails as soon as the two banks attempt to settle accounts. With a hypothetical negative reserve, the accounts balance as follows, indicating Bank's [demise](https://en.wikipedia.org/wiki/Bank_failure) (negative money): 
 
 |           |savings   |money     |asset     |liability |credit    |debt      |
 |-----------|----------|----------|----------|----------|----------|----------|
