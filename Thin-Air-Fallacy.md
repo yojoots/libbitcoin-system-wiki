@@ -63,7 +63,7 @@ For a given lender with this level of reservation of individual loans, the [rese
 ```
 m/Sum(n=1..n)[m(1-r)^n] = 100z/890.30oz = ~11.23%
 ```
-For the same scenario the [money multiplier]() is given by the inverse of the reserve ratio:
+For the same scenario the [money multiplier](https://en.wikipedia.org/wiki/Money_multiplier) is given by the inverse of the reserve ratio:
 ```
 1/m/Sum(n=1..n)[m(1-r)^n] = 1/~11.23% = ~8.903
 ```
