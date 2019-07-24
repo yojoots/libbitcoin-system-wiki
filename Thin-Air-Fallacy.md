@@ -192,7 +192,7 @@ The money must actually be [moved](https://www.brinks.com/en/public/brinks/logis
 
 The failure to recognize these principles likely results from failure to consider the settlement process. This likely stems from the failure to recognize the inherent *duality of money and credit*, as the former must always exist to settle the claims implied by the latter. This likely stems from the habit of referring to money (e.g. gold) in the same terms as money substitutes (e.g. credits for gold).
 
-The offsetting credit and debit entries served no function except to independently account for loans issued and outstanding (Bank's balance sheet). Bank did not create the offsetting asset and liability entries to obscure fraudulent money creation. Bank created these accounts for two reasons:
+The offsetting credit and debit entries served no function except to independently account for loans issued and outstanding, which is the basis of Bank's [balance sheet](https://en.wikipedia.org/wiki/Balance_sheet). Bank similarly did not create the offsetting asset and liability entries to obscure fraudulent money creation. Bank created these accounts for two reasons:
 
 * Preclude physical transfer just to redeposit the money into Bank.
 * Encourage redeposit into Bank as opposed to a competitor (or Borrower hoard).
