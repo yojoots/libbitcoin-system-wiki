@@ -126,7 +126,7 @@ In the practical view, we work with the same assumptions, however we apply the p
 |Bank       |      90oz|       9oz|      81oz|          |
 |Borrower   |          |      81oz|          |      81oz|
 
-In the typical practice of bank accounting, Bank does not hand over the money. Instead it creates offsetting entries for Depositor's loan proceeds ("credit") and his repayment obligation ("debt"), and offsetting [balance sheet](https://en.wikipedia.org/wiki/Balance_sheet) entries for the Bank ("asset" and "liability" in the example). The savings relation is expanded to include these new accounts: `savings = money + (credit - debt) + (asset - liability)`. At the time of loan issuance, the accounts are as follows:
+In the typical practice of bank accounting, Bank does not hand over the money. Instead it creates offsetting ledger entries for Depositor's loan proceeds ("credit") and his repayment obligation ("debt"), and offsetting [balance sheet](https://en.wikipedia.org/wiki/Balance_sheet) entries for the Bank ("asset" and "liability" in the example). The savings relation is expanded to include these new accounts: `savings = money + (credit - debt) + (asset - liability)`. At the time of loan issuance, the accounts are as follows:
 
 |           |savings   |money     |credit    |debt      |asset     |liability |
 |-----------|----------|----------|----------|----------|----------|----------|
