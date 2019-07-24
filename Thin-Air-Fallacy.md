@@ -1,6 +1,6 @@
 There is a theory that [fractional reserve banking](https://en.wikipedia.org/wiki/Fractional-reserve_banking) inherently gives banks the ability to create money at no material cost. The theory does not depend on the [state](Glossary#state) privilege of [seigniorage](https://en.wikipedia.org/wiki/Seigniorage). It is considered a consequence of the accounting practices of [free banking](https://en.wikipedia.org/wiki/Free_banking). This is sometimes referred to as creating money *ex nihilo* or "[out of thin air](https://en.wikipedia.org/wiki/Fractional-reserve_banking#Criticisms_of_textbook_descriptions_of_the_monetary_system)".
 
-> Lord Adair Turner, formerly the UK's chief financial regulator, said "Banks do not, as too many textbooks still suggest, take deposits of existing money from savers and lend it out to borrowers: they create credit and money ex nihilo – extending a loan to the borrower and simultaneously crediting the borrower’s money account".
+> Lord Adair Turner, formerly the UK's chief financial regulator, said "Banks do not, as too many textbooks still suggest, take deposits of existing money from savers and lend it out to borrowers: they create credit and money ex nihilo – extending a loan to the borrower and simultaneously crediting the borrower’s money account."
 
 Adherents describe two competing views on money creation. The traditional understanding is naive in their view, as implied by Lord Turner. The theory implies that in practice, banking banking creates not only credit, but money.
 
@@ -136,7 +136,7 @@ In the typical practice of bank accounting, Bank does not hand over the money. I
 
 This is where [explanations of the theory](https://www.sciencedirect.com/science/article/pii/S1057521915001477) tend to terminate. The offsetting accounts of both Bank and Borrower balance, but Borrower has 81oz of gold to spend and Bank has not had to turn over any gold to Borrower. There is still only 100oz of money, but both Bank and Borrower have 81oz of money substitute.
 
-> “...they create credit and money ex nihilo – extending a loan to the borrower and simultaneously crediting the borrower’s money account"
+> “...they create credit and money ex nihilo – extending a loan to the borrower and simultaneously crediting the borrower’s money account."
 
 The theory proclaims that this implies Bank has actually created not only credit, but also *money*. Notice that everything still balances, and all accounts can be settled, seemingly validating the theory.
 
