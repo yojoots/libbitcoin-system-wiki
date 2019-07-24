@@ -18,7 +18,7 @@ The total amount of [U.S. Dollars in circulation](https://en.wikipedia.org/wiki/
 |Intangible       |  $1,535,857,000,000|
 |**Total Money**  |  $3,274,841,000,000|
 
-The total amount of credit extended in U.S. Dollars can be estimated from the sum of Dollar-denominated bank accounts (M3 - M0), [bonds](https://www.forbes.com/sites/kevinmcpartland/2018/10/11/understanding-us-bond-market/#7c8fe6541caf), [public equities](https://data.worldbank.org/indicator/cm.mkt.lcap.cd) and [private equities](https://www.quora.com/What-is-the-estimated-total-value-of-all-US-private-companies).
+The total amount of credit extended in U.S. Dollars can be estimated from the sum of Dollar-denominated bank accounts ([M3 minus M0](https://en.wikipedia.org/wiki/Money_supply#Empirical_measures_in_the_United_States_Federal_Reserve_System)), [bonds](https://www.forbes.com/sites/kevinmcpartland/2018/10/11/understanding-us-bond-market/#7c8fe6541caf), [public equities](https://data.worldbank.org/indicator/cm.mkt.lcap.cd) and [private equities](https://www.quora.com/What-is-the-estimated-total-value-of-all-US-private-companies).
 
 |Dollar Credit    |Amount (2019)       |
 |-----------------|--------------------|
