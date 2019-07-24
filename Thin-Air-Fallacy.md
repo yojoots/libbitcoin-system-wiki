@@ -126,7 +126,7 @@ In the practical view, we work with the same assumptions, however we apply the p
 |Bank       |      90oz|       9oz|      81oz|          |
 |Borrower   |          |      81oz|          |      81oz|
 
-In the typical practice of bank accounting, Bank does not hand over the money. Instead it creates offsetting accounts for its loan asset ("credit") and liability ("debt"). The savings relation is expanded to include these new accounts: `savings = money + (asset - liability) + (credit - debt)`. At the time of loan issuance, the accounts are as follows:
+In the typical practice of bank accounting, Bank does not hand over the money. Instead it creates offsetting entries for Depositor's deposit of the loan proceeds ("asset") and its repayment obligation ("liability"), and offsetting [balance sheet](https://en.wikipedia.org/wiki/Balance_sheet) entries for the Bank ("credit" and "debit" in the example). The savings relation is expanded to include these new accounts: `savings = money + (asset - liability) + (credit - debt)`. At the time of loan issuance, the accounts are as follows:
 
 |           |savings   |money     |asset     |liability |credit    |debt      |
 |-----------|----------|----------|----------|----------|----------|----------|
@@ -190,7 +190,7 @@ The money must actually be [moved](https://www.brinks.com/en/public/brinks/logis
 
 The failure to recognize these principles likely results from failure to consider the settlement process. This likely stems from the failure to recognize the inherent *duality of money and credit*, as the former must always exist to settle the claims implied by the latter. This likely stems from the habit of referring to money (e.g. gold) in the same terms as money substitutes (e.g. credits for gold).
 
-The offsetting credit and debit entries served no function except to independently account for loans issued and outstanding, which is the basis of Bank's [balance sheet](https://en.wikipedia.org/wiki/Balance_sheet). Bank similarly did not create the offsetting asset and liability entries to obscure fraudulent money creation. Bank created these accounts for two reasons:
+The offsetting credit and debit entries served no function except to independently account for loans issued and outstanding, which are the basis of Bank's balance sheet. Bank similarly did not create the offsetting asset and liability entries to obscure fraudulent money creation. Bank created these accounts for two reasons:
 
 * Preclude physical transfer just to redeposit the money into Bank.
 * Encourage redeposit into Bank as opposed to a competitor (or Borrower hoard).
