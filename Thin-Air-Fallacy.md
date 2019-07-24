@@ -126,7 +126,7 @@ In the practical view, we work with the same assumptions, however we apply the p
 |Bank       |      90oz|       9oz|      81oz|          |
 |Borrower   |          |      81oz|          |      81oz|
 
-In the typical practice of bank accounting, Bank does not hand over the money. Instead it creates offsetting entries for Depositor's deposit of the loan proceeds ("asset") and its repayment obligation ("liability"), and offsetting [balance sheet](https://en.wikipedia.org/wiki/Balance_sheet) entries for the Bank ("credit" and "debit" in the example). The savings relation is expanded to include these new accounts: `savings = money + (asset - liability) + (credit - debt)`. At the time of loan issuance, the accounts are as follows:
+In the typical practice of bank accounting, Bank does not hand over the money. Instead it creates offsetting entries for Depositor's loan proceeds ("asset") and his repayment obligation ("liability"), and offsetting [balance sheet](https://en.wikipedia.org/wiki/Balance_sheet) entries for the Bank ("credit" and "debit" in the example). The savings relation is expanded to include these new accounts: `savings = money + (asset - liability) + (credit - debt)`. At the time of loan issuance, the accounts are as follows:
 
 |           |savings   |money     |asset     |liability |credit    |debt      |
 |-----------|----------|----------|----------|----------|----------|----------|
@@ -160,7 +160,7 @@ Adherents of the two theories are merely [talking past each other](https://en.m.
 
 Recall that each loan is reserved at 10%, so Bank can lend up 8.903 times the amount of money on reserve, or 890.3oz of money substitute against 100oz money reserved. If Bank reserves each loan at 0%, credit expansion would be infinite. However this implies zero time preference, or the idea that time has no value, implying that all money is lent indefinitely. In the case of Bank, 0% reserve implies no liquidity to satisfy any withdrawal (i.e. immediate failure). Yet given zero time preference there could never be any withdrawals, making the scenario irrelevant. Credit expansion is necessarily finite.
 
-So let us revisit the scenario where Bank creates credit at negative reserve (i.e. out of thin air), this time considering spending. For example, on deposits of 0oz Bank intends to issue a loan of 1000oz. Instead of relying on reserved money to eventually settle the loan, Bank "creates money" using offsetting credit and debt accounts. The theory implies that the credit is "new money", as it can be traded as money. Bank then increases Borrower's asset and liability accounts, representing the borrowed money and the obligation to repay respectively:
+So let us revisit the scenario where Bank creates credit at negative reserve (i.e. out of thin air), this time considering spending. For example, on deposits of 0oz Bank intends to issue a loan of 1000oz. Instead of relying on reserved money to eventually settle the loan, Bank "creates money" on its balance sheet. The theory implies that the credit is "new money", as it can be traded as money. Bank then increases Borrower's asset and liability accounts, representing the borrowed money and the obligation to repay respectively:
 
 |           |savings   |money     |asset     |liability |credit    |debt      |
 |-----------|----------|----------|----------|----------|----------|----------|
