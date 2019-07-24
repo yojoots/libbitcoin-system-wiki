@@ -28,7 +28,7 @@ The total amount of credit extended in Dollars can be estimated from the sum of 
 |Private Equity	 |  $6,426,333,525,358|
 |**Total Credit**| $94,749,838,156,483|
 
-This is a money-to-credit ratio of ~3.43%, equivalent to ~1000 loans (i.e. no smaller than $.01) issued against the total amount of money, at an individual and uniform rate of reserve of ~3.32%.
+This is a money-to-credit ratio of ~3.43%, equivalent to ~1000 loans (i.e. no smaller than $.01) issued against the total amount of money, at an individual and uniform reserve rate of ~3.32%.
 
 As borrowing by member banks is reduced, such as by the Fed raising its interest rates, the Fed's "vault money" can be destroyed with the opposite effect of its printing. While the Fed has contracted M0 [by almost 20%](https://tradingeconomics.com/united-states/money-supply-m0) in the four years since its peak in 2015, this comes at a cost to tax revenue. The Fed masquerades as a non-profit organization, remitting net income from its loans [to the U.S. Treasury](https://www.stlouisfed.org/on-the-economy/2018/september/fed-payments-treasury-rising-interest-rates) annually.
 
