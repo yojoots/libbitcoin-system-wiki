@@ -158,11 +158,11 @@ Notice that the this is identical to the final outcome of the naive view. **Ther
 
 Adherents of the two theories are merely [talking past each other](https://en.m.wikipedia.org/wiki/Talking_past_each_other). Bitcoin, as fiat (i.e. non-[use-value](https://en.m.wikipedia.org/wiki/Use_value) money) [without state support](Value-Proposition), has finally made observable both the logical errors of [metallism](https://en.m.wikipedia.org/wiki/Metallism), which [attempted to show](Regression-Fallacy) the necessity of use value to money, and [chartalism](https://en.m.wikipedia.org/wiki/Chartalism), which [attempted to show](Debt-Loop-Fallacy) the necessity of state support to fiat.
 
-Recall that each loan is reserved at 10%, so Bank can lend up 8.903 times the amount of money on reserve, or 890.3oz of money substitute against 100oz money reserved. This is a [reserve ratio](https://en.wikipedia.org/wiki/Reserve_requirement) of 100:890.3 or ~11.23%.
+Recall that each loan is reserved at 10%, so Bank can lend up 8.903 times the amount of money on reserve, or 890.3oz of money substitute against 100oz money reserved.
 
 If Bank reserves each loan at 0%, credit expansion would be infinite. However this implies zero time preference, or the idea that time has no value, implying that all money is lent indefinitely. In the case of Bank, 0% reserve implies no liquidity to satisfy any withdrawal (i.e. immediate failure). Yet given zero time preference there could never be any withdrawals, making the scenario irrelevant. Credit expansion is necessarily finite.
 
-Let us revisit the scenario where Bank creates credit at negative reserve (i.e. out of thin air), this time considering spending. For example, on deposits of 0oz Bank issues a loan of 1000oz:
+Let us revisit the scenario where Bank creates credit at negative reserve (i.e. out of thin air), this time considering spending. For example, on deposits of 0oz Bank intends to issue a loan of 1000oz. Instead of relying on reserved money to eventually settle the loan, Bank "creates money" using offsetting credit and debt accounts. The theory implies that the credit is "new money", as it can be traded as money. Bank then increases Borrower's asset and liability accounts, representing the borrowed money and the obligation to repay respectively:
 
 |           |savings   |money     |asset     |liability |credit    |debt      |
 |-----------|----------|----------|----------|----------|----------|----------|
@@ -190,7 +190,9 @@ All looks good until Merchant attempts to withdraw from his account. At that poi
 
 The money must actually be [moved](https://www.brinks.com/en/public/brinks/logistics) from the control of Bank to Merchant or Merchant's bank, which is not possible. A simpler example is the failure of any attempt by Borrower to [withdraw](https://en.wikipedia.org/wiki/Automated_teller_machine) from his account. Bank may create as much money substitute as it wants, but negative reserve is just an [empty promise](https://en.wiktionary.org/wiki/empty_promise). In this example Bank has created 1000oz of promises that it cannot keep.
 
-The failure to recognize these principles likely results from failure to consider the settlement process. This likely stems from the failure to recognize the inherent *duality of money and credit*, as the former must always exist to settle the claims implied by the latter. This likely stems from the habit of referring to money (e.g. gold) in the same terms as money substitutes (e.g. credits for gold). Bank did not create the offsetting accounts to obscure fraudulent money creation. Bank created offsetting accounts for two reasons:
+The failure to recognize these principles likely results from failure to consider the settlement process. This likely stems from the failure to recognize the inherent *duality of money and credit*, as the former must always exist to settle the claims implied by the latter. This likely stems from the habit of referring to money (e.g. gold) in the same terms as money substitutes (e.g. credits for gold).
+
+The offsetting credit and debit entries served no function except to independently account for loans issued and outstanding (Bank's balance sheet). Bank did not create the offsetting asset and liability entries to obscure fraudulent money creation. Bank created these accounts for two reasons:
 
 * Preclude physical transfer just to redeposit the money into Bank.
 * Encourage redeposit into Bank as opposed to a competitor (or Borrower hoard).
