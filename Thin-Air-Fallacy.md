@@ -158,7 +158,7 @@ Notice that the this is identical to the final outcome of the naive view. **Ther
 
 Adherents of the two theories are merely [talking past each other](https://en.m.wikipedia.org/wiki/Talking_past_each_other). Bitcoin, as fiat (i.e. non-[use-value](https://en.m.wikipedia.org/wiki/Use_value) money) [without state support](Value-Proposition), has finally made observable both the logical errors of [metallism](https://en.m.wikipedia.org/wiki/Metallism), which [attempted to show](Regression-Fallacy) the necessity of use value to money, and [chartalism](https://en.m.wikipedia.org/wiki/Chartalism), which [attempted to show](Debt-Loop-Fallacy) the necessity of state support to fiat.
 
-Recall that each loan is reserved at 10%, so Bank can lend up 8.903 times the amount of money on reserve, or 890.3oz of money substitute against 100oz money reserved. This is a [reserve ratio](https://en.wikipedia.org/wiki/Reserve_requirement) of 100:890.3 or ~11.2%.
+Recall that each loan is reserved at 10%, so Bank can lend up 8.903 times the amount of money on reserve, or 890.3oz of money substitute against 100oz money reserved. This is a [reserve ratio](https://en.wikipedia.org/wiki/Reserve_requirement) of 100:890.3 or ~11.23%.
 
 If Bank reserves each loan at 0%, credit expansion would be infinite. However this implies zero time preference, or the idea that time has no value, implying that all money is lent indefinitely. In the case of Bank, 0% reserve implies no liquidity to satisfy any withdrawal (i.e. immediate failure). Yet given zero time preference there could never be any withdrawals, making the scenario irrelevant. Credit expansion is necessarily finite.
 
