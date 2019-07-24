@@ -126,7 +126,7 @@ In the practical view, we work with the same assumptions, however we apply the p
 |Bank       |      90oz|       9oz|      81oz|          |
 |Borrower   |          |      81oz|          |      81oz|
 
-In the typical practice of bank accounting, Bank does not hand over the money. Instead it simply creates account entries in a process referred to as "credit creation". It creates offsetting [ledger](https://en.wikipedia.org/wiki/Ledger) entries for Depositor's proceeds and loan ("credit" and "debt"), and offsetting [balance sheet](https://en.wikipedia.org/wiki/Balance_sheet) entries for Bank ("asset" and "liability"). At the time of loan issuance, the accounts are as follows:
+In the typical practice of bank accounting, Bank does not hand over the money. Instead it simply creates account entries in a process referred to as "credit creation". It creates offsetting [ledger](https://en.wikipedia.org/wiki/Ledger) entries for Depositor's proceeds and loan ("credit" and "debt"), and offsetting [balance sheet](https://en.wikipedia.org/wiki/Balance_sheet) entries for itself ("asset" and "liability"). At the time of loan issuance, the accounts are as follows:
 
 |           |savings   |money     |credit    |debt      |asset     |liability |
 |-----------|----------|----------|----------|----------|----------|----------|
