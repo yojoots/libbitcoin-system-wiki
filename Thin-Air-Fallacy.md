@@ -170,7 +170,7 @@ Let us revisit the scenario where Bank creates credit at negative reserve (i.e. 
 |Bank       |          |          |          |          |    1000oz|    1000oz|
 |Borrower   |          |          |    1000oz|    1000oz|          |          |
 
-When Borrower spends just 1oz to Merchant, using the money substitute, Merchant's asset account is increased by 1oz and Borrower's decreased by 1oz. Note that Borrower now owes Bank 1oz, as anticipated by the loan agreement.
+When Borrower trades 1oz (from his asset account) for a car, his asset account is decreased by 1oz and Merchant's is increased by 1oz. Note that Borrower now owes Bank 1oz, as anticipated by the loan agreement.
 
 |           |savings   |money     |asset     |liability |credit    |debt      |
 |-----------|----------|----------|----------|----------|----------|----------|
