@@ -10,7 +10,7 @@ The Fed can *pretend* it has money in its vault and print it only as required fo
 
 Without this ability to create new fiat the Fed would be unable to settle accounts, just as would any bank, if there was insufficient reserve (including that which could be borrowed) to cover withdrawals and defaults. Until the member bank must settle in fiat, such as in the case of cash withdrawal at [ATMs](https://en.wikipedia.org/wiki/Automated_teller_machine), [teller windows](https://en.wikipedia.org/wiki/Bank_teller) or with non-member banks and other institutions, there is no need to move the actual money, or print it. But without the ability to print it, the Fed would be subject to default just as any other bank.
 
-The total amount of [U.S. Dollars (USD) in circulation](https://en.wikipedia.org/wiki/Money_supply#United_States) is referred to as "M0". This includes all tangible currency ("vault cash") plus intangible bank balances in Federal Reserve accounts. These two forms are considered interchangeable [obligations of the Fed](https://en.wikipedia.org/wiki/Money_supply#United_State). The intangible obligations are money that is accounted for but not yet printed.
+The total amount of [U.S. Dollars in circulation](https://en.wikipedia.org/wiki/Money_supply#United_States) is referred to as "M0". This includes all tangible currency ("vault cash") plus intangible bank balances in Federal Reserve accounts. These two forms are considered interchangeable [obligations of the Fed](https://en.wikipedia.org/wiki/Money_supply#United_State). The intangible obligations are money that is accounted for but not yet printed.
 
 |Dollars         |Amount (2019)       |
 |----------------|--------------------|
@@ -18,7 +18,7 @@ The total amount of [U.S. Dollars (USD) in circulation](https://en.wikipedia.org
 |Intangible      |  $1,550,000,000,000|
 |**Total Money** |  $3,250,000,000,000|
 
-The total amount of credit extended in USD can be estimated from the sum of USD-denominated bank accounts, bonds and equities.
+The total amount of credit extended in U.S. Dollars can be estimated from the sum of Dollar-denominated bank accounts, bonds and equities.
 
 |Dollar Credit   |Amount (2019)       |
 |----------------|--------------------|
