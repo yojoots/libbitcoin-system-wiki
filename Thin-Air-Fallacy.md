@@ -2,13 +2,13 @@ There is a theory that [fractional reserve banking](https://en.wikipedia.org/wik
 
 > Lord Adair Turner, formerly the UK's chief financial regulator, said "Banks do not, as too many textbooks still suggest, take deposits of existing money from savers and lend it out to borrowers: they create credit and money ex nihilo – extending a loan to the borrower and simultaneously crediting the borrower’s money account".
 
-Adherents describe two competing views on money creation:
+Adherents describe two competing views on money creation. The traditional understanding is naive in their view, as implied by Lord Turner. The theory implies that in practice, banking banking creates not only credit, but money.
 
-#### Naive ([Aristotelian](https://en.m.wikipedia.org/wiki/Aristotelianism)) View
+#### Naive View
 
 Money is created by [miners](Glossary#miner) at a material cost, potentially sold to [people](Glossary#person), and eventually [lent](Glossary#lend) to people. This theory holds that the lender is lending only money he [owns](Glossary#owner). As such the lender is operating at [full reserve](Full-Reserve-Fallacy) and cannot engage in the practice of fractional reserve, which is considered fraudulent. As an honest lender he is only able to issue claims ([money substitutes](https://wiki.mises.org/wiki/Money_substitutes)) against money in his possession, preventing [credit expansion](Credit-Expansion-Fallacy) and therefore persistent [price inflation](https://en.wikipedia.org/wiki/Inflation).
 
-#### Practical ([Platonic](https://en.m.wikipedia.org/wiki/Platonic)) View
+#### Practical View
 
 Money substitutes are created by banks, at no material cost, as a consequence of fractional reserve lending. The supply of these substitutes expands with every loan, contracting only as loans are [settled](https://en.wikipedia.org/wiki/Clearing_(finance)). Given the implied lack of constraint on credit expansion, overall debt grows without bound, creating persistent price inflation.
 
