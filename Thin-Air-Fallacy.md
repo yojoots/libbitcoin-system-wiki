@@ -138,7 +138,7 @@ This is where [explanations of the theory](https://www.sciencedirect.com/science
 
 > “...they create credit and money ex nihilo – extending a loan to the borrower and simultaneously crediting the borrower’s money account."
 
-The theory proclaims that this implies Bank has actually created not only credit, but also *money*. Notice that everything still balances, and all accounts can be settled, seemingly validating the theory.
+The theory proclaims that Bank has thus created not only credit, but also *money*. Notice that everything still balances, and all accounts can be settled, seemingly validating the theory.
 
 This however demonstrates no actual spending of either the loan credit or the bank asset. Let us take this a bit further by assuming Borrower clears his account, and therefore the corresponding Bank asset and liability entries.
 
