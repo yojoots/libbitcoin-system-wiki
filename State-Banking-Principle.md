@@ -10,41 +10,25 @@ The Fed can *pretend* it has money in its vault and print it only as required fo
 
 Without this ability to create new fiat the Fed would be unable to settle accounts, just as would any bank, if there was insufficient reserve (including that which could be borrowed) to cover withdrawals and defaults. Until the member bank must settle in fiat, such as in the case of cash withdrawal at [ATMs](https://en.wikipedia.org/wiki/Automated_teller_machine), [teller windows](https://en.wikipedia.org/wiki/Bank_teller) or with non-member banks and other institutions, there is no need to move the actual money, or print it. But without the ability to print it, the Fed would be subject to default just as any other bank.
 
-Given these facts, one would expect the level of money substitutes to be no greater than the product of coinage + fiat (including fiat not yet printed) in circulation, and the "[money multiplier](https://en.wikipedia.org/wiki/Money_multiplier)" implied by bank reserve requirements:
+The total amount of [U.S. Dollars in circulation](https://en.wikipedia.org/wiki/Money_supply#United_States) is referred to as "M0". This includes all tangible currency ("vault cash") plus intangible bank balances in Federal Reserve accounts. These two forms are considered interchangeable [obligations of the Fed](https://en.wikipedia.org/wiki/Money_supply#United_State). The intangible obligations are money that is accounted for but not yet printed.
 
-> In equations, writing M for commercial bank money (loans) [money substitutes], R for reserves (central bank money) [money], and RR for the reserve ratio, the reserve ratio requirement is that `R/M >= RR`; the fraction of reserves must be at least the reserve ratio. Taking the reciprocal, `M/R <= 1/RR`, which yields `M <= R x (1/RR)`, meaning that commercial bank money is at most `R x 1/RR`, the latter being the multiplier ignoring leakages into currency [money held outside of banks].
+|Dollars         |Amount              |
+|----------------|--------------------|
+|Tangible        |  $1,700,000,000,000|
+|Intangible      |  $1,550,000,000,000|
+|**Total Money** |  $3,250,000,000,000|
 
-Bank [reserve requirements](https://en.wikipedia.org/wiki/Reserve_requirement#United_States) in the U.S. are as follows, implying a minimum reserve ratio of less than than 10%:
+The total amount of credit extended in Dollars can be estimated from the sum of Dollar-denominated bank accounts, bonds and equities.
 
-> A depository institution's reserve requirements vary by the dollar amount of NTAs [Net Transaction Accounts] held by customers of that institution. Effective January 18, 2018, institutions with net transactions accounts:
->
-> * Of less than $16 million have no minimum reserve requirement;
-> * Between $16 million and $122.3 million must have a liquidity ratio of 3% of NTAs;
-> * Exceeding $122.3 million must have a liquidity ratio of 10% of NTAs.
+|Dollar Credit   |Amount              |
+|----------------|--------------------|
+|Bank            | $14,432,335,000,000|
+|Bond            | $41,000,000,000,000|
+|Public Equity	 | $32,891,169,631,125|
+|Private Equity	 |  $6,426,333,525,358|
+|**Total Credit**| $94,749,838,156,483|
 
-The total amount of [U.S. Dollars in circulation](https://en.wikipedia.org/wiki/Money_supply#United_States) is referred to as M0:
-
-> M0: The total of all physical currency including coinage. M0 = Federal Reserve Notes + US Notes + Coins. It is not relevant whether the currency is held inside or outside of the private banking system as reserves.
-
-[According to the U.S. Federal Reserve](https://www.federalreserve.gov/faqs/currency_12773.htm), at the end of January 2019, there was approximately $1,700,000,000,000 of money in circulation:
-
-> There was approximately $1.70 trillion in circulation as of January 31, 2019. This figure includes Federal Reserve notes ($1,655.2 billion), U.S. notes ($0.2 billion), currency no longer issued ($0.2 billion), and coins outstanding ($47.2 billion).
-
-However money accounted for but not yet printed is [not included](https://en.wikipedia.org/wiki/Money_supply#United_States) above, so we cannot rely on this number:
-
-> In the United States, a bank's reserves consist of U.S. currency held by the bank (also known as "vault cash") plus the bank's balances in Federal Reserve accounts. For this purpose, paper currency on hand and balances in Federal Reserve ("Fed") accounts are interchangeable (both are obligations of the Fed).
-
-The [total amount](https://tradingeconomics.com/united-states/money-supply-m0) of U.S. Dollars accounted for in May 2019 was approximately $3,250,000,000,000. Incidentally the difference between this amount and "money in circulation" as reported by the Fed is the amount accounted for but not yet printed, or $1,550,000,000,000.
-
-The sum of all U.S. Dollar money and money substitutes is referred to as M3:
-
-> * M1: The total amount of M0 (cash/coin) outside of the private banking system plus the amount of demand deposits, travelers checks and other checkable deposits
-> * M2: M1 + most savings accounts, money market accounts, retail money market mutual funds, and small denomination time deposits (certificates of deposit of under $100,000).
-> * M3: M2 + all other CDs (large time deposits, institutional money market mutual fund balances), deposits of [eurodollars](https://en.wikipedia.org/wiki/Eurodollar) and [repurchase agreements](https://en.wikipedia.org/wiki/Repurchase_agreement).
-
-[According to the Federal Reserve Bank of St. Louis](https://fred.stlouisfed.org/series/MABMM301USM189S), M3 was $14,613,500,000,000 in May of 2015, the last date provided. [According to the OECD](https://data.oecd.org/money/broad-money-m3.htm), M3 in May 2019 was 121% of M3 in 2015, or $17,682,335,000,000.
-
-The amount of money substitutes is the difference between M3 and M0, or $14,432,335,000,000. The actual reserve ratio is therefore $3,250,000,000,000 divided by $14,432,335,000,000, or 22.52%. Given that the reserve requirement is no more than 10%, the rate of [credit expansion](Credit-Expansion-Fallacy) is less than half that allowed by law. This implies that time preference, not the regulatory reserve requirement, is currently controlling the rate of credit expansion.
+This is a money-to-credit ratio of ~3.43%, equivalent to ~1000 loans (i.e. no smaller than $.01) issued against the total amount of money, at an individual and uniform rate of reserve of ~3.32%.
 
 As borrowing by member banks is reduced, such as by the Fed raising its interest rates, the Fed's "vault money" can be destroyed with the opposite effect of its printing. While the Fed has contracted M0 [by almost 20%](https://tradingeconomics.com/united-states/money-supply-m0) in the four years since its peak in 2015, this comes at a cost to tax revenue. The Fed masquerades as a non-profit organization, remitting net income from its loans [to the U.S. Treasury](https://www.stlouisfed.org/on-the-economy/2018/september/fed-payments-treasury-rising-interest-rates) annually.
 
