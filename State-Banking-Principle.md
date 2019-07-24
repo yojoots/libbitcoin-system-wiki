@@ -12,7 +12,7 @@ Without this ability to create new fiat the Fed would be unable to settle accoun
 
 The total amount of [U.S. Dollars in circulation](https://en.wikipedia.org/wiki/Money_supply#United_States) is referred to as "M0". This includes all tangible currency ("vault cash") plus intangible bank balances in Federal Reserve accounts. These two forms are considered interchangeable [obligations of the Fed](https://en.wikipedia.org/wiki/Money_supply#United_State). The intangible obligations are money that is accounted for but not yet printed.
 
-|Dollars         |Amount              |
+|Dollars         |Amount (2019)       |
 |----------------|--------------------|
 |Tangible        |  $1,700,000,000,000|
 |Intangible      |  $1,550,000,000,000|
@@ -20,7 +20,7 @@ The total amount of [U.S. Dollars in circulation](https://en.wikipedia.org/wiki/
 
 The total amount of credit extended in Dollars can be estimated from the sum of Dollar-denominated bank accounts, bonds and equities.
 
-|Dollar Credit   |Amount              |
+|Dollar Credit   |Amount (2019)       |
 |----------------|--------------------|
 |Bank            | $14,432,335,000,000|
 |Bond            | $41,000,000,000,000|
