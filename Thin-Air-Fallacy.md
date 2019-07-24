@@ -14,22 +14,22 @@ Money substitutes are created by banks, at no material cost, as a consequence of
 
 In a free market people can perform the same operations as banks, without necessarily calling themselves banks. Therefore the distinction between these two possibilities must be based on obscuration of the supposed fraud. The theory holds that this obscuration is accomplished using an accounting trick that is not widely understood. So let us investigate the difference. Any money will suffice in this investigation of the money substitutes created in either case, including Gold, Bitcoin or [monopoly money](Money-Taxonomy).
 
-In the naive view, the potential lender has saved both the liquidity required for personal consumption (hoard) and the amount intended for earning [interest](Glossary#interest) (investment). All lending in this scenario originates from savings, such as gold accumulated from [panning](https://en.m.wikipedia.org/wiki/Gold_panning). Savings includes the sum of the hoard (money) and the amount that asset exceeds liability: `savings = money + (asset - liability)`. Money is gold and assets are money substitutes:
+In the naive view, the potential lender has saved both the liquidity required for personal consumption (hoard) and the amount intended for earning [interest](Glossary#interest) (investment). All lending in this scenario originates from savings, such as gold accumulated from [panning](https://en.m.wikipedia.org/wiki/Gold_panning). Savings includes the sum of the hoard (money) and the amount that credit exceeds debt: `savings = money + (credit - debt)`. Money is gold and credits are money substitutes:
 
-|         |savings   |money     |asset     |liability |
+|         |savings   |money     |credit    |debt      |
 |---------|----------|----------|----------|----------|
 |Person   |     100oz|     100oz|          |          |
 
 In this view of personal lending, Person hands over 81oz of gold to Borrower. Borrower accepts an obligation to repay Person with interest at [loan maturity](https://en.wikipedia.org/wiki/Maturity_(finance)). To simplify the accounting we will assume zero interest and no accounting (i.e. discounting) for repayment risk:
 
-|           |savings   |money     |asset     |liability |
+|           |savings   |money     |credit    |debt      |
 |-----------|----------|----------|----------|----------|
 |Person     |     100oz|      19oz|      81oz|          |
 |Borrower   |          |      81oz|          |      81oz|
 
 Notice that Person has actually lent to his own enterprise (e.g. lending business) a fraction of his savings, which is accounted for below. Let us assume that Person hoards 10% of his savings for the liquidity required for near-term consumption and his Business hoards 10% for the same reason:
 
-|           |savings   |money     |asset     |liability |
+|           |savings   |money     |credit    |debt      |
 |-----------|----------|----------|----------|----------|
 |Person     |     100oz|      10oz|      90oz|          |
 |Business   |      90oz|       9oz|      81oz|          |
@@ -37,7 +37,7 @@ Notice that Person has actually lent to his own enterprise (e.g. lending busines
 
 Notice that Person's business is operating with 10% reserve, as 90% of his deposited money is at risk of default. Projecting this into the naive view of banking requires only renaming "Lender" to "Depositor" and "Business" to "Bank". There is no need to assume that these are distinct individuals:
 
-|           |savings   |money     |asset     |liability |
+|           |savings   |money     |credit    |debt      |
 |-----------|----------|----------|----------|----------|
 |Depositor  |     100oz|      10oz|      90oz|          |
 |Bank       |      90oz|       9oz|      81oz|          |
@@ -45,7 +45,7 @@ Notice that Person's business is operating with 10% reserve, as 90% of his depos
 
 Then let us assume Borrower deposits his borrowed money with Bank. It is worth considering that this deposit could be at any bank with no change in behavior.
 
-|           |savings   |money     |asset     |liability |
+|           |savings   |money     |credit    |debt      |
 |-----------|----------|----------|----------|----------|
 |Depositor  |     100oz|      10oz|      90oz|          |
 |Bank       |      90oz|      90oz|          |          |
@@ -120,15 +120,15 @@ No further expansion is possible without an increase in the amount of money or a
 
 In the practical view, we work with the same assumptions, however we apply the practical view of bank accounting to expose any distinction. In the simple model, Bank has received 100oz from Depositor and hands over 81oz to Borrower. This is identical to the naive view:
 
-|           |savings   |money     |asset     |liability |
+|           |savings   |money     |credit    |debt      |
 |-----------|----------|----------|----------|----------|
 |Depositor  |     100oz|      10oz|      90oz|          |
 |Bank       |      90oz|       9oz|      81oz|          |
 |Borrower   |          |      81oz|          |      81oz|
 
-In the typical practice of bank accounting, Bank does not hand over the money. Instead it creates offsetting entries for Depositor's loan proceeds ("asset") and his repayment obligation ("liability"), and offsetting [balance sheet](https://en.wikipedia.org/wiki/Balance_sheet) entries for the Bank ("credit" and "debit" in the example). The savings relation is expanded to include these new accounts: `savings = money + (asset - liability) + (credit - debt)`. At the time of loan issuance, the accounts are as follows:
+In the typical practice of bank accounting, Bank does not hand over the money. Instead it creates offsetting entries for Depositor's loan proceeds ("credit") and his repayment obligation ("debt"), and offsetting [balance sheet](https://en.wikipedia.org/wiki/Balance_sheet) entries for the Bank ("asset" and "liability" in the example). The savings relation is expanded to include these new accounts: `savings = money + (credit - debt) + (asset - liability)`. At the time of loan issuance, the accounts are as follows:
 
-|           |savings   |money     |asset     |liability |credit    |debt      |
+|           |savings   |money     |credit    |debt      |asset     |liability |
 |-----------|----------|----------|----------|----------|----------|----------|
 |Depositor  |     100oz|      10oz|      90oz|          |          |          |
 |Bank       |      90oz|      90oz|          |          |      81oz|      81oz|
@@ -136,9 +136,9 @@ In the typical practice of bank accounting, Bank does not hand over the money. I
 
 This is where [explanations of the theory](https://www.sciencedirect.com/science/article/pii/S1057521915001477) tend to terminate. The offsetting accounts of both Bank and Borrower balance, but Borrower has 81oz of gold to spend and Bank has not had to turn over any gold to Borrower. There is still only 100oz of money, but both Bank and Borrower have 81oz of money substitute. The theory assumes that this implies Bank can create any amount of money substitute. Notice that everything will still balance, and all accounts can be settled, seemingly validating the theory.
 
-This however demonstrates no actual spending of either the loan asset or the bank credit. Let us take this a bit further by assuming Borrower clears his account, settling the Bank's credit and debt accounts.
+This however demonstrates no actual spending of either the loan credit or the bank asset. Let us take this a bit further by assuming Borrower clears his account, and therefore the corresponding Bank asset and liability entries.
 
-|           |savings   |money     |asset     |liability |credit    |debt      |
+|           |savings   |money     |credit    |debt      |asset     |liability |
 |-----------|----------|----------|----------|----------|----------|----------|
 |Depositor  |     100oz|      10oz|      90oz|          |          |          |
 |Bank       |      90oz|       9oz|          |          |          |          |
@@ -146,7 +146,7 @@ This however demonstrates no actual spending of either the loan asset or the ban
 
 Then let us assume Borrower deposits his borrowed money with Bank.
 
-|           |savings   |money     |asset     |liability |
+|           |savings   |money     |credit    |debt      |
 |-----------|----------|----------|----------|----------|
 |Depositor  |     100oz|      10oz|      90oz|          |
 |Bank       |      90oz|      90oz|          |          |
@@ -160,17 +160,17 @@ Adherents of the two theories are merely [talking past each other](https://en.m.
 
 Recall that each loan is reserved at 10%, so Bank can lend up 8.903 times the amount of money on reserve, or 890.3oz of money substitute against 100oz money reserved. If Bank reserves each loan at 0%, credit expansion would be infinite. However this implies zero time preference, or the idea that time has no value, implying that all money is lent indefinitely. In the case of Bank, 0% reserve implies no liquidity to satisfy any withdrawal (i.e. immediate failure). Yet given zero time preference there could never be any withdrawals, making the scenario irrelevant. Credit expansion is necessarily finite.
 
-So let us revisit the scenario where Bank creates credit at negative reserve (i.e. out of thin air), this time considering spending. For example, on deposits of 0oz Bank intends to issue a loan of 1000oz. Instead of relying on reserved money to eventually settle the loan, Bank "creates money" on its balance sheet. The theory implies that the credit is "new money", as it can be traded as money. Bank then increases Borrower's asset and liability accounts, representing the borrowed money and the obligation to repay respectively:
+So let us revisit the scenario where Bank creates credit at negative reserve (i.e. out of thin air), this time considering spending. For example, on deposits of 0oz Bank intends to issue a loan of 1000oz. Instead of relying on reserved money to eventually settle the loan, Bank "creates money" on its balance sheet. Bank then increases Borrower's credit and debt accounts, representing the borrowed money and the obligation to repay respectively:
 
-|           |savings   |money     |asset     |liability |credit    |debt      |
+|           |savings   |money     |credit    |debt      |asset     |liability |
 |-----------|----------|----------|----------|----------|----------|----------|
 |Depositor  |          |          |          |          |          |          |
 |Bank       |          |          |          |          |    1000oz|    1000oz|
 |Borrower   |          |          |    1000oz|    1000oz|          |          |
 
-When Borrower trades 1oz (from his asset account) for a car, his asset account is decreased by 1oz and Merchant's is increased by 1oz. Note that Borrower now owes Bank 1oz, as anticipated by the loan agreement.
+When Borrower trades 1oz (from his credit account) for a car, his credit account is decreased by 1oz and Merchant's is increased by 1oz. Note that Borrower now owes Bank 1oz, as anticipated by the loan agreement.
 
-|           |savings   |money     |asset     |liability |credit    |debt      |
+|           |savings   |money     |credit    |debt      |asset     |liability |
 |-----------|----------|----------|----------|----------|----------|----------|
 |Depositor  |          |          |          |          |          |          |
 |Bank       |          |          |          |          |    1000oz|    1000oz|
@@ -179,7 +179,7 @@ When Borrower trades 1oz (from his asset account) for a car, his asset account i
 
 All looks good until Merchant attempts to withdraw from his account. At that point Bank has defaulted and Merchant is unpaid. If Merchant's account is with another bank, the payment fails as soon as the two banks attempt to settle accounts. With a hypothetical negative reserve, the accounts balance as follows, indicating Bank's [demise](https://en.wikipedia.org/wiki/Bank_failure) (negative money): 
 
-|           |savings   |money     |asset     |liability |credit    |debt      |
+|           |savings   |money     |credit    |debt      |asset     |liability |
 |-----------|----------|----------|----------|----------|----------|----------|
 |Depositor  |          |          |          |          |          |          |
 |Bank       |      -1oz|      -1oz|          |          |    1000oz|    1000oz|
@@ -190,7 +190,7 @@ The money must actually be [moved](https://www.brinks.com/en/public/brinks/logis
 
 The failure to recognize these principles likely results from failure to consider the settlement process. This likely stems from the failure to recognize the inherent *duality of money and credit*, as the former must always exist to settle the claims implied by the latter. This likely stems from the habit of referring to money (e.g. gold) in the same terms as money substitutes (e.g. credits for gold).
 
-The offsetting credit and debit entries served no function except to independently account for loans issued and outstanding, which are the basis of Bank's balance sheet. Bank similarly did not create the offsetting asset and liability entries to obscure fraudulent money creation. Bank created these accounts for two reasons:
+The offsetting asset and liability entries served only to account for loans issued and outstanding, which are the basis of Bank's balance sheet. Bank similarly did not create the offsetting credit and debt entries to obscure fraudulent money creation. Bank created these accounts for two reasons:
 
 * Preclude physical transfer just to redeposit the money into Bank.
 * Encourage redeposit into Bank as opposed to a competitor (or Borrower hoard).
