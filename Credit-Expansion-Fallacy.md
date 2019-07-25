@@ -27,7 +27,7 @@ M0 plus all bank account money is referred to as "M3". This is no longer publish
 |**Total Credit** | $94,724,997,156,483|
 
 * The total ratio of money to credit is ~3.46%, or **credit expansion of 29.9 x money**.
-* Bank [reserves](https://www.federalreserve.gov/releases/h3/current/default.htm) of $1,400,949,000,000 indicate a bank reserve ratio of ~11.11% against bank credit, or **credit expansion of 9.0 x money**. This is slightly above the [required reserve](https://en.wikipedia.org/wiki/Reserve_requirement) ratio, which is no more than 10%.
+* Bank [reserves](https://www.federalreserve.gov/releases/h3/current/default.htm) of $1,400,949,000,000 indicate a bank reserve ratio of ~11.11% against bank credit, or **credit expansion of 9.0 x money**. This is slightly above the [required reserve](https://en.wikipedia.org/wiki/Reserve_requirement) ratio, which is [no more than 10%](https://en.wikipedia.org/wiki/Reserve_requirement#United_States).
 * Reserve of remaining money (i.e. excluding bank reserves) relative to bond and equity markets (i.e. the ratio of M0 minus bank reserves to the sum of bonds and equity) is ~2.08%, or **credit expansion of 48.0 x money**.
 
 Eliminating credit expansion requires elimination of credit, and therefore production. All credit is subject to default. However the theory holds that bank credit is different in the presumption of being "risk free". This presumption arises from the fact of [taxpayer insurance](https://www.fdic.gov) of the credit. This is not a consequence of banking but of state intervention in banking. To the extent the presumption is attributed to free banking, the theory is invalid. Free banks fail, but in doing so eliminate this misperception.
