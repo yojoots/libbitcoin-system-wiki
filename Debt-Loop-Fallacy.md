@@ -25,9 +25,9 @@ An indirect claim represents any finite progression of claims against others. Wh
 
 An infinite regression of claims [cannot exist](https://en.wikipedia.org/wiki/Turtles_all_the_way_down). Consider a hypothetical note issued by the Treasury (state) with redeemability in terms of offsetting (state) tax liability.
 
-* $1 settles the tax liability on $10 of income
-* $10 settles the tax liability on $100 of income
-* $100 settles the tax liability on $1000 of income
+* $1 settles the tax liability on $10 of income.
+* $10 settles the tax liability on $100 of income.
+* $100 settles the tax liability on $1000 of income.
 * and so on...
 
 While the note does not represent itself, its regression is infinite. A claim can only be made against a finite number of other claims. In this case any such instrument is not actually a note and could only trade as money.
