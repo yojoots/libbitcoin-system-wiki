@@ -2,7 +2,7 @@ There is a theory that [fractional reserve banking](https://en.wikipedia.org/wik
 
 > Lord Adair Turner, formerly the UK's chief financial regulator, said "Banks do not, as too many textbooks still suggest, take deposits of existing money from savers and lend it out to borrowers: they create credit and money ex nihilo – extending a loan to the borrower and simultaneously crediting the borrower’s money account."
 
-Adherents describe two competing views on money creation. The traditional understanding is naive in their view, as implied by Lord Turner. The theory implies that in practice, banking banking creates not only credit, but money.
+Adherents describe two competing views on money creation. The traditional understanding is naive in relation to their more practical view, as implied by Lord Turner. The theory states that banking inherently creates not only credit, but also money.
 
 #### Naive View
 
