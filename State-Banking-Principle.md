@@ -10,27 +10,9 @@ The Fed can *pretend* it has money in its vault and print it only as required fo
 
 Without this ability to create new fiat the Fed would be unable to settle accounts, just as would any bank, if there was insufficient reserve (including that which could be borrowed) to cover withdrawals and defaults. Until the member bank must settle in fiat, such as in the case of cash withdrawal at [ATMs](https://en.wikipedia.org/wiki/Automated_teller_machine), [teller windows](https://en.wikipedia.org/wiki/Bank_teller) or with non-member banks and other institutions, there is no need to move the actual money, or print it. But without the ability to print it, the Fed would be subject to default just as any other bank.
 
-The total amount of [U.S. Dollars in circulation](https://en.wikipedia.org/wiki/Money_supply#United_States) is referred to as "M0". This includes all tangible currency ("vault cash") plus intangible bank balances in Federal Reserve accounts. These two forms are considered interchangeable [obligations of the Fed](https://en.wikipedia.org/wiki/Money_supply#United_State). The intangible obligations are money that is accounted for but not yet printed. As [reported by the Fed](https://www.federalreserve.gov/releases/h3/current/default.htm), the amount of U.S. Dollars is:
+The total amount of [U.S. Dollars in circulation](https://en.wikipedia.org/wiki/Money_supply#United_States) is referred to as "[M0]((https://en.wikipedia.org/wiki/Money_supply#Empirical_measures_in_the_United_States_Federal_Reserve_System))". This includes all tangible currency ("vault cash") plus intangible bank balances in Federal Reserve accounts. These two forms are considered interchangeable [obligations of the Fed](https://en.wikipedia.org/wiki/Money_supply#United_State). The intangible obligations are money that is accounted for but not yet printed.
 
-|Dollars          |Amount (2019)       |
-|-----------------|--------------------|
-|Tangible         |  $1,738,984,000,000|
-|Intangible       |  $1,535,857,000,000|
-|**Total Money**  |  $3,274,841,000,000|
-
-The total amount of credit extended in U.S. Dollars can be estimated from the sum of Dollar-denominated bank accounts ([M3 minus M0](https://en.wikipedia.org/wiki/Money_supply#Empirical_measures_in_the_United_States_Federal_Reserve_System)), [bonds](https://www.forbes.com/sites/kevinmcpartland/2018/10/11/understanding-us-bond-market/#7c8fe6541caf), [public equities](https://data.worldbank.org/indicator/cm.mkt.lcap.cd) and [private equities](https://www.quora.com/What-is-the-estimated-total-value-of-all-US-private-companies).
-
-|Dollar Credit    |Amount (2019)       |
-|-----------------|--------------------|
-|Bank             | $14,407,494,000,000|
-|Bond             | $41,000,000,000,000|
-|Public Equity	  | $32,891,169,631,125|
-|Private Equity	  |  $6,426,333,525,358|
-|**Total Credit** | $94,724,997,156,483|
-
-This is a money-to-credit ratio of ~3.46%, equivalent to ~1000 loans (i.e. no smaller than $.01) issued against the total amount of money, at an individual and uniform reserve rate of ~3.34%. As [reported by the Fed](https://www.federalreserve.gov/releases/h3/current/default.htm), 2019 U.S. Dollar bank reserves are as $1,400,949,000,000, implying a reserve ratio of ~11.11% against bank credit. This is slightly above the [required reserve](https://en.wikipedia.org/wiki/Reserve_requirement) ratio, which is no more than 10%. By comparison, reserve against the bond and equity markets is ~2.08% (i.e. the ratio of M0 less bank reserves to the sum of bonds and equity).
-
-As borrowing by member banks is reduced, such as by the Fed raising its interest rates, the Fed's "vault money" can be destroyed with the opposite effect of its printing. While the Fed has contracted M0 [by almost 20%](https://tradingeconomics.com/united-states/money-supply-m0) in the four years since its peak in 2015, this comes at a cost to tax revenue. The Fed masquerades as a non-profit organization, remitting net income from its loans [to the U.S. Treasury](https://www.stlouisfed.org/on-the-economy/2018/september/fed-payments-treasury-rising-interest-rates) annually.
+As borrowing by member banks is reduced, such as by the Fed raising its interest rates, the Fed's "obligations" (money) can be destroyed with the opposite effect of its printing. While the Fed has contracted M0 [by almost 20%](https://tradingeconomics.com/united-states/money-supply-m0) in the four years since its peak in 2015, this comes at a cost to tax revenue. The Fed masquerades as a non-profit organization, remitting net income from its loans [to the U.S. Treasury](https://www.stlouisfed.org/on-the-economy/2018/september/fed-payments-treasury-rising-interest-rates) annually.
 
 > The Federal Reserve increased the federal funds rate target seven times since between Dec. 2015 and June 2018. This has implications for the path of the federal deficit and federal debt in two ways:
 > 
