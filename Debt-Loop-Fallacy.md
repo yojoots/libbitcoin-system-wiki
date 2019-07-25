@@ -17,10 +17,17 @@ All money implies money substitutes, as a [consequence of lending](Credit-Expans
 * finite regression (money substitute)
 * infinite regression (impossible money)
 
-A note may be a claim for another type of claim, but not for itself. Otherwise there is no actual regression and the supposed claim *is* money. This holds in the case where the claim is directly or indirectly entirely circular, as implied by the term "loop", as the note settles itself. So the term "debt loop" is simply another description for "money". Examples include Gold, Bitcoin, and the irredeemable (modern) U.S. Dollar.
+A note may be a claim for another type of claim, but not for itself (i.e. whatever it can be traded for). Otherwise there is no actual regression and the supposed claim *is* money. This holds in the case where the claim is directly or indirectly entirely circular, as implied by the term "loop", as the note settles itself. So the term "debt loop" is simply another description for "money". Examples include Gold, Bitcoin, and the irredeemable (modern) U.S. Dollar.
 
 A direct claim (single regression) for money is a representative money, though this term is generally reserved for a tangible note that represents a [commodity money](https://en.wikipedia.org/wiki/Commodity_money). The note directly *represents* money. The redeemable U.S. Dollar was a representative money.
 
 An indirect claim represents any finite progression of claims against others. When all claims are settled, the money is held by its rightful [owner](Glossary#owner) with all claims closed out, and any circular claims fully [netted](https://en.wikipedia.org/wiki/Set-off_(law)#Close_out_netting). Note that if the claims are fully circular there is nothing to settle (i.e. the claim is money).
 
-An infinite regression of claims [cannot exist](https://en.wikipedia.org/wiki/Turtles_all_the_way_down). Any statement to the contrary is a clear error. A claim can only be made against a finite number of other claims.
+An infinite regression of claims [cannot exist](https://en.wikipedia.org/wiki/Turtles_all_the_way_down). Consider a hypothetical note issued by the Treasury (state) with redeemability in terms of offsetting (state) tax liability.
+
+* $1 settles the tax liability on $10 of income
+* $10 settles the tax liability on $100 of income
+* $100 settles the tax liability on $1000 of income
+* and so on...
+
+While the note does not represent itself, its regression is infinite. A claim can only be made against a finite number of other claims. In this case any such instrument is not actually a note and could only trade as money.
