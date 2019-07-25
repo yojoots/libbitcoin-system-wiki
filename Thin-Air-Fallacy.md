@@ -201,9 +201,8 @@ When Bank has insufficient reserve to satisfy withdrawals, either due to loans i
 
 In summary, it has been shown that:
 
+* Banks have no ability to create money.
 * Fractional reserve is inherent in lending.
 * The fraction of reserve is an expression of time preference.
-* Non-positive reserve is not possible.
-* Lower reserve reduces chances of being able to settle accounts.
-* No distinction exists between naive and practical money creation.
-* Banks have no ability to create money.
+* Zero reserve eliminates any chance of being able to settle accounts.
+* No distinction exists between naive and practical theories of money creation.
