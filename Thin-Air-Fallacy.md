@@ -6,7 +6,7 @@ Adherents describe two competing views on money creation. The traditional unders
 
 #### Naive View
 
-Money is created by [miners](Glossary#miner) at a material cost, potentially sold to [people](Glossary#person), and eventually [lent](Glossary#lend) to people. This theory holds that the lender is lending only money he [owns](Glossary#owner). As such the lender is operating at [full reserve](Full-Reserve-Fallacy) and cannot engage in the practice of fractional reserve, which is considered fraudulent. As an honest lender he is only able to issue claims ([money substitutes](https://wiki.mises.org/wiki/Money_substitutes)) against money in his possession, preventing [credit expansion](Credit-Expansion-Fallacy) and therefore persistent [price inflation](https://en.wikipedia.org/wiki/Inflation).
+Money is created by [miners](Glossary#miner) at a material cost, potentially sold to [people](Glossary#person), and eventually [lent](Glossary#lend) to people. This theory holds that the lender is lending only money he [owns](Glossary#owner). As such the lender is operating at [full reserve](Full-Reserve-Fallacy) and cannot engage in the practice of fractional reserve, which is considered fraudulent. As an honest lender he is only able to issue claims ([representative money](https://en.wikipedia.org/wiki/Representative_money) against money in his possession, preventing [credit expansion](Credit-Expansion-Fallacy) and therefore persistent [price inflation](https://en.wikipedia.org/wiki/Inflation).
 
 #### Practical View
 
