@@ -4,7 +4,7 @@ Saving is a general term for [hoarding](Glossary#hoard), [speculating](Glossary#
 
 The distinction between hoarding and investment is essential to the understanding of credit expansion. Hoarded money is under the control of its owner, as if in a vault, buried in the back yard, or stuffed in a mattress. This is inherent in the meaning of ownership. The lender of money is not the owner of the money, even though a loan is considered savings.
 
-A lender requires liquidity to operate, and as such must hoard a certain fraction of savings. When a loan is created the borrower owns the amount of capital lent. The borrower also requires liquidity, and so hoards a certain fraction of the loan. Any remainder of the loan is necessarily invested. This implies that the borrower has become a lender. The process continues until all capital that exists is hoarded.
+A lender requires liquidity to operate, and as such must hoard a certain fraction of savings. When a loan is created the borrower owns the amount lent. The borrower also requires liquidity, and so hoards a certain fraction of the loan. Any remainder of the loan is necessarily invested. This implies that the borrower has become a lender. The process continues until all capital that exists is hoarded.
 
 The amount hoarded is sometimes referred to as the owner’s "reserve", but properly it is the owner’s hoard, a fraction of that owner’s total savings. This use of the word reserve should not be confused with its use in the state money context of [reserve currency](Reserve-Currency-Fallacy). The term “fractional reserve banking” is a reference to the ratio of a bank’s hoard to its total savings.
 
