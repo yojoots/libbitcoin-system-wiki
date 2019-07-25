@@ -134,11 +134,9 @@ However, in the typical practice of bank accounting, Bank does not hand over the
 |Bank       |      90oz|      90oz|          |          |      81oz|      81oz|
 |Borrower   |          |          |      81oz|      81oz|          |          |
 
-This is where [explanations of the theory](https://www.sciencedirect.com/science/article/pii/S1057521915001477) tend to terminate. The offsetting accounts of both Bank and Borrower balance, but Borrower has 81oz of gold to spend and Bank has not had to turn over any gold to Borrower. There is still only 100oz of money, but both Bank and Borrower have 81oz of money substitute.
+This is where [explanations of the theory](https://www.sciencedirect.com/science/article/pii/S1057521915001477) tend to terminate. The offsetting accounts of both Bank and Borrower balance, but Borrower has 81oz of gold to spend, and Bank has not had to turn over any gold to Borrower. There is still only 100oz of money, but Borrower has 81oz of money substitute and Bank has an 81oz asset. The theory proclaims that Bank has thus created not only credit, but also *money*. Notice that everything still balances, and all accounts can be settled, seemingly validating the theory as espoused by Lord Turner:
 
 > “...they create credit and money ex nihilo – extending a loan to the borrower and simultaneously crediting the borrower’s money account."
-
-The theory proclaims that Bank has thus created not only credit, but also *money*. Notice that everything still balances, and all accounts can be settled, seemingly validating the theory.
 
 This however demonstrates no actual spending of either the loan credit or the bank asset. Let us take this a bit further by assuming Borrower clears his account, and therefore the corresponding Bank asset and liability entries.
 
