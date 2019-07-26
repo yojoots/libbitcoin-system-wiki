@@ -98,7 +98,7 @@
   * [Thin Air Fallacy](Thin-Air-Fallacy)
   * [Time Preference Fallacy](Time-Preference-Fallacy)
   * [Fedcoin Objectives](Fedcoin-Objectives)
-  * [Hearn Error](Hearn-Error
+  * [Hearn Error](Hearn-Error)
   * [Price Estimation)[Price-Estimation]
   * [Proof of Memory Facade](Proof-of-Memory-Facade)
   * [Spam Misnomer](Spam-Misnomer)
