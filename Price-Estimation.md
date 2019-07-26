@@ -2,7 +2,7 @@ The potential [capitalization](Glossary#capitalization), and therefore potential
 
 Given that Bitcoin is [money](Money-Taxonomy) and not [credit](Glossary#lend), the "money" approach is a more rational starting assumption. Yet without a clear understanding of the essential distinction between money and credit, this approach is often flawed in practice. As shown in [Credit Expansion Fallacy](Credit-Expansion-Fallacy), Bitcoin cannot limit credit expansion. If it eliminated credit expansion (hypothetically), there would be no production whatsoever and it would be worth nothing. The most rational starting assumption regarding credit expansion, is that Bitcoin is reserved at the same rate as other monies. The rate of credit expansion is driven by human [time preference](https://github.com/libbitcoin/libbitcoin-system/wiki/Time-Preference-Fallacy) alone, so this is an assumption that production is therefore consistent with historical norms.
 
-Let us consider four possible definitions for the "money" to replace:
+Let us consider five possible choices for "money" replacement by Bitcoin:
 
 * Tangible money.
 * Base money (M0).
