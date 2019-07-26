@@ -6,7 +6,7 @@ Let us consider five possible choices for "money" replacement by Bitcoin:
 
 * Tangible money.
 * Base money (M0).
-* Bank credit (M3-M1).
+* Bank credit (M3-M0).
 * All credit (bank, debt, equity).
 * Gross product.
 
