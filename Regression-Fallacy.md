@@ -1,6 +1,6 @@
 The [Regression Theorem](https://wiki.mises.org/wiki/Regression_theorem) relies on the assumption that the first [people](Glossary#person) to [value](Glossary#value) something as a money must do so based on a memory of its prior [use value](https://en.m.wikipedia.org/wiki/Use_value), with the thing eventually obtaining [barter](https://en.m.wikipedia.org/wiki/Barter) [utility](Glossary#utility) and finally monetary value. The theorem is invalid based on three internal contradictions.
 
-The theorem contradicts the [subjective theory of value](https://en.m.wikipedia.org/wiki/Subjective_theory_of_value) upon which the theorem relies. Value is subjective, which implies it can be based on anything, even if objectively that basis appears irrational.
+The theorem contradicts the [subjective theory of value](https://en.m.wikipedia.org/wiki/Subjective_theory_of_value) upon which it relies. Value is subjective, which implies it can be based on anything, even if objectively that basis appears irrational.
 
 **The theorem fails to terminate its regression by not explaining how a person comes to value something for its *original* utility.** One must *assume* (not remember) something will be useful if nobody has ever attempted to use it. This assumption of utility is the first valuation, which remains subjective. The first valuation of a thing, like all after, can be for any reason, including its utility as a money. This is inherent in the concept of subjective value.
 
