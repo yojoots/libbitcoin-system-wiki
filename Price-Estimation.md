@@ -30,4 +30,4 @@ Now we consider the primary assumption, of replacement of all money. Bitcoin off
 
 However given the assumption that state monies are in exclusive use in the white market, we cannot assume 100% of black market activity in Bitcoin. There is no obvious basis for estimating this proportion, but the 2019 price of ~$10,000 implies a projected 2029 black market adoption of ~7.4%.
 
-This estimate does not consider the [stability property](Stability-Property) of Bitcoin. It is possible that trade would be forced into [monetary substitutes](https://github.com/libbitcoin/libbitcoin-system/wiki/Substitution-Principle) before the price estimated above can be reached.
+This estimate does not consider the [stability property](Stability-Property) of Bitcoin. It is possible that trade would be forced into [monetary substitutes](https://github.com/libbitcoin/libbitcoin-system/wiki/Substitution-Principle) before the currently-implied future adoption can be reached.
