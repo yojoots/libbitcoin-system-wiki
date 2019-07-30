@@ -21,7 +21,7 @@ growth-rate = interest-rate - depreciation-rate
 -∞% = 10% - ∞%
 10% = 10% - 0%
 ```
-All property exhibits depreciation. To the extent money exhibits [use value](https://en.wikipedia.org/wiki/Use_value), it depreciates as any good. Fiat money, such as Bitcoin or the U.S. Dollar, is presumed to have no use value. However money value also depreciates due to the [opportunity cost](https://en.wikipedia.org/wiki/Opportunity_cost) of interest foregone and [demurrage](https://en.wikipedia.org/wiki/Demurrage_(currency)).
+All property exhibits depreciation. To the extent money exhibits [use value](https://en.wikipedia.org/wiki/Use_value), it depreciates as any [good](https://en.wikipedia.org/wiki/Goods). Fiat money, such as Bitcoin or the U.S. Dollar, is presumed to have no use value. However money value also depreciates due to the [opportunity cost](https://en.wikipedia.org/wiki/Opportunity_cost) of interest foregone and [demurrage](https://en.wikipedia.org/wiki/Demurrage_(currency)).
 ```
 money-growth-rate = interest-rate - (interest-rate + demurrage-rate).
 -1% = 9% - (9% + 1%)
