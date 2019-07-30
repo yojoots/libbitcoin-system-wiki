@@ -7,7 +7,7 @@ Wealth, defined as capital accumulation, is the sum of products. All products ar
 growth-rate  = interest-rate - depreciation-rate
 growth-rate  = (wealth-today - wealth-yesterday) / wealth-yesterday
 growth-rate * wealth-yesterday = wealth-today - wealth-yesterday
-wealth-today = wealth-yesterday + wealth-yesterday * (interest-rate - depreciation-rate)
+wealth-today = wealth-yesterday * (1 + (interest-rate - depreciation-rate))
 ```
 The following examples demonstrate the effect of depreciation on economic growth.
 ```
@@ -21,7 +21,7 @@ growth-rate = interest-rate - depreciation-rate
 -∞% = 10% - ∞%
 10% = 10% - 0%
 ```
-All property exhibits depreciation. To the extent money exhibits [use value](https://en.wikipedia.org/wiki/Use_value), it depreciates as any [good](https://en.wikipedia.org/wiki/Goods). Fiat money, such as Bitcoin or the U.S. Dollar, is presumed to have no use value. However money value also depreciates due to the [opportunity cost](https://en.wikipedia.org/wiki/Opportunity_cost) of interest foregone and [demurrage](https://en.wikipedia.org/wiki/Demurrage_(currency)).
+All property exhibits depreciation. To the extent money exhibits [use value](https://en.wikipedia.org/wiki/Use_value), it depreciates as any [good](https://en.wikipedia.org/wiki/Goods). Fiat money, such as Bitcoin or the U.S. Dollar, is presumed to have no use value. However money value also depreciates due to [demurrage](https://en.wikipedia.org/wiki/Demurrage_(currency)) and the [opportunity cost](https://en.wikipedia.org/wiki/Opportunity_cost) of interest foregone. In other words, interest is the capture of time value and money depreciation includes the failure to capture that value, or negative interest.
 ```
 money-growth-rate = interest-rate - (interest-rate + demurrage-rate).
 -1% = 9% - (9% + 1%)
@@ -31,3 +31,19 @@ Monopoly [money](Money-Taxonomy) also exhibits depreciation via [seigniorage](ht
 monopoly-money-growth-rate = interest-rate - (interest-rate + demurrage-rate + seigniorage-rate).
 -4% = 9% - (9% + 1% + 3%)
 ```
+A fixed-supply money changes in [purchasing power](https://en.wikipedia.org/wiki/Purchasing_power) in proportion to the products it represents. In other words, with twice the value in products each [unit](Glossary#unit) of the money will trade for twice its previous value in products. This is the meaning of the term "deflationary money".
+```
+purchasing-power-today = purchasing-power-yesterday * (1 + growth-rate)
+84 = 42 * (1 + 100%)
+```
+The assumption of fixed-supply money price deflation rests on the assumption of positive economic growth. In the case of economic contraction the money exhibits [price inflation](https://en.wikipedia.org/wiki/Inflation). The case of economic growth implies interest exceeds depreciation (increasing wealth). Both interest and depreciation must always be positive as implied by [time preference](https://en.wikipedia.org/wiki/Time_preference). As such, interest always exceeds growth by the rate of depreciation except in the case of contraction.
+```
+growth-rate = interest-rate - depreciation-rate
+interest-rate > depreciation-rate
+```
+The case of economic contraction implies the opposite (declining wealth). In this case ...
+```
+growth-rate = interest-rate - depreciation-rate
+interest-rate < depreciation-rate
+```
+Economic contraction implies increasing demand for products. As capital is required for production, this implies an increasing rate of interest until positive growth is restored. As such contraction is a self-correcting condition.
