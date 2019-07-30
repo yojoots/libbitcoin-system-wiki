@@ -54,4 +54,4 @@ interest-rate - growth-rate = depreciation-rate
 interest-rate - growth-rate > 0
 growth-rate < interest-rate
 ```
-Notice that in both cases of economic growth and contraction, interest must exceed growth. Given that growth is the sole basis of deflation in a deflationary money, hoarding the money represents monetary depreciation (consumption). Accordingly it is rational to lend any money, including one that is deflationary. Any contrary behavior implies a purely speculatory condition, not supported by the fact of fixed supply.
+Notice that in both cases of economic growth and contraction, interest must exceed growth. Given that growth is the sole basis of deflation in a deflationary money, hoarding the money represents monetary depreciation (consumption). Accordingly it is rational to lend any money, including one that is deflationary. Any contrary behavior implies a purely [speculative condition](Speculative-Consumption), not supported by the fact of fixed supply.
