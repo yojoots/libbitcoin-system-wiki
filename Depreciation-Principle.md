@@ -44,7 +44,7 @@ interest-rate - growth-rate = depreciation-rate
 interest-rate - growth-rate > 0
 growth-rate < interest-rate
 ```
-Economic contraction implies increasing demand for products (declining wealth). As capital is required for production, this implies an increasing rate of interest until positive growth is restored. As such contraction is a self-correcting condition.
+Economic contraction implies increasing demand for products (decreasing wealth). As capital is required for production, this implies an increasing rate of interest until positive growth is restored. As such contraction is a self-correcting condition.
 ```
 depreciation-rate > interest-rate > 0
 growth-rate = interest-rate - depreciation-rate
