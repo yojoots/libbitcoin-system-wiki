@@ -38,12 +38,18 @@ purchasing-power-today = purchasing-power-yesterday * (1 + growth-rate)
 ```
 The assumption of fixed-supply money price deflation rests on the assumption of positive economic growth. In the case of economic contraction the money exhibits [price inflation](https://en.wikipedia.org/wiki/Inflation). The case of economic growth implies interest exceeds depreciation (increasing wealth). Both interest and depreciation must always be positive as implied by [time preference](https://en.wikipedia.org/wiki/Time_preference).
 ```
+interest-rate > depreciation-rate > 0
 growth-rate = interest-rate - depreciation-rate
-interest-rate > depreciation-rate
+interest-rate - growth-rate = depreciation-rate
+interest-rate - growth-rate > 0
+growth-rate < interest-rate
 ```
-The case of economic contraction implies the opposite (declining wealth). In this case ...
+Economic contraction implies increasing demand for products (declining wealth). As capital is required for production, this implies an increasing rate of interest until positive growth is restored. As such contraction is a self-correcting condition.
 ```
+depreciation-rate > interest-rate > 0
 growth-rate = interest-rate - depreciation-rate
-interest-rate < depreciation-rate
+interest-rate - growth-rate = depreciation-rate
+interest-rate - growth-rate > 0
+growth-rate < interest-rate
 ```
-Economic contraction implies increasing demand for products. As capital is required for production, this implies an increasing rate of interest until positive growth is restored. As such contraction is a self-correcting condition.
+Note that in both cases of economic growth and contraction, interest must exceed growth. Given that growth is the sole basis of deflation in a deflationary money, hoarding the money represents monetary depreciation (consumption). Any contrary behavior implies a purely speculatory condition, not supported by the fact of fixed supply. The rate of deflation is inherently lower than the rate of interest, as determined by human time preference.
