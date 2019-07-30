@@ -30,6 +30,7 @@
   * [Money Taxonomy](Money-Taxonomy)
   * [Custodial Risk Principle](Custodial-Risk-Principle)
   * [Dedicated Cost Principle](Dedicated-Cost-Principle)
+  * [Depreciation Principle](Depreciation-Principle)
   * [Other Means Principle](Other-Means-Principle)
   * [Patent Resistance Principle](Patent-Resistance-Principle)
   * [Risk Sharing Principle](Risk-Sharing-Principle)
