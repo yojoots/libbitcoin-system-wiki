@@ -36,7 +36,7 @@ A fixed-supply money changes in [purchasing power](https://en.wikipedia.org/wiki
 purchasing-power-today = purchasing-power-yesterday * (1 + growth-rate)
 84 = 42 * (1 + 100%)
 ```
-The assumption of fixed-supply money price deflation rests on the assumption of positive economic growth. In the case of economic contraction the money exhibits [price inflation](https://en.wikipedia.org/wiki/Inflation). The case of economic growth implies interest exceeds depreciation (increasing wealth). Both interest and depreciation must always be positive as implied by [time preference](https://en.wikipedia.org/wiki/Time_preference). As such, interest always exceeds growth by the rate of depreciation except in the case of contraction.
+The assumption of fixed-supply money price deflation rests on the assumption of positive economic growth. In the case of economic contraction the money exhibits [price inflation](https://en.wikipedia.org/wiki/Inflation). The case of economic growth implies interest exceeds depreciation (increasing wealth). Both interest and depreciation must always be positive as implied by [time preference](https://en.wikipedia.org/wiki/Time_preference).
 ```
 growth-rate = interest-rate - depreciation-rate
 interest-rate > depreciation-rate
