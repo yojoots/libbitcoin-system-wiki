@@ -21,9 +21,13 @@ growth-rate = interest-rate - depreciation-rate
 -∞% = 10% - ∞%
 10% = 10% - 0%
 ```
-All products exhibit depreciation. To the extent [money](Money-Taxonomy) exhibits [use value](https://en.wikipedia.org/wiki/Use_value), it depreciates as any good. Fiat money, such as Bitcoin or the U.S. Dollar, is presumed to have no use value. However money value also depreciates due to the [opportunity cost](https://en.wikipedia.org/wiki/Opportunity_cost) of interest foregone. Therefore the depreciation rate of money value is the interest rate.
+All property exhibits depreciation. To the extent money exhibits [use value](https://en.wikipedia.org/wiki/Use_value), it depreciates as any good. Fiat money, such as Bitcoin or the U.S. Dollar, is presumed to have no use value. However money value also depreciates due to the [opportunity cost](https://en.wikipedia.org/wiki/Opportunity_cost) of interest foregone and [demurrage](https://en.wikipedia.org/wiki/Demurrage_(currency)).
 ```
-money-growth-rate = interest-rate - interest-rate
-0% = 9% - 9%
+money-growth-rate = interest-rate - (interest-rate + demurrage-rate).
+-1% = 9% - (9% + 1%)
 ```
-Money exhibits no change in value except to the extent it is taxed via [seigniorage](https://en.wikipedia.org/wiki/Seigniorage) or incurs [demurrage](https://en.wikipedia.org/wiki/Demurrage_(currency)).
+Monopoly [money](Money-Taxonomy) also exhibits depreciation via [seigniorage](https://en.wikipedia.org/wiki/Seigniorage).
+```
+monopoly-money-growth-rate = interest-rate - (interest-rate + demurrage-rate + seigniorage-rate).
+-4% = 9% - (9% + 1% + 3)
+```
