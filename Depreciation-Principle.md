@@ -29,5 +29,5 @@ money-growth-rate = interest-rate - (interest-rate + demurrage-rate).
 Monopoly [money](Money-Taxonomy) also exhibits depreciation via [seigniorage](https://en.wikipedia.org/wiki/Seigniorage).
 ```
 monopoly-money-growth-rate = interest-rate - (interest-rate + demurrage-rate + seigniorage-rate).
--4% = 9% - (9% + 1% + 3)
+-4% = 9% - (9% + 1% + 3%)
 ```
