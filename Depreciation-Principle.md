@@ -33,7 +33,7 @@ Monopoly [money](Money-Taxonomy) also exhibits depreciation via [seigniorage](ht
 monopoly-money-growth-rate = interest-rate - (interest-rate + demurrage-rate + seigniorage-rate).
 -4% = 9% - (9% + 1% + 3%)
 ```
-A fixed-supply money changes in [purchasing power](https://en.wikipedia.org/wiki/Purchasing_power) in proportion to the products it represents. In other words, with twice the value in products each [unit](Glossary#unit) of the money will trade for twice its previous value in products. This is the meaning of the term "deflationary money".
+A fixed-supply money changes in [purchasing power](https://en.wikipedia.org/wiki/Purchasing_power) in proportion to the products it represents. In other words, with twice the amount of products each [unit](Glossary#unit) of the money will trade for twice its previous amount of products. This is the meaning of the term "deflationary money".
 ```
 purchasing-power-today = purchasing-power-yesterday * (1 + growth-rate)
 84 = 42 * (1 + 100%)
