@@ -36,7 +36,7 @@ A fixed-supply money changes in [purchasing power](https://en.wikipedia.org/wiki
 purchasing-power-today = purchasing-power-yesterday * (1 + growth-rate)
 84 = 42 * (1 + 100%)
 ```
-The assumption of fixed-supply money [price deflation](https://en.wikipedia.org/wiki/Deflation) rests on the assumption of positive economic growth. In the case of economic contraction the money exhibits [price inflation](https://en.wikipedia.org/wiki/Inflation). The case of economic growth implies interest exceeds depreciation (increasing wealth). Both interest and depreciation must always be positive as implied by [time preference](https://en.wikipedia.org/wiki/Time_preference).
+The assumption of fixed-supply money [price deflation](https://en.wikipedia.org/wiki/Deflation) rests on the assumption of positive economic growth. In the case of economic contraction the money exhibits [price inflation](https://en.wikipedia.org/wiki/Inflation). The case of economic growth (increasing wealth) implies interest exceeds depreciation. Both interest and depreciation must always be positive as implied by [time preference](https://en.wikipedia.org/wiki/Time_preference).
 ```
 interest-rate > depreciation-rate > 0
 growth-rate = interest-rate - depreciation-rate
@@ -44,7 +44,7 @@ interest-rate - growth-rate = depreciation-rate
 interest-rate - growth-rate > 0
 growth-rate < interest-rate
 ```
-Economic contraction implies increasing demand for products (decreasing wealth), as implied by the [theory of marginal utility](https://en.wikipedia.org/wiki/Marginal_utility). As capital is required for production, this implies an increasing rate of interest until positive growth is restored. As such contraction is a self-correcting condition.
+Economic contraction (decreasing wealth) implies increasing demand for products, as implied by the [theory of marginal utility](https://en.wikipedia.org/wiki/Marginal_utility). As capital is required for production, this implies an increasing rate of interest until positive growth is restored. As such contraction is a self-correcting condition.
 ```
 depreciation-rate > interest-rate > 0
 growth-rate = interest-rate - depreciation-rate
