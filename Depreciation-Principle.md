@@ -23,15 +23,25 @@ growth-rate = interest-rate - depreciation-rate
 ```
 **All property exhibits depreciation, which ensures economic interest is always greater than economic growth.**
 
-To the extent money exhibits [use value](https://en.wikipedia.org/wiki/Use_value), it depreciates as any [good](https://en.wikipedia.org/wiki/Goods). Fiat money, such as Bitcoin or the U.S. Dollar, is presumed to have no use value. However money value also depreciates due to [demurrage](https://en.wikipedia.org/wiki/Demurrage_(currency)) and the [opportunity cost](https://en.wikipedia.org/wiki/Opportunity_cost) of interest foregone. In other words, interest is the capture of time value and money depreciation includes the failure to capture that value, or negative interest.
+To the extent money exhibits [use value](https://en.wikipedia.org/wiki/Use_value), it depreciates as any [good](https://en.wikipedia.org/wiki/Goods). Fiat money, such as Bitcoin or the U.S. Dollar, is presumed to have no use value. A *pure* money exhibits no growth due to the [opportunity cost](https://en.wikipedia.org/wiki/Opportunity_cost) of interest foregone. In other words, interest is the capture of time value and money depreciation includes the failure to capture that value.
 ```
-money-growth-rate = interest-rate - (interest-rate + demurrage-rate).
+pure-money-growth-rate = interest-rate - interest-rate.
+0% = 9% - 9%
+```
+All *actual* money value also depreciates due to [demurrage](https://en.wikipedia.org/wiki/Demurrage_(currency)).
+```
+commodity-money-growth-rate = interest-rate - (interest-rate + demurrage-rate).
 -1% = 9% - (9% + 1%)
 ```
 Monopoly [money](Money-Taxonomy) also exhibits depreciation via [seigniorage](https://en.wikipedia.org/wiki/Seigniorage).
 ```
 monopoly-money-growth-rate = interest-rate - (interest-rate + demurrage-rate + seigniorage-rate).
 -4% = 9% - (9% + 1% + 3%)
+```
+Fixed supply money exhibits appreciation via monetary deflation, where this rate is always less than interest (explained below).
+```
+fixed-supply-money-growth-rate = interest-rate - (interest-rate + demurrage-rate - deflation-rate).
+2% = 9% - (9% + 1% - 3%)
 ```
 A fixed-supply money changes in [purchasing power](https://en.wikipedia.org/wiki/Purchasing_power) in proportion to the products it represents. In other words, with twice the amount of products each [unit](Glossary#unit) of the money will trade for twice its previous amount of products. This is the meaning of the term "deflationary money".
 ```
