@@ -21,19 +21,22 @@ As shown in [Depreciation Principle](Depreciation-Principle), no actual consumpt
 ```
 depreciation-rate = unconsumed-goods-price / hoarded-goods-price
 ```
-Given that all prices are represented in the same money, `goods-price` can be dropped from both relations with the understanding that each name represents the price of the amount of the good.
+Given that all prices are represented in the same money, `goods-price` can be dropped from both relations with the understanding that each name represents the money price of the amount of the good.
 ```
 interest-rate = present / future
 depreciation-rate = unconsumed / hoarded
 ```
-Considering that `future-goods` is investment and that `unconsumed-goods` are present obtains:
+Considering that `future-goods` is invested capital and that `unconsumed-goods` are present goods obtains:
 ```
-interest-rate = present / investment
+interest-rate = present / invested
 depreciation-rate = present / hoarded
 ```
 Substituting and rearranging obtains:
 ```
 interest-rate = (hoarded * depreciation-rate) / investment
-interest-rate = (hoarded / investment) * depreciation-rate
+interest-rate = (hoarded / invested) * depreciation-rate
+```
+Given that all prices are money prices we can consider the effect of [liquidating](https://en.wikipedia.org/wiki/Liquidation) all hoarded goods at any time. Money does not depreciate as do goods. Setting aside [seigniorage](https://en.wikipedia.org/wiki/Seigniorage) (e.g. Gold) and [demurrage](https://en.wikipedia.org/wiki/Demurrage) (e.g. Bitcoin), money depreciates only by the [opportunity cost](https://en.wikipedia.org/wiki/Opportunity_cost) of not investing it. This cost is measured in interest, which is the time preference for [economic goods](https://en.wikipedia.org/wiki/Goods). Money is not a good, it represents the opportunity to trade for a good. As such its depreciation is determined entirely by the preference for goods.
 ```
 
+```
