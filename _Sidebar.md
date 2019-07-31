@@ -101,6 +101,7 @@
   * [Fedcoin Objectives](Fedcoin-Objectives)
   * [Hearn Error](Hearn-Error)
   * [Price Estimation](Price-Estimation)
+  * [Savings Relation](Savings-Relation)
   * [Speculative Consumption](Speculative-Consumption)
   * [Proof of Memory Facade](Proof-of-Memory-Facade)
   * [Spam Misnomer](Spam-Misnomer)
