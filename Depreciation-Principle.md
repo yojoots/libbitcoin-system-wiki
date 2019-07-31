@@ -38,17 +38,17 @@ Monopoly [money](Money-Taxonomy) also exhibits depreciation via [seigniorage](ht
 monopoly-money-growth-rate = interest-rate - (interest-rate + demurrage-rate + seigniorage-rate).
 -4% = 9% - (9% + 1% + 3%)
 ```
-Fixed supply money exhibits appreciation via monetary deflation, where this rate is always less than interest (explained below).
+Fixed supply money may exhibit appreciation via price deflation, where this rate is always less than interest (explained below).
 ```
 fixed-supply-money-growth-rate = interest-rate - (interest-rate + demurrage-rate - deflation-rate).
 2% = 9% - (9% + 1% - 3%)
 ```
-A fixed-supply money changes in [purchasing power](https://en.wikipedia.org/wiki/Purchasing_power) in proportion to the products it represents. In other words, with twice the amount of products each [unit](Glossary#unit) of the money will trade for twice its previous amount of products. This is the meaning of the term "deflationary money".
+A fixed-supply money is often [presumed](https://mises.org/library/man-economy-and-state-power-and-market/html/p/1107) to change in [purchasing power](https://en.wikipedia.org/wiki/Purchasing_power) in proportion to the products it represents. In other words, with twice the amount of products each [unit](Glossary#unit) of the money will trade for twice its previous amount of products. This is the meaning of the term "deflationary money".
 ```
 purchasing-power-today = purchasing-power-yesterday * (1 + growth-rate)
 84 = 42 * (1 + 100%)
 ```
-The assumption of fixed-supply money [price deflation](https://en.wikipedia.org/wiki/Deflation) rests on the assumption of positive economic growth. In the case of economic contraction the money exhibits [price inflation](https://en.wikipedia.org/wiki/Inflation). The case of economic growth (increasing wealth) implies interest exceeds depreciation. Both interest and depreciation must always be positive as implied by [time preference](https://en.wikipedia.org/wiki/Time_preference).
+The presumption of fixed-supply money [price deflation](https://en.wikipedia.org/wiki/Deflation) rests on the assumption of positive economic growth. In the case of economic contraction the money exhibits [price inflation](https://en.wikipedia.org/wiki/Inflation). The case of economic growth (increasing wealth) implies interest exceeds depreciation. Both interest and depreciation must always be positive as implied by [time preference](https://en.wikipedia.org/wiki/Time_preference).
 ```
 interest-rate > depreciation-rate > 0
 growth-rate = interest-rate - depreciation-rate
