@@ -49,4 +49,4 @@ Therefore, in the theoretical case of a pure money, it has been shown that the i
 ```
 interest-rate = hoarded / invested
 ```
-Notice that the interest rate is the true savings relation, between [consumption savings](Speculative-Consumption) and investment savings. This ratio of hoard to investment is the fraction of each person's reserve in the context of [fractional reserve](Full-Reserve-Fallacy) lending. These are both reflections of time preference.
+Notice that the interest rate is the true savings relation, between [consumption savings](Speculative-Consumption) and investment savings. This ratio of hoard to investment is the fraction of each person's reserve in the context of [fractional reserve](Full-Reserve-Fallacy) lending. Both are reflections of time preference.
