@@ -36,7 +36,19 @@ Substituting and rearranging obtains:
 interest-rate = (hoarded * depreciation-rate) / investment
 interest-rate = (hoarded / invested) * depreciation-rate
 ```
-Given that all prices are money prices we can consider the effect of [liquidating](https://en.wikipedia.org/wiki/Liquidation) all hoarded goods at any time. Money does not depreciate as do goods. Setting aside [seigniorage](https://en.wikipedia.org/wiki/Seigniorage) (e.g. Gold) and [demurrage](https://en.wikipedia.org/wiki/Demurrage) (e.g. Bitcoin), money depreciates only by the [opportunity cost](https://en.wikipedia.org/wiki/Opportunity_cost) of not investing it. This cost is measured in interest, which is the time preference for [economic goods](https://en.wikipedia.org/wiki/Goods). Money is not a good, it represents the opportunity to trade for a good. As such its depreciation is determined entirely by the preference for goods.
-```
+Given that all prices are money prices we can consider the effect of [liquidating](https://en.wikipedia.org/wiki/Liquidation) the hoard at any time. Money does not depreciate as do goods. A *pure* money depreciates only by the [opportunity cost](https://en.wikipedia.org/wiki/Opportunity_cost) of not investing it. This cost is measured in interest, which is the time preference for [economic goods](https://en.wikipedia.org/wiki/Goods). Money is not a good, it represents the opportunity to trade for a good. As such its depreciation is determined by the preference for goods.
 
+Time preference is interest and therefore interest cannot determine time preference. If one erroneously includes the opportunity cost of money as depreciation in determination of interest, the **irrational result** is that hoarded and invested goods are always in the same amount.
 ```
+money-interest-rate = (hoarded / invested) * money-interest-rate
+hoarded = invested
+```
+However in the case of *actual* money the sum of [demurrage](https://en.wikipedia.org/wiki/Demurrage) and [seigniorage](https://en.wikipedia.org/wiki/Seigniorage) is the depreciation rate. Notice that depreciation only affects the hoard as investment represents future goods, which do not depreciate until they become present goods.
+```
+money-interest-rate = (hoarded / invested) * money-depreciation-rate
+```
+Therefore, in the theoretical case of a pure money, we can see that the interest rate is the ratio of hoarded to invested capital.
+```
+interest-rate = hoarded / invested
+```
+Notice that this is the savings relation, between [consumption and investment](Speculative-Consumption). This ratio of hoard to investment is the fraction of each person's reserve in the context of [fractional reserve](Full-Reserve-Fallacy) lending. Its inverse is the money multiplier implied by [credit expansion](Credit-Expansion-Fallacy). It is also the interest rate. All of these are different observations of time preference.
