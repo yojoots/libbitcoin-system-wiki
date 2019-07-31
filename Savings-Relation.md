@@ -45,7 +45,7 @@ However in the case of *actual* money the sum of [demurrage](https://en.wikipedi
 ```
 money-interest-rate = (hoarded / invested) * money-depreciation-rate
 ```
-Therefore, in the theoretical case of a pure money, it has been shown that the interest rate is the ratio of hoarded to invested capital.
+Therefore, in the theoretical case of a pure money, **it has been shown that the interest rate is the ratio of hoarded to invested capital.**
 ```
 interest-rate = hoarded / invested
 ```
