@@ -36,7 +36,7 @@ Substituting and rearranging obtains:
 interest-rate = (hoarded * depreciation-rate) / invested
 interest-rate = (hoarded / invested) * depreciation-rate
 ```
-Given that all prices are money prices we next consider the implications of [liquidating](https://en.wikipedia.org/wiki/Liquidation) the hoard at any time. Money does not depreciate as do goods. A *pure* money depreciates only by the [opportunity cost](https://en.wikipedia.org/wiki/Opportunity_cost) of not investing it. This cost is measured in interest, which is the time preference for [economic goods](https://en.wikipedia.org/wiki/Goods). Money is not a good, it represents the opportunity to trade for a good. As such its depreciation is determined by the preference for goods.
+Given that all prices are money prices, next consider the implications of [liquidating](https://en.wikipedia.org/wiki/Liquidation) the hoard at any time. Money does not depreciate as do goods. A *pure* money depreciates only by the [opportunity cost](https://en.wikipedia.org/wiki/Opportunity_cost) of not investing it. This cost is measured in interest, which is the time preference for [economic goods](https://en.wikipedia.org/wiki/Goods). Money is not a good, it represents the opportunity to trade for a good. As such its depreciation is determined by the preference for goods.
 
 Time preference is interest and therefore interest cannot determine time preference. If one erroneously includes the opportunity cost of money as depreciation in determination of interest, the **irrational result** is that hoarded and invested goods are always in the same amount.
 ```
@@ -47,7 +47,7 @@ However in the case of *actual* money the sum of [demurrage](https://en.wikipedi
 ```
 money-interest-rate = (hoarded / invested) * money-depreciation-rate
 ```
-Therefore, in the theoretical case of a pure money, we can see that the interest rate is the ratio of hoarded to invested capital.
+Therefore, in the theoretical case of a pure money, it has been shown that the interest rate is the ratio of hoarded to invested capital.
 ```
 interest-rate = hoarded / invested
 ```
