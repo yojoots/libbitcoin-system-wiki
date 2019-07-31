@@ -48,7 +48,7 @@ A fixed-supply money is often [presumed](https://mises.org/library/man-economy-a
 purchasing-power-today = purchasing-power-yesterday * (1 + growth-rate)
 84 = 42 * (1 + 100%)
 ```
-The presumption of fixed-supply money [price deflation](https://en.wikipedia.org/wiki/Deflation) rests on the assumption of positive economic growth. In the case of economic contraction the money exhibits [price inflation](https://en.wikipedia.org/wiki/Inflation). The case of economic growth (increasing wealth) implies interest exceeds depreciation. Both interest and depreciation must always be positive as implied by [time preference](https://en.wikipedia.org/wiki/Time_preference).
+The presumption of fixed-supply money [price deflation](https://en.wikipedia.org/wiki/Deflation) also rests on the assumption of positive economic growth. In the case of economic contraction the money exhibits [price inflation](https://en.wikipedia.org/wiki/Inflation). The case of economic growth (increasing wealth) implies interest exceeds depreciation. Both interest and depreciation must always be positive as implied by [time preference](https://en.wikipedia.org/wiki/Time_preference).
 ```
 interest-rate > depreciation-rate > 0
 growth-rate = interest-rate - depreciation-rate
