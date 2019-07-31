@@ -21,22 +21,22 @@ As shown in [Depreciation Principle](Depreciation-Principle), no actual consumpt
 ```
 depreciation-rate = unconsumed-goods-price / hoarded-goods-price
 ```
-Given that all prices are represented in the same money, `goods-price` can be dropped from both relations with the understanding that each name represents the money price of the amount of the good.
-```
-interest-rate = present / future
-depreciation-rate = unconsumed / hoarded
-```
 Considering that `future-goods` is invested capital and that `unconsumed-goods` are present goods obtains:
+```
+interest-rate = present-goods-price / invested-goods-price
+depreciation-rate = present-goods-price / hoarded-goods-price
+```
+Given that all prices are represented in the same money, `goods-price` can be dropped from both relations with the understanding that each name represents the money price of the amount of the good.
 ```
 interest-rate = present / invested
 depreciation-rate = present / hoarded
 ```
 Substituting and rearranging obtains:
 ```
-interest-rate = (hoarded * depreciation-rate) / investment
+interest-rate = (hoarded * depreciation-rate) / invested
 interest-rate = (hoarded / invested) * depreciation-rate
 ```
-Given that all prices are money prices we can consider the effect of [liquidating](https://en.wikipedia.org/wiki/Liquidation) the hoard at any time. Money does not depreciate as do goods. A *pure* money depreciates only by the [opportunity cost](https://en.wikipedia.org/wiki/Opportunity_cost) of not investing it. This cost is measured in interest, which is the time preference for [economic goods](https://en.wikipedia.org/wiki/Goods). Money is not a good, it represents the opportunity to trade for a good. As such its depreciation is determined by the preference for goods.
+Given that all prices are money prices we next consider the effect of [liquidating](https://en.wikipedia.org/wiki/Liquidation) the hoard at any time. Money does not depreciate as do goods. A *pure* money depreciates only by the [opportunity cost](https://en.wikipedia.org/wiki/Opportunity_cost) of not investing it. This cost is measured in interest, which is the time preference for [economic goods](https://en.wikipedia.org/wiki/Goods). Money is not a good, it represents the opportunity to trade for a good. As such its depreciation is determined by the preference for goods.
 
 Time preference is interest and therefore interest cannot determine time preference. If one erroneously includes the opportunity cost of money as depreciation in determination of interest, the **irrational result** is that hoarded and invested goods are always in the same amount.
 ```
