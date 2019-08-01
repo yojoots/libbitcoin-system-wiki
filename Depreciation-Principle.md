@@ -23,6 +23,20 @@ growth-rate = interest-rate - depreciation-rate
 ```
 **All property exhibits depreciation, which ensures economic interest is always greater than economic growth.**
 
+The economic interest rate can be observed over time as the return on capital invested (e.g. 10.2%).
+
+> Investors expect returns of 10.2% with millennials hoping for more.
+>
+> Shroders: [Global Investor Study](https://www.schroders.com/en/insights/global-investor-study/investors-expect-returns-of-10.2-with-millennials-hoping-for-more)
+
+The depreciation rate can be derived from the interest rate and observed capital growth rate (e.g. 2.6%).
+
+> Global growth in 2019 has been downgraded to 2.6 percent, [...] reflecting weaker-than expected international trade and investment at the start of the year. Growth is projected to gradually rise to 2.8 percent by 2021.
+>
+> World Bank: [Global Economic Prospects](https://www.worldbank.org/en/publication/global-economic-prospects)
+
+In this case an interest rate of 10.2% is offset by 7.6% depreciation to obtain a 2.6% net gain.
+
 To the extent money exhibits [use value](https://en.wikipedia.org/wiki/Use_value), it depreciates as any [good](https://en.wikipedia.org/wiki/Goods). Fiat money, such as Bitcoin or the U.S. Dollar, is presumed to have no use value. A *pure* money exhibits no growth due to the [opportunity cost](https://en.wikipedia.org/wiki/Opportunity_cost) of interest foregone. In other words, interest is the capture of time value and money depreciation includes the failure to capture that value.
 ```
 pure-money-growth-rate = interest-rate - interest-rate.
