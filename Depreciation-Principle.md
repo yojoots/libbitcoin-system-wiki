@@ -35,7 +35,11 @@ The depreciation rate can be derived from the interest rate and observed capital
 >
 > World Bank: [Global Economic Prospects](https://www.worldbank.org/en/publication/global-economic-prospects)
 
-In this case an interest rate of 10.2% is offset by 7.6% depreciation to obtain a 2.6% net gain.
+In this case an interest rate of 10.2% is offset by 7.6% depreciation to obtain 2.6% growth. This is consistent with estimates of capital depreciation. While buildings and machinery have low rates of depreciation, food stock is much higher.
+
+> For the period 1960-2000, the three estimates for machinery and equipment are 5.61%, 5.42%, and 5.68%. For buildings, the estimates 3.36%, 3.43%, and 3.43%.
+> 
+> OECD: [Estimating Depreciation Rates](https://www.oecd.org/sdd/productivity-stats/35409605.pdf)
 
 To the extent money exhibits [use value](https://en.wikipedia.org/wiki/Use_value), it depreciates as any [good](https://en.wikipedia.org/wiki/Goods). Fiat money, such as Bitcoin or the U.S. Dollar, is presumed to have no use value. A *pure* money exhibits no growth due to the [opportunity cost](https://en.wikipedia.org/wiki/Opportunity_cost) of interest foregone. In other words, interest is the capture of time value and money depreciation includes the failure to capture that value.
 ```
