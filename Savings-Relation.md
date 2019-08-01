@@ -17,7 +17,7 @@ Interest rate as price ratio:
 interest-rate = present-goods-price / future-goods-price
 interest-rate = 105oz / 100oz = 105%
 ```
-As shown in [Depreciation Principle](Depreciation-Principle), no actual consumption occurs in the trade of a product from producer to consumer. A product is only consumed to the extent that it depreciates. This is evident in the fact that a product can be resold at present price, recovering the portion not depreciated. Similarly, any remaining portion can be consumed in the future, offsetting the present price of purchasing more of the same. So consumption is the depreciated fraction of the original hoard. Using the ratio for depreciation obtains:
+As shown in [Depreciation Principle](Depreciation-Principle), no actual consumption occurs in the trade of a product from producer to consumer. A product is only consumed to the extent that it depreciates. This is evident in the fact that a product can be resold at present price, recovering the portion not depreciated. Similarly, any remaining portion can be consumed in the future, offsetting the present price of purchasing more of the same. Consumption is act of hoarding and the depreciated fraction of the original hoard is that which has been consumed. Using the ratio for depreciation obtains:
 ```
 depreciation-rate = unconsumed-goods-price / hoarded-goods-price
 ```
