@@ -49,7 +49,7 @@ Therefore, in the theoretical case of a pure money, **it has been shown that the
 ```
 pure-interest-rate = hoarded / invested
 ```
-In the case of actual money, the interest rate [varies directly](https://en.wikipedia.org/wiki/Proportionality_(mathematics)#Direct_proportionality) with the pure money interest ratio, by the factor of money depreciation.
+In the theoretical case of actual money, the interest rate [varies directly](https://en.wikipedia.org/wiki/Proportionality_(mathematics)#Direct_proportionality) with the pure money interest ratio, by the factor of money depreciation.
 ```
 money-interest-rate = pure-interest-rate * money-depreciation-rate
 ```
