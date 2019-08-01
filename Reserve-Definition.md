@@ -1,2 +1,3 @@
 A reserve is the capital a [person](Glossary#person) possesses. It is present capital, as opposed to [invested](Glossary#lend) capital. Present capital [depreciates](Depreciation-Principle) and as such represents an ongoing cost to its [owner](Glossary#owner). The ratio of reserved to invested capital is a reflection of the owner’s [time preference](Time-Preference-Fallacy).
 
+Reserve capital intended for the settlement of debts is the settlement medium. For example, where gold is the settlement medium, gold is the reserve capital. A promise for gold, such as a gold certificate, is a loan and therefore not a reserve against the debt. If the debt can be settled with gold certificates, then possession of the certificates constitutes reserve.
