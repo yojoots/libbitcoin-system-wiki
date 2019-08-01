@@ -1,6 +1,6 @@
 [Time preference](Time-Preference-Fallacy) is the [Catallactic](https://en.wikipedia.org/wiki/Catallactics) assumption of human preference for present goods over future goods. The economic rate of interest is the direct reflection of time preference. It will be shown that this preference is also reflected in the reserve ratio. In other words, the rate of capital reserve against credit is the interest rate.
 
-> The level of the pure rate of interest is determined by the market for the exchange of present goods against future goods, a market which we shall see permeates many parts of the economic system... Thus, if, on the time market, 100 ounces of gold exchange for the prospect of obtaining 105 ounces of gold one year from now, then the rate of interest is approximately 5 percent per annum. This is the time-discount rate of future to present money... The pure rate of interest will then be the going rate of time discount, the ratio of the price of present goods to that of future goods.
+> The level of the pure rate of interest is determined by the market for the exchange of present goods against future goods, a market which we shall see permeates many parts of the economic system. [...] Thus, if, on the time market, 100 ounces of gold exchange for the prospect of obtaining 105 ounces of gold one year from now, then the rate of interest is approximately 5 percent per annum. This is the time-discount rate of future to present money. [...] The pure rate of interest will then be the going rate of time discount, the ratio of the price of present goods to that of future goods.
 >
 > Rothbard: [Man Economy and State](https://mises.org/library/man-economy-and-state-power-and-market/html/p/989)
 
@@ -21,11 +21,13 @@ As shown in [Depreciation Principle](Depreciation-Principle), no actual consumpt
 ```
 depreciation-rate = unconsumed-goods-price / hoarded-goods-price
 ```
-Considering that `future-goods` is invested capital and that `unconsumed-goods` are present goods obtains:
+Considering that `future-goods` are invested capital and that `unconsumed-goods` are present goods obtains:
 ```
 interest-rate = present-goods-price / invested-goods-price
 depreciation-rate = present-goods-price / hoarded-goods-price
 ```
+One should be careful in the use of equations in economic theory. Math is an abstraction and its use can introduce assumptions. In this case future goods have been related to present goods under the assumption that one is traded for the other, as in the interest relation. This however is the case. One's hoard of capital is an opportunity to invest, and one's investment is an opportunity to consume. The existence of one is an actual trade for the other. By not trading one for the other one is expressing that no increase in [utility](Glossary#utility) is obtained from doing so.
+
 Given that all prices are represented in the same money, `goods-price` can be dropped from both relations with the understanding that each name represents the money price of the amount of the good.
 ```
 interest-rate = present / invested
@@ -45,18 +47,16 @@ However in the case of *actual* money the sum of [demurrage](https://en.wikipedi
 ```
 money-interest-rate = (hoarded / invested) * money-depreciation-rate
 ```
-Therefore, in the theoretical case of a pure money, **it has been shown that the interest rate is the ratio of hoarded to invested capital.**
+Therefore, in the theoretical case of a pure money, the base interest rate is the ratio of hoarded to invested capital.
 ```
-pure-interest-rate = hoarded / invested
+base-interest-rate = hoarded / invested
 ```
-In the theoretical case of actual money, the interest rate [varies directly](https://en.wikipedia.org/wiki/Proportionality_(mathematics)#Direct_proportionality) with the pure money interest ratio, by the factor of money depreciation.
+In the theoretical case of actual money, the interest rate [varies directly](https://en.wikipedia.org/wiki/Proportionality_(mathematics)#Direct_proportionality) with the base interest rate, by the factor of money depreciation.
 ```
-money-interest-rate = pure-interest-rate * money-depreciation-rate
+money-interest-rate = base-interest-rate * money-depreciation-rate
 ```
-In the general case, the interest rate [varies directly](https://en.wikipedia.org/wiki/Proportionality_(mathematics)#Direct_proportionality) with the pure money interest ratio, by the factor of goods (and money) depreciation.
+In actuality, the interest rate [varies directly](https://en.wikipedia.org/wiki/Proportionality_(mathematics)#Direct_proportionality) with the base interest rate, by the factor of goods (and money) depreciation.
 ```
-interest-rate = pure-interest-rate * depreciation-rate
+interest-rate = base-interest-rate * depreciation-rate
 ```
-Notice that the interest rate is the true savings relation, between [consumption savings](Speculative-Consumption) and investment savings. This ratio of hoard to investment is the fraction of each person's reserve in the context of [fractional reserve](Full-Reserve-Fallacy) lending. Both are reflections of time preference.
-
-One should be careful in the use of equations in economic theory. Math is an abstraction and its use can introduce assumptions. In the above treatment of depreciation future goods have been related to present goods under the assumption that one is traded for the other, as in the interest relation. This however is the case. One’s hoard of capital is an opportunity to invest, and one’s investment is an opportunity to consume. The existence of one is an actual trade for the other. By not trading one for the other one is expressing that no increase in utility is obtained from doing so.
+Notice that the interest rate is the true savings relation, between [consumption savings](Speculative-Consumption) and investment savings. **This ratio of hoard to investment is the fraction of each person's capital reserve** in the context of [fractional reserve](Full-Reserve-Fallacy) lending. Both are reflections of time preference.
