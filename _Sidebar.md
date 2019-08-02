@@ -109,6 +109,7 @@
   * [Split Speculator Dilemma](Split-Speculator-Dilemma)
   * [Bitcoin Labels](Bitcoin-Labels)
   * [Brand Arrogation](Brand-Arrogation)
+  * [Reserve Definition](Reserve-Definition)
   * [Maximalism Definition](Maximalism-Definition)
   * [Shitcoin Definition](Shitcoin-Definition)
   * [Glossary](Glossary)
