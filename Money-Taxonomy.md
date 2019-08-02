@@ -1,6 +1,6 @@
 Fiat money does not have [use value](https://en.wikipedia.org/wiki/Use_value). It has [utility](Glossary#utility) as a money only to the extent that [people](Glossary#person) are willing to [trade](Glossary#trade) for it. These people may and often do include an issuing [state](Glossary#state), though this is not a distinguishing characteristic. The name derives from the fact that it is "declared by fiat" to be money. However such a declaration is also not a distinguishing characteristic. Fiat is simply money without use value. Money with use value is referred to as [commodity money](https://en.wikipedia.org/wiki/Commodity_money).
 
-While [value is subjective](https://en.wikipedia.org/wiki/Subjective_theory_of_value), making it impossible to determine use value in practice, the classification itself is clear. Paper money can be burned for heat, but this is typically not considered a material use value. Bitcoin can be used for [timestamping](https://en.wikipedia.org/wiki/Trusted_timestamping), but this is also not typically considered a material use value. Gold, silver, copper and other coinage is generally considered to have material use value, presumably prior to use as money. Further discussion relies on the above common treatments.
+While [value is subjective](https://en.wikipedia.org/wiki/Subjective_theory_of_value), making it impossible to determine use value in practice, the classification itself is clear. Paper money can be burned for heat, but this is typically not considered a material use value. Bitcoin can be used for [timestamping](https://en.wikipedia.org/wiki/Trusted_timestamping), but this is also not typically considered a material use value. Gold, silver, copper and other coinage is generally considered to have material use value. When a commodity money's face value becomes less than its commodity value, it has [transitioned to a commodity](https://en.wikipedia.org/wiki/Venezuelan_bol%C3%ADvar#Bol%C3%ADvar_fuerte_2) and is [melted or hoarded](https://en.wikipedia.org/wiki/Gresham%27s_law).
 
 A [money substitute](https://wiki.mises.org/wiki/Money_substitutes) is a [contractual claim](https://financial-dictionary.thefreedictionary.com/Contractual+Claim) to a definite amount of money, redeemable on demand. As such a money substitute represents a "future good" while money is a "present good". Fiat is [not a money substitute](Debt-Loop-Fallacy) because it is not redeemable for any definite amount of money, it is the money itself. [Debt](Glossary#debt) is often [securitized](https://en.wikipedia.org/wiki/Securitization) and guaranteed by the lender as a money substitute, known as a [banknote](https://en.wikipedia.org/wiki/Banknote). Given that value is subjective, it is also not possible to distinguish whether a person values the redemption, or the claim itself, but the assumption is generally that the redemption is valued, not the document it is written on. When a money substitute is abrogated yet still trades it has [transitioned to fiat](https://en.wikipedia.org/wiki/Gold_certificate).
 
@@ -22,13 +22,15 @@ Both money and money substitutes constitute [currency](https://en.wikipedia.org/
 * [currency](https://en.wikipedia.org/wiki/Currency)
     * [money](https://en.wikipedia.org/wiki/Money) [present]
         * [commodity](https://en.wikipedia.org/wiki/Commodity_money) [use value]
-            * [market](https://en.wikipedia.org/wiki/Coin)
+            * [monopoly](https://mises.org/library/man-economy-and-state-power-and-market/html/pp/1054)
+                * [Venezuelan Bolívar Fuerte](https://en.wikipedia.org/wiki/Venezuelan_bol%C3%ADvar#Bol%C3%ADvar_fuerte_2)
+            * [market](https://en.wikipedia.org/wiki/Free_market)
                 * [U.S. Dollar Coin](https://en.wikipedia.org/wiki/Dollar_coin_(United_States))
                 * [Zimbabwe "Fourth" Dollar](https://en.wikipedia.org/wiki/Zimbabwean_dollar#Final_period_of_devaluation)
         * [fiat](https://en.wikipedia.org/wiki/Fiat_money) [no use value]
-            * [monopoly](https://mises.org/library/man-economy-and-state-power-and-market/html/pp/1054)
+            * monopoly
                 * [U.S. Dollar Bill](https://en.wikipedia.org/wiki/United_States_one-dollar_bill)
-            * [market](https://en.wikipedia.org/wiki/Free_market)
+            * market
                 * [Bitcoin](https://bitcoin.org/bitcoin.pdf)
     * [money substitute](https://wiki.mises.org/wiki/Money_substitutes) [future]
         * [electronic](https://www.investopedia.com/terms/e/electronic-money.asp) [intangible]
