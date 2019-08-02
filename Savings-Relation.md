@@ -19,44 +19,44 @@ interest-rate = 105oz / 100oz = 105%
 ```
 As shown in [Depreciation Principle](Depreciation-Principle), no actual consumption occurs in the trade of a product from producer to consumer. A product is only consumed to the extent that it depreciates. This is evident in the fact that a product can be resold at present price, recovering the portion not depreciated. Similarly, any remaining portion can be consumed in the future, offsetting the present price of purchasing more of the same. Consumption is act of hoarding and the depreciated fraction of the original hoard is that which has been consumed. Using the ratio for depreciation obtains:
 ```
-depreciation-rate = unconsumed-goods-price / hoarded-goods-price
+depreciation-ratio = unconsumed-goods-price / hoarded-goods-price
 ```
 Considering that `future-goods` are invested capital and that `unconsumed-goods` are present goods obtains:
 ```
-interest-rate = present-goods-price / invested-goods-price
-depreciation-rate = present-goods-price / hoarded-goods-price
+interest-ratio = present-goods-price / invested-goods-price
+depreciation-ratio = present-goods-price / hoarded-goods-price
 ```
 One should be careful in the use of equations in economic theory. Math is an abstraction and its use can introduce assumptions. In this case future goods have been related to present goods under the assumption that one is traded for the other, as in the interest relation. This however is the case. One's hoard of capital is an opportunity to invest, and one's investment is an opportunity to consume. The existence of one is an actual trade for the other. By not trading one for the other one is expressing that no increase in [utility](Glossary#utility) is obtained from doing so.
 
 Given that all prices are represented in the same money, `goods-price` can be dropped from both relations with the understanding that each name represents the money price of the amount of the good.
 ```
-interest-rate = present / invested
-depreciation-rate = present / hoarded
+interest-ratio = present / invested
+depreciation-ratio = present / hoarded
 ```
 Substituting and rearranging obtains:
 ```
-interest-rate = (hoarded * depreciation-rate) / invested
-interest-rate = (hoarded / invested) * depreciation-rate
+interest-ratio = (hoarded * depreciation-ratio) / invested
+interest-ratio = (hoarded / invested) * depreciation-ratio
 ```
 Given that all prices are money prices, next consider the implications of [liquidating](https://en.wikipedia.org/wiki/Liquidation) the hoard at any time. Money does not depreciate as do goods. A *pure* money depreciates only by the [opportunity cost](https://en.wikipedia.org/wiki/Opportunity_cost) of not investing it. This cost is measured in interest, which is the time preference for [economic goods](https://en.wikipedia.org/wiki/Goods). Money represents the opportunity to trade for a good. As such its depreciation is determined by the preference for goods. If one erroneously includes the opportunity cost of money as depreciation in determination of interest, the **irrational result** is that hoarded and invested goods are always in the same amount. Time preference is interest and therefore interest cannot determine time preference.
 ```
-money-interest-rate = (hoarded / invested) * money-interest-rate
+money-interest-ratio = (hoarded / invested) * money-interest-ratio
 hoarded = invested
 ```
 However in the case of *actual* money the sum of [demurrage](https://en.wikipedia.org/wiki/Demurrage) and [seigniorage](https://en.wikipedia.org/wiki/Seigniorage) is the depreciation rate. Notice that depreciation only affects the hoard as investment represents future goods, which do not depreciate until they become present goods.
 ```
-money-interest-rate = (hoarded / invested) * money-depreciation-rate
+money-interest-ratio = (hoarded / invested) * money-depreciation-ratio
 ```
-Therefore, in the theoretical case of a pure money, the base interest rate is the ratio of hoarded to invested capital.
+Therefore, in the theoretical case of a pure money, the base interest ratio is that of hoarded to invested capital.
 ```
-base-interest-rate = hoarded / invested
+base-interest-ratio = hoarded / invested
 ```
-In the theoretical case of actual money, the interest rate [varies directly](https://en.wikipedia.org/wiki/Proportionality_(mathematics)#Direct_proportionality) with the base interest rate, by the factor of money depreciation.
+In the theoretical case of actual money, interest [varies directly](https://en.wikipedia.org/wiki/Proportionality_(mathematics)#Direct_proportionality) with base interest, by the factor of money depreciation.
 ```
-money-interest-rate = base-interest-rate * money-depreciation-rate
+money-interest-ratio = base-interest-ratio * money-depreciation-ratio
 ```
-In actuality, the interest rate [varies directly](https://en.wikipedia.org/wiki/Proportionality_(mathematics)#Direct_proportionality) with the base interest rate, by the factor of goods (and money) depreciation.
+In actuality, interest [varies directly](https://en.wikipedia.org/wiki/Proportionality_(mathematics)#Direct_proportionality) with base interest, by the factor of goods (and money) depreciation.
 ```
-interest-rate = base-interest-rate * depreciation-rate
+interest-ratio = base-interest-ratio * depreciation-ratio
 ```
-Notice that the interest rate is the true savings relation, between [consumption savings](Speculative-Consumption) and investment savings. **This ratio of hoard to investment is the fraction of each person's capital reserve** in the context of [fractional reserve](Full-Reserve-Fallacy) lending. Both are reflections of time preference.
+Notice that the interest ratio (or rate) is the true savings relation, between [consumption savings](Speculative-Consumption) and investment savings. **This ratio of hoard to investment is the fraction of each person's capital reserve** in the context of [fractional reserve](Full-Reserve-Fallacy) lending. Both are reflections of time preference.
