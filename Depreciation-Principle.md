@@ -72,14 +72,14 @@ A fixed-supply money is often [presumed](https://mises.org/library/man-economy-a
 purchasing-power-today = purchasing-power-yesterday * growth-ratio
 84 = 42 * 200%
 ```
-The presumption of fixed-supply money price deflation also rests on the assumption of positive economic growth. In the case of economic contraction the money exhibits [price inflation](https://en.wikipedia.org/wiki/Inflation). The case of economic growth (increasing wealth) implies [interest exceeds depreciation](https://en.wikipedia.org/wiki/Fisher_hypothesis). Both interest and depreciation must always be positive as implied by [time preference](Time-Preference-Fallacy).
+The presumption of fixed-supply money price deflation also rests on the assumption of positive economic growth. In the case of economic contraction the money exhibits [price inflation](https://en.wikipedia.org/wiki/Inflation). The case of economic growth (increasing wealth) implies interest exceeds depreciation. Both interest and depreciation must always be positive as implied by [time preference](Time-Preference-Fallacy).
 ```
 interest-ratio > depreciation-ratio > 100%
 growth-ratio / interest-ratio = depreciation-ratio
 growth-ratio / interest-ratio > 100%
 growth-ratio < interest-ratio
 ```
-Economic contraction (decreasing wealth) implies increasing demand for products, as implied by the [theory of marginal utility](https://en.wikipedia.org/wiki/Marginal_utility). As capital is required for production, this implies an increasing rate of interest until positive growth is restored. As such contraction is a self-correcting condition.
+Economic contraction (decreasing wealth) implies increasing demand for products, as implied by the [theory of marginal utility](https://en.wikipedia.org/wiki/Marginal_utility). As capital is required for production, this implies an increasing rate of interest until positive growth is restored. As such contraction is a self-correcting condition, as suggested by the [Fisher Hypothesis](https://en.wikipedia.org/wiki/Fisher_hypothesis).
 ```
 depreciation-ratio > interest-ratio > 100%
 growth-ratio / interest-ratio = depreciation-ratio
