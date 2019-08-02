@@ -62,7 +62,7 @@ Monopoly [money](Money-Taxonomy) also exhibits depreciation via [seigniorage](ht
 monopoly-money-growth-ratio = commodity-money-growth-ratio / seigniorage-ratio.
 ~96% = ~99% / 103%
 ```
-Fixed supply money may exhibit appreciation via [price deflation](https://en.wikipedia.org/wiki/Fisher_hypothesis), where this rate is always less than interest (explained below).
+Fixed supply money may exhibit appreciation via price deflation, where this rate is [always less](https://en.wikipedia.org/wiki/Fisher_hypothesis) than interest (explained below).
 ```
 fixed-supply-money-growth-ratio = commodity-money-growth-ratio / inflation-ratio.
 ~102% = ~99% / 97%
