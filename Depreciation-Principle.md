@@ -58,18 +58,18 @@ pure-money-growth-ratio = interest-ratio / interest-ratio.
 ```
 All *actual* money value also depreciates due to [demurrage](https://en.wikipedia.org/wiki/Demurrage_(currency)).
 ```
-commodity-money-growth-ratio = interest-ratio / (interest-ratio * demurrage-ratio).
-~99% = 109% / (109% * 101%)
+commodity-money-growth-ratio = pure-money-growth-ratio / demurrage-ratio.
+~99% = 100% / 101%
 ```
 Monopoly [money](Money-Taxonomy) also exhibits depreciation via [seigniorage](https://en.wikipedia.org/wiki/Seigniorage).
 ```
-monopoly-money-growth-ratio = interest-ratio / (interest-ratio * demurrage-ratio * seigniorage-ratio).
-~96% = 109% / (109% * 101% * 103%)
+monopoly-money-growth-ratio = commodity-money-growth-ratio / seigniorage-ratio.
+~96% = ~99% / 103%
 ```
 Fixed supply money may exhibit appreciation via price deflation, where this rate is always less than interest (explained below).
 ```
-fixed-supply-money-growth-ratio = interest-ratio / (interest-ratio * demurrage-ratio * inflation-ratio).
-~102% = 109% / (109% * 101% * 97%)
+fixed-supply-money-growth-ratio = commodity-money-growth-ratio / inflation-ratio.
+~102% = ~99% / 97%
 ```
 A fixed-supply money is often [presumed](https://mises.org/library/man-economy-and-state-power-and-market/html/p/1107) to change in [purchasing power](https://en.wikipedia.org/wiki/Purchasing_power) in proportion to the products it represents. In other words, with twice the amount of products each [unit](Glossary#unit) of the money will trade for twice its previous amount of products. This is the meaning of the term "deflationary money".
 ```
