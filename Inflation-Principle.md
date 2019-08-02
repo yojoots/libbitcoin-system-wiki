@@ -6,6 +6,6 @@ Monopoly money is not subject to competitive production, allowing its producer t
 
 Falling supply market money, such as late Bitcoin, consumes no goods in the destruction of existing units. As such it decreases the proportion of money to goods, resulting in [price deflation](https://en.wikipedia.org/wiki/Deflation).
 
-The presumption of proportionality refers to the goods “represented” by a money. If there was only one money, this would be a straightforward relation to all goods. However the relation must be addressed in the case of multiple monies. The goods represented by a money are those that are traded for it. In other words, the relation assumes constant demand for the money. Any independent change in demand is (by definition) not attributable to a change in the money supply.
+The presumption of proportionality refers to the goods “represented” by a money. If there was only one money, this would be a straightforward relation to all goods. However the relation must be addressed in the case of multiple monies. The goods represented by a money are those that are traded for it. In other words, the relation assumes constant demand for the money.
 
-Yet demand does not remain constant in the case of a decision to mine. New demand for the money is created by the fact of mining. The miner trades additional “representation” capital for the money.
+Yet demand does not remain constant in the case of a decision to mine. New demand for the money is created by the fact of mining. The miner trades (consumes in production) additional “representation” capital for the money. The new money is entirely offset by the demand increase, represented by the consumed goods.
