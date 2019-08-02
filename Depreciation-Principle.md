@@ -57,12 +57,12 @@ All *actual* money value also depreciates due to [demurrage](https://en.wikipedi
 commodity-money-growth-ratio = pure-money-growth-ratio / demurrage-ratio.
 ~99% = 100% / 101%
 ```
-Monopoly [money](Money-Taxonomy) also exhibits depreciation via [seigniorage](https://en.wikipedia.org/wiki/Seigniorage).
+Monopoly [money](Money-Taxonomy) also exhibits depreciation due to [seigniorage](https://en.wikipedia.org/wiki/Seigniorage).
 ```
 monopoly-money-growth-ratio = commodity-money-growth-ratio / seigniorage-ratio.
 ~96% = ~99% / 103%
 ```
-Fixed supply money may appreciate via [price deflation](https://en.wikipedia.org/wiki/Deflation).
+Fixed supply money may appreciate due to [price deflation](https://en.wikipedia.org/wiki/Deflation).
 ```
 fixed-supply-money-growth-ratio = commodity-money-growth-ratio / inflation-ratio.
 ~102% = ~99% / 97%
