@@ -1,0 +1,7 @@
+A [money](Money-Taxonomy) is often [presumed](https://mises.org/library/man-economy-and-state-power-and-market/html/p/1107) to change in [purchasing power](https://en.wikipedia.org/wiki/Purchasing_power) in proportion to the products it represents. In other words, with twice the amount of money each [unit](Glossary#unit) of the money will [trade](Glossary#trade) for half its previous amount of products. This is a [proportional relationship](https://en.wikipedia.org/wiki/Proportionality_(mathematics)) between [monetary inflation](https://en.wikipedia.org/wiki/Monetary_inflation) and [price inflation](https://en.wikipedia.org/wiki/Inflation) (or deflation).
+
+Rising supply market money, such as Gold and early Bitcoin, consumes the same [value](Glossary#value) in goods as it creates in new units - including the [opportunity cost](https://en.wikipedia.org/wiki/Opportunity_cost) of the capital invested in doing so. As such it produces no change in proportionality and therefore no price inflation.
+
+Monopoly money is not subject to competitive production, allowing its producer to obtain a [monopoly](https://mises.org/library/man-economy-and-state-power-and-market/html/pp/1054) premium in the pricing of new units. As such it increases the proportion of money to goods, resulting in price inflation.
+
+Falling supply market money, such as late Bitcoin, consumes no goods in the destruction of existing units. As such it decreases the proportion of money to goods, resulting in [price deflation](https://en.wikipedia.org/wiki/Deflation).
