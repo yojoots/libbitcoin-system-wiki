@@ -6,4 +6,4 @@ While holding a certificate as reserve against certificate debt may appear to co
 
 Reserve is often conflated with [maturity matching](https://en.m.wikipedia.org/wiki/Asset–liability_mismatch). Management of disparate loan [maturities](https://en.m.wikipedia.org/wiki/Maturity_(finance)) and rates of [interest](Glossary#interest) is a risk management strategy. While capital reservation is also a risk management strategy, the distinction of a reserve is that reserved capital is “present”, having a maturity of zero.
 
-All debt implies a settlement medium. As such, even in the case of debt instruments as an intermediate settlement medium, the medium itself is ultimately reserved against present capital. Otherwise the irrational concept of [infinite debt regression](Debt-Loop-Fallacy) would be implied.
+All debt implies a settlement medium. As such, even in the case of debt instruments as an intermediate settlement medium, the medium itself is ultimately reserved by present capital. Otherwise the irrational concept of [infinite debt regression](Debt-Loop-Fallacy) would be implied.
