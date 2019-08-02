@@ -8,10 +8,6 @@ The [Fisher Equation](https://en.wikipedia.org/wiki/Fisher_equation) is used to 
 ```
 growth-ratio = interest-ratio / depreciation-ratio
 ```
-The growth ratio is applied to wealth as follows:
-```
-wealth-today = wealth-yesterday * growth-ratio
-```
 The following examples demonstrate the effect of depreciation on growth:
 ```
 growth-ratio = interest-ratio / depreciation-ratio
