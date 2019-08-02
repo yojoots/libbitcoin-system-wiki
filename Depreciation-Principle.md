@@ -4,7 +4,7 @@ The [common use](https://en.wikipedia.org/wiki/Consumption_(economics)) of the t
 
 Wealth, defined as capital accumulated, is the sum of products. All products are always hoarded and depreciating. Production creates products, where interest is both the cost of, and return on, doing so. The price of a product is the sum of its interest return on investment and the cost of all products consumed in its production. Any product incorporated as a component of the final product is fully depreciated as an independent product and appreciated in the new product. Given that costs equate to [investment principal](https://en.wikipedia.org/wiki/Bond_(finance)#Principal), the net increase in products is simply interest.
 
-The [Fisher Equation](https://en.wikipedia.org/wiki/Fisher_equation) is used to relate the rates of growth, interest and depreciation (simplified by using ratios in place of rates). Notice that the absolute amount of capital (i.e. product [value](Glossary#value)) is not relevant to these ratios. Examples assume a single [compounding period](https://en.wikipedia.org/wiki/Compound_interest) with the rate of interest over that period.
+The [Fisher Equation](https://en.wikipedia.org/wiki/Fisher_equation) is used to relate the rates of growth, interest and depreciation (simplified by using ratios in place of rates). Notice that the absolute amount of capital (i.e. product [value](Glossary#value)) is not relevant to these ratios.
 ```
 growth-ratio = interest-ratio / depreciation-ratio
 ```
@@ -69,7 +69,7 @@ fixed-supply-money-growth-ratio = commodity-money-growth-ratio / inflation-ratio
 ```
 A fixed-supply money is often [presumed](https://mises.org/library/man-economy-and-state-power-and-market/html/p/1107) to change in [purchasing power](https://en.wikipedia.org/wiki/Purchasing_power) in proportion to the products it represents. In other words, with twice the amount of products each [unit](Glossary#unit) of the money will trade for twice its previous amount of products. This is the meaning of the term "deflationary money".
 ```
-purchasing-power-today = purchasing-power-yesterday * growth-ratio
+purchasing-power-this-year = purchasing-power-last-year * annual-growth-ratio
 84 = 42 * 200%
 ```
 The presumption of fixed-supply money price deflation also rests on the assumption of positive economic growth. In the case of economic contraction the money exhibits [price inflation](https://en.wikipedia.org/wiki/Inflation). The case of economic growth (increasing wealth) implies interest exceeds depreciation. Both interest and depreciation must always be positive as implied by [time preference](Time-Preference-Fallacy).
