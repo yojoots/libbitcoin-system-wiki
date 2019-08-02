@@ -27,13 +27,13 @@ interest-ratio > growth-ratio
 ```
 **All property exhibits depreciation, which ensures economic interest is always greater than economic growth.**
 
-The economic interest rate can be observed over time as the return on capital invested (e.g. 10.2%).
+The economic interest rate can be observed over time as the return on capital invested.
 
 > Investors expect returns of 10.2% with millennials hoping for more.
 >
 > Shroders: [Global Investor Study](https://www.schroders.com/en/insights/global-investor-study/investors-expect-returns-of-10.2-with-millennials-hoping-for-more)
 
-The depreciation rate can be derived from observed interest and capital growth rates (e.g. 2.6%).
+The depreciation rate can be derived from observed interest and capital growth rate.
 
 > Global growth in 2019 has been downgraded to 2.6 percent, [...] reflecting weaker-than expected international trade and investment at the start of the year. Growth is projected to gradually rise to 2.8 percent by 2021.
 >
