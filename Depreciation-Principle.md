@@ -45,7 +45,7 @@ depreciation-ratio = growth-ratio / interest-ratio
 depreciation-ratio = 102.6% / 110.2% = ~93.10%
 depreciation-rate = 1 - ~93.10% = ~6.897%
 ```
-This is consistent with estimates of capital depreciation. While buildings and machinery have low rates of depreciation, food stock is much higher.
+This is consistent with estimates of capital depreciation. While buildings and machinery have low rates of depreciation, food stocks have much higher.
 
 > For the period 1960-2000, the three estimates for machinery and equipment are 5.61%, 5.42%, and 5.68%. For buildings, the estimates 3.36%, 3.43%, and 3.43%.
 > 
