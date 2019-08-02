@@ -6,16 +6,16 @@
 
 The [time discount](https://en.wikipedia.org/wiki/Present_value#Present_value_of_a_lump_sum) can be represented either as an interest rate or a price ratio. Note that a present good is priced higher than a future good, so in the example 100oz of gold (present good) trades for 105oz delivered in the future (future good). Examples assume a single compounding period with the rate of interest over that period.
 
-Interest rate as discount rate:
+Interest as discount rate:
 ```
 present-goods-price = future-goods-price * (1 + interest-rate)
 interest-rate = present-goods-price / future-goods-price - 1 
 interest-rate = 105oz / 100oz - 1 = 5%
 ```
-Interest rate as price ratio:
+Interest as price ratio:
 ```
-interest-rate = present-goods-price / future-goods-price
-interest-rate = 105oz / 100oz = 105%
+interest-ratio = present-goods-price / future-goods-price
+interest-ratio = 105oz / 100oz = 105%
 ```
 As shown in [Depreciation Principle](Depreciation-Principle), no actual consumption occurs in the trade of a product from producer to consumer. A product is only consumed to the extent that it depreciates. This is evident in the fact that a product can be resold at present price, recovering the portion not depreciated. Similarly, any remaining portion can be consumed in the future, offsetting the present price of purchasing more of the same. Consumption is act of hoarding and the depreciated fraction of the original hoard is that which has been consumed. Using the ratio for depreciation obtains:
 ```
