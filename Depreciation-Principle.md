@@ -18,7 +18,7 @@ growth-ratio = interest-ratio / depreciation-ratio
 ~104.7% = 110% / 105%
 ~91.67% = 110% / 120%
 ```
-The depreciation ratio (1 + rate) is always greater than 100%, as all property depreciates. Substituting obtains:
+The depreciation ratio (1 + rate) is always greater than 100%, as all property depreciates.
 ```
 depreciation-ratio > 100%
 interest-ratio = depreciation-ratio * growth-ratio
