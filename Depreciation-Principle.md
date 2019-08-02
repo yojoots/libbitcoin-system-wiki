@@ -4,7 +4,7 @@ The [common use](https://en.wikipedia.org/wiki/Consumption_(economics)) of the t
 
 Wealth, defined as capital accumulated, is the sum of products. All products are always hoarded and depreciating. Production creates products, where interest is both the cost of, and return on, doing so. The price of a product is the sum of its interest return on investment and the cost of all products consumed in its production. Any product incorporated as a component of the final product is fully depreciated as an independent product and appreciated in the new product. Given that costs equate to [investment principal](https://en.wikipedia.org/wiki/Bond_(finance)#Principal), the net increase in products is simply interest.
 
-The [Fisher Equation](https://en.wikipedia.org/wiki/Fisher_equation) is used to relate the rates of growth, interest and depreciation (simplified by using ratios in place of rates). Notice that the absolute amount of capital (i.e. product [value](Glossary#value)) is not relevant to these ratios.
+The [Fisher Equation](https://en.wikipedia.org/wiki/Fisher_equation) is used to relate the rates of growth, interest and depreciation (simplified by using ratios in place of rates). Notice that the absolute amount of capital (i.e. product [value](Glossary#value)) is not relevant to these ratios. Examples assume a single [compounding period](https://en.wikipedia.org/wiki/Compound_interest) with the rate of interest over that period.
 ```
 growth-ratio = interest-ratio / depreciation-ratio
 ```
