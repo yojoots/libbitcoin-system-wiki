@@ -47,16 +47,12 @@ However in the case of *actual* money the sum of [demurrage](https://en.wikipedi
 ```
 money-interest-ratio = (hoarded / invested) * money-depreciation-ratio
 ```
-Therefore, in the theoretical case of a pure money, the base interest ratio is that of hoarded to invested capital.
+Therefore, in the theoretical case of a pure money, the [nominal interest](https://en.wikipedia.org/wiki/Fisher_hypothesis) ratio is that of hoarded to invested capital.
 ```
-base-interest-ratio = hoarded / invested
+nominal-interest-ratio = hoarded / invested
 ```
-In the theoretical case of actual money, interest [varies directly](https://en.wikipedia.org/wiki/Proportionality_(mathematics)#Direct_proportionality) with base interest, by the factor of money depreciation.
+In actuality, interest [varies directly](https://en.wikipedia.org/wiki/Proportionality_(mathematics)#Direct_proportionality) with nominal interest, by the factor of capital depreciation.
 ```
-money-interest-ratio = base-interest-ratio * money-depreciation-ratio
-```
-In actuality, interest [varies directly](https://en.wikipedia.org/wiki/Proportionality_(mathematics)#Direct_proportionality) with base interest, by the factor of goods (and money) depreciation.
-```
-interest-ratio = base-interest-ratio * depreciation-ratio
+interest-ratio = nominal-interest-ratio * depreciation-ratio
 ```
 Notice that the interest ratio (or rate) is the true savings relation, between [consumption savings](Speculative-Consumption) and investment savings. **This ratio of hoard to investment is the fraction of each person's capital reserve** in the context of [fractional reserve](Full-Reserve-Fallacy) lending. Both are reflections of time preference.
