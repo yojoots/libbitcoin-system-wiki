@@ -16,7 +16,7 @@ The following examples demonstrate the effect of depreciation on growth:
 ```
 growth-ratio = interest-ratio / depreciation-ratio
 ~104.7% = 110% / 105%
-  ~9.2% = 110% / 120%
+~91.67% = 110% / 120%
 ```
 The depreciation ratio (1 + rate) is always greater than 100%, as all property depreciates. Substituting obtains:
 ```
