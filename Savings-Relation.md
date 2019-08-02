@@ -4,7 +4,7 @@
 >
 > Rothbard: [Man Economy and State](https://mises.org/library/man-economy-and-state-power-and-market/html/p/989)
 
-The [time discount](https://en.wikipedia.org/wiki/Present_value#Present_value_of_a_lump_sum) can be represented either as an interest rate or a price ratio. Note that a present good is priced higher than a future good, so in the example 100oz of gold (present good) trades for 105oz delivered in the future (future good). Examples assume a single compounding period with the rate of interest over that period.
+The [time discount](https://en.wikipedia.org/wiki/Present_value#Present_value_of_a_lump_sum) can be represented either as an interest rate or a price ratio. Note that a present good is priced higher than a future good, so in the example 100oz of gold (present good) trades for 105oz delivered in the future (future good). Examples assume a single [compounding period](https://en.wikipedia.org/wiki/Compound_interest) with the rate of interest over that period.
 
 Interest as discount rate:
 ```
