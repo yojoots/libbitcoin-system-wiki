@@ -57,4 +57,4 @@ The real rate of interest [varies directly](https://en.wikipedia.org/wiki/Propor
 ```
 real-interest-ratio = (hoarded / invested) * depreciation-ratio
 ```
-Notice that the nominal interest ratio (or rate) is the true savings relation, between [consumption savings](Speculative-Consumption) and investment savings. **This ratio of hoard to investment is the fraction of each person's capital reserve** in the context of [fractional reserve](Full-Reserve-Fallacy) lending. Both are reflections of time preference.
+Notice that the nominal interest ratio (or rate) at any instant is the savings relation, between [consumption savings](Speculative-Consumption) and investment savings. **This ratio of hoard to investment is the fraction of each person's capital reserve** in the context of [fractional reserve](Full-Reserve-Fallacy) lending. Both are reflections of time preference.
