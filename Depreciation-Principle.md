@@ -29,7 +29,7 @@ The economic interest rate can be observed over time as the return on capital in
 >
 > Shroders: [Global Investor Study](https://www.schroders.com/en/insights/global-investor-study/investors-expect-returns-of-10.2-with-millennials-hoping-for-more)
 
-The depreciation rate can be derived from observed interest and capital growth rate.
+The depreciation rate can be derived from observed interest and capital growth rates.
 
 > Global growth in 2019 has been downgraded to 2.6 percent, [...] reflecting weaker-than expected international trade and investment at the start of the year. Growth is projected to gradually rise to 2.8 percent by 2021.
 >
