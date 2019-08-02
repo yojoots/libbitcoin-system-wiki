@@ -38,7 +38,9 @@ Substituting and rearranging obtains:
 interest-ratio = (hoarded * depreciation-ratio) / invested
 interest-ratio = (hoarded / invested) * depreciation-ratio
 ```
-Given that all prices are money prices, next consider the implications of [liquidating](https://en.wikipedia.org/wiki/Liquidation) the hoard at any time. Money does not depreciate as do goods. A *pure* money depreciates only by the [opportunity cost](https://en.wikipedia.org/wiki/Opportunity_cost) of not investing it. This cost is measured in interest, which is the time preference for [economic goods](https://en.wikipedia.org/wiki/Goods). Money represents the opportunity to trade for a good. As such its depreciation is determined by the preference for goods. If one erroneously includes the opportunity cost of money as depreciation in determination of interest, the **irrational result** is that hoarded and invested goods are always in the same amount. Time preference is interest and therefore interest cannot determine time preference.
+Given that all prices are money prices, next consider the implications of [liquidating](https://en.wikipedia.org/wiki/Liquidation) the hoard at any time. Money does not depreciate as do goods. A *pure* money depreciates only by the [opportunity cost](https://en.wikipedia.org/wiki/Opportunity_cost) of not investing it. This cost is measured in interest, which is the time preference for [economic goods](https://en.wikipedia.org/wiki/Goods).
+
+Money represents the opportunity to trade for a good. As such its depreciation is determined by the preference for goods. If one erroneously includes the opportunity cost of money as depreciation in determination of interest, the **irrational result** is that hoarded and invested goods are always in the same amount. Time preference is interest and therefore interest cannot contribute to time preference.
 ```
 money-interest-ratio = (hoarded / invested) * money-interest-ratio
 hoarded = invested
