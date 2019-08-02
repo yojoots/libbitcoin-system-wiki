@@ -21,7 +21,7 @@ interest-ratio = depreciation-ratio * growth-ratio
 interest-ratio / growth-ratio > 100%
 interest-ratio > growth-ratio
 ```
-**All property exhibits depreciation, which ensures economic interest is always greater than economic growth.**
+**All property exhibits depreciation, which implies economic interest is always greater than economic growth.**
 
 The economic interest rate can be observed over time as the return on capital invested.
 
