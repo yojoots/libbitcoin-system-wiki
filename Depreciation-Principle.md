@@ -67,7 +67,7 @@ Fixed supply money may appreciate due to [price deflation](https://en.wikipedia.
 fixed-supply-money-growth-ratio = commodity-money-growth-ratio / inflation-ratio.
 ~102% = ~99% / 97%
 ```
-A fixed-supply money is often [presumed](https://mises.org/library/man-economy-and-state-power-and-market/html/p/1107) to [change in purchasing power](Inflation-Principle) in proportion to the products it represents. In other words, with twice the amount of products each [unit](Glossary#unit) of the money will trade for twice its previous amount of products.
+A fixed-supply money is often presumed to [change in purchasing power](Inflation-Principle) in proportion to the products it represents. In other words, with twice the amount of products each [unit](Glossary#unit) of the money will trade for twice its previous amount of products.
 ```
 purchasing-power-this-year = purchasing-power-last-year * annual-growth-ratio
 84 = 42 * 200%
