@@ -12,8 +12,8 @@ wealth-today = wealth-yesterday * (1 + (interest-rate - depreciation-rate))
 The following examples demonstrate the effect of depreciation on economic growth.
 ```
 growth-rate = interest-rate - depreciation-rate
-5.0% = 10% - 5%
-0.5% = 10% - 20%
+  5% = 10% - 5%
+-10% = 10% - 20%
 ```
 If sale and full depreciation of products occurs immediately after production, the products exhibit an infinite rate of depreciation, or no [durability](https://en.wikipedia.org/wiki/Durable_good). While production still earns interest, there is full economic contraction (no wealth). On the other hand, if products exhibit no depreciation, economic growth is the interest rate.
 ```
