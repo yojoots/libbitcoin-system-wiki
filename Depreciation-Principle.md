@@ -62,7 +62,7 @@ Monopoly [money](Money-Taxonomy) also exhibits depreciation via [seigniorage](ht
 monopoly-money-growth-ratio = commodity-money-growth-ratio / seigniorage-ratio.
 ~96% = ~99% / 103%
 ```
-Fixed supply money may appreciate via price deflation.
+Fixed supply money may appreciate via [price deflation](https://en.wikipedia.org/wiki/Deflation).
 ```
 fixed-supply-money-growth-ratio = commodity-money-growth-ratio / inflation-ratio.
 ~102% = ~99% / 97%
@@ -72,7 +72,7 @@ A fixed-supply money is often [presumed](https://mises.org/library/man-economy-a
 purchasing-power-today = purchasing-power-yesterday * growth-ratio
 84 = 42 * 200%
 ```
-The presumption of fixed-supply money [price deflation](https://en.wikipedia.org/wiki/Deflation) also rests on the assumption of positive economic growth. In the case of economic contraction the money exhibits [price inflation](https://en.wikipedia.org/wiki/Inflation). The case of economic growth (increasing wealth) implies [interest exceeds depreciation](https://en.wikipedia.org/wiki/Fisher_hypothesis). Both interest and depreciation must always be positive as implied by [time preference](Time-Preference-Fallacy).
+The presumption of fixed-supply money price deflation also rests on the assumption of positive economic growth. In the case of economic contraction the money exhibits [price inflation](https://en.wikipedia.org/wiki/Inflation). The case of economic growth (increasing wealth) implies [interest exceeds depreciation](https://en.wikipedia.org/wiki/Fisher_hypothesis). Both interest and depreciation must always be positive as implied by [time preference](Time-Preference-Fallacy).
 ```
 interest-ratio > depreciation-ratio > 100%
 growth-ratio / interest-ratio = depreciation-ratio
