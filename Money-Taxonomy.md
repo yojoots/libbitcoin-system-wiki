@@ -23,10 +23,9 @@ Both money and money substitutes constitute [currency](https://en.wikipedia.org/
     * [money](https://en.wikipedia.org/wiki/Money) [present]
         * [commodity](https://en.wikipedia.org/wiki/Commodity_money) [use value]
             * [monopoly](https://mises.org/library/man-economy-and-state-power-and-market/html/pp/1054)
-                * [Venezuelan Bolívar Fuerte](https://en.wikipedia.org/wiki/Venezuelan_bol%C3%ADvar#Bol%C3%ADvar_fuerte_2)
-            * [market](https://en.wikipedia.org/wiki/Free_market)
                 * [U.S. Dollar Coin](https://en.wikipedia.org/wiki/Dollar_coin_(United_States))
-                * [Zimbabwe "Fourth" Dollar](https://en.wikipedia.org/wiki/Zimbabwean_dollar#Final_period_of_devaluation)
+            * [market](https://en.wikipedia.org/wiki/Free_market)
+                * [Bullion](https://en.wikipedia.org/wiki/Bullion)
         * [fiat](https://en.wikipedia.org/wiki/Fiat_money) [no use value]
             * monopoly
                 * [U.S. Dollar Bill](https://en.wikipedia.org/wiki/United_States_one-dollar_bill)
