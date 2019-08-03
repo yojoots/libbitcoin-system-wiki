@@ -37,6 +37,7 @@
   * [Risk Sharing Principle](Risk-Sharing-Principle)
   * [Reservation Principle](Reservation-Principle)
   * [Scalability Principle](Scalability-Principle)
+  * [Subjective Inflation Principle](Subjective-Inflation-Principle)
   * [Consolidation Principle](Consolidation-Principle)
   * [Fragmentation Principle](Fragmentation-Principle)
   * [Permissionless Principle](Permissionless-Principle)
