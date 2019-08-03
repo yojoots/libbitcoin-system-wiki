@@ -3,3 +3,5 @@ Free [market](Glossary#market) [price inflation](https://en.m.wikipedia.org/wiki
 * Goods [prices](Glossary#price) are determined subjectively. [[Subjective Theory of Value](https://en.m.wikipedia.org/wiki/Subjective_theory_of_value)]
 * Time preference determines [expansion](Credit-Expansion-Fallacy) of credit on money. [[Time Preference Axiom](Time-Preference-Fallacy)]
 * Creating [money](Money-Taxonomy) is not price inflationary. [[Inflation Principle](Inflation-Principle)]
+
+This could be more simply derived from the definition of the free market, as entirely the consequence of personal preferences.
