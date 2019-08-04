@@ -12,4 +12,4 @@ Seigniorage is a tax, which makes people poorer. Being poorer *increases* time p
 
 > For all these reasons, the goal of uniformity of taxation is an impossible one. It is not simply difficult to achieve in practice; it is conceptually impossible and self-contradictory.
 
-Therefore it cannot be shown that seigniorage itself makes people poorer than the taxes it presumably replaces. Only a net increase in overall tax (provable reduction in wealth) can be shown to increase time preference.
+Therefore it cannot be shown that seigniorage itself makes people poorer than the taxes it presumably replaces. Only a net increase in overall tax, as an objective reduction in wealth, can be shown to increase time preference.
