@@ -11,3 +11,5 @@ It is assumed, certainly by Rothbard, that people *always* prefer to get rich so
 Seigniorage is a tax, which makes people poorer. Being poorer *increases* time preference, the opposite effect described by the theory. All tax shifts property involuntarily from some people to other people, as that is its only actual mechanism and objective respectively. As Rothbard himself elaborates in his more formal "[Man Economy and State](https://mises.org/library/man-economy-and-state-power-and-market/html/ppp/1393)", the *form* of the tax is economically irrelevant.
 
 > For all these reasons, the goal of uniformity of taxation is an impossible one. It is not simply difficult to achieve in practice; it is conceptually impossible and self-contradictory.
+
+Furthermore, it cannot be shown that seigniorage itself makes people poorer than the taxes it presumably replaces. Only a net increase in overall tax can be shown to increase time preference.
