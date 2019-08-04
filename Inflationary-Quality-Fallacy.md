@@ -2,8 +2,12 @@ There is a theory that the [price inflation](https://en.m.wikipedia.org/wiki/Inf
 
 There is no provable relation between the number of [units](Glossary#unit) of [money](Money-Taxonomy) required to trade for a good and the qualities of a good that one might prefer. Greater *wealth* (which is perception, as value is subjective), implies lower [time preference](Time-Preference-Fallacy), as implied by the [theory of marginal utility](https://en.m.wikipedia.org/wiki/Marginal_utility). However ever under the assumption of a misperception of increasing wealth, lower time preference does not imply a preference for lower “quality” goods. It implies only an increasing willingness to [lend](Glossary#lend) a greater portion of one’s capital.
 
-[Rothbard](https://en.m.wikipedia.org/wiki/Murray_Rothbard) makes this unfortunate error in “[What Has Government Done to Our Money](https://en.m.wikipedia.org/wiki/What_Has_Government_Done_to_Our_Money%3F)” and it continues to be perpetuated.
+[Rothbard](https://en.m.wikipedia.org/wiki/Murray_Rothbard) makes this unfortunate error in “[What Has Government Done to Our Money](https://mises.org/library/what-has-government-done-our-money/html/p/81)” and it continues to be perpetuated.
 
 > The quality of work will decline in an inflation for a more subtle reason: people become enamored of "get-rich-quick" schemes, seemingly within their grasp in an era of ever-rising prices, and often scorn sober effort.
 
 It is assumed, certainly by Rothbard, that people *always* prefer to get rich sooner than later, as implied by the axiom of time preference. And as shown by the [Fisher Hypothesis](https://en.m.wikipedia.org/wiki/Fisher_hypothesis), to the extent that inflation is predictable it is offset in the [real interest rate](https://en.m.wikipedia.org/wiki/Real_interest_rate). To the extent it is not predictable Rothbard’s conjecture does not apply.
+
+Seigniorage is a tax, which makes people poorer. Being poorer *increases* time preference, the opposite effect being described by the theory. All tax shifts property from some people to other people, that is its only actual objective. As Rothbard himself elaborates in his more formal “[Man Economy and State](https://mises.org/library/man-economy-and-state-power-and-market/html/ppp/1393)”, the *form* of the tax is economically irrelevant.
+
+> For all these reasons, the goal of uniformity of taxation is an impossible one. It is not simply difficult to achieve in practice; it is conceptually impossible and self-contradictory.
