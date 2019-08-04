@@ -103,6 +103,7 @@
   * [Time Preference Fallacy](Time-Preference-Fallacy)
   * [Fedcoin Objectives](Fedcoin-Objectives)
   * [Hearn Error](Hearn-Error)
+  * [Collectible Tautology](Collectible-Tautology)
   * [Price Estimation](Price-Estimation)
   * [Savings Relation](Savings-Relation)
   * [Speculative Consumption](Speculative-Consumption)
