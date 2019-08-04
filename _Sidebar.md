@@ -81,6 +81,7 @@
   * [Ideal Money Fallacy](Ideal-Money-Fallacy)
   * [Impotent Mining Fallacy](Impotent-Mining-Fallacy)
   * [Inflation Fallacy](Inflation-Fallacy)
+  * [Inflationary Quality Fallacy](Inflationary-Quality-Fallacy)
   * [Jurisdictional Arbitrage Fallacy](Jurisdictional-Arbitrage-Fallacy)
   * [Lunar Fallacy](Lunar-Fallacy)
   * [Network Effect Fallacy](Network-Effect-Fallacy)
