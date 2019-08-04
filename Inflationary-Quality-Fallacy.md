@@ -6,7 +6,7 @@ There is no provable relation between the number of [units](Glossary#unit) of [m
 
 > The quality of work will decline in an inflation for a more subtle reason: people become enamored of "get-rich-quick" schemes, seemingly within their grasp in an era of ever-rising prices, and often scorn sober effort.
 
-It is assumed, certainly by Rothbard, that people *always* prefer to get rich sooner than later, as implied by the axiom of time preference. And as shown by the [Fisher Hypothesis](https://en.m.wikipedia.org/wiki/Fisher_hypothesis), to the extent that price inflation is predictable it is offset in the [real interest rate](https://en.m.wikipedia.org/wiki/Real_interest_rate). To the extent it is not predictable Rothbard’s conjecture does not apply.
+It is assumed, certainly by Rothbard, that people *always* prefer to get rich sooner than later, as implied by the axiom of time preference. And as shown by the [Fisher Hypothesis](https://en.m.wikipedia.org/wiki/Fisher_hypothesis), to the extent that price inflation is predictable it is offset in the [real interest rate](https://en.m.wikipedia.org/wiki/Real_interest_rate). To the extent it is not predictable Rothbard's conjecture does not apply.
 
 Seigniorage is a tax, which makes people poorer. Being poorer *increases* time preference, the opposite effect being described by the theory. All tax shifts property involuntarily from some people to other people, as that is its only actual mechanism and objective respectively. As Rothbard himself elaborates in his more formal "[Man Economy and State](https://mises.org/library/man-economy-and-state-power-and-market/html/ppp/1393)", the *form* of the tax is economically irrelevant.
 
