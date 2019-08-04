@@ -6,4 +6,4 @@ There is no provable relation between the number of [units](Glossary#unit) of [m
 
 > The quality of work will decline in an inflation for a more subtle reason: people become enamored of "get-rich-quick" schemes, seemingly within their grasp in an era of ever-rising prices, and often scorn sober effort.
 
-It should be obvious that people *always* prefer to get rich sooner than later, as implied by the axiom of time preference.
+It is assumed, certainly by Rothbard, that people *always* prefer to get rich sooner than later, as implied by the axiom of time preference. And as shown by the [Fisher Hypothesis](https://en.m.wikipedia.org/wiki/Fisher_hypothesis), to the extent that inflation is predictable it is offset in the [real interest rate](https://en.m.wikipedia.org/wiki/Real_interest_rate). To the extent it is not predictable Rothbard’s conjecture does not apply.
