@@ -2,7 +2,7 @@ There is a theory that the [price inflation](https://en.m.wikipedia.org/wiki/Inf
 
 There is no provable relation between the number of [units](Glossary#unit) of [money](Money-Taxonomy) required to trade for a good and the qualities of a good that one might prefer. Greater *wealth* (which is perception, as value is subjective), implies lower [time preference](Time-Preference-Fallacy), as implied by the [theory of marginal utility](https://en.m.wikipedia.org/wiki/Marginal_utility). However even under the assumption of a misperception of increasing wealth, lower time preference does not imply a preference for lower "quality" goods. It implies only an increasing willingness to [lend](Glossary#lend) a greater portion of one's capital.
 
-[Rothbard](https://en.m.wikipedia.org/wiki/Murray_Rothbard) makes this unfortunate error in "[What Has Government Done to Our Money](https://mises.org/library/what-has-government-done-our-money/html/p/81)" and it continues to be perpetuated.
+[Rothbard](https://en.m.wikipedia.org/wiki/Murray_Rothbard) makes this unfortunate error in "[What Has Government Done to Our Money](https://mises.org/library/what-has-government-done-our-money/html/p/81)", one that continues to be perpetuated.
 
 > The quality of work will decline in an inflation for a more subtle reason: people become enamored of "get-rich-quick" schemes, seemingly within their grasp in an era of ever-rising prices, and often scorn sober effort.
 
