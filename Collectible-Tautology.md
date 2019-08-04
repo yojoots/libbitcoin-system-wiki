@@ -10,4 +10,4 @@ The postulate takes advantage of colloquial ambiguity in the word “commodity�
 >
 > Wikipedia: [Commodity](https://en.m.wikipedia.org/wiki/Commodity)
 
-The theorem uses “commodity” to distinguish money from something with no original use value. If the theorem intends that anything is a commodity it is tautological, and otherwise the postulate is tautological.
+The Regression Theorem uses “commodity” to distinguish money from something with no original use value. If it intends that *anything* is a commodity, it is tautological, and otherwise the postulate is tautological.
