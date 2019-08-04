@@ -26,7 +26,7 @@ Considering that `future-goods` are invested capital and that `unconsumed-goods`
 interest-ratio = present-goods-price / invested-goods-price
 depreciation-ratio = present-goods-price / hoarded-goods-price
 ```
-One should be careful in the use of equations in economic theory. Math is an abstraction and its use can introduce assumptions. In this case future goods have been related to present goods under the assumption that one is traded for the other, as in the interest relation. This however is the case. One's hoard of capital is an opportunity to invest, and one's investment is an opportunity to consume. The existence of one is an actual trade for the other. By not trading one for the other one is expressing that no increase in [utility](Glossary#utility) is obtained from doing so.
+One should be careful in the use of equations in economic theory. Math is an abstraction and its use can introduce assumptions. In this case future goods have been related to present goods under the assumption that one is traded for the other, as in the interest relation. This however is the case. One's hoard of capital is an opportunity to invest, and one's investment is an opportunity to consume. The existence of one is an actual trade for the other. A person trades one for the other until no further increase in [utility](Glossary#utility) is obtained from doing so.
 
 Given that all prices are represented in the same money, `goods-price` can be dropped from both relations with the understanding that each name represents the money price of the amount of the good.
 ```
