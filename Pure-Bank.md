@@ -28,7 +28,7 @@ interest-earned = interest-rate * loaned
 depreciation    = interest-rate * reserved
 interest-paid   = interest-earned
 ```
-For the pure bank, creditor [rate of return](https://en.wikipedia.org/wiki/Rate_of_return), bank [reserve ratio](https://en.wikipedia.org/wiki/Reserve_requirement), and bank [capital ratio](https://en.wikipedia.org/wiki/Capital_requirement) are each functions of the amount borrowed, loaned and the uniform [interest rate](https://en.wikipedia.org/wiki/Interest_rate).
+For the pure bank, [reserve ratio](https://en.wikipedia.org/wiki/Reserve_requirement), [capital ratio](https://en.wikipedia.org/wiki/Capital_requirement), and creditor [rate of return](https://en.wikipedia.org/wiki/Rate_of_return) are each functions of the amount borrowed, loaned and the uniform [interest rate](https://en.wikipedia.org/wiki/Interest_rate).
 #### Reserve Ratio
 ```
 reserve-ratio = reserved / borrowed
@@ -45,7 +45,7 @@ Notice that return on borrowed capital is lower than interest by the amount depr
 return-rate = interest-paid / borrowed
 return-rate = interest-rate * loaned / borrowed
 ```
-Notice that, by substituting [capital ratio for interest ratio](Savings-Relation), return ratio can be expressed by borrowed and loaned capital.
+Notice that, by substituting [capital ratio for interest ratio](Savings-Relation), return ratio can also be expressed by borrowed and loaned capital.
 ```
 return-ratio = ((borrowed - loaned) / loaned) * loaned / borrowed
 return-ratio = (borrowed - loaned) / borrowed
