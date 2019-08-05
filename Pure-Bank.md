@@ -12,8 +12,7 @@ The material differences from a real bank are:
 * uniform interest (efficient market)
 * no cost of operation (efficient operations)
 
-The bank is owned by its creditors in proportion to their credit, as is the case with any company. There are existing major banks that are owned by their account-holders, such as [USAA](https://www.usaa.com) and [Vanguard](https://investor.vanguard.com), so this is not a distinction from a real bank. The objective of creditors (owners) is to maximize their income (bank interest paid). The objective of debtors is to minimize their cost (bank interest earned). 
-
+The bank is owned by its creditors in proportion to their credit, as is the case with any company. There are existing major banks that are owned by their account-holders, such as [USAA](https://www.usaa.com) and [Vanguard](https://investor.vanguard.com), so this is not a distinction from a real bank. The objective of creditors (owners) is to maximize their income (bank interest paid). The objective of debtors is to minimize their cost (bank interest earned).
 
 Creditor accounts are [money substitutes](https://wiki.mises.org/wiki/Money_substitutes). The money substitute may be either a [demand deposit](https://en.wikipedia.org/wiki/Demand_deposit) or a [money market fund](https://en.wikipedia.org/wiki/Money_market_fund). The distinction is in the allocation of insufficient reserve, with the former being "[first come, first served](https://en.wikipedia.org/wiki/Bank_run)" and the latter "[breaking the buck](https://en.wikipedia.org/wiki/Money_market_fund#Breaking_the_buck)".
 
@@ -40,12 +39,13 @@ capital-ratio = reserved / loaned
 capital-ratio = (borrowed - loaned) / loaned
 ```
 #### Rate of Return
-Notice that return on borrowed capital is lower than interest by the amount depreciation of the reserve. This is a consequence of liquidity required to support the money substitute (i.e. demand withdrawal).
 ```
 return-rate = interest-paid / borrowed
 return-rate = interest-rate * loaned / borrowed
 ```
-Notice that, by substituting [capital ratio for interest ratio](Savings-Relation), return ratio can also be expressed by borrowed and loaned capital.
+Notice that return on borrowed capital is lower than interest by the amount depreciation of the reserve. This is a consequence of liquidity required to support the money substitute (i.e. demand withdrawal).
+
+By substituting [capital ratio for interest ratio](Savings-Relation), return ratio can also be expressed by borrowed and loaned capital.
 ```
 return-ratio = ((borrowed - loaned) / loaned) * loaned / borrowed
 return-ratio = (borrowed - loaned) / borrowed
