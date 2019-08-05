@@ -1,4 +1,4 @@
-The concept of a pure bank can be useful in demonstrating behavior of [lending](Glossary#loan) generally.
+The concept of a pure bank can be useful in demonstrating [lending](Glossary#loan) behavior generally.
 
 A pure bank provides only the following services:
 
@@ -18,7 +18,7 @@ The lack of [state](Glossary#state) intervention is the common concept of [free 
 
 Perfect operational efficiency differs from a real bank only in the amount returned to owners, as nothing is consumed in operations. A perfectly [efficient market](https://en.wikipedia.org/wiki/Efficient-market_hypothesis) implies uniform [interest](Glossary#interest), and that all earning is a consequence of [time preference](Time-Preference-Fallacy).
 
-Given the definition of a pure bank, the following relations are absolute. Reserved capital is the money in which credit and debt are settled (zero [maturity](https://en.wikipedia.org/wiki/Maturity_(finance))). Depreciation is the [opportunity cost](https://en.wikipedia.org/wiki/Opportunity_cost) of it not being loaned, also known as "cash drag".
+Given the definition of a pure bank, the following relations are absolute. Reserved capital is the money in which credit and debt are [settled](https://en.wikipedia.org/wiki/Settlement_(finance)) (zero [maturity](https://en.wikipedia.org/wiki/Maturity_(finance))). Depreciation is the [opportunity cost](https://en.wikipedia.org/wiki/Opportunity_cost) of it not being loaned, also known as "cash drag".
 ```
 reserved        = borrowed - loaned
 interest-earned = interest-rate * loaned
