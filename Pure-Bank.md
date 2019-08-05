@@ -1,4 +1,4 @@
-The concept of a pure bank can be useful in demonstrating [lending](Glossary#loan) behavior generally.
+The concept of a pure bank can be useful in demonstrating [lending](Glossary#lend) behavior generally.
 
 A pure bank provides only the following services:
 
