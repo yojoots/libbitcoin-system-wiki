@@ -28,6 +28,7 @@
   * [Value Proposition](Value-Proposition)
   * [Axiom of Resistance](Axiom-of-Resistance)
   * [Money Taxonomy](Money-Taxonomy)
+  * [Pure Bank](Pure-Bank)
   * [Custodial Risk Principle](Custodial-Risk-Principle)
   * [Dedicated Cost Principle](Dedicated-Cost-Principle)
   * [Depreciation Principle](Depreciation-Principle)
