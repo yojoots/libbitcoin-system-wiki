@@ -40,8 +40,8 @@ capital-ratio = (borrowed - loaned) / loaned
 ```
 #### Rate of Return
 ```
-return-rate = interest-paid / borrowed
-return-ratio = (interest-ratio * loaned) / borrowed
+return-ratio = (interest-rate + 100%) * loaned / borrowed
+return-ratio = interest-ratio * loaned / borrowed
 ```
 Notice that return on borrowed capital is lower than interest by the amount depreciation of the reserve. This is a consequence of liquidity required to support the money substitute (i.e. demand withdrawal).
 
