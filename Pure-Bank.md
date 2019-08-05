@@ -1,24 +1,37 @@
 The concept of a pure bank can be useful in demonstrating behavior of [lending](Glossary#loan) generally.
 
-A pure bank performs the following functions:
+A pure bank provides only the following services:
 
 * borrows money (debt from creditors)
 * lends money (credit from debtors)
 * hoards money (reserve)
 
-The above three functions are the full makeup of the pure bank. It does not have access to [state](Glossary#state) banking services, nor is it subject to state regulatory controls. Its only capital is [money](Money-Taxonomy) borrowed or obtained as [interest](Glossary#interest) on credit issued. It allocates money as interest to its creditors. It sets its own reserve ratio and interest rates based on its own preference. The terms of credit and debt are determined by contractual agreement with its counterparties. All contracts are understood and agreed by all parties. It has no infrastructure and no employees. It does not earn, steal, lose or destroy any money. No type of contract is assumed, all terms are possible. All parties fully comply with the terms of their contractual obligations. A scenario that implies an inability for the pure bank to comply with its terms indicates bank failure.
+The material differences from a real bank are:
 
+* no state intervention (free bank)
+* uniform interest (efficient market)
+* no cost of operation (efficient operations)
+
+The bank is owned by its creditors in proportion to their credit, as is the case with any company. There are existing major banks that are owned by their account-holders, such as [USAA](https://www.usaa.com) and [Vanguard](https://investor.vanguard.com), so this is not a distinction from a real bank. The objective of creditors (owners) is to maximize their income. The objective of debtors is to minimize their cost. Creditor accounts are [money substitutes](https://wiki.mises.org/wiki/Money_substitutes).
+
+The lack of [state](Glossary#state) intervention is the common concept of [free banking](https://en.wikipedia.org/wiki/Free_banking), where there is no [statutory control](https://en.wikipedia.org/wiki/Federal_Reserve), no state [insurance](https://www.fdic.gov), no [discount capital](https://en.wikipedia.org/wiki/Discount_window), and no [seigniorage](https://en.wikipedia.org/wiki/Seigniorage). The bank uses commodity [money](Money-Taxonomy) unless otherwise specified, which simplifies calculations by [eliminating](Inflation-Principle) the need to offset [price inflation](https://en.wikipedia.org/wiki/Inflation) or [price deflation](https://en.wikipedia.org/wiki/Deflation) using the [Fisher Equation](https://en.wikipedia.org/wiki/Fisher_equation).
+
+Perfect operational efficiency differs from a real bank only in the amount returned to owners, as nothing is consumed in operations. A perfectly [efficient market](https://en.wikipedia.org/wiki/Efficient-market_hypothesis) implies uniform [interest](Glossary#interest), and that all returns are a consequence of [time preference](Time-Preference-Fallacy). This is not a material distinction from a real bank, as the extent to which interest rates are not uniform, the error is not predictable.
+
+
+```
 reserved = deposited - loaned
 depreciation = interest-rate * reserved
 earned-interest = interest-rate * loaned
-paid-interest = interest-rate * (2 * loaned - deposited) 
-
-RESERVE RATIO
-
+paid-interest = interest-rate * (2 * loaned - deposited)
+```
+#### Reserve Ratio
+```
 reserve-ratio = reserved / deposited
 reserve-ratio = (deposited - loaned) / deposited
-
-CAPITAL RATIO
-
+```
+#### Capital Ratio
+```
 capital-ratio = reserved/loaned
 capital-ratio = (deposited - loaned) / loaned
+```
