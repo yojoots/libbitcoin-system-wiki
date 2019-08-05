@@ -20,7 +20,7 @@ The lack of [state](Glossary#state) intervention is the common concept of [free 
 
 Perfect operational efficiency differs from a real bank only in the amount returned to owners, as nothing is consumed in operations. A perfectly [efficient market](https://en.wikipedia.org/wiki/Efficient-market_hypothesis) implies uniform [interest](Glossary#interest), and that all earning is a consequence of [time preference](Time-Preference-Fallacy).
 
-[Reserved](Reserve-Definition) capital is the money in which credit and debt are [settled](https://en.wikipedia.org/wiki/Settlement_(finance)) (zero [maturity](https://en.wikipedia.org/wiki/Maturity_(finance))). [Depreciation](Depreciation-Principle) is the [opportunity cost](https://en.wikipedia.org/wiki/Opportunity_cost) of it not being loaned, also known as "cash drag". Given the definition of a pure bank, the following relations are absolute.
+[Reserved](Reserve-Definition) capital is the money in which credit and debt are [settled](https://en.wikipedia.org/wiki/Settlement_(finance)) (zero [maturity](https://en.wikipedia.org/wiki/Maturity_(finance))). [Depreciation](Depreciation-Principle) is the [opportunity cost](https://en.wikipedia.org/wiki/Opportunity_cost) of it not being loaned, also known as "cash drag". Interest relations assume a single [compounding period](https://en.wikipedia.org/wiki/Compound_interest) with the rate of interest over that period. Given the definition of a pure bank, the following relations are absolute.
 ```
 reserved         = borrowed - loaned
 depreciation     = interest-rate * reserved
@@ -52,6 +52,6 @@ return-rate = ((borrowed - loaned) / loaned) * loaned / borrowed
 return-rate = (borrowed - loaned) / borrowed
 return-rate = reserve / borrowed
 ```
-The bank's capital ratio does not *cause* its nominal interest rate, as that is determined on the [market](Glossary#market). But it is the expression of the individual bank's time preference. There is no distinction between the choice to accept the market rate that satisfies time preference (the traditional explanation) or to accept *any* positive market rate for the fraction of money not preferred for liquidity.
+The bank's capital ratio does not *cause* its nominal interest rate, as that is determined on the [market](Glossary#market). But it is the expression of the individual bank's time preference. There is no distinction between the choice to accept the market rate that satisfies time preference (the [traditional explanation](https://mises.org/library/man-economy-and-state-power-and-market/html/p/990)) or to accept *any* positive market rate for the fraction of money not preferred for liquidity.
 
 **Not only is the capital ratio the nominal interest rate, but the reserve ratio is the rate of return.** Both ratios are established by time preference alone and expressed as the fraction of reserve.
