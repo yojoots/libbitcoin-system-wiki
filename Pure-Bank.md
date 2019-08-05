@@ -36,8 +36,8 @@ return-rate = interest-paid / borrowed
 return-rate = (interest-earned - depreciation) / borrowed
 return-rate = (interest-rate * loaned - interest-rate * reserved) / borrowed
 return-rate = (interest-rate * loaned - (interest-rate * (borrowed - loaned))) / borrowed
-return-rate = (interest-rate * (loaned - (borrowed - loaned))) / borrowed
-return-rate = (interest-rate * (2 * loaned - borrowed)) / borrowed
+return-rate = interest-rate * (loaned - (borrowed - loaned)) / borrowed
+return-rate = interest-rate * (2 * loaned - borrowed) / borrowed
 ```
 #### Reserve Ratio
 ```
@@ -51,12 +51,9 @@ capital-ratio = (borrowed - loaned) / loaned
 ```
 Notice that, by substituting capital ratio for interest ratio, return ratio can be expressed by the relation between borrowed and loaned capital.
 ```
-interest-ratio = (borrowed - loaned) / loaned
-[TODO: convert interest-rate and return-rate to ratios, and fix]
-
-return-rate   = (interest-rate * (2 * loaned - borrowed)) / borrowed
-return-rate   = (((borrowed - loaned) / loaned) * (2 * loaned - borrowed)) / borrowed
-return-rate   = ((borrowed - loaned) * (2 * loaned - borrowed)) / (loaned * borrowed)
-return-rate   =  (1 * loaned * borrowed + 2 * loaned * borrowed - 2 * loaned^2 - borrowed^2) / (loaned * borrowed)
-return-rate   =  (3 * loaned * borrowed - 2 * loaned^2 - 1 * borrowed^2) / (loaned * borrowed)
+return-ratio = interest-ratio * (2 * loaned - borrowed) / borrowed
+return-ratio = ((borrowed - loaned) / loaned) * (2 * loaned - borrowed) / borrowed
+return-ratio = (borrowed - loaned) * (2 * loaned - borrowed) / (loaned * borrowed)
+return-ratio =  (1 * loaned * borrowed + 2 * loaned * borrowed - 2 * loaned^2 - borrowed^2) / (loaned * borrowed)
+return-ratio =  (3 * loaned * borrowed - 2 * loaned^2 - 1 * borrowed^2) / (loaned * borrowed)
 ```
