@@ -12,7 +12,7 @@ The material differences from a real bank are:
 * uniform interest (efficient market)
 * no cost of operation (efficient operations)
 
-The bank is owned by its creditors (investors) in proportion to their credit, as is the case with any company. There are existing major banks that are owned by their account-holders, such as [USAA](https://www.usaa.com) and [Vanguard](https://investor.vanguard.com), so this is not a distinction from a real bank. The objective of creditors is to maximize their income (return). The objective of debtors is to minimize their cost ([nominal interest](https://en.wikipedia.org/wiki/Nominal_interest_rate)).
+The bank is owned by its creditors in proportion to their credit, as is the case with any company. There are existing major banks that are owned by their account-holders, such as [USAA](https://www.usaa.com) and [Vanguard](https://investor.vanguard.com), so this is not a distinction from a real bank. The objective of creditors is to maximize their income (return). The objective of debtors is to minimize their cost ([nominal interest](https://en.wikipedia.org/wiki/Nominal_interest_rate)).
 
 Creditor accounts are [money substitutes](https://wiki.mises.org/wiki/Money_substitutes). The money substitute may be either a [demand deposit](https://en.wikipedia.org/wiki/Demand_deposit) or a [money market fund](https://en.wikipedia.org/wiki/Money_market_fund). The distinction is in the allocation of insufficient reserve, with the former being "[first come, first served](https://en.wikipedia.org/wiki/Bank_run)" and the latter "[breaking the buck](https://en.wikipedia.org/wiki/Money_market_fund#Breaking_the_buck)" (i.e. negative rate of return).
 
@@ -27,7 +27,7 @@ depreciation     = interest-rate * reserved
 nominal-interest = interest-rate * loaned
 return           = nominal-interest
 ```
-For the pure bank, [reserve ratio](https://en.wikipedia.org/wiki/Reserve_requirement) and [capital ratio](https://en.wikipedia.org/wiki/Capital_requirement) are exclusively functions of the amounts borrowed and loaned.
+For the pure bank, the [reserve fraction](Fractional-Reserve-Fallacy) determines [reserve ratio](https://en.wikipedia.org/wiki/Reserve_requirement) and [capital ratio](https://en.wikipedia.org/wiki/Capital_requirement).
 #### Reserve Ratio
 ```
 reserve-ratio = reserved / borrowed
@@ -52,4 +52,4 @@ return-rate = ((borrowed - loaned) / loaned) * loaned / borrowed
 return-rate = (borrowed - loaned) / borrowed
 return-rate = reserve / borrowed
 ```
-**Not only is the capital ratio the nominal interest rate, but the reserve ratio is the investor's rate of return.** Both ratios are established by time preference alone and expressed as the fraction of reserve.
+**Not only is the capital ratio the nominal interest rate, but the reserve ratio is the rate of return.** Both ratios are established by time preference alone and expressed as the fraction of reserve.
