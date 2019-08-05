@@ -1,4 +1,4 @@
-[Time preference](Time-Preference-Fallacy) is the [Catallactic](https://en.wikipedia.org/wiki/Catallactics) assumption of human preference for present goods over future goods. The economic rate of interest is the direct reflection of time preference. It will be shown that this preference is also reflected in the reserve ratio. In other words, the rate of capital reserve against credit is the interest ratio (rate).
+[Time preference](Time-Preference-Fallacy) is the [Catallactic](https://en.wikipedia.org/wiki/Catallactics) assumption of human preference for present goods over future goods. The economic rate of interest is the direct reflection of time preference. It will be shown that this preference is also reflected as [capital ratio](https://en.wikipedia.org/wiki/Capital_requirement). In other words, that the capital ratio is the interest ratio.
 
 > The level of the pure rate of interest is determined by the market for the exchange of present goods against future goods, a market which we shall see permeates many parts of the economic system. [...] Thus, if, on the time market, 100 ounces of gold exchange for the prospect of obtaining 105 ounces of gold one year from now, then the rate of interest is approximately 5 percent per annum. This is the time-discount rate of future to present money. [...] The pure rate of interest will then be the going rate of time discount, the ratio of the price of present goods to that of future goods.
 >
@@ -57,4 +57,4 @@ The real rate of interest [varies directly](https://en.wikipedia.org/wiki/Propor
 ```
 real-interest-ratio = (hoarded / invested) * depreciation-ratio
 ```
-Notice that the nominal interest ratio (or rate) at any instant is the savings relation, between [consumption savings](Speculative-Consumption) and investment savings. **This ratio of hoard to investment is the fraction of each person's capital reserve** in the context of [fractional reserve](Full-Reserve-Fallacy) lending. Both are reflections of time preference.
+Notice that the nominal interest ratio (or rate) at any instant is the savings relation, between [consumption savings](Speculative-Consumption) and investment savings. **This ratio of hoard to investment is the fraction of each person's capital reserve**, known as capital ratio in the [banking](Pure-Bank) context. Both are reflections of time preference.
