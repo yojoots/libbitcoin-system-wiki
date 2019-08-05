@@ -26,19 +26,9 @@ Given the definition of a pure bank, the following relations are absolute. [Rese
 reserved        = borrowed - loaned
 interest-earned = interest-rate * loaned
 depreciation    = interest-rate * reserved
-interest-paid   = interest-earned - depreciation
+interest-paid   = interest-earned
 ```
-For the pure bank, creditor [rate of return](https://en.wikipedia.org/wiki/Rate_of_return), bank [reserve ratio](https://en.wikipedia.org/wiki/Reserve_requirement), and bank [capital ratio](https://en.wikipedia.org/wiki/Capital_requirement) are each functions of the amount borrowed, loaned and the uniform [interest rate](https://en.wikipedia.org/wiki/Interest_rate). Notice that return on borrowed capital is lower than interest due to depreciation of the reserve. This is a consequence of liquidity required to support the money substitute (i.e. demand withdrawal).
-
-#### Rate of Return
-```
-return-rate = interest-paid / borrowed
-return-rate = (interest-earned - depreciation) / borrowed
-return-rate = (interest-rate * loaned - interest-rate * reserved) / borrowed
-return-rate = (interest-rate * loaned - (interest-rate * (borrowed - loaned))) / borrowed
-return-rate = interest-rate * (loaned - (borrowed - loaned)) / borrowed
-return-rate = interest-rate * (2 * loaned - borrowed) / borrowed
-```
+For the pure bank, creditor [rate of return](https://en.wikipedia.org/wiki/Rate_of_return), bank [reserve ratio](https://en.wikipedia.org/wiki/Reserve_requirement), and bank [capital ratio](https://en.wikipedia.org/wiki/Capital_requirement) are each functions of the amount borrowed, loaned and the uniform [interest rate](https://en.wikipedia.org/wiki/Interest_rate).
 #### Reserve Ratio
 ```
 reserve-ratio = reserved / borrowed
@@ -49,11 +39,15 @@ reserve-ratio = (borrowed - loaned) / borrowed
 capital-ratio = reserved / loaned
 capital-ratio = (borrowed - loaned) / loaned
 ```
-Notice that, by substituting capital ratio for interest ratio, return ratio can be expressed by the relation between borrowed and loaned capital.
+#### Rate of Return
+Notice that return on borrowed capital is lower than interest by the amount depreciation of the reserve. This is a consequence of liquidity required to support the money substitute (i.e. demand withdrawal).
 ```
-return-ratio = interest-ratio * (2 * loaned - borrowed) / borrowed
-return-ratio = ((borrowed - loaned) / loaned) * (2 * loaned - borrowed) / borrowed
-return-ratio = (borrowed - loaned) * (2 * loaned - borrowed) / (loaned * borrowed)
-return-ratio =  (1 * loaned * borrowed + 2 * loaned * borrowed - 2 * loaned^2 - borrowed^2) / (loaned * borrowed)
-return-ratio =  (3 * loaned * borrowed - 2 * loaned^2 - 1 * borrowed^2) / (loaned * borrowed)
+return-rate = interest-paid / borrowed
+return-rate = interest-rate * loaned / borrowed
+```
+Notice that, by substituting [capital ratio for interest ratio](Savings-Relation), return ratio can be expressed by borrowed and loaned capital.
+```
+return-ratio = ((borrowed - loaned) / loaned) * loaned / borrowed
+return-ratio = (borrowed - loaned) / borrowed
+return-ratio = reserved / borrowed
 ```
