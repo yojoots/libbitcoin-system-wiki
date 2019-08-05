@@ -23,8 +23,8 @@ Perfect operational efficiency differs from a real bank only in the amount retur
 Given the definition of a pure bank, the following relations are absolute. [Reserved](Reserve-Definition) capital is the money in which credit and debt are [settled](https://en.wikipedia.org/wiki/Settlement_(finance)) (zero [maturity](https://en.wikipedia.org/wiki/Maturity_(finance))). [Depreciation](Depreciation-Principle) is the [opportunity cost](https://en.wikipedia.org/wiki/Opportunity_cost) of it not being loaned, also known as "cash drag".
 ```
 reserved        = borrowed - loaned
-interest-earned = interest-rate * loaned
 depreciation    = interest-rate * reserved
+interest-earned = interest-rate * loaned
 interest-paid   = interest-earned
 ```
 For the pure bank, [reserve ratio](https://en.wikipedia.org/wiki/Reserve_requirement), [capital ratio](https://en.wikipedia.org/wiki/Capital_requirement), and creditor [rate of return](https://en.wikipedia.org/wiki/Rate_of_return) are each functions of the amount borrowed, loaned and the uniform [interest rate](https://en.wikipedia.org/wiki/Interest_rate).
