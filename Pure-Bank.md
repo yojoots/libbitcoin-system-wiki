@@ -52,3 +52,8 @@ return-rate = capital-ratio * loaned / borrowed
 return-rate = ((borrowed - loaned) / loaned) * loaned / borrowed
 return-rate = (borrowed - loaned) / borrowed
 ```
+**Not only is the capital ratio the interest rate, but the reserve ratio is the rate of return.**
+```
+return-rate = reserve / borrowed
+```
+Both ratios are set by the size of the reserve, and determined by time preference alone.
