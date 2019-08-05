@@ -44,7 +44,7 @@ Creditor [rate of return](https://en.wikipedia.org/wiki/Rate_of_return) is addit
 return-rate = interest-earned / borrowed
 return-rate = interest-rate * loaned / borrowed
 ```
-By substituting [capital ratio for interest rate](Savings-Relation), a return rate can also be expressed by borrowed and loaned capital. The bank's capital ratio does not *cause* its nominal interest rate, as that is determined on the market. But it is the expression of the bank's time preference. There is no distinction between the choice to accept *the market rate* that satisfies time preference (the traditional explanation) or to accept *any market rate* for the fraction of money not preferred for liquidity. Both are a preference for the same thing, and the reason for the preference is entirely subjective. In the case of a uniform interest rate, the bank's 
+By substituting [capital ratio for interest rate](Savings-Relation), a return rate can also be represented by borrowed and loaned capital.
 ```
 return-rate = interest-rate * loaned / borrowed
 return-rate = capital-ratio * loaned / borrowed
@@ -52,4 +52,6 @@ return-rate = ((borrowed - loaned) / loaned) * loaned / borrowed
 return-rate = (borrowed - loaned) / borrowed
 return-rate = reserve / borrowed
 ```
+The bank's capital ratio does not *cause* its nominal interest rate, as that is determined on the market. But it is the expression of the individual bank's time preference. There is no distinction between the choice to accept *the market rate* that satisfies time preference (the traditional explanation) or to accept *any market rate* for the fraction of money not preferred for liquidity. Both are a preference for the same thing, and the reason for the preference is entirely subjective.
+
 **Not only is the capital ratio the nominal interest rate, but the reserve ratio is the rate of return.** Both ratios are established by time preference alone and expressed as the fraction of reserve.
