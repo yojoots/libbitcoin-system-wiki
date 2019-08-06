@@ -63,3 +63,7 @@ Substituting savings ratio and reducing obtains a return ratio also in borrowed 
 ```
 return-ratio = (loaned / reserved) - (loaned / borrowed)
 ```
+The pure bank differs from a real bank only by the absence of real operational expenses, which directly reduce rate of return.
+```
+real-return-ratio = return-ratio * real-expense-ratio
+```
