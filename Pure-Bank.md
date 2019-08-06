@@ -48,25 +48,18 @@ debt-ratio = borrowed / (borrowed - loaned)
 savings-ratio = loaned / reserved
 savings-ratio = loaned / (borrowed - loaned)
 ```
-#### Balance Sheet
-```
-loaned = borrowed - reserved
-loaned = borrowed - (borrowed - loaned)
-```
-#### Rate of Return
+#### Return Ratio
 Creditor [rate of return](https://en.wikipedia.org/wiki/Rate_of_return) is additionally a function of the nominal interest rate. The creditor's rate of return is less than the debtor's nominal interest rate due to cash drag, the necessary cost of demand withdrawal. To reduce this cost, time constraints are typically included in [real bank contracts](https://www.chase.com/content/dam/chasecom/en/checking/documents/deposit_account_agreement.pdf). For example, by law any withdrawal from an interest-bearing U.S. bank account can be delayed for seven days. The creditor can only eliminate cash drag by holding the debt with no settlement assurances.
 ```
-return-rate = interest-earned / borrowed
-return-rate = interest-rate * loaned / borrowed
+return-ratio = interest-ratio * loaned / borrowed
 ```
-By substituting [savings rate for interest rate](Savings-Relation), a return rate can also be represented by borrowed and loaned capital.
+The [savings ratio](Savings-Relation) is the interest ratio in the case of uniform interest.
 ```
-return-rate = interest-rate * loaned / borrowed
-return-rate = capital-ratio * loaned / borrowed
-return-rate = ((borrowed - loaned) / loaned) * loaned / borrowed
-return-rate = (borrowed - loaned) / borrowed
-return-rate = reserve / borrowed
+savings-ratio = loaned / reserved
 ```
-The bank's capital ratio does not *cause* its nominal interest rate, as that is determined on the [market](Glossary#market). But it is the expression of the individual bank's time preference. There is no distinction between accepting [market rates until time preference is satisfied](https://mises.org/library/man-economy-and-state-power-and-market/html/p/990) and accepting *any* positive market rate for the fraction of money not preferred for liquidity.
-
-**Not only is the capital ratio the nominal interest rate, but the reserve ratio is the rate of return.** Both ratios are established by time preference alone and expressed as the fraction of reserve.
+Substituting savings ratio obtains a return ratio also in borrowed and loaned capital.
+```
+[todo: solve]
+return-ratio = (loaned / reserved) - (loaned / borrowed)
+```
+[todo: summarize]
