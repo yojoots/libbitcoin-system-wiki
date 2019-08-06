@@ -27,7 +27,7 @@ depreciation     = interest-rate * reserved
 nominal-interest = interest-rate * loaned
 return           = nominal-interest
 ```
-For the pure bank, the [reserve fraction](Fractional-Reserve-Fallacy) determines [reserve ratio](https://en.wikipedia.org/wiki/Reserve_requirement), [capital ratio](https://en.wikipedia.org/wiki/Capital_requirement), [debt ratio](https://en.wikipedia.org/wiki/Debt_ratio) and [savings ratio](https://en.wikipedia.org/wiki/Golden_Rule_savings_rate).
+For the pure bank, the [reserve fraction](Fractional-Reserve-Fallacy) determines [reserve ratio](https://en.wikipedia.org/wiki/Reserve_requirement), [capital ratio](https://en.wikipedia.org/wiki/Capital_requirement), [debt ratio](https://en.wikipedia.org/wiki/Debt_ratio), [savings ratio](https://en.wikipedia.org/wiki/Golden_Rule_savings_rate) and [return ratio](https://en.wikipedia.org/wiki/Rate_of_return).
 #### Reserve Ratio
 ```
 reserve-ratio = reserved / borrowed
@@ -49,11 +49,11 @@ savings-ratio = loaned / reserved
 savings-ratio = loaned / (borrowed - loaned)
 ```
 #### Return Ratio
-Creditor [rate of return](https://en.wikipedia.org/wiki/Rate_of_return) is additionally a function of the nominal interest rate. The creditor's rate of return is less than the debtor's nominal interest rate due to cash drag, the necessary cost of demand withdrawal. To reduce this cost, time constraints are typically included in [real bank contracts](https://www.chase.com/content/dam/chasecom/en/checking/documents/deposit_account_agreement.pdf). For example, by law any withdrawal from an interest-bearing U.S. bank account can be delayed for seven days. The creditor can only eliminate cash drag by holding the debt with no settlement assurances.
+Creditor rate of return is additionally a function of the nominal interest rate. The creditor's rate of return is less than the debtor's nominal interest rate due to cash drag, the necessary cost of demand withdrawal. To reduce this cost, time constraints are typically included in [real bank contracts](https://www.chase.com/content/dam/chasecom/en/checking/documents/deposit_account_agreement.pdf). For example, by law any withdrawal from an interest-bearing U.S. bank account can be delayed for seven days. The creditor can only eliminate cash drag by holding the debt with no settlement assurances.
 ```
 return-ratio = interest-ratio * loaned / borrowed
 ```
-The [savings ratio](Savings-Relation) is the interest ratio in the case of uniform interest.
+The savings ratio [is the interest ratio](Savings-Relation) in the case of uniform interest.
 ```
 savings-ratio = loaned / reserved
 ```
