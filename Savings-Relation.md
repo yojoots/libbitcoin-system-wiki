@@ -1,4 +1,4 @@
-[Time preference](Time-Preference-Fallacy) is the [catallactic](https://en.wikipedia.org/wiki/Catallactics) assumption of human preference for present goods over future goods. It is well established that time preference is reflected as the [interest rate](Glossary#interest), and it is shown here that the [inverse](https://en.wikipedia.org/wiki/Inverse_function) [capital ratio](https://en.wikipedia.org/wiki/Capital_requirement) is the same quantity.
+[Time preference](Time-Preference-Fallacy) is the [catallactic](https://en.wikipedia.org/wiki/Catallactics) assumption of human preference for present goods over future goods. It is well established that time preference is reflected as the [interest rate](Glossary#interest), and it is shown here that the [inverse](https://en.wikipedia.org/wiki/Inverse_function) [capital ratio](https://en.wikipedia.org/wiki/Capital_requirement) ("savings ratio") is the same quantity.
 
 > The level of the pure rate of interest is determined by the market for the exchange of present goods against future goods, a market which we shall see permeates many parts of the economic system. [...] Thus, if, on the time market, 100 ounces of gold exchange for the prospect of obtaining 105 ounces of gold one year from now, then the rate of interest is approximately 5 percent per annum. This is the time-discount rate of future to present money. [...] The pure rate of interest will then be the going rate of time discount, the ratio of the price of present goods to that of future goods.
 >
@@ -33,8 +33,15 @@ A hoard is the opportunity to [invest](Glossary#lend), and an investment is the 
 interest-ratio = future-value / present-value
 invested-value = present-value * interest-ratio
 ```
-Rearranging and substituting `unconsumed-value` for `present-value` obtains the relation between depreciating hoarded goods and non-depreciating invested goods.
+Rearranging and substituting `unconsumed-value` for `present-value` obtains the relation between depreciating hoarded goods and non-depreciating invested goods. The capital ratio is the ratio of hoarded (reserved) to invested capital, the inverse of interest.
 ```
 interest-ratio = invested-value / (hoarded-value * depreciation-ratio)
+capital-ratio = (hoarded-value * depreciation-ratio) / invested-value
 ```
-The ratio of investment capital to hoarded capital is both the interest ratio and the inverse "capital ratio". The capital ratio is each person's savings relation, allocated between investment and [consumption](Speculative-Consumption). Each is the same reflection of time preference.
+Converting to rate relations obtains:
+```
+interest-rate = invested-value / (hoarded-value * depreciation-ratio) - 1
+interest-rate = (1 / capital-ratio) - 1
+```
+**The interest ratio is the inverse capital ratio.** Each is the same reflection of time preference. The interest rate is each person's savings rate, allocated between investment and [consumption](Speculative-Consumption). 
+
