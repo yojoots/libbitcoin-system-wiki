@@ -27,7 +27,7 @@ depreciation     = interest-rate * reserved
 nominal-interest = interest-rate * loaned
 return           = nominal-interest
 ```
-For the pure bank, the [reserve fraction](Fractional-Reserve-Fallacy) determines [reserve ratio](https://en.wikipedia.org/wiki/Reserve_requirement) and [capital ratio](https://en.wikipedia.org/wiki/Capital_requirement).
+For the pure bank, the [reserve fraction](Fractional-Reserve-Fallacy) determines [reserve ratio](https://en.wikipedia.org/wiki/Reserve_requirement), [capital ratio](https://en.wikipedia.org/wiki/Capital_requirement), [debt ratio](https://en.wikipedia.org/wiki/Debt_ratio) and [savings ratio](https://en.wikipedia.org/wiki/Golden_Rule_savings_rate).
 #### Reserve Ratio
 ```
 reserve-ratio = reserved / borrowed
@@ -38,13 +38,28 @@ reserve-ratio = (borrowed - loaned) / borrowed
 capital-ratio = reserved / loaned
 capital-ratio = (borrowed - loaned) / loaned
 ```
+#### Debt Ratio
+```
+debt-ratio = borrowed / reserved
+debt-ratio = borrowed / (borrowed - loaned)
+```
+#### Savings Ratio
+```
+savings-ratio = loaned / reserved
+savings-ratio = loaned / (borrowed - loaned)
+```
+#### Balance Sheet
+```
+loaned = borrowed - reserved
+loaned = borrowed - (borrowed - loaned)
+```
 #### Rate of Return
 Creditor [rate of return](https://en.wikipedia.org/wiki/Rate_of_return) is additionally a function of the nominal interest rate. The creditor's rate of return is less than the debtor's nominal interest rate due to cash drag, the necessary cost of demand withdrawal. To reduce this cost, time constraints are typically included in [real bank contracts](https://www.chase.com/content/dam/chasecom/en/checking/documents/deposit_account_agreement.pdf). For example, by law any withdrawal from an interest-bearing U.S. bank account can be delayed for seven days. The creditor can only eliminate cash drag by holding the debt with no settlement assurances.
 ```
 return-rate = interest-earned / borrowed
 return-rate = interest-rate * loaned / borrowed
 ```
-By substituting [capital ratio for interest rate](Savings-Relation), a return rate can also be represented by borrowed and loaned capital.
+By substituting [savings rate for interest rate](Savings-Relation), a return rate can also be represented by borrowed and loaned capital.
 ```
 return-rate = interest-rate * loaned / borrowed
 return-rate = capital-ratio * loaned / borrowed
