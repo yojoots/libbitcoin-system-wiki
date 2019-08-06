@@ -57,9 +57,7 @@ The savings ratio [is the interest ratio](Savings-Relation) in the case of unifo
 ```
 savings-ratio = loaned / reserved
 ```
-Substituting savings ratio obtains a return ratio also in borrowed and loaned capital.
+Substituting savings ratio and reducing obtains a return ratio also in borrowed and loaned capital.
 ```
-[todo: solve]
 return-ratio = (loaned / reserved) - (loaned / borrowed)
 ```
-[todo: summarize]
