@@ -76,7 +76,7 @@ The independent capital ratios of all people, based on individual time preferenc
 market-return-rate = market-interest-rate * (loaned / borrowed)
 market-return-rate = market-capital-ratio * (loaned / borrowed)
 ```
-The free bank differs from the pure bank only by operational expense, which directly reduces rate of return.
+Otherwise the free bank differs from the pure bank only by operational expense, which directly reduces rate of return.
 ```
 free-bank-return-rate = market-return-rate * expense-ratio
 ```
