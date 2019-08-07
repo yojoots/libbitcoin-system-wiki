@@ -20,7 +20,7 @@ The lack of state intervention is the common concept of [free banking](https://e
 
 Perfect operational efficiency differs from a real bank only in the rate of return, as nothing is consumed in operations. A perfectly [efficient market](https://en.wikipedia.org/wiki/Efficient-market_hypothesis) implies uniform interest, and that all earning is a consequence of [time preference](Time-Preference-Fallacy). Uniform interest is ultimately an operational efficiency, as rate [arbitrage](https://en.m.wikipedia.org/wiki/Arbitrage) incurs an expense.
 
-[Reserved](Reserve-Definition) capital is the money in which credit and debt are [settled](https://en.wikipedia.org/wiki/Settlement_(finance)) (zero [maturity](https://en.wikipedia.org/wiki/Maturity_(finance))). [Depreciation](Depreciation-Principle) is the [opportunity cost](https://en.wikipedia.org/wiki/Opportunity_cost) of it not being loaned, also known as "cash drag". [Demurrage](https://en.wikipedia.org/wiki/Demurrage_(currency)) is the cost of storing the reserve, which, as an operational expense, is zero for the pure bank. Interest relations assume a single [compounding period](https://en.wikipedia.org/wiki/Compound_interest) with the rate of interest over that period. This presentation simplification is inconsequential to implied relations. The efficiency rate is 1 for the pure bank.
+[Reserved](Reserve-Definition) capital is the money in which credit and debt are [settled](https://en.wikipedia.org/wiki/Settlement_(finance)) (zero [maturity](https://en.wikipedia.org/wiki/Maturity_(finance))). [Depreciation](Depreciation-Principle) is the [opportunity cost](https://en.wikipedia.org/wiki/Opportunity_cost) of it not being loaned, also known as "cash drag". [Demurrage](https://en.wikipedia.org/wiki/Demurrage_(currency)) is the cost of storing the reserve. Interest relations assume a single [compounding period](https://en.wikipedia.org/wiki/Compound_interest) with the rate of interest over that period. This presentation simplification is inconsequential to implied relations. Expense and demurrage ratios are 1 for the pure bank.
 
 Given the preceding definition of a pure bank, the following relations are absolute.
 ```
@@ -63,15 +63,14 @@ Creditor rate of return is additionally a function of the interest rate. The cre
 ```
 return-rate = interest-rate * loaned / borrowed
 ```
-As shown in [Savings Relation](Savings-Relation) the capital ratio (inclusive of present good depreciation ratio) is the interest rate in the case of uniform interest. Substituting capital ratio obtains a rate of return also in borrowed and loaned capital.
+As shown in [Savings Relation](Savings-Relation) the capital ratio is the interest rate in the case of uniform interest. The capital ratio includes present goods depreciation, which is demurrage for money. The pure bank demurrage is 1, so this drops out. Substituting capital ratio obtains a rate of return also in borrowed and loaned capital.
 ```
 return-rate = (reserved * demurrage-ratio / loaned) * (loaned / borrowed)
 return-rate = (reserved / borrowed) * demurrage-ratio
-```
-Given that the demurrage rate is zero, its ratio is 1. **Therefore the rate of return on pure bank investment is the reserve ratio.**
-```
 return-rate = reserved / borrowed
 ```
+**The rate of return on pure bank investment is the reserve ratio.**
+
 #### Real Banks
 The free bank differs from the pure bank only by operational expense, which directly reduces rate of return.
 ```
