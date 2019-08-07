@@ -24,10 +24,10 @@ Perfect operational efficiency differs from a real bank only in the rate of retu
 
 Given the preceding definition of a pure bank, the following relations are absolute.
 ```
-reserved         = borrowed - loaned
-depreciation     = interest-rate * reserved
-nominal-interest = interest-rate * loaned
-return           = nominal-interest
+reserved     = borrowed - loaned
+depreciation = interest-rate * reserved
+interest     = interest-rate * loaned
+return       = interest
 ```
 For the pure bank, the [reserve fraction](Fractional-Reserve-Fallacy) determines [reserve ratio](https://en.wikipedia.org/wiki/Reserve_requirement), [capital ratio](https://en.wikipedia.org/wiki/Capital_requirement), [debt ratio](https://en.wikipedia.org/wiki/Debt_ratio), [savings ratio](https://en.wikipedia.org/wiki/Golden_Rule_savings_rate) and [return ratio](https://en.wikipedia.org/wiki/Rate_of_return). The remaining ratio is the bank’s [balance sheet](https://en.m.wikipedia.org/wiki/Balance_sheet).
 #### Reserve Ratio
