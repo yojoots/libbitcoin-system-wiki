@@ -20,11 +20,12 @@ The lack of [state](Glossary#state) intervention is the common concept of [free 
 
 Perfect operational efficiency differs from a real bank only in the rate of return, as nothing is consumed in operations. A perfectly [efficient market](https://en.wikipedia.org/wiki/Efficient-market_hypothesis) implies uniform interest, and that all earning is a consequence of [time preference](Time-Preference-Fallacy). Uniform interest is ultimately an operational efficiency, as rate [arbitrage](https://en.m.wikipedia.org/wiki/Arbitrage) incurs an expense.
 
-[Reserved](Reserve-Definition) capital is the money in which credit and debt are [settled](https://en.wikipedia.org/wiki/Settlement_(finance)) (zero [maturity](https://en.wikipedia.org/wiki/Maturity_(finance))). [Depreciation](Depreciation-Principle) is the [opportunity cost](https://en.wikipedia.org/wiki/Opportunity_cost) of it not being loaned, also known as "cash drag". Interest relations assume a single [compounding period](https://en.wikipedia.org/wiki/Compound_interest) with the rate of interest over that period. This presentation simplification is inconsequential to implied relations. The efficiency rate is 1 for the pure bank.
+[Reserved](Reserve-Definition) capital is the money in which credit and debt are [settled](https://en.wikipedia.org/wiki/Settlement_(finance)) (zero [maturity](https://en.wikipedia.org/wiki/Maturity_(finance))). [Depreciation](Depreciation-Principle) is the [opportunity cost](https://en.wikipedia.org/wiki/Opportunity_cost) of it not being loaned, also known as "cash drag". [Demurrage](https://en.wikipedia.org/wiki/Demurrage_(currency)) is the cost of storing the reserve, which, as an operational expense, is zero for the pure bank. Interest relations assume a single [compounding period](https://en.wikipedia.org/wiki/Compound_interest) with the rate of interest over that period. This presentation simplification is inconsequential to implied relations. The efficiency rate is 1 for the pure bank.
 
 Given the preceding definition of a pure bank, the following relations are absolute.
 ```
 reserved     = borrowed - loaned
+demurrage    = demurrage-rate * reserved
 depreciation = interest-rate * reserved
 interest     = interest-rate * loaned
 return       = expense-ratio * interest
@@ -62,10 +63,16 @@ Creditor rate of return is additionally a function of the interest rate. The cre
 ```
 return-rate = interest-rate * loaned / borrowed
 ```
-As shown in [Savings Relation](Savings-Relation) the capital ratio is the interest rate in the case of uniform interest. Substituting capital ratio obtains a rate of return also in borrowed and loaned capital.
+As shown in [Savings Relation](Savings-Relation) the capital ratio (inclusive of present good depreciation) is the interest rate in the case of uniform interest. Substituting capital ratio obtains a rate of return also in borrowed and loaned capital.
 ```
-return-rate = (reserved / loaned) * (loaned / borrowed)
+return-rate = (reserved * demurrage-ratio / loaned) * (loaned / borrowed)
+return-rate = (reserved / borrowed) * demurrage-ratio
 ```
+Given that the demurrage rate is zero, the *rate* of return is the reserve *ratio*.
+```
+return-rate = reserved / borrowed
+```
+#### Real Banks
 The pure bank differs from the free bank only by the absence of operational expense, which directly reduces rate of return.
 ```
 free-bank-return-rate = return-rate * expense-ratio
@@ -80,4 +87,4 @@ central-return-rate = real-bank-return-rate * subsidy-income-ratio
 ```
 Where tax includes seigniorage of the bank money, the [Fisher Equation](https://en.wikipedia.org/wiki/Fisher_equation) must be applied above to translate the interest rate from a nominal rate to a real rate. No other change is implied other than tax, which is accounted for by the real bank above. This tax is generally the source of subsidy, which is accounted for by the central bank above.
 
-**Every person, or company of people, is a real bank, and the state is a central bank.**
+Every person, or company of people, is a real bank, and the state is a central bank.
