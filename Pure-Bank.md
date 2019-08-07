@@ -63,15 +63,15 @@ Substituting savings ratio and reducing obtains a return ratio also in borrowed 
 ```
 return-ratio = (loaned / reserved) - (loaned / borrowed)
 ```
-The pure bank differs from a free bank only by the absence of operational expenses, which directly reduce rate of return.
+The pure bank differs from the free bank only by the absence of operational expense, which directly reduces rate of return.
 ```
 free-bank-return-ratio = return-ratio * expense-ratio
 ```
-The real bank differs from a free bank only by the presence of tax, inclusive of regulatory expense.
+The real bank differs from the free bank only by the presence of tax, inclusive of regulatory expense.
 ```
 real-return-ratio = free-bank-return-ratio * tax-expense-ratio
 ```
-The central bank differs from a real bank only by the presence of taxpayer subsidy, inclusive of discounted borrowing.
+The central bank differs from the real bank only by the presence of taxpayer subsidy, inclusive of discounted borrowing.
 ```
 central-return-ratio = real-bank-return-ratio * subsidy-income-ratio
 ```
