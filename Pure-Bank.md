@@ -71,20 +71,20 @@ return-rate = reserved / borrowed
 **The rate of return on pure bank investment is the reserve ratio.**
 
 #### Real Banks
-The independent capital ratios of all people, based on individual time preference, determine the [market](Glossary#market) rate of interest. The above substitution for the bank's own capital ratio as the interest rate implies that the bank is setting the interest rate. However this is inherent in the concept of time preference. A bank can set any level of interest it prefers. There is no assumption, even with the pure bank, that the market will oblige. For real banks, market interest is assumed, and therefore market returns.
+The independent capital ratios of all people, based on individual time preference, determine the [market](Glossary#market) rate of interest. The above substitution for the bank's own capital ratio as the interest rate implies that the bank is setting the interest rate. However this is inherent in the concept of time preference. A bank can set any level of interest it prefers. There is no assumption for real banks that the market will oblige, so market interest and therefore market returns are assumed.
 ```
 market-return-rate = market-interest-rate * (loaned / borrowed)
 market-return-rate = market-capital-ratio * (loaned / borrowed)
 ```
-The free bank differs from the pure bank only by operational expense, which directly reduces rate of return.
+The free bank also differs from the pure bank by operational expense, which directly reduces rate of return.
 ```
 free-bank-return-rate = market-return-rate * expense-ratio
 ```
-The real bank differs from the free bank only by tax (inclusive of regulatory expense), which directly reduces rate of return.
+The real bank only differs from the free bank by tax (inclusive of regulatory expense), which directly reduces rate of return.
 ```
 real-return-rate = free-bank-return-rate * tax-expense-ratio
 ```
-The central bank (state) differs from the real bank only by taxpayer subsidy (inclusive of discounted borrowing), which directly increases rate of return.
+The central bank (state) only differs from the real bank by taxpayer subsidy (inclusive of discounted borrowing), which directly increases rate of return.
 ```
 central-return-rate = real-bank-return-rate * subsidy-income-ratio
 ```
