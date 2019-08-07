@@ -22,12 +22,12 @@ Perfect operational efficiency differs from a real bank only in the rate of retu
 
 [Reserved](Reserve-Definition) capital is the money in which credit and debt are [settled](https://en.wikipedia.org/wiki/Settlement_(finance)) (zero [maturity](https://en.wikipedia.org/wiki/Maturity_(finance))). [Depreciation](Depreciation-Principle) is the [opportunity cost](https://en.wikipedia.org/wiki/Opportunity_cost) of it not being loaned, also known as "cash drag". Interest relations assume a single [compounding period](https://en.wikipedia.org/wiki/Compound_interest) with the rate of interest over that period. This presentation simplification is inconsequential to implied relations.
 
-Given the preceding definition of a pure bank, the following relations are absolute, where expense rate is 1 for the pure bank.
+Given the preceding definition of a pure bank, the following relations are absolute, where expense ratio is 1 for the pure bank.
 ```
 reserved     = borrowed - loaned
 depreciation = interest-rate * reserved
 interest     = interest-rate * loaned
-return       = expense-rate * interest
+return       = expense-ratio * interest
 ```
 For the pure bank, the [reserve ratio](https://en.wikipedia.org/wiki/Reserve_requirement) determines [capital ratio](https://en.wikipedia.org/wiki/Capital_requirement), [debt ratio](https://en.wikipedia.org/wiki/Debt_ratio), [savings ratio](https://en.wikipedia.org/wiki/Golden_Rule_savings_rate) and [return ratio](https://en.wikipedia.org/wiki/Rate_of_return). The remaining relation, between all three factors, is the bank’s [balance sheet](https://en.m.wikipedia.org/wiki/Balance_sheet).
 #### Reserve Ratio
