@@ -63,9 +63,9 @@ As shown in [Savings Relation](Savings-Relation) the savings ratio is the intere
 ```
 savings-ratio = loaned / reserved
 ```
-Substituting savings ratio and reducing obtains a return ratio also in borrowed and loaned capital.
+Substituting savings ratio obtains a return ratio also in borrowed and loaned capital.
 ```
-return-ratio = (loaned / reserved) - (loaned / borrowed)
+return-ratio = (loaned / reserved) * (loaned / borrowed)
 ```
 The pure bank differs from the free bank only by the absence of operational expense, which directly reduces rate of return.
 ```
