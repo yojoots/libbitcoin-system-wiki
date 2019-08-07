@@ -76,3 +76,5 @@ The central (state) bank differs from the real bank only by the presence of taxp
 central-return-ratio = real-bank-return-ratio * subsidy-income-ratio
 ```
 Where tax includes seigniorage of the bank money, the Fisher Equation must be applied above to translate the interest rate from a nominal rate to a real rate. No other change is implied other than tax, which is accounted for by the real bank above. This tax is generally the source of subsidy, which is accounted for by the central bank above.
+
+**Every person, or company of people, is a real bank.**
