@@ -55,7 +55,7 @@ Creditor rate of return is additionally a function of the nominal interest rate.
 ```
 return-ratio = interest-ratio * loaned / borrowed
 ```
-The savings ratio [is the interest ratio](Savings-Relation) in the case of uniform interest.
+As shown in [Savings Relation](Savings-Relation) the savings ratio is the interest ratio in the case of uniform interest.
 ```
 savings-ratio = loaned / reserved
 ```
