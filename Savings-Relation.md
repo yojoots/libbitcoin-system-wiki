@@ -33,11 +33,11 @@ A hoard is the opportunity to [invest](Glossary#lend), and an investment is the 
 interest-ratio = future-value / present-value
 invested-value = present-value * interest-ratio
 ```
-Rearranging and substituting `unconsumed-value` for `present-value` obtains the relation between depreciating hoarded goods and non-depreciating invested goods. The [capital ratio](https://en.wikipedia.org/wiki/Capital_requirement) is the ratio of hoarded (reserved) to invested capital, the [inverse](https://en.wikipedia.org/wiki/Inverse_function) of the interest ratio.
+Rearranging and substituting unconsumed value for present value obtains the relation between depreciating hoarded goods and non-depreciating invested goods. The [capital ratio](https://en.wikipedia.org/wiki/Capital_requirement) is the ratio of hoarded (reserved) to invested capital, the [inverse](https://en.wikipedia.org/wiki/Inverse_function) of the interest ratio.
 ```
 interest-ratio = invested-value / (hoarded-value * depreciation-ratio)
 capital-ratio = (hoarded-value * depreciation-ratio) / invested-value
 interest-ratio = 1 / capital-ratio
 ```
-The interest ratio is the inverse capital ratio. Each is the same reflection of time preference. **The interest rate, or the return on an investment, is therefore the "savings rate" - capital allocated between investment and consumption.**
+The interest ratio is the inverse capital ratio. Each is the same reflection of time preference. **The interest rate, or the return on an investment, is therefore the savings rate - capital allocated between investment and consumption.**
 
