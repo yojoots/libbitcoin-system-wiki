@@ -51,10 +51,12 @@ savings-ratio = loaned / reserved
 savings-ratio = loaned / (borrowed - loaned)
 ```
 #### Balance Sheet
-The pure bank has no liabilities, only shareholder equity, and always balances.
-|assets            |shareholder equity |
+The pure bank has no liabilities, only shareholder equity.
+
+|bank assets       |shareholder equity |
 |------------------|-------------------|
 |loaned + reserved |borrowed           |
+
 #### Rate of Return
 Creditor rate of return is additionally a function of the interest rate. The creditor's rate of return is less than the debtor's interest rate due to cash drag, the necessary expense of demand withdrawal. To reduce this expense, time constraints are typically included in [real bank contracts](https://www.chase.com/content/dam/chasecom/en/checking/documents/deposit_account_agreement.pdf). For example, by law any withdrawal from an interest-bearing U.S. bank account can be delayed for seven days. The creditor can only eliminate cash drag by holding the debt in an investment fund (i.e without settlement assurances) as opposed to a bank.
 ```
