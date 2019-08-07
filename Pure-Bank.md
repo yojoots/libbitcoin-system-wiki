@@ -63,12 +63,12 @@ Creditor rate of return is additionally a function of the interest rate. The cre
 ```
 return-rate = interest-rate * loaned / borrowed
 ```
-As shown in [Savings Relation](Savings-Relation) the capital ratio (inclusive of present good depreciation) is the interest rate in the case of uniform interest. Substituting capital ratio obtains a rate of return also in borrowed and loaned capital.
+As shown in [Savings Relation](Savings-Relation) the capital ratio (inclusive of present good depreciation ratio) is the interest rate in the case of uniform interest. Substituting capital ratio obtains a rate of return also in borrowed and loaned capital.
 ```
 return-rate = (reserved * demurrage-ratio / loaned) * (loaned / borrowed)
 return-rate = (reserved / borrowed) * demurrage-ratio
 ```
-Given that the demurrage rate is zero, the *rate* of return is the reserve *ratio*.
+Given that the demurrage rate is zero, the demurrage ratio is 1. **Therefore the rate of return on pure bank investment is the reserve ratio.**
 ```
 return-rate = reserved / borrowed
 ```
