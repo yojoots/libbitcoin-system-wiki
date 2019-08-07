@@ -62,7 +62,7 @@ Creditor rate of return is additionally a function of the interest rate. The cre
 ```
 return-rate = interest-rate * loaned / borrowed
 ```
-As shown in [Savings Relation](Savings-Relation) the capital ratio is the interest rate. The capital ratio includes present goods depreciation, which for money is demurrage. The pure bank demurrage is 1, so this drops out. Substituting capital ratio obtains a rate of return also in borrowed and loaned capital.
+As shown in [Savings Relation](Savings-Relation) the capital ratio is the interest rate. The capital ratio includes present goods depreciation, which for money is demurrage. The pure bank demurrage is 1, so this drops out. Substituting capital ratio obtains a rate of return in terms of borrowed and loaned capital.
 ```
 return-rate = (reserved * demurrage-ratio / loaned) * (loaned / borrowed)
 return-rate = (reserved / borrowed) * demurrage-ratio
