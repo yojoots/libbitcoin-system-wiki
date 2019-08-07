@@ -9,8 +9,7 @@ A pure bank provides only the following services:
 The material differences from a real bank are:
 
 * no state intervention (free bank)
-* uniform interest (efficient market)
-* no cost of operation (efficient operations)
+* no cost of operation (perfectly efficient)
 
 The bank is owned by its creditors in proportion to their credit, as is the case with any company. There are existing major banks that are owned by their account-holders, such as [USAA](https://www.usaa.com) and [Vanguard](https://investor.vanguard.com), so this is not a distinction from a real bank. Neither a pure bank nor a real bank has "own capital" to lend, as all capital is borrowed from investors in one form or another. The objective of creditors is to maximize their rate of return. The objective of debtors is to minimize their [interest](Glossary#interest) expense.
 
@@ -18,9 +17,9 @@ Creditor accounts are [money substitutes](https://wiki.mises.org/wiki/Money_subs
 
 The lack of state intervention is the common concept of [free banking](https://en.wikipedia.org/wiki/Free_banking), where there is no [statutory control](https://en.wikipedia.org/wiki/Federal_Reserve), state [insurance](https://www.fdic.gov), [discount capital](https://en.wikipedia.org/wiki/Discount_window), or [seigniorage](https://en.wikipedia.org/wiki/Seigniorage). The bank uses commodity [money](Money-Taxonomy) unless otherwise specified, which simplifies calculations by [eliminating](Inflation-Principle) the need to offset [price inflation](https://en.wikipedia.org/wiki/Inflation) or [price deflation](https://en.wikipedia.org/wiki/Deflation).
 
-Perfect operational efficiency differs from a real bank only in the rate of return, as nothing is consumed in operations. A perfectly [efficient market](https://en.wikipedia.org/wiki/Efficient-market_hypothesis) implies uniform interest, and that all earning is a consequence of [time preference](Time-Preference-Fallacy). Uniform interest is ultimately an operational efficiency, as rate [arbitrage](https://en.m.wikipedia.org/wiki/Arbitrage) incurs an expense.
+Perfect efficiency differs from a real bank only in the rate of return, as nothing is consumed in operations. All earning is a consequence of [time preference](Time-Preference-Fallacy). Uniform interest is assumed, as rate [arbitrage](https://en.m.wikipedia.org/wiki/Arbitrage) is an expense. [Demurrage](https://en.wikipedia.org/wiki/Demurrage_(currency)) is the expense of storing money. Expense and demurrage ratios are 1 for the pure bank.
 
-[Reserved](Reserve-Definition) capital is the money in which credit and debt are [settled](https://en.wikipedia.org/wiki/Settlement_(finance)) (zero [maturity](https://en.wikipedia.org/wiki/Maturity_(finance))). [Depreciation](Depreciation-Principle) is the [opportunity cost](https://en.wikipedia.org/wiki/Opportunity_cost) of it not being loaned, also known as "cash drag". [Demurrage](https://en.wikipedia.org/wiki/Demurrage_(currency)) is the cost of storing the reserve. Interest relations assume a single [compounding period](https://en.wikipedia.org/wiki/Compound_interest) with the rate of interest over that period. This presentation simplification is inconsequential to implied relations. Expense and demurrage ratios are 1 for the pure bank.
+[Reserved](Reserve-Definition) capital is the money in which credit and debt are [settled](https://en.wikipedia.org/wiki/Settlement_(finance)) (zero [maturity](https://en.wikipedia.org/wiki/Maturity_(finance))). [Depreciation](Depreciation-Principle) is the [opportunity cost](https://en.wikipedia.org/wiki/Opportunity_cost) of it not being loaned, also known as "cash drag". Interest relations assume a single [compounding period](https://en.wikipedia.org/wiki/Compound_interest) with the rate of interest over that period. This presentation simplification is inconsequential to implied relations.
 
 Given the preceding definition of a pure bank, the following relations are absolute.
 ```
@@ -63,7 +62,7 @@ Creditor rate of return is additionally a function of the interest rate. The cre
 ```
 return-rate = interest-rate * loaned / borrowed
 ```
-As shown in [Savings Relation](Savings-Relation) the capital ratio is the interest rate in the case of uniform interest. The capital ratio includes present goods depreciation, which is demurrage for money. The pure bank demurrage is 1, so this drops out. Substituting capital ratio obtains a rate of return also in borrowed and loaned capital.
+As shown in [Savings Relation](Savings-Relation) the capital ratio is the interest rate. The capital ratio includes present goods depreciation, which for money is demurrage. The pure bank demurrage is 1, so this drops out. Substituting capital ratio obtains a rate of return also in borrowed and loaned capital.
 ```
 return-rate = (reserved * demurrage-ratio / loaned) * (loaned / borrowed)
 return-rate = (reserved / borrowed) * demurrage-ratio
@@ -72,9 +71,14 @@ return-rate = reserved / borrowed
 **The rate of return on pure bank investment is the reserve ratio.**
 
 #### Real Banks
+The independent capital ratios of all people, based on individual time preference, determine the [market](Glossary#market) rate of interest. The above substitution for the bank's own capital ratio as the interest rate implies that the bank is setting the market interest rate. This is the assumption of uniform time preference. Real banks obtain the prevailing market interest rate, which is the market capital ratio.
+```
+market-return-rate = market-interest-rate * (loaned / borrowed)
+market-return-rate = market-capital-ratio * (loaned / borrowed)
+```
 The free bank differs from the pure bank only by operational expense, which directly reduces rate of return.
 ```
-free-bank-return-rate = return-rate * expense-ratio
+free-bank-return-rate = market-return-rate * expense-ratio
 ```
 The real bank differs from the free bank only by tax (inclusive of regulatory expense), which directly reduces rate of return.
 ```
