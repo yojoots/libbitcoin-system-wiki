@@ -28,7 +28,7 @@ Goods that remain unconsumed are future goods relative to the original hoard of 
 discount-ratio = present-value / future-value
 unconsumed-value = hoarded-value * depreciation-ratio
 ```
-A hoard is the opportunity to [invest](Glossary#lend), and an investment is the opportunity to consume. One is [traded for the other](https://mises.org/library/man-economy-and-state-power-and-market/html/p/990) until no further increase in [utility](Glossary#utility) is obtained from doing so. Accepting market rates until [time preference is satisfied](https://mises.org/library/man-economy-and-state-power-and-market/html/p/990) is the same as accepting *any* positive market rate for the fraction of money not reserved by time preference. The interest ratio is used to obtain the investment return for this trade.
+A hoard (consumption) is the opportunity to [invest](Glossary#lend), and an investment is the opportunity to consume. One is [traded for the other](https://mises.org/library/man-economy-and-state-power-and-market/html/p/990) until no further increase in [utility](Glossary#utility) is obtained from doing so. Accepting market rates until [time preference is satisfied](https://mises.org/library/man-economy-and-state-power-and-market/html/p/990) is the same as accepting *any* positive market rate for the fraction of money not reserved by time preference. The interest ratio is used to obtain the investment return for this trade.
 ```
 interest-ratio = future-value / present-value
 invested-value = present-value * interest-ratio
