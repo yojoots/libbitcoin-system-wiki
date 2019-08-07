@@ -14,7 +14,7 @@ growth-rate = interest-rate - depreciation-rate
   5% = 10% - 5%
 -10% = 10% - 20%
 ```
-The depreciation rate is always greater than 0, as all property depreciates.
+The depreciation rate is always positive, as all property depreciates.
 ```
 depreciation-rate > 0
 interest-rate - growth-rate = depreciation-rate
