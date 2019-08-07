@@ -71,12 +71,12 @@ return-rate = reserved / borrowed
 **The rate of return on pure bank investment is the reserve ratio.**
 
 #### Real Banks
-The independent capital ratios of all people, based on individual time preference, determine the [market](Glossary#market) rate of interest. The above substitution for the bank's own capital ratio as the interest rate implies that the bank is setting the market interest rate. This is the assumption of uniform time preference. Real banks obtain the prevailing market interest rate, which is the market capital ratio.
+The independent capital ratios of all people, based on individual time preference, determine the [market](Glossary#market) rate of interest. The above substitution for the bank's own capital ratio as the interest rate implies that the bank is setting the market interest rate. However this is inherent in the concept of time preference. A bank can set any level of interest it prefers. There is no assumption, even with the pure bank, that the market will oblige. For real banks, the market interest is assumed, and therefore market returns.
 ```
 market-return-rate = market-interest-rate * (loaned / borrowed)
 market-return-rate = market-capital-ratio * (loaned / borrowed)
 ```
-Otherwise the free bank differs from the pure bank only by operational expense, which directly reduces rate of return.
+The free bank differs from the pure bank only by operational expense, which directly reduces rate of return.
 ```
 free-bank-return-rate = market-return-rate * expense-ratio
 ```
