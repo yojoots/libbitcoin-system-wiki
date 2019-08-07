@@ -71,7 +71,7 @@ The real bank differs from the free bank only by the presence of tax, inclusive 
 ```
 real-return-ratio = free-bank-return-ratio * tax-expense-ratio
 ```
-The central (state) bank differs from the real bank only by the presence of taxpayer subsidy, inclusive of discounted borrowing.
+The central (state) bank differs from the real bank only by the presence of taxpayer subsidy (negative expense), inclusive of discounted borrowing.
 ```
 central-return-ratio = real-bank-return-ratio * subsidy-income-ratio
 ```
