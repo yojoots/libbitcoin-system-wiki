@@ -29,7 +29,7 @@ depreciation = interest-rate * reserved
 interest     = interest-rate * loaned
 return       = expense-ratio * interest
 ```
-For the pure bank, the [reserve ratio](https://en.wikipedia.org/wiki/Reserve_requirement) determines [capital ratio](https://en.wikipedia.org/wiki/Capital_requirement), [debt ratio](https://en.wikipedia.org/wiki/Debt_ratio), [savings ratio](https://en.wikipedia.org/wiki/Golden_Rule_savings_rate) and [return ratio](https://en.wikipedia.org/wiki/Rate_of_return). The remaining relation, between all three factors, is the bank’s [balance sheet](https://en.m.wikipedia.org/wiki/Balance_sheet).
+For the pure bank, the [reserve ratio](https://en.wikipedia.org/wiki/Reserve_requirement) fully determines [capital ratio](https://en.wikipedia.org/wiki/Capital_requirement), [debt ratio](https://en.wikipedia.org/wiki/Debt_ratio), [savings ratio](https://en.wikipedia.org/wiki/Golden_Rule_savings_rate), [balance sheet](https://en.m.wikipedia.org/wiki/Balance_sheet) and [rate of return](https://en.wikipedia.org/wiki/Rate_of_return).
 #### Reserve Ratio
 ```
 reserve-ratio = reserved / borrowed
@@ -50,7 +50,11 @@ debt-ratio = borrowed / (borrowed - loaned)
 savings-ratio = loaned / reserved
 savings-ratio = loaned / (borrowed - loaned)
 ```
-#### Return Ratio
+#### Balance Sheet
+```
+loaned + reserved = borrowed
+```
+#### Rate of Return
 Creditor rate of return is additionally a function of the interest rate. The creditor's rate of return is less than the debtor's interest rate due to cash drag, the necessary expense of demand withdrawal. To reduce this expense, time constraints are typically included in [real bank contracts](https://www.chase.com/content/dam/chasecom/en/checking/documents/deposit_account_agreement.pdf). For example, by law any withdrawal from an interest-bearing U.S. bank account can be delayed for seven days. The creditor can only eliminate cash drag by holding the debt in an investment fund (i.e without settlement assurances) as opposed to a bank.
 ```
 return-ratio = interest-ratio * loaned / borrowed
