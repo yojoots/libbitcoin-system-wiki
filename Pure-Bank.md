@@ -68,7 +68,7 @@ As shown in [Savings Relation](Savings-Relation) the capital ratio (inclusive of
 return-rate = (reserved * demurrage-ratio / loaned) * (loaned / borrowed)
 return-rate = (reserved / borrowed) * demurrage-ratio
 ```
-Given that the demurrage rate is zero, the demurrage ratio is 1. **Therefore the rate of return on pure bank investment is the reserve ratio.**
+Given that the demurrage rate is zero, its ratio is 1. **Therefore the rate of return on pure bank investment is the reserve ratio.**
 ```
 return-rate = reserved / borrowed
 ```
