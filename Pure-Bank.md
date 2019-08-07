@@ -73,15 +73,15 @@ Given that the demurrage rate is zero, the demurrage ratio is 1. **Therefore the
 return-rate = reserved / borrowed
 ```
 #### Real Banks
-The pure bank differs from the free bank only by the absence of operational expense, which directly reduces rate of return.
+The free bank differs from the pure bank only by operational expense, which directly reduces rate of return.
 ```
 free-bank-return-rate = return-rate * expense-ratio
 ```
-The real bank differs from the free bank only by the presence of tax, inclusive of regulatory expense.
+The real bank differs from the free bank only by tax (inclusive of regulatory expense), which directly reduces rate of return.
 ```
 real-return-rate = free-bank-return-rate * tax-expense-ratio
 ```
-The central bank (state) differs from the real bank only by the presence of taxpayer subsidy (negative expense), inclusive of discounted borrowing.
+The central bank (state) differs from the real bank only by taxpayer subsidy (inclusive of discounted borrowing), which directly increases rate of return.
 ```
 central-return-rate = real-bank-return-rate * subsidy-income-ratio
 ```
