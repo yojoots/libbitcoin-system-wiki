@@ -29,6 +29,8 @@
   * [Axiom of Resistance](Axiom-of-Resistance)
   * [Money Taxonomy](Money-Taxonomy)
   * [Pure Bank](Pure-Bank)
+  * [Production and Consumption](Production-and-Consumption)
+  * [Labor and Leisure](Labor-and-Leisure)
   * [Custodial Risk Principle](Custodial-Risk-Principle)
   * [Dedicated Cost Principle](Dedicated-Cost-Principle)
   * [Depreciation Principle](Depreciation-Principle)
