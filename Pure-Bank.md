@@ -91,15 +91,3 @@ central-return-rate = real-bank-return-rate * subsidy-income-ratio
 Where tax includes seigniorage of the bank money, the [Fisher Equation](https://en.wikipedia.org/wiki/Fisher_equation) must be applied above to translate the interest rate from a nominal rate to a real rate. No other change is implied other than tax, which is accounted for by the real bank above. This tax is generally the source of subsidy, which is accounted for by the central bank above.
 
 Every [person](Glossary#person), or company of people, is a real bank, and the [state](Glossary#state) is a central bank.
-
-#### Production and Consumption
-
-A pure bank produces the service of liquid investment, an [economic good](https://en.m.wikipedia.org/wiki/Goods_and_services). The cost of production is the depreciation of its reserve. This is the pure model of all production, including labor.
-
-A pure producer has *borrowed* capital, consuming it in the creation of a product. The consumed fraction at any time has been *loaned* to production. The unconsumed fraction at any time has been *reserved* for liquidity. The new product is sold, obtaining *interest* on the consumed fraction, *returned* as [dividend](https://en.m.wikipedia.org/wiki/Dividend). As production requires time, and perfect efficiency is assumed, the reserve ratio declines from 100% to 0% over time. The reserve is only repopulated by more borrowed capital, such as by dividend reinvestment. The amount of reserve represents the same necessary productive expense as the bank’s liquidity reserve.
-
-A real producer converts time and capital to interest, at the market price of the product produced, just as the bank obtains interest at the market [price](Glossary#price). The bank is merely obtaining the interest of another producer by being its investor. This shows the fundamental equivalence of lending as debt and equity, independent of statutory distinctions (tax).
-
-A pure consumer hoards capital without any *loaned* to production. All capital is *borrowed* and *reserved*. At 100% reserve there is no *interest*, no *return*, and eventually full depreciation. In this case the borrowed capital is considered a gift (charity).
-
-A laborer is a producer.
