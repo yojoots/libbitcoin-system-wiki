@@ -12,4 +12,4 @@ The presumption of proportionality refers to the goods "represented" by a money.
 
 Yet demand does not remain constant in the case of a decision to mine. New demand for the money is created by the fact of mining. The miner trades (consumes in production) additional "representation" capital for the money. The new money is entirely offset by the demand increase, represented by the consumed goods. Therefore proportionality is preserved in the case of multiple monies.
 
-The generalization of this principle applies to all goods. In other words, economic growth is not price-inflationary in a free [market](Glossary#market).
+The generalization of this principle applies to all goods. In other words, [economic growth](Depreciation-Principle) is not price-inflationary in a free [market](Glossary#market).
