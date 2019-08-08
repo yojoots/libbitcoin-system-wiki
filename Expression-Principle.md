@@ -1,0 +1,11 @@
+Human *actions* should not be conflated with *goods*. There is a necessary distinction between actions and goods. The failure to properly distinguish between the two, at the most fundamental level, leads to errors of [significant consequence](https://en.m.wikipedia.org/wiki/Labor_theory_of_value) to humanity.
+
+Actions, are at the most fundamental level, human preferences given *expression* through goods. Without expression, the preference is merely a thought. [Catallactics](https://en.m.wikipedia.org/wiki/Catallactics) concerns itself with expressed preferences. Preferences are expressed by [trade](Glossary#trade) and by [consumption](Depreciation-Principle).
+
+In this sense, the human spirit is the [person](Glossary#person). It has preferences that it expresses by motivating the body over which it has control ([owns](Glossary#owner)). This body is its property, a good. When its body is fully depreciated (dead), the spirit ceases to be an actor. It is not necessary to contemplate disembodied spirits, as no action is implied.
+
+Catallactics is not concerned with legal, or theological, or ethical concepts of humanity. The [Turing Test](https://en.m.wikipedia.org/wiki/Turing_test) is sufficient criteria for the determination of humanity. The catallactic distinction is the formation of preferences, independent of any other actor. A person in this sense is a decision-maker, as distinct from a rule-follower. A [machine](Glossary#machine) is a good that expresses the preferences of a person. A person expresses its preferences by motivating its machine.
+
+A spirit cannot be property, and a body is the property of its spirit. Only the spirit controls the body, where control defines ownership. Where the spirit is compelled to act through the aggression of another actor, the preference is not independent. The preference expressed is that of the [aggressor](https://en.m.wikipedia.org/wiki/Non-aggression_principle). Catallactics considers only the consequences of independent actors. When a person pays a tax, he is presumed to be expressing the preference of another person, as tax is by its nature involuntary trade. Similarly, slavery implies expression of the slaver’s preferences, not those of the slave.
+
+Actions are *expressed* by goods. Goods are the object of preferences.
