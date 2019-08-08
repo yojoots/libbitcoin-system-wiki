@@ -90,4 +90,4 @@ central-return-rate = real-bank-return-rate * subsidy-income-ratio
 ```
 Where tax includes seigniorage of the bank money, the [Fisher Equation](https://en.wikipedia.org/wiki/Fisher_equation) must be applied above to translate the interest rate from a nominal rate to a real rate. No other change is implied other than tax, which is accounted for by the real bank above. This tax is generally the source of subsidy, which is accounted for by the central bank above.
 
-Every [person](Glossary#person), or company of people, is a real bank, and the [state](Glossary#state) is a central bank. A bank produces the service of liquid investment, an economic good. The cost of production is the depreciation of its reserve. This is the model of all production.
+Every [person](Glossary#person), or company of people, is a real bank, and the [state](Glossary#state) is a central bank. A real bank produces the service of liquid investment, an economic good. The cost of production is the depreciation of its reserve. This is the model of all production.
