@@ -16,7 +16,7 @@ The monopoly on production of state fiat is created by anti-[counterfeit](https:
 
 Commodity money is also market money, as it does not rely on monopoly privilege to restrict its supply. If commodity money supply is too great, it ceases to be a useful money due to the lack of portability. The distinction between commodity money and Bitcoin is obtained from [Cryptodynamic Principles](Cryptodynamic-Principles). Commodity money supply is controlled through market competition to supply it, as a consequence of its market demand. It is not fiat given the presumption of use value.
 
-Both money and money substitutes constitute [currency](https://en.wikipedia.org/wiki/Currency). Money is sometimes referred to as base money. All monies are subject to lending and therefore necessarily [credit expansion](Credit-Expansion-Fallacy) (i.e. into money substitutes) and its corresponding fractional reservation.
+Both money and money substitutes constitute [currency](https://en.wikipedia.org/wiki/Currency). Money is sometimes referred to as base money. All monies are subject to lending and therefore necessarily [credit expansion](Credit-Expansion-Fallacy) (i.e. into money substitutes) and its corresponding fractional [reservation](Reserve-Definition).
 
 ### Summary
 * [currency](https://en.wikipedia.org/wiki/Currency)
