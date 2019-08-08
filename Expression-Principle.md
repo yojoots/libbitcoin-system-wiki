@@ -8,4 +8,4 @@ Catallactics is not concerned with legal, theological, or ethical concepts of hu
 
 A spirit cannot be property, and a body is the property of its spirit. Only the spirit controls the body, where control defines ownership. Where the spirit is compelled to act through the [aggression](https://en.m.wikipedia.org/wiki/Non-aggression_principle) of another actor, the preference is not independent. The preference expressed is that of the aggressor. Catallactics considers only the consequences of independent actors. When a person pays a tax, he is presumed to be expressing the preference of another person, as tax is by its nature involuntary trade. Similarly, slavery implies expression of the slaver’s preferences, not those of the slave.
 
-**Action is the expression of human preference, expressed through goods.**
+**Action is the expression of human preference through goods.**
