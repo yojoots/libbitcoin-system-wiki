@@ -12,5 +12,5 @@ This subtle error implies that both labor and leisure are economic goods. Yet go
 >
 > This analysis of the laws of labor effort [time] has been deduced from the implications of the action axiom and the assumption of leisure as a consumers' good.
 
-It is neither correct nor necessary to assume leisure is a good, and by doing so imply that labor is an anti-good. By properly accounting for consumption of a person's time, the preference for leisure time over labor time derives directly from the law of [marginal utility](https://en.wikipedia.org/wiki/Marginal_utility). As the above derivation shows, this is the result of the necessary [trade](Glossary#trade) of time expended on one for time expended on the other.
+It is neither correct nor necessary to assume leisure is a good, and by doing so imply that labor is an anti-good. By properly accounting for consumption of a person's time, "leisure preference" derives directly from the law of [marginal utility](https://en.wikipedia.org/wiki/Marginal_utility). As the above derivation shows, this is the result of the necessary [trade](Glossary#trade) of time expended on one for time expended on the other.
 
