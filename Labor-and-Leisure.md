@@ -1,4 +1,4 @@
-Labor and leisure are complimentary [human actions](https://en.wikipedia.org/wiki/Action_axiom) that pertain [production and consumption](Production-and-Consumption) of [economic goods](https://en.m.wikipedia.org/wiki/Goods_and_services). Labor implies both production and consumption, while leisure implies only consumption. Labor and leisure are the *processes* by which goods are created and destroyed. These actions should not be conflated with goods.
+Labor and leisure are complimentary [human actions](https://en.wikipedia.org/wiki/Action_axiom) that pertain [production and consumption](Production-and-Consumption) of [economic goods](https://en.m.wikipedia.org/wiki/Goods_and_services). Labor is the process of consumption to produce an economic good (production). Leisure is the process of consumption that does not produce an economic good. Consumption without [utility](Glossary#utility) is the process of [waste](https://en.wikipedia.org/wiki/Waste). These actions should not be conflated with goods.
 
 > labor always involves the forgoing of leisure, a desirable good
 >
@@ -12,5 +12,5 @@ This subtle error implies that both labor and leisure are economic goods. Yet go
 >
 > This analysis of the laws of labor effort [time] has been deduced from the implications of the action axiom and the assumption of leisure as a consumers' good.
 
-It is neither correct nor necessary to assume leisure is a good, and by doing so imply that labor is an anti-good. By properly accounting for consumption of a person's time, the preference for leisure over labor derives directly from the law of [marginal utility](https://en.wikipedia.org/wiki/Marginal_utility). As the above derivation shows, this is the result of the necessary trade of time expended on one for time expended on the other.
+It is neither correct nor necessary to assume leisure is a good, and by doing so imply that labor is an anti-good. By properly accounting for consumption of a person's time, the preference for leisure time over labor time derives directly from the law of [marginal utility](https://en.wikipedia.org/wiki/Marginal_utility). As the above derivation shows, this is the result of the necessary [trade](Glossary#trade) of time expended on one for time expended on the other.
 
