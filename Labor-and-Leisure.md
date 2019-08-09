@@ -4,7 +4,7 @@ Labor and leisure are complementary [human actions](https://en.wikipedia.org/wik
 >
 > Rothbard: [Man Economy and State](https://mises.org/library/man-economy-and-state-power-and-market/html/p/926)
 
-This subtle error implies that both labor and leisure are economic goods. Yet goods neither create nor consume goods. Labor (production of economic goods) and leisure (production of non-economic goods) are human actions that consume capital over time. As shown in [Expression Principle](https://github.com/libbitcoin/libbitcoin-system/wiki/Expression-Principle), both labor and leisure are processes that consume one's property. In the purest sense, production (including labor and leisure) implies the consumption of the actor’s body.
+This subtle error implies that both labor and leisure are economic goods. Yet goods neither create nor consume goods. Labor (production of economic goods), leisure (production of non-economic goods), and waste (consumption without utility), are human actions that consume capital over time. As shown in [Expression Principle](https://github.com/libbitcoin/libbitcoin-system/wiki/Expression-Principle), both labor and leisure are processes that consume one's property. In the purest sense, production (including labor and leisure) implies the consumption of the actor’s body.
 
 > In each hour he will expend his effort toward producing that good whose marginal product is highest on his value scale. If he must give up an hour of labor, he will give up a unit of that good whose marginal utility is lowest on his value scale. At each point he will balance the utility of the product on his value scale against the disutility of further work. We know that a man's marginal utility of goods provided by effort will decline as his expenditure of effort increases. On the other hand, with each new expenditure of effort, the marginal disutility of the effort continues to increase. Therefore, a man will expend his labor as long as the marginal utility of the return exceeds the marginal disutility of the labor effort . A man will stop work when the marginal disutility of labor is greater than the marginal utility of the increased goods provided by the effort.
 >
@@ -12,7 +12,7 @@ This subtle error implies that both labor and leisure are economic goods. Yet go
 >
 > This analysis of the laws of labor effort has been deduced from the implications of the action axiom and the assumption of leisure as a consumers' good.
 
-It is neither correct nor necessary to assume leisure is a good, and by doing so imply that labor is an anti-good. It is similarly not necessary to construct a concept of negative utility (“disutility”). Value is simply a preference for higher utility over lower utility. Both labor and leisure exhibit positive utility. It is time preference that implies leisure utility is greater than labor utility.
+It is neither correct nor necessary to assume leisure is a good, and by doing so imply that labor is an anti-good. It is similarly not necessary to construct a concept of negative utility ("disutility"). Value is simply a preference for higher utility over lower utility. Both labor and leisure exhibit positive utility. It is time preference that implies leisure utility is greater than labor utility.
 
 By properly accounting for a person's body as property, "leisure preference" derives directly from time preference. As the above quote implies, this is the result of a [trade](Glossary#trade) of time without ones’s property (labor time) for the amount of [interest](Glossary#interest) that offsets the value one attributes to time with his body (leisure time).
 
@@ -24,7 +24,7 @@ The wage rate is a [real interest rate](https://en.m.wikipedia.org/wiki/Fisher_e
 
 A real employer and employee each obtain a [market](Glossary#market) rate of [interest](Glossary#interest). The employee's interest rate is his wage rate. The employer's interest rate is the [price](Glossary#price) obtained for the work product over the time of its production. The employer's production expense is the consumption of his borrowed capital, [reserved](Reservation-Principle) over that time, just as for the employee. The amount by which interest exceeds depreciation is the [increase in wealth](Depreciation-Principle) to both parties.
 
-The nominal interest rate obtained by both parties is the same. The difference in amounts returned is strictly a function of the amount of capital invested, either in individual production (employee) or in collective production (employer). The market valuation of the employee’s labor capital (i.e. its fraction of his wealth) can be inferred from his wage rate, by [discounting](https://en.m.wikipedia.org/wiki/Present_value) the implied principal by the market’s nominal interest rate.
+The nominal interest rate obtained by both parties is the same. The difference in amounts returned is strictly a function of the amount of capital invested, either in individual production (employee) or in collective production (employer). The market valuation of the employee's labor capital (i.e. its fraction of his wealth) can be inferred from his wage rate, by [discounting](https://en.m.wikipedia.org/wiki/Present_value) the implied principal by the market's nominal interest rate.
 
 > Wage = Value * (1 + nominal-interest-rate)
 
