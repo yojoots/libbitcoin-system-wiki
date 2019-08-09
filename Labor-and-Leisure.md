@@ -26,6 +26,6 @@ A real employer and employee each obtain a [market](Glossary#market) rate of [in
 
 The nominal interest rate obtained by both parties is the same. The difference in amounts returned is strictly a function of the amount of capital invested, either in individual production (employee) or in collective production (employer). The market valuation of the employee's labor capital (i.e. its fraction of his wealth) can be inferred from his wage rate, by [discounting](https://en.m.wikipedia.org/wiki/Present_value) the implied principal by the market's nominal interest rate, using the [Fisher Equation](https://en.m.wikipedia.org/wiki/Fisher_equation).
 ```
-Wage = Value * (1 + nominal-interest-rate) / (1 + body-depreciation-rate)
+Wage = Value * (1 + nominal-interest-rate) * (1 + body-depreciation-rate)
 ```
 The employee trades leisure time for labor time to the extent that he values the amount of interest above the value he attributes to leisure time. Leisure preference is a restatement of time preference, where one's own body is the economic good being traded.
