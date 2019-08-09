@@ -14,7 +14,7 @@ This subtle error implies that both labor and leisure are economic goods. Yet [o
 
 It is neither correct nor necessary to assume leisure is a good, and by doing so imply that labor is an anti-good. It is similarly not necessary to construct the artifice of negative utility ("disutility"). Value is simply a preference for higher utility over lower utility. Both labor and leisure exhibit positive utility.
 
-It is time preference that implies leisure utility is greater than labor utility. By properly accounting for a person's body as property, "leisure preference" derives directly from time preference. As the above quote implies, this is the result of a [trade](Glossary#trade) of time without ones’s property (labor time) for the amount of [interest](Glossary#interest) that offsets the value one attributes to time with his body (leisure time).
+It is [time preference](Time-Preference-Fallacy) that implies leisure utility is greater than labor utility. By properly accounting for a person's body as property, "leisure preference" derives directly from time preference. As the above quote implies, this is the result of a [trade](Glossary#trade) of time without ones’s property (labor time) for the amount of [interest](Glossary#interest) that offsets the value one attributes to time with his body (leisure time).
 
 Time, space and goods are the *factors* of all production, while labor is the *process* of production. **Labor and production are distinct names for the same human action.** The act of producing is labor; the act of laboring is production. The [pure bank](Pure-Bank) provides the model of all production. This cycle is clearly evident in the case of self-employment, which is just the example of [production](Production-and-Consumption). In the case of a wage-earner there are two producers, the employee and the employer.
 
@@ -28,4 +28,4 @@ The nominal interest rate obtained by both parties is the same. The difference i
 
 > Wage = Value * (1 + nominal-interest-rate)
 
-The employee trades leisure time for labor time to the extent that he values the amount of interest above the value he attributes to leisure time. Leisure preference is a restatement of [time preference](Time-Preference-Fallacy), where the value of one's own body is the economic good being traded.
+The employee trades leisure time for labor time to the extent that he values the amount of interest above the value he attributes to leisure time. Leisure preference is a restatement of time preference, where the value of one's own body is the economic good being traded.
