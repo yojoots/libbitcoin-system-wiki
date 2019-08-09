@@ -12,7 +12,9 @@ This subtle error implies that both labor and leisure are economic goods. Yet go
 >
 > This analysis of the laws of labor effort has been deduced from the implications of the action axiom and the assumption of leisure as a consumers' good.
 
-It is neither correct nor necessary to assume leisure is a good, and by doing so imply that labor is an anti-good. By properly accounting for consumption of a person's time, "leisure preference" derives directly from the law of [marginal utility](https://en.wikipedia.org/wiki/Marginal_utility). As the above derivation shows, this is the result of the necessary [trade](Glossary#trade) of time expended on one for time expended on the other.
+It is neither correct nor necessary to assume leisure is a good, and by doing so imply that labor is an anti-good. It is similarly not necessary to construct a concept of negative utility (“disutility”). Value is simply a preference for higher utility over lower utility. Both labor and leisure exhibit positive utility. It is time preference that implies leisure utility is greater than labor utility.
+
+By properly accounting for a person's body as property, "leisure preference" derives directly from time preference. As the above quote implies, this is the result of a [trade](Glossary#trade) of time without ones’s property (labor time) for the amount of [interest](Glossary#interest) that offsets the value he attributes to time with his body (leisure time).
 
 Time, space and goods are the *factors* of all production, while labor is the *process* of production. **Labor and production are distinct names for the same human action.** The act of producing is labor; the act of laboring is production. The [pure bank](Pure-Bank) provides the model of all production. This cycle is clearly evident in the case of self-employment, which is just the example of [production](Production-and-Consumption). In the case of a wage-earner there are two producers, the employee and the employer.
 
@@ -20,4 +22,4 @@ A pure wage-earning employee obtains *borrowed* capital and thereby trades for f
 
 A real employer and employee each obtain a [market](Glossary#market) rate of [interest](Glossary#interest). The employee's interest rate is expressed in his wage rate. The employer's interest rate is the [price](Glossary#price) obtained for the work product over the time of its production. The employer's production expense is the consumption of his borrowed capital, [reserved](Reservation-Principle) over that time, just as for the employee. The amount by which interest exceeds depreciation is the [increase in wealth](Depreciation-Principle) to both parties.
 
-The employee trades leisure for labor to the extent that he values the amount of interest above the value he attributes to leisure. Leisure preference is a restatement of [time preference](Time-Preference-Fallacy), where the value of one's own time is the economic good being traded.
+The employee trades leisure time for labor time to the extent that he values the amount of interest above the value he attributes to leisure time. Leisure preference is a restatement of [time preference](Time-Preference-Fallacy), where the value of one's own body is the economic good being traded.
