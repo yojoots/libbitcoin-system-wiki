@@ -10,6 +10,6 @@ A spirit cannot be property, and a body is the property of its spirit. Only the 
 
 Catallactics considers only the consequences of independent actors. When a person pays a tax, he is presumed to be expressing the preference of another person, as tax is by its nature involuntary trade. Similarly, slavery implies expression of the slaver’s preferences, not those of the slave.
 
-It is sometimes argued that, because a life is temporary, that time is valuable. This is not the basis of [time preference](Time-Preference-Fallacy). The impermanence of a person is of no consequence to catallactics. A person may live forever yet is still presumed to exhibit a preference for goods sooner than later. Infinite life does not imply no desire to consume.
+It is sometimes argued that time is valuable because life is temporary. This is not the basis of [time preference](Time-Preference-Fallacy). The impermanence of a person is of no consequence to catallactics. A person may live forever yet is still presumed to exhibit a preference for goods sooner than later. Infinite life does not imply no desire to consume.
 
 **Action is the expression of human preference through goods.** Processes directed by humans are action, processes directed by machines are goods. In other words, production, labor, and leisure are actions, while websites, assembly lines, and cars are goods.
