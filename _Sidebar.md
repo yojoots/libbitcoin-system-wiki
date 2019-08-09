@@ -34,6 +34,7 @@
   * [Custodial Risk Principle](Custodial-Risk-Principle)
   * [Dedicated Cost Principle](Dedicated-Cost-Principle)
   * [Depreciation Principle](Depreciation-Principle)
+  * [Expression Principle](Expression-Principle)
   * [Inflation Principle](Inflation-Principle)
   * [Other Means Principle](Other-Means-Principle)
   * [Patent Resistance Principle](Patent-Resistance-Principle)
