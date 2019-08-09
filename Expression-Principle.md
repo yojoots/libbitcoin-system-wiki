@@ -1,4 +1,4 @@
-Human *actions* should not be conflated with *goods*. There is a necessary distinction between actions and goods. The failure to properly distinguish between the two, at the most fundamental level, leads to errors of [significant consequence](https://en.m.wikipedia.org/wiki/Labor_theory_of_value) to humanity.
+Human *actions* should not be conflated with *goods*. The failure to properly distinguish between the two, at the most fundamental level, leads to errors of [significant consequence](https://en.m.wikipedia.org/wiki/Labor_theory_of_value) to humanity.
 
 Actions, are at the most fundamental level, human preferences given *expression* through goods. Without expression, the preference is merely a thought. [Catallactics](https://en.m.wikipedia.org/wiki/Catallactics) concerns itself with expressed preferences. Preferences are expressed by [trade](Glossary#trade) and by [consumption](Depreciation-Principle).
 
