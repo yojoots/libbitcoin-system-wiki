@@ -4,9 +4,9 @@ The human spirit is the actor ([person](Glossary#person)). It has preferences th
 
 Catallactics is not concerned with legal, theological, or ethical concepts of humanity. The [Turing Test](https://en.m.wikipedia.org/wiki/Turing_test) is sufficient criteria for the definition of humanity. The catallactic distinction is in the formation of preferences, independent of any other actor. A person in this sense is a decision-maker, as distinct from a rule-follower. A [machine](Glossary#machine) is a good that expresses the preferences of a person. A person expresses its preferences by motivating its machine.
 
-A spirit cannot be property, and a body is the property of its spirit. Only the spirit controls the body, where control defines ownership. Where the spirit is compelled to act through the [aggression](https://en.m.wikipedia.org/wiki/Non-aggression_principle) of another actor, the preference is not independent. The preference expressed is that of the aggressor.
+A spirit cannot be property, and a body is the property of its spirit. Only the spirit controls the body, where control defines ownership. Where the spirit is compelled to act through the [aggression](https://en.m.wikipedia.org/wiki/Non-aggression_principle) of another actor, the preference is not independent. The preference expressed (action) is that of the aggressor.
 
-Catallactics considers only the consequences of independent actors. When a person pays a tax, he is presumed to be expressing the preference of another person, as tax is by its nature involuntary trade. Similarly, slavery implies expression of the slaver’s preferences, not those of the slave.
+Catallactics considers only the consequences of independent actors. When a person pays a tax, he is presumed to be expressing the preference of another person, as tax is involuntary by nature. Similarly, slavery implies expression of the slaver’s preferences, not those of the slave.
 
 It is sometimes argued that time is valuable because life is temporary. This is not the basis of [time preference](Time-Preference-Fallacy). The impermanence of a person is of no consequence to catallactics. A person may live forever yet is still presumed to exhibit a preference for goods sooner than later. Infinite life does not imply no desire to consume.
 
