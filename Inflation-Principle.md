@@ -18,4 +18,4 @@ The generalization of this principle applies to all goods. In other words, [econ
 >
 > Mises: [Human Action](https://mises.org/library/human-action-0/html/pp/778)
 
-This implies that all new money reduces existing “cash holdings” (specifically the monetary value). Yet this is not the case with market money. The creation of it first reduces “property holdings”, increasing the demand for “vendible goods” proportionally.
+This implies that all new money reduces existing “cash holdings” (i.e. monetary value). Yet this is not the case with market money. The creation of it first reduces “property holdings”, increasing the demand for “vendible goods” proportionally.
