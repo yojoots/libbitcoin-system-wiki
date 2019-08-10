@@ -2,7 +2,7 @@ The [Regression Theorem](https://wiki.mises.org/wiki/Regression_theorem) relies 
 
 > No good can be employed for the function of a medium of exchange which at the very beginning of its use for this purpose did not have exchange value on account of other employments.
 >
-> Mises: Human Action
+> Mises: [Human Action](https://mises.org/library/human-action-0/html)
 
 Notice that the theory does not merely attempt to explain the origin of the money *concept*, but of anything that can be a money. In other words, if a good does not follow this progression it is not money.
 
