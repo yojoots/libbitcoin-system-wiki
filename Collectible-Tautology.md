@@ -2,7 +2,11 @@ In attempting to apply the [Regression Theorem](Regression-Fallacy) to Bitcoin o
 
 This appears consistent with the theorem, which argues that all [money](Money-Taxonomy) *must* originate from a [commodity](https://en.m.wikipedia.org/wiki/Commodity) that obtains barter and then monetary [exchange](Glossary#exchange) value. Yet if commodity value can arise from potential as money then the theorem is [tautological](https://en.m.wikipedia.org/wiki/Tautology_(logic)), implying nothing more than money is money.
 
-The postulate takes advantage of colloquial ambiguity in the word "commodity". **Yet if anything can be a commodity then the Regression Theorem would imply, contrary to its assertion, that anything can be money.**
+> Now, the regression theorem aims at interpreting the first emergence of a monetary demand for a good which previously had been demanded exclusively for industrial purposes as influenced by the exchange value that was ascribed to it at this moment on account of its nonmonetary services only.
+>
+> Mises: [Human Action](https://mises.org/library/human-action-0/html/pp/778)
+
+The postulate takes advantage of colloquial ambiguity in the word "commodity", despite the explicit reference to "industrial" use value in the theorem itself. **If anything can be a commodity then the Regression Theorem would imply, contrary to its assertion, that anything can be money.**
 
 > In economics, a commodity is an economic good or service that has full or substantial fungibility: that is, the market treats instances of the good as equivalent or nearly so with no regard to who produced them. [...]
 >
