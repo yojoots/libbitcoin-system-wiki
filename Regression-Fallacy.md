@@ -4,7 +4,7 @@ The [Regression Theorem](https://wiki.mises.org/wiki/Regression_theorem) relies 
 >
 > Mises: [Human Action](https://mises.org/library/human-action-0/html)
 
-Notice that the theory does not merely attempt to explain the origin of the money *concept*, but of anything that can be a money. In other words, if a good does not follow this progression it is not money.
+Notice that the theory does not merely attempt to explain the origin of the money *concept*, but of anything that can be a money. In other words, if a good does not follow this progression, it is not money.
 
 The theorem contradicts the [subjective theory of value](https://en.m.wikipedia.org/wiki/Subjective_theory_of_value) upon which it relies. Value is subjective, which implies it can be based on anything, even if objectively that basis appears irrational.
 
