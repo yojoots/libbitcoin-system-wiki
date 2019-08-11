@@ -4,7 +4,7 @@ A [money](Money-Taxonomy) is [presumed](https://mises.org/library/man-economy-an
 
 * Monopoly money is not subject to competitive production, allowing its producer to obtain a [monopoly](https://mises.org/library/man-economy-and-state-power-and-market/html/pp/1054) premium in the pricing of new units. As such it increases the proportion of money to goods, resulting in price inflation.
 
-* Falling supply market money, such as late Bitcoin, creates no units. As such the proportion of money to goods decreases with economic growth, resulting in [price deflation](https://en.wikipedia.org/wiki/Deflation).
+* Fixed supply market money, such as late Bitcoin, creates no units. As such the proportion of money to goods decreases with economic growth, resulting in [price deflation](https://en.wikipedia.org/wiki/Deflation).
 
 With market money, fully-offsetting [consumption occurs during production](Depreciation-Principle). With monopoly money the production discount of [seigniorage](https://en.wikipedia.org/wiki/Seigniorage) manifests as a tax. As the new supply is introduced the tax is lower for earlier [trades](Glossary#trade), with [prices](Glossary#price) increasing over time.
 
