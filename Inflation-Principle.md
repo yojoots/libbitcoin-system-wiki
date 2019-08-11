@@ -6,7 +6,7 @@ A [money](Money-Taxonomy) is [presumed](https://mises.org/library/man-economy-an
 
 * Fixed supply market money, such as late Bitcoin, creates no units. As such the proportion of money to goods decreases with economic growth, resulting in [price deflation](https://en.wikipedia.org/wiki/Deflation).
 
-The presumption of proportionality refers to the goods "represented" by a money. If there was only one money, this would be a straightforward relation to all goods. However the relation must be addressed in the case of multiple monies. The goods represented by a money are those that it can be traded for. In other words, the relation implies demand for goods in the money.
+Proportionality refers to the goods "represented" by a money. If there was only one money, this would be a straightforward relation to all goods. However the relation must be addressed in the case of multiple monies. The goods represented by a money are those that it can be traded for. In other words, the relation implies demand for goods in the money.
 
 Yet demand does not remain constant in the case of a decision to mine. New demand for goods is created by the fact of mining. The miner must consume "representation" goods in producing the money. The new money is entirely offset by the demand increase represented by the consumed goods and the [opportunity cost](https://en.wikipedia.org/wiki/Opportunity_cost) (i.e. fewer new goods) of employing them in mining. Therefore proportionality is preserved in the case of multiple monies as well. **Economic growth is not price-inflationary in a free market**.
 
