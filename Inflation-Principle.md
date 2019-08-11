@@ -19,3 +19,15 @@ The generalization of this principle applies to all goods. In other words, [econ
 > Mises: [Human Action](https://mises.org/library/human-action-0/html/pp/778)
 
 This implies that all new money first affects existing “cash holdings”. Yet this is not the case with market money. The creation of it first reduces *goods* holdings, increasing demand for “vendible goods” proportionally. When the money is introduced, it increases the cash holdings of those who produced it, and subsequently others. But the preceding reduction of goods cannot be ignored in evaluation of the money relation. The statement conflates market money with monopoly money, as the latter does not consume its value in goods as a consequence of its production.
+
+This error persists despite explicit recognition that mining consumes in goods the value that it produces in new money.
+
+> The fact that the owners of gold mines rely upon steady yearly proceeds from their gold production does not cancel the newly mined gold's impression upon prices. The owners of the mines take from the market, in exchange for the gold produced, the goods and services required for their mining and the goods needed for their consumption and their investments in other lines of production. If they had not produced this amount of gold, prices would not have been affected by it.
+
+In fact the money relation is unchanged and as such no net effect on prices is implied. This error then infects dependent theories.
+
+> Prices also rise in the same way if [...] the demand for money falls because of a general tendency toward a diminution of cash holdings. The money expended additionally by such a "dishoarding" brings about a tendency toward higher prices in the same way as that flowing from the gold mines [...]. Conversely, prices drop when the supply of money falls [when] the demand for money increases (e.g., through a tendency toward "hoarding," the keeping of greater cash balances).
+
+This statement is based on the error of assuming that market money is inflationary. It is therefore unproven by it. Money prices for a good rise due to increasing demand for that good. Yet the money relation pertains to *all goods* demanded in the money. As such, absent a change in the amount of goods, the increase in money exchange demand for one good implies a reduction in that for others.
+
+As such no net change in the money relation is implied by [hoarding money](Hoarding-Fallacy). Increased hoarding implies higher [time preference](Time-Preference), which is the ratio of hoarded capital to loaned capital ([capital ratio](Savings-Relation)), reflected as the [interest](Glossary#interest) rate.
