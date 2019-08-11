@@ -18,7 +18,7 @@ The generalization of this principle applies to all goods. In other words, [econ
 >
 > Mises: [Human Action](https://mises.org/library/human-action-0/html/pp/778)
 
-This implies that all new money first affects existing “cash holdings”. Yet this is not the case with market money. The creation of it first reduces *goods* holdings, increasing demand for “vendible goods” proportionally. When the money is introduced, it increases the cash holdings of those who produced it, and subsequently others. But the preceding reduction of goods cannot be ignored in evaluation of the money relation. The statement conflates market money with monopoly money, as the latter does not consume its value in goods as a consequence of its production.
+This implies that all new money first affects existing “cash holdings”. Yet this is not the case with market money. The creation of it first reduces *goods* holdings, increasing demand for “vendible goods” proportionally. When the money is introduced, it increases the cash holdings of those who produced it, and subsequently others. But the preceding reduction of goods cannot be ignored in evaluation of the money relation. The statement conflates market money with monopoly money, as the latter does not consume its value in goods through production.
 
 This error persists despite explicit recognition that mining consumes in goods the value that it produces in new money.
 
