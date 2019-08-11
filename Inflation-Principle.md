@@ -6,7 +6,7 @@ A [money](Money-Taxonomy) is [presumed](https://mises.org/library/man-economy-an
 
 * Falling supply market money, such as late Bitcoin, consumes no goods in the destruction of existing units. As such it decreases the proportion of money to goods, resulting in [price deflation](https://en.wikipedia.org/wiki/Deflation).
 
-With market money, consumption of goods in production occurs during production. With monopoly money the production discount of [seigniorage](https://en.wikipedia.org/wiki/Seigniorage) manifests as an uneven tax. As the new supply is introduced the tax is lower for earlier [trades](Glossary#trade), with [prices](Glossary#price) increasing over time.
+With market money, fully-offsetting consumption occurs during production. With monopoly money the production discount of [seigniorage](https://en.wikipedia.org/wiki/Seigniorage) manifests as a tax. As the new supply is introduced the tax is lower for earlier [trades](Glossary#trade), with [prices](Glossary#price) increasing over time.
 
 The presumption of proportionality refers to the goods "represented" by a money. If there was only one money, this would be a straightforward relation to all goods. However the relation must be addressed in the case of multiple monies. The goods represented by a money are those that are traded for it. In other words, the relation implies demand for goods in the money.
 
@@ -18,7 +18,7 @@ The generalization of this principle applies to all goods. In other words, [econ
 >
 > Mises: [Human Action](https://mises.org/library/human-action-0/html/pp/778)
 
-This implies that all new money first affects existing “cash holdings”. Yet this is not the case with market money. The creation of it first reduces *goods* holdings, increasing demand for “vendible goods” proportionally. When the money is introduced, it increases the cash holdings of those who produced it, and subsequently others. But the preceding reduction of goods cannot be ignored in evaluation of the money relation. The statement conflates market money with monopoly money, as the latter does not consume its value in goods through production.
+This implies that all new money first affects existing "cash holdings". Yet this is not the case with market money. The creation of it first reduces *goods* holdings, increasing demand for "vendible goods" proportionally. When the money is introduced, it increases the cash holdings of those who produced it, and subsequently others. But the preceding reduction of goods cannot be ignored in evaluation of the money relation. The statement conflates market money with monopoly money, as the latter does not consume its value in goods through production.
 
 This error persists despite explicit recognition that mining consumes in goods the value that it produces in new money.
 
@@ -32,7 +32,7 @@ In other words, the increase in goods (economic growth) changes the money relati
 
 > Thus the price-raising tendency emanating from what is called the "normal" gold production encounters a price-cutting tendency emanating from the increased demand for cash holding. However, these two opposite tendencies do not neutralize each other. Both processes take their own course, both result in a disarrangement of existing social conditions, making some people richer, some people poorer. Both affect the prices of various goods at different dates and to a different degree. It is true that the rise in the prices of some commodities caused by one of these processes can finally be compensated by the fall caused by the other process. It may happen that at the end some or many prices come back to their previous height. But this final result is not the outcome of an absence of movements provoked by changes in the money relation. It is rather the outcome of the joint effect of the coincidence of two processes independent of each other.
 
-This is a refutation of the idea of money creation as a “stimulus” to growth, which is correct. Yet it incorrectly assumes money demand and money creation are independent processes. They are explicitly dependent as expressed in the money relation and the law of supply and demand upon which it relies. Stimulus is a reversal of cause and effect, properly refuted, yet it is an error to both accept the money relation and reject it.
+This is a refutation of the idea of money creation as a "[stimulus](https://en.wikipedia.org/wiki/Stimulus_(economics))" to growth, which is correct. Yet it incorrectly assumes money demand and money creation are independent processes. They are explicitly dependent as expressed in the money relation and the law of supply and demand upon which it relies. Stimulus is a reversal of cause and effect, properly refuted, yet it is an error to both accept the money relation and reject it.
 
 > Prices also rise in the same way if [...] the demand for money falls because of a general tendency toward a diminution of cash holdings. The money expended additionally by such a "dishoarding" brings about a tendency toward higher prices in the same way as that flowing from the gold mines [...]. Conversely, prices drop when the supply of money falls [when] the demand for money increases (e.g., through a tendency toward "hoarding," the keeping of greater cash balances).
 
