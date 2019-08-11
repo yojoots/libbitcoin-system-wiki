@@ -30,4 +30,4 @@ In fact the money relation is unchanged and as such no net effect on prices is i
 
 This statement is based on the error of assuming that market money is inflationary. It is therefore unproven by it. Money prices for a good rise due to increasing demand for that good. Yet the money relation pertains to *all goods* demanded in the money. As such, absent a change in the amount of goods, the increase in money exchange demand for one good implies a reduction in that for others.
 
-As such no net change in the money relation is implied by [hoarding money](Hoarding-Fallacy). Increased hoarding implies higher [time preference](Time-Preference), which is the ratio of hoarded capital to loaned capital ([capital ratio](Savings-Relation)), reflected as the [interest](Glossary#interest) rate.
+As such no net change in the money relation is implied by [hoarding money](Hoarding-Fallacy). Increased hoarding implies higher [time preference](Time-Preference), which is the ratio of hoarded capital to loaned capital ([capital ratio](Savings-Relation)), reflected as the [interest](Glossary#interest) rate. This is increased time value, not increased capital value.
