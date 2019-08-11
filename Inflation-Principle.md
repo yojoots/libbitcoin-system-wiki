@@ -16,7 +16,7 @@ Yet demand does not remain constant in the case of a decision to mine. New deman
 >
 > Mises: [Human Action](https://mises.org/library/human-action-0/html/pp/778)
 
-This statement asserts that new money first affects existing money holdings. Yet this is not the case with market money. Its creation coincidentally *reduces goods* holdings as it *increases money* holdings. The increased demand for money is concurrently and proportionately offset by its increased supply. This reduction of goods cannot be ignored in evaluation of the money relation. The statement conflates market money with monopoly money, as the latter does not consume its value in goods through production. Given that the goods are consumed in essentially the same location as money is produced, and at the same time, not even an uneven distribution of the money relation can be assumed.
+This statement asserts that new money first affects existing money holdings. Yet this is not the case with market money. Its creation coincidentally *reduces goods* holdings as it *increases money* holdings. The increased demand for money is concurrently and proportionately offset by its increased supply. This reduction of goods cannot be ignored in evaluation of the money relation. The statement conflates market money with monopoly money, as the latter does not consume its value in goods through production. The the extent that the goods are consumed in essentially the same location as money is produced, and at the same time, not even an uneven distribution of the money relation is implied.
 
 This error persists despite explicit recognition that mining consumes in goods the value that it produces in new money.
 
