@@ -1,6 +1,6 @@
 In a competitive (free) [market](Glossary#market), Bitcoin [mining](Glossary#mine) consumes in cost to the [miner](Glossary#miner) what it creates in [value](Glossary#value) to the miner, both in the issuance of new [units](Glossary#unit) and in the service of [confirmation](Glossary#confirmation). This is the case whether a mined [block](Glossary#block) reflects the miner’s full [reward](Glossary#reward) or otherwise.
 
-The amount of computation performed in mining is probabilistically reflected in the block [difficulty](Glossary#difficulty). This computation is referred to as [work](Glossary#work). A [valid](Glossary#valid) block [header](Glossary#header) is probabilistic [proof](Glossary#proof) that this work was performed. This is the basis of the term “proof of work”.
+The amount of computation performed in mining is probabilistically reflected in the block [difficulty](Glossary#difficulty). This computation is referred to as [work](Glossary#work). A [valid](Glossary#validity) block header is probabilistic [proof](Glossary#proof) that this work was performed. This is the basis of the term “proof of work”.
 
 The amount of energy consumed in block production is not provable, either specifically or probabilistically. Energy efficiency varies. A block header does not reflect “proof of energy” consumed. Such claims are approximations.
 
