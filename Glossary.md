@@ -69,7 +69,7 @@ A declaration of the time of [Block](#block) production.
 #### Median Time Past
 An average of preceding [Block](#block) [Timestamps](#timestamp).
 #### Proof
-Probabilistic evidence of the cost of [Work](#work) performed.
+Probabilistic evidence of the amount of [Work](#work) performed.
 #### Branch
 A [Valid](#validity) sequence of [Blocks](#block).
 #### Weak
