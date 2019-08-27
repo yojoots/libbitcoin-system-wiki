@@ -91,6 +91,7 @@
   * [Network Effect Fallacy](Network-Effect-Fallacy)
   * [Prisoner's Dilemma Fallacy](Prisoner's-Dilemma-Fallacy)
   * [Private Key Fallacy](Private-Key-Fallacy)
+  * [Proof of Cost Fallacy](Proof-of-Cost-Fallacy)
   * [Proof of Stake Fallacy](Proof-of-Stake-Fallacy)
   * [Proof of Work Fallacy](Proof-of-Work-Fallacy)
   * [Regression Fallacy](Regression-Fallacy)
