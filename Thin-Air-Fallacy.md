@@ -27,31 +27,23 @@ In this view of personal lending, Person hands over 81oz of gold to Borrower. Bo
 |Person     |     100oz|      19oz|      81oz|          |
 |Borrower   |          |      81oz|          |      81oz|
 
-Notice that Person has actually lent to his own enterprise (e.g. lending business) a fraction of his savings, which is accounted for below. Let us assume that Person hoards 10% of his savings for the liquidity required for near-term consumption and his Business hoards 10% for the same reason:
+Person has actually lent to his own enterprise (e.g. lending business) a fraction of his savings, which is accounted for below. Let us assume that Person hoards 10% of his savings for the liquidity required for near-term consumption and his Business hoards 10% for the same reason:
 
 |           |savings   |money     |credit    |debt      |
 |-----------|----------|----------|----------|----------|
 |Person     |     100oz|      10oz|      90oz|          |
-|Business   |      90oz|       9oz|      81oz|          |
+|Business   |          |       9oz|      81oz|      90oz|
 |Borrower   |          |      81oz|          |      81oz|
 
-Notice that Person's business is operating with 10% reserve, as 90% of his deposited money is at risk of default. Projecting this into the naive view of banking requires only renaming "Lender" to "Depositor" and "Business" to "Bank". There is no need to assume that these are distinct individuals:
+Person's business is operating with 10% reserve, as 90% of his deposited money is at risk of default. Projecting this into the naive view of banking requires only renaming "Lender" to "Depositor" and "Business" to "Bank". There is no need to assume that these are distinct individuals:
 
 |           |savings   |money     |credit    |debt      |
 |-----------|----------|----------|----------|----------|
 |Depositor  |     100oz|      10oz|      90oz|          |
-|Bank       |      90oz|       9oz|      81oz|          |
+|Bank       |          |       9oz|      81oz|      90oz|
 |Borrower   |          |      81oz|          |      81oz|
 
-Then let us assume Borrower deposits his borrowed money with Bank. It is worth considering that this deposit could be at any bank with no change in behavior.
-
-|           |savings   |money     |credit    |debt      |
-|-----------|----------|----------|----------|----------|
-|Depositor  |     100oz|      10oz|      90oz|          |
-|Bank       |      90oz|      90oz|          |          |
-|Borrower   |          |          |      81oz|      81oz|
-
-Notice that by properly accounting for the Person having money at risk (i.e. a depositor) we can see that all lending is fractionally reserved. There are two loans in this scenario, both reserved at 10%, resulting in monetary substitutes of 171% of money. Given the assumption of uniform [time preference](Time-Preference-Fallacy), Borrower will lend 90% of his savings, as will all subsequent borrowers. Assuming a minimum practical loan of 1oz, after 43 loans credit expansion terminates at 8.903 times the amount of money.
+By properly accounting for Person having money at risk (i.e. a depositor) we can see that all lending is fractionally reserved. There are two loans in this scenario reserved at 10%, resulting in monetary substitutes (credit) of 171% of money. Given the assumption of uniform [time preference](Time-Preference-Fallacy), Borrower will lend 90% of his savings, as will all subsequent borrowers. Assuming a minimum practical loan of 1oz, after 43 loans credit expansion terminates at 8.903 times the amount of money.
 
 Where `r` is the uniform level of individual reserve and `m` is the amount of money, the total amount of credit `c` for any number of loans `n` is given by the following [partial sum](https://www.wolframalpha.com/input/?i=sum+of+m+*+(1-r)%5En+as+n+goes+from+1+to+infinity):
 ```
@@ -118,23 +110,15 @@ Notice that, at full expansion, for any person to spend from his hoard while mai
 
 No further expansion is possible without an increase in the amount of money or an overall reduction in time preference. An increase in money increases the absolute amount of credit and a reduction in time preference increases the proportion of credit to money. Given that money and credit evolve together, there is never any actual increase in money substitutes apart from these changes.
 
-In the practical view, we work with the same assumptions, however we apply the practical view of bank accounting to expose any distinction. In the simple model, Bank has received 100oz from Depositor and hands over 81oz to Borrower. This is identical to the naive view:
-
-|           |savings   |money     |credit    |debt      |
-|-----------|----------|----------|----------|----------|
-|Depositor  |     100oz|      10oz|      90oz|          |
-|Bank       |      90oz|       9oz|      81oz|          |
-|Borrower   |          |      81oz|          |      81oz|
-
-However, in the typical practice of bank accounting, Bank does not hand over the money. Instead it creates account entries in a process referred to as "credit creation". It creates offsetting [ledger](https://en.wikipedia.org/wiki/Ledger) entries for Depositor's proceeds and loan ("credit" and "debt"), and offsetting [balance sheet](https://en.wikipedia.org/wiki/Balance_sheet) entries for itself ("asset" and "liability"). At the time of loan issuance, the accounts are as follows:
+In the typical practice of bank accounting, Bank does not hand over the money. Instead it creates account entries in a process referred to as "credit creation". It creates offsetting [ledger](https://en.wikipedia.org/wiki/Ledger) entries for Depositor's proceeds and loan ("credit" and "debt"), and offsetting [balance sheet](https://en.wikipedia.org/wiki/Balance_sheet) entries for itself ("asset" and "liability"). At the time of loan issuance, the accounts are as follows:
 
 |           |savings   |money     |credit    |debt      |asset     |liability |
 |-----------|----------|----------|----------|----------|----------|----------|
-|Depositor  |     100oz|      10oz|      90oz|          |          |          |
-|Bank       |      90oz|      90oz|          |          |      81oz|      81oz|
-|Borrower   |          |          |      81oz|      81oz|          |          |
+|Depositor  |     100oz|      10oz|      90oz|          |     100oz|          |
+|Bank       |          |      90oz|      81oz|     171oz|     171oz|     171oz|
+|Borrower   |          |          |      81oz|      81oz|      81oz|      81oz|
 
-This is where [explanations of the theory](https://www.sciencedirect.com/science/article/pii/S1057521915001477) tend to terminate. The offsetting accounts of both Bank and Borrower balance, but Borrower has 81oz of gold to spend, and Bank has not had to turn over any gold to Borrower. There is still only 100oz of money, but Borrower has 81oz of money substitute and Bank has an 81oz asset. The theory proclaims that Bank has thus created not only credit, but also *money*. Notice that everything still balances, and all accounts can be settled, seemingly validating the theory as espoused by Lord Turner:
+This is where [explanations of the theory](https://www.sciencedirect.com/science/article/pii/S1057521915001477) tend to terminate. The offsetting accounts of both Bank and Borrower balance, but Borrower has 81oz of gold to spend, and Bank has not had to turn over any gold to Borrower. There is still only 100oz of money, but Borrower has 81oz of money substitute and Bank has 81oz more in assets. The theory proclaims that Bank has thus created not only credit, but also *money*. Notice that everything still balances, and all accounts can be settled, seemingly validating the theory as espoused by Lord Turner:
 
 > “...they create credit and money ex nihilo – extending a loan to the borrower and simultaneously crediting the borrower’s money account."
 
@@ -142,19 +126,11 @@ This however demonstrates no actual spending of either the loan credit or the ba
 
 |           |savings   |money     |credit    |debt      |asset     |liability |
 |-----------|----------|----------|----------|----------|----------|----------|
-|Depositor  |     100oz|      10oz|      90oz|          |          |          |
-|Bank       |      90oz|       9oz|          |          |          |          |
-|Borrower   |          |      81oz|          |      81oz|          |          |
+|Depositor  |     100oz|      10oz|      90oz|          |     100oz|          |
+|Bank       |          |       9oz|      81oz|      90oz|      90oz|      90oz|
+|Borrower   |          |      81oz|          |      81oz|      81oz|      81oz|
 
-Then let us assume Borrower deposits his borrowed money with Bank.
-
-|           |savings   |money     |credit    |debt      |
-|-----------|----------|----------|----------|----------|
-|Depositor  |     100oz|      10oz|      90oz|          |
-|Bank       |      90oz|      90oz|          |          |
-|Borrower   |          |          |      81oz|      81oz|
-
-Notice that the this is identical to the final outcome of the naive view. **There is no distinction between these supposedly-competing views on money creation**, invaliding the theory. This resolves the [centuries-old debate](https://en.wikipedia.org/wiki/Credit_theory_of_money#Scholarship), apparently begun between [Plato](https://en.wikipedia.org/wiki/Plato) and [Aristotle](https://en.wikipedia.org/wiki/Aristotle), regarding whether money is based on mining or credit. The theories are identical, as money and credit are a [duality](https://en.wiktionary.org/wiki/duality).
+Notice that the this is identical to the outcome of the naive view. **There is no distinction between these supposedly-competing views on money creation**, invaliding the theory. This resolves the [centuries-old debate](https://en.wikipedia.org/wiki/Credit_theory_of_money#Scholarship), apparently begun between [Plato](https://en.wikipedia.org/wiki/Plato) and [Aristotle](https://en.wikipedia.org/wiki/Aristotle), regarding whether money is based on mining or credit. The theories are identical, as money and credit are a [duality](https://en.wiktionary.org/wiki/duality).
 
 > According to Joseph Schumpeter, the first known advocate of a credit theory of money was Plato. Schumpeter describes metallism as the other of "two fundamental theories of money", saying the first known advocate of metallism was Aristotle.
 
@@ -166,27 +142,24 @@ So let us revisit the scenario where Bank creates credit at negative reserve (i.
 
 |           |savings   |money     |credit    |debt      |asset     |liability |
 |-----------|----------|----------|----------|----------|----------|----------|
-|Depositor  |          |          |          |          |          |          |
-|Bank       |          |          |          |          |    1000oz|    1000oz|
-|Borrower   |          |          |    1000oz|    1000oz|          |          |
+|Bank       |          |          |    1000oz|    1000oz|    1000oz|    1000oz|
+|Borrower   |          |          |    1000oz|    1000oz|    1000oz|    1000oz|
 
 When Borrower trades 1oz (from his credit account) for a car, his credit account is decreased by 1oz and Merchant's is increased by 1oz. Note that Borrower now owes Bank 1oz, as anticipated by the loan agreement.
 
 |           |savings   |money     |credit    |debt      |asset     |liability |
 |-----------|----------|----------|----------|----------|----------|----------|
-|Depositor  |          |          |          |          |          |          |
-|Bank       |          |          |          |          |    1000oz|    1000oz|
-|Borrower   |      -1oz|          |     999oz|    1000oz|          |          |
-|Merchant   |       1oz|          |       1oz|          |          |          |
+|Bank       |          |          |    1000oz|    1000oz|    1000oz|    1000oz|
+|Borrower   |      -1oz|          |     999oz|    1000oz|     999oz|    1000oz|
+|Merchant   |       1oz|          |       1oz|          |       1oz|          |
 
 All looks good until Merchant attempts to withdraw from his account. At that point Bank has defaulted and Merchant is unpaid. If Merchant's account is with another bank, the payment fails as soon as the two banks attempt to settle accounts. With a hypothetical negative reserve, the accounts balance as follows, indicating Bank's [demise](https://en.wikipedia.org/wiki/Bank_failure) (negative money): 
 
 |           |savings   |money     |credit    |debt      |asset     |liability |
 |-----------|----------|----------|----------|----------|----------|----------|
-|Depositor  |          |          |          |          |          |          |
-|Bank       |      -1oz|      -1oz|          |          |    1000oz|    1000oz|
-|Borrower   |      -1oz|          |     999oz|    1000oz|          |          |
-|Merchant   |       1oz|       1oz|          |          |          |          |
+|Bank       |      -1oz|      -1oz|    1000oz|     999oz|     999oz|     999oz|
+|Borrower   |          |          |     999oz|    1000oz|     999oz|    1000oz|
+|Merchant   |       1oz|       1oz|          |          |       1oz|          |
 
 The money must actually be [moved](https://www.brinks.com/en/public/brinks/logistics) from the control of Bank to Merchant or Merchant's bank, which is not possible. A simpler example is the failure of any attempt by Borrower to [withdraw](https://en.wikipedia.org/wiki/Automated_teller_machine) from his account. Bank may create as much money substitute as it wants, but negative reserve is just an [empty promise](https://en.wiktionary.org/wiki/empty_promise). In this example Bank has created 1000oz of promises that it cannot keep.
 
