@@ -17,7 +17,7 @@ If `q` were known, it could be factored out of `H`:
 
 In this case, multiple possible values of `r` and `a` can be determined for a given commitment `C`. Therefore, `r` and `a` can be changed after the commitment has been made, rendering the commitment non-binding.
 
-The follow example demonstrates generating a Pedersen commitment in EC form in Libbitcoin. The full ready-to-compile code examples from this chapter can be found [here](https://github.com/libbitcoin/libbitcoin/wiki/Examples-from-Pedersen-Commitments).
+The following example demonstrates generating a Pedersen commitment in EC form in Libbitcoin. The full ready-to-compile code examples from this chapter can be found [here](https://github.com/libbitcoin/libbitcoin/wiki/Examples-from-Pedersen-Commitments).
 
 ```c++
 // Example value for point h:
