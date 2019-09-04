@@ -1,4 +1,4 @@
-The [Fisher Equation](https://en.wikipedia.org/wiki/Fisher_equation) must be used for combining a rate of growth in a [money](Money-Taxonomy) that is itself subject to [inflation](https://en.wikipedia.org/wiki/Monetary_inflation), as [depreciation](Depreciation-Principle) occurs in the future money. This adjusts the nominal interest rate to obtain the real interest rate. Presentation is simplified by using ratios in place of rates.
+The [Fisher Equation](https://en.wikipedia.org/wiki/Fisher_equation) must be used for combining a rate of growth in a [money](Money-Taxonomy) that is itself subject to [inflation](https://en.wikipedia.org/wiki/Monetary_inflation), as depreciation occurs in the future money. This adjusts the nominal interest rate to obtain the real interest rate. Presentation is simplified by using ratios in place of rates. As shown in [Depreciation Principle](Depreciation-Principle), the commodity money growth ratio is 0%.
 
 Monopoly [money](Money-Taxonomy) also exhibits depreciation due to [seigniorage](https://en.wikipedia.org/wiki/Seigniorage).
 ```
