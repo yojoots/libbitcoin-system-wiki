@@ -106,6 +106,7 @@
   * [Stock to Flow Fallacy](Stock-to-Flow-Fallacy)
   * [Thin Air Fallacy](Thin-Air-Fallacy)
   * [Time Preference Fallacy](Time-Preference-Fallacy)
+  * [Unlendable Money Fallacy](Unlendable-Money-Fallacy)
   * [Fedcoin Objectives](Fedcoin-Objectives)
   * [Hearn Error](Hearn-Error)
   * [Collectible Tautology](Collectible-Tautology)
