@@ -22,7 +22,7 @@ growth-ratio / interest-ratio = depreciation-ratio
 growth-ratio / interest-ratio > 100%
 growth-ratio < interest-ratio
 ```
-Economic contraction (decreasing wealth) implies increasing demand for products, as implied by the [theory of marginal utility](https://en.wikipedia.org/wiki/Marginal_utility). As capital is required for production, this implies an increasing rate of [interest](Glossary#interest) until positive growth is restored. As such contraction is a self-correcting condition.
+Economic contraction (decreasing wealth) implies an increasing rate of [interest](Glossary#interest), as implied by the [theory of marginal utility](https://en.wikipedia.org/wiki/Marginal_utility), until positive growth is restored. As such contraction is a self-correcting condition.
 ```
 depreciation-ratio > interest-ratio > 100%
 growth-ratio / interest-ratio = depreciation-ratio
