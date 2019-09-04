@@ -56,4 +56,4 @@ All *actual* money value also depreciates due to [demurrage](https://en.wikipedi
 commodity-money-growth-rate = pure-money-growth-rate - demurrage-rate.
 -1% = 0% - 1%
 ```
-Growth rates of inflationary and deflationary money are shown in [Unlendable Money Fallacy](Unlendable-Money-Fallacy).
+Growth rates of [inflationary](https://en.wikipedia.org/wiki/Monetary_inflation) and deflationary money are shown in [Unlendable Money Fallacy](Unlendable-Money-Fallacy).
