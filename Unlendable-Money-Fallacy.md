@@ -31,4 +31,4 @@ growth-ratio < interest-ratio
 ```
 Notice that in both cases of economic growth and contraction, interest must exceed growth, as [lending](Glossary#loan) is the only source of growth. Given that growth is the sole basis of deflation in a deflationary money, hoarding the money represents monetary depreciation (consumption).
 
-There is a theory that it is irrational to lend a deflationary money. **As has been shown, it is rational to lend any money, including one that is deflationary, invalidating the theory.** Any contrary behavior implies a purely [speculative condition](Speculative-Consumption), not supported by the fact of fixed supply.
+There is a theory that it is economically irrational to lend a deflationary money. **As has been shown, it is rational to lend any money, including one that is deflationary, invalidating the theory.** Any contrary behavior implies a purely [speculative condition](Speculative-Consumption), not supported by the fact of fixed supply.
