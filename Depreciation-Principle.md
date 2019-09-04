@@ -49,10 +49,10 @@ This is consistent with estimates of capital depreciation. While buildings and m
 To the extent money exhibits [use value](https://en.wikipedia.org/wiki/Use_value), it depreciates as any [good](https://en.wikipedia.org/wiki/Goods). Fiat money, such as Bitcoin or the U.S. Dollar, is presumed to have no use value. A *pure* money exhibits no growth due to the [opportunity cost](https://en.wikipedia.org/wiki/Opportunity_cost) of interest foregone. In other words, interest is the capture of time value and money depreciation includes the failure to capture that value.
 ```
 pure-money-growth-rate = interest-rate - interest-rate.
-0% = 109% - 109%
+0% = 9% - 9%
 ```
 All *actual* money value also depreciates due to [demurrage](https://en.wikipedia.org/wiki/Demurrage_(currency)).
 ```
 commodity-money-growth-rate = pure-money-growth-rate - demurrage-rate.
--1% = 100% - 101%
+-1% = 0% - 1%
 ```
