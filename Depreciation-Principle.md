@@ -38,7 +38,7 @@ The depreciation rate can be derived from observed interest and capital growth r
 In this case an interest rate of 10.2% is offset by 7.6% depreciation to obtain 2.6% growth.
 ```
 depreciation-rate = interest-rate - growth-rate 
-depreciation-rate = 110.2% - 102.6% = 7.6%
+depreciation-rate = 10.2% - 2.6% = 7.6%
 ```
 This is consistent with estimates of capital depreciation. While buildings and machinery have low rates of depreciation, vehicles, office equipment and food stocks (for example) have much higher.
 
