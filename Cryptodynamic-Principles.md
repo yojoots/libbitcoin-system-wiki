@@ -24,6 +24,6 @@ Security force is entirely human in nature. [People](Glossary#person) must act t
 
 These forces depend upon each other in order. Without risk sharing energy cannot be sunk into the system to balance the [power](Glossary#power) of a [censor](Glossary#censorship). With these three forces intact Bitcoin can be secure. Without any one of them a technology is not Bitcoin.
 
-It [cannot be assumed](Axiom-of-Resistance) that, given the incorporation of these forces, a Bitcoin implantation is securable. Furthermore one may be more so than another. **It is only the case that given the incorporation of these forces a technology is a Bitcoin and that without them it is not.**
+It [cannot be assumed](Axiom-of-Resistance) that, given the incorporation of these forces, a Bitcoin implementation is securable. Furthermore one may be more so than another. **It is only the case that given the incorporation of these forces a technology is a Bitcoin and that without them it is not.**
 
 The possibility of security afforded by these forces can be referred to as “cryptodynamic security”. So, for example, a “permissioned blockchain” violates the risk sharing principle, a strictly proof-of-stake (PoS) technology violates the energy sinking principle, and a money entirely reliant on [subsidy](Glossary#subsidy) for [confirmation](Glossary#confirmation) compensation violates the power balancing principle. None of these are cryptodynamically secure.
