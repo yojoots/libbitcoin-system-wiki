@@ -1,4 +1,4 @@
-There is a theory that a combination of [proof](Glossary#proof) of [work](Glossary#work) (PoW) and proof of stake (PoS) [mining] offers a higher level of system security than PoW. The theory implies that a majority of [coin](Glossary#coin) [owners](Glossary#owner) can mitigate “misbehavior” by PoW miners.
+There is a theory that a combination of [proof](Glossary#proof) of [work](Glossary#work) (PoW) and proof of stake (PoS) [mining](Glossary#mining) offers a higher level of system security than PoW. The theory implies that a majority of [coin](Glossary#coin) [owners](Glossary#owner) can mitigate “misbehavior” by PoW miners.
 
 In the absence of a [majority hash power](Glossary#majority-hash-power) [miner](Glossary#miner), there is nothing to mitigate. Therefore the theory is premised on increasing the cost of a [censorship](Glossary#censorship) regime. This rests on the unsupportable assumption that PoW miners are not also PoS miners.
 
