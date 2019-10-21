@@ -82,6 +82,7 @@
   * [Full Reserve Fallacy](Full-Reserve-Fallacy)
   * [Halving Fallacy](Halving-Fallacy)
   * [Hoarding Fallacy](Hoarding-Fallacy)
+  * [Hybrid Mining Fallacy](Hybrid-Mining-Fallacy)
   * [Ideal Money Fallacy](Ideal-Money-Fallacy)
   * [Impotent Mining Fallacy](Impotent-Mining-Fallacy)
   * [Inflation Fallacy](Inflation-Fallacy)
