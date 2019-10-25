@@ -2,7 +2,7 @@
 
 ### About Libbitcoin
 
-The libbitcoin toolkit is a set of cross platform C++ libraries for building bitcoin applications. The toolkit consists of several libraries, most of which depend on the foundational [libbitcoin](https://github.com/libbitcoin/libbitcoin) library. 
+The libbitcoin toolkit is a set of cross platform C++ libraries for building bitcoin applications. The toolkit consists of several libraries, most of which depend on the foundational [libbitcoin-system](https://github.com/libbitcoin/libbitcoin-system) library. 
 
 ![Dependencies](https://raw.githubusercontent.com/libbitcoin/libbitcoin-build/master/img/dependencies.png)
 
