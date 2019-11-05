@@ -12,7 +12,7 @@ This subtle error implies that both labor and leisure are economic goods. Yet [o
 >
 > This analysis of the laws of labor effort has been deduced from the implications of the action axiom and the assumption of leisure as a consumers' good.
 
-It is neither correct nor necessary to assume leisure is a good, and by doing so imply that labor is an anti-good. It is similarly not necessary to construct the artifice of negative utility ("disutility"). Value is simply a preference for higher utility over lower utility. Both labor and leisure exhibit positive utility.
+It is neither correct nor necessary to assume leisure is a good, and by doing so imply that labor is an anti-good. It is similarly not necessary to construct the artifice of negative utility ("disutility"). Value is simply a preference for higher utility over lower utility. Both labor and leisure produce goods of (positive) utility.
 
 It is [time preference](Time-Preference-Fallacy) that implies leisure utility is greater than labor utility. By properly accounting for a person's body as property, "leisure preference" follows directly from time preference. As the above quote implies, this is the result of a [trade](Glossary#trade) of time without one's body (labor time) for the amount of [interest](Glossary#interest) that offsets the value one attributes to time with his body (leisure time).
 
