@@ -1,4 +1,4 @@
-Labor and leisure are complementary [human actions](https://en.wikipedia.org/wiki/Action_axiom) that pertain [production and consumption](Production-and-Consumption) of [economic goods](https://en.m.wikipedia.org/wiki/Goods_and_services). Labor is the process of consumption to produce an economic good (production). Leisure is the process of consumption that does not produce an economic good. Consumption without [utility](Glossary#utility) is the process of [waste](https://en.wikipedia.org/wiki/Waste).
+Labor and leisure are complementary [human actions](https://en.wikipedia.org/wiki/Action_axiom) that pertain to [production and consumption](Production-and-Consumption) of [economic goods](https://en.m.wikipedia.org/wiki/Goods_and_services). Labor is the process of consumption to produce an economic good (production). Leisure is the process of consumption that does not produce an economic good. Consumption without [utility](Glossary#utility) is the process of [waste](https://en.wikipedia.org/wiki/Waste).
 
 > labor always involves the forgoing of leisure, a desirable good
 >
