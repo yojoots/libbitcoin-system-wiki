@@ -4,7 +4,7 @@
 >
 > Rothbard: [Man Economy and State](https://mises.org/library/man-economy-and-state-power-and-market/html/p/989)
 
-A hoard ([consumption](Speculative-Consumption)) is the opportunity to [invest](Glossary#lend), and an investment is the opportunity to consume. One is [traded for the other](https://mises.org/library/man-economy-and-state-power-and-market/html/p/990) until no further increase in [utility](Glossary#utility) is obtained from doing so. Accepting [market](Glossary#market) rates until [time preference is satisfied](https://mises.org/library/man-economy-and-state-power-and-market/html/p/990) is the same as accepting *any* positive market rate for the fraction of money not reserved by time preference.
+A hoard ([consumption](Speculative-Consumption)) is the opportunity to [invest](Glossary#lend), and an investment is the opportunity to consume. One is [traded for the other](https://mises.org/library/man-economy-and-state-power-and-market/html/p/990) until no further increase in [utility](Glossary#utility) is obtained from doing so.
 
 By investing, one values the amount of future [interest](Glossary#interest) more than the present amount not invested. By not investing, one values the present amount not invested more than the future interest. If this was not the case there would be a lower or higher level of investment respectively. The fact of the [trade](Glossary#trade) makes this time preference objective. The interest rate is used to relate the present hoard to the future interest.
 ```
