@@ -1,5 +1,7 @@
 See the “Cryptoeconomics” side menu for a full list of topics.
 
+***
+
 This started as a way to avoid retyping the same ideas, [140 characters](https://en.m.wikipedia.org/wiki/Twitter) at a time. In keeping with that environment, topics were as short as possible, and informal. I did not intend to write a book, and still could not.
 
 Most of the topics (including this one) were written on my phone, on a flight, train or in a coffee shop. Many are quick observations that arise from intimate knowledge of core Bitcoin code or long self-study and experience in various disciplines.
