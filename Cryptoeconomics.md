@@ -12,8 +12,6 @@ I have used the terms [Catallactics](https://en.wikipedia.org/wiki/Catallactics)
 
 It was [Mises](https://en.wikipedia.org/wiki/Ludwig_von_Mises) who explicitly established a system of economics on a rational basis, yet the does not encompass the entire Austrian School (which predates Mises). [Rothbard](https://en.wikipedia.org/wiki/Murray_Rothbard) adds rigor and clarity to Mises, deriving some important new conclusions. Yet Mises (as most humans) makes material errors, which are unfortunately carried forth by Rothbard.
 
-In each case where Mises errs he is critiquing state fiat money. In other words, he appears to sacrifice his objectivity to his passion. Yet his rational system, properly applied, easily exposes the errors. The man is fallible, but his central contribution cannot be.
-
-State money deserves critique, and Bitcoiners rarely miss an opportunity. Yet it deserves *accurate* critique. Anything less is counterproductive. With correct analysis, specific relevant forces can be identified, both in monopoly fiat (e.g. dollars) and in market fiat (e.g. bitcoin).
+In each case where Mises errs he is critiquing state fiat money. In other words, he appears to sacrifice his objectivity to his passion. Yet his rational system, properly applied, easily exposes the errors. State money deserves critique, and Bitcoiners rarely miss an opportunity. Yet it deserves *accurate* critique; anything less is counterproductive. With correct analysis, specific relevant forces can be identified, both in monopoly fiat (e.g. dollars) and in market fiat (e.g. bitcoin).
 
 The topics form a graph, over which no total ordering seems appropriate. The table of contents is a poorly-imposed order. While some attempt at progression has been made, I recommend reading the topics as they were written, as a curiosity.
