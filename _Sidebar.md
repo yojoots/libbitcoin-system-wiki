@@ -25,7 +25,7 @@
   * [Fork Rules](Fork-Rules)
 * **[Tutorials (aaronjaramillo)](http://aaronjaramillo.org/category/libbitcoindocs)**
 * **[Cryptoeconomics](Cryptoeconomics)**
-  * [Foreward by Amir Taaki](Foreward-by-Amir-Taaki)
+  * [Foreword by Amir Taaki](Foreword-by-Amir-Taaki)
   * [Value Proposition](Value-Proposition)
   * [Axiom of Resistance](Axiom-of-Resistance)
   * [Money Taxonomy](Money-Taxonomy)
