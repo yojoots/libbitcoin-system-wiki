@@ -4,7 +4,7 @@
 * **[Freenode (IRC)](https://webchat.freenode.net?channels=#libbitcoin)**
 * **[Mailing List](https://mailinglists.dyne.org/cgi-bin/mailman/listinfo/libbitcoin)**
 * **[Slack Channel](https://libbitcoin.slack.com/messages)**
-  * [Join our Slack](https://bit.ly/2r3KVSm)
+  * [Join our Slack](https://join.slack.com/t/libbitcoin/shared_invite/enQtNDgxMjQxODg0NTM1LTFhYzNhYjYxYTg1OTc0NGQ0OWQxY2ZiYWI5ODc1ZmFjZjEyNGZkNWQwM2JiMzk0YjhkMDc0MjkxOTgwMzQ0ZDM)
 * **[Build Libbitcoin](Build)**
 * **[Comprehensive Overview](https://en.bitcoin.it/wiki/Libbitcoin)**
 * **[Developer Documentation](Developer-Documentation)**
