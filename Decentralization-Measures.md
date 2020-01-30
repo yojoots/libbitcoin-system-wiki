@@ -1,1 +1,0 @@
-Coming Soon: measures of mining and economic decentralization can be formulated but cannot translate to proportional levels of security.

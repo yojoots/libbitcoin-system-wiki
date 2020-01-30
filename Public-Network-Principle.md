@@ -1,1 +1,0 @@
-Coming Soon: Bitcoin communication must be open to the anonymous public in order for the overall system to be secure.
