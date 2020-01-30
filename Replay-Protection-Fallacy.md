@@ -4,7 +4,7 @@ Even without protection it is possible for an [owner](Glossary#owner) to [spend]
 
 The replay of a spend onto another chain is non-[dilutive](https://en.m.wikipedia.org/wiki/Stock_dilution). The common [output](Glossary#output) can be spent on either chain with or without replay. **The only distinction provided by protection is that spends can always be *distinct* on each chain with no extra cost to the spender.** The [supply](Glossary#supply) in each chain remains unaffected by protection.
 
-It is a curious misperception that one chain can somehow absorb the transactions of another in a split. All outputs of the common [segment](Glossary#segment) remain spendable on both chains. Relay protection only reduces the cost of spending them on the protected chain.
+It is a curious misperception that one chain can somehow absorb the transactions of another in a split. All outputs of the common [segment](Glossary#segment) remain spendable on both chains. Replay protection only reduces the cost of spending them on the protected chain.
 
 One might assume that the lack of protection makes an owner less likely to spend on the unprotected chain, thereby limiting supply and increasing [exchange](Glossary#exchange) [price](Glossary#price). However this assumes demand is unaffected by what amounts to an increase in [trading](Glossary#trade) cost. If the owner is not trading because of an increased cost in doing so, then the utility of the coin is not increased but decreased.
 
