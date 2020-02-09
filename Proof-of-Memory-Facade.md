@@ -1,0 +1,1 @@
+This topic has been renamed to [Proof of Memory Fallacy](Proof-of-Memory-Fallacy).
