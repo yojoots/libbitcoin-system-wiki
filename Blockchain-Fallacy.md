@@ -1,0 +1,1 @@
+This topic has been renamed to [Proof of Ownership Fallacy](Proof-of-Ownership-Fallacy).
