@@ -18,4 +18,4 @@ The theorem is actually based on the empirical observation of monetary evolution
 
 One of many problems with empirical economics is that new observations can invalidate previous conclusions. Bitcoin has done so to this theorem. It can clearly be observed that Satoshi [intended to create a money](https://bitcoin.org/bitcoin.pdf), for its first use as money.
 
-The idea is a reasonable empirical theory on the evolution of the concept of money, but invalid as a rational theorem to distinguish money from non-money. Money is a good distinguished by certain behaviors expressed by people. Concluding that something is a money consists of observing those behaviors, a strictly empirical method.
+The idea is a reasonable empirical theory on the evolution of the concept of money, but invalid as a rational theorem to distinguish money from non-money. Money is distinguished by certain behaviors expressed by people. Concluding that something is a money consists of observing those behaviors, a strictly empirical method.
