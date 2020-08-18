@@ -1,6 +1,6 @@
 ### Libbitcoin Menu
 * **[Home](Home)**
-* **[libbitcoin.org](https://libbitcoin.org)**
+* **[libbitcoininstitute.org](https://libbitcoininstitute.org/)**
 * **[Freenode (IRC)](https://webchat.freenode.net?channels=#libbitcoin)**
 * **[Mailing List](https://mailinglists.dyne.org/cgi-bin/mailman/listinfo/libbitcoin)**
 * **[Slack Channel](https://libbitcoin.slack.com/messages)**
