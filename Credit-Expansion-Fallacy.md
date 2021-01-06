@@ -16,7 +16,7 @@ The total amount of [U.S. Dollars in circulation](https://en.wikipedia.org/wiki/
 |Intangible           |  $1,535,857,000,000|
 |**Total Money (M0)** |  $3,274,841,000,000|
 
-M0 plus all bank account money is referred to as "M3". This is no longer published by the Fed, but is [estimated](https://fred.stlouisfed.org/series/MABMM301USM189S) at $17,682,335,000,000. The total amount of credit extended in U.S. Dollars can be estimated from the sum of Dollar-denominated [money accounts](https://en.wikipedia.org/wiki/Bank_account), [bonds](https://www.forbes.com/sites/kevinmcpartland/2018/10/11/understanding-us-bond-market/#7c8fe6541caf), [public equities](https://data.worldbank.org/indicator/cm.mkt.lcap.cd) and [private equities](https://www.quora.com/What-is-the-estimated-total-value-of-all-US-private-companies).
+M0 plus all bank account money is referred to as "M3". This is no longer published by the Fed, but is [estimated](https://fred.stlouisfed.org/series/MABMM301USM189S) at $17,682,335,000,000. The total amount of credit extended in U.S. Dollars can be estimated from the sum of Dollar-denominated [money accounts](https://en.wikipedia.org/wiki/Bank_account), [bonds](https://www.forbes.com/sites/kevinmcpartland/2018/10/11/understanding-us-bond-market), [public equities](https://data.worldbank.org/indicator/cm.mkt.lcap.cd) and [private equities](https://www.quora.com/What-is-the-estimated-total-value-of-all-US-private-companies).
 
 |Dollar Credit    |Amount (2019)       |
 |-----------------|--------------------|
