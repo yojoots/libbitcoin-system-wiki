@@ -29,7 +29,7 @@ depreciation = interest-rate * reserved
 interest     = interest-rate * loaned
 return       = expense-ratio * interest
 ```
-For the pure bank, the [reserve ratio](https://en.wikipedia.org/wiki/Reserve_requirement) fully determines [capital ratio](https://en.wikipedia.org/wiki/Capital_requirement), [debt ratio](https://en.wikipedia.org/wiki/Debt_ratio), [savings ratio](https://en.wikipedia.org/wiki/Golden_Rule_savings_rate), [balance sheet](https://en.m.wikipedia.org/wiki/Balance_sheet) and [rate of return](https://en.wikipedia.org/wiki/Rate_of_return).
+For the pure bank, the [reserve ratio](https://en.wikipedia.org/wiki/Reserve_requirement) fully determines [capital ratio](https://en.wikipedia.org/wiki/Capital_requirement), [debt ratio](https://en.wikipedia.org/wiki/Debt_ratio), and [savings ratio](https://en.wikipedia.org/wiki/Golden_Rule_savings_rate)
 #### Reserve Ratio
 ```
 reserve-ratio = reserved / borrowed
